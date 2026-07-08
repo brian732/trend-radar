@@ -62,7 +62,7 @@ LLM_MAX_TOKENS = 8000
 # early=true trends, or brand-new-on-X trends with real velocity. Saturated
 # mainstream trends stay on the dashboard and are NOT posted.
 # Other modes: "all" (every kept trend), "top" (top N by score).
-SLACK_INCLUDE_MODE = "niche"
+SLACK_INCLUDE_MODE = "all"
 SLACK_MAX_TRENDS_PER_POST = 10
 SLACK_REPOST_SCORE_JUMP = 15   # re-post an already-posted trend only if its
                                # score climbed by at least this much
