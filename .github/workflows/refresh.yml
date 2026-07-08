@@ -1,0 +1,60 @@
+name: Trend Radar refresh
+
+on:
+  schedule:
+    # 4x/day tuned to the US sports news cycle (UTC):
+    # 13:00 ≈ 9am ET morning shows · 17:00 ≈ 1pm ET · 22:00 ≈ 6pm ET pregame
+    # 03:00 ≈ 11pm ET postgame/meme window. (Shifts 1h when US DST ends.)
+    - cron: '0 3,13,17,22 * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/**'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: trend-radar-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Write site config (first run only)
+        run: |
+          if grep -q "PLACEHOLDER" site/config.js; then
+            echo "window.TREND_RADAR_REPO='${GITHUB_REPOSITORY}';" > site/config.js
+            echo "Wrote site/config.js for ${GITHUB_REPOSITORY}"
+          fi
+
+      - name: Run pipeline
+        env:
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          DASHBOARD_URL: ${{ vars.DASHBOARD_URL }}
+        run: python scripts/pipeline.py
+
+      - name: Commit and push data
+        run: |
+          git config user.name "trend-radar-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/data.json data/history.json site/config.js
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "data refresh $(date -u +%FT%TZ)"
+            git pull --rebase origin main
+            git push
+          fi
