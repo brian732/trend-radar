@@ -847,23 +847,24 @@
   },
   "nred": {
    "first_seen": "2026-07-08T17:55:27Z",
-   "last_seen": "2026-07-08T17:55:27Z",
+   "last_seen": "2026-07-09T15:58:23Z",
    "sources_seen": [
+    "trends24",
     "x"
    ],
    "enrichment": {
     "key": "nred",
     "sports": false,
     "league": null,
-    "obvious": false,
-    "early": true,
+    "obvious": true,
+    "early": false,
     "entity": "NRED",
-    "why_now": "Spiking on x; driver unconfirmed (fallback classifier — no LLM key).",
-    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "why_now": "No sample tweets; insufficient signal.",
+    "angle": "Suppress as noise.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-08T17:55:27Z"
+   "enriched_at": "2026-07-09T15:58:23Z"
   },
   "moana": {
    "first_seen": "2026-07-08T17:55:27Z",
@@ -1624,7 +1625,7 @@
   },
   "momson": {
    "first_seen": "2026-07-08T19:20:02Z",
-   "last_seen": "2026-07-08T19:20:02Z",
+   "last_seen": "2026-07-09T15:58:23Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -1633,15 +1634,15 @@
     "key": "momson",
     "sports": false,
     "league": null,
-    "obvious": false,
-    "early": true,
-    "entity": "#momson",
-    "why_now": "Hashtag trending with no sample tweets or context; driver unconfirmed.",
-    "angle": "Insufficient data; monitor for sports or non-sports clarification.",
+    "obvious": true,
+    "early": false,
+    "entity": "#momson (hashtag)",
+    "why_now": "Generic hashtag with no sample tweets; insufficient signal.",
+    "angle": "Insufficient data to act on; suppress as noise.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-08T19:20:02Z"
+   "enriched_at": "2026-07-09T15:58:23Z"
   },
   "chani": {
    "first_seen": "2026-07-08T19:20:02Z",
@@ -2474,7 +2475,7 @@
   },
   "lorenzo salgado araujo": {
    "first_seen": "2026-07-08T23:10:55Z",
-   "last_seen": "2026-07-08T23:10:55Z",
+   "last_seen": "2026-07-09T15:58:23Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -2483,15 +2484,15 @@
     "key": "lorenzo salgado araujo",
     "sports": false,
     "league": null,
-    "obvious": false,
-    "early": true,
+    "obvious": true,
+    "early": false,
     "entity": "Lorenzo Salgado Araujo",
-    "why_now": "Trending with no sample tweets or news; driver unconfirmed.",
-    "angle": "Insufficient data; monitor for sports connection.",
+    "why_now": "No sample tweets; insufficient signal.",
+    "angle": "Suppress as noise.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-08T23:10:55Z"
+   "enriched_at": "2026-07-09T15:58:23Z"
   },
   "godfather 2": {
    "first_seen": "2026-07-08T23:10:55Z",
@@ -3200,7 +3201,7 @@
   },
   "lala": {
    "first_seen": "2026-07-09T06:47:53Z",
-   "last_seen": "2026-07-09T06:47:53Z",
+   "last_seen": "2026-07-09T15:58:23Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -3209,15 +3210,15 @@
     "key": "lala",
     "sports": false,
     "league": null,
-    "obvious": false,
+    "obvious": true,
     "early": false,
     "entity": "Lala",
-    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
-    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "why_now": "No sample tweets; insufficient signal.",
+    "angle": "Suppress as noise.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-09T06:47:53Z"
+   "enriched_at": "2026-07-09T15:58:23Z"
   },
   "gold": {
    "first_seen": "2026-07-09T06:47:53Z",
@@ -3284,7 +3285,7 @@
   },
   "little italy": {
    "first_seen": "2026-07-09T06:47:53Z",
-   "last_seen": "2026-07-09T06:47:53Z",
+   "last_seen": "2026-07-09T15:58:23Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -3294,14 +3295,14 @@
     "sports": false,
     "league": null,
     "obvious": false,
-    "early": false,
-    "entity": "Little Italy",
-    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
-    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "early": true,
+    "entity": "Little Italy (NYC neighborhood)",
+    "why_now": "NYC Mayor's 'Immigrant Enclaves' map omission sparked cultural/political backlash; Emma Roberts film set photos.",
+    "angle": "Urban identity and erasure narrative—engage NYC cultural pride and Italian-American heritage discourse.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-09T06:47:53Z"
+   "enriched_at": "2026-07-09T15:58:23Z"
   },
   "bcat": {
    "first_seen": "2026-07-09T06:47:53Z",
@@ -3925,23 +3926,24 @@
   },
   "planned parenthood": {
    "first_seen": "2026-07-09T06:47:53Z",
-   "last_seen": "2026-07-09T06:47:53Z",
+   "last_seen": "2026-07-09T15:58:23Z",
    "sources_seen": [
-    "trends24"
+    "trends24",
+    "x"
    ],
    "enrichment": {
     "key": "planned parenthood",
     "sports": false,
     "league": null,
-    "obvious": false,
-    "early": true,
+    "obvious": true,
+    "early": false,
     "entity": "Planned Parenthood",
-    "why_now": "Spiking on trends24; driver unconfirmed (fallback classifier — no LLM key).",
-    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "why_now": "No sample tweets; insufficient signal.",
+    "angle": "Suppress as noise.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-09T06:47:53Z"
+   "enriched_at": "2026-07-09T15:58:23Z"
   },
   "kyle karros": {
    "first_seen": "2026-07-09T06:47:53Z",
@@ -4166,63 +4168,1327 @@
    },
    "enriched_at": "2026-07-09T06:47:53Z",
    "last_engagement": 421.3333333333333
+  },
+  "coco": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "coco",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Coco (anime/streaming character)",
+    "why_now": "Viral anime/streaming fandom moment; sample tweets show character shipping debates and TikTok gift-giving drama.",
+    "angle": "Niche fandom culture play—ride the character-driven parasocial moment before it fragments across platforms.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "muchova": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "muchova",
+    "sports": true,
+    "league": "Tennis",
+    "obvious": false,
+    "early": false,
+    "entity": "Karolína Muchová",
+    "why_now": "Grass court specialist advancing through Wimbledon 2026 rounds with straight-sets wins; fan support rallying.",
+    "angle": "Underdog narrative at a major—position her as the dark-horse grass-court threat in women's draw.",
+    "duplicate_of": null,
+    "market_id": "1088126"
+   },
+   "enriched_at": "2026-07-09T15:58:23Z",
+   "last_engagement": 208.66666666666666
+  },
+  "bonnie tyler": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "bonnie tyler",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Bonnie Tyler",
+    "why_now": "1983 singles poll nostalgia wave; 'Total Eclipse of the Heart' competing in retro music bracket.",
+    "angle": "Tap 80s nostalgia and music-poll engagement—position as cultural moment for millennial/Gen X audiences.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "total eclipse of the heart": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "total eclipse of the heart",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Total Eclipse of the Heart (song)",
+    "why_now": "Bonnie Tyler track in 1983 singles poll; also used in House of the Dragon fancams and nostalgia edits.",
+    "angle": "Cross-generational meme—80s music meets modern fandom; position for retro-pop and TV culture overlap.",
+    "duplicate_of": "bonnie tyler",
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "italians": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "italians",
+    "sports": true,
+    "league": "Motorsports",
+    "obvious": false,
+    "early": true,
+    "entity": "Ferrari/Italian F1 team",
+    "why_now": "Mercedes-Ferrari team dynamics at Silverstone; tweet references Italians and George Russell bullying narrative.",
+    "angle": "F1 team drama and driver politics—position as internal conflict story, not just race logistics.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z",
+   "last_engagement": 284.3333333333333
+  },
+  "teenagee": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "teenagee",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "#teenagee (hashtag)",
+    "why_now": "Generic hashtag with no sample tweets; insufficient signal.",
+    "angle": "Insufficient data to act on; suppress as noise.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "muse spark 1 1": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "muse spark 1 1",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "Muse Spark 1.1 (product)",
+    "why_now": "Product release; no sample tweets or news; insufficient narrative.",
+    "angle": "Suppress as product announcement without cultural angle.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "wimbledon26": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "wimbledon26",
+    "sports": true,
+    "league": "Tennis",
+    "obvious": true,
+    "early": false,
+    "entity": "Wimbledon 2026",
+    "why_now": "Scheduled event hashtag; sample tweets are generic event coverage and betting ads.",
+    "angle": "Suppress as event-logistics trend; only elevate if specific match/player moment emerges.",
+    "duplicate_of": null,
+    "market_id": "1087890"
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "ultimatebiaschoisan": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "ultimatebiaschoisan",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "#UltimateBiasChoiSan (K-pop fandom)",
+    "why_now": "K-pop fandom hashtag; no sample tweets; generic fan engagement.",
+    "angle": "Suppress as fandom noise without specific moment.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "omegaxtour": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "omegaxtour",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "#OMEGAXTOUR (music tour)",
+    "why_now": "Tour announcement; no sample tweets; insufficient narrative.",
+    "angle": "Suppress as event logistics.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "good thursday": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "good thursday",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "Good Thursday (greeting)",
+    "why_now": "Day-of-week greeting; no narrative.",
+    "angle": "Suppress as temporal noise.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "lamron": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "lamron",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "LAMRON (unknown entity)",
+    "why_now": "No sample tweets; insufficient signal.",
+    "angle": "Suppress as noise.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "holding out for a hero": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "holding out for a hero",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Holding Out for a Hero (song)",
+    "why_now": "Bonnie Tyler track in music nostalgia wave; co-trending with 1983 singles poll.",
+    "angle": "80s music nostalgia play—extend bonnie tyler campaign to broader soundtrack moment.",
+    "duplicate_of": "bonnie tyler",
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "jordan clarkson": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "google",
+    "x"
+   ],
+   "enrichment": {
+    "key": "jordan clarkson",
+    "sports": true,
+    "league": "NBA",
+    "obvious": false,
+    "early": false,
+    "entity": "Jordan Clarkson",
+    "why_now": "Knicks re-sign Clarkson to 1-year $3.9M deal; veteran leadership in playoff rotation praised by teammates.",
+    "angle": "Veteran role-player narrative—position as locker-room stabilizer and playoff experience add for Knicks.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z",
+   "last_engagement": 2769.6666666666665
+  },
+  "normal mv": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "normal mv",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "NORMAL MV (music video)",
+    "why_now": "No sample tweets; insufficient signal.",
+    "angle": "Suppress as noise.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "godzilla minus zero": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "godzilla minus zero",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "Godzilla Minus Zero (film)",
+    "why_now": "Movie release; no sample tweets; insufficient narrative.",
+    "angle": "Suppress as event logistics.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "palm beach": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "palm beach",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "Palm Beach (location)",
+    "why_now": "No sample tweets; insufficient signal.",
+    "angle": "Suppress as noise.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "william flashback solo": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "william flashback solo",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "WILLIAM FLASHBACK SOLO (K-pop content)",
+    "why_now": "K-pop fandom content; no sample tweets; generic fan engagement.",
+    "angle": "Suppress as fandom noise.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "ticketmaster": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "ticketmaster",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "Ticketmaster",
+    "why_now": "No sample tweets; insufficient signal.",
+    "angle": "Suppress as noise.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "our love for choisan": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "our love for choisan",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "OUR LOVE FOR CHOISAN (K-pop fandom)",
+    "why_now": "K-pop fandom hashtag; no sample tweets; generic fan engagement.",
+    "angle": "Suppress as fandom noise.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "zuck": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "zuck",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "Zuck (Mark Zuckerberg)",
+    "why_now": "No sample tweets; insufficient signal.",
+    "angle": "Suppress as noise.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "little palestine": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "little palestine",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "Little Palestine (location/neighborhood)",
+    "why_now": "No sample tweets; insufficient signal.",
+    "angle": "Suppress as noise.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "happy friday eve": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "happy friday eve",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "Happy Friday Eve (greeting)",
+    "why_now": "Day-of-week greeting; no narrative.",
+    "angle": "Suppress as temporal noise.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "thirsty thursday": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "thirsty thursday",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "Thirsty Thursday (greeting)",
+    "why_now": "Day-of-week greeting; no narrative.",
+    "angle": "Suppress as temporal noise.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "italian americans": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "italian americans",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "Italian Americans",
+    "why_now": "No sample tweets; insufficient signal.",
+    "angle": "Suppress as noise.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "heartache": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "heartache",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "Heartache",
+    "why_now": "No sample tweets; insufficient signal.",
+    "angle": "Suppress as noise.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "dundon": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "dundon",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": true,
+    "early": false,
+    "entity": "Dundon (sports figure/owner)",
+    "why_now": "No sample tweets; insufficient signal.",
+    "angle": "Suppress as noise.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "nikola kusturica": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "nikola kusturica",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "Nikola Kusturica",
+    "why_now": "No sample tweets; insufficient signal.",
+    "angle": "Suppress as noise.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "renee good": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "renee good",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "Renee Good",
+    "why_now": "No sample tweets; insufficient signal.",
+    "angle": "Suppress as noise.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "fantrax": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "fantrax",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": true,
+    "early": false,
+    "entity": "Fantrax (fantasy sports platform)",
+    "why_now": "No sample tweets; insufficient signal.",
+    "angle": "Suppress as noise.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "trump force one": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "trump force one",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "Trump Force One",
+    "why_now": "No sample tweets; insufficient signal.",
+    "angle": "Suppress as noise.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "adopt": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "adopt",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "Adopt",
+    "why_now": "No sample tweets; insufficient signal.",
+    "angle": "Suppress as noise.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "woodlawn": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "woodlawn",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "Woodlawn",
+    "why_now": "No sample tweets; insufficient signal.",
+    "angle": "Suppress as noise.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "jenifer lewis": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "jenifer lewis",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "Jenifer Lewis",
+    "why_now": "No sample tweets; insufficient signal.",
+    "angle": "Suppress as noise.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "college fantasy football": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "college fantasy football",
+    "sports": true,
+    "league": "College Football",
+    "obvious": false,
+    "early": true,
+    "entity": "College Fantasy Football",
+    "why_now": "Emerging fantasy sports category; co-trending with Fantrax; niche but growing engagement.",
+    "angle": "Early-stage fantasy sports trend—position as next frontier in college sports betting/engagement.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "leonard williams": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "leonard williams",
+    "sports": true,
+    "league": "NFL",
+    "obvious": true,
+    "early": false,
+    "entity": "Leonard Williams",
+    "why_now": "No sample tweets; insufficient signal.",
+    "angle": "Suppress as noise.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "slx": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "slx",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "$SLX (ticker/stock)",
+    "why_now": "No sample tweets; insufficient signal.",
+    "angle": "Suppress as noise.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "tony parker": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "tony parker",
+    "sports": true,
+    "league": "NBA",
+    "obvious": true,
+    "early": false,
+    "entity": "Tony Parker",
+    "why_now": "No sample tweets; insufficient signal.",
+    "angle": "Suppress as noise.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "micron": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "micron",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "Micron",
+    "why_now": "No sample tweets; insufficient signal.",
+    "angle": "Suppress as noise.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "maxine waters": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "maxine waters",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "Maxine Waters",
+    "why_now": "No sample tweets; insufficient signal.",
+    "angle": "Suppress as noise.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "france vs morocco": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "france vs morocco",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": true,
+    "early": false,
+    "entity": "France vs Morocco (World Cup match)",
+    "why_now": "Scheduled match on 2026-07-09; no specific storyline beyond fixture.",
+    "angle": "Suppress as pre-game logistics; elevate only if specific moment (goal, controversy, stat) emerges.",
+    "duplicate_of": null,
+    "market_id": "2805541"
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "thankful thursday": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "thankful thursday",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "Thankful Thursday (greeting)",
+    "why_now": "Day-of-week greeting; no narrative.",
+    "angle": "Suppress as temporal noise.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "chinatown": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "chinatown",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "Chinatown",
+    "why_now": "No sample tweets; insufficient signal.",
+    "angle": "Suppress as noise.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "spamton": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "spamton",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "Spamton (video game character)",
+    "why_now": "No sample tweets; insufficient signal.",
+    "angle": "Suppress as noise.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "tadej": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "tadej",
+    "sports": true,
+    "league": "Motorsports",
+    "obvious": true,
+    "early": false,
+    "entity": "Tadej (cyclist/athlete)",
+    "why_now": "No sample tweets; insufficient signal.",
+    "angle": "Suppress as noise.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "jalen carter": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "trends24"
+   ],
+   "enrichment": {
+    "key": "jalen carter",
+    "sports": true,
+    "league": "NFL",
+    "obvious": true,
+    "early": false,
+    "entity": "Jalen Carter",
+    "why_now": "No sample tweets; insufficient signal.",
+    "angle": "Suppress as noise.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "jim steinman": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "trends24"
+   ],
+   "enrichment": {
+    "key": "jim steinman",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "Jim Steinman",
+    "why_now": "No sample tweets; insufficient signal.",
+    "angle": "Suppress as noise.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "jamey carney": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "trends24"
+   ],
+   "enrichment": {
+    "key": "jamey carney",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "Jamey Carney",
+    "why_now": "No sample tweets; insufficient signal.",
+    "angle": "Suppress as noise.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "mitch keller": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "trends24"
+   ],
+   "enrichment": {
+    "key": "mitch keller",
+    "sports": true,
+    "league": "MLB",
+    "obvious": true,
+    "early": false,
+    "entity": "Mitch Keller",
+    "why_now": "No sample tweets; insufficient signal.",
+    "angle": "Suppress as noise.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "almost friday": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "trends24"
+   ],
+   "enrichment": {
+    "key": "almost friday",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "Almost Friday (greeting)",
+    "why_now": "Day-of-week greeting; no narrative.",
+    "angle": "Suppress as temporal noise.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "president donald j trump": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "trends24"
+   ],
+   "enrichment": {
+    "key": "president donald j trump",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "President Donald J. Trump",
+    "why_now": "No sample tweets; insufficient signal.",
+    "angle": "Suppress as noise.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "chat control": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "trends24"
+   ],
+   "enrichment": {
+    "key": "chat control",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "Chat Control",
+    "why_now": "No sample tweets; insufficient signal.",
+    "angle": "Suppress as noise.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "eng vs ind": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "eng vs ind",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": true,
+    "early": false,
+    "entity": "England vs India (T20 cricket)",
+    "why_now": "Scheduled T20I match; sample tweets are pre-game analysis and player commentary, no specific viral moment.",
+    "angle": "Suppress as pre-game logistics; elevate only if specific match moment emerges.",
+    "duplicate_of": null,
+    "market_id": "2840816"
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "lindy waters": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "lindy waters",
+    "sports": true,
+    "league": "NBA",
+    "obvious": false,
+    "early": false,
+    "entity": "Lindy Waters (NBA player)",
+    "why_now": "Spurs announcer Jacob Tobey exposed on Instagram for affair with Lindy Waters' sister; girlfriend leaked evidence.",
+    "angle": "Athlete-adjacent scandal—position as locker-room drama and broadcaster credibility crisis story.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z",
+   "last_engagement": 1931.0
+  },
+  "el nino": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "el nino",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "El Niño (weather phenomenon)",
+    "why_now": "Weather forecast news; no sample tweets; insufficient narrative.",
+    "angle": "Suppress as science/weather logistics.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "duke of sussex birmingham trip": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "duke of sussex birmingham trip",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "Duke of Sussex Birmingham trip",
+    "why_now": "Royal visit; no sample tweets; insufficient narrative.",
+    "angle": "Suppress as event logistics.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "senator mitch mcconnell": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "senator mitch mcconnell",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "Senator Mitch McConnell",
+    "why_now": "No sample tweets; insufficient signal.",
+    "angle": "Suppress as noise.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "fraud": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "fraud",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "Fraud",
+    "why_now": "No sample tweets; insufficient signal.",
+    "angle": "Suppress as noise.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "cam skattebo": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "cam skattebo",
+    "sports": true,
+    "league": "NFL",
+    "obvious": false,
+    "early": true,
+    "entity": "Cam Skattebo",
+    "why_now": "Giants RB ranked among worst starters; sample tweets show rare patch card hype and player personality memes.",
+    "angle": "Underdog narrative—position as scrappy backup with cult following; ride the 'psycho in a good way' meme.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z",
+   "last_engagement": 396.0
+  },
+  "mike dewine": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "mike dewine",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "Mike DeWine",
+    "why_now": "No sample tweets; insufficient signal.",
+    "angle": "Suppress as noise.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
+  },
+  "starbucks pink bear cup": {
+   "first_seen": "2026-07-09T15:58:23Z",
+   "last_seen": "2026-07-09T15:58:23Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "starbucks pink bear cup",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "Starbucks Pink Bearista cup",
+    "why_now": "Product launch; sample tweets are how-to-buy guides with zero engagement; insufficient narrative.",
+    "angle": "Suppress as product logistics.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-09T15:58:23Z"
   }
  },
  "x_usage": {
   "2026-07-08": 1553,
-  "2026-07-09": 550
+  "2026-07-09": 1076
  },
  "prev_x_trends": [
-  "#AEWDynamite",
-  "Kenny",
-  "Alex Call",
-  "Jungwon",
-  "Kelsey Mitchell",
-  "#TheValley",
-  "#ONEPIECE1188",
-  "Rae Burrell",
-  "Grok 4.5",
-  "Willow",
-  "Roki",
-  "Sparks",
-  "Lala",
-  "$GOLD",
-  "Thekla",
-  "Negan",
-  "Dune",
+  "Coco",
+  "Muchova",
+  "Bonnie Tyler",
   "Little Italy",
-  "Obsidian",
-  "$BCAT",
-  "Adeyemi",
-  "#AEWBeachBreak",
-  "Kaveh",
-  "90 Iranian",
-  "Campy",
-  "Offer",
-  "Steph White",
-  "Bahrain",
-  "#BlackoutForValko",
-  "Fallout",
-  "Air Force One",
-  "Alan Roden",
-  "Tanner Scott",
-  "New Vegas",
-  "Andrade",
-  "Gabriel Hughes",
-  "Redemption",
-  "Plane",
-  "AEW World Champion",
-  "P-38",
-  "Jack Perry",
-  "Pavin Smith",
-  "Kyle Fletcher",
-  "Cheetah Girls",
-  "Jared Jones",
-  "Michael King",
-  "Dantas",
-  "Every Republican",
-  "Alex Jones",
-  "Applaud"
+  "Total Eclipse of the Heart",
+  "Italians",
+  "#momson",
+  "#teenagee",
+  "Muse Spark 1.1",
+  "#wimbledon26",
+  "#UltimateBiasChoiSan",
+  "#OMEGAXTOUR",
+  "Good Thursday",
+  "LAMRON",
+  "Holding Out for a Hero",
+  "Jordan Clarkson",
+  "NORMAL MV",
+  "Godzilla Minus Zero",
+  "Palm Beach",
+  "WILLIAM FLASHBACK SOLO",
+  "Ticketmaster",
+  "Planned Parenthood",
+  "OUR LOVE FOR CHOISAN",
+  "Zuck",
+  "Little Palestine",
+  "Happy Friday Eve",
+  "Thirsty Thursday",
+  "Italian Americans",
+  "Heartache",
+  "NRED",
+  "Dundon",
+  "Nikola Kusturica",
+  "Renee Good",
+  "Fantrax",
+  "Trump Force One",
+  "Adopt",
+  "Woodlawn",
+  "Jenifer Lewis",
+  "College Fantasy Football",
+  "Leonard Williams",
+  "$SLX",
+  "Tony Parker",
+  "Micron",
+  "Maxine Waters",
+  "France vs Morocco",
+  "Thankful Thursday",
+  "Chinatown",
+  "Lorenzo Salgado Araujo",
+  "Spamton",
+  "Tadej"
  ],
  "suppressed": [
   {
@@ -4234,6 +5500,56 @@
    "key": "orioles",
    "reason": "Game vs. Cubs delayed by rain; routine scheduling logistics.",
    "at": "2026-07-08T23:10:55Z"
+  },
+  {
+   "key": "wimbledon26",
+   "reason": "Scheduled event hashtag; sample tweets are generic event coverage and betting ads.",
+   "at": "2026-07-09T15:58:23Z"
+  },
+  {
+   "key": "dundon",
+   "reason": "No sample tweets; insufficient signal.",
+   "at": "2026-07-09T15:58:23Z"
+  },
+  {
+   "key": "fantrax",
+   "reason": "No sample tweets; insufficient signal.",
+   "at": "2026-07-09T15:58:23Z"
+  },
+  {
+   "key": "leonard williams",
+   "reason": "No sample tweets; insufficient signal.",
+   "at": "2026-07-09T15:58:23Z"
+  },
+  {
+   "key": "tony parker",
+   "reason": "No sample tweets; insufficient signal.",
+   "at": "2026-07-09T15:58:23Z"
+  },
+  {
+   "key": "france vs morocco",
+   "reason": "Scheduled match on 2026-07-09; no specific storyline beyond fixture.",
+   "at": "2026-07-09T15:58:23Z"
+  },
+  {
+   "key": "tadej",
+   "reason": "No sample tweets; insufficient signal.",
+   "at": "2026-07-09T15:58:23Z"
+  },
+  {
+   "key": "jalen carter",
+   "reason": "No sample tweets; insufficient signal.",
+   "at": "2026-07-09T15:58:23Z"
+  },
+  {
+   "key": "mitch keller",
+   "reason": "No sample tweets; insufficient signal.",
+   "at": "2026-07-09T15:58:23Z"
+  },
+  {
+   "key": "eng vs ind",
+   "reason": "Scheduled T20I match; sample tweets are pre-game analysis and player commentary, no specific viral moment.",
+   "at": "2026-07-09T15:58:23Z"
   }
  ],
  "slack_posted": {
@@ -4336,6 +5652,30 @@
   "showdown": {
    "score": 48,
    "at": "2026-07-09T06:47:53Z"
+  },
+  "jordan clarkson": {
+   "score": 72,
+   "at": "2026-07-09T15:58:23Z"
+  },
+  "italians": {
+   "score": 59,
+   "at": "2026-07-09T15:58:23Z"
+  },
+  "college fantasy football": {
+   "score": 55,
+   "at": "2026-07-09T15:58:23Z"
+  },
+  "cam skattebo": {
+   "score": 49,
+   "at": "2026-07-09T15:58:23Z"
+  },
+  "muchova": {
+   "score": 49,
+   "at": "2026-07-09T15:58:23Z"
+  },
+  "lindy waters": {
+   "score": 40,
+   "at": "2026-07-09T15:58:23Z"
   }
  }
 }
