@@ -1,30 +1,141 @@
 {
  "schema_version": 2,
- "generated_at": "2026-07-10T15:32:54Z",
+ "generated_at": "2026-07-10T18:24:24Z",
  "sections": [
   {
    "league": "Tennis",
-   "activity": 82,
+   "activity": 224,
    "trends": [
     {
-     "key": "sinner",
-     "name": "Sinner",
-     "entity": "Sinner",
+     "key": "djokovic",
+     "name": "Djokovic",
+     "entity": "Novak Djokovic",
      "league": "Tennis",
-     "score": 59,
+     "score": 65,
+     "score_breakdown": {
+      "velocity": 23.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 14.0,
+      "early_bonus": 0
+     },
+     "early": false,
+     "new_on_x": true,
+     "why_now": "Viral clips of Djokovic's kindness at Wimbledon (ball girl interaction, polyglot moment) and endorsements from Rune, Ronaldo countering negative media narrative.",
+     "angle": "Flip the script: position Djokovic as mentor/role model despite media criticism; use athlete testimonials to rebuild brand perception.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-07-10T18:24:24Z",
+     "example_tweets": [
+      {
+       "url": "https://x.com/nick_ally1986/status/2074244353791316121",
+       "text": "This video made my week ❤️ Djokovic is one of the kind. This ball girl is an absolute sweetheart and has an adorable accent. Don’t let the m",
+       "likes": 8205,
+       "retweets": 670,
+       "username": "nick_ally1986"
+      },
+      {
+       "url": "https://x.com/DjokovicFan_/status/2074217351130853725",
+       "text": "Novak Djokovic meets another polyglot.\n\nNovak Djokovic: Speaks in Japanese 🇯🇵 \nJapanese polyglot: Speaks in Serbian 🇷🇸\nJapanese polyglot to ",
+       "likes": 2149,
+       "retweets": 124,
+       "username": "DjokovicFan_"
+      },
+      {
+       "url": "https://x.com/DjokovicFan_/status/2074270723544347041",
+       "text": "🗣️Holger Rune on Novak Djokovic:\n\n\"It's funny because Federer and Nadal are always named the good guys, but when it comes to future generati",
+       "likes": 1422,
+       "retweets": 84,
+       "username": "DjokovicFan_"
+      }
+     ],
+     "market": {
+      "question": "Will Novak Djokovic be the 2026 Men’s Wimbledon winner?",
+      "url": "https://polymarket.com/event/2026-mens-wimbledon-winner",
+      "outcomes": [
+       [
+        "Yes",
+        0.0005
+       ],
+       [
+        "No",
+        0.9995
+       ]
+      ],
+      "volume24hr": 168935.33649699998
+     },
+     "market_gap": false
+    },
+    {
+     "key": "alcaraz",
+     "name": "Alcaraz",
+     "entity": "Carlos Alcaraz",
+     "league": "Tennis",
+     "score": 49,
      "score_breakdown": {
       "velocity": 15.0,
       "cross_platform": 8,
       "freshness": 20,
       "engagement": 6.0,
-      "early_bonus": 10
+      "early_bonus": 0
      },
-     "early": true,
+     "early": false,
      "new_on_x": true,
-     "why_now": "Spiking on x; driver unconfirmed (fallback classifier — no LLM key).",
-     "angle": "Verify the driver manually before attaching content (fallback mode).",
+     "why_now": "Wimbledon semifinal narrative: Sinner's record as youngest semifinalist being broken by Alcaraz; Djokovic-Alcaraz 5-set head-to-head dominance.",
+     "angle": "Generational shift story—Alcaraz poised to overtake Sinner; use record-breaking angle and Djokovic comparison.",
      "sources": [
-      "x"
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-07-10T18:24:24Z",
+     "example_tweets": [
+      {
+       "url": "https://x.com/Djoko_UTD/status/2073497969257787479",
+       "text": "Sinner Interview after becoming the youngest semifinalist since Djokovic, but Alcaraz was about to take that record right after\n\n\"That won't",
+       "likes": 3144,
+       "retweets": 97,
+       "username": "Djoko_UTD"
+      },
+      {
+       "url": "https://x.com/tennis3601/status/2074777939204276433",
+       "text": "Djokovic and Alcaraz played 5 sets at grands slam level that went to to 5-5.\n\nAlcaraz won all 5 of them https://t.co/2EfJJ9Thjx",
+       "likes": 95,
+       "retweets": 4,
+       "username": "tennis3601"
+      },
+      {
+       "url": "https://x.com/goatcaraz/status/2073760925040116212",
+       "text": "ᵂᵃˡˡᵖᵃᵖᵉʳ 𝘊𝘢𝘳𝘭𝘰𝘴 𝘈𝘭𝘤𝘢𝘳𝘢𝘻 ᴳᴼᴬᵀ ˎˊ˗ https://t.co/PaK5kDzzog",
+       "likes": 75,
+       "retweets": 5,
+       "username": "goatcaraz"
+      }
+     ],
+     "market": null,
+     "market_gap": true
+    },
+    {
+     "key": "sinner",
+     "name": "Sinner",
+     "entity": "Jannik Sinner",
+     "league": "Tennis",
+     "score": 43,
+     "score_breakdown": {
+      "velocity": 12.0,
+      "cross_platform": 8,
+      "freshness": 15,
+      "engagement": 8.0,
+      "early_bonus": 0
+     },
+     "early": false,
+     "new_on_x": false,
+     "why_now": "Wimbledon second week performance; viral moment of Sinner losing rallies to Mochizuki with commentary criticism.",
+     "angle": "Capitalize on the 'Terminator' narrative collapse—Sinner's unexpected struggles against lower-ranked opponent create underdog-story angle.",
+     "sources": [
+      "x",
+      "trends24"
      ],
      "first_seen": "2026-07-10T15:32:54Z",
      "example_tweets": [
@@ -43,11 +154,72 @@
        "username": "DanPickz2"
       },
       {
-       "url": "https://x.com/nforzadepor/status/2073072596518588531",
-       "text": "Jannik sinner threatens to convert a break point, jannik sinner threatens to serve for the set, jannik sinner threatens to convert a match p",
-       "likes": 29,
-       "retweets": 2,
-       "username": "nforzadepor"
+       "url": "https://x.com/PicksWithEnergy/status/2073859800925081794",
+       "text": "Chalk Sinner u18.5 Games Won \n\nSinner losing rallies to Mochizuki and getting aced. Hilarious stuff from the “terminator”. It’s official, no",
+       "likes": 26,
+       "retweets": 0,
+       "username": "PicksWithEnergy"
+      }
+     ],
+     "market": {
+      "question": "Will Jannik Sinner be the 2026 Men’s Wimbledon winner?",
+      "url": "https://polymarket.com/event/2026-mens-wimbledon-winner",
+      "outcomes": [
+       [
+        "Yes",
+        0.785
+       ],
+       [
+        "No",
+        0.215
+       ]
+      ],
+      "volume24hr": 81271.98756199998
+     },
+     "market_gap": false
+    },
+    {
+     "key": "andy roddick",
+     "name": "andy roddick",
+     "entity": "Andy Roddick",
+     "league": "Tennis",
+     "score": 39,
+     "score_breakdown": {
+      "velocity": 5.4,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 6.0,
+      "early_bonus": 0
+     },
+     "early": false,
+     "new_on_x": false,
+     "why_now": "Commentary on Coco Gauff's Wimbledon loss and future prospects; Roddick defending athletes on GLP-1 use; ESPN analyst role.",
+     "angle": "Leverage Roddick's credibility as former champion defending modern athletes; use his podcast commentary for behind-the-scenes narrative.",
+     "sources": [
+      "google"
+     ],
+     "first_seen": "2026-07-10T18:24:24Z",
+     "example_tweets": [
+      {
+       "url": "https://x.com/ESPNInsights/status/2073530558399853047",
+       "text": "Taylor Fritz will be the lone American man to reach the Round of 16 at Wimbledon 🎾\n\nHis 3rd straight Round of 16 appearance is the longest s",
+       "likes": 122,
+       "retweets": 22,
+       "username": "ESPNInsights"
+      },
+      {
+       "url": "https://x.com/ESPNInsights/status/2073523277633405234",
+       "text": "Taylor Fritz will be the lone American man to reach the Round of 16 at Wimbledon 🎾\n\nHis 3rd straight Round of 16 appearance is the longest s",
+       "likes": 75,
+       "retweets": 7,
+       "username": "ESPNInsights"
+      },
+      {
+       "url": "https://x.com/pavyg/status/2073450420572201214",
+       "text": "Andy Roddick was defending Serena Williams taking GLP1s on his podcast. He said he would do the same if he wanted to lose weight quickly and",
+       "likes": 59,
+       "retweets": 3,
+       "username": "pavyg"
       }
      ],
      "market": null,
@@ -58,16 +230,16 @@
      "name": "Zverev",
      "entity": "Zverev",
      "league": "Tennis",
-     "score": 23,
+     "score": 28,
      "score_breakdown": {
-      "velocity": 15.0,
+      "velocity": 12.0,
       "cross_platform": 8,
       "freshness": 0,
-      "engagement": 0.0,
+      "engagement": 8.0,
       "early_bonus": 0
      },
      "early": false,
-     "new_on_x": true,
+     "new_on_x": false,
      "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
      "angle": "Verify the driver manually before attaching content (fallback mode).",
      "sources": [
@@ -104,158 +276,51 @@
    ]
   },
   {
-   "league": "Golf",
-   "activity": 63,
+   "league": "MMA/Boxing",
+   "activity": 39,
    "trends": [
     {
-     "key": "scottie scheffler",
-     "name": "Scottie Scheffler",
-     "entity": "Scottie Scheffler",
-     "league": "Golf",
-     "score": 63,
-     "score_breakdown": {
-      "velocity": 21.0,
-      "cross_platform": 8,
-      "freshness": 20,
-      "engagement": 14.0,
-      "early_bonus": 0
-     },
-     "early": false,
-     "new_on_x": true,
-     "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
-     "angle": "Verify the driver manually before attaching content (fallback mode).",
-     "sources": [
-      "x",
-      "trends24"
-     ],
-     "first_seen": "2026-07-10T15:32:54Z",
-     "example_tweets": [
-      {
-       "url": "https://x.com/JustinRayGolf/status/2073886084870582472",
-       "text": "Chris Gotterup shoots a final round 62 to win the John Deere Classic.\n\nMost PGA Tour wins since mid-May 2024:\nScottie Scheffler, 10\nRory McI",
-       "likes": 818,
-       "retweets": 30,
-       "username": "JustinRayGolf"
-      },
-      {
-       "url": "https://x.com/DPWorldTour/status/2074840934500458914",
-       "text": "Practice with purpose like the World Number One 💪\n\nTwo minutes uncut of Scottie Scheffler on the range.\n\n#GenesisScottishOpen | #RolexSeries",
-       "likes": 459,
-       "retweets": 21,
-       "username": "DPWorldTour"
-      },
-      {
-       "url": "https://x.com/SchefflerLegion/status/2073958994075336965",
-       "text": "Scottie Scheffler golfs this week https://t.co/PdflZfQdxL",
-       "likes": 481,
-       "retweets": 6,
-       "username": "SchefflerLegion"
-      }
-     ],
-     "market": null,
-     "market_gap": true
-    }
-   ]
-  },
-  {
-   "league": "MLB",
-   "activity": 49,
-   "trends": [
-    {
-     "key": "chase elliott",
-     "name": "chase elliott",
-     "entity": "chase elliott",
-     "league": "MLB",
-     "score": 49,
+     "key": "the white house",
+     "name": "the white house",
+     "entity": "White House UFC Event",
+     "league": "MMA/Boxing",
+     "score": 39,
      "score_breakdown": {
       "velocity": 5.4,
       "cross_platform": 8,
       "freshness": 20,
       "engagement": 6.0,
-      "early_bonus": 10
+      "early_bonus": 0
      },
-     "early": true,
+     "early": false,
      "new_on_x": false,
-     "why_now": "Spiking on google; driver unconfirmed (fallback classifier — no LLM key).",
-     "angle": "Verify the driver manually before attaching content (fallback mode).",
+     "why_now": "Terror plot indictment targeting UFC event at White House; Trump administration event; security/political angle.",
+     "angle": "Tie UFC's mainstream legitimacy to high-profile government event; emphasize security and prestige angle.",
      "sources": [
       "google"
      ],
-     "first_seen": "2026-07-10T15:32:54Z",
+     "first_seen": "2026-07-10T18:24:24Z",
      "example_tweets": [
       {
-       "url": "https://x.com/BravesRetail/status/2074888718112968771",
-       "text": "🏁 Chase Elliott x Braves Collab 🏁  Introducing the newest cap collab with Georgia’s own @chaseelliott! Three cap designs available in multip",
-       "likes": 316,
-       "retweets": 52,
-       "username": "BravesRetail"
+       "url": "https://x.com/FoxNews/status/2074175010990592219",
+       "text": "\"A lot of love is being put in the White House.\"\n\nPresident Trump highlights massive new renovation efforts underway at the White House, sla",
+       "likes": 2587,
+       "retweets": 437,
+       "username": "FoxNews"
       },
       {
-       "url": "https://x.com/DigitalGashouse/status/2073945146064822481",
-       "text": "Chase Elliott when Hendrick as a whole is struggling.\nVs \nChase Elliott when Hendrick as a whole has race winning cars.\n\nMake it make sense.",
-       "likes": 171,
-       "retweets": 12,
-       "username": "DigitalGashouse"
+       "url": "https://x.com/lamps_apple/status/2073806983195414653",
+       "text": "The German soccer fan who fell in love with America: “This night exceeded every expectation. Incredible fireworks, an amazing atmosphere, an",
+       "likes": 792,
+       "retweets": 65,
+       "username": "lamps_apple"
       },
       {
-       "url": "https://x.com/jeff_gluck/status/2073629953103446027",
-       "text": "Brandon Jones CLEARS Chase Elliott and takes the white flag!",
-       "likes": 145,
-       "retweets": 5,
-       "username": "jeff_gluck"
-      }
-     ],
-     "market": null,
-     "market_gap": true
-    }
-   ]
-  },
-  {
-   "league": "NFL",
-   "activity": 44,
-   "trends": [
-    {
-     "key": "nflx stock",
-     "name": "nflx stock",
-     "entity": "nflx stock",
-     "league": "NFL",
-     "score": 44,
-     "score_breakdown": {
-      "velocity": 6.0,
-      "cross_platform": 8,
-      "freshness": 20,
-      "engagement": 0.0,
-      "early_bonus": 10
-     },
-     "early": true,
-     "new_on_x": false,
-     "why_now": "Spiking on google; driver unconfirmed (fallback classifier — no LLM key).",
-     "angle": "Verify the driver manually before attaching content (fallback mode).",
-     "sources": [
-      "google"
-     ],
-     "first_seen": "2026-07-10T15:32:54Z",
-     "example_tweets": [
-      {
-       "url": "https://x.com/Kare_Lyles/status/2073215738928828536",
-       "text": "A dedicated WhatsApp group for $NFLX holders is now online!\n\nAll investors holding $NFLX stock are welcome to join this exclusive group to d",
-       "likes": 0,
-       "retweets": 0,
-       "username": "Kare_Lyles"
-      },
-      {
-       "url": "https://x.com/Christophep_a/status/2073809898404782306",
-       "text": "A dedicated WhatsApp group for $NFLX holders is now online!\n\ngroup:https://t.co/qHTkcH2m5M\n\nAll investors holding $NFLX stock are welcome to",
-       "likes": 0,
-       "retweets": 0,
-       "username": "Christophep_a"
-      },
-      {
-       "url": "https://x.com/ValinClub/status/2073368526060921327",
-       "text": "Netflix / $NFLX stock has almost halved over the past year. That's the second-largest price decline of the last ten years. Why? In recent ye",
-       "likes": 0,
-       "retweets": 0,
-       "username": "ValinClub"
+       "url": "https://x.com/draloneboy/status/2075490579505676650",
+       "text": "Trump on the White House ballroom (February):\n\n“We did this with no charge to the taxpayer whatsoever. This was all donations by friends of ",
+       "likes": 51,
+       "retweets": 49,
+       "username": "draloneboy"
       }
      ],
      "market": null,
@@ -269,11 +334,11 @@
   "trends24": "ok (2 snapshots)",
   "google_trends": "ok (10 items)",
   "gamma_api": "ok (500 markets)",
-  "llm": "bad JSON — keyword fallback",
-  "slack": "ok (posted 5 trends)"
+  "llm": "ok (41 enriched)",
+  "slack": "ok (posted 4 trends)"
  },
  "x_budget": {
-  "used_today": 1134,
+  "used_today": 1646,
   "cap": 15000
  },
  "config": {
@@ -296,9 +361,9 @@
   "section_order_mode": "activity"
  },
  "stats": {
-  "newly_enriched": 74,
-  "cache_hits": 0,
-  "suppressed": 1,
-  "discarded_non_sports": 68
+  "newly_enriched": 41,
+  "cache_hits": 24,
+  "suppressed": 7,
+  "discarded_non_sports": 52
  }
 }
