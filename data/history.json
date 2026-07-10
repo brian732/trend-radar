@@ -2666,24 +2666,24 @@
   },
   "mcrlondon": {
    "first_seen": "2026-07-08T23:10:55Z",
-   "last_seen": "2026-07-08T23:10:55Z",
+   "last_seen": "2026-07-10T23:00:42Z",
    "sources_seen": [
     "trends24",
     "x"
    ],
    "enrichment": {
     "key": "mcrlondon",
-    "sports": true,
-    "league": "Motorsports",
+    "sports": false,
+    "league": null,
     "obvious": false,
     "early": false,
     "entity": "#mcrlondon",
-    "why_now": "McLaren F1 team London event or announcement; motorsports culture moment.",
-    "angle": "Monitor for F1 team news or event; engage motorsports fan community.",
+    "why_now": "Music/band hashtag (My Chemical Romance London); no sports connection.",
+    "angle": "Not sports-related; exclude.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-08T23:10:55Z"
+   "enriched_at": "2026-07-10T23:00:42Z"
   },
   "bad boys 2": {
    "first_seen": "2026-07-08T23:10:55Z",
@@ -9129,7 +9129,7 @@
   },
   "secretary rubio": {
    "first_seen": "2026-07-10T15:32:54Z",
-   "last_seen": "2026-07-10T15:32:54Z",
+   "last_seen": "2026-07-10T23:00:42Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -9141,16 +9141,16 @@
     "obvious": false,
     "early": false,
     "entity": "Secretary Rubio",
-    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
-    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "why_now": "Political figure; no sports connection.",
+    "angle": "Not sports-related; exclude.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-10T15:32:54Z"
+   "enriched_at": "2026-07-10T23:00:42Z"
   },
   "fursuitfriday": {
    "first_seen": "2026-07-10T15:32:54Z",
-   "last_seen": "2026-07-10T15:32:54Z",
+   "last_seen": "2026-07-10T23:00:42Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -9162,12 +9162,12 @@
     "obvious": false,
     "early": false,
     "entity": "#FursuitFriday",
-    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
-    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "why_now": "Furry community hashtag; no sports connection.",
+    "angle": "Not sports-related; exclude.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-10T15:32:54Z"
+   "enriched_at": "2026-07-10T23:00:42Z"
   },
   "good friday": {
    "first_seen": "2026-07-10T15:32:54Z",
@@ -9276,7 +9276,7 @@
   },
   "veto": {
    "first_seen": "2026-07-10T15:32:54Z",
-   "last_seen": "2026-07-10T15:32:54Z",
+   "last_seen": "2026-07-10T23:00:42Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -9288,12 +9288,12 @@
     "obvious": false,
     "early": false,
     "entity": "Veto",
-    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
-    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "why_now": "Political/legislative term; no sports connection.",
+    "angle": "Not sports-related; exclude.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-10T15:32:54Z"
+   "enriched_at": "2026-07-10T23:00:42Z"
   },
   "red friday": {
    "first_seen": "2026-07-10T15:32:54Z",
@@ -11005,64 +11005,1349 @@
     "market_id": null
    },
    "enriched_at": "2026-07-10T18:24:24Z"
+  },
+  "herro": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "herro",
+    "sports": true,
+    "league": "NBA",
+    "obvious": false,
+    "early": false,
+    "entity": "Tyler Herro",
+    "why_now": "Comparison to rookie Ryan Conwell's shot creation; 'Heat Culture' workout intensity meme circulating.",
+    "angle": "Leverage the 'Heat Culture' comparison meme and Herro's 2K dominance for gaming/sports crossover content.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z",
+   "last_engagement": 363.3333333333333
+  },
+  "vex": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "vex",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "$VEX / Vex (League of Legends)",
+    "why_now": "Mixed signals: crypto token chatter, League of Legends skin art, and slang usage; unclear primary driver.",
+    "angle": "Monitor for clarification; if LoL-focused, gaming community content; if crypto, financial audience.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z"
+  },
+  "spain": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "spain",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": false,
+    "entity": "Spain national football team",
+    "why_now": "Pre-World Cup 2026 hype; Ronaldo retirement narrative and Lamine Yamal generational talent discourse.",
+    "angle": "Position Spain as tournament favorites; highlight youth talent (Yamal) vs. veteran experience angle.",
+    "duplicate_of": null,
+    "market_id": "558934"
+   },
+   "enriched_at": "2026-07-10T23:00:42Z",
+   "last_engagement": 416.3333333333333
+  },
+  "merino": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "merino",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": false,
+    "entity": "Mikel Merino",
+    "why_now": "Arsenal transfer speculation; spotted in Hollywood visiting a Gooner; Spain training camp activity.",
+    "angle": "Capitalize on transfer window intrigue and Arsenal fan engagement around potential signing.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z",
+   "last_engagement": 855.0
+  },
+  "courtois": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "courtois",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": false,
+    "entity": "Thibaut Courtois",
+    "why_now": "Goalkeeper comparison meme (Nyland vs. Courtois 2018/2026); personal life gossip (wife/De Bruyne).",
+    "angle": "Use goalkeeper debate and personal drama for engagement; avoid pure gossip, focus on performance narrative.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z",
+   "last_engagement": 276.6666666666667
+  },
+  "lammens": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "lammens",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": true,
+    "early": false,
+    "entity": "Lammens",
+    "why_now": "No sample tweets; likely Belgium squad/coaching staff member; insufficient signal clarity.",
+    "angle": "Insufficient data; suppress until clearer narrative emerges.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z"
+  },
+  "lamine yamal": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "lamine yamal",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": false,
+    "entity": "Lamine Yamal",
+    "why_now": "Deschamps quote praising him; generational talent narrative; Mourinho speculation on Real Madrid interest.",
+    "angle": "Highlight as next-gen superstar; use coach endorsements and transfer speculation for hype.",
+    "duplicate_of": null,
+    "market_id": "2431010"
+   },
+   "enriched_at": "2026-07-10T23:00:42Z",
+   "last_engagement": 1223.3333333333333
+  },
+  "españa": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "españa",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": true,
+    "early": false,
+    "entity": "Spain (La Roja)",
+    "why_now": "Spanish language variant of 'Spain'; World Cup 2026 pre-tournament discussion.",
+    "angle": "Duplicate signal; consolidate with 'spain' candidate.",
+    "duplicate_of": "spain",
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z"
+  },
+  "20 robinhood eth": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "20 robinhood eth",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "$20 Robinhood ETH",
+    "why_now": "Crypto/trading platform chatter; no sports connection.",
+    "angle": "Not sports-related; exclude.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z"
+  },
+  "espbel": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "espbel",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": true,
+    "early": false,
+    "entity": "Spain vs. Belgium (Euro/World Cup)",
+    "why_now": "Hashtag for Spain-Belgium match; scheduled event without specific viral moment.",
+    "angle": "Suppress as pre-game logistics; only elevate if specific moment (goal, controversy, stat) emerges.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z"
+  },
+  "openai": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "openai",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "OpenAI",
+    "why_now": "Tech company news; no sports connection.",
+    "angle": "Not sports-related; exclude.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z"
+  },
+  "logan act": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "logan act",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Logan Act",
+    "why_now": "Political/legal discussion; no sports connection.",
+    "angle": "Not sports-related; exclude.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z"
+  },
+  "pedri": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "pedri",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": true,
+    "early": false,
+    "entity": "Pedri",
+    "why_now": "Spain midfielder; World Cup 2026 squad context; no specific moment or controversy.",
+    "angle": "Suppress as generic player name without narrative; elevate only if injury, transfer, or performance story.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z"
+  },
+  "heat culture": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "heat culture",
+    "sports": true,
+    "league": "NBA",
+    "obvious": false,
+    "early": false,
+    "entity": "Miami Heat organizational culture",
+    "why_now": "Meme about Herro/Heat player workout intensity; viral comparison to rookie Ryan Conwell.",
+    "angle": "Ride the 'Heat Culture' meme; use for Miami Heat brand content and player development narratives.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z",
+   "last_engagement": 112.0
+  },
+  "walz": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "walz",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Tim Walz",
+    "why_now": "Political figure; no sports connection.",
+    "angle": "Not sports-related; exclude.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z"
+  },
+  "tyler nickel": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "tyler nickel",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": true,
+    "early": true,
+    "entity": "Tyler Nickel",
+    "why_now": "Niche athlete; single-platform signal; no major news coverage or context provided.",
+    "angle": "Early signal on minor/emerging athlete; monitor for breakout moment before mainstream pickup.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z"
+  },
+  "bélgica": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "bélgica",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": true,
+    "early": false,
+    "entity": "Belgium (Bélgica)",
+    "why_now": "Spanish/Portuguese language variant; World Cup 2026 squad discussion; no specific moment.",
+    "angle": "Suppress as generic team name; consolidate with Belgium-specific narratives.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z"
+  },
+  "victor wembanyama": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "victor wembanyama",
+    "sports": true,
+    "league": "NBA",
+    "obvious": false,
+    "early": false,
+    "entity": "Victor Wembanyama",
+    "why_now": "MVP favorite odds (34% via Kalshi); Finals performance stats; meme about height/goalkeeper role.",
+    "angle": "Leverage MVP narrative and physical anomaly memes; position as generational talent story.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z",
+   "last_engagement": 295.6666666666667
+  },
+  "ometv": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "ometv",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "#ometv",
+    "why_now": "Video chat platform; no sports connection.",
+    "angle": "Not sports-related; exclude.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z"
+  },
+  "up the hearts": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "up the hearts",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": true,
+    "early": true,
+    "entity": "Up the Hearts (Australian sports chant/team)",
+    "why_now": "Niche regional sports reference; no context or sample tweets; early signal.",
+    "angle": "Monitor for Australian rules football or regional sports moment; insufficient data to act.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z"
+  },
+  "de ketelaere": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "de ketelaere",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": true,
+    "early": false,
+    "entity": "Charles De Ketelaere",
+    "why_now": "Belgium midfielder; World Cup 2026 squad context; no specific moment.",
+    "angle": "Suppress as generic player name; elevate only if transfer, injury, or performance story.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z"
+  },
+  "rodri": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "rodri",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": true,
+    "early": false,
+    "entity": "Rodri",
+    "why_now": "Spain midfielder; World Cup 2026 squad context; no specific moment.",
+    "angle": "Suppress as generic player name; elevate only if injury, transfer, or performance story.",
+    "duplicate_of": null,
+    "market_id": "2431017"
+   },
+   "enriched_at": "2026-07-10T23:00:42Z"
+  },
+  "unai simon": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "unai simon",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": true,
+    "early": false,
+    "entity": "Unai Simón",
+    "why_now": "Spain goalkeeper; World Cup 2026 squad context; no specific moment.",
+    "angle": "Suppress as generic player name; elevate only if performance or controversy story.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z"
+  },
+  "meleek thomas": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "meleek thomas",
+    "sports": true,
+    "league": "College Football",
+    "obvious": true,
+    "early": true,
+    "entity": "Meleek Thomas",
+    "why_now": "College athlete; niche signal; no context or sample tweets provided.",
+    "angle": "Early signal on emerging college player; monitor for recruitment or performance story.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z"
+  },
+  "ufos": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "ufos",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "UFOs / UAP",
+    "why_now": "Pentagon file releases; no sports connection.",
+    "angle": "Not sports-related; exclude.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z"
+  },
+  "doku": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "doku",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": true,
+    "early": false,
+    "entity": "Jérémy Doku",
+    "why_now": "Belgium winger; World Cup 2026 squad context; no specific moment.",
+    "angle": "Suppress as generic player name; elevate only if transfer, injury, or performance story.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z"
+  },
+  "hanoi jane": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "hanoi jane",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Hanoi Jane",
+    "why_now": "Political/cultural reference; no sports connection.",
+    "angle": "Not sports-related; exclude.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z"
+  },
+  "summitfire": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "summitfire",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "#SummitFire",
+    "why_now": "Wildfire/emergency alert; no sports connection.",
+    "angle": "Not sports-related; exclude.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z"
+  },
+  "ferran": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "ferran",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": true,
+    "early": false,
+    "entity": "Ferran Torres",
+    "why_now": "Spain forward; World Cup 2026 squad context; no specific moment.",
+    "angle": "Suppress as generic player name; elevate only if transfer, injury, or performance story.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z"
+  },
+  "cubarsi": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "cubarsi",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": true,
+    "early": false,
+    "entity": "Pau Cubarsí",
+    "why_now": "Spain defender; World Cup 2026 squad context; no specific moment.",
+    "angle": "Suppress as generic player name; elevate only if transfer, injury, or performance story.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z"
+  },
+  "bam and tyler": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "bam and tyler",
+    "sports": true,
+    "league": "NBA",
+    "obvious": false,
+    "early": true,
+    "entity": "Bam Adebayo & Tyler Herro",
+    "why_now": "Miami Heat duo; likely related to 'Heat Culture' meme or summer league/training content.",
+    "angle": "Early signal on Heat player pairing; monitor for chemistry/trade narrative before mainstream.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z"
+  },
+  "demolition lovers": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "demolition lovers",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "DEMOLITION LOVERS",
+    "why_now": "Music/band reference (My Chemical Romance); no sports connection.",
+    "angle": "Not sports-related; exclude.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z"
+  },
+  "poole": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "poole",
+    "sports": true,
+    "league": "NBA",
+    "obvious": true,
+    "early": true,
+    "entity": "Jordan Poole",
+    "why_now": "NBA player; niche signal; no context or sample tweets provided.",
+    "angle": "Early signal on player; monitor for trade, injury, or performance story.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z"
+  },
+  "brayden burries": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "brayden burries",
+    "sports": true,
+    "league": "College Football",
+    "obvious": true,
+    "early": true,
+    "entity": "Brayden Burries",
+    "why_now": "College athlete; niche signal; no context or sample tweets provided.",
+    "angle": "Early signal on emerging college player; monitor for recruitment or performance story.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z"
+  },
+  "belgium 2 1": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "belgium 2 1",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": true,
+    "early": false,
+    "entity": "Belgium 2-1 (match result)",
+    "why_now": "Final score from Spain vs. Belgium World Cup 2026 match; no specific moment or controversy.",
+    "angle": "Suppress as plain scoreboard result; elevate only if specific goal, controversy, or stat anomaly.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z"
+  },
+  "nico williams": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "nico williams",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": true,
+    "early": false,
+    "entity": "Nico Williams",
+    "why_now": "Spain winger; World Cup 2026 squad context; no specific moment.",
+    "angle": "Suppress as generic player name; elevate only if transfer, injury, or performance story.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z"
+  },
+  "olmo": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "olmo",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": true,
+    "early": false,
+    "entity": "Dani Olmo",
+    "why_now": "Spain midfielder; World Cup 2026 squad context; no specific moment.",
+    "angle": "Suppress as generic player name; elevate only if transfer, injury, or performance story.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z"
+  },
+  "dan patrick": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "dan patrick",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": false,
+    "early": false,
+    "entity": "Dan Patrick",
+    "why_now": "Sports broadcaster; no specific moment or quote provided; insufficient context.",
+    "angle": "Monitor for specific commentary or interview; insufficient data to act.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z"
+  },
+  "dr phil": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "dr phil",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Dr. Phil",
+    "why_now": "TV personality; no sports connection.",
+    "angle": "Not sports-related; exclude.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z"
+  },
+  "la roja": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "la roja",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": true,
+    "early": false,
+    "entity": "Spain (La Roja)",
+    "why_now": "Spanish nickname for Spain national team; World Cup 2026 squad discussion; no specific moment.",
+    "angle": "Suppress as generic team name; consolidate with 'spain' candidate.",
+    "duplicate_of": "spain",
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z"
+  },
+  "frank iero": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "frank iero",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "frank iero",
+    "why_now": "Musician (My Chemical Romance); no sports connection.",
+    "angle": "Not sports-related; exclude.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z"
+  },
+  "fabian ruiz": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "fabian ruiz",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": true,
+    "early": false,
+    "entity": "Fabián Ruiz",
+    "why_now": "Spain midfielder; World Cup 2026 squad context; no specific moment.",
+    "angle": "Suppress as generic player name; elevate only if transfer, injury, or performance story.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z"
+  },
+  "bobby portis": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "bobby portis",
+    "sports": true,
+    "league": "NBA",
+    "obvious": true,
+    "early": true,
+    "entity": "Bobby Portis",
+    "why_now": "NBA player; niche signal; no context or sample tweets provided.",
+    "angle": "Early signal on player; monitor for trade, injury, or performance story.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z"
+  },
+  "witsel": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "witsel",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": true,
+    "early": false,
+    "entity": "Axel Witsel",
+    "why_now": "Belgium midfielder; World Cup 2026 squad context; no specific moment.",
+    "angle": "Suppress as generic player name; elevate only if transfer, injury, or performance story.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z"
+  },
+  "amen thompson": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "amen thompson",
+    "sports": true,
+    "league": "NBA",
+    "obvious": true,
+    "early": true,
+    "entity": "Amen Thompson",
+    "why_now": "NBA player; niche signal; no context or sample tweets provided.",
+    "angle": "Early signal on player; monitor for trade, injury, or performance story.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z"
+  },
+  "bams": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "bams",
+    "sports": true,
+    "league": "NBA",
+    "obvious": false,
+    "early": true,
+    "entity": "Bam Adebayo",
+    "why_now": "Miami Heat center; likely related to 'Heat Culture' or 'Bam and Tyler' pairing narrative.",
+    "angle": "Early signal on Heat player; monitor for chemistry/trade narrative before mainstream.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z"
+  },
+  "laporte": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "trends24"
+   ],
+   "enrichment": {
+    "key": "laporte",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": true,
+    "early": false,
+    "entity": "Aymeric Laporte",
+    "why_now": "Spain defender; World Cup 2026 squad context; no specific moment.",
+    "angle": "Suppress as generic player name; elevate only if transfer, injury, or performance story.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z"
+  },
+  "jj wetherholt": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "trends24"
+   ],
+   "enrichment": {
+    "key": "jj wetherholt",
+    "sports": true,
+    "league": "College Football",
+    "obvious": true,
+    "early": true,
+    "entity": "JJ Wetherholt",
+    "why_now": "College athlete; niche signal; no context or sample tweets provided.",
+    "angle": "Early signal on emerging college player; monitor for recruitment or performance story.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z"
+  },
+  "hal jordan": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "trends24"
+   ],
+   "enrichment": {
+    "key": "hal jordan",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Hal Jordan",
+    "why_now": "Comic book character (Green Lantern); no sports connection.",
+    "angle": "Not sports-related; exclude.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z"
+  },
+  "david raya": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "trends24"
+   ],
+   "enrichment": {
+    "key": "david raya",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": true,
+    "early": false,
+    "entity": "David Raya",
+    "why_now": "Spain goalkeeper; World Cup 2026 squad context; no specific moment.",
+    "angle": "Suppress as generic player name; elevate only if performance or controversy story.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z"
+  },
+  "kilmeade": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "trends24"
+   ],
+   "enrichment": {
+    "key": "kilmeade",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Kilmeade",
+    "why_now": "Political commentator; no sports connection.",
+    "angle": "Not sports-related; exclude.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z"
+  },
+  "pedro porro": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "trends24"
+   ],
+   "enrichment": {
+    "key": "pedro porro",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": true,
+    "early": false,
+    "entity": "Pedro Porro",
+    "why_now": "Spain defender; World Cup 2026 squad context; no specific moment.",
+    "angle": "Suppress as generic player name; elevate only if transfer, injury, or performance story.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z"
+  },
+  "guardians vs marlins": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "guardians vs marlins",
+    "sports": true,
+    "league": "MLB",
+    "obvious": true,
+    "early": false,
+    "entity": "Cleveland Guardians vs. Miami Marlins",
+    "why_now": "Scheduled MLB game on 2026-07-10; no specific storyline, just pre-game logistics and betting props.",
+    "angle": "Suppress as plain game logistics; elevate only if specific moment (injury, record, controversy) emerges.",
+    "duplicate_of": null,
+    "market_id": "2795038"
+   },
+   "enriched_at": "2026-07-10T23:00:42Z"
+  },
+  "mariners vs rays": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "mariners vs rays",
+    "sports": true,
+    "league": "MLB",
+    "obvious": true,
+    "early": false,
+    "entity": "Seattle Mariners vs. Tampa Bay Rays",
+    "why_now": "Scheduled MLB game on 2026-07-10; no specific storyline, just pre-game logistics and betting props.",
+    "angle": "Suppress as plain game logistics; elevate only if specific moment (injury, record, controversy) emerges.",
+    "duplicate_of": null,
+    "market_id": "2795040"
+   },
+   "enriched_at": "2026-07-10T23:00:42Z"
+  },
+  "fire near me": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "fire near me",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Pocket Fire (Arizona wildfire)",
+    "why_now": "Emergency/disaster alert; no sports connection.",
+    "angle": "Not sports-related; exclude.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z"
+  },
+  "fetterman mccormick joint fundraising committee": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "fetterman mccormick joint fundraising committee",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Fetterman-McCormick Joint Fundraising Committee",
+    "why_now": "Political news; no sports connection.",
+    "angle": "Not sports-related; exclude.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z"
+  },
+  "pittsburgh weather": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "pittsburgh weather",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Pittsburgh weather",
+    "why_now": "Weather alert; no sports connection.",
+    "angle": "Not sports-related; exclude.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z"
+  },
+  "klystron 9": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "klystron 9",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "klystron 9 (traffic incident)",
+    "why_now": "Traffic/accident alert; no sports connection.",
+    "angle": "Not sports-related; exclude.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z"
+  },
+  "knicks summer league": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "knicks summer league",
+    "sports": true,
+    "league": "NBA",
+    "obvious": false,
+    "early": false,
+    "entity": "New York Knicks Summer League",
+    "why_now": "Jack Kayil second-round pick added to roster; Mohamed Diawara proving-ground narrative.",
+    "angle": "Leverage draft pick storyline and young player development angle for Knicks fan engagement.",
+    "duplicate_of": null,
+    "market_id": "2840891"
+   },
+   "enriched_at": "2026-07-10T23:00:42Z",
+   "last_engagement": 126.33333333333333
+  },
+  "uap": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "uap",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "UAP (Unidentified Anomalous Phenomena)",
+    "why_now": "Pentagon file releases; no sports connection.",
+    "angle": "Not sports-related; exclude.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z"
+  },
+  "alcaraz injury": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "alcaraz injury",
+    "sports": true,
+    "league": "Tennis",
+    "obvious": false,
+    "early": false,
+    "entity": "Carlos Alcaraz injury",
+    "why_now": "World No. 2 missing Canadian Open; recovery/US Open status uncertainty; Rick Macci commentary.",
+    "angle": "Capitalize on injury uncertainty and US Open implications; position as recovery narrative.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z",
+   "last_engagement": 1.0
+  },
+  "sakura": {
+   "first_seen": "2026-07-10T23:00:42Z",
+   "last_seen": "2026-07-10T23:00:42Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "sakura",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Sakura (Naruto live-action casting)",
+    "why_now": "Entertainment news; no sports connection.",
+    "angle": "Not sports-related; exclude.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T23:00:42Z"
   }
  },
  "x_usage": {
   "2026-07-08": 1553,
   "2026-07-09": 2189,
-  "2026-07-10": 1646
+  "2026-07-10": 2137
  },
  "prev_x_trends": [
-  "Tim Walz",
-  "Sinner",
+  "Herro",
+  "$VEX",
+  "Spain",
+  "Merino",
+  "Courtois",
+  "Lammens",
+  "Lamine Yamal",
+  "España",
+  "$20 Robinhood ETH",
+  "#ESPBEL",
+  "OpenAI",
+  "Logan Act",
+  "Pedri",
   "#teenager",
+  "Heat Culture",
+  "Walz",
+  "Tyler Nickel",
+  "Bélgica",
+  "Victor Wembanyama",
+  "#ometv",
+  "Up the Hearts",
+  "De Ketelaere",
+  "Rodri",
+  "Unai Simon",
+  "Meleek Thomas",
+  "UFOs",
+  "Doku",
+  "Hanoi Jane",
+  "#SummitFire",
+  "Ferran",
+  "Cubarsi",
+  "Bam and Tyler",
+  "DEMOLITION LOVERS",
   "Veto",
+  "Poole",
+  "Brayden Burries",
+  "Belgium 2-1",
+  "Nico Williams",
+  "Olmo",
+  "Dan Patrick",
+  "Dr. Phil",
+  "La Roja",
+  "frank iero",
+  "Fabian Ruiz",
   "#FursuitFriday",
-  "Djokovic",
-  "#วาดฝันวันวิวาห์EP4",
-  "Secretary Rubio",
-  "LINGORM ILF EP4",
-  "#momson",
-  "#ValkoWasFramed",
-  "Ann Widdecombe",
-  "Letterboxd",
-  "Tou Lue Vang",
-  "Housing Bill",
-  "Terrion Arnold",
-  "Marco",
-  "Shakur",
-  "Zverev",
-  "Kanan",
+  "Bobby Portis",
   "NRED",
-  "Laos",
-  "Moo Deng",
-  "SpaceX",
-  "Standard Time",
-  "Kathleen Turner",
-  "Shannon",
-  "Jordan Love",
-  "Katy Perry",
-  "Spain vs Belgium",
-  "Laotian",
-  "SK Hynix",
-  "Kathy Griffin",
-  "Happy Friyay",
-  "Spain ML",
-  "Alcaraz",
-  "Shabbat Shalom",
-  "Zay Flowers",
-  "Marvin",
-  "Happy 710",
-  "$SKHYV",
-  "Astro",
-  "Congratulations John",
-  "Good Friday",
-  "Antoinette",
-  "Toys R Us",
-  "Merry Christmas",
-  "Kyle Schwarber",
-  "Nick Shirley",
-  "Navarro"
+  "Witsel",
+  "Amen Thompson",
+  "Bams"
  ],
  "suppressed": [
   {
@@ -11269,6 +12554,156 @@
    "key": "espagne belgique",
    "reason": "Scheduled World Cup quarterfinal match; French-language duplicate of España-Bélgica.",
    "at": "2026-07-10T18:24:24Z"
+  },
+  {
+   "key": "lammens",
+   "reason": "No sample tweets; likely Belgium squad/coaching staff member; insufficient signal clarity.",
+   "at": "2026-07-10T23:00:42Z"
+  },
+  {
+   "key": "españa",
+   "reason": "Spanish language variant of 'Spain'; World Cup 2026 pre-tournament discussion.",
+   "at": "2026-07-10T23:00:42Z"
+  },
+  {
+   "key": "espbel",
+   "reason": "Hashtag for Spain-Belgium match; scheduled event without specific viral moment.",
+   "at": "2026-07-10T23:00:42Z"
+  },
+  {
+   "key": "pedri",
+   "reason": "Spain midfielder; World Cup 2026 squad context; no specific moment or controversy.",
+   "at": "2026-07-10T23:00:42Z"
+  },
+  {
+   "key": "tyler nickel",
+   "reason": "Niche athlete; single-platform signal; no major news coverage or context provided.",
+   "at": "2026-07-10T23:00:42Z"
+  },
+  {
+   "key": "bélgica",
+   "reason": "Spanish/Portuguese language variant; World Cup 2026 squad discussion; no specific moment.",
+   "at": "2026-07-10T23:00:42Z"
+  },
+  {
+   "key": "up the hearts",
+   "reason": "Niche regional sports reference; no context or sample tweets; early signal.",
+   "at": "2026-07-10T23:00:42Z"
+  },
+  {
+   "key": "de ketelaere",
+   "reason": "Belgium midfielder; World Cup 2026 squad context; no specific moment.",
+   "at": "2026-07-10T23:00:42Z"
+  },
+  {
+   "key": "rodri",
+   "reason": "Spain midfielder; World Cup 2026 squad context; no specific moment.",
+   "at": "2026-07-10T23:00:42Z"
+  },
+  {
+   "key": "unai simon",
+   "reason": "Spain goalkeeper; World Cup 2026 squad context; no specific moment.",
+   "at": "2026-07-10T23:00:42Z"
+  },
+  {
+   "key": "meleek thomas",
+   "reason": "College athlete; niche signal; no context or sample tweets provided.",
+   "at": "2026-07-10T23:00:42Z"
+  },
+  {
+   "key": "doku",
+   "reason": "Belgium winger; World Cup 2026 squad context; no specific moment.",
+   "at": "2026-07-10T23:00:42Z"
+  },
+  {
+   "key": "ferran",
+   "reason": "Spain forward; World Cup 2026 squad context; no specific moment.",
+   "at": "2026-07-10T23:00:42Z"
+  },
+  {
+   "key": "cubarsi",
+   "reason": "Spain defender; World Cup 2026 squad context; no specific moment.",
+   "at": "2026-07-10T23:00:42Z"
+  },
+  {
+   "key": "poole",
+   "reason": "NBA player; niche signal; no context or sample tweets provided.",
+   "at": "2026-07-10T23:00:42Z"
+  },
+  {
+   "key": "brayden burries",
+   "reason": "College athlete; niche signal; no context or sample tweets provided.",
+   "at": "2026-07-10T23:00:42Z"
+  },
+  {
+   "key": "belgium 2 1",
+   "reason": "Final score from Spain vs. Belgium World Cup 2026 match; no specific moment or controversy.",
+   "at": "2026-07-10T23:00:42Z"
+  },
+  {
+   "key": "nico williams",
+   "reason": "Spain winger; World Cup 2026 squad context; no specific moment.",
+   "at": "2026-07-10T23:00:42Z"
+  },
+  {
+   "key": "olmo",
+   "reason": "Spain midfielder; World Cup 2026 squad context; no specific moment.",
+   "at": "2026-07-10T23:00:42Z"
+  },
+  {
+   "key": "la roja",
+   "reason": "Spanish nickname for Spain national team; World Cup 2026 squad discussion; no specific moment.",
+   "at": "2026-07-10T23:00:42Z"
+  },
+  {
+   "key": "fabian ruiz",
+   "reason": "Spain midfielder; World Cup 2026 squad context; no specific moment.",
+   "at": "2026-07-10T23:00:42Z"
+  },
+  {
+   "key": "bobby portis",
+   "reason": "NBA player; niche signal; no context or sample tweets provided.",
+   "at": "2026-07-10T23:00:42Z"
+  },
+  {
+   "key": "witsel",
+   "reason": "Belgium midfielder; World Cup 2026 squad context; no specific moment.",
+   "at": "2026-07-10T23:00:42Z"
+  },
+  {
+   "key": "amen thompson",
+   "reason": "NBA player; niche signal; no context or sample tweets provided.",
+   "at": "2026-07-10T23:00:42Z"
+  },
+  {
+   "key": "laporte",
+   "reason": "Spain defender; World Cup 2026 squad context; no specific moment.",
+   "at": "2026-07-10T23:00:42Z"
+  },
+  {
+   "key": "jj wetherholt",
+   "reason": "College athlete; niche signal; no context or sample tweets provided.",
+   "at": "2026-07-10T23:00:42Z"
+  },
+  {
+   "key": "david raya",
+   "reason": "Spain goalkeeper; World Cup 2026 squad context; no specific moment.",
+   "at": "2026-07-10T23:00:42Z"
+  },
+  {
+   "key": "pedro porro",
+   "reason": "Spain defender; World Cup 2026 squad context; no specific moment.",
+   "at": "2026-07-10T23:00:42Z"
+  },
+  {
+   "key": "guardians vs marlins",
+   "reason": "Scheduled MLB game on 2026-07-10; no specific storyline, just pre-game logistics and betting props.",
+   "at": "2026-07-10T23:00:42Z"
+  },
+  {
+   "key": "mariners vs rays",
+   "reason": "Scheduled MLB game on 2026-07-10; no specific storyline, just pre-game logistics and betting props.",
+   "at": "2026-07-10T23:00:42Z"
   }
  ],
  "slack_posted": {
@@ -11547,6 +12982,46 @@
   "the white house": {
    "score": 39,
    "at": "2026-07-10T18:24:24Z"
+  },
+  "bam and tyler": {
+   "score": 53,
+   "at": "2026-07-10T23:00:42Z"
+  },
+  "bams": {
+   "score": 53,
+   "at": "2026-07-10T23:00:42Z"
+  },
+  "herro": {
+   "score": 49,
+   "at": "2026-07-10T23:00:42Z"
+  },
+  "heat culture": {
+   "score": 49,
+   "at": "2026-07-10T23:00:42Z"
+  },
+  "victor wembanyama": {
+   "score": 49,
+   "at": "2026-07-10T23:00:42Z"
+  },
+  "spain": {
+   "score": 49,
+   "at": "2026-07-10T23:00:42Z"
+  },
+  "merino": {
+   "score": 49,
+   "at": "2026-07-10T23:00:42Z"
+  },
+  "courtois": {
+   "score": 49,
+   "at": "2026-07-10T23:00:42Z"
+  },
+  "lamine yamal": {
+   "score": 49,
+   "at": "2026-07-10T23:00:42Z"
+  },
+  "dan patrick": {
+   "score": 43,
+   "at": "2026-07-10T23:00:42Z"
   }
  }
 }
