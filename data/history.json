@@ -1833,8 +1833,9 @@
   },
   "conor": {
    "first_seen": "2026-07-08T19:20:02Z",
-   "last_seen": "2026-07-08T19:20:02Z",
+   "last_seen": "2026-07-10T06:48:46Z",
    "sources_seen": [
+    "trends24",
     "x"
    ],
    "enrichment": {
@@ -1842,14 +1843,14 @@
     "sports": true,
     "league": "MMA/Boxing",
     "obvious": false,
-    "early": true,
-    "entity": "Conor McGregor",
-    "why_now": "MMA fighter name trending on X; no sample tweets or context; likely related to UFC 329 market or recent news.",
-    "angle": "Monitor for fight announcement, comeback news, or controversy; early signal on niche sports platform.",
+    "early": false,
+    "entity": "Conor McGregor (MMA fighter)",
+    "why_now": "Likely UFC 329 fight announcement or training camp discussion.",
+    "angle": "MMA fighter news—monitor for fight announcement or comeback narrative.",
     "duplicate_of": null,
     "market_id": "2289164"
    },
-   "enriched_at": "2026-07-08T19:20:02Z"
+   "enriched_at": "2026-07-10T06:48:46Z"
   },
   "bethesda": {
    "first_seen": "2026-07-08T19:20:02Z",
@@ -3052,7 +3053,7 @@
   },
   "kelsey mitchell": {
    "first_seen": "2026-07-09T06:47:53Z",
-   "last_seen": "2026-07-09T06:47:53Z",
+   "last_seen": "2026-07-10T06:48:46Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -3060,16 +3061,16 @@
    "enrichment": {
     "key": "kelsey mitchell",
     "sports": true,
-    "league": "NBA",
+    "league": "Other Sports",
     "obvious": false,
-    "early": false,
-    "entity": "Kelsey Mitchell",
-    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
-    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "early": true,
+    "entity": "Kelsey Mitchell (athlete, context unclear)",
+    "why_now": "Dropped from rank 14 to 32; likely sports performance or personal news.",
+    "angle": "Athlete-related content—monitor for competition results or career news.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-09T06:47:53Z",
+   "enriched_at": "2026-07-10T06:48:46Z",
    "last_engagement": 401.0
   },
   "thevalley": {
@@ -7610,24 +7611,26 @@
   },
   "summer league": {
    "first_seen": "2026-07-09T23:14:06Z",
-   "last_seen": "2026-07-09T23:14:06Z",
+   "last_seen": "2026-07-10T06:48:46Z",
    "sources_seen": [
-    "google"
+    "google",
+    "trends24",
+    "x"
    ],
    "enrichment": {
     "key": "summer league",
     "sports": true,
     "league": "NBA",
     "obvious": false,
-    "early": true,
-    "entity": "summer league",
-    "why_now": "Spiking on google; driver unconfirmed (fallback classifier — no LLM key).",
-    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "early": false,
+    "entity": "NBA Summer League 2026",
+    "why_now": "Ongoing Summer League competition; sample tweets discuss prospect performance and draft implications.",
+    "angle": "NBA prospect evaluation content—leverage Summer League performances for draft narrative and emerging talent stories.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-09T23:14:06Z",
-   "last_engagement": 813.6666666666666
+   "enriched_at": "2026-07-10T06:48:46Z",
+   "last_engagement": 814.0
   },
   "evil dead": {
    "first_seen": "2026-07-09T23:14:06Z",
@@ -7811,63 +7814,1331 @@
     "market_id": null
    },
    "enriched_at": "2026-07-09T23:14:06Z"
+  },
+  "raisingkanan": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "raisingkanan",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Raising Kanan Season 5",
+    "why_now": "New episode reveals Tiana is Jarita (Kanan's mother); character arc and family mystery driving fan discussion.",
+    "angle": "Leverage the shocking family reveal and character backstory for drama-focused content marketing around the show's mythology.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "valkowasframed": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "valkowasframed",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Valko (Love and Deep Space character)",
+    "why_now": "Fan protest campaign claiming character was wrongly blamed; organized hashtag activism across multiple platforms.",
+    "angle": "Early fandom mobilization moment—monitor for potential game/anime community crossover content if campaign gains mainstream traction.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "yeonjun": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "yeonjun",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Yeonjun (TOMORROW X TOGETHER)",
+    "why_now": "Won multiple awards at 2026 KM Chart Awards; viral meme comparing his achievements to Ronaldo's World Cup record.",
+    "angle": "K-pop award season content; leverage the humorous Ronaldo comparison for cross-cultural sports/music audience engagement.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "therealme": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "therealme",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Future (album 'The Real Me')",
+    "why_now": "Album release countdown; producer Wheezy teasing imminent drop; fan hype building across social media.",
+    "angle": "Music release marketing—capitalize on pre-launch momentum with countdown content and producer/artist collaboration angles.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "bb28": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "bb28",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Big Brother Season 28",
+    "why_now": "Cast speculation and sequester tracking; fans debating returnee appearances (Angela Murray, Johnny Bananas, Russell Hantz).",
+    "angle": "Reality TV casting drama—use returnee speculation and fan theories to drive engagement before official cast reveal.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "wagler": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "wagler",
+    "sports": true,
+    "league": "NBA",
+    "obvious": false,
+    "early": true,
+    "entity": "Keaton Wagler (LA Clippers rookie)",
+    "why_now": "Summer League prospect; quoted expressing confidence about facing Kevin Durant; early-season hype for young player.",
+    "angle": "Emerging NBA talent story—ride the Summer League momentum with underdog rookie narrative before regular season.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z",
+   "last_engagement": 186.33333333333334
+  },
+  "shakur": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "shakur",
+    "sports": true,
+    "league": "MMA/Boxing",
+    "obvious": false,
+    "early": false,
+    "entity": "Shakur Stevenson (boxer)",
+    "why_now": "Negotiation beef with Devin Haney over fight purse splits; hypocrisy accusations (75/25 vs 70/30 offers).",
+    "angle": "Boxing drama and contract negotiation angle—leverage the Haney hypocrisy narrative for sports business content.",
+    "duplicate_of": null,
+    "market_id": "2289164"
+   },
+   "enriched_at": "2026-07-10T06:48:46Z",
+   "last_engagement": 914.3333333333334
+  },
+  "marvin": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "marvin",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Jumpy Marvin (SML character/meme)",
+    "why_now": "Viral joke tweet about retired SML character being arrested; absurdist humor driving engagement.",
+    "angle": "Niche internet culture moment—monitor for broader meme potential if the joke spreads beyond SML fan communities.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "rachel": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "rachel",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Rachel (context unclear)",
+    "why_now": "Spiking on X and trends24; no sample tweets available; driver unconfirmed.",
+    "angle": "Insufficient data—monitor for clarification on what Rachel-related moment is driving the trend.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "eye to eye": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "eye to eye",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Eye to Eye (context unclear)",
+    "why_now": "Climbing from rank 20 to 10; no sample tweets; likely music, show, or cultural reference.",
+    "angle": "Insufficient data—requires clarification before marketing strategy can be developed.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "pluto": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "pluto",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Pluto (context unclear)",
+    "why_now": "X-only trend; no sample tweets; driver unconfirmed.",
+    "angle": "Insufficient data—monitor for context before engagement.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "valkoisinnocent": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "valkoisinnocent",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Valko (Love and Deep Space character)",
+    "why_now": "Companion hashtag to #ValkoWasFramed; organized fan campaign claiming character innocence.",
+    "angle": "Part of same fandom activism as ValkoWasFramed—consolidate messaging around character vindication narrative.",
+    "duplicate_of": "valkowasframed",
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "shannon": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "shannon",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Shannon (context unclear)",
+    "why_now": "Trending on X and trends24; no sample tweets; driver unconfirmed.",
+    "angle": "Insufficient data—requires clarification.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "evil dead burn": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "evil dead burn",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Evil Dead Burn (film)",
+    "why_now": "Movie release or marketing campaign; climbing trend suggests promotional push or opening weekend discussion.",
+    "angle": "Horror film marketing—leverage opening weekend box office narrative and fan reactions.",
+    "duplicate_of": null,
+    "market_id": "2820821"
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "ty harris": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "ty harris",
+    "sports": true,
+    "league": "College Basketball",
+    "obvious": false,
+    "early": true,
+    "entity": "Ty Harris (college basketball player)",
+    "why_now": "Climbing from rank 7 to 15; likely Summer League or draft-related prospect discussion.",
+    "angle": "Emerging college basketball talent—monitor for NBA Summer League or draft narrative.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "money over everything": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "money over everything",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Money Over Everything (context unclear)",
+    "why_now": "Trending on both X and trends24; likely music release or cultural reference.",
+    "angle": "Insufficient data—monitor for clarification.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "aj dybantsa": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "aj dybantsa",
+    "sports": true,
+    "league": "College Basketball",
+    "obvious": false,
+    "early": true,
+    "entity": "AJ Dybantsa (college basketball prospect)",
+    "why_now": "Dropped from rank 8 to 13; likely Summer League or recruitment-related discussion.",
+    "angle": "High school/college basketball prospect—monitor for Summer League performance or commitment news.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "no misery": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "no misery",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "No Misery (context unclear)",
+    "why_now": "Stable trend on both platforms; likely music or cultural reference.",
+    "angle": "Insufficient data—requires clarification.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "california girls": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "california girls",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "California Girls (context unclear)",
+    "why_now": "Trending on both platforms; likely music reference or cultural moment.",
+    "angle": "Insufficient data—monitor for context.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "tre johnson": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "tre johnson",
+    "sports": true,
+    "league": "College Basketball",
+    "obvious": false,
+    "early": true,
+    "entity": "Tre Johnson (college basketball player)",
+    "why_now": "Dropped from rank 11 to 20; likely Summer League or draft prospect discussion.",
+    "angle": "College basketball prospect—monitor for Summer League performance or NBA draft news.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "trench coat": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "trench coat",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Trench Coat (context unclear)",
+    "why_now": "Climbing trend; likely fashion, film, or cultural reference.",
+    "angle": "Insufficient data—requires clarification.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "weight up": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "weight up",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Weight Up (context unclear)",
+    "why_now": "Trending on both platforms; likely music or cultural reference.",
+    "angle": "Insufficient data—monitor for context.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "kelela": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "kelela",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Kelela (musician)",
+    "why_now": "Climbing from rank 50 to 23; likely new music release or performance announcement.",
+    "angle": "Music artist momentum—leverage new release or tour announcement for fan engagement.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "jihyo": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "jihyo",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Jihyo (TWICE member)",
+    "why_now": "Stable trend; likely music release, award win, or personal news.",
+    "angle": "K-pop artist content—monitor for new music or award season activity.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "no labels part 2 out now": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "no labels part 2 out now",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "No Labels Part 2 (music release)",
+    "why_now": "Album or EP release announcement; explicit 'OUT NOW' messaging driving immediate engagement.",
+    "angle": "Music release marketing—capitalize on launch day momentum with streaming and reaction content.",
+    "duplicate_of": "nolabels_part02",
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "emanuel sharp": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "emanuel sharp",
+    "sports": true,
+    "league": "College Basketball",
+    "obvious": false,
+    "early": true,
+    "entity": "Emanuel Sharp (college basketball player)",
+    "why_now": "Climbing from rank 35 to 26; likely Summer League or draft prospect discussion.",
+    "angle": "Emerging college basketball talent—monitor for Summer League performance.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "election assistance commission": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "election assistance commission",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Election Assistance Commission (U.S. government body)",
+    "why_now": "Political/government trend; likely election-related news or policy discussion.",
+    "angle": "Non-sports political content—outside marketing scope.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "baby wassup": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "baby wassup",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Baby Wassup (context unclear)",
+    "why_now": "Trending on both platforms; likely music or cultural reference.",
+    "angle": "Insufficient data—requires clarification.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "plaschke": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "plaschke",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": false,
+    "early": true,
+    "entity": "Bill Plaschke (LA Times sports columnist)",
+    "why_now": "Likely recent column or sports commentary generating discussion.",
+    "angle": "Sports media personality—monitor for viral take or controversial opinion.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "norcal": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "norcal",
+    "sports": true,
+    "league": "College Basketball",
+    "obvious": false,
+    "early": true,
+    "entity": "Northern California (college basketball region)",
+    "why_now": "Likely Summer League or recruiting discussion tied to NorCal prospects.",
+    "angle": "Regional college basketball narrative—monitor for Summer League or recruitment news.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "cody williams": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "cody williams",
+    "sports": true,
+    "league": "College Basketball",
+    "obvious": false,
+    "early": true,
+    "entity": "Cody Williams (college basketball player)",
+    "why_now": "Dropped from rank 19 to 33; likely Summer League or draft prospect discussion.",
+    "angle": "College basketball prospect—monitor for Summer League performance or NBA draft news.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "peterson": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "peterson",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": false,
+    "early": true,
+    "entity": "Peterson (athlete, context unclear)",
+    "why_now": "Dropped from rank 18 to 34; likely sports performance or personal news.",
+    "angle": "Athlete-related content—monitor for competition results.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "sinceres": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "sinceres",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Sinceres (context unclear)",
+    "why_now": "Trending on both platforms; likely music or cultural reference.",
+    "angle": "Insufficient data—requires clarification.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "one two": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "one two",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "One Two (context unclear)",
+    "why_now": "Stable trend on both platforms; likely music or cultural reference.",
+    "angle": "Insufficient data—requires clarification.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "snow in skyami": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "snow in skyami",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Snow in Skyami (context unclear)",
+    "why_now": "New trend; likely music, show, or cultural reference.",
+    "angle": "Insufficient data—requires clarification.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "baba miller": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "baba miller",
+    "sports": true,
+    "league": "NBA",
+    "obvious": false,
+    "early": true,
+    "entity": "Baba Miller (NBA Summer League player)",
+    "why_now": "Summer League prospect; mentioned alongside Keaton Wagler in Summer League Champs context.",
+    "angle": "Emerging NBA talent—ride Summer League momentum with underdog prospect narrative.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "off the hinge": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "off the hinge",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Off the Hinge (context unclear)",
+    "why_now": "New trend; likely music or cultural reference.",
+    "angle": "Insufficient data—requires clarification.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "megyn": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "megyn",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Megyn (likely Megyn Kelly, broadcaster)",
+    "why_now": "Stable trend; likely media personality news or commentary.",
+    "angle": "Monitor for viral take or controversial statement from broadcaster.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "james woods": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "james woods",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "James Woods (actor/personality)",
+    "why_now": "Trending on X; likely social media activity or personal news.",
+    "angle": "Monitor for viral statement or cultural moment.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "henitentiary": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "henitentiary",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Henitentiary (context unclear)",
+    "why_now": "Trending on both platforms; likely music or cultural reference.",
+    "angle": "Insufficient data—requires clarification.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "angela": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "angela",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Angela (context unclear)",
+    "why_now": "Stable trend; likely personal name or character reference.",
+    "angle": "Insufficient data—requires clarification.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "chuu": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "chuu",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Chuu (K-pop artist)",
+    "why_now": "Stable trend; likely music release, award, or personal news.",
+    "angle": "K-pop artist content—monitor for new music or award season activity.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "karaban": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "karaban",
+    "sports": true,
+    "league": "College Basketball",
+    "obvious": false,
+    "early": true,
+    "entity": "Karaban (college basketball player, context unclear)",
+    "why_now": "Dropped from rank 37 to 46; likely Summer League or draft prospect discussion.",
+    "angle": "College basketball prospect—monitor for Summer League performance.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "will riley": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "will riley",
+    "sports": true,
+    "league": "College Basketball",
+    "obvious": false,
+    "early": true,
+    "entity": "Will Riley (college basketball player)",
+    "why_now": "Dropped from rank 31 to 47; likely Summer League or draft prospect discussion.",
+    "angle": "College basketball prospect—monitor for Summer League performance or NBA draft news.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "anne": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "anne",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Anne (context unclear)",
+    "why_now": "Dropped from rank 33 to 48; likely personal name or character reference.",
+    "angle": "Insufficient data—requires clarification.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "max holloway": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "max holloway",
+    "sports": true,
+    "league": "MMA/Boxing",
+    "obvious": false,
+    "early": false,
+    "entity": "Max Holloway (MMA fighter)",
+    "why_now": "UFC 329 fight announcement or training camp discussion.",
+    "angle": "MMA fighter news—leverage UFC 329 fight narrative.",
+    "duplicate_of": null,
+    "market_id": "2289164"
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "cam christie": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "cam christie",
+    "sports": true,
+    "league": "NBA",
+    "obvious": false,
+    "early": true,
+    "entity": "Cam Christie (NBA Summer League player)",
+    "why_now": "Summer League prospect; mentioned alongside Keaton Wagler in Summer League Champs context.",
+    "angle": "Emerging NBA talent—ride Summer League momentum with prospect narrative.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "tank top pluto": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "trends24"
+   ],
+   "enrichment": {
+    "key": "tank top pluto",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Tank Top Pluto (context unclear)",
+    "why_now": "Stable trend on trends24; likely music or cultural reference.",
+    "angle": "Insufficient data—requires clarification.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "nolabels_part02": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "trends24"
+   ],
+   "enrichment": {
+    "key": "nolabels_part02",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "No Labels Part 2 (music release)",
+    "why_now": "Album or EP release; explicit 'OUT NOW' messaging driving engagement.",
+    "angle": "Music release marketing—capitalize on launch day momentum.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "mama harvey": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "trends24"
+   ],
+   "enrichment": {
+    "key": "mama harvey",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Mama Harvey (context unclear)",
+    "why_now": "Trending on trends24; likely personal or character reference.",
+    "angle": "Insufficient data—requires clarification.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "butterfinger": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "trends24"
+   ],
+   "enrichment": {
+    "key": "butterfinger",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Butterfinger (context unclear)",
+    "why_now": "New trend on trends24; likely brand, product, or cultural reference.",
+    "angle": "Insufficient data—requires clarification.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "iu and lee jong suk": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "iu and lee jong suk",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "IU and Lee Jong-suk (K-pop/K-drama personalities)",
+    "why_now": "Breakup announcement after 4-year relationship; multiple news outlets covering the story.",
+    "angle": "Celebrity relationship news—leverage the breakup narrative for entertainment content marketing.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "earthquake kona": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "earthquake kona",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Earthquake Kona (context unclear)",
+    "why_now": "Google traffic spike; likely natural disaster or location-based news.",
+    "angle": "Monitor for clarification; likely non-sports news.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "elisha ellison": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "elisha ellison",
+    "sports": true,
+    "league": "MMA/Boxing",
+    "obvious": false,
+    "early": false,
+    "entity": "Elisha Ellison (UFC heavyweight)",
+    "why_now": "UFC 329 underdog matchup vs. Gable Steveson; massive odds (+1300); fan support for upset narrative.",
+    "angle": "MMA underdog story—leverage the massive odds and fan backing for David vs. Goliath narrative.",
+    "duplicate_of": null,
+    "market_id": "2712984"
+   },
+   "enriched_at": "2026-07-10T06:48:46Z",
+   "last_engagement": 641.6666666666666
+  },
+  "cher": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "cher",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Cher (entertainer)",
+    "why_now": "Google traffic spike; likely personal news or retrospective article.",
+    "angle": "Monitor for clarification; likely entertainment news.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "kristen stewart": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "kristen stewart",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Kristen Stewart (actress)",
+    "why_now": "Google traffic spike; likely film release or personal news.",
+    "angle": "Monitor for clarification; likely entertainment news.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "sinner vs djokovic": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "sinner vs djokovic",
+    "sports": true,
+    "league": "Tennis",
+    "obvious": false,
+    "early": false,
+    "entity": "Jannik Sinner vs. Novak Djokovic (Wimbledon semifinal)",
+    "why_now": "Wimbledon semifinal matchup; blockbuster tennis moment between generational rivals.",
+    "angle": "Tennis marquee matchup—leverage the Sinner-Djokovic generational narrative for sports content.",
+    "duplicate_of": null,
+    "market_id": "2836554"
+   },
+   "enriched_at": "2026-07-10T06:48:46Z",
+   "last_engagement": 50.0
+  },
+  "jon bernthal": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "jon bernthal",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Jon Bernthal (actor)",
+    "why_now": "Google traffic spike; likely MCU/Punisher-related news.",
+    "angle": "Monitor for clarification; likely entertainment news.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "bayeux tapestry": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "bayeux tapestry",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Bayeux Tapestry (historical artifact)",
+    "why_now": "Google traffic spike; likely museum exhibition or cultural news.",
+    "angle": "Monitor for clarification; non-sports cultural content.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "real estate": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "real estate",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Real Estate (market/industry)",
+    "why_now": "Google traffic spike; likely housing market news or economic report.",
+    "angle": "Monitor for clarification; non-sports business content.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
+  },
+  "instagram": {
+   "first_seen": "2026-07-10T06:48:46Z",
+   "last_seen": "2026-07-10T06:48:46Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "instagram",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Instagram (Meta platform)",
+    "why_now": "Google traffic spike; likely AI image generator or privacy policy news.",
+    "angle": "Monitor for clarification; non-sports tech content.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-10T06:48:46Z"
   }
  },
  "x_usage": {
   "2026-07-08": 1553,
-  "2026-07-09": 2189
+  "2026-07-09": 2189,
+  "2026-07-10": 590
  },
  "prev_x_trends": [
-  "Morocco",
-  "Mbappe",
-  "Philon",
-  "Bono",
-  "Francia",
-  "#FRAMAR",
-  "Zuffa",
-  "Lance",
-  "Marruecos",
-  "Okorie",
-  "Hakimi",
-  "Tyler",
-  "Fort Worth",
-  "Moroccan",
-  "Mateta",
-  "20 World Cup",
-  "Little Italy",
-  "Kone",
-  "Italians",
-  "Cellebrite",
-  "#FIFAworldcupFootball",
-  "Bounou",
-  "Bryce Harper",
-  "Yogesh Sayrange",
-  "Rabiot",
-  "Doue",
-  "Broome",
-  "Codex",
-  "#FRAvsMAR",
-  "Catholic Charities",
-  "Les Bleus",
-  "Deschamps",
-  "Carter Bryant",
-  "Black Ops 2",
-  "#MeatballMania",
-  "Shakur Stevenson",
-  "Destin Daniel Cretton",
-  "Joan Beringer",
-  "Merry Christmas",
-  "Rayo",
-  "Free Willy",
-  "Digne",
-  "Ft Worth",
-  "Upamecano",
-  "Ballmer",
-  "#Orientation",
-  "FUPA",
-  "2-0 France",
-  "Mazraoui",
-  "Palm Beach"
+  "#RaisingKanan",
+  "#ValkoWasFramed",
+  "yeonjun",
+  "#TheRealMe",
+  "#bb28",
+  "Wagler",
+  "Shakur",
+  "Marvin",
+  "Rachel",
+  "Eye to Eye",
+  "Pluto",
+  "#ValkoIsInnocent",
+  "Shannon",
+  "Evil Dead Burn",
+  "Ty Harris",
+  "Money Over Everything",
+  "AJ Dybantsa",
+  "No Misery",
+  "California Girls",
+  "Tre Johnson",
+  "Trench Coat",
+  "Weight Up",
+  "Kelela",
+  "Jihyo",
+  "NO LABELS PART 2 OUT NOW",
+  "Emanuel Sharp",
+  "Election Assistance Commission",
+  "Baby Wassup",
+  "Plaschke",
+  "NorCal",
+  "Conor",
+  "Kelsey Mitchell",
+  "Cody Williams",
+  "Peterson",
+  "Sinceres",
+  "One Two",
+  "Snow in Skyami",
+  "Baba Miller",
+  "Off the Hinge",
+  "Megyn",
+  "James Woods",
+  "Summer League",
+  "Henitentiary",
+  "Angela",
+  "Chuu",
+  "Karaban",
+  "Will Riley",
+  "Anne",
+  "Max Holloway",
+  "Cam Christie"
  ],
  "suppressed": [
   {
@@ -8236,6 +9507,46 @@
   "framar": {
    "score": 49,
    "at": "2026-07-09T23:14:06Z"
+  },
+  "emanuel sharp": {
+   "score": 73,
+   "at": "2026-07-10T06:48:46Z"
+  },
+  "norcal": {
+   "score": 73,
+   "at": "2026-07-10T06:48:46Z"
+  },
+  "wagler": {
+   "score": 59,
+   "at": "2026-07-10T06:48:46Z"
+  },
+  "ty harris": {
+   "score": 53,
+   "at": "2026-07-10T06:48:46Z"
+  },
+  "aj dybantsa": {
+   "score": 53,
+   "at": "2026-07-10T06:48:46Z"
+  },
+  "tre johnson": {
+   "score": 53,
+   "at": "2026-07-10T06:48:46Z"
+  },
+  "cody williams": {
+   "score": 53,
+   "at": "2026-07-10T06:48:46Z"
+  },
+  "karaban": {
+   "score": 53,
+   "at": "2026-07-10T06:48:46Z"
+  },
+  "will riley": {
+   "score": 53,
+   "at": "2026-07-10T06:48:46Z"
+  },
+  "baba miller": {
+   "score": 53,
+   "at": "2026-07-10T06:48:46Z"
   }
  }
 }
