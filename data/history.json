@@ -1689,7 +1689,7 @@
   },
   "khabib": {
    "first_seen": "2026-07-08T19:20:02Z",
-   "last_seen": "2026-07-08T23:10:55Z",
+   "last_seen": "2026-07-12T06:06:41Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -1700,13 +1700,13 @@
     "league": "MMA/Boxing",
     "obvious": false,
     "early": true,
-    "entity": "Khabib",
-    "why_now": "Trending with no sample tweets; likely related to UFC 329 or Conor McGregor return fight context.",
-    "angle": "Monitor for MMA news; early signal before mainstream coverage.",
+    "entity": "Khabib Nurmagomedov",
+    "why_now": "Co-trending with UFC329 and McGregor; likely commentary or comparison in MMA discourse.",
+    "angle": "Early signal on MMA legacy discussion; potential McGregor vs Khabib narrative resurfacing.",
     "duplicate_of": null,
-    "market_id": "2289164"
+    "market_id": null
    },
-   "enriched_at": "2026-07-08T23:10:55Z"
+   "enriched_at": "2026-07-12T06:06:41Z"
   },
   "ryan grim": {
    "first_seen": "2026-07-08T19:20:02Z",
@@ -3989,23 +3989,23 @@
   },
   "ca lottery": {
    "first_seen": "2026-07-09T06:47:53Z",
-   "last_seen": "2026-07-09T06:47:53Z",
+   "last_seen": "2026-07-12T06:06:41Z",
    "sources_seen": [
     "google"
    ],
    "enrichment": {
     "key": "ca lottery",
-    "sports": true,
-    "league": "NFL",
-    "obvious": false,
-    "early": true,
-    "entity": "ca lottery",
-    "why_now": "Spiking on google; driver unconfirmed (fallback classifier — no LLM key).",
-    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "California Lottery",
+    "why_now": "Lottery news; no sports connection.",
+    "angle": null,
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-09T06:47:53Z",
+   "enriched_at": "2026-07-12T06:06:41Z",
    "last_engagement": 0.6666666666666666
   },
   "bitcoin": {
@@ -14822,7 +14822,7 @@
   },
   "ufc329": {
    "first_seen": "2026-07-11T17:55:41Z",
-   "last_seen": "2026-07-11T22:52:55Z",
+   "last_seen": "2026-07-12T06:06:41Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -14833,13 +14833,13 @@
     "league": "MMA/Boxing",
     "obvious": false,
     "early": false,
-    "entity": "UFC 329",
-    "why_now": "McGregor vs. Holloway main event; McGregor quote about preparation and mindset; pre-fight hype.",
-    "angle": "Ride McGregor's locked-in narrative; feature his comeback mentality and fight-week intensity.",
-    "duplicate_of": null,
-    "market_id": "2289164"
+    "entity": "UFC329",
+    "why_now": "McGregor vs Holloway main event; multiple fighter matchups announced; betting lines and predictions circulating.",
+    "angle": "Position as the marquee UFC event of the moment; tie to McGregor's return and fighter storylines for pre-fight coverage.",
+    "duplicate_of": "mcgregor",
+    "market_id": null
    },
-   "enriched_at": "2026-07-11T17:55:41Z",
+   "enriched_at": "2026-07-12T06:06:41Z",
    "last_engagement": 898.3333333333334
   },
   "us congressman": {
@@ -14928,7 +14928,7 @@
   },
   "mcgregor": {
    "first_seen": "2026-07-11T17:55:41Z",
-   "last_seen": "2026-07-11T17:55:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -14940,12 +14940,13 @@
     "obvious": false,
     "early": false,
     "entity": "Conor McGregor",
-    "why_now": "UFC 329 main event; McGregor quote on preparation, ego-free mindset, striking work; backup fighter Ruffy speculation.",
-    "angle": "Feature McGregor's comeback narrative and mental preparation; leverage pre-fight intensity.",
-    "duplicate_of": "ufc329",
-    "market_id": "2289164"
+    "why_now": "McGregor's return to octagon at UFC329 vs Max Holloway; quotes about preparation and dominance; breaking toe injury footage released.",
+    "angle": "Leverage McGregor's comeback narrative and his confident pre-fight messaging for betting/hype content; the injury-recovery angle adds redemption story.",
+    "duplicate_of": null,
+    "market_id": null
    },
-   "enriched_at": "2026-07-11T17:55:41Z"
+   "enriched_at": "2026-07-12T06:06:41Z",
+   "last_engagement": 2401.6666666666665
   },
   "esmerlyn valdez": {
    "first_seen": "2026-07-11T17:55:41Z",
@@ -15053,8 +15054,9 @@
   },
   "holloway": {
    "first_seen": "2026-07-11T17:55:41Z",
-   "last_seen": "2026-07-11T17:55:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
    "sources_seen": [
+    "trends24",
     "x"
    ],
    "enrichment": {
@@ -15064,12 +15066,12 @@
     "obvious": false,
     "early": false,
     "entity": "Max Holloway",
-    "why_now": "UFC 329 co-main event vs. McGregor; weight-cut and backup-fighter speculation.",
-    "angle": "Feature Holloway's return and McGregor matchup narrative.",
-    "duplicate_of": "ufc329",
-    "market_id": "2289164"
+    "why_now": "McGregor's warning to Holloway ahead of UFC329 fight; high-stakes matchup with title implications.",
+    "angle": "Highlight Holloway's underdog positioning and McGregor's psychological warfare; frame as David vs Goliath narrative.",
+    "duplicate_of": "mcgregor",
+    "market_id": null
    },
-   "enriched_at": "2026-07-11T17:55:41Z"
+   "enriched_at": "2026-07-12T06:06:41Z"
   },
   "homeboy": {
    "first_seen": "2026-07-11T17:55:41Z",
@@ -15642,28 +15644,28 @@
   },
   "norway": {
    "first_seen": "2026-07-11T22:52:55Z",
-   "last_seen": "2026-07-11T22:52:55Z",
+   "last_seen": "2026-07-12T06:06:41Z",
    "sources_seen": [
     "trends24",
     "x"
    ],
    "enrichment": {
     "key": "norway",
-    "sports": false,
-    "league": null,
+    "sports": true,
+    "league": "Soccer",
     "obvious": false,
-    "early": false,
+    "early": true,
     "entity": "Norway",
-    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
-    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "why_now": "Co-trending with World Cup context; likely World Cup team or player nation.",
+    "angle": "Early signal on World Cup team narrative; secondary nation angle.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-11T22:52:55Z"
+   "enriched_at": "2026-07-12T06:06:41Z"
   },
   "haaland": {
    "first_seen": "2026-07-11T22:52:55Z",
-   "last_seen": "2026-07-11T22:52:55Z",
+   "last_seen": "2026-07-12T06:06:41Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -15674,40 +15676,41 @@
     "league": "Soccer",
     "obvious": false,
     "early": false,
-    "entity": "Haaland",
-    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
-    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "entity": "Erling Haaland",
+    "why_now": "Haaland song meme viral; 'Haaland Haaland he's blue just like his dad' earworm; Peruvian children named after him.",
+    "angle": "Tap into Haaland's cultural meme status and the viral song; use for light-hearted soccer content.",
     "duplicate_of": null,
-    "market_id": null
+    "market_id": "608541"
    },
-   "enriched_at": "2026-07-11T22:52:55Z",
-   "last_engagement": 177.0
+   "enriched_at": "2026-07-12T06:06:41Z",
+   "last_engagement": 40.0
   },
   "sorloth": {
    "first_seen": "2026-07-11T22:52:55Z",
-   "last_seen": "2026-07-11T22:52:55Z",
+   "last_seen": "2026-07-12T06:06:41Z",
    "sources_seen": [
     "trends24",
     "x"
    ],
    "enrichment": {
     "key": "sorloth",
-    "sports": false,
-    "league": null,
+    "sports": true,
+    "league": "Soccer",
     "obvious": false,
-    "early": false,
-    "entity": "Sorloth",
-    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
-    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "early": true,
+    "entity": "Alexander Sørloth",
+    "why_now": "Co-trending with World Cup context; likely player in tournament.",
+    "angle": "Early signal on Sørloth's World Cup role; secondary player angle.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-11T22:52:55Z"
+   "enriched_at": "2026-07-12T06:06:41Z"
   },
   "bellingham": {
    "first_seen": "2026-07-11T22:52:55Z",
-   "last_seen": "2026-07-11T22:52:55Z",
+   "last_seen": "2026-07-12T06:06:41Z",
    "sources_seen": [
+    "trends24",
     "x"
    ],
    "enrichment": {
@@ -15715,15 +15718,15 @@
     "sports": true,
     "league": "Soccer",
     "obvious": false,
-    "early": true,
-    "entity": "Bellingham",
-    "why_now": "Spiking on x; driver unconfirmed (fallback classifier — no LLM key).",
-    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "early": false,
+    "entity": "Jude Bellingham",
+    "why_now": "Bellingham station renamed in his honor; England World Cup stats; betting picks on his performance.",
+    "angle": "Leverage Bellingham's star power and England's World Cup campaign; use station renaming as cultural moment.",
     "duplicate_of": null,
-    "market_id": null
+    "market_id": "2069639"
    },
-   "enriched_at": "2026-07-11T22:52:55Z",
-   "last_engagement": 192.0
+   "enriched_at": "2026-07-12T06:06:41Z",
+   "last_engagement": 346.0
   },
   "kane": {
    "first_seen": "2026-07-11T22:52:55Z",
@@ -15914,7 +15917,7 @@
   },
   "ro khanna": {
    "first_seen": "2026-07-11T22:52:55Z",
-   "last_seen": "2026-07-11T22:52:55Z",
+   "last_seen": "2026-07-12T06:06:41Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -15923,15 +15926,15 @@
     "key": "ro khanna",
     "sports": false,
     "league": null,
-    "obvious": false,
+    "obvious": true,
     "early": false,
     "entity": "Ro Khanna",
-    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
-    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "why_now": "US politician; no sports connection evident.",
+    "angle": null,
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-11T22:52:55Z"
+   "enriched_at": "2026-07-12T06:06:41Z"
   },
   "pinas": {
    "first_seen": "2026-07-11T22:52:55Z",
@@ -17109,65 +17112,1209 @@
     "market_id": null
    },
    "enriched_at": "2026-07-11T22:52:55Z"
+  },
+  "argentina": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "argentina",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": false,
+    "entity": "Argentina",
+    "why_now": "Argentina vs Switzerland match (#ARGSUI, #ARGvsSUI); World Cup context; Scaloni, Lautaro, Paredes co-trending.",
+    "angle": "Position Argentina's World Cup campaign; tie to star players and coach narrative.",
+    "duplicate_of": null,
+    "market_id": "558938"
+   },
+   "enriched_at": "2026-07-12T06:06:41Z"
+  },
+  "paddy": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "paddy",
+    "sports": true,
+    "league": "MMA/Boxing",
+    "obvious": false,
+    "early": true,
+    "entity": "Paddy Pimblett",
+    "why_now": "Paddy Pimblett fighting at UFC329; Jake Paul has big bets on him; co-trending with UFC329 and McGregor.",
+    "angle": "Early signal on Pimblett's UFC329 bout; tie to Jake Paul's betting picks for secondary storyline.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-12T06:06:41Z"
+  },
+  "switzerland": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "switzerland",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": false,
+    "entity": "Switzerland",
+    "why_now": "Switzerland vs Argentina match; Embolo and Swiss players co-trending; World Cup fixture.",
+    "angle": "Highlight Switzerland's underdog positioning vs Argentina; Embolo as key player angle.",
+    "duplicate_of": "argentina",
+    "market_id": "558974"
+   },
+   "enriched_at": "2026-07-12T06:06:41Z"
+  },
+  "embolo": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "embolo",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": false,
+    "entity": "Breel Embolo",
+    "why_now": "Embolo playing for Switzerland vs Argentina; key player in World Cup match.",
+    "angle": "Highlight Embolo's role in Switzerland's World Cup campaign; player-centric angle.",
+    "duplicate_of": "switzerland",
+    "market_id": null
+   },
+   "enriched_at": "2026-07-12T06:06:41Z"
+  },
+  "swiss": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "swiss",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": false,
+    "entity": "Switzerland",
+    "why_now": "Switzerland vs Argentina match; Swiss team co-trending.",
+    "angle": "Use for World Cup match engagement; Swiss team narrative.",
+    "duplicate_of": "switzerland",
+    "market_id": "558974"
+   },
+   "enriched_at": "2026-07-12T06:06:41Z"
+  },
+  "paredes": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "paredes",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": false,
+    "entity": "Leandro Paredes",
+    "why_now": "Paredes playing for Argentina vs Switzerland; World Cup midfielder.",
+    "angle": "Highlight Paredes' role in Argentina's midfield and World Cup campaign.",
+    "duplicate_of": "argentina",
+    "market_id": null
+   },
+   "enriched_at": "2026-07-12T06:06:41Z"
+  },
+  "dana white": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "dana white",
+    "sports": true,
+    "league": "MMA/Boxing",
+    "obvious": false,
+    "early": false,
+    "entity": "Dana White",
+    "why_now": "Dana White commentary on UFC329 card value and McGregor's gate record ($25M claimed); UFC leadership presence.",
+    "angle": "Use Dana's promotional hype and record-breaking claims to amplify UFC329 event magnitude and McGregor's star power.",
+    "duplicate_of": "mcgregor",
+    "market_id": null
+   },
+   "enriched_at": "2026-07-12T06:06:41Z"
+  },
+  "alvarez": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "alvarez",
+    "sports": true,
+    "league": "MMA/Boxing",
+    "obvious": false,
+    "early": true,
+    "entity": "Alvarez",
+    "why_now": "Co-trending with UFC and MMA names; likely fighter on UFC329 card.",
+    "angle": "Early signal on UFC fighter; driver unconfirmed.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-12T06:06:41Z"
+  },
+  "jake paul": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "jake paul",
+    "sports": true,
+    "league": "MMA/Boxing",
+    "obvious": false,
+    "early": false,
+    "entity": "Jake Paul",
+    "why_now": "Jake Paul recreated McGregor's Polymarket ad; has big bets on McGregor and Paddy Pimblett at UFC329.",
+    "angle": "Tap into Jake Paul's betting culture influence and meme-ability; his UFC329 picks and ad recreation show mainstream crossover.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-12T06:06:41Z",
+   "last_engagement": 450.3333333333333
+  },
+  "suiza": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "suiza",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": false,
+    "entity": "Switzerland",
+    "why_now": "Spanish-language variant of Switzerland; Argentina vs Switzerland match.",
+    "angle": "Use for Spanish-language audience engagement on World Cup match.",
+    "duplicate_of": "switzerland",
+    "market_id": "558974"
+   },
+   "enriched_at": "2026-07-12T06:06:41Z"
+  },
+  "inglaterra": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "inglaterra",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": false,
+    "entity": "England",
+    "why_now": "Spanish-language variant; England in World Cup; Bellingham and Kane co-trending.",
+    "angle": "Use for Spanish-language audience engagement on England's World Cup campaign.",
+    "duplicate_of": null,
+    "market_id": "2071562"
+   },
+   "enriched_at": "2026-07-12T06:06:41Z"
+  },
+  "ufc239": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "ufc239",
+    "sports": true,
+    "league": "MMA/Boxing",
+    "obvious": false,
+    "early": false,
+    "entity": "UFC239",
+    "why_now": "Parallel UFC event; Max Holloway featured; betting picks and predictions circulating.",
+    "angle": "Secondary UFC event trending; use for broader MMA betting culture content.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-12T06:06:41Z",
+   "last_engagement": 49.333333333333336
+  },
+  "scaloni": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "scaloni",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": false,
+    "entity": "Lionel Scaloni",
+    "why_now": "Scaloni as Argentina coach in World Cup; co-trending with Argentina and match.",
+    "angle": "Highlight Scaloni's coaching narrative and Argentina's World Cup strategy.",
+    "duplicate_of": "argentina",
+    "market_id": null
+   },
+   "enriched_at": "2026-07-12T06:06:41Z"
+  },
+  "aaron rodgers": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "aaron rodgers",
+    "sports": true,
+    "league": "NFL",
+    "obvious": false,
+    "early": false,
+    "entity": "Aaron Rodgers",
+    "why_now": "Rodgers takes Kobe over LeBron in GOAT debate; viral clip of sports opinion; nostalgia clips of past plays.",
+    "angle": "Tap into Rodgers' sports opinion credibility and the Kobe-LeBron debate for engagement; athlete hot-take culture.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-12T06:06:41Z",
+   "last_engagement": 480.3333333333333
+  },
+  "argsui": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "argsui",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": false,
+    "entity": "Argentina vs Switzerland",
+    "why_now": "World Cup match hashtag; Argentina vs Switzerland fixture trending.",
+    "angle": "Use match hashtag for real-time engagement during World Cup game.",
+    "duplicate_of": "argentina",
+    "market_id": null
+   },
+   "enriched_at": "2026-07-12T06:06:41Z"
+  },
+  "toonami": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "toonami",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "Toonami",
+    "why_now": "Anime programming block; no sports connection evident.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-12T06:06:41Z"
+  },
+  "usa vs paraguay": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "usa vs paraguay",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": false,
+    "entity": "USA vs Paraguay",
+    "why_now": "World Cup match fixture; USA and Paraguay co-trending.",
+    "angle": "Position USA's World Cup campaign; tie to player and coach narratives.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-12T06:06:41Z"
+  },
+  "lautaro": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "lautaro",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": false,
+    "entity": "Lautaro Martínez",
+    "why_now": "Lautaro playing for Argentina vs Switzerland; key striker in World Cup.",
+    "angle": "Highlight Lautaro's goal-scoring threat and Argentina's attacking power.",
+    "duplicate_of": "argentina",
+    "market_id": null
+   },
+   "enriched_at": "2026-07-12T06:06:41Z"
+  },
+  "king green": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "king green",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": false,
+    "early": true,
+    "entity": "King Green",
+    "why_now": "Co-trending with UFC and sports names; unclear driver; likely athlete or sports personality.",
+    "angle": "Early signal on emerging sports personality; driver unconfirmed.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-12T06:06:41Z"
+  },
+  "octagon": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "octagon",
+    "sports": true,
+    "league": "MMA/Boxing",
+    "obvious": false,
+    "early": false,
+    "entity": "UFC Octagon",
+    "why_now": "McGregor returns to octagon at UFC329; multiple tweets reference octagon and McGregor's comeback.",
+    "angle": "Use octagon imagery and McGregor's return symbolism for visual/emotional marketing around UFC329.",
+    "duplicate_of": "mcgregor",
+    "market_id": null
+   },
+   "enriched_at": "2026-07-12T06:06:41Z"
+  },
+  "almiron": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "almiron",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": true,
+    "entity": "Miguel Almirón",
+    "why_now": "Co-trending with Argentina and World Cup context; likely player in tournament.",
+    "angle": "Early signal on Almirón's World Cup role; secondary player angle.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-12T06:06:41Z"
+  },
+  "bison": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "bison",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": false,
+    "early": true,
+    "entity": "Bison",
+    "why_now": "Co-trending with sports names; likely sports team or athlete nickname; rank climbing from 41 to 27.",
+    "angle": "Early signal on sports entity; driver unconfirmed.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-12T06:06:41Z"
+  },
+  "royval": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "royval",
+    "sports": true,
+    "league": "MMA/Boxing",
+    "obvious": false,
+    "early": true,
+    "entity": "Royval",
+    "why_now": "Co-trending with UFC329; likely fighter on the card; rank climbing from 19 to 28.",
+    "angle": "Early signal on UFC329 undercard fighter; secondary storyline for fight card depth.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-12T06:06:41Z"
+  },
+  "the ufc": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "the ufc",
+    "sports": true,
+    "league": "MMA/Boxing",
+    "obvious": false,
+    "early": false,
+    "entity": "UFC",
+    "why_now": "Dustin Poirier open to McGregor rematch; UFC footage of McGregor injury released; UFC329 event trending.",
+    "angle": "Leverage Poirier's willingness to fight McGregor as secondary storyline; position UFC as comeback-friendly promotion.",
+    "duplicate_of": "mcgregor",
+    "market_id": null
+   },
+   "enriched_at": "2026-07-12T06:06:41Z"
+  },
+  "tokyorevengers": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "tokyorevengers",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "Tokyo Revengers",
+    "why_now": "Anime series; no sports connection.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-12T06:06:41Z"
+  },
+  "mohawk": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "mohawk",
+    "sports": true,
+    "league": "MMA/Boxing",
+    "obvious": false,
+    "early": true,
+    "entity": "Mohawk",
+    "why_now": "Co-trending with UFC and MMA names; likely fighter hairstyle or fighter nickname.",
+    "angle": "Early signal on UFC fighter or visual meme; driver unconfirmed.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-12T06:06:41Z"
+  },
+  "eminem": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "eminem",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "Eminem",
+    "why_now": "Rapper; no sports connection evident in co-trending.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-12T06:06:41Z"
+  },
+  "michael chandler": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "michael chandler",
+    "sports": true,
+    "league": "MMA/Boxing",
+    "obvious": false,
+    "early": false,
+    "entity": "Michael Chandler",
+    "why_now": "McGregor pulled out of Chandler fight in 2024 due to toe injury; UFC released footage of that injury moment.",
+    "angle": "Use the injury-comeback narrative: McGregor's past failure vs Chandler now redeemed by UFC329 return.",
+    "duplicate_of": "mcgregor",
+    "market_id": null
+   },
+   "enriched_at": "2026-07-12T06:06:41Z"
+  },
+  "kavanagh": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "kavanagh",
+    "sports": true,
+    "league": "MMA/Boxing",
+    "obvious": false,
+    "early": true,
+    "entity": "Kavanagh",
+    "why_now": "Co-trending with McGregor and UFC329; likely McGregor's coach John Kavanagh; part of preparation narrative.",
+    "angle": "Early signal on McGregor's coaching team and training camp; secondary angle for behind-the-scenes content.",
+    "duplicate_of": "mcgregor",
+    "market_id": null
+   },
+   "enriched_at": "2026-07-12T06:06:41Z"
+  },
+  "paramount": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "paramount",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Paramount",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-12T06:06:41Z"
+  },
+  "the mac": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "the mac",
+    "sports": true,
+    "league": "MMA/Boxing",
+    "obvious": false,
+    "early": false,
+    "entity": "Conor McGregor",
+    "why_now": "Nickname for McGregor; co-trending with UFC329 and McGregor.",
+    "angle": "Use McGregor's nickname for casual/meme-friendly marketing.",
+    "duplicate_of": "mcgregor",
+    "market_id": null
+   },
+   "enriched_at": "2026-07-12T06:06:41Z"
+  },
+  "mckinney": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "mckinney",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": false,
+    "early": true,
+    "entity": "McKinney",
+    "why_now": "Co-trending with sports names; likely athlete or sports personality; rank climbing from 26 to 37.",
+    "angle": "Early signal on sports entity; driver unconfirmed.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-12T06:06:41Z"
+  },
+  "malvinas": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "malvinas",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "Malvinas",
+    "why_now": "Geopolitical reference; no sports connection evident.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-12T06:06:41Z"
+  },
+  "refund": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "refund",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": false,
+    "early": true,
+    "entity": "Refund",
+    "why_now": "Co-trending with sports names; likely betting or event refund; rank stable around 39-41.",
+    "angle": "Early signal on sports betting or event issue; driver unconfirmed.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-12T06:06:41Z"
+  },
+  "rousey": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "rousey",
+    "sports": true,
+    "league": "MMA/Boxing",
+    "obvious": false,
+    "early": true,
+    "entity": "Ronda Rousey",
+    "why_now": "Co-trending with UFC and MMA names; likely nostalgia or comparison angle to McGregor's comeback narrative.",
+    "angle": "Early signal on MMA legacy/comeback themes; position as parallel to McGregor's return story.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-12T06:06:41Z"
+  },
+  "blew": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "blew",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": false,
+    "early": true,
+    "entity": "Blew",
+    "why_now": "Co-trending with sports names; likely sports moment or athlete; rank climbing from 37 to 42.",
+    "angle": "Early signal on sports moment; driver unconfirmed.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-12T06:06:41Z"
+  },
+  "bautista": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "bautista",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": false,
+    "early": true,
+    "entity": "Bautista",
+    "why_now": "Co-trending with sports names; likely athlete or sports personality; rank climbing from 25 to 43.",
+    "angle": "Early signal on sports entity; driver unconfirmed.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-12T06:06:41Z"
+  },
+  "simeone": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "simeone",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": true,
+    "entity": "Diego Simeone",
+    "why_now": "Co-trending with Argentina and World Cup; likely commentary on Argentina's tactics or coach.",
+    "angle": "Early signal on Argentina's tactical narrative; secondary coach angle.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-12T06:06:41Z"
+  },
+  "pharrell": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "pharrell",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "Pharrell Williams",
+    "why_now": "Musician; no sports connection evident.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-12T06:06:41Z"
+  },
+  "carano": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "carano",
+    "sports": true,
+    "league": "MMA/Boxing",
+    "obvious": false,
+    "early": true,
+    "entity": "Gina Carano",
+    "why_now": "Co-trending with UFC and MMA names; likely nostalgia or comparison to female MMA fighters.",
+    "angle": "Early signal on female MMA legacy or comeback narrative; driver unconfirmed.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-12T06:06:41Z"
+  },
+  "father time": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "father time",
+    "sports": true,
+    "league": "MMA/Boxing",
+    "obvious": false,
+    "early": true,
+    "entity": "Father Time",
+    "why_now": "Co-trending with UFC and MMA; likely commentary on aging fighter or McGregor's comeback vs age.",
+    "angle": "Early signal on age/comeback narrative in MMA; driver unconfirmed.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-12T06:06:41Z"
+  },
+  "sandhagen": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "sandhagen",
+    "sports": true,
+    "league": "MMA/Boxing",
+    "obvious": false,
+    "early": true,
+    "entity": "Cory Sandhagen",
+    "why_now": "Co-trending with UFC329; likely fighter on the card; rank climbing from 35 to 42.",
+    "angle": "Early signal on UFC329 undercard fighter; potential upset or notable performance angle.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-12T06:06:41Z"
+  },
+  "vince vaughn": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "vince vaughn",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "Vince Vaughn",
+    "why_now": "Actor; no sports connection evident.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-12T06:06:41Z"
+  },
+  "myadventureswithsuperman": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "trends24"
+   ],
+   "enrichment": {
+    "key": "myadventureswithsuperman",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "My Adventures with Superman",
+    "why_now": "Animated TV series; no sports connection.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-12T06:06:41Z"
+  },
+  "argvssui": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "trends24"
+   ],
+   "enrichment": {
+    "key": "argvssui",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": false,
+    "entity": "Argentina vs Switzerland",
+    "why_now": "World Cup match hashtag variant; Argentina vs Switzerland fixture.",
+    "angle": "Use match hashtag for real-time engagement during World Cup game.",
+    "duplicate_of": "argentina",
+    "market_id": null
+   },
+   "enriched_at": "2026-07-12T06:06:41Z"
+  },
+  "allgaier": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "trends24"
+   ],
+   "enrichment": {
+    "key": "allgaier",
+    "sports": true,
+    "league": "Motorsports",
+    "obvious": false,
+    "early": true,
+    "entity": "Justin Allgaier",
+    "why_now": "Co-trending with sports names; likely NASCAR driver; rank climbing from 40 to 47.",
+    "angle": "Early signal on NASCAR driver or race; driver unconfirmed.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-12T06:06:41Z"
+  },
+  "dust advisory": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "dust advisory",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "Dust Advisory",
+    "why_now": "Weather alert; no sports connection.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-12T06:06:41Z"
+  },
+  "val kilmer": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "val kilmer",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "Val Kilmer",
+    "why_now": "Actor; no sports connection evident.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-12T06:06:41Z"
+  },
+  "katie thurston": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "katie thurston",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "Katie Thurston",
+    "why_now": "Reality TV personality; no sports connection evident.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-12T06:06:41Z"
+  },
+  "scarlett johansson": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "scarlett johansson",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "Scarlett Johansson",
+    "why_now": "Actress; no sports connection evident.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-12T06:06:41Z"
+  },
+  "حمد بن خليفة": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "حمد بن خليفة",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "Hamad bin Khalifa Al Thani",
+    "why_now": "Death of former Qatari emir; no sports connection.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-12T06:06:41Z"
+  },
+  "new girl": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "new girl",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "New Girl",
+    "why_now": "TV series; no sports connection.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-12T06:06:41Z"
+  },
+  "concordia cruise ship": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "concordia cruise ship",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "Costa Concordia",
+    "why_now": "Cruise ship disaster; no sports connection.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-12T06:06:41Z"
+  },
+  "npb": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "npb",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": false,
+    "early": true,
+    "entity": "Nippon Professional Baseball",
+    "why_now": "Japanese baseball league; co-trending with sports names; low Google traffic.",
+    "angle": "Early signal on NPB games or player performance; niche sports angle.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-12T06:06:41Z"
+  },
+  "ryan garcia": {
+   "first_seen": "2026-07-12T06:06:41Z",
+   "last_seen": "2026-07-12T06:06:41Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "ryan garcia",
+    "sports": true,
+    "league": "MMA/Boxing",
+    "obvious": false,
+    "early": false,
+    "entity": "Ryan Garcia",
+    "why_now": "Ryan Garcia vs Conor Benn fight announcement delayed; boxing matchup trending.",
+    "angle": "Leverage boxing comeback narrative and high-profile matchup announcement for combat sports content.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-12T06:06:41Z"
   }
  },
  "x_usage": {
   "2026-07-08": 1553,
   "2026-07-09": 2189,
   "2026-07-10": 2137,
-  "2026-07-11": 2307
+  "2026-07-11": 2307,
+  "2026-07-12": 540
  },
  "prev_x_trends": [
-  "Norway",
-  "Haaland",
-  "Sorloth",
+  "McGregor",
   "#UFC329",
-  "Bellingham",
-  "Kane",
-  "#NORENG",
-  "Tuchel",
-  "Saka",
-  "Pickford",
-  "Garza",
-  "Gordon",
-  "Madueke",
-  "Bobb",
+  "Argentina",
+  "Paddy",
+  "Switzerland",
+  "Embolo",
+  "Swiss",
+  "Holloway",
+  "Paredes",
+  "Dana White",
+  "Alvarez",
+  "Norway",
+  "Jake Paul",
+  "Suiza",
+  "Inglaterra",
+  "#UFC239",
+  "Scaloni",
+  "Aaron Rodgers",
+  "#ARGSUI",
+  "#Toonami",
+  "USA vs Paraguay",
+  "Haaland",
+  "Lautaro",
+  "King Green",
+  "Octagon",
+  "Almiron",
+  "Bison",
+  "Royval",
+  "The UFC",
+  "#TokyoRevengers",
+  "Mohawk",
+  "Eminem",
+  "Michael Chandler",
+  "Kavanagh",
+  "Paramount",
+  "The Mac",
+  "McKinney",
+  "Malvinas",
+  "Refund",
   "Ro Khanna",
-  "Pinas",
-  "Quiznos",
-  "Reece James",
-  "Odegaard",
-  "Basharat",
-  "Anderson",
-  "Rich Paul",
-  "West Bank",
-  "2026 MLB Draft",
-  "Norwegian",
-  "Noruega",
-  "Nusa",
-  "Gary Trent",
-  "Tracy Cortez",
-  "Andreas Schjelderup",
-  "#NORvsENG",
-  "#ENGNOR",
-  "PIED PIPER",
-  "Rhyne Howard",
-  "Mainoo",
-  "Declan Rice",
-  "Ryan Gandra",
-  "Seahawks",
-  "Subway",
-  "Almeida",
-  "Alessandro Costa",
-  "Valdez",
-  "Trent Grisham",
-  "Magnus Carlsen",
-  "Wang",
-  "BAEPSAE",
-  "Team America",
-  "Vikings",
-  "#CFB27Sweepstakes",
-  "Horst"
+  "Rousey",
+  "Blew",
+  "Bautista",
+  "Khabib",
+  "Simeone",
+  "Pharrell",
+  "Carano",
+  "Father Time",
+  "Sandhagen",
+  "Vince Vaughn"
  ],
  "suppressed": [
   {
@@ -18112,6 +19259,46 @@
   "fifa president": {
    "score": 51,
    "at": "2026-07-11T22:52:55Z"
+  },
+  "rousey": {
+   "score": 71,
+   "at": "2026-07-12T06:06:41Z"
+  },
+  "jake paul": {
+   "score": 69,
+   "at": "2026-07-12T06:06:41Z"
+  },
+  "carano": {
+   "score": 69,
+   "at": "2026-07-12T06:06:41Z"
+  },
+  "inglaterra": {
+   "score": 63,
+   "at": "2026-07-12T06:06:41Z"
+  },
+  "usa vs paraguay": {
+   "score": 63,
+   "at": "2026-07-12T06:06:41Z"
+  },
+  "almiron": {
+   "score": 57,
+   "at": "2026-07-12T06:06:41Z"
+  },
+  "refund": {
+   "score": 57,
+   "at": "2026-07-12T06:06:41Z"
+  },
+  "paddy": {
+   "score": 53,
+   "at": "2026-07-12T06:06:41Z"
+  },
+  "alvarez": {
+   "score": 53,
+   "at": "2026-07-12T06:06:41Z"
+  },
+  "royval": {
+   "score": 53,
+   "at": "2026-07-12T06:06:41Z"
   }
  }
 }
