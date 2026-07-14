@@ -848,7 +848,7 @@
   },
   "nred": {
    "first_seen": "2026-07-08T17:55:27Z",
-   "last_seen": "2026-07-11T17:55:41Z",
+   "last_seen": "2026-07-14T18:06:05Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -859,13 +859,13 @@
     "league": null,
     "obvious": false,
     "early": true,
-    "entity": "NRED",
-    "why_now": "Spiking on X rank 23; context unconfirmed; no sports signals.",
-    "angle": "Insufficient data to classify.",
+    "entity": "$NRED stock ticker",
+    "why_now": "Stock ticker trending; financial/market news.",
+    "angle": null,
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-11T17:55:41Z"
+   "enriched_at": "2026-07-14T18:06:05Z"
   },
   "moana": {
    "first_seen": "2026-07-08T17:55:27Z",
@@ -22526,7 +22526,7 @@
   },
   "lamar": {
    "first_seen": "2026-07-13T15:43:50Z",
-   "last_seen": "2026-07-13T22:57:23Z",
+   "last_seen": "2026-07-14T18:06:05Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -22536,14 +22536,14 @@
     "sports": true,
     "league": "NFL",
     "obvious": false,
-    "early": true,
+    "early": false,
     "entity": "Lamar Jackson",
-    "why_now": "Spiking on X and trends24 with no sample tweets provided; driver unconfirmed but likely NFL-related.",
-    "angle": "Monitor for breaking Ravens news or QB performance narrative before mainstream saturation.",
+    "why_now": "NFL quarterback trending; likely contract, performance, or team news.",
+    "angle": "Monitor for breaking news on Ravens QB or contract developments.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-13T22:57:23Z"
+   "enriched_at": "2026-07-14T18:06:05Z"
   },
   "good monday": {
    "first_seen": "2026-07-13T15:43:50Z",
@@ -23794,8 +23794,9 @@
   },
   "boosie": {
    "first_seen": "2026-07-13T18:45:23Z",
-   "last_seen": "2026-07-13T18:45:23Z",
+   "last_seen": "2026-07-14T18:06:05Z",
    "sources_seen": [
+    "google",
     "trends24",
     "x"
    ],
@@ -23806,12 +23807,12 @@
     "obvious": false,
     "early": false,
     "entity": "Boosie Badazz",
-    "why_now": "No sample tweets; likely music/entertainment figure or sports-adjacent celebrity.",
-    "angle": "Insufficient data; monitor for music or celebrity angle.",
+    "why_now": "Rapper seeking $300K refund from lobbyists after failed Trump pardon bid; celebrity/political news.",
+    "angle": null,
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-13T18:45:23Z"
+   "enriched_at": "2026-07-14T18:06:05Z"
   },
   "strait": {
    "first_seen": "2026-07-13T18:45:23Z",
@@ -26424,7 +26425,7 @@
   },
   "taco tuesday": {
    "first_seen": "2026-07-14T14:54:44Z",
-   "last_seen": "2026-07-14T14:54:44Z",
+   "last_seen": "2026-07-14T18:06:05Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -26442,11 +26443,11 @@
     "market_id": null
    },
    "enriched_at": "2026-07-14T14:54:44Z",
-   "last_engagement": 93.33333333333333
+   "last_engagement": 93.0
   },
   "bastille day": {
    "first_seen": "2026-07-14T14:54:44Z",
-   "last_seen": "2026-07-14T14:54:44Z",
+   "last_seen": "2026-07-14T18:06:05Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -26468,7 +26469,7 @@
   },
   "june cpi": {
    "first_seen": "2026-07-14T14:54:44Z",
-   "last_seen": "2026-07-14T14:54:44Z",
+   "last_seen": "2026-07-14T18:06:05Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -26574,28 +26575,30 @@
   },
   "courtland sutton": {
    "first_seen": "2026-07-14T14:54:44Z",
-   "last_seen": "2026-07-14T14:54:44Z",
+   "last_seen": "2026-07-14T18:06:05Z",
    "sources_seen": [
+    "trends24",
     "x"
    ],
    "enrichment": {
     "key": "courtland sutton",
-    "sports": false,
-    "league": null,
+    "sports": true,
+    "league": "NFL",
     "obvious": false,
-    "early": true,
+    "early": false,
     "entity": "Courtland Sutton",
-    "why_now": "Spiking on x; driver unconfirmed (fallback classifier — no LLM key).",
-    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "why_now": "Denver Broncos WR trending; likely contract, injury, or performance news.",
+    "angle": "Monitor for Broncos roster or player development updates.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-14T14:54:44Z"
+   "enriched_at": "2026-07-14T18:06:05Z"
   },
   "duck king": {
    "first_seen": "2026-07-14T14:54:44Z",
-   "last_seen": "2026-07-14T14:54:44Z",
+   "last_seen": "2026-07-14T18:06:05Z",
    "sources_seen": [
+    "trends24",
     "x"
    ],
    "enrichment": {
@@ -26605,12 +26608,12 @@
     "obvious": false,
     "early": true,
     "entity": "Duck King",
-    "why_now": "Spiking on x; driver unconfirmed (fallback classifier — no LLM key).",
-    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "why_now": "Trending on Trends24; likely video game character or meme reference.",
+    "angle": null,
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-14T14:54:44Z"
+   "enriched_at": "2026-07-14T18:06:05Z"
   },
   "caleb ourigou": {
    "first_seen": "2026-07-14T14:54:44Z",
@@ -26634,8 +26637,9 @@
   },
   "portfolioday": {
    "first_seen": "2026-07-14T14:54:44Z",
-   "last_seen": "2026-07-14T14:54:44Z",
+   "last_seen": "2026-07-14T18:06:05Z",
    "sources_seen": [
+    "trends24",
     "x"
    ],
    "enrichment": {
@@ -26644,13 +26648,13 @@
     "league": null,
     "obvious": false,
     "early": true,
-    "entity": "#PortfolioDay",
-    "why_now": "Spiking on x; driver unconfirmed (fallback classifier — no LLM key).",
-    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "entity": "#PortfolioDay hashtag",
+    "why_now": "Annual art/creative community sharing event on social media; no sports angle.",
+    "angle": null,
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-14T14:54:44Z"
+   "enriched_at": "2026-07-14T18:06:05Z"
   },
   "gates foundation": {
    "first_seen": "2026-07-14T14:54:44Z",
@@ -26820,8 +26824,9 @@
   },
   "de niro": {
    "first_seen": "2026-07-14T14:54:44Z",
-   "last_seen": "2026-07-14T14:54:44Z",
+   "last_seen": "2026-07-14T18:06:05Z",
    "sources_seen": [
+    "trends24",
     "x"
    ],
    "enrichment": {
@@ -26829,19 +26834,20 @@
     "sports": false,
     "league": null,
     "obvious": false,
-    "early": true,
-    "entity": "De Niro",
-    "why_now": "Spiking on x; driver unconfirmed (fallback classifier — no LLM key).",
-    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "early": false,
+    "entity": "Robert De Niro",
+    "why_now": "Actor trending; insufficient sample tweets to determine driver.",
+    "angle": null,
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-14T14:54:44Z"
+   "enriched_at": "2026-07-14T18:06:05Z"
   },
   "bleek": {
    "first_seen": "2026-07-14T14:54:44Z",
-   "last_seen": "2026-07-14T14:54:44Z",
+   "last_seen": "2026-07-14T18:06:05Z",
    "sources_seen": [
+    "trends24",
     "x"
    ],
    "enrichment": {
@@ -26849,14 +26855,14 @@
     "sports": false,
     "league": null,
     "obvious": false,
-    "early": true,
+    "early": false,
     "entity": "Bleek",
-    "why_now": "Spiking on x; driver unconfirmed (fallback classifier — no LLM key).",
-    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "why_now": "Likely hip-hop artist or personality; insufficient context.",
+    "angle": null,
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-14T14:54:44Z"
+   "enriched_at": "2026-07-14T18:06:05Z"
   },
   "reverend": {
    "first_seen": "2026-07-14T14:54:44Z",
@@ -26984,23 +26990,24 @@
   },
   "go cubs go": {
    "first_seen": "2026-07-14T14:54:44Z",
-   "last_seen": "2026-07-14T14:54:44Z",
+   "last_seen": "2026-07-14T18:06:05Z",
    "sources_seen": [
+    "trends24",
     "x"
    ],
    "enrichment": {
     "key": "go cubs go",
     "sports": true,
     "league": "MLB",
-    "obvious": false,
-    "early": true,
-    "entity": "Go Cubs Go",
-    "why_now": "Spiking on x; driver unconfirmed (fallback classifier — no LLM key).",
-    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "obvious": true,
+    "early": false,
+    "entity": "Chicago Cubs",
+    "why_now": "Cubs game result tweets; plain final-score celebration with no specific storyline.",
+    "angle": null,
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-14T14:54:44Z",
+   "enriched_at": "2026-07-14T18:06:05Z",
    "last_engagement": 97.0
   },
   "blanche": {
@@ -27087,8 +27094,9 @@
   },
   "chamath": {
    "first_seen": "2026-07-14T14:54:44Z",
-   "last_seen": "2026-07-14T14:54:44Z",
+   "last_seen": "2026-07-14T18:06:05Z",
    "sources_seen": [
+    "trends24",
     "x"
    ],
    "enrichment": {
@@ -27096,14 +27104,14 @@
     "sports": false,
     "league": null,
     "obvious": false,
-    "early": true,
-    "entity": "Chamath",
-    "why_now": "Spiking on x; driver unconfirmed (fallback classifier — no LLM key).",
-    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "early": false,
+    "entity": "Chamath Palihapitiya",
+    "why_now": "Venture capitalist/investor trending; business/finance news.",
+    "angle": null,
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-14T14:54:44Z"
+   "enriched_at": "2026-07-14T18:06:05Z"
   },
   "open your eyes": {
    "first_seen": "2026-07-14T14:54:44Z",
@@ -27313,23 +27321,24 @@
   },
   "warsh": {
    "first_seen": "2026-07-14T14:54:44Z",
-   "last_seen": "2026-07-14T14:54:44Z",
+   "last_seen": "2026-07-14T18:06:05Z",
    "sources_seen": [
-    "trends24"
+    "trends24",
+    "x"
    ],
    "enrichment": {
     "key": "warsh",
     "sports": false,
     "league": null,
     "obvious": false,
-    "early": true,
+    "early": false,
     "entity": "Warsh",
-    "why_now": "Spiking on trends24; driver unconfirmed (fallback classifier — no LLM key).",
-    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "why_now": "Likely political figure; insufficient context.",
+    "angle": null,
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-14T14:54:44Z"
+   "enriched_at": "2026-07-14T18:06:05Z"
   },
   "todd blanche": {
    "first_seen": "2026-07-14T14:54:44Z",
@@ -27733,6 +27742,950 @@
     "market_id": null
    },
    "enriched_at": "2026-07-14T14:54:44Z"
+  },
+  "rtxpowersplay": {
+   "first_seen": "2026-07-14T18:06:05Z",
+   "last_seen": "2026-07-14T18:06:05Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "rtxpowersplay",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "RTX GPU gaming promotion",
+    "why_now": "NVIDIA RTX promotional campaign during Steam Summer Sale; no sports angle.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-14T18:06:05Z"
+  },
+  "jeffries": {
+   "first_seen": "2026-07-14T18:06:05Z",
+   "last_seen": "2026-07-14T18:06:05Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "jeffries",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Hakeem Jeffries",
+    "why_now": "Political discourse around Democratic leadership and voting policy; no sports connection.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-14T18:06:05Z"
+  },
+  "olandriaxamazon": {
+   "first_seen": "2026-07-14T18:06:05Z",
+   "last_seen": "2026-07-14T18:06:05Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "olandriaxamazon",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Olandria Amazon fashion/lifestyle",
+    "why_now": "Emerging influencer/content creator trend on X; niche fashion/lifestyle content.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-14T18:06:05Z"
+  },
+  "times square": {
+   "first_seen": "2026-07-14T18:06:05Z",
+   "last_seen": "2026-07-14T18:06:05Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "times square",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Times Square brand activations",
+    "why_now": "SK Hynix NASDAQ listing celebration and Pokémon GO 10th anniversary event in Times Square.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-14T18:06:05Z"
+  },
+  "chilisinseattle": {
+   "first_seen": "2026-07-14T18:06:05Z",
+   "last_seen": "2026-07-14T18:06:05Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "chilisinseattle",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Chili's restaurant opening Seattle",
+    "why_now": "First Chili's location opening in Seattle; local restaurant news.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-14T18:06:05Z"
+  },
+  "mike johnson": {
+   "first_seen": "2026-07-14T18:06:05Z",
+   "last_seen": "2026-07-14T18:06:05Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "mike johnson",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Mike Johnson",
+    "why_now": "Insufficient sample data; likely political figure but driver unclear.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-14T18:06:05Z"
+  },
+  "rightstuf": {
+   "first_seen": "2026-07-14T18:06:05Z",
+   "last_seen": "2026-07-14T18:06:05Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "rightstuf",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "RightStuf anime retailer",
+    "why_now": "Trending on X and Trends24 with no sample tweets; likely anime/retail promotion.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-14T18:06:05Z"
+  },
+  "lcid": {
+   "first_seen": "2026-07-14T18:06:05Z",
+   "last_seen": "2026-07-14T18:06:05Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "lcid",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Lucid Motors stock",
+    "why_now": "Stock ticker trending; financial/market news.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-14T18:06:05Z"
+  },
+  "amy coney barrett": {
+   "first_seen": "2026-07-14T18:06:05Z",
+   "last_seen": "2026-07-14T18:06:05Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "amy coney barrett",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Amy Coney Barrett",
+    "why_now": "Supreme Court Justice trending; political/legal news.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-14T18:06:05Z"
+  },
+  "honkey": {
+   "first_seen": "2026-07-14T18:06:05Z",
+   "last_seen": "2026-07-14T18:06:05Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "honkey",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Honkey",
+    "why_now": "Insufficient context; likely cultural/slang reference.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-14T18:06:05Z"
+  },
+  "dobbs": {
+   "first_seen": "2026-07-14T18:06:05Z",
+   "last_seen": "2026-07-14T18:06:05Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "dobbs",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Dobbs",
+    "why_now": "Likely reference to Dobbs v. Jackson Women's Health Organization Supreme Court decision; political.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-14T18:06:05Z"
+  },
+  "inflation": {
+   "first_seen": "2026-07-14T18:06:05Z",
+   "last_seen": "2026-07-14T18:06:05Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "inflation",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Inflation economic data",
+    "why_now": "Economic news on inflation rates across countries and monetary policy discussion.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-14T18:06:05Z"
+  },
+  "aipac shakur": {
+   "first_seen": "2026-07-14T18:06:05Z",
+   "last_seen": "2026-07-14T18:06:05Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "aipac shakur",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "AIPAC Shakur",
+    "why_now": "Wordplay/meme combining AIPAC (political org) with Tupac Shakur; cultural reference.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-14T18:06:05Z"
+  },
+  "sec media days": {
+   "first_seen": "2026-07-14T18:06:05Z",
+   "last_seen": "2026-07-14T18:06:05Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "sec media days",
+    "sports": true,
+    "league": "College Football",
+    "obvious": true,
+    "early": false,
+    "entity": "SEC Media Days",
+    "why_now": "Annual SEC conference media event; scheduled event with no specific viral moment.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-14T18:06:05Z"
+  },
+  "gillie": {
+   "first_seen": "2026-07-14T18:06:05Z",
+   "last_seen": "2026-07-14T18:06:05Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "gillie",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Gillie",
+    "why_now": "Likely podcast host/personality; insufficient context.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-14T18:06:05Z"
+  },
+  "trust in trump": {
+   "first_seen": "2026-07-14T18:06:05Z",
+   "last_seen": "2026-07-14T18:06:05Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "trust in trump",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Trust in Trump",
+    "why_now": "Political sentiment/slogan trending; no sports angle.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-14T18:06:05Z"
+  },
+  "noxa": {
+   "first_seen": "2026-07-14T18:06:05Z",
+   "last_seen": "2026-07-14T18:06:05Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "noxa",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Noxa",
+    "why_now": "Trending on X and Trends24; insufficient context to determine driver.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-14T18:06:05Z"
+  },
+  "kagan": {
+   "first_seen": "2026-07-14T18:06:05Z",
+   "last_seen": "2026-07-14T18:06:05Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "kagan",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Kagan",
+    "why_now": "Likely Supreme Court Justice Elena Kagan; political/legal news.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-14T18:06:05Z"
+  },
+  "justice barrett": {
+   "first_seen": "2026-07-14T18:06:05Z",
+   "last_seen": "2026-07-14T18:06:05Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "justice barrett",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Justice Amy Coney Barrett",
+    "why_now": "Supreme Court Justice trending; political/legal news.",
+    "angle": null,
+    "duplicate_of": "amy coney barrett",
+    "market_id": null
+   },
+   "enriched_at": "2026-07-14T18:06:05Z"
+  },
+  "jeffersons": {
+   "first_seen": "2026-07-14T18:06:05Z",
+   "last_seen": "2026-07-14T18:06:05Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "jeffersons",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "The Jeffersons",
+    "why_now": "Likely reference to classic TV show; entertainment/cultural reference.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-14T18:06:05Z"
+  },
+  "iraqi pm": {
+   "first_seen": "2026-07-14T18:06:05Z",
+   "last_seen": "2026-07-14T18:06:05Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "iraqi pm",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Iraqi Prime Minister",
+    "why_now": "International political news; no sports angle.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-14T18:06:05Z"
+  },
+  "chipotle": {
+   "first_seen": "2026-07-14T18:06:05Z",
+   "last_seen": "2026-07-14T18:06:05Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "chipotle",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Chipotle restaurant",
+    "why_now": "Fast-casual restaurant chain trending; likely promotion or news.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-14T18:06:05Z"
+  },
+  "aaliyah edwards": {
+   "first_seen": "2026-07-14T18:06:05Z",
+   "last_seen": "2026-07-14T18:06:05Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "aaliyah edwards",
+    "sports": true,
+    "league": "College Basketball",
+    "obvious": false,
+    "early": false,
+    "entity": "Aaliyah Edwards",
+    "why_now": "College basketball player trending; likely draft, performance, or team news.",
+    "angle": "Monitor for WNBA draft or college basketball storylines.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-14T18:06:05Z"
+  },
+  "joe lombardo": {
+   "first_seen": "2026-07-14T18:06:05Z",
+   "last_seen": "2026-07-14T18:06:05Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "joe lombardo",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Joe Lombardo",
+    "why_now": "Nevada Governor; political news.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-14T18:06:05Z"
+  },
+  "gulf states": {
+   "first_seen": "2026-07-14T18:06:05Z",
+   "last_seen": "2026-07-14T18:06:05Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "gulf states",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Gulf States",
+    "why_now": "Geopolitical news; likely Iran tensions or regional conflict.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-14T18:06:05Z"
+  },
+  "france to advance": {
+   "first_seen": "2026-07-14T18:06:05Z",
+   "last_seen": "2026-07-14T18:06:05Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "france to advance",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": false,
+    "entity": "France 2026 World Cup semifinal",
+    "why_now": "France vs. Spain World Cup semifinal on 2026-07-14; match outcome and advancement.",
+    "angle": "Ride the France-Spain semifinal momentum; tie to player performances and advancing narrative.",
+    "duplicate_of": null,
+    "market_id": "2880319"
+   },
+   "enriched_at": "2026-07-14T18:06:05Z"
+  },
+  "iraqi prime minister ali": {
+   "first_seen": "2026-07-14T18:06:05Z",
+   "last_seen": "2026-07-14T18:06:05Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "iraqi prime minister ali",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Iraqi Prime Minister Ali",
+    "why_now": "International political news; no sports angle.",
+    "angle": null,
+    "duplicate_of": "iraqi pm",
+    "market_id": null
+   },
+   "enriched_at": "2026-07-14T18:06:05Z"
+  },
+  "2 1 france": {
+   "first_seen": "2026-07-14T18:06:05Z",
+   "last_seen": "2026-07-14T18:06:05Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "2 1 france",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": false,
+    "entity": "France 2-1 Spain World Cup semifinal",
+    "why_now": "Exact score prediction/result for France vs. Spain World Cup semifinal match.",
+    "angle": "Leverage the specific scoreline prediction for World Cup semifinal engagement.",
+    "duplicate_of": "france to advance",
+    "market_id": "2880028"
+   },
+   "enriched_at": "2026-07-14T18:06:05Z"
+  },
+  "yayo": {
+   "first_seen": "2026-07-14T18:06:05Z",
+   "last_seen": "2026-07-14T18:06:05Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "yayo",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Yayo",
+    "why_now": "Likely hip-hop artist; insufficient context.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-14T18:06:05Z"
+  },
+  "david steele": {
+   "first_seen": "2026-07-14T18:06:05Z",
+   "last_seen": "2026-07-14T18:06:05Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "david steele",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "David Steele",
+    "why_now": "Likely sports journalist or commentator; insufficient context.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-14T18:06:05Z"
+  },
+  "macklin celebrini": {
+   "first_seen": "2026-07-14T18:06:05Z",
+   "last_seen": "2026-07-14T18:06:05Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "macklin celebrini",
+    "sports": true,
+    "league": "NHL",
+    "obvious": false,
+    "early": false,
+    "entity": "Macklin Celebrini",
+    "why_now": "NHL prospect/player trending; likely draft, signing, or performance news.",
+    "angle": "Monitor for Sharks prospect or NHL draft developments.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-14T18:06:05Z"
+  },
+  "daytimeemmys": {
+   "first_seen": "2026-07-14T18:06:05Z",
+   "last_seen": "2026-07-14T18:06:05Z",
+   "sources_seen": [
+    "trends24"
+   ],
+   "enrichment": {
+    "key": "daytimeemmys",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Daytime Emmy Awards",
+    "why_now": "Annual television awards ceremony; scheduled event.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-14T18:06:05Z"
+  },
+  "taco hell": {
+   "first_seen": "2026-07-14T18:06:05Z",
+   "last_seen": "2026-07-14T18:06:05Z",
+   "sources_seen": [
+    "trends24"
+   ],
+   "enrichment": {
+    "key": "taco hell",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Taco Hell",
+    "why_now": "Trending on Trends24; likely restaurant or brand reference.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-14T18:06:05Z"
+  },
+  "clooney": {
+   "first_seen": "2026-07-14T18:06:05Z",
+   "last_seen": "2026-07-14T18:06:05Z",
+   "sources_seen": [
+    "trends24"
+   ],
+   "enrichment": {
+    "key": "clooney",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "George Clooney",
+    "why_now": "Actor/celebrity trending; insufficient context.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-14T18:06:05Z"
+  },
+  "suni lee": {
+   "first_seen": "2026-07-14T18:06:05Z",
+   "last_seen": "2026-07-14T18:06:05Z",
+   "sources_seen": [
+    "trends24"
+   ],
+   "enrichment": {
+    "key": "suni lee",
+    "sports": true,
+    "league": "Olympics",
+    "obvious": false,
+    "early": false,
+    "entity": "Suni Lee",
+    "why_now": "Olympic gymnast trending; likely training, competition, or personal news.",
+    "angle": "Monitor for Olympic gymnastics or athlete storylines.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-14T18:06:05Z"
+  },
+  "brittney griner": {
+   "first_seen": "2026-07-14T18:06:05Z",
+   "last_seen": "2026-07-14T18:06:05Z",
+   "sources_seen": [
+    "trends24"
+   ],
+   "enrichment": {
+    "key": "brittney griner",
+    "sports": true,
+    "league": "NBA",
+    "obvious": false,
+    "early": false,
+    "entity": "Brittney Griner",
+    "why_now": "WNBA star trending; likely team, performance, or personal news.",
+    "angle": "Monitor for Phoenix Mercury or WNBA developments.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-14T18:06:05Z"
+  },
+  "justice amy coney barrett": {
+   "first_seen": "2026-07-14T18:06:05Z",
+   "last_seen": "2026-07-14T18:06:05Z",
+   "sources_seen": [
+    "trends24"
+   ],
+   "enrichment": {
+    "key": "justice amy coney barrett",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Justice Amy Coney Barrett",
+    "why_now": "Supreme Court Justice trending; political/legal news.",
+    "angle": null,
+    "duplicate_of": "amy coney barrett",
+    "market_id": null
+   },
+   "enriched_at": "2026-07-14T18:06:05Z"
+  },
+  "canada wildfires": {
+   "first_seen": "2026-07-14T18:06:05Z",
+   "last_seen": "2026-07-14T18:06:05Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "canada wildfires",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Canada wildfires",
+    "why_now": "Environmental disaster; wildfires spreading with smoke affecting US regions.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-14T18:06:05Z"
+  },
+  "what time is the fifa game today": {
+   "first_seen": "2026-07-14T18:06:05Z",
+   "last_seen": "2026-07-14T18:06:05Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "what time is the fifa game today",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": true,
+    "early": false,
+    "entity": "2026 FIFA World Cup schedule query",
+    "why_now": "Generic how-to-watch search query for World Cup semifinal; no specific storyline.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-14T18:06:05Z"
+  },
+  "kash patel": {
+   "first_seen": "2026-07-14T18:06:05Z",
+   "last_seen": "2026-07-14T18:06:05Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "kash patel",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Kash Patel",
+    "why_now": "Political figure; news coverage on FBI investigation and Lindsey Graham death.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-14T18:06:05Z"
+  },
+  "lucid": {
+   "first_seen": "2026-07-14T18:06:05Z",
+   "last_seen": "2026-07-14T18:06:05Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "lucid",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Lucid Motors",
+    "why_now": "EV company stock plunging on bankruptcy concerns; financial news.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-14T18:06:05Z"
+  },
+  "qqq stock": {
+   "first_seen": "2026-07-14T18:06:05Z",
+   "last_seen": "2026-07-14T18:06:05Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "qqq stock",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "QQQ Nasdaq-100 ETF",
+    "why_now": "Stock market index trending; oil prices and geopolitical tensions affecting tech stocks.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-14T18:06:05Z"
+  },
+  "sndk stock": {
+   "first_seen": "2026-07-14T18:06:05Z",
+   "last_seen": "2026-07-14T18:06:05Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "sndk stock",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "SanDisk stock",
+    "why_now": "Stock ticker trending; analyst price target changes and market movement.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-14T18:06:05Z"
+  },
+  "michigan lottery": {
+   "first_seen": "2026-07-14T18:06:05Z",
+   "last_seen": "2026-07-14T18:06:05Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "michigan lottery",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Michigan lottery",
+    "why_now": "Man wins two Fantasy 5 jackpots after forgetting first ticket; human interest story.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-14T18:06:05Z"
+  },
+  "jaime faria": {
+   "first_seen": "2026-07-14T18:06:05Z",
+   "last_seen": "2026-07-14T18:06:05Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "jaime faria",
+    "sports": true,
+    "league": "Tennis",
+    "obvious": false,
+    "early": false,
+    "entity": "Jaime Faria",
+    "why_now": "Tennis player facing Stan Wawrinka at Swiss Open Gstaad; match coverage and predictions.",
+    "angle": "Leverage underdog tennis storyline; Faria playing in packed stadium with Swiss crowd support.",
+    "duplicate_of": null,
+    "market_id": "2885080"
+   },
+   "enriched_at": "2026-07-14T18:06:05Z",
+   "last_engagement": 314.6666666666667
+  },
+  "msft stock": {
+   "first_seen": "2026-07-14T18:06:05Z",
+   "last_seen": "2026-07-14T18:06:05Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "msft stock",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Microsoft stock",
+    "why_now": "Tech stock trending; analyst predictions on July 29 earnings and growth potential.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-14T18:06:05Z"
   }
  },
  "x_usage": {
@@ -27742,59 +28695,59 @@
   "2026-07-11": 2307,
   "2026-07-12": 2071,
   "2026-07-13": 2112,
-  "2026-07-14": 996
+  "2026-07-14": 1540
  },
  "prev_x_trends": [
-  "#OlandriaxTIME100",
-  "$IBM",
-  "Good Tuesday",
   "Taco Tuesday",
-  "Bastille Day",
-  "June CPI",
-  "Core CPI",
-  "Kevin Warsh",
-  "Georgia",
-  "#TuesdayMotivation",
-  "Courtland Sutton",
-  "Duck King",
-  "Caleb Ourigou",
-  "Elena Kagan",
+  "#RTXPowersPlay",
+  "Jeffries",
+  "#OlandriaxAmazon",
+  "Times Square",
+  "#ChilisinSeattle",
+  "Mike Johnson",
+  "Rightstuf",
+  "$LCID",
+  "$IBM",
   "#PortfolioDay",
-  "Gates Foundation",
-  "#InnovatingABrighterLife",
-  "Happy Taco",
-  "Joan Sebastian Guerrero",
-  "Headline CPI",
-  "Brian Kelly",
-  "Tony Gilroy",
-  "#TuesdayVibes",
-  "De Niro",
-  "Bleek",
-  "Reverend",
-  "David Muir",
-  "Kyogre",
+  "Amy Coney Barrett",
+  "Bastille Day",
   "France vs Spain",
-  "Consumer Price Index",
-  "The ICC",
-  "Cramer",
-  "Go Cubs Go",
-  "Blanche",
-  "OneDrive",
-  "Terrific Tuesday",
-  "Chris Farley",
-  "Seth",
+  "#OlandriaxTIME100",
+  "Boosie",
+  "Honkey",
+  "Dobbs",
+  "Inflation",
+  "De Niro",
+  "Kyogre",
+  "Lamar",
+  "Warsh",
+  "AIPAC Shakur",
+  "SEC Media Days",
+  "Gillie",
+  "$NRED",
+  "Trust in Trump",
   "Chamath",
-  "Jihyo",
-  "OPEN YOUR EYES",
-  "Warnock",
-  "Jayden Daniels",
-  "Buffett",
-  "JYPE",
-  "Ruler",
-  "TRUST THE PLAN",
-  "Pedro Pascal",
-  "$TRUMPCOIN",
-  "Betty White"
+  "Courtland Sutton",
+  "Go Cubs Go",
+  "Noxa",
+  "Kagan",
+  "Justice Barrett",
+  "Jeffersons",
+  "Iraqi PM",
+  "Chipotle",
+  "Joan Sebastian Guerrero",
+  "Aaliyah Edwards",
+  "Joe Lombardo",
+  "Gulf States",
+  "France to Advance",
+  "Iraqi Prime Minister Ali",
+  "Bleek",
+  "2-1 France",
+  "Yayo",
+  "David Steele",
+  "Good Tuesday",
+  "Macklin Celebrini",
+  "June CPI"
  ],
  "suppressed": [
   {
@@ -28481,6 +29434,21 @@
    "key": "allstargame",
    "reason": "Scheduled event; Phillies have most All-Stars; routine pre-game chatter.",
    "at": "2026-07-14T05:33:55Z"
+  },
+  {
+   "key": "sec media days",
+   "reason": "Annual SEC conference media event; scheduled event with no specific viral moment.",
+   "at": "2026-07-14T18:06:05Z"
+  },
+  {
+   "key": "go cubs go",
+   "reason": "Cubs game result tweets; plain final-score celebration with no specific storyline.",
+   "at": "2026-07-14T18:06:05Z"
+  },
+  {
+   "key": "what time is the fifa game today",
+   "reason": "Generic how-to-watch search query for World Cup semifinal; no specific storyline.",
+   "at": "2026-07-14T18:06:05Z"
   }
  ],
  "slack_posted": {
@@ -29287,6 +30255,38 @@
   "us refueling aircraft ben gurion": {
    "score": 44,
    "at": "2026-07-14T14:54:44Z"
+  },
+  "france to advance": {
+   "score": 43,
+   "at": "2026-07-14T18:06:05Z"
+  },
+  "macklin celebrini": {
+   "score": 43,
+   "at": "2026-07-14T18:06:05Z"
+  },
+  "aaliyah edwards": {
+   "score": 43,
+   "at": "2026-07-14T18:06:05Z"
+  },
+  "jaime faria": {
+   "score": 38,
+   "at": "2026-07-14T18:06:05Z"
+  },
+  "brittney griner": {
+   "score": 28,
+   "at": "2026-07-14T18:06:05Z"
+  },
+  "suni lee": {
+   "score": 28,
+   "at": "2026-07-14T18:06:05Z"
+  },
+  "lamar": {
+   "score": 23,
+   "at": "2026-07-14T18:06:05Z"
+  },
+  "courtland sutton": {
+   "score": 23,
+   "at": "2026-07-14T18:06:05Z"
   }
  }
 }
