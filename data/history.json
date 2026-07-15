@@ -848,7 +848,7 @@
   },
   "nred": {
    "first_seen": "2026-07-08T17:55:27Z",
-   "last_seen": "2026-07-14T18:06:05Z",
+   "last_seen": "2026-07-15T14:53:38Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -859,13 +859,13 @@
     "league": null,
     "obvious": false,
     "early": true,
-    "entity": "$NRED stock ticker",
-    "why_now": "Stock ticker trending; financial/market news.",
-    "angle": null,
+    "entity": "$NRED",
+    "why_now": "Spiking on x; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-14T18:06:05Z"
+   "enriched_at": "2026-07-15T14:53:38Z"
   },
   "moana": {
    "first_seen": "2026-07-08T17:55:27Z",
@@ -1055,7 +1055,7 @@
   },
   "hump day": {
    "first_seen": "2026-07-08T17:55:27Z",
-   "last_seen": "2026-07-08T19:20:02Z",
+   "last_seen": "2026-07-15T14:53:38Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -1065,14 +1065,14 @@
     "sports": false,
     "league": null,
     "obvious": false,
-    "early": true,
+    "early": false,
     "entity": "Hump Day",
-    "why_now": "Generic calendar/cultural reference (Wednesday); no sports angle.",
-    "angle": "Non-sports trend; exclude from coverage.",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-08T19:20:02Z"
+   "enriched_at": "2026-07-15T14:53:38Z"
   },
   "greenland": {
    "first_seen": "2026-07-08T17:55:27Z",
@@ -5591,7 +5591,7 @@
   },
   "gpt 5 6": {
    "first_seen": "2026-07-09T18:51:06Z",
-   "last_seen": "2026-07-09T18:51:06Z",
+   "last_seen": "2026-07-15T14:53:38Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -5601,14 +5601,14 @@
     "sports": false,
     "league": null,
     "obvious": false,
-    "early": false,
+    "early": true,
     "entity": "GPT-5.6",
-    "why_now": "AI model name trending; no sports connection.",
-    "angle": "Not sports-related.",
+    "why_now": "Spiking on trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
     "duplicate_of": null,
-    "market_id": "2760620"
+    "market_id": null
    },
-   "enriched_at": "2026-07-09T18:51:06Z"
+   "enriched_at": "2026-07-15T14:53:38Z"
   },
   "lastkissday": {
    "first_seen": "2026-07-09T18:51:06Z",
@@ -10541,7 +10541,7 @@
   },
   "standard time": {
    "first_seen": "2026-07-10T18:24:24Z",
-   "last_seen": "2026-07-15T05:35:06Z",
+   "last_seen": "2026-07-15T14:53:38Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -10552,13 +10552,13 @@
     "league": null,
     "obvious": false,
     "early": false,
-    "entity": "Permanent Standard Time debate",
-    "why_now": "Political/legislative push for permanent standard time; co-trending with Daylight Savings Time discourse.",
-    "angle": "Non-sports: suppress unless tied to athlete or sports schedule impact.",
+    "entity": "Standard Time",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-15T05:35:06Z"
+   "enriched_at": "2026-07-15T14:53:38Z"
   },
   "kathleen turner": {
    "first_seen": "2026-07-10T18:24:24Z",
@@ -13675,7 +13675,7 @@
   },
   "jeanna": {
    "first_seen": "2026-07-11T14:23:17Z",
-   "last_seen": "2026-07-11T14:23:17Z",
+   "last_seen": "2026-07-15T14:53:38Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -13684,15 +13684,15 @@
     "key": "jeanna",
     "sports": false,
     "league": null,
-    "obvious": true,
-    "early": false,
-    "entity": "Generic name",
-    "why_now": "No sample tweets; insufficient data.",
-    "angle": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Jeanna",
+    "why_now": "Spiking on trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-11T14:23:17Z"
+   "enriched_at": "2026-07-15T14:53:38Z"
   },
   "valkoisloved": {
    "first_seen": "2026-07-11T14:23:17Z",
@@ -27347,23 +27347,24 @@
   },
   "todd blanche": {
    "first_seen": "2026-07-14T14:54:44Z",
-   "last_seen": "2026-07-14T14:54:44Z",
+   "last_seen": "2026-07-15T14:53:38Z",
    "sources_seen": [
-    "trends24"
+    "trends24",
+    "x"
    ],
    "enrichment": {
     "key": "todd blanche",
     "sports": false,
     "league": null,
     "obvious": false,
-    "early": true,
+    "early": false,
     "entity": "Todd Blanche",
-    "why_now": "Spiking on trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
     "angle": "Verify the driver manually before attaching content (fallback mode).",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-14T14:54:44Z"
+   "enriched_at": "2026-07-15T14:53:38Z"
   },
   "didi": {
    "first_seen": "2026-07-14T14:54:44Z",
@@ -27916,7 +27917,7 @@
   },
   "amy coney barrett": {
    "first_seen": "2026-07-14T18:06:05Z",
-   "last_seen": "2026-07-14T22:58:46Z",
+   "last_seen": "2026-07-15T14:53:38Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -27926,14 +27927,14 @@
     "sports": false,
     "league": null,
     "obvious": false,
-    "early": false,
+    "early": true,
     "entity": "Amy Coney Barrett",
-    "why_now": "Supreme Court justice; no sports connection.",
-    "angle": "Not sports-related; exclude.",
+    "why_now": "Spiking on trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-14T22:58:46Z"
+   "enriched_at": "2026-07-15T14:53:38Z"
   },
   "honkey": {
    "first_seen": "2026-07-14T18:06:05Z",
@@ -28760,7 +28761,7 @@
   },
   "jack smith": {
    "first_seen": "2026-07-14T22:58:46Z",
-   "last_seen": "2026-07-15T05:35:06Z",
+   "last_seen": "2026-07-15T14:53:38Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -28772,12 +28773,12 @@
     "obvious": false,
     "early": false,
     "entity": "Jack Smith",
-    "why_now": "Political figure; no sports connection.",
-    "angle": "Non-sports: suppress.",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-15T05:35:06Z"
+   "enriched_at": "2026-07-15T14:53:38Z"
   },
   "fraesp": {
    "first_seen": "2026-07-14T22:58:46Z",
@@ -28844,24 +28845,24 @@
   },
   "mullin": {
    "first_seen": "2026-07-14T22:58:46Z",
-   "last_seen": "2026-07-15T05:35:06Z",
+   "last_seen": "2026-07-15T14:53:38Z",
    "sources_seen": [
     "trends24",
     "x"
    ],
    "enrichment": {
     "key": "mullin",
-    "sports": true,
-    "league": "NBA",
+    "sports": false,
+    "league": null,
     "obvious": false,
     "early": false,
     "entity": "Mullin",
-    "why_now": "No sample tweets; likely Summer League or draft prospect; insufficient signal.",
-    "angle": "Suppress: no specific moment.",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-15T05:35:06Z"
+   "enriched_at": "2026-07-15T14:53:38Z"
   },
   "cucurella": {
    "first_seen": "2026-07-14T22:58:46Z",
@@ -29743,7 +29744,7 @@
   },
   "bovino": {
    "first_seen": "2026-07-15T05:35:06Z",
-   "last_seen": "2026-07-15T05:35:06Z",
+   "last_seen": "2026-07-15T14:53:38Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -29755,12 +29756,12 @@
     "obvious": false,
     "early": false,
     "entity": "Bovino",
-    "why_now": "Unclear entity; no sample tweets; likely non-sports.",
-    "angle": "Suppress: insufficient signal.",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-15T05:35:06Z"
+   "enriched_at": "2026-07-15T14:53:38Z"
   },
   "markiplier": {
    "first_seen": "2026-07-15T05:35:06Z",
@@ -29784,7 +29785,7 @@
   },
   "daylight savings time": {
    "first_seen": "2026-07-15T05:35:06Z",
-   "last_seen": "2026-07-15T05:35:06Z",
+   "last_seen": "2026-07-15T14:53:38Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -29795,13 +29796,13 @@
     "league": null,
     "obvious": false,
     "early": false,
-    "entity": "Daylight Savings Time debate",
-    "why_now": "Political/legislative discourse; co-trending with Standard Time; no sports angle.",
-    "angle": "Non-sports: suppress.",
+    "entity": "Daylight Savings Time",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-15T05:35:06Z"
+   "enriched_at": "2026-07-15T14:53:38Z"
   },
   "dame": {
    "first_seen": "2026-07-15T05:35:06Z",
@@ -29889,7 +29890,7 @@
   },
   "rand paul": {
    "first_seen": "2026-07-15T05:35:06Z",
-   "last_seen": "2026-07-15T05:35:06Z",
+   "last_seen": "2026-07-15T14:53:38Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -29899,14 +29900,14 @@
     "sports": false,
     "league": null,
     "obvious": false,
-    "early": false,
+    "early": true,
     "entity": "Rand Paul",
-    "why_now": "Political figure; no sports connection.",
-    "angle": "Non-sports: suppress.",
+    "why_now": "Spiking on trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-15T05:35:06Z"
+   "enriched_at": "2026-07-15T14:53:38Z"
   },
   "kaluma": {
    "first_seen": "2026-07-15T05:35:06Z",
@@ -30119,7 +30120,7 @@
   },
   "pypl": {
    "first_seen": "2026-07-15T05:35:06Z",
-   "last_seen": "2026-07-15T05:35:06Z",
+   "last_seen": "2026-07-15T14:53:38Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -30130,13 +30131,13 @@
     "league": null,
     "obvious": false,
     "early": false,
-    "entity": "PayPal stock",
-    "why_now": "Financial news; acquisition offer; no sports connection.",
-    "angle": "Non-sports: suppress.",
+    "entity": "$PYPL",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-15T05:35:06Z"
+   "enriched_at": "2026-07-15T14:53:38Z"
   },
   "riley o brien": {
    "first_seen": "2026-07-15T05:35:06Z",
@@ -30244,8 +30245,9 @@
   },
   "imax": {
    "first_seen": "2026-07-15T05:35:06Z",
-   "last_seen": "2026-07-15T05:35:06Z",
+   "last_seen": "2026-07-15T14:53:38Z",
    "sources_seen": [
+    "trends24",
     "x"
    ],
    "enrichment": {
@@ -30255,12 +30257,12 @@
     "obvious": false,
     "early": false,
     "entity": "IMAX",
-    "why_now": "Movie theater format; no sports connection.",
-    "angle": "Non-sports: suppress.",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-15T05:35:06Z"
+   "enriched_at": "2026-07-15T14:53:38Z"
   },
   "bryan baker": {
    "first_seen": "2026-07-15T05:35:06Z",
@@ -30705,6 +30707,1214 @@
     "market_id": null
    },
    "enriched_at": "2026-07-15T05:35:06Z"
+  },
+  "bullcat": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "bullcat",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "$BULLCAT",
+    "why_now": "Spiking on x; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "matt reeves": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "matt reeves",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Matt Reeves",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "yzerman": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "yzerman",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Yzerman",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "the batman": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "google",
+    "x"
+   ],
+   "enrichment": {
+    "key": "the batman",
+    "sports": true,
+    "league": "NFL",
+    "obvious": false,
+    "early": false,
+    "entity": "the batman 2",
+    "why_now": "Spiking on x/google; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z",
+   "last_engagement": 1742.0
+  },
+  "lindell": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "lindell",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Lindell",
+    "why_now": "Spiking on x; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "good wednesday": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "good wednesday",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Good Wednesday",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "yzerplan": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "yzerplan",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Yzerplan",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "lgrw": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "lgrw",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "#LGRW",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "dcu batman": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "dcu batman",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "DCU Batman",
+    "why_now": "Spiking on x; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "i play rocky": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "i play rocky",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "I Play Rocky",
+    "why_now": "Spiking on x; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "red wings": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "red wings",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Red Wings",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "happy hump": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "happy hump",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Happy Hump",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "jim phillips": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "jim phillips",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Jim Phillips",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "stallone": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "stallone",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Stallone",
+    "why_now": "Spiking on x; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "stun": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "stun",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Stun",
+    "why_now": "Spiking on x; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "nationalhotdogday": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "nationalhotdogday",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "#NationalHotDogDay",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "promise me": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "promise me",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Promise Me",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "buschcashcrop": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "buschcashcrop",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "#BuschCashCrop",
+    "why_now": "Spiking on x; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "dylan larkin": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "dylan larkin",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Dylan Larkin",
+    "why_now": "Spiking on x; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "tagheuerxfaye": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "tagheuerxfaye",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "#TAGHeuerxFaye",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "durbin": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "durbin",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Durbin",
+    "why_now": "Spiking on x; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "stevie y": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "stevie y",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Stevie Y",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "chris ilitch": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "chris ilitch",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Chris Ilitch",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "faye tagheuer th limited": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "faye tagheuer th limited",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "FAYE TAGHEUER TH LIMITED",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "adam silver": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "adam silver",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Adam Silver",
+    "why_now": "Spiking on x; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "autopen": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "autopen",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Autopen",
+    "why_now": "Spiking on x; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "pillow man": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "pillow man",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Pillow Man",
+    "why_now": "Spiking on x; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "mantha": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "mantha",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Mantha",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "wednesdaymotivation": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "wednesdaymotivation",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "#WednesdayMotivation",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "morph": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "morph",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Morph",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "paypal": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "paypal",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "PayPal",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "kellyjo": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "kellyjo",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "KellyJo",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "stripe": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "stripe",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Stripe",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "permanent dst": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "permanent dst",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Permanent DST",
+    "why_now": "Spiking on x; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "fort knox": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "fort knox",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Fort Knox",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "june ppi": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "june ppi",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "June PPI",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "dtcc": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "dtcc",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "DTCC",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "jay clayton": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "jay clayton",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Jay Clayton",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "senate judiciary committee": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "senate judiciary committee",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Senate Judiciary Committee",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "maxwell": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "maxwell",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Maxwell",
+    "why_now": "Spiking on x; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "mike lindell": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "trends24"
+   ],
+   "enrichment": {
+    "key": "mike lindell",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Mike Lindell",
+    "why_now": "Spiking on trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "mikoto": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "trends24"
+   ],
+   "enrichment": {
+    "key": "mikoto",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Mikoto",
+    "why_now": "Spiking on trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "linda ronstadt": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "trends24"
+   ],
+   "enrichment": {
+    "key": "linda ronstadt",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Linda Ronstadt",
+    "why_now": "Spiking on trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "chuck grassley": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "trends24"
+   ],
+   "enrichment": {
+    "key": "chuck grassley",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Chuck Grassley",
+    "why_now": "Spiking on trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "vallejo": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "trends24"
+   ],
+   "enrichment": {
+    "key": "vallejo",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Vallejo",
+    "why_now": "Spiking on trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "gone with the wind": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "trends24"
+   ],
+   "enrichment": {
+    "key": "gone with the wind",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Gone with the Wind",
+    "why_now": "Spiking on trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "england vs argentina": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "trends24"
+   ],
+   "enrichment": {
+    "key": "england vs argentina",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "England vs Argentina",
+    "why_now": "Spiking on trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "st bonaventure": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "trends24"
+   ],
+   "enrichment": {
+    "key": "st bonaventure",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "St. Bonaventure",
+    "why_now": "Spiking on trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "klobuchar": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "trends24"
+   ],
+   "enrichment": {
+    "key": "klobuchar",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Klobuchar",
+    "why_now": "Spiking on trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "tami": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "trends24"
+   ],
+   "enrichment": {
+    "key": "tami",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Tami",
+    "why_now": "Spiking on trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "morgan stanley": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "trends24"
+   ],
+   "enrichment": {
+    "key": "morgan stanley",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Morgan Stanley",
+    "why_now": "Spiking on trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "zimbabwe vs bangladesh": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "zimbabwe vs bangladesh",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": false,
+    "early": true,
+    "entity": "zimbabwe vs bangladesh",
+    "why_now": "Spiking on google; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z",
+   "last_engagement": 38.666666666666664
+  },
+  "keltie knight": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "keltie knight",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "keltie knight",
+    "why_now": "Spiking on google; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "sylvester stallone": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "sylvester stallone",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "sylvester stallone",
+    "why_now": "Spiking on google; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "florida": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "florida",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "florida",
+    "why_now": "Spiking on google; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "nhl schedule": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "nhl schedule",
+    "sports": true,
+    "league": "NHL",
+    "obvious": true,
+    "early": true,
+    "entity": "nhl schedule release",
+    "why_now": "Spiking on google; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "tyrannosaurus rex fossil": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "tyrannosaurus rex fossil",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "tyrannosaurus rex fossil",
+    "why_now": "Spiking on google; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "the challenge season 42": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "the challenge season 42",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "the challenge season 42",
+    "why_now": "Spiking on google; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
+  },
+  "retirement": {
+   "first_seen": "2026-07-15T14:53:38Z",
+   "last_seen": "2026-07-15T14:53:38Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "retirement",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "retirement",
+    "why_now": "Spiking on google; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-15T14:53:38Z"
   }
  },
  "x_usage": {
@@ -30715,59 +31925,59 @@
   "2026-07-12": 2071,
   "2026-07-13": 2112,
   "2026-07-14": 2041,
-  "2026-07-15": 584
+  "2026-07-15": 1141
  },
  "prev_x_trends": [
-  "#AllStarGame",
-  "Alvin",
-  "Miguel Vargas",
+  "$BULLCAT",
+  "Matt Reeves",
+  "Todd Blanche",
+  "Yzerman",
+  "The Batman",
+  "Lindell",
+  "Good Wednesday",
+  "Yzerplan",
+  "#LGRW",
+  "Hump Day",
+  "DCU Batman",
   "Standard Time",
-  "Cody Bellinger",
-  "National League",
-  "GPT-5.6 Sol",
-  "Cameron Carr",
-  "Cam Carr",
-  "American League",
-  "NDAA",
-  "Dave Roberts",
-  "Ray Charles",
-  "Klay",
-  "#WWENXT",
-  "Bovino",
-  "Jack Smith",
-  "Markiplier",
-  "Daylight Savings Time",
-  "Dame",
-  "Blue Beetle",
-  "Brees",
-  "Trevon Brazile",
-  "The NL",
-  "Rand Paul",
-  "Sandlot",
-  "Kaluma",
-  "ASG MVP",
-  "Dee and Barrett",
-  "#SLM2",
-  "Sanchez",
+  "I Play Rocky",
   "Mullin",
-  "Wrobleski",
-  "Tim Conway",
-  "Wrobo",
-  "Boyz II Men",
-  "fnaf 2",
+  "Red Wings",
+  "Happy Hump",
+  "Jim Phillips",
+  "Stallone",
+  "Stun",
+  "#NationalHotDogDay",
+  "Promise Me",
+  "#BuschCashCrop",
+  "Jack Smith",
+  "Dylan Larkin",
+  "#TAGHeuerxFaye",
+  "Durbin",
+  "Stevie Y",
+  "Chris Ilitch",
+  "FAYE TAGHEUER TH LIMITED",
+  "Adam Silver",
+  "Autopen",
+  "Pillow Man",
   "$PYPL",
-  "Riley O'Brien",
-  "RAY TORO",
-  "Miggy",
-  "Tomi",
-  "Amado",
+  "Mantha",
+  "#WednesdayMotivation",
   "IMAX",
-  "Bryan Baker",
-  "Miss America",
-  "Harvey Korman",
-  "America the Beautiful",
-  "Rodgers",
-  "Beep"
+  "Morph",
+  "PayPal",
+  "Daylight Savings Time",
+  "KellyJo",
+  "Stripe",
+  "$NRED",
+  "Permanent DST",
+  "Fort Knox",
+  "June PPI",
+  "DTCC",
+  "Bovino",
+  "Jay Clayton",
+  "Senate Judiciary Committee",
+  "Maxwell"
  ],
  "suppressed": [
   {
@@ -31509,6 +32719,11 @@
    "key": "the nl",
    "reason": "Generic league reference; duplicate of 'national league'.",
    "at": "2026-07-15T05:35:06Z"
+  },
+  {
+   "key": "nhl schedule",
+   "reason": "Spiking on google; driver unconfirmed (fallback classifier — no LLM key).",
+   "at": "2026-07-15T14:53:38Z"
   }
  ],
  "slack_posted": {
