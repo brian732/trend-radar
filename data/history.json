@@ -85,27 +85,6 @@
    },
    "enriched_at": "2026-07-12T14:27:04Z"
   },
-  "khabib": {
-   "first_seen": "2026-07-08T19:20:02Z",
-   "last_seen": "2026-07-12T06:06:41Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "khabib",
-    "sports": true,
-    "league": "MMA/Boxing",
-    "obvious": false,
-    "early": true,
-    "entity": "Khabib Nurmagomedov",
-    "why_now": "Co-trending with UFC329 and McGregor; likely commentary or comparison in MMA discourse.",
-    "angle": "Early signal on MMA legacy discussion; potential McGregor vs Khabib narrative resurfacing.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-07-12T06:06:41Z"
-  },
   "conor": {
    "first_seen": "2026-07-08T19:20:02Z",
    "last_seen": "2026-07-12T14:27:04Z",
@@ -255,27 +234,6 @@
     "market_id": null
    },
    "enriched_at": "2026-07-16T05:42:57Z"
-  },
-  "ca lottery": {
-   "first_seen": "2026-07-09T06:47:53Z",
-   "last_seen": "2026-07-12T06:06:41Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "ca lottery",
-    "sports": false,
-    "league": null,
-    "obvious": true,
-    "early": false,
-    "entity": "California Lottery",
-    "why_now": "Lottery news; no sports connection.",
-    "angle": null,
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-07-12T06:06:41Z",
-   "last_engagement": 0.6666666666666666
   },
   "good thursday": {
    "first_seen": "2026-07-09T15:58:23Z",
@@ -1529,7 +1487,7 @@
   },
   "jeanna": {
    "first_seen": "2026-07-11T14:23:17Z",
-   "last_seen": "2026-07-18T14:20:48Z",
+   "last_seen": "2026-07-19T14:24:20Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -1539,14 +1497,14 @@
     "sports": false,
     "league": null,
     "obvious": false,
-    "early": true,
+    "early": false,
     "entity": "Jeanna",
-    "why_now": "Spiking on x; driver unconfirmed (fallback classifier — no LLM key).",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
     "angle": "Verify the driver manually before attaching content (fallback mode).",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-18T14:20:48Z"
+   "enriched_at": "2026-07-19T14:24:20Z"
   },
   "sandlot": {
    "first_seen": "2026-07-11T14:23:17Z",
@@ -1631,71 +1589,6 @@
    },
    "enriched_at": "2026-07-14T22:58:46Z"
   },
-  "ufc329": {
-   "first_seen": "2026-07-11T17:55:41Z",
-   "last_seen": "2026-07-12T06:06:41Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "ufc329",
-    "sports": true,
-    "league": "MMA/Boxing",
-    "obvious": false,
-    "early": false,
-    "entity": "UFC329",
-    "why_now": "McGregor vs Holloway main event; multiple fighter matchups announced; betting lines and predictions circulating.",
-    "angle": "Position as the marquee UFC event of the moment; tie to McGregor's return and fighter storylines for pre-fight coverage.",
-    "duplicate_of": "mcgregor",
-    "market_id": null
-   },
-   "enriched_at": "2026-07-12T06:06:41Z",
-   "last_engagement": 898.3333333333334
-  },
-  "mcgregor": {
-   "first_seen": "2026-07-11T17:55:41Z",
-   "last_seen": "2026-07-12T06:06:41Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "mcgregor",
-    "sports": true,
-    "league": "MMA/Boxing",
-    "obvious": false,
-    "early": false,
-    "entity": "Conor McGregor",
-    "why_now": "McGregor's return to octagon at UFC329 vs Max Holloway; quotes about preparation and dominance; breaking toe injury footage released.",
-    "angle": "Leverage McGregor's comeback narrative and his confident pre-fight messaging for betting/hype content; the injury-recovery angle adds redemption story.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-07-12T06:06:41Z",
-   "last_engagement": 2401.6666666666665
-  },
-  "holloway": {
-   "first_seen": "2026-07-11T17:55:41Z",
-   "last_seen": "2026-07-12T06:06:41Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "holloway",
-    "sports": true,
-    "league": "MMA/Boxing",
-    "obvious": false,
-    "early": false,
-    "entity": "Max Holloway",
-    "why_now": "McGregor's warning to Holloway ahead of UFC329 fight; high-stakes matchup with title implications.",
-    "angle": "Highlight Holloway's underdog positioning and McGregor's psychological warfare; frame as David vs Goliath narrative.",
-    "duplicate_of": "mcgregor",
-    "market_id": null
-   },
-   "enriched_at": "2026-07-12T06:06:41Z"
-  },
   "layne riggs": {
    "first_seen": "2026-07-11T17:55:41Z",
    "last_seen": "2026-07-18T17:56:45Z",
@@ -1719,7 +1612,7 @@
   },
   "wi vs nz": {
    "first_seen": "2026-07-11T17:55:41Z",
-   "last_seen": "2026-07-13T18:45:23Z",
+   "last_seen": "2026-07-19T14:24:20Z",
    "sources_seen": [
     "google"
    ],
@@ -1728,15 +1621,15 @@
     "sports": true,
     "league": "Other Sports",
     "obvious": false,
-    "early": false,
-    "entity": "West Indies vs New Zealand (ODI)",
-    "why_now": "Cricket ODI series (July 11, 2026); West Indies dominant in first match; live match coverage.",
-    "angle": "Cricket series moment; tie to West Indies performance, player standouts, or series narrative.",
+    "early": true,
+    "entity": "wi vs nz",
+    "why_now": "Spiking on google; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-13T18:45:23Z",
-   "last_engagement": 6.0
+   "enriched_at": "2026-07-19T14:24:20Z",
+   "last_engagement": 11.0
   },
   "olivia miles": {
    "first_seen": "2026-07-11T17:55:41Z",
@@ -1783,70 +1676,6 @@
    },
    "enriched_at": "2026-07-14T05:33:55Z",
    "last_engagement": 109.33333333333333
-  },
-  "norway": {
-   "first_seen": "2026-07-11T22:52:55Z",
-   "last_seen": "2026-07-12T06:06:41Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "norway",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": false,
-    "early": true,
-    "entity": "Norway",
-    "why_now": "Co-trending with World Cup context; likely World Cup team or player nation.",
-    "angle": "Early signal on World Cup team narrative; secondary nation angle.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-07-12T06:06:41Z"
-  },
-  "haaland": {
-   "first_seen": "2026-07-11T22:52:55Z",
-   "last_seen": "2026-07-12T06:06:41Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "haaland",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": false,
-    "early": false,
-    "entity": "Erling Haaland",
-    "why_now": "Haaland song meme viral; 'Haaland Haaland he's blue just like his dad' earworm; Peruvian children named after him.",
-    "angle": "Tap into Haaland's cultural meme status and the viral song; use for light-hearted soccer content.",
-    "duplicate_of": null,
-    "market_id": "608541"
-   },
-   "enriched_at": "2026-07-12T06:06:41Z",
-   "last_engagement": 40.0
-  },
-  "sorloth": {
-   "first_seen": "2026-07-11T22:52:55Z",
-   "last_seen": "2026-07-12T06:06:41Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "sorloth",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": false,
-    "early": true,
-    "entity": "Alexander Sørloth",
-    "why_now": "Co-trending with World Cup context; likely player in tournament.",
-    "angle": "Early signal on Sørloth's World Cup role; secondary player angle.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-07-12T06:06:41Z"
   },
   "bellingham": {
    "first_seen": "2026-07-11T22:52:55Z",
@@ -1977,27 +1806,6 @@
    },
    "enriched_at": "2026-07-15T22:59:46Z"
   },
-  "ro khanna": {
-   "first_seen": "2026-07-11T22:52:55Z",
-   "last_seen": "2026-07-12T06:06:41Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "ro khanna",
-    "sports": false,
-    "league": null,
-    "obvious": true,
-    "early": false,
-    "entity": "Ro Khanna",
-    "why_now": "US politician; no sports connection evident.",
-    "angle": null,
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-07-12T06:06:41Z"
-  },
   "reece james": {
    "first_seen": "2026-07-11T22:52:55Z",
    "last_seen": "2026-07-15T22:59:46Z",
@@ -2105,90 +1913,6 @@
    "enriched_at": "2026-07-15T22:59:46Z",
    "last_engagement": 39219.333333333336
   },
-  "paddy": {
-   "first_seen": "2026-07-12T06:06:41Z",
-   "last_seen": "2026-07-12T06:06:41Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "paddy",
-    "sports": true,
-    "league": "MMA/Boxing",
-    "obvious": false,
-    "early": true,
-    "entity": "Paddy Pimblett",
-    "why_now": "Paddy Pimblett fighting at UFC329; Jake Paul has big bets on him; co-trending with UFC329 and McGregor.",
-    "angle": "Early signal on Pimblett's UFC329 bout; tie to Jake Paul's betting picks for secondary storyline.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-07-12T06:06:41Z"
-  },
-  "switzerland": {
-   "first_seen": "2026-07-12T06:06:41Z",
-   "last_seen": "2026-07-12T06:06:41Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "switzerland",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": false,
-    "early": false,
-    "entity": "Switzerland",
-    "why_now": "Switzerland vs Argentina match; Embolo and Swiss players co-trending; World Cup fixture.",
-    "angle": "Highlight Switzerland's underdog positioning vs Argentina; Embolo as key player angle.",
-    "duplicate_of": "argentina",
-    "market_id": "558974"
-   },
-   "enriched_at": "2026-07-12T06:06:41Z"
-  },
-  "embolo": {
-   "first_seen": "2026-07-12T06:06:41Z",
-   "last_seen": "2026-07-12T06:06:41Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "embolo",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": false,
-    "early": false,
-    "entity": "Breel Embolo",
-    "why_now": "Embolo playing for Switzerland vs Argentina; key player in World Cup match.",
-    "angle": "Highlight Embolo's role in Switzerland's World Cup campaign; player-centric angle.",
-    "duplicate_of": "switzerland",
-    "market_id": null
-   },
-   "enriched_at": "2026-07-12T06:06:41Z"
-  },
-  "swiss": {
-   "first_seen": "2026-07-12T06:06:41Z",
-   "last_seen": "2026-07-12T06:06:41Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "swiss",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": false,
-    "early": false,
-    "entity": "Switzerland",
-    "why_now": "Switzerland vs Argentina match; Swiss team co-trending.",
-    "angle": "Use for World Cup match engagement; Swiss team narrative.",
-    "duplicate_of": "switzerland",
-    "market_id": "558974"
-   },
-   "enriched_at": "2026-07-12T06:06:41Z"
-  },
   "paredes": {
    "first_seen": "2026-07-12T06:06:41Z",
    "last_seen": "2026-07-15T22:59:46Z",
@@ -2209,91 +1933,6 @@
     "market_id": null
    },
    "enriched_at": "2026-07-15T22:59:46Z"
-  },
-  "dana white": {
-   "first_seen": "2026-07-12T06:06:41Z",
-   "last_seen": "2026-07-12T06:06:41Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "dana white",
-    "sports": true,
-    "league": "MMA/Boxing",
-    "obvious": false,
-    "early": false,
-    "entity": "Dana White",
-    "why_now": "Dana White commentary on UFC329 card value and McGregor's gate record ($25M claimed); UFC leadership presence.",
-    "angle": "Use Dana's promotional hype and record-breaking claims to amplify UFC329 event magnitude and McGregor's star power.",
-    "duplicate_of": "mcgregor",
-    "market_id": null
-   },
-   "enriched_at": "2026-07-12T06:06:41Z"
-  },
-  "alvarez": {
-   "first_seen": "2026-07-12T06:06:41Z",
-   "last_seen": "2026-07-12T06:06:41Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "alvarez",
-    "sports": true,
-    "league": "MMA/Boxing",
-    "obvious": false,
-    "early": true,
-    "entity": "Alvarez",
-    "why_now": "Co-trending with UFC and MMA names; likely fighter on UFC329 card.",
-    "angle": "Early signal on UFC fighter; driver unconfirmed.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-07-12T06:06:41Z"
-  },
-  "jake paul": {
-   "first_seen": "2026-07-12T06:06:41Z",
-   "last_seen": "2026-07-12T06:06:41Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "jake paul",
-    "sports": true,
-    "league": "MMA/Boxing",
-    "obvious": false,
-    "early": false,
-    "entity": "Jake Paul",
-    "why_now": "Jake Paul recreated McGregor's Polymarket ad; has big bets on McGregor and Paddy Pimblett at UFC329.",
-    "angle": "Tap into Jake Paul's betting culture influence and meme-ability; his UFC329 picks and ad recreation show mainstream crossover.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-07-12T06:06:41Z",
-   "last_engagement": 450.3333333333333
-  },
-  "suiza": {
-   "first_seen": "2026-07-12T06:06:41Z",
-   "last_seen": "2026-07-12T06:06:41Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "suiza",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": false,
-    "early": false,
-    "entity": "Switzerland",
-    "why_now": "Spanish-language variant of Switzerland; Argentina vs Switzerland match.",
-    "angle": "Use for Spanish-language audience engagement on World Cup match.",
-    "duplicate_of": "switzerland",
-    "market_id": "558974"
-   },
-   "enriched_at": "2026-07-12T06:06:41Z"
   },
   "inglaterra": {
    "first_seen": "2026-07-12T06:06:41Z",
@@ -2316,28 +1955,6 @@
    },
    "enriched_at": "2026-07-15T22:59:46Z"
   },
-  "ufc239": {
-   "first_seen": "2026-07-12T06:06:41Z",
-   "last_seen": "2026-07-12T06:06:41Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "ufc239",
-    "sports": true,
-    "league": "MMA/Boxing",
-    "obvious": false,
-    "early": false,
-    "entity": "UFC239",
-    "why_now": "Parallel UFC event; Max Holloway featured; betting picks and predictions circulating.",
-    "angle": "Secondary UFC event trending; use for broader MMA betting culture content.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-07-12T06:06:41Z",
-   "last_engagement": 49.333333333333336
-  },
   "scaloni": {
    "first_seen": "2026-07-12T06:06:41Z",
    "last_seen": "2026-07-15T22:59:46Z",
@@ -2358,49 +1975,6 @@
     "market_id": null
    },
    "enriched_at": "2026-07-15T22:59:46Z"
-  },
-  "aaron rodgers": {
-   "first_seen": "2026-07-12T06:06:41Z",
-   "last_seen": "2026-07-12T06:06:41Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "aaron rodgers",
-    "sports": true,
-    "league": "NFL",
-    "obvious": false,
-    "early": false,
-    "entity": "Aaron Rodgers",
-    "why_now": "Rodgers takes Kobe over LeBron in GOAT debate; viral clip of sports opinion; nostalgia clips of past plays.",
-    "angle": "Tap into Rodgers' sports opinion credibility and the Kobe-LeBron debate for engagement; athlete hot-take culture.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-07-12T06:06:41Z",
-   "last_engagement": 480.3333333333333
-  },
-  "argsui": {
-   "first_seen": "2026-07-12T06:06:41Z",
-   "last_seen": "2026-07-12T06:06:41Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "argsui",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": false,
-    "early": false,
-    "entity": "Argentina vs Switzerland",
-    "why_now": "World Cup match hashtag; Argentina vs Switzerland fixture trending.",
-    "angle": "Use match hashtag for real-time engagement during World Cup game.",
-    "duplicate_of": "argentina",
-    "market_id": null
-   },
-   "enriched_at": "2026-07-12T06:06:41Z"
   },
   "toonami": {
    "first_seen": "2026-07-12T06:06:41Z",
@@ -2423,27 +1997,6 @@
    },
    "enriched_at": "2026-07-19T05:56:41Z"
   },
-  "usa vs paraguay": {
-   "first_seen": "2026-07-12T06:06:41Z",
-   "last_seen": "2026-07-12T06:06:41Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "usa vs paraguay",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": false,
-    "early": false,
-    "entity": "USA vs Paraguay",
-    "why_now": "World Cup match fixture; USA and Paraguay co-trending.",
-    "angle": "Position USA's World Cup campaign; tie to player and coach narratives.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-07-12T06:06:41Z"
-  },
   "lautaro": {
    "first_seen": "2026-07-12T06:06:41Z",
    "last_seen": "2026-07-15T22:59:46Z",
@@ -2464,69 +2017,6 @@
     "market_id": null
    },
    "enriched_at": "2026-07-15T22:59:46Z"
-  },
-  "king green": {
-   "first_seen": "2026-07-12T06:06:41Z",
-   "last_seen": "2026-07-12T06:06:41Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "king green",
-    "sports": true,
-    "league": "Other Sports",
-    "obvious": false,
-    "early": true,
-    "entity": "King Green",
-    "why_now": "Co-trending with UFC and sports names; unclear driver; likely athlete or sports personality.",
-    "angle": "Early signal on emerging sports personality; driver unconfirmed.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-07-12T06:06:41Z"
-  },
-  "octagon": {
-   "first_seen": "2026-07-12T06:06:41Z",
-   "last_seen": "2026-07-12T06:06:41Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "octagon",
-    "sports": true,
-    "league": "MMA/Boxing",
-    "obvious": false,
-    "early": false,
-    "entity": "UFC Octagon",
-    "why_now": "McGregor returns to octagon at UFC329; multiple tweets reference octagon and McGregor's comeback.",
-    "angle": "Use octagon imagery and McGregor's return symbolism for visual/emotional marketing around UFC329.",
-    "duplicate_of": "mcgregor",
-    "market_id": null
-   },
-   "enriched_at": "2026-07-12T06:06:41Z"
-  },
-  "almiron": {
-   "first_seen": "2026-07-12T06:06:41Z",
-   "last_seen": "2026-07-12T06:06:41Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "almiron",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": false,
-    "early": true,
-    "entity": "Miguel Almirón",
-    "why_now": "Co-trending with Argentina and World Cup context; likely player in tournament.",
-    "angle": "Early signal on Almirón's World Cup role; secondary player angle.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-07-12T06:06:41Z"
   },
   "bison": {
    "first_seen": "2026-07-12T06:06:41Z",
@@ -2549,48 +2039,6 @@
    },
    "enriched_at": "2026-07-12T22:53:15Z"
   },
-  "royval": {
-   "first_seen": "2026-07-12T06:06:41Z",
-   "last_seen": "2026-07-12T06:06:41Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "royval",
-    "sports": true,
-    "league": "MMA/Boxing",
-    "obvious": false,
-    "early": true,
-    "entity": "Royval",
-    "why_now": "Co-trending with UFC329; likely fighter on the card; rank climbing from 19 to 28.",
-    "angle": "Early signal on UFC329 undercard fighter; secondary storyline for fight card depth.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-07-12T06:06:41Z"
-  },
-  "the ufc": {
-   "first_seen": "2026-07-12T06:06:41Z",
-   "last_seen": "2026-07-12T06:06:41Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "the ufc",
-    "sports": true,
-    "league": "MMA/Boxing",
-    "obvious": false,
-    "early": false,
-    "entity": "UFC",
-    "why_now": "Dustin Poirier open to McGregor rematch; UFC footage of McGregor injury released; UFC329 event trending.",
-    "angle": "Leverage Poirier's willingness to fight McGregor as secondary storyline; position UFC as comeback-friendly promotion.",
-    "duplicate_of": "mcgregor",
-    "market_id": null
-   },
-   "enriched_at": "2026-07-12T06:06:41Z"
-  },
   "tokyorevengers": {
    "first_seen": "2026-07-12T06:06:41Z",
    "last_seen": "2026-07-19T05:56:41Z",
@@ -2612,90 +2060,6 @@
    },
    "enriched_at": "2026-07-19T05:56:41Z"
   },
-  "mohawk": {
-   "first_seen": "2026-07-12T06:06:41Z",
-   "last_seen": "2026-07-12T06:06:41Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "mohawk",
-    "sports": true,
-    "league": "MMA/Boxing",
-    "obvious": false,
-    "early": true,
-    "entity": "Mohawk",
-    "why_now": "Co-trending with UFC and MMA names; likely fighter hairstyle or fighter nickname.",
-    "angle": "Early signal on UFC fighter or visual meme; driver unconfirmed.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-07-12T06:06:41Z"
-  },
-  "eminem": {
-   "first_seen": "2026-07-12T06:06:41Z",
-   "last_seen": "2026-07-12T06:06:41Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "eminem",
-    "sports": false,
-    "league": null,
-    "obvious": true,
-    "early": false,
-    "entity": "Eminem",
-    "why_now": "Rapper; no sports connection evident in co-trending.",
-    "angle": null,
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-07-12T06:06:41Z"
-  },
-  "michael chandler": {
-   "first_seen": "2026-07-12T06:06:41Z",
-   "last_seen": "2026-07-12T06:06:41Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "michael chandler",
-    "sports": true,
-    "league": "MMA/Boxing",
-    "obvious": false,
-    "early": false,
-    "entity": "Michael Chandler",
-    "why_now": "McGregor pulled out of Chandler fight in 2024 due to toe injury; UFC released footage of that injury moment.",
-    "angle": "Use the injury-comeback narrative: McGregor's past failure vs Chandler now redeemed by UFC329 return.",
-    "duplicate_of": "mcgregor",
-    "market_id": null
-   },
-   "enriched_at": "2026-07-12T06:06:41Z"
-  },
-  "kavanagh": {
-   "first_seen": "2026-07-12T06:06:41Z",
-   "last_seen": "2026-07-12T06:06:41Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "kavanagh",
-    "sports": true,
-    "league": "MMA/Boxing",
-    "obvious": false,
-    "early": true,
-    "entity": "Kavanagh",
-    "why_now": "Co-trending with McGregor and UFC329; likely McGregor's coach John Kavanagh; part of preparation narrative.",
-    "angle": "Early signal on McGregor's coaching team and training camp; secondary angle for behind-the-scenes content.",
-    "duplicate_of": "mcgregor",
-    "market_id": null
-   },
-   "enriched_at": "2026-07-12T06:06:41Z"
-  },
   "paramount": {
    "first_seen": "2026-07-12T06:06:41Z",
    "last_seen": "2026-07-13T18:45:23Z",
@@ -2716,153 +2080,6 @@
     "market_id": null
    },
    "enriched_at": "2026-07-13T18:45:23Z"
-  },
-  "the mac": {
-   "first_seen": "2026-07-12T06:06:41Z",
-   "last_seen": "2026-07-12T06:06:41Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "the mac",
-    "sports": true,
-    "league": "MMA/Boxing",
-    "obvious": false,
-    "early": false,
-    "entity": "Conor McGregor",
-    "why_now": "Nickname for McGregor; co-trending with UFC329 and McGregor.",
-    "angle": "Use McGregor's nickname for casual/meme-friendly marketing.",
-    "duplicate_of": "mcgregor",
-    "market_id": null
-   },
-   "enriched_at": "2026-07-12T06:06:41Z"
-  },
-  "mckinney": {
-   "first_seen": "2026-07-12T06:06:41Z",
-   "last_seen": "2026-07-12T06:06:41Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "mckinney",
-    "sports": true,
-    "league": "Other Sports",
-    "obvious": false,
-    "early": true,
-    "entity": "McKinney",
-    "why_now": "Co-trending with sports names; likely athlete or sports personality; rank climbing from 26 to 37.",
-    "angle": "Early signal on sports entity; driver unconfirmed.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-07-12T06:06:41Z"
-  },
-  "malvinas": {
-   "first_seen": "2026-07-12T06:06:41Z",
-   "last_seen": "2026-07-12T06:06:41Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "malvinas",
-    "sports": false,
-    "league": null,
-    "obvious": true,
-    "early": false,
-    "entity": "Malvinas",
-    "why_now": "Geopolitical reference; no sports connection evident.",
-    "angle": null,
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-07-12T06:06:41Z"
-  },
-  "refund": {
-   "first_seen": "2026-07-12T06:06:41Z",
-   "last_seen": "2026-07-12T06:06:41Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "refund",
-    "sports": true,
-    "league": "Other Sports",
-    "obvious": false,
-    "early": true,
-    "entity": "Refund",
-    "why_now": "Co-trending with sports names; likely betting or event refund; rank stable around 39-41.",
-    "angle": "Early signal on sports betting or event issue; driver unconfirmed.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-07-12T06:06:41Z"
-  },
-  "rousey": {
-   "first_seen": "2026-07-12T06:06:41Z",
-   "last_seen": "2026-07-12T06:06:41Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "rousey",
-    "sports": true,
-    "league": "MMA/Boxing",
-    "obvious": false,
-    "early": true,
-    "entity": "Ronda Rousey",
-    "why_now": "Co-trending with UFC and MMA names; likely nostalgia or comparison angle to McGregor's comeback narrative.",
-    "angle": "Early signal on MMA legacy/comeback themes; position as parallel to McGregor's return story.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-07-12T06:06:41Z"
-  },
-  "blew": {
-   "first_seen": "2026-07-12T06:06:41Z",
-   "last_seen": "2026-07-12T06:06:41Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "blew",
-    "sports": true,
-    "league": "Other Sports",
-    "obvious": false,
-    "early": true,
-    "entity": "Blew",
-    "why_now": "Co-trending with sports names; likely sports moment or athlete; rank climbing from 37 to 42.",
-    "angle": "Early signal on sports moment; driver unconfirmed.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-07-12T06:06:41Z"
-  },
-  "bautista": {
-   "first_seen": "2026-07-12T06:06:41Z",
-   "last_seen": "2026-07-12T06:06:41Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "bautista",
-    "sports": true,
-    "league": "Other Sports",
-    "obvious": false,
-    "early": true,
-    "entity": "Bautista",
-    "why_now": "Co-trending with sports names; likely athlete or sports personality; rank climbing from 25 to 43.",
-    "angle": "Early signal on sports entity; driver unconfirmed.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-07-12T06:06:41Z"
   },
   "simeone": {
    "first_seen": "2026-07-12T06:06:41Z",
@@ -2905,309 +2122,6 @@
     "market_id": null
    },
    "enriched_at": "2026-07-13T15:43:50Z"
-  },
-  "carano": {
-   "first_seen": "2026-07-12T06:06:41Z",
-   "last_seen": "2026-07-12T06:06:41Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "carano",
-    "sports": true,
-    "league": "MMA/Boxing",
-    "obvious": false,
-    "early": true,
-    "entity": "Gina Carano",
-    "why_now": "Co-trending with UFC and MMA names; likely nostalgia or comparison to female MMA fighters.",
-    "angle": "Early signal on female MMA legacy or comeback narrative; driver unconfirmed.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-07-12T06:06:41Z"
-  },
-  "father time": {
-   "first_seen": "2026-07-12T06:06:41Z",
-   "last_seen": "2026-07-12T06:06:41Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "father time",
-    "sports": true,
-    "league": "MMA/Boxing",
-    "obvious": false,
-    "early": true,
-    "entity": "Father Time",
-    "why_now": "Co-trending with UFC and MMA; likely commentary on aging fighter or McGregor's comeback vs age.",
-    "angle": "Early signal on age/comeback narrative in MMA; driver unconfirmed.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-07-12T06:06:41Z"
-  },
-  "sandhagen": {
-   "first_seen": "2026-07-12T06:06:41Z",
-   "last_seen": "2026-07-12T06:06:41Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "sandhagen",
-    "sports": true,
-    "league": "MMA/Boxing",
-    "obvious": false,
-    "early": true,
-    "entity": "Cory Sandhagen",
-    "why_now": "Co-trending with UFC329; likely fighter on the card; rank climbing from 35 to 42.",
-    "angle": "Early signal on UFC329 undercard fighter; potential upset or notable performance angle.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-07-12T06:06:41Z"
-  },
-  "vince vaughn": {
-   "first_seen": "2026-07-12T06:06:41Z",
-   "last_seen": "2026-07-12T06:06:41Z",
-   "sources_seen": [
-    "x"
-   ],
-   "enrichment": {
-    "key": "vince vaughn",
-    "sports": false,
-    "league": null,
-    "obvious": true,
-    "early": false,
-    "entity": "Vince Vaughn",
-    "why_now": "Actor; no sports connection evident.",
-    "angle": null,
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-07-12T06:06:41Z"
-  },
-  "myadventureswithsuperman": {
-   "first_seen": "2026-07-12T06:06:41Z",
-   "last_seen": "2026-07-12T06:06:41Z",
-   "sources_seen": [
-    "trends24"
-   ],
-   "enrichment": {
-    "key": "myadventureswithsuperman",
-    "sports": false,
-    "league": null,
-    "obvious": true,
-    "early": false,
-    "entity": "My Adventures with Superman",
-    "why_now": "Animated TV series; no sports connection.",
-    "angle": null,
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-07-12T06:06:41Z"
-  },
-  "argvssui": {
-   "first_seen": "2026-07-12T06:06:41Z",
-   "last_seen": "2026-07-12T06:06:41Z",
-   "sources_seen": [
-    "trends24"
-   ],
-   "enrichment": {
-    "key": "argvssui",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": false,
-    "early": false,
-    "entity": "Argentina vs Switzerland",
-    "why_now": "World Cup match hashtag variant; Argentina vs Switzerland fixture.",
-    "angle": "Use match hashtag for real-time engagement during World Cup game.",
-    "duplicate_of": "argentina",
-    "market_id": null
-   },
-   "enriched_at": "2026-07-12T06:06:41Z"
-  },
-  "allgaier": {
-   "first_seen": "2026-07-12T06:06:41Z",
-   "last_seen": "2026-07-12T06:06:41Z",
-   "sources_seen": [
-    "trends24"
-   ],
-   "enrichment": {
-    "key": "allgaier",
-    "sports": true,
-    "league": "Motorsports",
-    "obvious": false,
-    "early": true,
-    "entity": "Justin Allgaier",
-    "why_now": "Co-trending with sports names; likely NASCAR driver; rank climbing from 40 to 47.",
-    "angle": "Early signal on NASCAR driver or race; driver unconfirmed.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-07-12T06:06:41Z"
-  },
-  "dust advisory": {
-   "first_seen": "2026-07-12T06:06:41Z",
-   "last_seen": "2026-07-12T06:06:41Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "dust advisory",
-    "sports": false,
-    "league": null,
-    "obvious": true,
-    "early": false,
-    "entity": "Dust Advisory",
-    "why_now": "Weather alert; no sports connection.",
-    "angle": null,
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-07-12T06:06:41Z"
-  },
-  "val kilmer": {
-   "first_seen": "2026-07-12T06:06:41Z",
-   "last_seen": "2026-07-12T06:06:41Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "val kilmer",
-    "sports": false,
-    "league": null,
-    "obvious": true,
-    "early": false,
-    "entity": "Val Kilmer",
-    "why_now": "Actor; no sports connection evident.",
-    "angle": null,
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-07-12T06:06:41Z"
-  },
-  "katie thurston": {
-   "first_seen": "2026-07-12T06:06:41Z",
-   "last_seen": "2026-07-12T06:06:41Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "katie thurston",
-    "sports": false,
-    "league": null,
-    "obvious": true,
-    "early": false,
-    "entity": "Katie Thurston",
-    "why_now": "Reality TV personality; no sports connection evident.",
-    "angle": null,
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-07-12T06:06:41Z"
-  },
-  "scarlett johansson": {
-   "first_seen": "2026-07-12T06:06:41Z",
-   "last_seen": "2026-07-12T06:06:41Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "scarlett johansson",
-    "sports": false,
-    "league": null,
-    "obvious": true,
-    "early": false,
-    "entity": "Scarlett Johansson",
-    "why_now": "Actress; no sports connection evident.",
-    "angle": null,
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-07-12T06:06:41Z"
-  },
-  "حمد بن خليفة": {
-   "first_seen": "2026-07-12T06:06:41Z",
-   "last_seen": "2026-07-12T06:06:41Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "حمد بن خليفة",
-    "sports": false,
-    "league": null,
-    "obvious": true,
-    "early": false,
-    "entity": "Hamad bin Khalifa Al Thani",
-    "why_now": "Death of former Qatari emir; no sports connection.",
-    "angle": null,
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-07-12T06:06:41Z"
-  },
-  "new girl": {
-   "first_seen": "2026-07-12T06:06:41Z",
-   "last_seen": "2026-07-12T06:06:41Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "new girl",
-    "sports": false,
-    "league": null,
-    "obvious": true,
-    "early": false,
-    "entity": "New Girl",
-    "why_now": "TV series; no sports connection.",
-    "angle": null,
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-07-12T06:06:41Z"
-  },
-  "concordia cruise ship": {
-   "first_seen": "2026-07-12T06:06:41Z",
-   "last_seen": "2026-07-12T06:06:41Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "concordia cruise ship",
-    "sports": false,
-    "league": null,
-    "obvious": true,
-    "early": false,
-    "entity": "Costa Concordia",
-    "why_now": "Cruise ship disaster; no sports connection.",
-    "angle": null,
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-07-12T06:06:41Z"
-  },
-  "npb": {
-   "first_seen": "2026-07-12T06:06:41Z",
-   "last_seen": "2026-07-12T06:06:41Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "npb",
-    "sports": true,
-    "league": "Other Sports",
-    "obvious": false,
-    "early": true,
-    "entity": "Nippon Professional Baseball",
-    "why_now": "Japanese baseball league; co-trending with sports names; low Google traffic.",
-    "angle": "Early signal on NPB games or player performance; niche sports angle.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-07-12T06:06:41Z"
   },
   "ryan garcia": {
    "first_seen": "2026-07-12T06:06:41Z",
@@ -3317,7 +2231,7 @@
   },
   "good sunday": {
    "first_seen": "2026-07-12T14:27:04Z",
-   "last_seen": "2026-07-12T14:27:04Z",
+   "last_seen": "2026-07-19T14:24:20Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -3326,15 +2240,15 @@
     "key": "good sunday",
     "sports": false,
     "league": null,
-    "obvious": true,
+    "obvious": false,
     "early": false,
     "entity": "Good Sunday",
-    "why_now": "Generic Sunday greeting/vibes hashtag; no specific driver.",
-    "angle": "Ambient weekend sentiment; not sports-related or newsworthy.",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-12T14:27:04Z"
+   "enriched_at": "2026-07-19T14:24:20Z"
   },
   "robert mueller": {
    "first_seen": "2026-07-12T14:27:04Z",
@@ -3485,7 +2399,7 @@
   },
   "sundayvibes": {
    "first_seen": "2026-07-12T14:27:04Z",
-   "last_seen": "2026-07-12T14:27:04Z",
+   "last_seen": "2026-07-19T14:24:20Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -3494,15 +2408,15 @@
     "key": "sundayvibes",
     "sports": false,
     "league": null,
-    "obvious": true,
+    "obvious": false,
     "early": false,
     "entity": "#SundayVibes",
-    "why_now": "Generic Sunday mood hashtag; no specific driver.",
-    "angle": "Ambient weekend sentiment; suppress as obvious.",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-12T14:27:04Z"
+   "enriched_at": "2026-07-19T14:24:20Z"
   },
   "rest in peace": {
    "first_seen": "2026-07-12T14:27:04Z",
@@ -3696,7 +2610,7 @@
   },
   "seductivesunday": {
    "first_seen": "2026-07-12T14:27:04Z",
-   "last_seen": "2026-07-12T18:00:30Z",
+   "last_seen": "2026-07-19T14:24:20Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -3708,12 +2622,12 @@
     "obvious": false,
     "early": false,
     "entity": "#SeductiveSunday",
-    "why_now": "Hashtag with no sports context; appears to be general social media trend.",
-    "angle": "Non-sports content; exclude.",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-12T18:00:30Z"
+   "enriched_at": "2026-07-19T14:24:20Z"
   },
   "brett kavanaugh": {
    "first_seen": "2026-07-12T14:27:04Z",
@@ -4031,7 +2945,7 @@
   },
   "blessed sunday": {
    "first_seen": "2026-07-12T14:27:04Z",
-   "last_seen": "2026-07-12T14:27:04Z",
+   "last_seen": "2026-07-19T14:24:20Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -4040,15 +2954,15 @@
     "key": "blessed sunday",
     "sports": false,
     "league": null,
-    "obvious": true,
+    "obvious": false,
     "early": false,
     "entity": "Blessed Sunday",
-    "why_now": "Generic Sunday greeting/religious sentiment; no specific driver.",
-    "angle": "Ambient weekend sentiment; suppress as obvious.",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-12T14:27:04Z"
+   "enriched_at": "2026-07-19T14:24:20Z"
   },
   "russia and iran": {
    "first_seen": "2026-07-12T14:27:04Z",
@@ -4136,7 +3050,7 @@
   },
   "lord s day": {
    "first_seen": "2026-07-12T14:27:04Z",
-   "last_seen": "2026-07-12T14:27:04Z",
+   "last_seen": "2026-07-19T14:24:20Z",
    "sources_seen": [
     "x"
    ],
@@ -4144,15 +3058,15 @@
     "key": "lord s day",
     "sports": false,
     "league": null,
-    "obvious": true,
-    "early": false,
+    "obvious": false,
+    "early": true,
     "entity": "Lord's Day",
-    "why_now": "Generic Sunday/religious greeting; no specific driver.",
-    "angle": "Ambient weekend sentiment; suppress as obvious.",
+    "why_now": "Spiking on x; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-12T14:27:04Z"
+   "enriched_at": "2026-07-19T14:24:20Z"
   },
   "grindr": {
    "first_seen": "2026-07-12T14:27:04Z",
@@ -7083,7 +5997,7 @@
   },
   "ruffalo": {
    "first_seen": "2026-07-13T06:22:44Z",
-   "last_seen": "2026-07-13T15:43:50Z",
+   "last_seen": "2026-07-19T14:24:20Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -7100,7 +6014,7 @@
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-13T15:43:50Z"
+   "enriched_at": "2026-07-19T14:24:20Z"
   },
   "penske": {
    "first_seen": "2026-07-13T06:22:44Z",
@@ -14189,7 +13103,7 @@
   },
   "world cup final": {
    "first_seen": "2026-07-14T22:58:46Z",
-   "last_seen": "2026-07-15T22:59:46Z",
+   "last_seen": "2026-07-19T14:24:20Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -14198,15 +13112,16 @@
     "key": "world cup final",
     "sports": true,
     "league": "Soccer",
-    "obvious": true,
+    "obvious": false,
     "early": false,
-    "entity": "2026 FIFA World Cup Final",
-    "why_now": "Scheduled event; sample tweets discuss final logistics, turf sales, and historical context.",
-    "angle": "Suppress as obvious event announcement—only amplify if a specific viral moment (e.g., ticket scandal, venue controversy) emerges.",
+    "entity": "World Cup Final",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-15T22:59:46Z"
+   "enriched_at": "2026-07-19T14:24:20Z",
+   "last_engagement": 2113.3333333333335
   },
   "luis de la fuente": {
    "first_seen": "2026-07-14T22:58:46Z",
@@ -24319,24 +23234,24 @@
   },
   "sam burns": {
    "first_seen": "2026-07-17T14:44:58Z",
-   "last_seen": "2026-07-17T18:07:32Z",
+   "last_seen": "2026-07-19T14:24:20Z",
    "sources_seen": [
     "trends24",
     "x"
    ],
    "enrichment": {
     "key": "sam burns",
-    "sports": true,
-    "league": "Golf",
+    "sports": false,
+    "league": null,
     "obvious": false,
-    "early": false,
+    "early": true,
     "entity": "Sam Burns",
-    "why_now": "Also shot 62 (8-under) at Royal Birkdale, matching Lucas Herbert for lowest round in major championship history.",
-    "angle": "Highlight the rare dual 62s at same major; frame as historic co-record moment in golf.",
+    "why_now": "Spiking on x; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
     "duplicate_of": null,
-    "market_id": "2907011"
+    "market_id": null
    },
-   "enriched_at": "2026-07-17T14:44:58Z",
+   "enriched_at": "2026-07-19T14:24:20Z",
    "last_engagement": 182.33333333333334
   },
   "move the 1": {
@@ -24720,23 +23635,23 @@
   },
   "kimi": {
    "first_seen": "2026-07-17T14:44:58Z",
-   "last_seen": "2026-07-17T18:07:32Z",
+   "last_seen": "2026-07-19T14:24:20Z",
    "sources_seen": [
     "x"
    ],
    "enrichment": {
     "key": "kimi",
-    "sports": true,
-    "league": "Motorsports",
+    "sports": false,
+    "league": null,
     "obvious": false,
     "early": true,
-    "entity": "Kimi (Likely Kimi Räikkönen)",
-    "why_now": "No sample tweets; X-only trend; likely F1 driver reference.",
-    "angle": "Early signal; verify if F1-related; monitor for news.",
+    "entity": "Kimi",
+    "why_now": "Spiking on x; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-17T14:44:58Z"
+   "enriched_at": "2026-07-19T14:24:20Z"
   },
   "edith head": {
    "first_seen": "2026-07-17T14:44:58Z",
@@ -27992,23 +26907,25 @@
   },
   "belgiangp": {
    "first_seen": "2026-07-18T14:20:48Z",
-   "last_seen": "2026-07-18T14:20:48Z",
+   "last_seen": "2026-07-19T14:24:20Z",
    "sources_seen": [
+    "trends24",
     "x"
    ],
    "enrichment": {
     "key": "belgiangp",
-    "sports": false,
-    "league": null,
+    "sports": true,
+    "league": "Motorsports",
     "obvious": false,
-    "early": true,
+    "early": false,
     "entity": "#BelgianGP",
-    "why_now": "Spiking on x; driver unconfirmed (fallback classifier — no LLM key).",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
     "angle": "Verify the driver manually before attaching content (fallback mode).",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-18T14:20:48Z"
+   "enriched_at": "2026-07-19T14:24:20Z",
+   "last_engagement": 845.6666666666666
   },
   "ymir": {
    "first_seen": "2026-07-18T14:20:48Z",
@@ -28476,7 +27393,7 @@
   },
   "finish": {
    "first_seen": "2026-07-18T17:56:45Z",
-   "last_seen": "2026-07-18T17:56:45Z",
+   "last_seen": "2026-07-19T14:24:20Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -28485,15 +27402,15 @@
     "key": "finish",
     "sports": false,
     "league": null,
-    "obvious": true,
+    "obvious": false,
     "early": false,
-    "entity": null,
-    "why_now": null,
-    "angle": null,
+    "entity": "FINISH THE JOB",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-18T17:56:45Z"
+   "enriched_at": "2026-07-19T14:24:20Z"
   },
   "morgan rogers": {
    "first_seen": "2026-07-18T17:56:45Z",
@@ -28606,7 +27523,7 @@
   },
   "murkowski": {
    "first_seen": "2026-07-18T17:56:45Z",
-   "last_seen": "2026-07-18T17:56:45Z",
+   "last_seen": "2026-07-19T14:24:20Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -28615,15 +27532,15 @@
     "key": "murkowski",
     "sports": false,
     "league": null,
-    "obvious": true,
+    "obvious": false,
     "early": false,
-    "entity": null,
-    "why_now": null,
-    "angle": null,
+    "entity": "Murkowski",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-18T17:56:45Z"
+   "enriched_at": "2026-07-19T14:24:20Z"
   },
   "josh kerr": {
    "first_seen": "2026-07-18T17:56:45Z",
@@ -28836,24 +27753,24 @@
   },
   "scottie": {
    "first_seen": "2026-07-18T17:56:45Z",
-   "last_seen": "2026-07-18T17:56:45Z",
+   "last_seen": "2026-07-19T14:24:20Z",
    "sources_seen": [
     "trends24",
     "x"
    ],
    "enrichment": {
     "key": "scottie",
-    "sports": true,
-    "league": "Golf",
-    "obvious": true,
+    "sports": false,
+    "league": null,
+    "obvious": false,
     "early": false,
-    "entity": "Scottie Scheffler",
-    "why_now": "No sample tweets or news; likely routine mention or tournament update.",
-    "angle": null,
+    "entity": "Scottie",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
     "duplicate_of": null,
-    "market_id": "2906926"
+    "market_id": null
    },
-   "enriched_at": "2026-07-18T17:56:45Z"
+   "enriched_at": "2026-07-19T14:24:20Z"
   },
   "josh harris": {
    "first_seen": "2026-07-18T17:56:45Z",
@@ -28877,24 +27794,24 @@
   },
   "lando": {
    "first_seen": "2026-07-18T17:56:45Z",
-   "last_seen": "2026-07-18T17:56:45Z",
+   "last_seen": "2026-07-19T14:24:20Z",
    "sources_seen": [
     "trends24",
     "x"
    ],
    "enrichment": {
     "key": "lando",
-    "sports": true,
-    "league": "Motorsports",
-    "obvious": true,
-    "early": false,
-    "entity": "Lando Norris",
-    "why_now": "No sample tweets or news; likely routine F1 mention.",
-    "angle": null,
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Lando",
+    "why_now": "Spiking on x; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
     "duplicate_of": null,
-    "market_id": "898409"
+    "market_id": null
    },
-   "enriched_at": "2026-07-18T17:56:45Z"
+   "enriched_at": "2026-07-19T14:24:20Z"
   },
   "zirkzee": {
    "first_seen": "2026-07-18T17:56:45Z",
@@ -29231,24 +28148,24 @@
   },
   "antonelli": {
    "first_seen": "2026-07-18T17:56:45Z",
-   "last_seen": "2026-07-18T17:56:45Z",
+   "last_seen": "2026-07-19T14:24:20Z",
    "sources_seen": [
     "trends24",
     "x"
    ],
    "enrichment": {
     "key": "antonelli",
-    "sports": true,
-    "league": "Motorsports",
-    "obvious": true,
-    "early": false,
-    "entity": "Kimi Antonelli",
-    "why_now": "No sample tweets or news; likely routine F1 mention.",
-    "angle": null,
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Antonelli",
+    "why_now": "Spiking on x; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
     "duplicate_of": null,
-    "market_id": "2617464"
+    "market_id": null
    },
-   "enriched_at": "2026-07-18T17:56:45Z"
+   "enriched_at": "2026-07-19T14:24:20Z"
   },
   "north wilkesboro": {
    "first_seen": "2026-07-18T17:56:45Z",
@@ -29746,7 +28663,7 @@
   },
   "alaska": {
    "first_seen": "2026-07-18T22:53:17Z",
-   "last_seen": "2026-07-18T22:53:17Z",
+   "last_seen": "2026-07-19T14:24:20Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -29763,7 +28680,7 @@
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-18T22:53:17Z"
+   "enriched_at": "2026-07-19T14:24:20Z"
   },
   "ezra elliot": {
    "first_seen": "2026-07-18T22:53:17Z",
@@ -30054,7 +28971,7 @@
   },
   "harvard": {
    "first_seen": "2026-07-18T22:53:17Z",
-   "last_seen": "2026-07-18T22:53:17Z",
+   "last_seen": "2026-07-19T14:24:20Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -30071,12 +28988,13 @@
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-18T22:53:17Z"
+   "enriched_at": "2026-07-19T14:24:20Z"
   },
   "opie": {
    "first_seen": "2026-07-18T22:53:17Z",
-   "last_seen": "2026-07-18T22:53:17Z",
+   "last_seen": "2026-07-19T14:24:20Z",
    "sources_seen": [
+    "trends24",
     "x"
    ],
    "enrichment": {
@@ -30084,14 +29002,14 @@
     "sports": false,
     "league": null,
     "obvious": false,
-    "early": true,
+    "early": false,
     "entity": "Opie",
-    "why_now": "Spiking on x; driver unconfirmed (fallback classifier — no LLM key).",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
     "angle": "Verify the driver manually before attaching content (fallback mode).",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-18T22:53:17Z"
+   "enriched_at": "2026-07-19T14:24:20Z"
   },
   "did france": {
    "first_seen": "2026-07-18T22:53:17Z",
@@ -30744,7 +29662,7 @@
   },
   "tate": {
    "first_seen": "2026-07-19T05:56:41Z",
-   "last_seen": "2026-07-19T05:56:41Z",
+   "last_seen": "2026-07-19T14:24:20Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -30761,11 +29679,11 @@
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-19T05:56:41Z"
+   "enriched_at": "2026-07-19T14:24:20Z"
   },
   "perthsantaconcertd2": {
    "first_seen": "2026-07-19T05:56:41Z",
-   "last_seen": "2026-07-19T05:56:41Z",
+   "last_seen": "2026-07-19T14:24:20Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -30782,7 +29700,7 @@
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-19T05:56:41Z"
+   "enriched_at": "2026-07-19T14:24:20Z"
   },
   "perthsanta never enough": {
    "first_seen": "2026-07-19T05:56:41Z",
@@ -30807,7 +29725,7 @@
   },
   "colby": {
    "first_seen": "2026-07-19T05:56:41Z",
-   "last_seen": "2026-07-19T05:56:41Z",
+   "last_seen": "2026-07-19T14:24:20Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -30817,18 +29735,18 @@
     "sports": false,
     "league": null,
     "obvious": false,
-    "early": false,
+    "early": true,
     "entity": "Colby",
-    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "why_now": "Spiking on trends24; driver unconfirmed (fallback classifier — no LLM key).",
     "angle": "Verify the driver manually before attaching content (fallback mode).",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-19T05:56:41Z"
+   "enriched_at": "2026-07-19T14:24:20Z"
   },
   "santana": {
    "first_seen": "2026-07-19T05:56:41Z",
-   "last_seen": "2026-07-19T05:56:41Z",
+   "last_seen": "2026-07-19T14:24:20Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -30838,18 +29756,18 @@
     "sports": false,
     "league": null,
     "obvious": false,
-    "early": false,
+    "early": true,
     "entity": "Santana",
-    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "why_now": "Spiking on trends24; driver unconfirmed (fallback classifier — no LLM key).",
     "angle": "Verify the driver manually before attaching content (fallback mode).",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-19T05:56:41Z"
+   "enriched_at": "2026-07-19T14:24:20Z"
   },
   "jennifer finch": {
    "first_seen": "2026-07-19T05:56:41Z",
-   "last_seen": "2026-07-19T05:56:41Z",
+   "last_seen": "2026-07-19T14:24:20Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -30859,18 +29777,18 @@
     "sports": false,
     "league": null,
     "obvious": false,
-    "early": false,
+    "early": true,
     "entity": "Jennifer Finch",
-    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "why_now": "Spiking on trends24; driver unconfirmed (fallback classifier — no LLM key).",
     "angle": "Verify the driver manually before attaching content (fallback mode).",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-19T05:56:41Z"
+   "enriched_at": "2026-07-19T14:24:20Z"
   },
   "ojay": {
    "first_seen": "2026-07-19T05:56:41Z",
-   "last_seen": "2026-07-19T05:56:41Z",
+   "last_seen": "2026-07-19T14:24:20Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -30887,11 +29805,11 @@
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-19T05:56:41Z"
+   "enriched_at": "2026-07-19T14:24:20Z"
   },
   "cartoons": {
    "first_seen": "2026-07-19T05:56:41Z",
-   "last_seen": "2026-07-19T05:56:41Z",
+   "last_seen": "2026-07-19T14:24:20Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -30901,18 +29819,18 @@
     "sports": false,
     "league": null,
     "obvious": false,
-    "early": false,
+    "early": true,
     "entity": "Cartoons",
-    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "why_now": "Spiking on trends24; driver unconfirmed (fallback classifier — no LLM key).",
     "angle": "Verify the driver manually before attaching content (fallback mode).",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-19T05:56:41Z"
+   "enriched_at": "2026-07-19T14:24:20Z"
   },
   "romania": {
    "first_seen": "2026-07-19T05:56:41Z",
-   "last_seen": "2026-07-19T05:56:41Z",
+   "last_seen": "2026-07-19T14:24:20Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -30929,7 +29847,7 @@
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-19T05:56:41Z"
+   "enriched_at": "2026-07-19T14:24:20Z"
   },
   "pacheco": {
    "first_seen": "2026-07-19T05:56:41Z",
@@ -31080,7 +29998,7 @@
   },
   "plaqueboymax": {
    "first_seen": "2026-07-19T05:56:41Z",
-   "last_seen": "2026-07-19T05:56:41Z",
+   "last_seen": "2026-07-19T14:24:20Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -31090,14 +30008,14 @@
     "sports": false,
     "league": null,
     "obvious": false,
-    "early": false,
+    "early": true,
     "entity": "PlaqueBoyMax",
-    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "why_now": "Spiking on trends24; driver unconfirmed (fallback classifier — no LLM key).",
     "angle": "Verify the driver manually before attaching content (fallback mode).",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-19T05:56:41Z"
+   "enriched_at": "2026-07-19T14:24:20Z"
   },
   "gunther": {
    "first_seen": "2026-07-19T05:56:41Z",
@@ -31312,7 +30230,7 @@
   },
   "macie": {
    "first_seen": "2026-07-19T05:56:41Z",
-   "last_seen": "2026-07-19T05:56:41Z",
+   "last_seen": "2026-07-19T14:24:20Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -31329,7 +30247,7 @@
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-19T05:56:41Z"
+   "enriched_at": "2026-07-19T14:24:20Z"
   },
   "kline": {
    "first_seen": "2026-07-19T05:56:41Z",
@@ -31679,6 +30597,946 @@
     "market_id": null
    },
    "enriched_at": "2026-07-19T05:56:41Z"
+  },
+  "lewis": {
+   "first_seen": "2026-07-19T14:24:20Z",
+   "last_seen": "2026-07-19T14:24:20Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "lewis",
+    "sports": true,
+    "league": "Motorsports",
+    "obvious": false,
+    "early": true,
+    "entity": "Lewis",
+    "why_now": "Spiking on x; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-19T14:24:20Z",
+   "last_engagement": 1493.0
+  },
+  "leclerc": {
+   "first_seen": "2026-07-19T14:24:20Z",
+   "last_seen": "2026-07-19T14:24:20Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "leclerc",
+    "sports": true,
+    "league": "Motorsports",
+    "obvious": false,
+    "early": true,
+    "entity": "Leclerc",
+    "why_now": "Spiking on x; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-19T14:24:20Z",
+   "last_engagement": 1837.0
+  },
+  "mclaren": {
+   "first_seen": "2026-07-19T14:24:20Z",
+   "last_seen": "2026-07-19T14:24:20Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "mclaren",
+    "sports": true,
+    "league": "Motorsports",
+    "obvious": false,
+    "early": true,
+    "entity": "McLaren",
+    "why_now": "Spiking on x; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-19T14:24:20Z",
+   "last_engagement": 276.6666666666667
+  },
+  "george russell": {
+   "first_seen": "2026-07-19T14:24:20Z",
+   "last_seen": "2026-07-19T14:24:20Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "george russell",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "George Russell",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-19T14:24:20Z"
+  },
+  "bottas": {
+   "first_seen": "2026-07-19T14:24:20Z",
+   "last_seen": "2026-07-19T14:24:20Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "bottas",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Bottas",
+    "why_now": "Spiking on x; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-19T14:24:20Z"
+  },
+  "piastri": {
+   "first_seen": "2026-07-19T14:24:20Z",
+   "last_seen": "2026-07-19T14:24:20Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "piastri",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Piastri",
+    "why_now": "Spiking on x; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-19T14:24:20Z"
+  },
+  "lila": {
+   "first_seen": "2026-07-19T14:24:20Z",
+   "last_seen": "2026-07-19T14:24:20Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "lila",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Lila",
+    "why_now": "Spiking on x; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-19T14:24:20Z"
+  },
+  "nationalicecreamday": {
+   "first_seen": "2026-07-19T14:24:20Z",
+   "last_seen": "2026-07-19T14:24:20Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "nationalicecreamday",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "#NationalIceCreamDay",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-19T14:24:20Z"
+  },
+  "clara": {
+   "first_seen": "2026-07-19T14:24:20Z",
+   "last_seen": "2026-07-19T14:24:20Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "clara",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Clara",
+    "why_now": "Spiking on x; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-19T14:24:20Z"
+  },
+  "aqaba": {
+   "first_seen": "2026-07-19T14:24:20Z",
+   "last_seen": "2026-07-19T14:24:20Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "aqaba",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Aqaba",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-19T14:24:20Z"
+  },
+  "eilat": {
+   "first_seen": "2026-07-19T14:24:20Z",
+   "last_seen": "2026-07-19T14:24:20Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "eilat",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Eilat",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-19T14:24:20Z"
+  },
+  "ferrari": {
+   "first_seen": "2026-07-19T14:24:20Z",
+   "last_seen": "2026-07-19T14:24:20Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "ferrari",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Ferrari",
+    "why_now": "Spiking on x; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-19T14:24:20Z"
+  },
+  "tulsi gabbard": {
+   "first_seen": "2026-07-19T14:24:20Z",
+   "last_seen": "2026-07-19T14:24:20Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "tulsi gabbard",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Tulsi Gabbard",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-19T14:24:20Z"
+  },
+  "all 20": {
+   "first_seen": "2026-07-19T14:24:20Z",
+   "last_seen": "2026-07-19T14:24:20Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "all 20",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "All 20",
+    "why_now": "Spiking on x; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-19T14:24:20Z"
+  },
+  "activist": {
+   "first_seen": "2026-07-19T14:24:20Z",
+   "last_seen": "2026-07-19T14:24:20Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "activist",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Activist",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-19T14:24:20Z"
+  },
+  "sunny": {
+   "first_seen": "2026-07-19T14:24:20Z",
+   "last_seen": "2026-07-19T14:24:20Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "sunny",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Sunny",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-19T14:24:20Z"
+  },
+  "whitebnb": {
+   "first_seen": "2026-07-19T14:24:20Z",
+   "last_seen": "2026-07-19T14:24:20Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "whitebnb",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "WhiteBnB",
+    "why_now": "Spiking on x; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-19T14:24:20Z"
+  },
+  "lingorm thailand fantour": {
+   "first_seen": "2026-07-19T14:24:20Z",
+   "last_seen": "2026-07-19T14:24:20Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "lingorm thailand fantour",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "LINGORM THAILAND FANTOUR",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-19T14:24:20Z"
+  },
+  "cam young": {
+   "first_seen": "2026-07-19T14:24:20Z",
+   "last_seen": "2026-07-19T14:24:20Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "cam young",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Cam Young",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-19T14:24:20Z"
+  },
+  "cedar point": {
+   "first_seen": "2026-07-19T14:24:20Z",
+   "last_seen": "2026-07-19T14:24:20Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "cedar point",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Cedar Point",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-19T14:24:20Z"
+  },
+  "metlife stadium": {
+   "first_seen": "2026-07-19T14:24:20Z",
+   "last_seen": "2026-07-19T14:24:20Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "metlife stadium",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "MetLife Stadium",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-19T14:24:20Z"
+  },
+  "spain or argentina": {
+   "first_seen": "2026-07-19T14:24:20Z",
+   "last_seen": "2026-07-19T14:24:20Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "spain or argentina",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Spain or Argentina",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-19T14:24:20Z"
+  },
+  "ron howard": {
+   "first_seen": "2026-07-19T14:24:20Z",
+   "last_seen": "2026-07-19T14:24:20Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "ron howard",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Ron Howard",
+    "why_now": "Spiking on x; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-19T14:24:20Z"
+  },
+  "tylil": {
+   "first_seen": "2026-07-19T14:24:20Z",
+   "last_seen": "2026-07-19T14:24:20Z",
+   "sources_seen": [
+    "x"
+   ],
+   "enrichment": {
+    "key": "tylil",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Tylil",
+    "why_now": "Spiking on x; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-19T14:24:20Z"
+  },
+  "ayanna pressley": {
+   "first_seen": "2026-07-19T14:24:20Z",
+   "last_seen": "2026-07-19T14:24:20Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "ayanna pressley",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Ayanna Pressley",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-19T14:24:20Z"
+  },
+  "lord": {
+   "first_seen": "2026-07-19T14:24:20Z",
+   "last_seen": "2026-07-19T14:24:20Z",
+   "sources_seen": [
+    "trends24"
+   ],
+   "enrichment": {
+    "key": "lord",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Lord",
+    "why_now": "Spiking on trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-19T14:24:20Z"
+  },
+  "elara": {
+   "first_seen": "2026-07-19T14:24:20Z",
+   "last_seen": "2026-07-19T14:24:20Z",
+   "sources_seen": [
+    "trends24"
+   ],
+   "enrichment": {
+    "key": "elara",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Elara",
+    "why_now": "Spiking on trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-19T14:24:20Z"
+  },
+  "christ is lord": {
+   "first_seen": "2026-07-19T14:24:20Z",
+   "last_seen": "2026-07-19T14:24:20Z",
+   "sources_seen": [
+    "trends24"
+   ],
+   "enrichment": {
+    "key": "christ is lord",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Christ is Lord",
+    "why_now": "Spiking on trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-19T14:24:20Z"
+  },
+  "peru": {
+   "first_seen": "2026-07-19T14:24:20Z",
+   "last_seen": "2026-07-19T14:24:20Z",
+   "sources_seen": [
+    "trends24"
+   ],
+   "enrichment": {
+    "key": "peru",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Peru",
+    "why_now": "Spiking on trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-19T14:24:20Z"
+  },
+  "burns": {
+   "first_seen": "2026-07-19T14:24:20Z",
+   "last_seen": "2026-07-19T14:24:20Z",
+   "sources_seen": [
+    "trends24"
+   ],
+   "enrichment": {
+    "key": "burns",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Burns",
+    "why_now": "Spiking on trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-19T14:24:20Z"
+  },
+  "van jones": {
+   "first_seen": "2026-07-19T14:24:20Z",
+   "last_seen": "2026-07-19T14:24:20Z",
+   "sources_seen": [
+    "trends24"
+   ],
+   "enrichment": {
+    "key": "van jones",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Van Jones",
+    "why_now": "Spiking on trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-19T14:24:20Z"
+  },
+  "rodman": {
+   "first_seen": "2026-07-19T14:24:20Z",
+   "last_seen": "2026-07-19T14:24:20Z",
+   "sources_seen": [
+    "trends24"
+   ],
+   "enrichment": {
+    "key": "rodman",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Rodman",
+    "why_now": "Spiking on trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-19T14:24:20Z"
+  },
+  "rakai": {
+   "first_seen": "2026-07-19T14:24:20Z",
+   "last_seen": "2026-07-19T14:24:20Z",
+   "sources_seen": [
+    "trends24"
+   ],
+   "enrichment": {
+    "key": "rakai",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Rakai",
+    "why_now": "Spiking on trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-19T14:24:20Z"
+  },
+  "yale": {
+   "first_seen": "2026-07-19T14:24:20Z",
+   "last_seen": "2026-07-19T14:24:20Z",
+   "sources_seen": [
+    "trends24"
+   ],
+   "enrichment": {
+    "key": "yale",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Yale",
+    "why_now": "Spiking on trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-19T14:24:20Z"
+  },
+  "wardrobe": {
+   "first_seen": "2026-07-19T14:24:20Z",
+   "last_seen": "2026-07-19T14:24:20Z",
+   "sources_seen": [
+    "trends24"
+   ],
+   "enrichment": {
+    "key": "wardrobe",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Wardrobe",
+    "why_now": "Spiking on trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-19T14:24:20Z"
+  },
+  "kamu": {
+   "first_seen": "2026-07-19T14:24:20Z",
+   "last_seen": "2026-07-19T14:24:20Z",
+   "sources_seen": [
+    "trends24"
+   ],
+   "enrichment": {
+    "key": "kamu",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Kamu",
+    "why_now": "Spiking on trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-19T14:24:20Z"
+  },
+  "benghazi": {
+   "first_seen": "2026-07-19T14:24:20Z",
+   "last_seen": "2026-07-19T14:24:20Z",
+   "sources_seen": [
+    "trends24"
+   ],
+   "enrichment": {
+    "key": "benghazi",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Benghazi",
+    "why_now": "Spiking on trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-19T14:24:20Z"
+  },
+  "stuart fails to save the universe": {
+   "first_seen": "2026-07-19T14:24:20Z",
+   "last_seen": "2026-07-19T14:24:20Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "stuart fails to save the universe",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "stuart fails to save the universe",
+    "why_now": "Spiking on google; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-19T14:24:20Z"
+  },
+  "armando rubio daughter arizona icu": {
+   "first_seen": "2026-07-19T14:24:20Z",
+   "last_seen": "2026-07-19T14:24:20Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "armando rubio daughter arizona icu",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "armando rubio daughter arizona icu",
+    "why_now": "Spiking on google; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-19T14:24:20Z"
+  },
+  "duane ward": {
+   "first_seen": "2026-07-19T14:24:20Z",
+   "last_seen": "2026-07-19T14:24:20Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "duane ward",
+    "sports": true,
+    "league": "MLB",
+    "obvious": false,
+    "early": true,
+    "entity": "duane ward",
+    "why_now": "Spiking on google; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-19T14:24:20Z",
+   "last_engagement": 454.6666666666667
+  },
+  "travel warning": {
+   "first_seen": "2026-07-19T14:24:20Z",
+   "last_seen": "2026-07-19T14:24:20Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "travel warning",
+    "sports": true,
+    "league": "NFL",
+    "obvious": false,
+    "early": true,
+    "entity": "travel warning",
+    "why_now": "Spiking on google; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-19T14:24:20Z",
+   "last_engagement": 31.333333333333332
+  },
+  "astrological sign": {
+   "first_seen": "2026-07-19T14:24:20Z",
+   "last_seen": "2026-07-19T14:24:20Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "astrological sign",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "astrological sign",
+    "why_now": "Spiking on google; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-19T14:24:20Z"
+  },
+  "kimi antonelli": {
+   "first_seen": "2026-07-19T14:24:20Z",
+   "last_seen": "2026-07-19T14:24:20Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "kimi antonelli",
+    "sports": true,
+    "league": "Motorsports",
+    "obvious": false,
+    "early": true,
+    "entity": "kimi antonelli",
+    "why_now": "Spiking on google; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-19T14:24:20Z",
+   "last_engagement": 3146.6666666666665
+  },
+  "daycares": {
+   "first_seen": "2026-07-19T14:24:20Z",
+   "last_seen": "2026-07-19T14:24:20Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "daycares",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "daycares",
+    "why_now": "Spiking on google; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-19T14:24:20Z"
+  },
+  "federico cina": {
+   "first_seen": "2026-07-19T14:24:20Z",
+   "last_seen": "2026-07-19T14:24:20Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "federico cina",
+    "sports": true,
+    "league": "Tennis",
+    "obvious": false,
+    "early": true,
+    "entity": "federico cina",
+    "why_now": "Spiking on google; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-19T14:24:20Z",
+   "last_engagement": 118.66666666666667
+  },
+  "asheville shooting": {
+   "first_seen": "2026-07-19T14:24:20Z",
+   "last_seen": "2026-07-19T14:24:20Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "asheville shooting",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "asheville shooting",
+    "why_now": "Spiking on google; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-19T14:24:20Z"
   }
  },
  "x_usage": {
@@ -31689,59 +31547,59 @@
   "2026-07-16": 2178,
   "2026-07-17": 2173,
   "2026-07-18": 2117,
-  "2026-07-19": 596
+  "2026-07-19": 1173
  },
  "prev_x_trends": [
-  "Usman",
-  "#SNME",
-  "#UFCOKC",
+  "Good Sunday",
+  "Lewis",
+  "Leclerc",
+  "#BelgianGP",
+  "Lando",
+  "McLaren",
   "Tate",
+  "Alaska",
   "#PerthSantaConcertD2",
-  "PERTHSANTA NEVER ENOUGH",
-  "#TokyoRevengers",
-  "#Toonami",
-  "Colby",
-  "Santana",
-  "Jennifer Finch",
-  "Bayley",
-  "Ojay",
-  "Lyra",
-  "chivas",
-  "Kelsey Mitchell",
-  "Cartoons",
-  "Romania",
-  "Pacheco",
-  "Nick Aldis",
-  "Dricus",
-  "Lyric",
-  "Travis Bazzana",
-  "Arman",
-  "Mbappe",
-  "Melody",
-  "Don Kelly",
-  "PlaqueBoyMax",
-  "Gunther",
-  "Mariners",
-  "Eisert",
-  "Jalen Brunson",
-  "Tommy McMillen",
-  "Ben Askren",
-  "Rory",
-  "Gregory Soto",
-  "Cole Young",
-  "Belal",
-  "Cherington",
-  "Athena",
+  "George Russell",
+  "#SeductiveSunday",
+  "Bottas",
+  "Piastri",
+  "Lila",
+  "Antonelli",
+  "#NationalIceCreamDay",
+  "Clara",
+  "Sunday Funday",
+  "Blessed Sunday",
+  "Aqaba",
+  "#SundayVibes",
+  "Eilat",
+  "Ferrari",
+  "World Cup Final",
+  "Tulsi Gabbard",
+  "All 20",
   "Macie",
-  "Kline",
-  "Saka",
-  "Cannonier",
-  "Sheeraz",
-  "Nixon",
-  "Temi",
-  "Milito",
-  "Mark Ruffalo",
-  "Adou"
+  "Finish",
+  "Ojay",
+  "Harvard",
+  "Romania",
+  "Lord's Day",
+  "Activist",
+  "Sunny",
+  "WhiteBnB",
+  "Scottie",
+  "Murkowski",
+  "LINGORM THAILAND FANTOUR",
+  "Cam Young",
+  "Kimi",
+  "Ruffalo",
+  "Cedar Point",
+  "Opie",
+  "Sam Burns",
+  "MetLife Stadium",
+  "Spain or Argentina",
+  "Ron Howard",
+  "Tylil",
+  "Ayanna Pressley",
+  "Jeanna"
  ],
  "suppressed": [
   {
