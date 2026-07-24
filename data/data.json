@@ -1,33 +1,59 @@
 {
  "schema_version": 2,
- "generated_at": "2026-07-24T05:52:26Z",
+ "generated_at": "2026-07-24T14:57:42Z",
  "sections": [
   {
-   "league": "MMA/Boxing",
-   "activity": 63,
+   "league": "NFL",
+   "activity": 88,
    "trends": [
     {
-     "key": "ali bomaye",
-     "name": "Ali Bomaye",
-     "entity": "Ali Bomaye (boxing reference/song)",
-     "league": "MMA/Boxing",
-     "score": 63,
+     "key": "bosa",
+     "name": "Bosa",
+     "entity": "Nick Bosa",
+     "league": "NFL",
+     "score": 45,
      "score_breakdown": {
-      "velocity": 27.0,
+      "velocity": 17.0,
       "cross_platform": 8,
       "freshness": 20,
-      "engagement": 8.0,
+      "engagement": 0.0,
       "early_bonus": 0
      },
      "early": false,
      "new_on_x": true,
-     "why_now": "Co-trending with West Coast hip-hop and YG; classic boxing-themed track.",
-     "angle": "Boxing culture meme/song; monitor for athlete references or fight hype.",
+     "why_now": "Likely injury update, contract news, or on-field moment; exact driver unclear from co-trending alone.",
+     "angle": "Monitor for injury/contract/performance angle; if breaking news, amplify immediately on sports betting/fantasy platforms.",
      "sources": [
       "x",
       "trends24"
      ],
-     "first_seen": "2026-07-24T05:52:26Z",
+     "first_seen": "2026-07-24T14:57:42Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    },
+    {
+     "key": "nvda meta nflx",
+     "name": "NVDA META NFLX",
+     "entity": "NVDA META NFLX",
+     "league": "NFL",
+     "score": 43,
+     "score_breakdown": {
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 0
+     },
+     "early": false,
+     "new_on_x": true,
+     "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+     "angle": "Verify the driver manually before attaching content (fallback mode).",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-07-24T14:57:42Z",
      "example_tweets": [],
      "market": null,
      "market_gap": true
@@ -35,57 +61,147 @@
    ]
   },
   {
-   "league": "Other Sports",
-   "activity": 46,
+   "league": "Tennis",
+   "activity": 86,
    "trends": [
     {
-     "key": "the game",
-     "name": "The Game",
-     "entity": "The Game (rapper/YG collaboration)",
-     "league": "Other Sports",
-     "score": 23,
+     "key": "hamburg",
+     "name": "Hamburg",
+     "entity": "Hamburg European Open",
+     "league": "Tennis",
+     "score": 43,
      "score_breakdown": {
       "velocity": 15.0,
       "cross_platform": 8,
-      "freshness": 0,
+      "freshness": 20,
       "engagement": 0.0,
       "early_bonus": 0
      },
      "early": false,
      "new_on_x": true,
-     "why_now": "Co-trending with YG, Nipsey, Bompton, and classic West Coast hip-hop tracks; likely a Verzuz or retrospective moment.",
-     "angle": "Leverage West Coast rap nostalgia and artist collaborations for sports-adjacent culture content.",
+     "why_now": "Tennis tournament in progress; co-trending with Klopp suggests possible celebrity attendance or crossover moment.",
+     "angle": "If a specific match upset or player storyline is driving it, highlight that; otherwise monitor for celebrity/culture angle.",
      "sources": [
       "x",
       "trends24"
      ],
-     "first_seen": "2026-07-18T05:29:28Z",
+     "first_seen": "2026-07-24T14:57:42Z",
+     "example_tweets": [],
+     "market": {
+      "question": "Hamburg European Open: Mayar Sherif vs Paula Badosa",
+      "url": "https://polymarket.com/event/wta-sherif-badosa-2026-07-24",
+      "outcomes": [
+       [
+        "Mayar Sherif",
+        0.9995
+       ],
+       [
+        "Paula Badosa",
+        0.0005
+       ]
+      ],
+      "volume24hr": 1622936.6339579998
+     },
+     "market_gap": false
+    },
+    {
+     "key": "sara bejlek",
+     "name": "sara bejlek",
+     "entity": "Sara Bejlek",
+     "league": "Tennis",
+     "score": 43,
+     "score_breakdown": {
+      "velocity": 5.4,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 10
+     },
+     "early": true,
+     "new_on_x": false,
+     "why_now": "Low-rank tennis player; spiking on Google with minimal mainstream coverage; likely early-stage match or upset.",
+     "angle": "Ride the underdog narrative early; position as emerging talent or upset story before major outlets pick up.",
+     "sources": [
+      "google"
+     ],
+     "first_seen": "2026-07-24T14:57:42Z",
+     "example_tweets": [],
+     "market": {
+      "question": "Livesport Prague Open: Dominika Salkova vs Barbora Krejcikova",
+      "url": "https://polymarket.com/event/wta-salkova-krejcik-2026-07-24",
+      "outcomes": [
+       [
+        "Dominika Salkova",
+        0.125
+       ],
+       [
+        "Barbora Krejcikova",
+        0.875
+       ]
+      ],
+      "volume24hr": 38400.840133999984
+     },
+     "market_gap": false
+    }
+   ]
+  },
+  {
+   "league": "Soccer",
+   "activity": 43,
+   "trends": [
+    {
+     "key": "klopp",
+     "name": "Klopp",
+     "entity": "Jürgen Klopp",
+     "league": "Soccer",
+     "score": 43,
+     "score_breakdown": {
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 0
+     },
+     "early": false,
+     "new_on_x": true,
+     "why_now": "Likely managerial move, statement, or tactical moment; exact driver unclear from co-trending.",
+     "angle": "Identify the specific quote, transfer rumor, or match moment; position as soccer culture/personality story.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-07-24T14:57:42Z",
      "example_tweets": [],
      "market": null,
      "market_gap": true
-    },
+    }
+   ]
+  },
+  {
+   "league": "College Football",
+   "activity": 33,
+   "trends": [
     {
-     "key": "tnaimpact",
-     "name": "#TNAiMPACT",
-     "entity": "TNA Impact Wrestling",
-     "league": "Other Sports",
-     "score": 23,
+     "key": "jordan rodgers",
+     "name": "jordan rodgers",
+     "entity": "Jordan Rodgers",
+     "league": "College Football",
+     "score": 33,
      "score_breakdown": {
-      "velocity": 15.0,
+      "velocity": 5.4,
       "cross_platform": 8,
-      "freshness": 0,
+      "freshness": 20,
       "engagement": 0.0,
       "early_bonus": 0
      },
      "early": false,
-     "new_on_x": true,
-     "why_now": "Professional wrestling promotion; weekly broadcast event.",
-     "angle": "Wrestling event; monitor for storyline moments or surprise appearances.",
+     "new_on_x": false,
+     "why_now": "Co-trending with Texas football schedule/expectations coverage; likely analyst commentary on Longhorns season.",
+     "angle": "Tie to Texas football hype or preseason analysis; position as expert take on 2026 season outlook.",
      "sources": [
-      "x",
-      "trends24"
+      "google"
      ],
-     "first_seen": "2026-07-17T05:44:36Z",
+     "first_seen": "2026-07-24T14:57:42Z",
      "example_tweets": [],
      "market": null,
      "market_gap": true
@@ -98,7 +214,7 @@
   "trends24": "ok (2 snapshots)",
   "google_trends": "ok (10 items)",
   "gamma_api": "ok (500 markets)",
-  "llm": "ok (58 enriched)",
+  "llm": "ok (13 enriched)",
   "slack": "error: HTTP Error 404: Not Found"
  },
  "x_budget": {
@@ -125,9 +241,9 @@
   "section_order_mode": "activity"
  },
  "stats": {
-  "newly_enriched": 58,
+  "newly_enriched": 60,
   "cache_hits": 0,
-  "suppressed": 3,
-  "discarded_non_sports": 52
+  "suppressed": 0,
+  "discarded_non_sports": 54
  }
 }
