@@ -1,42 +1,16 @@
 {
  "schema_version": 2,
- "generated_at": "2026-07-24T14:57:42Z",
+ "generated_at": "2026-07-24T18:20:07Z",
  "sections": [
   {
-   "league": "NFL",
-   "activity": 88,
+   "league": "NBA",
+   "activity": 129,
    "trends": [
     {
-     "key": "bosa",
-     "name": "Bosa",
-     "entity": "Nick Bosa",
-     "league": "NFL",
-     "score": 45,
-     "score_breakdown": {
-      "velocity": 17.0,
-      "cross_platform": 8,
-      "freshness": 20,
-      "engagement": 0.0,
-      "early_bonus": 0
-     },
-     "early": false,
-     "new_on_x": true,
-     "why_now": "Likely injury update, contract news, or on-field moment; exact driver unclear from co-trending alone.",
-     "angle": "Monitor for injury/contract/performance angle; if breaking news, amplify immediately on sports betting/fantasy platforms.",
-     "sources": [
-      "x",
-      "trends24"
-     ],
-     "first_seen": "2026-07-24T14:57:42Z",
-     "example_tweets": [],
-     "market": null,
-     "market_gap": true
-    },
-    {
-     "key": "nvda meta nflx",
-     "name": "NVDA META NFLX",
-     "entity": "NVDA META NFLX",
-     "league": "NFL",
+     "key": "lebron",
+     "name": "LeBron",
+     "entity": "LeBron James",
+     "league": "NBA",
      "score": 43,
      "score_breakdown": {
       "velocity": 15.0,
@@ -47,13 +21,141 @@
      },
      "early": false,
      "new_on_x": true,
-     "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
-     "angle": "Verify the driver manually before attaching content (fallback mode).",
+     "why_now": "Massive co-trending cluster with team names (Knicks, Lakers, Cavs, Celtics, Warriors, Spurs, Pistons, Pacers, Raptors) and GM/coach names (Brad Stevens, Daryl Morey, Nick Nurse, Koby Altman, Bob Myers",
+     "angle": "Ride the free-agency frenzy: create content around LeBron's team options and the GMs/coaches competing for him before the market cools.",
      "sources": [
       "x",
       "trends24"
      ],
-     "first_seen": "2026-07-24T14:57:42Z",
+     "first_seen": "2026-07-24T18:20:07Z",
+     "example_tweets": [],
+     "market": {
+      "question": "Will LeBron James play for the Los Angeles Lakers in 2026-27?",
+      "url": "https://polymarket.com/event/nba-lebron-james-next-team",
+      "outcomes": [
+       [
+        "Yes",
+        0.0005
+       ],
+       [
+        "No",
+        0.9995
+       ]
+      ],
+      "volume24hr": 149761.5486379998
+     },
+     "market_gap": false
+    },
+    {
+     "key": "christmas day",
+     "name": "Christmas Day",
+     "entity": "NBA Christmas Day Games",
+     "league": "NBA",
+     "score": 43,
+     "score_breakdown": {
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 0
+     },
+     "early": false,
+     "new_on_x": true,
+     "why_now": "Co-trending with NBA teams and free-agency cluster; signals upcoming Christmas Day schedule or roster implications.",
+     "angle": "Preview NBA's Christmas Day matchups and their significance in the season.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-07-24T18:20:07Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    },
+    {
+     "key": "injuries",
+     "name": "Injuries",
+     "entity": "NBA Injuries",
+     "league": "NBA",
+     "score": 43,
+     "score_breakdown": {
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 0
+     },
+     "early": false,
+     "new_on_x": true,
+     "why_now": "Co-trending with NBA teams and players; signals injury updates affecting free-agency or roster decisions.",
+     "angle": "Cover injury impacts on team rosters and free-agency strategy.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-07-24T18:20:07Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    }
+   ]
+  },
+  {
+   "league": "MMA/Boxing",
+   "activity": 45,
+   "trends": [
+    {
+     "key": "terence crawford",
+     "name": "terence crawford",
+     "entity": "Terence Crawford",
+     "league": "MMA/Boxing",
+     "score": 45,
+     "score_breakdown": {
+      "velocity": 6.6,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 10
+     },
+     "early": true,
+     "new_on_x": false,
+     "why_now": "Recent loss to Canelo Alvarez; Crawford and Canelo trading post-fight commentary about rematch and performance excuses.",
+     "angle": "Capitalize on Crawford-Canelo beef: frame rematch narrative and Crawford's comeback story before mainstream saturation.",
+     "sources": [
+      "google"
+     ],
+     "first_seen": "2026-07-24T18:20:07Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    }
+   ]
+  },
+  {
+   "league": "NFL",
+   "activity": 44,
+   "trends": [
+    {
+     "key": "tony romo",
+     "name": "tony romo",
+     "entity": "Tony Romo",
+     "league": "NFL",
+     "score": 44,
+     "score_breakdown": {
+      "velocity": 6.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 10
+     },
+     "early": true,
+     "new_on_x": false,
+     "why_now": "Arrested in Milwaukee on OWI (operating while intoxicated) charge; high-profile broadcaster/former QB in legal trouble.",
+     "angle": "Break the arrest story early before major outlets saturate: frame as broadcaster scandal and its impact on CBS/NFL.",
+     "sources": [
+      "google"
+     ],
+     "first_seen": "2026-07-24T18:20:07Z",
      "example_tweets": [],
      "market": null,
      "market_gap": true
@@ -62,56 +164,16 @@
   },
   {
    "league": "Tennis",
-   "activity": 86,
+   "activity": 44,
    "trends": [
     {
-     "key": "hamburg",
-     "name": "Hamburg",
-     "entity": "Hamburg European Open",
+     "key": "alexander blockx",
+     "name": "alexander blockx",
+     "entity": "Alexander Blockx",
      "league": "Tennis",
-     "score": 43,
+     "score": 44,
      "score_breakdown": {
-      "velocity": 15.0,
-      "cross_platform": 8,
-      "freshness": 20,
-      "engagement": 0.0,
-      "early_bonus": 0
-     },
-     "early": false,
-     "new_on_x": true,
-     "why_now": "Tennis tournament in progress; co-trending with Klopp suggests possible celebrity attendance or crossover moment.",
-     "angle": "If a specific match upset or player storyline is driving it, highlight that; otherwise monitor for celebrity/culture angle.",
-     "sources": [
-      "x",
-      "trends24"
-     ],
-     "first_seen": "2026-07-24T14:57:42Z",
-     "example_tweets": [],
-     "market": {
-      "question": "Hamburg European Open: Mayar Sherif vs Paula Badosa",
-      "url": "https://polymarket.com/event/wta-sherif-badosa-2026-07-24",
-      "outcomes": [
-       [
-        "Mayar Sherif",
-        0.9995
-       ],
-       [
-        "Paula Badosa",
-        0.0005
-       ]
-      ],
-      "volume24hr": 1622936.6339579998
-     },
-     "market_gap": false
-    },
-    {
-     "key": "sara bejlek",
-     "name": "sara bejlek",
-     "entity": "Sara Bejlek",
-     "league": "Tennis",
-     "score": 43,
-     "score_breakdown": {
-      "velocity": 5.4,
+      "velocity": 6.0,
       "cross_platform": 8,
       "freshness": 20,
       "engagement": 0.0,
@@ -119,41 +181,41 @@
      },
      "early": true,
      "new_on_x": false,
-     "why_now": "Low-rank tennis player; spiking on Google with minimal mainstream coverage; likely early-stage match or upset.",
-     "angle": "Ride the underdog narrative early; position as emerging talent or upset story before major outlets pick up.",
+     "why_now": "Tennis player advancing in Estoril Open (R2); low-rank player gaining traction; niche tennis coverage.",
+     "angle": "Early signal on rising tennis prospect: cover Blockx's tournament run before mainstream outlets pick it up.",
      "sources": [
       "google"
      ],
-     "first_seen": "2026-07-24T14:57:42Z",
+     "first_seen": "2026-07-24T18:20:07Z",
      "example_tweets": [],
      "market": {
-      "question": "Livesport Prague Open: Dominika Salkova vs Barbora Krejcikova",
-      "url": "https://polymarket.com/event/wta-salkova-krejcik-2026-07-24",
+      "question": "Estoril Open: Roman Andres Burruchaga vs Alexander Blockx",
+      "url": "https://polymarket.com/event/atp-burruch-blockx-2026-07-24",
       "outcomes": [
        [
-        "Dominika Salkova",
-        0.125
+        "Roman Andres Burruchaga",
+        0.465
        ],
        [
-        "Barbora Krejcikova",
-        0.875
+        "Alexander Blockx",
+        0.535
        ]
       ],
-      "volume24hr": 38400.840133999984
+      "volume24hr": 655911.0630630004
      },
      "market_gap": false
     }
    ]
   },
   {
-   "league": "Soccer",
+   "league": "Golf",
    "activity": 43,
    "trends": [
     {
-     "key": "klopp",
-     "name": "Klopp",
-     "entity": "Jürgen Klopp",
-     "league": "Soccer",
+     "key": "michael kim",
+     "name": "Michael Kim",
+     "entity": "Michael Kim",
+     "league": "Golf",
      "score": 43,
      "score_breakdown": {
       "velocity": 15.0,
@@ -164,44 +226,13 @@
      },
      "early": false,
      "new_on_x": true,
-     "why_now": "Likely managerial move, statement, or tactical moment; exact driver unclear from co-trending.",
-     "angle": "Identify the specific quote, transfer rumor, or match moment; position as soccer culture/personality story.",
+     "why_now": "Professional golfer; co-trending with golf context; specific tournament or achievement unclear.",
+     "angle": "Identify Kim's recent performance or tournament results and cover accordingly.",
      "sources": [
       "x",
       "trends24"
      ],
-     "first_seen": "2026-07-24T14:57:42Z",
-     "example_tweets": [],
-     "market": null,
-     "market_gap": true
-    }
-   ]
-  },
-  {
-   "league": "College Football",
-   "activity": 33,
-   "trends": [
-    {
-     "key": "jordan rodgers",
-     "name": "jordan rodgers",
-     "entity": "Jordan Rodgers",
-     "league": "College Football",
-     "score": 33,
-     "score_breakdown": {
-      "velocity": 5.4,
-      "cross_platform": 8,
-      "freshness": 20,
-      "engagement": 0.0,
-      "early_bonus": 0
-     },
-     "early": false,
-     "new_on_x": false,
-     "why_now": "Co-trending with Texas football schedule/expectations coverage; likely analyst commentary on Longhorns season.",
-     "angle": "Tie to Texas football hype or preseason analysis; position as expert take on 2026 season outlook.",
-     "sources": [
-      "google"
-     ],
-     "first_seen": "2026-07-24T14:57:42Z",
+     "first_seen": "2026-07-24T18:20:07Z",
      "example_tweets": [],
      "market": null,
      "market_gap": true
@@ -214,7 +245,7 @@
   "trends24": "ok (2 snapshots)",
   "google_trends": "ok (10 items)",
   "gamma_api": "ok (500 markets)",
-  "llm": "ok (13 enriched)",
+  "llm": "ok (48 enriched)",
   "slack": "error: HTTP Error 404: Not Found"
  },
  "x_budget": {
@@ -241,9 +272,9 @@
   "section_order_mode": "activity"
  },
  "stats": {
-  "newly_enriched": 60,
-  "cache_hits": 0,
-  "suppressed": 0,
-  "discarded_non_sports": 54
+  "newly_enriched": 48,
+  "cache_hits": 6,
+  "suppressed": 3,
+  "discarded_non_sports": 11
  }
 }
