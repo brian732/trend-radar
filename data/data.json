@@ -1,63 +1,16 @@
 {
  "schema_version": 2,
- "generated_at": "2026-07-25T22:57:27Z",
+ "generated_at": "2026-07-26T06:08:16Z",
  "sections": [
   {
    "league": "MLB",
-   "activity": 67,
+   "activity": 129,
    "trends": [
     {
-     "key": "dylan cease",
-     "name": "Dylan Cease",
-     "entity": "Dylan Cease",
+     "key": "breslow",
+     "name": "Breslow",
+     "entity": "Craig Breslow",
      "league": "MLB",
-     "score": 67,
-     "score_breakdown": {
-      "velocity": 21.6,
-      "cross_platform": 25,
-      "freshness": 20,
-      "engagement": 0.0,
-      "early_bonus": 0
-     },
-     "early": false,
-     "new_on_x": true,
-     "why_now": "Blue Jays pitcher Dylan Cease threw a 1-hit shutout with 12 strikeouts vs Red Sox, a dominant performance.",
-     "angle": "Highlight Cease's elite strikeout performance and shutout dominance as a breakout moment in the Blue Jays' season.",
-     "sources": [
-      "x",
-      "trends24",
-      "google"
-     ],
-     "first_seen": "2026-07-25T22:57:27Z",
-     "example_tweets": [],
-     "market": {
-      "question": "Toronto Blue Jays vs. Boston Red Sox",
-      "url": "https://polymarket.com/event/mlb-tor-bos-2026-07-25",
-      "outcomes": [
-       [
-        "Toronto Blue Jays",
-        0.9995
-       ],
-       [
-        "Boston Red Sox",
-        0.0005
-       ]
-      ],
-      "volume24hr": 822140.0863190019
-     },
-     "market_gap": false
-    }
-   ]
-  },
-  {
-   "league": "MMA/Boxing",
-   "activity": 61,
-   "trends": [
-    {
-     "key": "joshuaprenga",
-     "name": "#JoshuaPrenga",
-     "entity": "#JoshuaPrenga",
-     "league": "MMA/Boxing",
      "score": 43,
      "score_breakdown": {
       "velocity": 15.0,
@@ -68,54 +21,22 @@
      },
      "early": false,
      "new_on_x": true,
-     "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
-     "angle": "Verify the driver manually before attaching content (fallback mode).",
+     "why_now": "MLB executive or player; co-trending with Nats suggests baseball news or trade.",
+     "angle": "Engage baseball fans with front-office or roster moves before mainstream coverage.",
      "sources": [
       "x",
       "trends24"
      ],
-     "first_seen": "2026-07-25T22:57:27Z",
+     "first_seen": "2026-07-26T06:08:16Z",
      "example_tweets": [],
      "market": null,
      "market_gap": true
     },
     {
-     "key": "ufcabudhabi",
-     "name": "#UFCAbuDhabi",
-     "entity": "#UFCAbuDhabi",
-     "league": "MMA/Boxing",
-     "score": 18,
-     "score_breakdown": {
-      "velocity": 0.0,
-      "cross_platform": 8,
-      "freshness": 10,
-      "engagement": 0.0,
-      "early_bonus": 0
-     },
-     "early": false,
-     "new_on_x": false,
-     "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
-     "angle": "Verify the driver manually before attaching content (fallback mode).",
-     "sources": [
-      "x",
-      "trends24"
-     ],
-     "first_seen": "2026-07-25T14:38:24Z",
-     "example_tweets": [],
-     "market": null,
-     "market_gap": true
-    }
-   ]
-  },
-  {
-   "league": "NFL",
-   "activity": 43,
-   "trends": [
-    {
-     "key": "cj abrams",
-     "name": "CJ Abrams",
-     "entity": "CJ Abrams",
-     "league": "NFL",
+     "key": "nats",
+     "name": "Nats",
+     "entity": "Washington Nationals",
+     "league": "MLB",
      "score": 43,
      "score_breakdown": {
       "velocity": 15.0,
@@ -126,16 +47,318 @@
      },
      "early": false,
      "new_on_x": true,
-     "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
-     "angle": "Verify the driver manually before attaching content (fallback mode).",
+     "why_now": "MLB team; co-trending with Breslow suggests front-office or roster news.",
+     "angle": "Capitalize on Nationals fan engagement around trades, signings, or management changes.",
      "sources": [
       "x",
       "trends24"
      ],
-     "first_seen": "2026-07-25T22:57:27Z",
+     "first_seen": "2026-07-26T06:08:16Z",
      "example_tweets": [],
      "market": null,
      "market_gap": true
+    },
+    {
+     "key": "fenway",
+     "name": "Fenway",
+     "entity": "Fenway Park",
+     "league": "MLB",
+     "score": 43,
+     "score_breakdown": {
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 0
+     },
+     "early": false,
+     "new_on_x": true,
+     "why_now": "Baseball stadium; likely Red Sox game or event at Fenway.",
+     "angle": "Engage Red Sox fans with game highlights, stadium events, or team news.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-07-26T06:08:16Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    }
+   ]
+  },
+  {
+   "league": "MMA/Boxing",
+   "activity": 129,
+   "trends": [
+    {
+     "key": "spence",
+     "name": "Spence",
+     "entity": "Errol Spence Jr.",
+     "league": "MMA/Boxing",
+     "score": 63,
+     "score_breakdown": {
+      "velocity": 27.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 8.0,
+      "early_bonus": 0
+     },
+     "early": false,
+     "new_on_x": true,
+     "why_now": "Boxing match or fight announcement; co-trending with Crawford suggests a major bout or rivalry moment.",
+     "angle": "Capitalize on boxing fan engagement around Spence's next fight or training camp news before mainstream saturation.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-07-26T06:08:16Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    },
+    {
+     "key": "boxing",
+     "name": "#boxing",
+     "entity": "Boxing",
+     "league": "MMA/Boxing",
+     "score": 43,
+     "score_breakdown": {
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 0
+     },
+     "early": false,
+     "new_on_x": true,
+     "why_now": "Boxing hashtag spiking; co-trending with Spence, Crawford suggests major fight or event.",
+     "angle": "Ride boxing momentum with fighter profiles, training clips, or fight prediction content.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-07-26T06:08:16Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    },
+    {
+     "key": "crawford",
+     "name": "Crawford",
+     "entity": "Terence Crawford",
+     "league": "MMA/Boxing",
+     "score": 23,
+     "score_breakdown": {
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 0,
+      "engagement": 0.0,
+      "early_bonus": 0
+     },
+     "early": false,
+     "new_on_x": true,
+     "why_now": "Boxer; co-trending with Spence and boxing hashtag suggests major fight announcement or rivalry.",
+     "angle": "Leverage boxing fan momentum around Crawford-Spence or other high-profile bout.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-07-22T05:52:50Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    }
+   ]
+  },
+  {
+   "league": "Other Sports",
+   "activity": 88,
+   "trends": [
+    {
+     "key": "real steel",
+     "name": "Real Steel",
+     "entity": "Real Steel",
+     "league": "Other Sports",
+     "score": 45,
+     "score_breakdown": {
+      "velocity": 17.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 0
+     },
+     "early": false,
+     "new_on_x": true,
+     "why_now": "Robot boxing film; sports-adjacent entertainment.",
+     "angle": "Leverage robot boxing interest for sports-entertainment crossover content.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-07-26T06:08:16Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    },
+    {
+     "key": "omos",
+     "name": "Omos",
+     "entity": "Omos",
+     "league": "Other Sports",
+     "score": 43,
+     "score_breakdown": {
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 0
+     },
+     "early": false,
+     "new_on_x": true,
+     "why_now": "WWE wrestler; likely match result, storyline, or wrestling event.",
+     "angle": "Engage wrestling fans with match highlights, storyline updates, or wrestler news.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-07-26T06:08:16Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    }
+   ]
+  },
+  {
+   "league": "Soccer",
+   "activity": 76,
+   "trends": [
+    {
+     "key": "mead",
+     "name": "Mead",
+     "entity": "Beth Mead",
+     "league": "Soccer",
+     "score": 43,
+     "score_breakdown": {
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 0
+     },
+     "early": false,
+     "new_on_x": true,
+     "why_now": "Soccer player trending; likely a goal, injury, or transfer news in women's or men's football.",
+     "angle": "Engage soccer audiences with player performance highlights or transfer speculation before news breaks mainstream.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-07-26T06:08:16Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    },
+    {
+     "key": "son heung min",
+     "name": "son heung-min",
+     "entity": "Son Heung-min",
+     "league": "Soccer",
+     "score": 33,
+     "score_breakdown": {
+      "velocity": 5.4,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 0
+     },
+     "early": false,
+     "new_on_x": false,
+     "why_now": "Soccer player scoring for LAFC; goal or match performance.",
+     "angle": "Capitalize on Son's goal or LAFC win with highlight clips and player stats.",
+     "sources": [
+      "google"
+     ],
+     "first_seen": "2026-07-26T06:08:16Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    }
+   ]
+  },
+  {
+   "league": "College Basketball",
+   "activity": 43,
+   "trends": [
+    {
+     "key": "jonquel jones",
+     "name": "Jonquel Jones",
+     "entity": "Jonquel Jones",
+     "league": "College Basketball",
+     "score": 43,
+     "score_breakdown": {
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 0
+     },
+     "early": false,
+     "new_on_x": true,
+     "why_now": "WNBA/basketball player; likely game performance, trade, or career news.",
+     "angle": "Engage women's basketball fans with player highlights or team updates.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-07-26T06:08:16Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    }
+   ]
+  },
+  {
+   "league": "NBA",
+   "activity": 33,
+   "trends": [
+    {
+     "key": "kyrie irving trade",
+     "name": "kyrie irving trade",
+     "entity": "Kyrie Irving",
+     "league": "NBA",
+     "score": 33,
+     "score_breakdown": {
+      "velocity": 4.6,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 0
+     },
+     "early": false,
+     "new_on_x": false,
+     "why_now": "Trade speculation or proposal; Mavericks considering moves for star players.",
+     "angle": "Engage NBA fans with trade rumors and roster speculation before official announcements.",
+     "sources": [
+      "google"
+     ],
+     "first_seen": "2026-07-26T06:08:16Z",
+     "example_tweets": [],
+     "market": {
+      "question": "Will LeBron James play for the Los Angeles Clippers in 2026-27?",
+      "url": "https://polymarket.com/event/nba-lebron-james-next-team",
+      "outcomes": [
+       [
+        "Yes",
+        0.0005
+       ],
+       [
+        "No",
+        0.9995
+       ]
+      ],
+      "volume24hr": 48926.82
+     },
+     "market_gap": false
     }
    ]
   }
@@ -145,7 +368,7 @@
   "trends24": "ok (2 snapshots)",
   "google_trends": "ok (10 items)",
   "gamma_api": "ok (500 markets)",
-  "llm": "ok (10 enriched)",
+  "llm": "ok (59 enriched)",
   "slack": "error: HTTP Error 404: Not Found"
  },
  "x_budget": {
@@ -174,7 +397,7 @@
  "stats": {
   "newly_enriched": 59,
   "cache_hits": 0,
-  "suppressed": 7,
-  "discarded_non_sports": 48
+  "suppressed": 0,
+  "discarded_non_sports": 47
  }
 }
