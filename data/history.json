@@ -2894,7 +2894,7 @@
   },
   "gachiakuta172": {
    "first_seen": "2026-07-21T18:16:59Z",
-   "last_seen": "2026-07-21T18:16:59Z",
+   "last_seen": "2026-07-28T18:16:21Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -2906,12 +2906,12 @@
     "obvious": false,
     "early": true,
     "entity": "#gachiakuta172",
-    "why_now": "No sample tweets; anime/manga hashtag; no sports connection.",
-    "angle": "Not sports-related; entertainment.",
+    "why_now": "Anime episode tag (Gachi Akuta); no sports connection.",
+    "angle": "Not sports-related; deprioritize.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-21T18:16:59Z"
+   "enriched_at": "2026-07-28T18:16:21Z"
   },
   "barstool": {
    "first_seen": "2026-07-21T18:16:59Z",
@@ -11047,23 +11047,24 @@
   },
   "madison": {
    "first_seen": "2026-07-23T15:10:38Z",
-   "last_seen": "2026-07-23T15:10:38Z",
+   "last_seen": "2026-07-28T18:16:21Z",
    "sources_seen": [
-    "trends24"
+    "trends24",
+    "x"
    ],
    "enrichment": {
     "key": "madison",
-    "sports": false,
-    "league": null,
+    "sports": true,
+    "league": "College Football",
     "obvious": false,
-    "early": false,
-    "entity": null,
-    "why_now": null,
-    "angle": null,
+    "early": true,
+    "entity": "MADISON",
+    "why_now": "Likely Wisconsin Badgers or Madison-based college football context; co-trending with Big Ten Media Days.",
+    "angle": "Identify the specific player, coach, or moment; Big Ten camp coverage is peaking.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-23T15:10:38Z"
+   "enriched_at": "2026-07-28T18:16:21Z"
   },
   "ucmj": {
    "first_seen": "2026-07-23T15:10:38Z",
@@ -19349,24 +19350,24 @@
   },
   "denzel": {
    "first_seen": "2026-07-25T22:57:27Z",
-   "last_seen": "2026-07-25T22:57:27Z",
+   "last_seen": "2026-07-28T18:16:21Z",
    "sources_seen": [
     "trends24",
     "x"
    ],
    "enrichment": {
     "key": "denzel",
-    "sports": false,
-    "league": null,
+    "sports": true,
+    "league": "NFL",
     "obvious": false,
-    "early": false,
+    "early": true,
     "entity": "Denzel",
-    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
-    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "why_now": "Likely Denzel Ward (CB) or similar NFL player; trending amid offseason coverage.",
+    "angle": "Identify the player and moment; defensive back narratives are live.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-25T22:57:27Z"
+   "enriched_at": "2026-07-28T18:16:21Z"
   },
   "jackson koivun": {
    "first_seen": "2026-07-25T22:57:27Z",
@@ -26633,7 +26634,7 @@
   },
   "vita vea": {
    "first_seen": "2026-07-27T23:04:40Z",
-   "last_seen": "2026-07-28T05:49:01Z",
+   "last_seen": "2026-07-28T18:16:21Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -26643,14 +26644,14 @@
     "sports": true,
     "league": "NFL",
     "obvious": false,
-    "early": false,
+    "early": true,
     "entity": "Vita Vea",
-    "why_now": "NFL defensive tackle (Tampa Bay Buccaneers); co-trending with sports names; likely contract, injury, or training camp news.",
-    "angle": "Tie to NFL news or training camp moment; appeal to football fans.",
+    "why_now": "Buccaneers DT trending; likely contract extension or roster news (Vikings sign Brian O'Neill market suggests contract season).",
+    "angle": "Monitor for contract, injury, or trade news; defensive line market is active.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-28T05:49:01Z"
+   "enriched_at": "2026-07-28T18:16:21Z"
   },
   "tractor supply": {
    "first_seen": "2026-07-27T23:04:40Z",
@@ -26696,7 +26697,7 @@
   },
   "bucs": {
    "first_seen": "2026-07-27T23:04:40Z",
-   "last_seen": "2026-07-27T23:04:40Z",
+   "last_seen": "2026-07-28T18:16:21Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -26706,14 +26707,14 @@
     "sports": true,
     "league": "NFL",
     "obvious": false,
-    "early": true,
-    "entity": "Tampa Bay Buccaneers",
-    "why_now": "Co-trending with Vita Vea and Todd Bowles; specific roster or coaching moment driving engagement.",
-    "angle": "Identify the underlying Bucs news (trade, injury, quote) and frame as team-building or competitive angle.",
+    "early": false,
+    "entity": "Bucs",
+    "why_now": "Tampa Bay Buccaneers trending; likely tied to Vita Vea (DT) contract/roster news or training camp.",
+    "angle": "Cover Bucs roster moves, camp updates, or player news; NFC South narrative is active.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-07-27T23:04:40Z"
+   "enriched_at": "2026-07-28T18:16:21Z"
   },
   "lorenzo": {
    "first_seen": "2026-07-27T23:04:40Z",
@@ -28657,7 +28658,7 @@
   },
   "hbcu": {
    "first_seen": "2026-07-28T15:23:27Z",
-   "last_seen": "2026-07-28T15:23:27Z",
+   "last_seen": "2026-07-28T18:16:21Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -28846,7 +28847,7 @@
   },
   "mike mccarthy": {
    "first_seen": "2026-07-28T15:23:27Z",
-   "last_seen": "2026-07-28T15:23:27Z",
+   "last_seen": "2026-07-28T18:16:21Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -29324,9 +29325,11 @@
   },
   "tommy paul": {
    "first_seen": "2026-07-28T15:23:27Z",
-   "last_seen": "2026-07-28T15:23:27Z",
+   "last_seen": "2026-07-28T18:16:21Z",
    "sources_seen": [
-    "google"
+    "google",
+    "trends24",
+    "x"
    ],
    "enrichment": {
     "key": "tommy paul",
@@ -29335,12 +29338,12 @@
     "obvious": false,
     "early": false,
     "entity": "Tommy Paul",
-    "why_now": "Tennis player trending; ATP Washington tournament on July 28—match vs Kamil Majchrzak in Day 2 action.",
-    "angle": "Live tennis: Paul's ATP Washington match—cover as upset potential, form narrative, or tournament storyline.",
+    "why_now": "American tennis player competing at Mubadala DC Open (Kamil Majchrzak vs Tommy Paul market exists).",
+    "angle": "Cover his tournament run, upset potential, or rivalry moments; tennis fans are engaged.",
     "duplicate_of": null,
     "market_id": "3109549"
    },
-   "enriched_at": "2026-07-28T15:23:27Z"
+   "enriched_at": "2026-07-28T18:16:21Z"
   },
   "soxx": {
    "first_seen": "2026-07-28T15:23:27Z",
@@ -29381,6 +29384,773 @@
     "market_id": null
    },
    "enriched_at": "2026-07-28T15:23:27Z"
+  },
+  "jalen carter": {
+   "first_seen": "2026-07-28T18:16:21Z",
+   "last_seen": "2026-07-28T18:16:21Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "jalen carter",
+    "sports": true,
+    "league": "NFL",
+    "obvious": false,
+    "early": false,
+    "entity": "Jalen Carter",
+    "why_now": "Philadelphia Eagles defensive tackle trending amid Big Ten Media Days coverage and offseason roster discussions.",
+    "angle": "Monitor for contract, injury, or trade news; Eagles defensive line narrative is live.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-28T18:16:21Z"
+  },
+  "asktop": {
+   "first_seen": "2026-07-28T18:16:21Z",
+   "last_seen": "2026-07-28T18:16:21Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "asktop",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": false,
+    "early": true,
+    "entity": "#AskTOP",
+    "why_now": "Hashtag spiking on X; likely athlete or personality Q&A session or viral moment from a sports figure.",
+    "angle": "Identify the athlete/personality behind #AskTOP before mainstream pickup; ride the engagement wave early.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-28T18:16:21Z"
+  },
+  "justin herbert": {
+   "first_seen": "2026-07-28T18:16:21Z",
+   "last_seen": "2026-07-28T18:16:21Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "justin herbert",
+    "sports": true,
+    "league": "NFL",
+    "obvious": false,
+    "early": false,
+    "entity": "Justin Herbert",
+    "why_now": "Chargers QB trending; likely tied to training camp, injury update, or contract/trade speculation.",
+    "angle": "Track for preseason performance, injury status, or roster moves; QB narratives drive fantasy/betting interest.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-28T18:16:21Z"
+  },
+  "howie": {
+   "first_seen": "2026-07-28T18:16:21Z",
+   "last_seen": "2026-07-28T18:16:21Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "howie",
+    "sports": true,
+    "league": "NFL",
+    "obvious": false,
+    "early": true,
+    "entity": "Howie",
+    "why_now": "Likely Howie Roseman (Eagles GM) trending amid #FlyEaglesFly and Jalen Carter co-trends; roster moves or draft talk.",
+    "angle": "Monitor Eagles front-office moves and draft strategy; Roseman quotes drive fan engagement.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-28T18:16:21Z"
+  },
+  "clara": {
+   "first_seen": "2026-07-28T18:16:21Z",
+   "last_seen": "2026-07-28T18:16:21Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "clara",
+    "sports": true,
+    "league": "Tennis",
+    "obvious": false,
+    "early": true,
+    "entity": "Clara",
+    "why_now": "Likely tennis player (possibly Clara Tauson or similar); co-trending with Alexandra Eala and tennis events.",
+    "angle": "Identify the player and tournament moment; women's tennis is trending.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-28T18:16:21Z"
+  },
+  "pureblood": {
+   "first_seen": "2026-07-28T18:16:21Z",
+   "last_seen": "2026-07-28T18:16:21Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "pureblood",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "#pureblood",
+    "why_now": "Hashtag with no clear sports connection; likely anime, gaming, or pop-culture meme.",
+    "angle": "Not sports-related; deprioritize.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-28T18:16:21Z"
+  },
+  "lila": {
+   "first_seen": "2026-07-28T18:16:21Z",
+   "last_seen": "2026-07-28T18:16:21Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "lila",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Lila",
+    "why_now": "Generic name; no sports signal detected in co-trending context.",
+    "angle": "Not sports-related; deprioritize.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-28T18:16:21Z"
+  },
+  "flyeaglesfly": {
+   "first_seen": "2026-07-28T18:16:21Z",
+   "last_seen": "2026-07-28T18:16:21Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "flyeaglesfly",
+    "sports": true,
+    "league": "NFL",
+    "obvious": false,
+    "early": false,
+    "entity": "#FlyEaglesFly",
+    "why_now": "Philadelphia Eagles rallying cry; trending with Jalen Carter, Howie, and offseason roster news.",
+    "angle": "Eagles fan engagement is high; tie to roster moves, draft picks, or camp updates.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-28T18:16:21Z"
+  },
+  "bret bielema": {
+   "first_seen": "2026-07-28T18:16:21Z",
+   "last_seen": "2026-07-28T18:16:21Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "bret bielema",
+    "sports": true,
+    "league": "College Football",
+    "obvious": false,
+    "early": false,
+    "entity": "Bret Bielema",
+    "why_now": "Illinois head coach trending at Big Ten Media Days; likely discussing team, recruits, or conference topics.",
+    "angle": "Cover his Big Ten Media Days comments, team outlook, or coaching moves.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-28T18:16:21Z"
+  },
+  "senator lindsey graham": {
+   "first_seen": "2026-07-28T18:16:21Z",
+   "last_seen": "2026-07-28T18:16:21Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "senator lindsey graham",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": false,
+    "early": true,
+    "entity": "Senator Lindsey Graham",
+    "why_now": "Politician trending; likely sports-adjacent (tribute, event appearance, or sports policy comment).",
+    "angle": "Identify the sports moment (e.g., event appearance, tribute); political figures at sports events drive culture.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-28T18:16:21Z"
+  },
+  "baker": {
+   "first_seen": "2026-07-28T18:16:21Z",
+   "last_seen": "2026-07-28T18:16:21Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "baker",
+    "sports": true,
+    "league": "NFL",
+    "obvious": false,
+    "early": true,
+    "entity": "Baker",
+    "why_now": "Likely Baker Mayfield (QB) or similar; trending amid NFL offseason/training camp coverage.",
+    "angle": "Identify the specific player and moment; QB narratives are high-engagement.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-28T18:16:21Z"
+  },
+  "wrinkled": {
+   "first_seen": "2026-07-28T18:16:21Z",
+   "last_seen": "2026-07-28T18:16:21Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "wrinkled",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Wrinkled",
+    "why_now": "No clear sports connection; likely meme or pop-culture reference.",
+    "angle": "Not sports-related; deprioritize.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-28T18:16:21Z"
+  },
+  "tony petitti": {
+   "first_seen": "2026-07-28T18:16:21Z",
+   "last_seen": "2026-07-28T18:16:21Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "tony petitti",
+    "sports": true,
+    "league": "College Football",
+    "obvious": false,
+    "early": false,
+    "entity": "Tony Petitti",
+    "why_now": "Big Ten Commissioner; trending at Big Ten Media Days with Bret Bielema, Matt Campbell, and college football news.",
+    "angle": "Cover his Media Days announcements, conference decisions, or coaching/player comments.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-28T18:16:21Z"
+  },
+  "boutte": {
+   "first_seen": "2026-07-28T18:16:21Z",
+   "last_seen": "2026-07-28T18:16:21Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "boutte",
+    "sports": true,
+    "league": "NFL",
+    "obvious": false,
+    "early": true,
+    "entity": "Boutte",
+    "why_now": "Likely Kayshon Boutte (WR) or similar; trending amid NFL offseason/draft/contract discussions.",
+    "angle": "Monitor for injury, contract, or trade news; WR market is active.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-28T18:16:21Z"
+  },
+  "animal house": {
+   "first_seen": "2026-07-28T18:16:21Z",
+   "last_seen": "2026-07-28T18:16:21Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "animal house",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Animal House",
+    "why_now": "Classic film; no direct sports connection detected.",
+    "angle": "Not sports-related; deprioritize.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-28T18:16:21Z"
+  },
+  "chikhan": {
+   "first_seen": "2026-07-28T18:16:21Z",
+   "last_seen": "2026-07-28T18:16:21Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "chikhan",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "#chikhan",
+    "why_now": "Hashtag with no clear sports connection; likely anime or gaming.",
+    "angle": "Not sports-related; deprioritize.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-28T18:16:21Z"
+  },
+  "jared leto": {
+   "first_seen": "2026-07-28T18:16:21Z",
+   "last_seen": "2026-07-28T18:16:21Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "jared leto",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": false,
+    "early": true,
+    "entity": "Jared Leto",
+    "why_now": "Actor/musician; likely sports-adjacent (event appearance, athlete connection, or sports commentary).",
+    "angle": "Identify the sports moment (e.g., game attendance, athlete collaboration); celebrity sports moments drive culture.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-28T18:16:21Z"
+  },
+  "jordan davis": {
+   "first_seen": "2026-07-28T18:16:21Z",
+   "last_seen": "2026-07-28T18:16:21Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "jordan davis",
+    "sports": true,
+    "league": "NFL",
+    "obvious": false,
+    "early": true,
+    "entity": "Jordan Davis",
+    "why_now": "Likely Jordan Davis (DT, Eagles) or similar; trending amid Eagles offseason/Big Ten Media Days context.",
+    "angle": "Monitor for contract, injury, or performance news; defensive line narratives are live.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-28T18:16:21Z"
+  },
+  "matt campbell": {
+   "first_seen": "2026-07-28T18:16:21Z",
+   "last_seen": "2026-07-28T18:16:21Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "matt campbell",
+    "sports": true,
+    "league": "College Football",
+    "obvious": false,
+    "early": false,
+    "entity": "Matt Campbell",
+    "why_now": "Iowa State head coach at Big Ten Media Days; likely discussing team, recruits, or Big Ten transition.",
+    "angle": "Cover his Media Days comments and Iowa State's Big Ten move narrative.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-28T18:16:21Z"
+  },
+  "big ten media days": {
+   "first_seen": "2026-07-28T18:16:21Z",
+   "last_seen": "2026-07-28T18:16:21Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "big ten media days",
+    "sports": true,
+    "league": "College Football",
+    "obvious": true,
+    "early": false,
+    "entity": "Big Ten Media Days",
+    "why_now": "Scheduled event; obvious coverage without specific viral moment or quote.",
+    "angle": "Suppress as event logistics; only cover if specific coach quote, player moment, or controversy emerges.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-28T18:16:21Z"
+  },
+  "jalen smith": {
+   "first_seen": "2026-07-28T18:16:21Z",
+   "last_seen": "2026-07-28T18:16:21Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "jalen smith",
+    "sports": true,
+    "league": "NBA",
+    "obvious": false,
+    "early": true,
+    "entity": "Jalen Smith",
+    "why_now": "NBA player; likely tied to free agency, trade, or roster news.",
+    "angle": "Track for team moves, contract updates, or performance news.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-28T18:16:21Z"
+  },
+  "dinger tuesday": {
+   "first_seen": "2026-07-28T18:16:21Z",
+   "last_seen": "2026-07-28T18:16:21Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "dinger tuesday",
+    "sports": true,
+    "league": "MLB",
+    "obvious": false,
+    "early": false,
+    "entity": "Dinger Tuesday",
+    "why_now": "MLB home run celebration/meme; trending on game day with baseball content.",
+    "angle": "Cover viral home run moments, player celebrations, or baseball memes.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-28T18:16:21Z"
+  },
+  "signalis": {
+   "first_seen": "2026-07-28T18:16:21Z",
+   "last_seen": "2026-07-28T18:16:21Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "signalis",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Signalis",
+    "why_now": "Video game; no sports connection.",
+    "angle": "Not sports-related; deprioritize.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-28T18:16:21Z"
+  },
+  "runaway": {
+   "first_seen": "2026-07-28T18:16:21Z",
+   "last_seen": "2026-07-28T18:16:21Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "runaway",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Runaway",
+    "why_now": "Generic term; no sports signal detected.",
+    "angle": "Not sports-related; deprioritize.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-28T18:16:21Z"
+  },
+  "andy beshear": {
+   "first_seen": "2026-07-28T18:16:21Z",
+   "last_seen": "2026-07-28T18:16:21Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "andy beshear",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Andy Beshear",
+    "why_now": "Kentucky governor; no sports connection detected.",
+    "angle": "Not sports-related; deprioritize.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-28T18:16:21Z"
+  },
+  "severe thunderstorm watch": {
+   "first_seen": "2026-07-28T18:16:21Z",
+   "last_seen": "2026-07-28T18:16:21Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "severe thunderstorm watch",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Severe Thunderstorm Watch",
+    "why_now": "Weather alert; not sports-related.",
+    "angle": "Not sports-related; deprioritize.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-28T18:16:21Z"
+  },
+  "just announced": {
+   "first_seen": "2026-07-28T18:16:21Z",
+   "last_seen": "2026-07-28T18:16:21Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "just announced",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "JUST ANNOUNCED",
+    "why_now": "Generic phrase; no sports signal detected.",
+    "angle": "Not sports-related; deprioritize.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-28T18:16:21Z"
+  },
+  "alexandra eala": {
+   "first_seen": "2026-07-28T18:16:21Z",
+   "last_seen": "2026-07-28T18:16:21Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "alexandra eala",
+    "sports": true,
+    "league": "Tennis",
+    "obvious": false,
+    "early": false,
+    "entity": "Alexandra Eala",
+    "why_now": "Filipino tennis player competing at Mubadala DC Open; news coverage of her matches and doubles decisions.",
+    "angle": "Cover her tournament performance, match results, and doubles strategy; rising tennis star narrative.",
+    "duplicate_of": null,
+    "market_id": "3109704"
+   },
+   "enriched_at": "2026-07-28T18:16:21Z"
+  },
+  "severance season 3": {
+   "first_seen": "2026-07-28T18:16:21Z",
+   "last_seen": "2026-07-28T18:16:21Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "severance season 3",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "severance season 3",
+    "why_now": "TV show production news; not sports-related.",
+    "angle": "Not sports-related; deprioritize.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-28T18:16:21Z"
+  },
+  "changes to us asylum rules": {
+   "first_seen": "2026-07-28T18:16:21Z",
+   "last_seen": "2026-07-28T18:16:21Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "changes to us asylum rules",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "changes to us asylum rules",
+    "why_now": "Policy news; not sports-related.",
+    "angle": "Not sports-related; deprioritize.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-28T18:16:21Z"
+  },
+  "james duckett": {
+   "first_seen": "2026-07-28T18:16:21Z",
+   "last_seen": "2026-07-28T18:16:21Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "james duckett",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "james duckett",
+    "why_now": "Criminal justice news; not sports-related.",
+    "angle": "Not sports-related; deprioritize.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-28T18:16:21Z"
+  },
+  "boeing air force one contract": {
+   "first_seen": "2026-07-28T18:16:21Z",
+   "last_seen": "2026-07-28T18:16:21Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "boeing air force one contract",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "boeing air force one contract",
+    "why_now": "Defense/aerospace news; not sports-related.",
+    "angle": "Not sports-related; deprioritize.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-28T18:16:21Z"
+  },
+  "arthur fils": {
+   "first_seen": "2026-07-28T18:16:21Z",
+   "last_seen": "2026-07-28T18:16:21Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "arthur fils",
+    "sports": true,
+    "league": "Tennis",
+    "obvious": false,
+    "early": false,
+    "entity": "Arthur Fils",
+    "why_now": "French tennis player competing at Mubadala DC Open (Arthur Fils vs Rafael Jodar market exists).",
+    "angle": "Cover his tournament run and match results; young tennis talent narrative.",
+    "duplicate_of": null,
+    "market_id": "3109555"
+   },
+   "enriched_at": "2026-07-28T18:16:21Z"
+  },
+  "zelda ocarina of time": {
+   "first_seen": "2026-07-28T18:16:21Z",
+   "last_seen": "2026-07-28T18:16:21Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "zelda ocarina of time",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "zelda ocarina of time",
+    "why_now": "Video game news; not sports-related.",
+    "angle": "Not sports-related; deprioritize.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-28T18:16:21Z"
+  },
+  "brian o neill": {
+   "first_seen": "2026-07-28T18:16:21Z",
+   "last_seen": "2026-07-28T18:16:21Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "brian o neill",
+    "sports": true,
+    "league": "NFL",
+    "obvious": false,
+    "early": false,
+    "entity": "brian o'neill",
+    "why_now": "Vikings right tackle signed to contract extension; news coverage of his deal.",
+    "angle": "Cover Vikings roster moves and offensive line investments; contract extension narrative.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-28T18:16:21Z"
+  },
+  "dyson spheres": {
+   "first_seen": "2026-07-28T18:16:21Z",
+   "last_seen": "2026-07-28T18:16:21Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "dyson spheres",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "dyson spheres",
+    "why_now": "Astronomy/science news; not sports-related.",
+    "angle": "Not sports-related; deprioritize.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-28T18:16:21Z"
+  },
+  "elche c f al ain": {
+   "first_seen": "2026-07-28T18:16:21Z",
+   "last_seen": "2026-07-28T18:16:21Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "elche c f al ain",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": true,
+    "early": false,
+    "entity": "elche c. f. - al ain",
+    "why_now": "Friendly match; obvious pre-game coverage without specific storyline or moment.",
+    "angle": "Suppress as event logistics; only cover if specific player moment, upset, or controversy emerges.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-07-28T18:16:21Z"
   }
  },
  "x_usage": {
@@ -29395,67 +30165,57 @@
  },
  "prev_x_trends": [
   "Fauci",
-  "Good Tuesday",
+  "Jalen Carter",
+  "#AskTOP",
+  "Justin Herbert",
+  "Tommy Paul",
+  "MADISON",
+  "Howie",
+  "Clara",
   "Taco Tuesday",
+  "#pureblood",
+  "Lila",
+  "#FlyEaglesFly",
+  "Bret Bielema",
+  "#gachiakuta172",
+  "Senator Lindsey Graham",
+  "Flint",
+  "Baker",
   "Kumamoto",
   "Hannity",
-  "Broderick Jones",
-  "#ChávezAmorInmenso",
-  "Jalen Ramsey",
-  "#TuesdayVibes",
-  "Flint",
-  "Tosin",
-  "Sen. Lindsey Graham",
-  "#JossGawinConcert",
-  "HBCU",
-  "Apple Upgrade",
-  "Happy Taco",
-  "Mickey 17",
-  "Haiti",
-  "Brand New Day",
-  "#TuesdayMotivation",
-  "Children of Blood and Bone",
-  "Omar Khan",
-  "DeWine",
+  "Wrinkled",
+  "Tony Petitti",
   "Purina",
-  "DK Metcalf",
-  "Kyushu",
-  "Mike McCarthy",
-  "JPMorganChase",
-  "Japón",
-  "$GLW",
-  "Lavia",
-  "#TongueOutTuesday",
+  "Boutte",
+  "Animal House",
+  "Denzel",
+  "#chikhan",
+  "HBCU",
+  "Bucs",
+  "Jared Leto",
+  "Jordan Davis",
+  "Mickey 17",
+  "Matt Campbell",
   "Cornyn",
-  "Joao Pedro",
+  "Big Ten Media Days",
+  "DeWine",
+  "Vita Vea",
+  "Good Tuesday",
+  "Jalen Smith",
+  "Mike McCarthy",
+  "Dinger Tuesday",
+  "Haiti",
+  "Signalis",
+  "Citadel",
   "Julia Roberts",
-  "$QQQ",
-  "Klarna",
-  "$NRED",
-  "FOMC",
-  "Tractor Supply",
-  "Jake Tapper",
-  "Rand Paul",
-  "Home Alone",
-  "Mamdani",
-  "Temporary",
-  "Delap",
-  "Mancini",
-  "Michael B. Jordan",
-  "Chamath",
-  "Citadel"
+  "Apple Upgrade",
+  "Children of Blood and Bone",
+  "Runaway",
+  "Andy Beshear",
+  "Severe Thunderstorm Watch",
+  "JUST ANNOUNCED"
  ],
  "suppressed": [
-  {
-   "key": "antonelli",
-   "reason": "No sample tweets or news; likely routine F1 mention.",
-   "at": "2026-07-18T17:56:45Z"
-  },
-  {
-   "key": "north wilkesboro",
-   "reason": "Historic NASCAR track; no sample tweets or news; likely routine event mention.",
-   "at": "2026-07-18T17:56:45Z"
-  },
   {
    "key": "hadjar",
    "reason": "No sample tweets or news; likely routine F1 mention.",
@@ -30445,6 +31205,16 @@
    "key": "summerslam",
    "reason": "Scheduled WWE event; no specific viral moment evident.",
    "at": "2026-07-28T05:49:01Z"
+  },
+  {
+   "key": "big ten media days",
+   "reason": "Scheduled event; obvious coverage without specific viral moment or quote.",
+   "at": "2026-07-28T18:16:21Z"
+  },
+  {
+   "key": "elche c f al ain",
+   "reason": "Friendly match; obvious pre-game coverage without specific storyline or moment.",
+   "at": "2026-07-28T18:16:21Z"
   }
  ],
  "slack_posted": {
