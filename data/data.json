@@ -1,270 +1,16 @@
 {
  "schema_version": 2,
- "generated_at": "2026-08-08T17:32:25Z",
+ "generated_at": "2026-08-08T22:31:57Z",
  "sections": [
   {
-   "league": "Soccer",
-   "activity": 465,
+   "league": "NBA",
+   "activity": 347,
    "trends": [
     {
-     "key": "dorgu",
-     "name": "Dorgu",
-     "entity": "Patrick Dorgu",
-     "league": "Soccer",
-     "score": 63,
-     "score_breakdown": {
-      "velocity": 27.0,
-      "cross_platform": 8,
-      "freshness": 20,
-      "engagement": 8.0,
-      "early_bonus": 0
-     },
-     "early": false,
-     "new_on_x": true,
-     "why_now": "Footballer trending with transfer-window cluster (Mason Mount, Amad, Lavia, Mbeumo); likely transfer rumor or signing.",
-     "angle": "Identify the specific transfer news and position as breaking market move.",
-     "sources": [
-      "x",
-      "trends24"
-     ],
-     "first_seen": "2026-08-08T17:32:25Z",
-     "example_tweets": [],
-     "market": null,
-     "market_gap": true
-    },
-    {
-     "key": "mason mount",
-     "name": "Mason Mount",
-     "entity": "Mason Mount",
-     "league": "Soccer",
-     "score": 43,
-     "score_breakdown": {
-      "velocity": 15.0,
-      "cross_platform": 8,
-      "freshness": 20,
-      "engagement": 0.0,
-      "early_bonus": 0
-     },
-     "early": false,
-     "new_on_x": true,
-     "why_now": "Footballer trending alongside transfer-adjacent names (Amad, Dorgu, Lavia, Mbeumo); likely transfer window activity or injury update.",
-     "angle": "Identify the specific transfer rumor or injury news driving Mount's spike and position as breaking soccer market move.",
-     "sources": [
-      "x",
-      "trends24"
-     ],
-     "first_seen": "2026-08-08T17:32:25Z",
-     "example_tweets": [],
-     "market": null,
-     "market_gap": true
-    },
-    {
-     "key": "amad",
-     "name": "Amad",
-     "entity": "Amad Diallo",
-     "league": "Soccer",
-     "score": 43,
-     "score_breakdown": {
-      "velocity": 15.0,
-      "cross_platform": 8,
-      "freshness": 20,
-      "engagement": 0.0,
-      "early_bonus": 0
-     },
-     "early": false,
-     "new_on_x": true,
-     "why_now": "Footballer trending alongside transfer-window names (Mason Mount, Dorgu, Lavia, Mbeumo); likely transfer rumor or performance update.",
-     "angle": "Capture the transfer narrative or match performance angle before saturation.",
-     "sources": [
-      "x",
-      "trends24"
-     ],
-     "first_seen": "2026-08-08T17:32:25Z",
-     "example_tweets": [],
-     "market": null,
-     "market_gap": true
-    },
-    {
-     "key": "amorim",
-     "name": "Amorim",
-     "entity": "Rúben Amorim",
-     "league": "Soccer",
-     "score": 43,
-     "score_breakdown": {
-      "velocity": 15.0,
-      "cross_platform": 8,
-      "freshness": 20,
-      "engagement": 0.0,
-      "early_bonus": 0
-     },
-     "early": false,
-     "new_on_x": true,
-     "why_now": "Soccer manager; trending with transfer-window cluster; likely managerial appointment or tactical news.",
-     "angle": "Capture the managerial move or tactical storyline.",
-     "sources": [
-      "x",
-      "trends24"
-     ],
-     "first_seen": "2026-08-08T17:32:25Z",
-     "example_tweets": [],
-     "market": null,
-     "market_gap": true
-    },
-    {
-     "key": "lionel messi",
-     "name": "Lionel Messi",
-     "entity": "Lionel Messi",
-     "league": "Soccer",
-     "score": 43,
-     "score_breakdown": {
-      "velocity": 15.0,
-      "cross_platform": 8,
-      "freshness": 20,
-      "engagement": 0.0,
-      "early_bonus": 0
-     },
-     "early": false,
-     "new_on_x": true,
-     "why_now": "Soccer legend; rank dropped from 18 to 23; co-trending with Cristiano Ronaldo wedding rumors (market catalog); likely wedding-related or personal news.",
-     "angle": "Leverage Messi's personal life moment (wedding attendance speculation) for culture-crossover content.",
-     "sources": [
-      "x",
-      "trends24"
-     ],
-     "first_seen": "2026-08-08T17:32:25Z",
-     "example_tweets": [],
-     "market": {
-      "question": "Will Lionel Messi attend Cristiano Ronaldo's wedding?",
-      "url": "https://polymarket.com/event/who-will-attend-cristiano-ronaldos-wedding-20260803185630253",
-      "outcomes": [
-       [
-        "Yes",
-        0.021
-       ],
-       [
-        "No",
-        0.979
-       ]
-      ],
-      "volume24hr": 22624.080376
-     },
-     "market_gap": false
-    },
-    {
-     "key": "lavia",
-     "name": "Lavia",
-     "entity": "Romeo Lavia",
-     "league": "Soccer",
-     "score": 43,
-     "score_breakdown": {
-      "velocity": 15.0,
-      "cross_platform": 8,
-      "freshness": 20,
-      "engagement": 0.0,
-      "early_bonus": 0
-     },
-     "early": false,
-     "new_on_x": true,
-     "why_now": "Footballer trending with transfer-window cluster (Mason Mount, Amad, Dorgu, Mbeumo); likely transfer rumor.",
-     "angle": "Identify the specific transfer news.",
-     "sources": [
-      "x",
-      "trends24"
-     ],
-     "first_seen": "2026-08-08T17:32:25Z",
-     "example_tweets": [],
-     "market": null,
-     "market_gap": true
-    },
-    {
-     "key": "mbeumo",
-     "name": "Mbeumo",
-     "entity": "Bryan Mbeumo",
-     "league": "Soccer",
-     "score": 43,
-     "score_breakdown": {
-      "velocity": 15.0,
-      "cross_platform": 8,
-      "freshness": 20,
-      "engagement": 0.0,
-      "early_bonus": 0
-     },
-     "early": false,
-     "new_on_x": true,
-     "why_now": "Footballer trending with transfer-window cluster; likely transfer rumor or performance update.",
-     "angle": "Capture the transfer narrative.",
-     "sources": [
-      "x",
-      "trends24"
-     ],
-     "first_seen": "2026-08-08T17:32:25Z",
-     "example_tweets": [],
-     "market": null,
-     "market_gap": true
-    },
-    {
-     "key": "joao pedro",
-     "name": "Joao Pedro",
-     "entity": "João Pedro",
-     "league": "Soccer",
-     "score": 43,
-     "score_breakdown": {
-      "velocity": 15.0,
-      "cross_platform": 8,
-      "freshness": 20,
-      "engagement": 0.0,
-      "early_bonus": 0
-     },
-     "early": false,
-     "new_on_x": true,
-     "why_now": "Footballer; rank improved from 32 to 40; likely transfer rumor or performance update.",
-     "angle": "Identify the specific transfer or performance story.",
-     "sources": [
-      "x",
-      "trends24"
-     ],
-     "first_seen": "2026-08-08T17:32:25Z",
-     "example_tweets": [],
-     "market": null,
-     "market_gap": true
-    }
-   ]
-  },
-  {
-   "league": "NFL",
-   "activity": 304,
-   "trends": [
-    {
-     "key": "lane johnson",
-     "name": "Lane Johnson",
-     "entity": "Lane Johnson",
-     "league": "NFL",
-     "score": 53,
-     "score_breakdown": {
-      "velocity": 27.0,
-      "cross_platform": 8,
-      "freshness": 0,
-      "engagement": 8.0,
-      "early_bonus": 10
-     },
-     "early": true,
-     "new_on_x": true,
-     "why_now": "NFL offensive lineman; rank jumped from 38 to 27; new trending signal; likely injury, trade, or contract news.",
-     "angle": "Early signal on NFL roster move or injury; monitor before mainstream saturation.",
-     "sources": [
-      "x",
-      "trends24"
-     ],
-     "first_seen": "2026-08-03T15:44:42Z",
-     "example_tweets": [],
-     "market": null,
-     "market_gap": true
-    },
-    {
-     "key": "gronk",
-     "name": "Gronk",
-     "entity": "Rob Gronkowski",
-     "league": "NFL",
+     "key": "dijonai",
+     "name": "Dijonai",
+     "entity": "Dijonai Carrington",
+     "league": "NBA",
      "score": 53,
      "score_breakdown": {
       "velocity": 15.0,
@@ -275,148 +21,152 @@
      },
      "early": true,
      "new_on_x": true,
-     "why_now": "NFL legend; new rank (38, previously unranked); likely Hall of Fame news, retirement update, or media appearance.",
-     "angle": "Early signal on Gronk news; monitor for Hall of Fame or comeback narrative.",
+     "why_now": "WNBA player spiking on X; specific moment or controversy unconfirmed from co-trending data alone.",
+     "angle": "Monitor for viral clip, stat, or personal story involving Carrington; early signal before mainstream pickup.",
      "sources": [
       "x",
       "trends24"
      ],
-     "first_seen": "2026-08-08T17:32:25Z",
+     "first_seen": "2026-08-08T22:31:57Z",
      "example_tweets": [],
      "market": null,
      "market_gap": true
     },
     {
-     "key": "drew brees",
-     "name": "Drew Brees",
-     "entity": "Drew Brees",
-     "league": "NFL",
-     "score": 41,
+     "key": "angela",
+     "name": "Angela",
+     "entity": "Angela",
+     "league": "NBA",
+     "score": 53,
      "score_breakdown": {
-      "velocity": 25.0,
+      "velocity": 15.0,
       "cross_platform": 8,
-      "freshness": 0,
-      "engagement": 8.0,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 10
+     },
+     "early": true,
+     "new_on_x": true,
+     "why_now": "Likely WNBA player (Angela Reese or similar); specific moment unclear.",
+     "angle": "Monitor for game performance or personal story; early signal.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-08-08T22:31:57Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    },
+    {
+     "key": "flagrant 2",
+     "name": "Flagrant 2",
+     "entity": "Flagrant 2 (podcast/culture)",
+     "league": "NBA",
+     "score": 43,
+     "score_breakdown": {
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
       "early_bonus": 0
      },
      "early": false,
      "new_on_x": true,
-     "why_now": "NFL Hall of Famer; rank improved from 48 to 43; likely Hall of Fame enshrinement or anniversary coverage.",
-     "angle": "Tie to Hall of Fame enshrinement ceremony or career retrospective.",
+     "why_now": "NBA culture podcast; trending alongside athlete names suggests guest appearance or controversial take.",
+     "angle": "Identify guest or hot take driving engagement; leverage podcast culture angle for younger audience.",
      "sources": [
       "x",
       "trends24"
      ],
-     "first_seen": "2026-08-07T01:30:19Z",
+     "first_seen": "2026-08-08T22:31:57Z",
      "example_tweets": [],
      "market": null,
      "market_gap": true
     },
     {
-     "key": "adam vinatieri",
-     "name": "adam vinatieri",
-     "entity": "Adam Vinatieri",
-     "league": "NFL",
-     "score": 35,
+     "key": "white privilege",
+     "name": "White Privilege",
+     "entity": "White Privilege (cultural moment in sports)",
+     "league": "NBA",
+     "score": 43,
      "score_breakdown": {
-      "velocity": 7.4,
+      "velocity": 15.0,
       "cross_platform": 8,
       "freshness": 20,
       "engagement": 0.0,
       "early_bonus": 0
      },
      "early": false,
-     "new_on_x": false,
-     "why_now": "NFL Hall of Famer; enshrinement ceremony on 2026-08-08; news coverage of induction and career retrospective.",
-     "angle": "Celebrate legendary kicker's Hall of Fame induction; tie to career highlights and legacy.",
+     "new_on_x": true,
+     "why_now": "Likely tied to Flagrant 2 podcast or athlete commentary on race/culture; co-trending with sports figures.",
+     "angle": "Identify the specific quote or moment; position as culture-commentary angle if athlete-driven.",
      "sources": [
-      "google"
+      "x",
+      "trends24"
      ],
-     "first_seen": "2026-08-08T17:32:25Z",
+     "first_seen": "2026-08-08T22:31:57Z",
      "example_tweets": [],
      "market": null,
      "market_gap": true
     },
     {
-     "key": "roger craig",
-     "name": "roger craig",
-     "entity": "Roger Craig",
-     "league": "NFL",
-     "score": 33,
+     "key": "natasha cloud",
+     "name": "Natasha Cloud",
+     "entity": "Natasha Cloud",
+     "league": "NBA",
+     "score": 43,
      "score_breakdown": {
-      "velocity": 5.4,
+      "velocity": 15.0,
       "cross_platform": 8,
       "freshness": 20,
       "engagement": 0.0,
       "early_bonus": 0
      },
      "early": false,
-     "new_on_x": false,
-     "why_now": "NFL Hall of Famer; 1,000-yard rushing and receiving season milestone coverage; likely Hall of Fame enshrinement or anniversary.",
-     "angle": "Celebrate Hall of Famer's historic dual-1000-yard season; tie to career legacy.",
+     "new_on_x": true,
+     "why_now": "WNBA player; likely recent game, trade, or personal story.",
+     "angle": "Highlight specific performance or off-court moment; women's basketball culture.",
      "sources": [
-      "google"
+      "x",
+      "trends24"
      ],
-     "first_seen": "2026-08-08T17:32:25Z",
+     "first_seen": "2026-08-08T22:31:57Z",
      "example_tweets": [],
      "market": null,
      "market_gap": true
     },
     {
-     "key": "randy moss",
-     "name": "randy moss",
-     "entity": "Randy Moss",
-     "league": "NFL",
-     "score": 33,
+     "key": "rachel banham",
+     "name": "Rachel Banham",
+     "entity": "Rachel Banham",
+     "league": "NBA",
+     "score": 43,
      "score_breakdown": {
-      "velocity": 4.6,
+      "velocity": 15.0,
       "cross_platform": 8,
       "freshness": 20,
       "engagement": 0.0,
       "early_bonus": 0
      },
      "early": false,
-     "new_on_x": false,
-     "why_now": "NFL Hall of Famer; low Google traffic (200); likely Hall of Fame enshrinement or training camp coverage.",
-     "angle": "Monitor for Hall of Fame or career retrospective moment.",
+     "new_on_x": true,
+     "why_now": "WNBA player; likely recent game or personal story.",
+     "angle": "Highlight specific performance or off-court moment; women's basketball culture.",
      "sources": [
-      "google"
+      "x",
+      "trends24"
      ],
-     "first_seen": "2026-08-08T17:32:25Z",
+     "first_seen": "2026-08-08T22:31:57Z",
      "example_tweets": [],
      "market": null,
      "market_gap": true
     },
     {
-     "key": "2026 nfl hall of fame class",
-     "name": "2026 nfl hall of fame class",
-     "entity": "2026 NFL Hall of Fame Class",
-     "league": "NFL",
-     "score": 33,
-     "score_breakdown": {
-      "velocity": 4.6,
-      "cross_platform": 8,
-      "freshness": 20,
-      "engagement": 0.0,
-      "early_bonus": 0
-     },
-     "early": false,
-     "new_on_x": false,
-     "why_now": "Enshrinement ceremony on 2026-08-08; coverage of inductees (Adam Vinatieri, Roger Craig, Larry Fitzgerald, Drew Brees, Randy Moss); career retrospectives.",
-     "angle": "Celebrate Hall of Fame enshrinement ceremony; tie to legendary careers and historic moments.",
-     "sources": [
-      "google"
-     ],
-     "first_seen": "2026-08-08T17:32:25Z",
-     "example_tweets": [],
-     "market": null,
-     "market_gap": true
-    },
-    {
-     "key": "larry fitzgerald",
-     "name": "Larry Fitzgerald",
-     "entity": "Larry Fitzgerald",
-     "league": "NFL",
+     "key": "fever",
+     "name": "#Fever",
+     "entity": "Indiana Fever",
+     "league": "NBA",
      "score": 23,
      "score_breakdown": {
       "velocity": 15.0,
@@ -427,13 +177,39 @@
      },
      "early": false,
      "new_on_x": true,
-     "why_now": "NFL Hall of Famer; new rank (14, previously unranked) alongside 2026 NFL Hall of Fame class and other inductees (Adam Vinatieri, Roger Craig); likely enshrinement ceremony coverage.",
-     "angle": "Tie to Hall of Fame enshrinement ceremony; celebrate legendary career moments and induction.",
+     "why_now": "WNBA team; co-trending with player names (Olivia Miles, Natasha Cloud); likely recent game or roster story.",
+     "angle": "Highlight specific game moment or player storyline; women's basketball culture.",
      "sources": [
       "x",
       "trends24"
      ],
-     "first_seen": "2026-08-07T01:30:19Z",
+     "first_seen": "2026-07-29T05:54:58Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    },
+    {
+     "key": "chicago sky",
+     "name": "Chicago Sky",
+     "entity": "Chicago Sky",
+     "league": "NBA",
+     "score": 23,
+     "score_breakdown": {
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 0,
+      "engagement": 0.0,
+      "early_bonus": 0
+     },
+     "early": false,
+     "new_on_x": true,
+     "why_now": "WNBA team; likely recent game or roster story.",
+     "angle": "Highlight specific game moment or player storyline; women's basketball culture.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-08-01T22:56:58Z",
      "example_tweets": [],
      "market": null,
      "market_gap": true
@@ -441,26 +217,182 @@
    ]
   },
   {
-   "league": "Other Sports",
-   "activity": 153,
+   "league": "NFL",
+   "activity": 339,
    "trends": [
     {
-     "key": "borntoshinemingi",
-     "name": "#BornToShineMingi",
-     "entity": "#BornToShineMingi",
-     "league": "Other Sports",
-     "score": 57,
+     "key": "big ben",
+     "name": "Big Ben",
+     "entity": "Ben Roethlisberger",
+     "league": "NFL",
+     "score": 45,
      "score_breakdown": {
-      "velocity": 19.0,
+      "velocity": 17.0,
       "cross_platform": 8,
       "freshness": 20,
       "engagement": 0.0,
-      "early_bonus": 10
+      "early_bonus": 0
      },
-     "early": true,
+     "early": false,
      "new_on_x": true,
-     "why_now": "Korean-language birthday hashtag (민기공주_생일축하 also trending); appears to be fan celebration for athlete or personality named Mingi.",
-     "angle": "Early K-pop or K-sports fan moment; ride the birthday celebration meme before it peaks on Western platforms.",
+     "why_now": "NFL legend; likely retirement update, commentary, or nostalgia moment.",
+     "angle": "Highlight specific quote or appearance; legacy/comeback narrative if applicable.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-08-08T22:31:57Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    },
+    {
+     "key": "sherman",
+     "name": "Sherman",
+     "entity": "Richard Sherman",
+     "league": "NFL",
+     "score": 43,
+     "score_breakdown": {
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 0
+     },
+     "early": false,
+     "new_on_x": true,
+     "why_now": "NFL legend/analyst; likely recent commentary, appearance, or career moment.",
+     "angle": "Identify specific quote or take; leverage analyst/personality angle.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-08-08T22:31:57Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    },
+    {
+     "key": "cam newton",
+     "name": "Cam Newton",
+     "entity": "Cam Newton",
+     "league": "NFL",
+     "score": 43,
+     "score_breakdown": {
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 0
+     },
+     "early": false,
+     "new_on_x": true,
+     "why_now": "NFL legend; likely recent appearance, commentary, or comeback speculation.",
+     "angle": "Identify specific moment or quote; leverage personality/culture angle.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-08-08T22:31:57Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    },
+    {
+     "key": "vince young",
+     "name": "Vince Young",
+     "entity": "Vince Young",
+     "league": "NFL",
+     "score": 43,
+     "score_breakdown": {
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 0
+     },
+     "early": false,
+     "new_on_x": true,
+     "why_now": "NFL legend; likely recent appearance, health update, or nostalgia moment.",
+     "angle": "Highlight specific quote or comeback narrative; legacy angle.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-08-08T22:31:57Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    },
+    {
+     "key": "whitworth",
+     "name": "Whitworth",
+     "entity": "Andrew Whitworth",
+     "league": "NFL",
+     "score": 43,
+     "score_breakdown": {
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 0
+     },
+     "early": false,
+     "new_on_x": true,
+     "why_now": "NFL legend; likely recent appearance, commentary, or nostalgia moment.",
+     "angle": "Identify specific quote or appearance; legacy angle.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-08-08T22:31:57Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    },
+    {
+     "key": "adrian peterson",
+     "name": "Adrian Peterson",
+     "entity": "Adrian Peterson",
+     "league": "NFL",
+     "score": 43,
+     "score_breakdown": {
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 0
+     },
+     "early": false,
+     "new_on_x": true,
+     "why_now": "NFL legend; likely recent appearance, commentary, or nostalgia moment.",
+     "angle": "Identify specific quote or appearance; legacy/comeback narrative.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-08-08T22:31:57Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    },
+    {
+     "key": "roger craig",
+     "name": "Roger Craig",
+     "entity": "Roger Craig",
+     "league": "NFL",
+     "score": 38,
+     "score_breakdown": {
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 15,
+      "engagement": 0.0,
+      "early_bonus": 0
+     },
+     "early": false,
+     "new_on_x": true,
+     "why_now": "NFL legend; likely recent appearance, commentary, or nostalgia moment.",
+     "angle": "Identify specific quote or appearance; legacy angle.",
      "sources": [
       "x",
       "trends24"
@@ -471,9 +403,309 @@
      "market_gap": true
     },
     {
-     "key": "chris berman",
-     "name": "chris berman",
-     "entity": "Chris Berman",
+     "key": "gronk",
+     "name": "Gronk",
+     "entity": "Rob Gronkowski",
+     "league": "NFL",
+     "score": 33,
+     "score_breakdown": {
+      "velocity": 0.0,
+      "cross_platform": 8,
+      "freshness": 15,
+      "engagement": 0.0,
+      "early_bonus": 10
+     },
+     "early": true,
+     "new_on_x": false,
+     "why_now": "NFL legend; new rank (38, previously unranked); likely Hall of Fame news, retirement update, or media appearance.",
+     "angle": "Early signal on Gronk news; monitor for Hall of Fame or comeback narrative.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-08-08T17:32:25Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    }
+   ]
+  },
+  {
+   "league": "MMA/Boxing",
+   "activity": 325,
+   "trends": [
+    {
+     "key": "callum walsh",
+     "name": "Callum Walsh",
+     "entity": "Callum Walsh",
+     "league": "MMA/Boxing",
+     "score": 53,
+     "score_breakdown": {
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 10
+     },
+     "early": true,
+     "new_on_x": true,
+     "why_now": "Boxer; likely recent fight or performance story.",
+     "angle": "Monitor for fight result or career moment; early signal.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-08-08T22:31:57Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    },
+    {
+     "key": "ufcvegas120",
+     "name": "#UFCVegas120",
+     "entity": "UFC Vegas 120",
+     "league": "MMA/Boxing",
+     "score": 43,
+     "score_breakdown": {
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 0
+     },
+     "early": false,
+     "new_on_x": true,
+     "why_now": "Event date confirmed; co-trending with fighter names (Manoel Sousa, Richie Miranda, Billy Ray Goff, Ty Miller) signals specific matchups or storylines.",
+     "angle": "Highlight fighter storylines, upset potential, or viral moments from the card; avoid generic event promotion.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-08-08T22:31:57Z",
+     "example_tweets": [],
+     "market": {
+      "question": "UFC Fight Night: Manoel Sousa vs. Richie Miranda (Lightweight, Prelims)",
+      "url": "https://polymarket.com/event/ufc-man15-rmiran-2026-08-08",
+      "outcomes": [
+       [
+        "Manoel Sousa",
+        0.53
+       ],
+       [
+        "Richie Miranda",
+        0.47
+       ]
+      ],
+      "volume24hr": 77050.363511
+     },
+     "market_gap": false
+    },
+    {
+     "key": "royce",
+     "name": "Royce",
+     "entity": "Royce",
+     "league": "MMA/Boxing",
+     "score": 43,
+     "score_breakdown": {
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 10,
+      "engagement": 0.0,
+      "early_bonus": 10
+     },
+     "early": true,
+     "new_on_x": true,
+     "why_now": "Fighter name; likely UFC Vegas 120 or recent MMA event participant.",
+     "angle": "Identify specific fight or moment; early signal.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-08-08T13:48:03Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    },
+    {
+     "key": "zuffaboxing10",
+     "name": "#ZuffaBoxing10",
+     "entity": "#ZuffaBoxing10",
+     "league": "MMA/Boxing",
+     "score": 43,
+     "score_breakdown": {
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 0
+     },
+     "early": false,
+     "new_on_x": true,
+     "why_now": "Boxing event hashtag; likely Zuffa Boxing card or promotion.",
+     "angle": "Highlight specific fight or fighter storyline; avoid generic event promotion.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-08-08T22:31:57Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    },
+    {
+     "key": "juliana miller",
+     "name": "Juliana Miller",
+     "entity": "Juliana Miller",
+     "league": "MMA/Boxing",
+     "score": 43,
+     "score_breakdown": {
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 0
+     },
+     "early": false,
+     "new_on_x": true,
+     "why_now": "MMA fighter; UFC Fight Night participant with market listing.",
+     "angle": "Highlight fight performance or career moment; early signal before mainstream.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-08-08T22:31:57Z",
+     "example_tweets": [],
+     "market": {
+      "question": "UFC Fight Night: Juliana Miller vs. Ravena Oliveira (Women's Flyweight, Prelims)",
+      "url": "https://polymarket.com/event/ufc-jul11-rav-2026-08-08",
+      "outcomes": [
+       [
+        "Juliana Miller",
+        0.9995
+       ],
+       [
+        "Ravena Oliveira",
+        0.0005
+       ]
+      ],
+      "volume24hr": 225124.8998279999
+     },
+     "market_gap": false
+    },
+    {
+     "key": "richie miranda",
+     "name": "richie miranda",
+     "entity": "Richie Miranda",
+     "league": "MMA/Boxing",
+     "score": 34,
+     "score_breakdown": {
+      "velocity": 6.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 0
+     },
+     "early": false,
+     "new_on_x": false,
+     "why_now": "MMA fighter; UFC Vegas 120 prelim bout (Manoel Sousa vs Richie Miranda); underdog pick story.",
+     "angle": "Highlight underdog narrative or fighter storyline; leverage MMA culture angle.",
+     "sources": [
+      "google"
+     ],
+     "first_seen": "2026-08-08T22:31:57Z",
+     "example_tweets": [],
+     "market": {
+      "question": "UFC Fight Night: Manoel Sousa vs. Richie Miranda (Lightweight, Prelims)",
+      "url": "https://polymarket.com/event/ufc-man15-rmiran-2026-08-08",
+      "outcomes": [
+       [
+        "Manoel Sousa",
+        0.53
+       ],
+       [
+        "Richie Miranda",
+        0.47
+       ]
+      ],
+      "volume24hr": 77050.363511
+     },
+     "market_gap": false
+    },
+    {
+     "key": "danny young",
+     "name": "Danny Young",
+     "entity": "Danny Young",
+     "league": "MMA/Boxing",
+     "score": 33,
+     "score_breakdown": {
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 0,
+      "engagement": 0.0,
+      "early_bonus": 10
+     },
+     "early": true,
+     "new_on_x": true,
+     "why_now": "Fighter name spiking; likely UFC Vegas 120 participant or recent bout.",
+     "angle": "Monitor for fight result or storyline; early signal before mainstream coverage.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-08-07T04:56:33Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    },
+    {
+     "key": "ty miller",
+     "name": "ty miller",
+     "entity": "Ty Miller",
+     "league": "MMA/Boxing",
+     "score": 33,
+     "score_breakdown": {
+      "velocity": 4.6,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 0
+     },
+     "early": false,
+     "new_on_x": false,
+     "why_now": "MMA fighter; UFC Vegas 120 prelim bout (Billy Ray Goff vs Ty Miller); fight prediction/preview coverage.",
+     "angle": "Highlight fighter storyline or upset potential; leverage MMA culture angle.",
+     "sources": [
+      "google"
+     ],
+     "first_seen": "2026-08-08T22:31:57Z",
+     "example_tweets": [],
+     "market": {
+      "question": "UFC Fight Night: Billy Ray Goff vs. Ty Miller (Welterweight, Prelims)",
+      "url": "https://polymarket.com/event/ufc-bil2-tym-2026-08-08",
+      "outcomes": [
+       [
+        "Billy Ray Goff",
+        0.205
+       ],
+       [
+        "Ty Miller",
+        0.795
+       ]
+      ],
+      "volume24hr": 14431.923752999995
+     },
+     "market_gap": false
+    }
+   ]
+  },
+  {
+   "league": "Other Sports",
+   "activity": 196,
+   "trends": [
+    {
+     "key": "greenwall",
+     "name": "#GreenWall",
+     "entity": "#GreenWall",
      "league": "Other Sports",
      "score": 53,
      "score_breakdown": {
@@ -485,21 +717,73 @@
      },
      "early": true,
      "new_on_x": true,
-     "why_now": "ESPN broadcaster; new rank (31, previously unranked); likely appearance, retirement news, or on-air moment.",
-     "angle": "Early signal on broadcaster news; monitor for viral moment or career update.",
+     "why_now": "Hashtag trending; likely esports or gaming community (OpTic Gaming's fanbase); specific moment unclear.",
+     "angle": "Investigate OpTic or esports storyline; early signal before saturation.",
      "sources": [
       "x",
       "trends24"
      ],
-     "first_seen": "2026-08-08T17:32:25Z",
+     "first_seen": "2026-08-08T22:31:57Z",
      "example_tweets": [],
      "market": null,
      "market_gap": true
     },
     {
-     "key": "saratoga",
-     "name": "Saratoga",
-     "entity": "Saratoga",
+     "key": "phee",
+     "name": "Phee",
+     "entity": "Phee",
+     "league": "Other Sports",
+     "score": 53,
+     "score_breakdown": {
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 10
+     },
+     "early": true,
+     "new_on_x": true,
+     "why_now": "Likely esports/gaming personality; specific moment unconfirmed.",
+     "angle": "Investigate esports or streaming storyline; early signal.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-08-08T22:31:57Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    },
+    {
+     "key": "optic",
+     "name": "OpTic",
+     "entity": "OpTic Gaming",
+     "league": "Other Sports",
+     "score": 47,
+     "score_breakdown": {
+      "velocity": 19.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 0
+     },
+     "early": false,
+     "new_on_x": true,
+     "why_now": "Esports organization; co-trending with #GreenWall (fanbase); likely roster, tournament, or streamer moment.",
+     "angle": "Identify esports storyline or personality drama; gaming culture play.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-08-08T22:31:57Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    },
+    {
+     "key": "faze",
+     "name": "Faze",
+     "entity": "FaZe Clan",
      "league": "Other Sports",
      "score": 43,
      "score_breakdown": {
@@ -511,13 +795,13 @@
      },
      "early": false,
      "new_on_x": true,
-     "why_now": "Horse racing venue; likely race day or major event coverage.",
-     "angle": "Monitor for major horse racing event or upset result.",
+     "why_now": "Esports organization; co-trending with gaming/streaming culture.",
+     "angle": "Monitor for roster change, tournament result, or streamer drama; esports culture play.",
      "sources": [
       "x",
       "trends24"
      ],
-     "first_seen": "2026-08-08T17:32:25Z",
+     "first_seen": "2026-08-08T22:31:57Z",
      "example_tweets": [],
      "market": null,
      "market_gap": true
@@ -525,46 +809,92 @@
    ]
   },
   {
-   "league": "NBA",
-   "activity": 38,
+   "league": "MLB",
+   "activity": 174,
    "trends": [
     {
-     "key": "royce white",
-     "name": "Royce White",
-     "entity": "Royce White",
-     "league": "NBA",
-     "score": 38,
+     "key": "george lombard jr",
+     "name": "George Lombard Jr",
+     "entity": "George Lombard Jr",
+     "league": "MLB",
+     "score": 53,
      "score_breakdown": {
       "velocity": 15.0,
       "cross_platform": 8,
-      "freshness": 5,
+      "freshness": 20,
       "engagement": 0.0,
       "early_bonus": 10
      },
      "early": true,
      "new_on_x": true,
-     "why_now": "Former NBA player; new rank (12, previously unranked) suggests recent news or statement; no major outlet coverage yet.",
-     "angle": "Monitor for comeback attempt, controversy, or public statement; early signal before mainstream pickup.",
+     "why_now": "Baseball figure; specific role or moment unclear from co-trending data.",
+     "angle": "Monitor for coaching, managing, or player development story; early signal.",
      "sources": [
       "x",
       "trends24"
      ],
-     "first_seen": "2026-08-08T04:12:01Z",
+     "first_seen": "2026-08-08T22:31:57Z",
      "example_tweets": [],
      "market": null,
      "market_gap": true
-    }
-   ]
-  },
-  {
-   "league": "Tennis",
-   "activity": 35,
-   "trends": [
+    },
     {
-     "key": "marta kostyuk",
-     "name": "marta kostyuk",
-     "entity": "Marta Kostyuk",
-     "league": "Tennis",
+     "key": "chris sale",
+     "name": "Chris Sale",
+     "entity": "Chris Sale",
+     "league": "MLB",
+     "score": 43,
+     "score_breakdown": {
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 0
+     },
+     "early": false,
+     "new_on_x": true,
+     "why_now": "MLB pitcher; likely recent game performance, injury update, or trade news.",
+     "angle": "Highlight specific performance moment or career milestone; avoid generic player name.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-08-08T22:31:57Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    },
+    {
+     "key": "gerrit cole",
+     "name": "Gerrit Cole",
+     "entity": "Gerrit Cole",
+     "league": "MLB",
+     "score": 43,
+     "score_breakdown": {
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 0
+     },
+     "early": false,
+     "new_on_x": true,
+     "why_now": "MLB pitcher; likely recent game, performance, or contract story.",
+     "angle": "Highlight specific pitching moment or controversy; avoid generic player name.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-08-08T22:31:57Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    },
+    {
+     "key": "max scherzer",
+     "name": "max scherzer",
+     "entity": "Max Scherzer",
+     "league": "MLB",
      "score": 35,
      "score_breakdown": {
       "velocity": 6.6,
@@ -575,57 +905,232 @@
      },
      "early": false,
      "new_on_x": false,
-     "why_now": "WTA National Bank Open Round 4 match vs Iga Świątek on 2026-08-08; tournament coverage and match preview.",
-     "angle": "Tie to high-profile tennis match; monitor for upset or dominant performance.",
+     "why_now": "MLB pitcher; recent Blue Jays vs Phillies game (news coverage confirms); likely strong performance or milestone.",
+     "angle": "Highlight specific pitching performance or career moment; avoid generic player name.",
      "sources": [
       "google"
      ],
-     "first_seen": "2026-08-08T17:32:25Z",
+     "first_seen": "2026-08-08T22:31:57Z",
      "example_tweets": [],
      "market": {
-      "question": "National Bank Open: Marta Kostyuk vs Iga Swiatek",
-      "url": "https://polymarket.com/event/wta-kostyuk-swiatek-2026-08-09",
+      "question": "Toronto Blue Jays vs. Philadelphia Phillies: O/U 9.5",
+      "url": "https://polymarket.com/event/mlb-tor-phi-2026-08-08",
       "outcomes": [
        [
-        "Marta Kostyuk",
-        0.795
+        "Over",
+        0.435
        ],
        [
-        "Iga Swiatek",
-        0.205
+        "Under",
+        0.565
        ]
       ],
-      "volume24hr": 505372.1675510003
+      "volume24hr": 348185.1475880001
      },
      "market_gap": false
     }
    ]
   },
   {
-   "league": "MLB",
-   "activity": 33,
+   "league": "College Football",
+   "activity": 106,
    "trends": [
     {
-     "key": "yankees old timers day 2026",
-     "name": "yankees old timers day 2026",
-     "entity": "Yankees Old-Timers' Day 2026",
-     "league": "MLB",
-     "score": 33,
+     "key": "cam coleman",
+     "name": "Cam Coleman",
+     "entity": "Cam Coleman",
+     "league": "College Football",
+     "score": 53,
      "score_breakdown": {
-      "velocity": 4.6,
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 10
+     },
+     "early": true,
+     "new_on_x": true,
+     "why_now": "College football player; specific moment or recruitment story unclear.",
+     "angle": "Monitor for transfer, commitment, or performance story; early signal.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-08-08T22:31:57Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    },
+    {
+     "key": "arch",
+     "name": "Arch",
+     "entity": "Arch Manning",
+     "league": "College Football",
+     "score": 53,
+     "score_breakdown": {
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 10
+     },
+     "early": true,
+     "new_on_x": true,
+     "why_now": "College football QB; likely recent game performance or recruitment story.",
+     "angle": "Monitor for game highlight or transfer speculation; early signal before saturation.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-08-08T22:31:57Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    }
+   ]
+  },
+  {
+   "league": "Soccer",
+   "activity": 106,
+   "trends": [
+    {
+     "key": "canuto",
+     "name": "Canuto",
+     "entity": "Canuto",
+     "league": "Soccer",
+     "score": 53,
+     "score_breakdown": {
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 10
+     },
+     "early": true,
+     "new_on_x": true,
+     "why_now": "Soccer player name spiking; specific moment or transfer news unconfirmed.",
+     "angle": "Monitor for transfer, injury, or performance story; early signal before major outlet coverage.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-08-08T22:31:57Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    },
+    {
+     "key": "balde",
+     "name": "Balde",
+     "entity": "Balde",
+     "league": "Soccer",
+     "score": 53,
+     "score_breakdown": {
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 10
+     },
+     "early": true,
+     "new_on_x": true,
+     "why_now": "Soccer player name; likely transfer, injury, or performance story.",
+     "angle": "Monitor for transfer news or match performance; early signal.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-08-08T22:31:57Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    }
+   ]
+  },
+  {
+   "league": "College Basketball",
+   "activity": 66,
+   "trends": [
+    {
+     "key": "jacy sheldon",
+     "name": "Jacy Sheldon",
+     "entity": "Jacy Sheldon",
+     "league": "College Basketball",
+     "score": 43,
+     "score_breakdown": {
+      "velocity": 15.0,
       "cross_platform": 8,
       "freshness": 20,
       "engagement": 0.0,
       "early_bonus": 0
      },
      "early": false,
-     "new_on_x": false,
-     "why_now": "Annual Yankees event; roster announcement and fan-favorite coverage; likely scheduled event with no specific viral moment.",
-     "angle": "Monitor for surprise guest appearance or emotional moment; tie to Yankees legacy.",
+     "new_on_x": true,
+     "why_now": "College basketball player; likely recent game or recruitment story.",
+     "angle": "Highlight specific performance or storyline; college hoops culture.",
      "sources": [
-      "google"
+      "x",
+      "trends24"
      ],
-     "first_seen": "2026-08-08T17:32:25Z",
+     "first_seen": "2026-08-08T22:31:57Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    },
+    {
+     "key": "olivia miles",
+     "name": "Olivia Miles",
+     "entity": "Olivia Miles",
+     "league": "College Basketball",
+     "score": 23,
+     "score_breakdown": {
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 0,
+      "engagement": 0.0,
+      "early_bonus": 0
+     },
+     "early": false,
+     "new_on_x": true,
+     "why_now": "College basketball player; likely recent game, injury, or recruitment story.",
+     "angle": "Identify specific performance or storyline; college hoops culture angle.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-07-29T05:54:58Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    }
+   ]
+  },
+  {
+   "league": "Motorsports",
+   "activity": 53,
+   "trends": [
+    {
+     "key": "ryan sieg",
+     "name": "Ryan Sieg",
+     "entity": "Ryan Sieg",
+     "league": "Motorsports",
+     "score": 53,
+     "score_breakdown": {
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 10
+     },
+     "early": true,
+     "new_on_x": true,
+     "why_now": "NASCAR driver; likely recent race result or performance story.",
+     "angle": "Monitor for race highlight or career moment; early signal.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-08-08T22:31:57Z",
      "example_tweets": [],
      "market": null,
      "market_gap": true
@@ -638,7 +1143,7 @@
   "trends24": "ok (2 snapshots)",
   "google_trends": "ok (10 items)",
   "gamma_api": "ok (500 markets)",
-  "llm": "ok (50 enriched)",
+  "llm": "ok (56 enriched)",
   "slack": "error: HTTP Error 404: Not Found"
  },
  "x_budget": {
@@ -665,9 +1170,9 @@
   "section_order_mode": "activity"
  },
  "stats": {
-  "newly_enriched": 50,
-  "cache_hits": 10,
-  "suppressed": 3,
-  "discarded_non_sports": 30
+  "newly_enriched": 56,
+  "cache_hits": 4,
+  "suppressed": 4,
+  "discarded_non_sports": 15
  }
 }
