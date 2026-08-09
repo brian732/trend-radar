@@ -319,24 +319,24 @@
   },
   "oplive": {
    "first_seen": "2026-07-11T05:43:34Z",
-   "last_seen": "2026-08-08T04:12:01Z",
+   "last_seen": "2026-08-09T04:19:03Z",
    "sources_seen": [
     "trends24",
     "x"
    ],
    "enrichment": {
     "key": "oplive",
-    "sports": true,
-    "league": "Other Sports",
-    "obvious": true,
-    "early": false,
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
     "entity": "#OPLive",
-    "why_now": "Scheduled broadcast event; no specific moment or storyline identified.",
-    "angle": "Track for on-air incidents, guest appearances, or viral clips.",
+    "why_now": "Hashtag at rank 10; no news; likely gaming or esports event.",
+    "angle": "Monitor for esports tournament or gaming stream; early signal for niche community.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-08-08T04:12:01Z"
+   "enriched_at": "2026-08-09T04:19:03Z"
   },
   "good saturday": {
    "first_seen": "2026-07-11T14:23:17Z",
@@ -1099,27 +1099,6 @@
    },
    "enriched_at": "2026-08-03T15:44:42Z"
   },
-  "night 1": {
-   "first_seen": "2026-07-27T15:44:05Z",
-   "last_seen": "2026-08-01T22:56:58Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "night 1",
-    "sports": true,
-    "league": "WWE",
-    "obvious": true,
-    "early": false,
-    "entity": "SummerSlam Night 1",
-    "why_now": "WWE event; jumped from rank 45 to 12; scheduled event with no specific viral moment yet.",
-    "angle": "Suppress as event logistics; only flag if specific match result or moment emerges.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-01T22:56:58Z"
-  },
   "nred": {
    "first_seen": "2026-07-27T18:25:21Z",
    "last_seen": "2026-08-04T15:25:20Z",
@@ -1183,27 +1162,6 @@
     "market_id": null
    },
    "enriched_at": "2026-08-04T15:25:20Z"
-  },
-  "doval": {
-   "first_seen": "2026-07-28T05:49:01Z",
-   "last_seen": "2026-08-01T22:56:58Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "doval",
-    "sports": true,
-    "league": "MLB",
-    "obvious": false,
-    "early": false,
-    "entity": "Camilo Doval",
-    "why_now": "MLB pitcher; trending mid-rank; likely recent game performance or stat milestone.",
-    "angle": "Confirm recent start or performance; tie to Giants narrative if relevant.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-01T22:56:58Z"
   },
   "clara": {
    "first_seen": "2026-07-28T18:16:21Z",
@@ -2012,48 +1970,6 @@
    },
    "enriched_at": "2026-08-02T22:58:09Z"
   },
-  "reflecting pool": {
-   "first_seen": "2026-07-31T23:03:24Z",
-   "last_seen": "2026-08-01T22:56:58Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "reflecting pool",
-    "sports": true,
-    "league": "Golf",
-    "obvious": false,
-    "early": true,
-    "entity": "Reflecting Pool",
-    "why_now": "Horse name or golf course; mid-rank; likely race or tournament result.",
-    "angle": "Confirm if racehorse or golf venue; early signal for niche community.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-01T22:56:58Z"
-  },
-  "pirro": {
-   "first_seen": "2026-07-31T23:03:24Z",
-   "last_seen": "2026-08-01T22:56:58Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "pirro",
-    "sports": true,
-    "league": "Motorsports",
-    "obvious": false,
-    "early": true,
-    "entity": "Pirro",
-    "why_now": "Motorsports driver or team; mid-rank trending; specific event or performance unclear.",
-    "angle": "Confirm recent race result or announcement; early signal for motorsports fans.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-01T22:56:58Z"
-  },
   "shakur": {
    "first_seen": "2026-07-31T23:03:24Z",
    "last_seen": "2026-08-02T06:06:48Z",
@@ -2118,7 +2034,7 @@
   },
   "chivas": {
    "first_seen": "2026-08-01T05:57:18Z",
-   "last_seen": "2026-08-06T05:51:46Z",
+   "last_seen": "2026-08-09T04:19:03Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -2129,13 +2045,13 @@
     "league": "Soccer",
     "obvious": false,
     "early": false,
-    "entity": "CD Guadalajara (Chivas)",
-    "why_now": "Co-trending with LAFC, Luis Romo, match context; recent Chivas match or roster news.",
-    "angle": "Tie to recent match result or player performance; Chivas has passionate fanbase.",
-    "duplicate_of": "lafc",
-    "market_id": "3059613"
+    "entity": "Chivas",
+    "why_now": "Mexican soccer club trending; rank climbing from 24 to 16; likely recent match or transfer.",
+    "angle": "Highlight match result, player performance, or transfer news; position as league narrative.",
+    "duplicate_of": null,
+    "market_id": null
    },
-   "enriched_at": "2026-08-06T05:51:46Z"
+   "enriched_at": "2026-08-09T04:19:03Z"
   },
   "florence pugh": {
    "first_seen": "2026-08-01T05:57:18Z",
@@ -2176,27 +2092,6 @@
     "market_id": null
    },
    "enriched_at": "2026-08-07T14:13:33Z"
-  },
-  "bill maher": {
-   "first_seen": "2026-08-01T14:28:40Z",
-   "last_seen": "2026-08-01T22:56:58Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "bill maher",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Bill Maher",
-    "why_now": "TV host/comedian; no direct sports connection in co-trending list.",
-    "angle": "Not sports; discard unless tied to sports commentary.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-01T22:56:58Z"
   },
   "blitzmove1": {
    "first_seen": "2026-08-01T14:28:40Z",
@@ -2261,27 +2156,6 @@
    },
    "enriched_at": "2026-08-08T13:48:03Z"
   },
-  "spider man day": {
-   "first_seen": "2026-08-01T14:28:40Z",
-   "last_seen": "2026-08-01T22:56:58Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "spider man day",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Spider-Man Day",
-    "why_now": "Movie/entertainment event; no sports connection.",
-    "angle": "Not sports; discard.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-01T22:56:58Z"
-  },
   "nfl preseason schedule": {
    "first_seen": "2026-08-01T14:28:40Z",
    "last_seen": "2026-08-02T14:37:27Z",
@@ -2301,27 +2175,6 @@
     "market_id": null
    },
    "enriched_at": "2026-08-02T14:37:27Z"
-  },
-  "ufcbelgrade": {
-   "first_seen": "2026-08-01T18:01:53Z",
-   "last_seen": "2026-08-01T22:56:58Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "ufcbelgrade",
-    "sports": true,
-    "league": "MMA/Boxing",
-    "obvious": false,
-    "early": false,
-    "entity": "UFC Belgrade event",
-    "why_now": "UFC Fight Night event in Belgrade featuring multiple fighters (Oliveira, Urbina, Cepo, Vologdin) trending across X and Trends24 simultaneously.",
-    "angle": "Leverage the live event momentum with real-time fighter highlights, upset predictions, and knockout clips as the card unfolds.",
-    "duplicate_of": null,
-    "market_id": "2994165"
-   },
-   "enriched_at": "2026-08-01T18:01:53Z"
   },
   "sc lottery": {
    "first_seen": "2026-08-01T18:01:53Z",
@@ -2365,48 +2218,6 @@
    },
    "enriched_at": "2026-08-04T05:49:47Z"
   },
-  "vincent pastore": {
-   "first_seen": "2026-08-01T22:56:58Z",
-   "last_seen": "2026-08-01T22:56:58Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "vincent pastore",
-    "sports": true,
-    "league": "Other Sports",
-    "obvious": false,
-    "early": true,
-    "entity": "Vincent Pastore",
-    "why_now": "Co-trending with 'The Sopranos' and 'Salvatore'; likely sports figure with entertainment crossover or meme.",
-    "angle": "Identify the specific moment or quote driving the Sopranos connection; capitalize on nostalgia/culture blend.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-01T22:56:58Z"
-  },
-  "the sopranos": {
-   "first_seen": "2026-08-01T22:56:58Z",
-   "last_seen": "2026-08-01T22:56:58Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "the sopranos",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "The Sopranos",
-    "why_now": "TV show trending alongside sports names (Vincent Pastore, Salvatore); likely meme or cultural moment, not sports.",
-    "angle": "Not sports-focused; skip unless tied to athlete or sports event.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-01T22:56:58Z"
-  },
   "brock": {
    "first_seen": "2026-08-01T22:56:58Z",
    "last_seen": "2026-08-02T06:06:48Z",
@@ -2427,69 +2238,6 @@
     "market_id": null
    },
    "enriched_at": "2026-08-02T06:06:48Z"
-  },
-  "liv morgan": {
-   "first_seen": "2026-08-01T22:56:58Z",
-   "last_seen": "2026-08-01T22:56:58Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "liv morgan",
-    "sports": true,
-    "league": "WWE",
-    "obvious": false,
-    "early": false,
-    "entity": "Liv Morgan",
-    "why_now": "WWE wrestler; new entry at rank 8; likely recent match, injury, or storyline development.",
-    "angle": "Confirm recent WWE event or feud; tie to women's division narrative.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-01T22:56:58Z"
-  },
-  "twin falls idaho": {
-   "first_seen": "2026-08-01T22:56:58Z",
-   "last_seen": "2026-08-01T22:56:58Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "twin falls idaho",
-    "sports": true,
-    "league": "Other Sports",
-    "obvious": false,
-    "early": true,
-    "entity": "Twin Falls, Idaho",
-    "why_now": "Location trending; likely sports event or athlete from Twin Falls; driver unconfirmed.",
-    "angle": "Research local sports event or athlete; early signal before national coverage.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-01T22:56:58Z"
-  },
-  "punk": {
-   "first_seen": "2026-08-01T22:56:58Z",
-   "last_seen": "2026-08-01T22:56:58Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "punk",
-    "sports": true,
-    "league": "WWE",
-    "obvious": false,
-    "early": false,
-    "entity": "CM Punk",
-    "why_now": "WWE wrestler; co-trending with 'Brock', 'HIAC', 'SummerSlam' context; active in current storyline.",
-    "angle": "Leverage Punk's return or feud narrative; tie to SummerSlam card.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-01T22:56:58Z"
   },
   "superbad": {
    "first_seen": "2026-08-01T22:56:58Z",
@@ -2512,48 +2260,6 @@
    },
    "enriched_at": "2026-08-02T14:37:27Z"
   },
-  "uros medic": {
-   "first_seen": "2026-08-01T22:56:58Z",
-   "last_seen": "2026-08-01T22:56:58Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "uros medic",
-    "sports": true,
-    "league": "Tennis",
-    "obvious": false,
-    "early": true,
-    "entity": "Uros Medic",
-    "why_now": "Tennis player; mid-rank; likely recent match or tournament result.",
-    "angle": "Confirm recent ATP/ITF result; early signal for tennis community.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-01T22:56:58Z"
-  },
-  "kaylie": {
-   "first_seen": "2026-08-01T22:56:58Z",
-   "last_seen": "2026-08-01T22:56:58Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "kaylie",
-    "sports": true,
-    "league": "Other Sports",
-    "obvious": false,
-    "early": true,
-    "entity": "Kaylie",
-    "why_now": "Athlete or sports personality; mid-rank; specific driver unclear.",
-    "angle": "Research athlete name; early signal before mainstream coverage.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-01T22:56:58Z"
-  },
   "aces": {
    "first_seen": "2026-08-01T22:56:58Z",
    "last_seen": "2026-08-07T04:56:33Z",
@@ -2574,195 +2280,6 @@
     "market_id": "3076407"
    },
    "enriched_at": "2026-08-07T01:30:19Z"
-  },
-  "renegade": {
-   "first_seen": "2026-08-01T22:56:58Z",
-   "last_seen": "2026-08-01T22:56:58Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "renegade",
-    "sports": true,
-    "league": "Other Sports",
-    "obvious": false,
-    "early": true,
-    "entity": "Renegade",
-    "why_now": "Sports team or entity name; new entry; specific driver unclear.",
-    "angle": "Research team/player; early signal for niche sports community.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-01T22:56:58Z"
-  },
-  "jeremy sochan": {
-   "first_seen": "2026-08-01T22:56:58Z",
-   "last_seen": "2026-08-01T22:56:58Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "jeremy sochan",
-    "sports": true,
-    "league": "NBA",
-    "obvious": false,
-    "early": false,
-    "entity": "Jeremy Sochan",
-    "why_now": "NBA player (Spurs); mid-rank; likely recent game performance or trade rumor.",
-    "angle": "Confirm recent Spurs game or player news; tie to NBA narrative.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-01T22:56:58Z"
-  },
-  "devin white": {
-   "first_seen": "2026-08-01T22:56:58Z",
-   "last_seen": "2026-08-01T22:56:58Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "devin white",
-    "sports": true,
-    "league": "NFL",
-    "obvious": false,
-    "early": false,
-    "entity": "Devin White",
-    "why_now": "NFL linebacker; mid-rank; likely recent signing, injury, or game performance.",
-    "angle": "Confirm recent NFL news; tie to team or preseason narrative.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-01T22:56:58Z"
-  },
-  "rolder": {
-   "first_seen": "2026-08-01T22:56:58Z",
-   "last_seen": "2026-08-01T22:56:58Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "rolder",
-    "sports": true,
-    "league": "Other Sports",
-    "obvious": false,
-    "early": true,
-    "entity": "Rolder",
-    "why_now": "Athlete or sports entity; mid-rank; specific driver unclear.",
-    "angle": "Research athlete/team; early signal before mainstream pickup.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-01T22:56:58Z"
-  },
-  "will levis": {
-   "first_seen": "2026-08-01T22:56:58Z",
-   "last_seen": "2026-08-01T22:56:58Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "will levis",
-    "sports": true,
-    "league": "NFL",
-    "obvious": false,
-    "early": false,
-    "entity": "Will Levis",
-    "why_now": "NFL QB (Titans); mid-rank; likely preseason performance or injury update.",
-    "angle": "Confirm recent Titans news; tie to QB competition or preseason narrative.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-01T22:56:58Z"
-  },
-  "gagcitysub": {
-   "first_seen": "2026-08-01T22:56:58Z",
-   "last_seen": "2026-08-01T22:56:58Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "gagcitysub",
-    "sports": true,
-    "league": "Other Sports",
-    "obvious": false,
-    "early": true,
-    "entity": "#GagCitySub",
-    "why_now": "Hashtag; stable rank; likely wrestling or sports community meme.",
-    "angle": "Identify the meme or moment; early signal for niche community.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-01T22:56:58Z"
-  },
-  "gcwrude": {
-   "first_seen": "2026-08-01T22:56:58Z",
-   "last_seen": "2026-08-01T22:56:58Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "gcwrude",
-    "sports": true,
-    "league": "Other Sports",
-    "obvious": false,
-    "early": true,
-    "entity": "#GCWRude",
-    "why_now": "GCW wrestling event hashtag; jumped from rank 12 to 24; likely recent event or match.",
-    "angle": "Tie to GCW event; leverage indie wrestling community.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-01T22:56:58Z"
-  },
-  "iyo sky": {
-   "first_seen": "2026-08-01T22:56:58Z",
-   "last_seen": "2026-08-01T22:56:58Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "iyo sky",
-    "sports": true,
-    "league": "WWE",
-    "obvious": false,
-    "early": false,
-    "entity": "Iyo Sky",
-    "why_now": "WWE wrestler; new entry; likely recent match or storyline development.",
-    "angle": "Confirm recent WWE event; tie to women's division narrative.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-01T22:56:58Z"
-  },
-  "navajo stirling": {
-   "first_seen": "2026-08-01T22:56:58Z",
-   "last_seen": "2026-08-01T22:56:58Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "navajo stirling",
-    "sports": true,
-    "league": "Other Sports",
-    "obvious": false,
-    "early": true,
-    "entity": "Navajo Stirling",
-    "why_now": "Athlete; mid-rank; specific driver unclear.",
-    "angle": "Research athlete; early signal before mainstream coverage.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-01T22:56:58Z"
   },
   "jonah hill": {
    "first_seen": "2026-08-01T22:56:58Z",
@@ -2807,216 +2324,6 @@
    },
    "enriched_at": "2026-08-03T18:52:00Z"
   },
-  "tzolis": {
-   "first_seen": "2026-08-01T22:56:58Z",
-   "last_seen": "2026-08-01T22:56:58Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "tzolis",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": false,
-    "early": true,
-    "entity": "Tzolis",
-    "why_now": "Soccer player; mid-rank; likely recent match or transfer news.",
-    "angle": "Confirm recent soccer news; early signal for soccer community.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-01T22:56:58Z"
-  },
-  "fatal influence": {
-   "first_seen": "2026-08-01T22:56:58Z",
-   "last_seen": "2026-08-01T22:56:58Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "fatal influence",
-    "sports": true,
-    "league": "Other Sports",
-    "obvious": false,
-    "early": true,
-    "entity": "Fatal Influence",
-    "why_now": "Sports-adjacent entity (streamer/content creator); new entry; specific driver unclear.",
-    "angle": "Research entity; early signal for streaming/esports community.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-01T22:56:58Z"
-  },
-  "drew rasmussen": {
-   "first_seen": "2026-08-01T22:56:58Z",
-   "last_seen": "2026-08-01T22:56:58Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "drew rasmussen",
-    "sports": true,
-    "league": "MLB",
-    "obvious": false,
-    "early": true,
-    "entity": "Drew Rasmussen",
-    "why_now": "MLB pitcher; new entry; likely recent start or performance.",
-    "angle": "Confirm recent Rays game; early signal for baseball community.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-01T22:56:58Z"
-  },
-  "osaka": {
-   "first_seen": "2026-08-01T22:56:58Z",
-   "last_seen": "2026-08-01T22:56:58Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "osaka",
-    "sports": true,
-    "league": "Tennis",
-    "obvious": false,
-    "early": false,
-    "entity": "Naomi Osaka",
-    "why_now": "Tennis star; jumped from rank 49 to 34; likely recent match, return, or personal news.",
-    "angle": "Confirm recent Osaka news; tie to WTA narrative or comeback story.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-01T22:56:58Z"
-  },
-  "greenland": {
-   "first_seen": "2026-08-01T22:56:58Z",
-   "last_seen": "2026-08-01T22:56:58Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "greenland",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Greenland",
-    "why_now": "Geographic location; no sports connection.",
-    "angle": "Not sports; discard.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-01T22:56:58Z"
-  },
-  "kirby": {
-   "first_seen": "2026-08-01T22:56:58Z",
-   "last_seen": "2026-08-01T22:56:58Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "kirby",
-    "sports": true,
-    "league": "Other Sports",
-    "obvious": false,
-    "early": true,
-    "entity": "Kirby",
-    "why_now": "Athlete or sports personality; new entry; specific driver unclear.",
-    "angle": "Research athlete; early signal before mainstream pickup.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-01T22:56:58Z"
-  },
-  "rakic": {
-   "first_seen": "2026-08-01T22:56:58Z",
-   "last_seen": "2026-08-01T22:56:58Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "rakic",
-    "sports": true,
-    "league": "MMA/Boxing",
-    "obvious": false,
-    "early": false,
-    "entity": "Aleksandar Rakic",
-    "why_now": "MMA fighter; dropped from rank 20 to 37; likely recent fight result or injury.",
-    "angle": "Confirm recent UFC news; tie to light heavyweight narrative.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-01T22:56:58Z"
-  },
-  "dowman": {
-   "first_seen": "2026-08-01T22:56:58Z",
-   "last_seen": "2026-08-01T22:56:58Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "dowman",
-    "sports": true,
-    "league": "Other Sports",
-    "obvious": false,
-    "early": true,
-    "entity": "Dowman",
-    "why_now": "Athlete or sports entity; new entry; specific driver unclear.",
-    "angle": "Research athlete/team; early signal before mainstream coverage.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-01T22:56:58Z"
-  },
-  "unvaxxed": {
-   "first_seen": "2026-08-01T22:56:58Z",
-   "last_seen": "2026-08-01T22:56:58Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "unvaxxed",
-    "sports": true,
-    "league": "Other Sports",
-    "obvious": false,
-    "early": true,
-    "entity": "Unvaxxed",
-    "why_now": "Likely sports-adjacent culture war topic; new entry; specific driver unclear.",
-    "angle": "Monitor for athlete or sports figure controversy; early signal.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-01T22:56:58Z"
-  },
-  "jose soriano": {
-   "first_seen": "2026-08-01T22:56:58Z",
-   "last_seen": "2026-08-01T22:56:58Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "jose soriano",
-    "sports": true,
-    "league": "MLB",
-    "obvious": false,
-    "early": true,
-    "entity": "Jose Soriano",
-    "why_now": "MLB pitcher; new entry; likely recent start or performance.",
-    "angle": "Confirm recent game; early signal for baseball community.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-01T22:56:58Z"
-  },
   "chicago sky": {
    "first_seen": "2026-08-01T22:56:58Z",
    "last_seen": "2026-08-08T22:31:57Z",
@@ -3038,48 +2345,6 @@
    },
    "enriched_at": "2026-08-08T22:31:57Z"
   },
-  "hiac": {
-   "first_seen": "2026-08-01T22:56:58Z",
-   "last_seen": "2026-08-01T22:56:58Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "hiac",
-    "sports": true,
-    "league": "WWE",
-    "obvious": true,
-    "early": false,
-    "entity": "Hell in a Cell",
-    "why_now": "WWE match type; new entry; scheduled event with no specific viral moment yet.",
-    "angle": "Suppress as event logistics; only flag if specific match result emerges.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-01T22:56:58Z"
-  },
-  "arozarena": {
-   "first_seen": "2026-08-01T22:56:58Z",
-   "last_seen": "2026-08-01T22:56:58Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "arozarena",
-    "sports": true,
-    "league": "MLB",
-    "obvious": false,
-    "early": true,
-    "entity": "Randy Arozarena",
-    "why_now": "MLB outfielder (Rays); new entry; likely recent game performance or stat milestone.",
-    "angle": "Confirm recent Rays game; early signal for baseball community.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-01T22:56:58Z"
-  },
   "oba femi": {
    "first_seen": "2026-08-01T22:56:58Z",
    "last_seen": "2026-08-02T06:06:48Z",
@@ -3100,109 +2365,6 @@
     "market_id": null
    },
    "enriched_at": "2026-08-02T06:06:48Z"
-  },
-  "salvatore": {
-   "first_seen": "2026-08-01T22:56:58Z",
-   "last_seen": "2026-08-01T22:56:58Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "salvatore",
-    "sports": true,
-    "league": "Other Sports",
-    "obvious": false,
-    "early": true,
-    "entity": "Salvatore",
-    "why_now": "Co-trending with 'The Sopranos' and 'Vincent Pastore'; likely sports figure with entertainment crossover.",
-    "angle": "Identify specific moment or quote; capitalize on culture blend.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-01T22:56:58Z"
-  },
-  "jim dandy": {
-   "first_seen": "2026-08-01T22:56:58Z",
-   "last_seen": "2026-08-01T22:56:58Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "jim dandy",
-    "sports": true,
-    "league": "Other Sports",
-    "obvious": false,
-    "early": true,
-    "entity": "Jim Dandy",
-    "why_now": "Horse name or sports entity; new entry; specific driver unclear.",
-    "angle": "Confirm if racehorse or athlete; early signal for niche community.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-01T22:56:58Z"
-  },
-  "streamer games": {
-   "first_seen": "2026-08-01T22:56:58Z",
-   "last_seen": "2026-08-01T22:56:58Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "streamer games",
-    "sports": true,
-    "league": "Other Sports",
-    "obvious": false,
-    "early": true,
-    "entity": "Streamer Games",
-    "why_now": "Sports-adjacent streaming event; new entry; specific driver unclear.",
-    "angle": "Confirm event details; early signal for streaming/esports community.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-01T22:56:58Z"
-  },
-  "columbus vs inter miami": {
-   "first_seen": "2026-08-01T22:56:58Z",
-   "last_seen": "2026-08-01T22:56:58Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "columbus vs inter miami",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": true,
-    "early": false,
-    "entity": "Columbus Crew vs Inter Miami",
-    "why_now": "MLS match scheduled for 2026-08-01; Messi status uncertain per news; pre-game logistics.",
-    "angle": "Suppress as pre-game event unless Messi return or specific storyline emerges.",
-    "duplicate_of": null,
-    "market_id": "2989305"
-   },
-   "enriched_at": "2026-08-01T22:56:58Z"
-  },
-  "querétaro tigres": {
-   "first_seen": "2026-08-01T22:56:58Z",
-   "last_seen": "2026-08-01T22:56:58Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "querétaro tigres",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": true,
-    "early": false,
-    "entity": "Querétaro vs Tigres",
-    "why_now": "Liga MX match scheduled for 2026-08-01; pre-game logistics.",
-    "angle": "Suppress as pre-game event unless specific storyline emerges.",
-    "duplicate_of": null,
-    "market_id": "2990299"
-   },
-   "enriched_at": "2026-08-01T22:56:58Z"
   },
   "blue angels seattle": {
    "first_seen": "2026-08-01T22:56:58Z",
@@ -3245,66 +2407,6 @@
     "market_id": null
    },
    "enriched_at": "2026-08-04T05:49:47Z"
-  },
-  "angel city fc vs kc current": {
-   "first_seen": "2026-08-01T22:56:58Z",
-   "last_seen": "2026-08-01T22:56:58Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "angel city fc vs kc current",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": true,
-    "early": false,
-    "entity": "Angel City FC vs KC Current",
-    "why_now": "NWSL match scheduled for 2026-08-01; pre-game logistics.",
-    "angle": "Suppress as pre-game event unless specific storyline emerges.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-01T22:56:58Z"
-  },
-  "lafc vs vancouver": {
-   "first_seen": "2026-08-01T22:56:58Z",
-   "last_seen": "2026-08-01T22:56:58Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "lafc vs vancouver",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": true,
-    "early": false,
-    "entity": "LAFC vs Vancouver",
-    "why_now": "MLS match scheduled for 2026-08-01; pre-game logistics.",
-    "angle": "Suppress as pre-game event unless specific storyline emerges.",
-    "duplicate_of": null,
-    "market_id": "2989180"
-   },
-   "enriched_at": "2026-08-01T22:56:58Z"
-  },
-  "yankees cubs": {
-   "first_seen": "2026-08-01T22:56:58Z",
-   "last_seen": "2026-08-01T22:56:58Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "yankees cubs",
-    "sports": true,
-    "league": "MLB",
-    "obvious": true,
-    "early": false,
-    "entity": "Yankees vs Cubs",
-    "why_now": "MLB match result (Yankees 2, Cubs 0 on 07/31); plain final score with no angle.",
-    "angle": "Suppress as plain result; only flag if specific moment or stat anomaly emerges.",
-    "duplicate_of": null,
-    "market_id": "3155084"
-   },
-   "enriched_at": "2026-08-01T22:56:58Z"
   },
   "la knight": {
    "first_seen": "2026-08-01T22:56:58Z",
@@ -3350,30 +2452,11 @@
    },
    "enriched_at": "2026-08-04T05:49:47Z"
   },
-  "phillies orioles": {
-   "first_seen": "2026-08-01T22:56:58Z",
-   "last_seen": "2026-08-01T22:56:58Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "phillies orioles",
-    "sports": true,
-    "league": "MLB",
-    "obvious": true,
-    "early": false,
-    "entity": "Phillies vs Orioles",
-    "why_now": "MLB match scheduled for 2026-08-01; pre-game logistics.",
-    "angle": "Suppress as pre-game event unless specific storyline emerges.",
-    "duplicate_of": null,
-    "market_id": "3155078"
-   },
-   "enriched_at": "2026-08-01T22:56:58Z"
-  },
   "dodgers": {
    "first_seen": "2026-08-02T06:06:48Z",
-   "last_seen": "2026-08-02T14:37:27Z",
+   "last_seen": "2026-08-09T04:19:03Z",
    "sources_seen": [
+    "google",
     "trends24",
     "x"
    ],
@@ -3381,15 +2464,15 @@
     "key": "dodgers",
     "sports": true,
     "league": "MLB",
-    "obvious": true,
+    "obvious": false,
     "early": false,
     "entity": "Los Angeles Dodgers",
-    "why_now": "Team name trending on Sunday; no specific moment or storyline evident from co-trending terms.",
-    "angle": "Monitor for game result, injury, or trade news to identify the actual driver before amplifying.",
+    "why_now": "Walk-off loss to Diamondbacks; 7-game losing streak; Ohtani go-ahead single in comeback attempt.",
+    "angle": "Position as Dodgers' slump narrative and Ohtani's clutch performance; tie to playoff implications.",
     "duplicate_of": null,
-    "market_id": "1235572"
+    "market_id": "3433654"
    },
-   "enriched_at": "2026-08-02T14:37:27Z"
+   "enriched_at": "2026-08-09T04:19:03Z"
   },
   "zepeda": {
    "first_seen": "2026-08-02T06:06:48Z",
@@ -5807,7 +4890,7 @@
   },
   "wnba": {
    "first_seen": "2026-08-02T22:58:09Z",
-   "last_seen": "2026-08-08T17:32:25Z",
+   "last_seen": "2026-08-09T04:19:03Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -5819,12 +4902,12 @@
     "obvious": true,
     "early": false,
     "entity": "WNBA",
-    "why_now": "League-wide trending; no specific moment or storyline evident from co-trending data.",
-    "angle": "Monitor for viral player moments, trades, or playoff drama within WNBA coverage.",
+    "why_now": "League-wide trending; no specific moment or storyline evident from co-trending list.",
+    "angle": "Suppress as generic league trend unless a specific player, game, or controversy emerges.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-08-08T17:32:25Z"
+   "enriched_at": "2026-08-09T04:19:03Z"
   },
   "grable": {
    "first_seen": "2026-08-02T22:58:09Z",
@@ -6101,24 +5184,24 @@
   },
   "sophie": {
    "first_seen": "2026-08-02T22:58:09Z",
-   "last_seen": "2026-08-02T22:58:09Z",
+   "last_seen": "2026-08-09T04:19:03Z",
    "sources_seen": [
     "trends24",
     "x"
    ],
    "enrichment": {
     "key": "sophie",
-    "sports": true,
-    "league": "Other Sports",
+    "sports": false,
+    "league": null,
     "obvious": false,
-    "early": false,
-    "entity": "Sophie (athlete name)",
-    "why_now": "Co-trending with sports names; likely athlete involved in game or event.",
-    "angle": "Identify specific athlete and sport; highlight game moment or performance.",
+    "early": true,
+    "entity": "Sophie",
+    "why_now": "Spiking on X alongside WNBA, Carrington, Jordyn; driver unconfirmed.",
+    "angle": "Monitor for WNBA player or personality named Sophie; if confirmed, position as emerging star or controversy angle.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-08-02T22:58:09Z"
+   "enriched_at": "2026-08-09T04:19:03Z"
   },
   "sea strike": {
    "first_seen": "2026-08-02T22:58:09Z",
@@ -7557,7 +6640,7 @@
   },
   "bohm": {
    "first_seen": "2026-08-03T15:44:42Z",
-   "last_seen": "2026-08-03T18:52:00Z",
+   "last_seen": "2026-08-09T04:19:03Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -7569,12 +6652,12 @@
     "obvious": false,
     "early": false,
     "entity": "Alec Bohm",
-    "why_now": "Phillies player spiking in co-trending alongside team name and other roster players; likely recent game performance or stat milestone.",
-    "angle": "Ride the Phillies momentum with player-level content; Bohm is a core offensive piece in a contending lineup.",
+    "why_now": "Phillies infielder trending; rank climbing from 30 to 47; likely tied to recent game.",
+    "angle": "Highlight batting performance or game result; position as Phillies narrative.",
     "duplicate_of": null,
-    "market_id": "3155100"
+    "market_id": null
    },
-   "enriched_at": "2026-08-03T15:44:42Z"
+   "enriched_at": "2026-08-09T04:19:03Z"
   },
   "stott": {
    "first_seen": "2026-08-03T15:44:42Z",
@@ -10813,7 +9896,7 @@
   },
   "brandon pfaadt": {
    "first_seen": "2026-08-04T05:49:47Z",
-   "last_seen": "2026-08-04T05:49:47Z",
+   "last_seen": "2026-08-09T04:19:03Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -10823,14 +9906,14 @@
     "sports": true,
     "league": "MLB",
     "obvious": false,
-    "early": true,
+    "early": false,
     "entity": "Brandon Pfaadt",
-    "why_now": "MLB pitcher Pfaadt trending at rank 33 with no prior rank; early signal of Cardinals pitcher news or performance.",
-    "angle": "Monitor Pfaadt for Cardinals pitching moment before mainstream coverage.",
+    "why_now": "Diamondbacks pitcher trending; rank climbing from 32 to 36; likely tied to recent game.",
+    "angle": "Highlight pitching performance or game result; position as Diamondbacks narrative.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-08-04T05:49:47Z"
+   "enriched_at": "2026-08-09T04:19:03Z"
   },
   "raiseit": {
    "first_seen": "2026-08-04T05:49:47Z",
@@ -17988,7 +17071,7 @@
   },
   "alvarado": {
    "first_seen": "2026-08-06T05:51:46Z",
-   "last_seen": "2026-08-06T05:51:46Z",
+   "last_seen": "2026-08-09T04:19:03Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -17998,14 +17081,14 @@
     "sports": true,
     "league": "Other Sports",
     "obvious": false,
-    "early": false,
+    "early": true,
     "entity": "Alvarado",
-    "why_now": "Lucha libre wrestler; co-trending with Grand Slam México, Arena Mexico; likely match performance.",
-    "angle": "Capture match highlights; tie to Grand Slam event.",
-    "duplicate_of": "grandslamméxico",
+    "why_now": "Rank dropped from 11 to 17; likely athlete; no major news coverage.",
+    "angle": "Identify sport and recent performance; position as emerging talent or comeback story.",
+    "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-08-06T05:51:46Z"
+   "enriched_at": "2026-08-09T04:19:03Z"
   },
   "wsop": {
    "first_seen": "2026-08-06T05:51:46Z",
@@ -18513,7 +17596,7 @@
   },
   "mike bailey": {
    "first_seen": "2026-08-06T05:51:46Z",
-   "last_seen": "2026-08-06T05:51:46Z",
+   "last_seen": "2026-08-09T04:19:03Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -18523,14 +17606,14 @@
     "sports": true,
     "league": "Other Sports",
     "obvious": false,
-    "early": false,
+    "early": true,
     "entity": "Mike Bailey",
-    "why_now": "Professional wrestler; likely recent match, storyline, or appearance; driver unconfirmed.",
-    "angle": "Verify recent wrestling event or character moment; capture if viral clip or surprise return.",
+    "why_now": "Rank climbing from 43 to 48; likely athlete; no major news.",
+    "angle": "Identify sport and recent moment; position as emerging talent or performance spike.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-08-06T05:51:46Z"
+   "enriched_at": "2026-08-09T04:19:03Z"
   },
   "mystics": {
    "first_seen": "2026-08-06T05:51:46Z",
@@ -26539,24 +25622,24 @@
   },
   "opie": {
    "first_seen": "2026-08-08T17:32:25Z",
-   "last_seen": "2026-08-08T17:32:25Z",
+   "last_seen": "2026-08-09T04:19:03Z",
    "sources_seen": [
     "trends24",
     "x"
    ],
    "enrichment": {
     "key": "opie",
-    "sports": false,
-    "league": null,
+    "sports": true,
+    "league": "Other Sports",
     "obvious": false,
-    "early": false,
+    "early": true,
     "entity": "Opie",
-    "why_now": "Generic term; no clear sports connection in co-trending data.",
-    "angle": "Not sports-related; exclude.",
+    "why_now": "Rank climbing from 27 to 34; likely athlete or sports personality; no major news.",
+    "angle": "Identify sport and recent moment; position as emerging talent or performance spike.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-08-08T17:32:25Z"
+   "enriched_at": "2026-08-09T04:19:03Z"
   },
   "the senate": {
    "first_seen": "2026-08-08T17:32:25Z",
@@ -27288,7 +26371,7 @@
   },
   "ufcvegas120": {
    "first_seen": "2026-08-08T22:31:57Z",
-   "last_seen": "2026-08-08T22:31:57Z",
+   "last_seen": "2026-08-09T04:19:03Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -27351,7 +26434,7 @@
   },
   "flagrant 2": {
    "first_seen": "2026-08-08T22:31:57Z",
-   "last_seen": "2026-08-08T22:31:57Z",
+   "last_seen": "2026-08-09T04:19:03Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -27393,7 +26476,7 @@
   },
   "white privilege": {
    "first_seen": "2026-08-08T22:31:57Z",
-   "last_seen": "2026-08-08T22:31:57Z",
+   "last_seen": "2026-08-09T04:19:03Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -28245,103 +27328,1027 @@
   },
   "ty miller": {
    "first_seen": "2026-08-08T22:31:57Z",
-   "last_seen": "2026-08-08T22:31:57Z",
+   "last_seen": "2026-08-09T04:19:03Z",
    "sources_seen": [
-    "google"
+    "google",
+    "trends24",
+    "x"
    ],
    "enrichment": {
     "key": "ty miller",
     "sports": true,
+    "league": "College Football",
+    "obvious": false,
+    "early": true,
+    "entity": "Ty Miller",
+    "why_now": "Rank climbing from 22 to 35; likely college football player; no major news.",
+    "angle": "Highlight recruiting, transfer portal, or performance moment; ride early hype.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-08-09T04:19:03Z"
+  },
+  "edwin diaz": {
+   "first_seen": "2026-08-09T04:19:03Z",
+   "last_seen": "2026-08-09T04:19:03Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "edwin diaz",
+    "sports": true,
+    "league": "MLB",
+    "obvious": false,
+    "early": false,
+    "entity": "Edwin Díaz",
+    "why_now": "Dodgers walk-off loss to Diamondbacks with Díaz involved in late-inning drama; trending alongside Dodgers.",
+    "angle": "Highlight the dramatic walk-off moment and Díaz's role in the Dodgers' 7-game losing streak narrative.",
+    "duplicate_of": "dodgers",
+    "market_id": "3433654"
+   },
+   "enriched_at": "2026-08-09T04:19:03Z"
+  },
+  "salkilld": {
+   "first_seen": "2026-08-09T04:19:03Z",
+   "last_seen": "2026-08-09T04:19:03Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "salkilld",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Salkilld",
+    "why_now": "Spiking on X and trends24 at rank 4; no news or sample tweets; driver unconfirmed.",
+    "angle": "Investigate niche gaming, streaming, or meme community; early signal before mainstream pickup.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-08-09T04:19:03Z"
+  },
+  "adventboundbyfate": {
+   "first_seen": "2026-08-09T04:19:03Z",
+   "last_seen": "2026-08-09T04:19:03Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "adventboundbyfate",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "#AdventBoundbyFate",
+    "why_now": "Hashtag trending at rank 5; no news coverage; likely gaming or anime community event.",
+    "angle": "Monitor for gaming/anime fandom moment; early adoption opportunity if crossover potential emerges.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-08-09T04:19:03Z"
+  },
+  "carrington": {
+   "first_seen": "2026-08-09T04:19:03Z",
+   "last_seen": "2026-08-09T04:19:03Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "carrington",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": false,
+    "early": true,
+    "entity": "Carrington",
+    "why_now": "Trending alongside WNBA, Sophie, Jordyn; likely WNBA player; no major news coverage yet.",
+    "angle": "Identify Carrington's role in WNBA narrative (rookie, trade, performance spike); ride early momentum.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-08-09T04:19:03Z"
+  },
+  "gamrot": {
+   "first_seen": "2026-08-09T04:19:03Z",
+   "last_seen": "2026-08-09T04:19:03Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "gamrot",
+    "sports": true,
     "league": "MMA/Boxing",
     "obvious": false,
     "early": false,
-    "entity": "Ty Miller",
-    "why_now": "MMA fighter; UFC Vegas 120 prelim bout (Billy Ray Goff vs Ty Miller); fight prediction/preview coverage.",
-    "angle": "Highlight fighter storyline or upset potential; leverage MMA culture angle.",
+    "entity": "Mateusz Gamrot",
+    "why_now": "MMA fighter trending; rank climbing from 6 to 8; likely recent fight or announcement.",
+    "angle": "Highlight fight result, performance stat, or upcoming bout; position as rising contender narrative.",
     "duplicate_of": null,
-    "market_id": "3231979"
+    "market_id": null
    },
-   "enriched_at": "2026-08-08T22:31:57Z"
+   "enriched_at": "2026-08-09T04:19:03Z"
+  },
+  "aewcollision": {
+   "first_seen": "2026-08-09T04:19:03Z",
+   "last_seen": "2026-08-09T04:19:03Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "aewcollision",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": true,
+    "early": false,
+    "entity": "AEW Collision",
+    "why_now": "Wrestling show hashtag; rank dropped from 4 to 9; likely post-broadcast trend.",
+    "angle": "Suppress unless a specific match moment, promo, or storyline development is the driver.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-08-09T04:19:03Z"
+  },
+  "stake": {
+   "first_seen": "2026-08-09T04:19:03Z",
+   "last_seen": "2026-08-09T04:19:03Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "stake",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": false,
+    "early": false,
+    "entity": "Stake",
+    "why_now": "Betting/sports platform trending; rank climbing from 14 to 11; likely tied to major sports event.",
+    "angle": "Position as betting culture moment; tie to live sports action or odds movement.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-08-09T04:19:03Z"
+  },
+  "lironlockheart3d": {
+   "first_seen": "2026-08-09T04:19:03Z",
+   "last_seen": "2026-08-09T04:19:03Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "lironlockheart3d",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "#LironLockheart3D",
+    "why_now": "Hashtag at rank 13; no news; likely gaming or 3D content creator.",
+    "angle": "Investigate niche creator or game release; early adoption play.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-08-09T04:19:03Z"
+  },
+  "billy q": {
+   "first_seen": "2026-08-09T04:19:03Z",
+   "last_seen": "2026-08-09T04:19:03Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "billy q",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": false,
+    "early": true,
+    "entity": "Billy Q",
+    "why_now": "Rank dropped from 8 to 14; likely athlete or sports personality; no major news.",
+    "angle": "Identify sport/league and recent moment; position as emerging or returning talent.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-08-09T04:19:03Z"
+  },
+  "chloe": {
+   "first_seen": "2026-08-09T04:19:03Z",
+   "last_seen": "2026-08-09T04:19:03Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "chloe",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Chloe",
+    "why_now": "Rank climbing from 26 to 15; likely celebrity or personality; no sports connection evident.",
+    "angle": "Monitor for celebrity moment; not sports-focused unless tied to athlete.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-08-09T04:19:03Z"
+  },
+  "jack dreyer": {
+   "first_seen": "2026-08-09T04:19:03Z",
+   "last_seen": "2026-08-09T04:19:03Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "jack dreyer",
+    "sports": true,
+    "league": "College Football",
+    "obvious": false,
+    "early": true,
+    "entity": "Jack Dreyer",
+    "why_now": "College football player trending; new to top ranks; likely recruiting or performance moment.",
+    "angle": "Highlight recruiting news, transfer portal move, or breakout performance; ride early hype.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-08-09T04:19:03Z"
+  },
+  "sports illustrated": {
+   "first_seen": "2026-08-09T04:19:03Z",
+   "last_seen": "2026-08-09T04:19:03Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "sports illustrated",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": false,
+    "early": false,
+    "entity": "Sports Illustrated",
+    "why_now": "Publication trending; rank climbing from 16 to 19; likely major story or cover reveal.",
+    "angle": "Identify the SI story driving trend; position as cultural moment in sports media.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-08-09T04:19:03Z"
+  },
+  "suspend": {
+   "first_seen": "2026-08-09T04:19:03Z",
+   "last_seen": "2026-08-09T04:19:03Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "suspend",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": false,
+    "early": false,
+    "entity": "Suspend",
+    "why_now": "Trending alongside Tunsil, Taylor Decker (NFL players); likely suspension news.",
+    "angle": "Highlight player suspension or disciplinary action; position as controversy/rule enforcement moment.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-08-09T04:19:03Z"
+  },
+  "tunsil": {
+   "first_seen": "2026-08-09T04:19:03Z",
+   "last_seen": "2026-08-09T04:19:03Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "tunsil",
+    "sports": true,
+    "league": "NFL",
+    "obvious": false,
+    "early": false,
+    "entity": "Laremy Tunsil",
+    "why_now": "NFL offensive lineman trending; rank climbing from 17 to 21; likely suspension or injury news.",
+    "angle": "Highlight suspension, injury, or trade news; position as roster impact story.",
+    "duplicate_of": "suspend",
+    "market_id": null
+   },
+   "enriched_at": "2026-08-09T04:19:03Z"
+  },
+  "stephanie white": {
+   "first_seen": "2026-08-09T04:19:03Z",
+   "last_seen": "2026-08-09T04:19:03Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "stephanie white",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": false,
+    "early": true,
+    "entity": "Stephanie White",
+    "why_now": "New to top ranks at 22; likely WNBA coach or player; no major news yet.",
+    "angle": "Identify role in WNBA; position as coaching hire, player move, or performance moment.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-08-09T04:19:03Z"
+  },
+  "jordyn": {
+   "first_seen": "2026-08-09T04:19:03Z",
+   "last_seen": "2026-08-09T04:19:03Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "jordyn",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": false,
+    "early": true,
+    "entity": "Jordyn",
+    "why_now": "Trending alongside WNBA, Carrington, Sophie; likely WNBA player; no major news.",
+    "angle": "Identify Jordyn's role in WNBA narrative; ride early momentum before mainstream saturation.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-08-09T04:19:03Z"
+  },
+  "elkins": {
+   "first_seen": "2026-08-09T04:19:03Z",
+   "last_seen": "2026-08-09T04:19:03Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "elkins",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": false,
+    "early": true,
+    "entity": "Elkins",
+    "why_now": "New to top ranks at 24; likely athlete; no major news coverage.",
+    "angle": "Identify sport and recent moment; position as emerging talent or performance spike.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-08-09T04:19:03Z"
+  },
+  "milito": {
+   "first_seen": "2026-08-09T04:19:03Z",
+   "last_seen": "2026-08-09T04:19:03Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "milito",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": true,
+    "entity": "Milito",
+    "why_now": "New to top ranks at 25; likely soccer player; no major news.",
+    "angle": "Identify club and recent performance; position as transfer or goal-scoring narrative.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-08-09T04:19:03Z"
+  },
+  "kyle hurt": {
+   "first_seen": "2026-08-09T04:19:03Z",
+   "last_seen": "2026-08-09T04:19:03Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "kyle hurt",
+    "sports": true,
+    "league": "College Football",
+    "obvious": false,
+    "early": true,
+    "entity": "Kyle Hurt",
+    "why_now": "Rank climbing from 18 to 26; likely college football player; no major news.",
+    "angle": "Highlight recruiting, transfer portal, or performance moment; ride early hype.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-08-09T04:19:03Z"
+  },
+  "eddie kingston": {
+   "first_seen": "2026-08-09T04:19:03Z",
+   "last_seen": "2026-08-09T04:19:03Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "eddie kingston",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": false,
+    "early": false,
+    "entity": "Eddie Kingston",
+    "why_now": "Professional wrestler trending; rank climbing from 21 to 27; likely AEW match or promo.",
+    "angle": "Highlight match moment, promo, or storyline development; position as wrestling narrative.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-08-09T04:19:03Z"
+  },
+  "taylor decker": {
+   "first_seen": "2026-08-09T04:19:03Z",
+   "last_seen": "2026-08-09T04:19:03Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "taylor decker",
+    "sports": true,
+    "league": "NFL",
+    "obvious": false,
+    "early": false,
+    "entity": "Taylor Decker",
+    "why_now": "NFL offensive lineman trending; rank climbing from 20 to 28; likely suspension or injury news.",
+    "angle": "Highlight suspension, injury, or contract news; position as roster impact story.",
+    "duplicate_of": "suspend",
+    "market_id": null
+   },
+   "enriched_at": "2026-08-09T04:19:03Z"
+  },
+  "holderman": {
+   "first_seen": "2026-08-09T04:19:03Z",
+   "last_seen": "2026-08-09T04:19:03Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "holderman",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": false,
+    "early": true,
+    "entity": "Holderman",
+    "why_now": "Rank climbing from 23 to 29; likely athlete; no major news.",
+    "angle": "Identify sport and recent moment; position as emerging talent or performance spike.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-08-09T04:19:03Z"
+  },
+  "dave roberts": {
+   "first_seen": "2026-08-09T04:19:03Z",
+   "last_seen": "2026-08-09T04:19:03Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "dave roberts",
+    "sports": true,
+    "league": "MLB",
+    "obvious": false,
+    "early": false,
+    "entity": "Dave Roberts",
+    "why_now": "Dodgers manager trending; new to top ranks; likely tied to Dodgers' 7-game losing streak.",
+    "angle": "Highlight managerial decisions or team performance; position as leadership/strategy narrative.",
+    "duplicate_of": "dodgers",
+    "market_id": null
+   },
+   "enriched_at": "2026-08-09T04:19:03Z"
+  },
+  "ferreira": {
+   "first_seen": "2026-08-09T04:19:03Z",
+   "last_seen": "2026-08-09T04:19:03Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "ferreira",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": false,
+    "entity": "Ferreira",
+    "why_now": "Rank climbing from 28 to 31; likely soccer player; no major news.",
+    "angle": "Identify club and recent performance; position as goal-scoring or transfer narrative.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-08-09T04:19:03Z"
+  },
+  "coleman": {
+   "first_seen": "2026-08-09T04:19:03Z",
+   "last_seen": "2026-08-09T04:19:03Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "coleman",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": false,
+    "early": false,
+    "entity": "Coleman",
+    "why_now": "Rank climbing from 29 to 32; likely athlete; no major news.",
+    "angle": "Identify sport and recent moment; position as performance or roster narrative.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-08-09T04:19:03Z"
+  },
+  "sb19 fanmeet in california": {
+   "first_seen": "2026-08-09T04:19:03Z",
+   "last_seen": "2026-08-09T04:19:03Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "sb19 fanmeet in california",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "SB19 Fanmeet in California",
+    "why_now": "K-pop group event trending; rank climbing from 37 to 33; fan community moment.",
+    "angle": "Not sports-related; monitor for celebrity/entertainment trend only.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-08-09T04:19:03Z"
+  },
+  "jake doyle": {
+   "first_seen": "2026-08-09T04:19:03Z",
+   "last_seen": "2026-08-09T04:19:03Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "jake doyle",
+    "sports": true,
+    "league": "College Football",
+    "obvious": false,
+    "early": true,
+    "entity": "Jake Doyle",
+    "why_now": "Rank climbing from 33 to 37; likely college football player; no major news.",
+    "angle": "Highlight recruiting, transfer portal, or performance moment; ride early hype.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-08-09T04:19:03Z"
+  },
+  "kristen wong": {
+   "first_seen": "2026-08-09T04:19:03Z",
+   "last_seen": "2026-08-09T04:19:03Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "kristen wong",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": false,
+    "early": true,
+    "entity": "Kristen Wong",
+    "why_now": "Rank climbing from 40 to 38; likely athlete or sports personality; no major news.",
+    "angle": "Identify sport and recent moment; position as emerging talent or performance spike.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-08-09T04:19:03Z"
+  },
+  "jac caglianone": {
+   "first_seen": "2026-08-09T04:19:03Z",
+   "last_seen": "2026-08-09T04:19:03Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "jac caglianone",
+    "sports": true,
+    "league": "College Baseball",
+    "obvious": false,
+    "early": false,
+    "entity": "Jac Caglianone",
+    "why_now": "College baseball player trending; rank climbing from 31 to 39; likely performance or draft news.",
+    "angle": "Highlight home run, performance stat, or draft prospect narrative; position as rising star.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-08-09T04:19:03Z"
+  },
+  "jake mccarthy": {
+   "first_seen": "2026-08-09T04:19:03Z",
+   "last_seen": "2026-08-09T04:19:03Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "jake mccarthy",
+    "sports": true,
+    "league": "MLB",
+    "obvious": false,
+    "early": false,
+    "entity": "Jake McCarthy",
+    "why_now": "Diamondbacks outfielder trending; rank climbing from 42 to 40; likely tied to recent game.",
+    "angle": "Highlight batting performance or game result; position as Diamondbacks narrative.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-08-09T04:19:03Z"
+  },
+  "wylie": {
+   "first_seen": "2026-08-09T04:19:03Z",
+   "last_seen": "2026-08-09T04:19:03Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "wylie",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": false,
+    "early": true,
+    "entity": "Wylie",
+    "why_now": "Rank climbing from 35 to 41; likely athlete; no major news.",
+    "angle": "Identify sport and recent moment; position as emerging talent or performance spike.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-08-09T04:19:03Z"
+  },
+  "shugart": {
+   "first_seen": "2026-08-09T04:19:03Z",
+   "last_seen": "2026-08-09T04:19:03Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "shugart",
+    "sports": true,
+    "league": "College Football",
+    "obvious": false,
+    "early": true,
+    "entity": "Shugart",
+    "why_now": "Rank climbing from 36 to 42; likely college football player; no major news.",
+    "angle": "Highlight recruiting, transfer portal, or performance moment; ride early hype.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-08-09T04:19:03Z"
+  },
+  "lemos": {
+   "first_seen": "2026-08-09T04:19:03Z",
+   "last_seen": "2026-08-09T04:19:03Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "lemos",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": false,
+    "entity": "Lemos",
+    "why_now": "Rank climbing from 25 to 43; likely soccer player; no major news.",
+    "angle": "Identify club and recent performance; position as goal-scoring or transfer narrative.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-08-09T04:19:03Z"
+  },
+  "mattingly": {
+   "first_seen": "2026-08-09T04:19:03Z",
+   "last_seen": "2026-08-09T04:19:03Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "mattingly",
+    "sports": true,
+    "league": "MLB",
+    "obvious": false,
+    "early": false,
+    "entity": "Mattingly",
+    "why_now": "Rank climbing from 34 to 44; likely baseball player or manager; no major news.",
+    "angle": "Identify team and recent moment; position as performance or roster narrative.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-08-09T04:19:03Z"
+  },
+  "black privilege": {
+   "first_seen": "2026-08-09T04:19:03Z",
+   "last_seen": "2026-08-09T04:19:03Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "black privilege",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Black Privilege",
+    "why_now": "Rank climbing from 49 to 46; likely entertainment or cultural content; no sports connection.",
+    "angle": "Not sports-related; monitor for entertainment trend only.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-08-09T04:19:03Z"
+  },
+  "tanner scott": {
+   "first_seen": "2026-08-09T04:19:03Z",
+   "last_seen": "2026-08-09T04:19:03Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "tanner scott",
+    "sports": true,
+    "league": "MLB",
+    "obvious": false,
+    "early": true,
+    "entity": "Tanner Scott",
+    "why_now": "New to top ranks at 49; likely pitcher; no major news.",
+    "angle": "Highlight pitching performance or roster move; position as emerging talent narrative.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-08-09T04:19:03Z"
+  },
+  "the damage": {
+   "first_seen": "2026-08-09T04:19:03Z",
+   "last_seen": "2026-08-09T04:19:03Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "the damage",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": false,
+    "early": true,
+    "entity": "The Damage",
+    "why_now": "Rank climbing from 46 to 50; likely sports team or athlete nickname; no major news.",
+    "angle": "Identify sport and recent moment; position as emerging talent or performance spike.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-08-09T04:19:03Z"
+  },
+  "posiciones de sport boys contra alianza lima": {
+   "first_seen": "2026-08-09T04:19:03Z",
+   "last_seen": "2026-08-09T04:19:03Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "posiciones de sport boys contra alianza lima",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": false,
+    "entity": "Sport Boys vs. Alianza Lima",
+    "why_now": "Peruvian Liga 1 classic derby ended 1-1; Girotti goal for Alianza Lima; match standings query.",
+    "angle": "Position as Peruvian soccer rivalry moment; highlight derby drama and goal-scoring narrative.",
+    "duplicate_of": null,
+    "market_id": "3176903"
+   },
+   "enriched_at": "2026-08-09T04:19:03Z"
+  },
+  "colman domingo": {
+   "first_seen": "2026-08-09T04:19:03Z",
+   "last_seen": "2026-08-09T04:19:03Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "colman domingo",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Colman Domingo",
+    "why_now": "Actor's 2.5-hour prosthetic transformation for Michael Jackson biopic; behind-the-scenes story.",
+    "angle": "Not sports-related; entertainment/film trend only.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-08-09T04:19:03Z"
+  },
+  "mariners": {
+   "first_seen": "2026-08-09T04:19:03Z",
+   "last_seen": "2026-08-09T04:19:03Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "mariners",
+    "sports": true,
+    "league": "MLB",
+    "obvious": true,
+    "early": false,
+    "entity": "Seattle Mariners",
+    "why_now": "Scheduled game vs. Tampa Bay Rays; no specific storyline or moment evident.",
+    "angle": "Suppress as generic game-day search; only elevate if specific moment (injury, trade, stat) emerges.",
+    "duplicate_of": null,
+    "market_id": "3336134"
+   },
+   "enriched_at": "2026-08-09T04:19:03Z"
+  },
+  "cameron norrie": {
+   "first_seen": "2026-08-09T04:19:03Z",
+   "last_seen": "2026-08-09T04:19:03Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "cameron norrie",
+    "sports": true,
+    "league": "Tennis",
+    "obvious": false,
+    "early": false,
+    "entity": "Cameron Norrie",
+    "why_now": "ATP Montreal 2026; Norrie epic third-round comeback vs. Fils; advancing to quarterfinals.",
+    "angle": "Highlight dramatic comeback win and tournament progression; position as underdog narrative.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-08-09T04:19:03Z"
+  },
+  "desley robinson": {
+   "first_seen": "2026-08-09T04:19:03Z",
+   "last_seen": "2026-08-09T04:19:03Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "desley robinson",
+    "sports": true,
+    "league": "MMA/Boxing",
+    "obvious": false,
+    "early": false,
+    "entity": "Desley Robinson",
+    "why_now": "Boxing match vs. Tammara Thibeault for 2 world titles; Australian champion vs. unbeaten Olympian.",
+    "angle": "Highlight high-stakes title fight and underdog narrative; position as championship moment.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-08-09T04:19:03Z"
+  },
+  "whitney houston": {
+   "first_seen": "2026-08-09T04:19:03Z",
+   "last_seen": "2026-08-09T04:19:03Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "whitney houston",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Whitney Houston",
+    "why_now": "New Barbie doll release; music icon merchandise moment.",
+    "angle": "Not sports-related; entertainment/retail trend only.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-08-09T04:19:03Z"
+  },
+  "outside lands schedule": {
+   "first_seen": "2026-08-09T04:19:03Z",
+   "last_seen": "2026-08-09T04:19:03Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "outside lands schedule",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Outside Lands Schedule",
+    "why_now": "Music festival in San Francisco; Charli XCX performance; event logistics query.",
+    "angle": "Not sports-related; entertainment/festival trend only.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-08-09T04:19:03Z"
+  },
+  "aoc": {
+   "first_seen": "2026-08-09T04:19:03Z",
+   "last_seen": "2026-08-09T04:19:03Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "aoc",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "AOC",
+    "why_now": "Political news about Abdul El-Sayed and Michigan voters; no sports connection.",
+    "angle": "Not sports-related; political trend only.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-08-09T04:19:03Z"
   }
  },
  "x_usage": {
-  "2026-08-01": 0,
   "2026-08-02": 0,
   "2026-08-03": 0,
   "2026-08-04": 0,
   "2026-08-05": 0,
   "2026-08-06": 0,
   "2026-08-07": 0,
-  "2026-08-08": 0
+  "2026-08-08": 0,
+  "2026-08-09": 0
  },
  "prev_x_trends": [
-  "Dijonai",
-  "WNBA",
   "#UFCVegas120",
-  "Gronk",
-  "FNAF WORLD 2",
-  "#GreenWall",
-  "Flagrant 2",
-  "Canuto",
+  "Sophie",
+  "Edwin Diaz",
+  "Salkilld",
+  "#AdventBoundbyFate",
+  "WNBA",
+  "Carrington",
+  "Gamrot",
+  "#AEWCollision",
+  "#OPLive",
+  "Stake",
   "White Privilege",
+  "#LironLockheart3D",
+  "Billy Q",
+  "Chloe",
+  "Chivas",
+  "Alvarado",
+  "Jack Dreyer",
+  "Sports Illustrated",
+  "Suspend",
+  "Tunsil",
+  "Stephanie White",
+  "Jordyn",
+  "Elkins",
+  "Milito",
+  "Kyle Hurt",
+  "Eddie Kingston",
+  "Taylor Decker",
+  "Holderman",
+  "Dave Roberts",
+  "Ferreira",
+  "Coleman",
+  "SB19 FANMEET IN CALIFORNIA",
   "Opie",
-  "Chris Sale",
-  "Foro",
-  "Faze",
-  "Olivia Miles",
-  "Big Ben",
-  "Freddy Fazbear",
-  "#InternationalCatDay",
-  "Sherman",
-  "Gerrit Cole",
-  "Security Breach 2",
-  "Drew Brees",
-  "Vanny",
-  "Verizon",
-  "Cam Newton",
-  "Danny Young",
-  "Royce",
-  "Vince Young",
-  "George Lombard Jr",
-  "Phee",
-  "Threads",
-  "#ZuffaBoxing10",
-  "Angela",
-  "Whitworth",
-  "Jacy Sheldon",
-  "Ron Howard",
-  "OpTic",
-  "Natasha Cloud",
-  "Cam Coleman",
-  "Adrian Peterson",
-  "#Fever",
-  "Chicago Sky",
-  "Arch",
-  "Ryan and Rebecca",
-  "Ryan Sieg",
-  "Balde",
-  "Lynx",
-  "Callum Walsh",
-  "Rachel Banham",
-  "Roger Craig",
-  "Juliana Miller"
+  "Ty Miller",
+  "Brandon Pfaadt",
+  "Jake Doyle",
+  "Kristen Wong",
+  "Jac Caglianone",
+  "Jake McCarthy",
+  "Wylie",
+  "Shugart",
+  "Lemos",
+  "Mattingly",
+  "Flagrant 2",
+  "Black Privilege",
+  "Bohm",
+  "Mike Bailey",
+  "Tanner Scott",
+  "The Damage"
  ],
  "suppressed": [
-  {
-   "key": "tony seagulls",
-   "reason": "Sports personality; trending but no specific moment evident.",
-   "at": "2026-07-25T05:45:03Z"
-  },
-  {
-   "key": "layne riggs",
-   "reason": "Motorsports driver; trending but no specific race result or moment evident.",
-   "at": "2026-07-25T05:45:03Z"
-  },
-  {
-   "key": "drew romo",
-   "reason": "Motorsports driver; trending but no specific race or moment evident.",
-   "at": "2026-07-25T05:45:03Z"
-  },
   {
    "key": "giulia",
    "reason": "WWE/wrestling personality; trending but no specific viral moment evident.",
@@ -29326,6 +29333,21 @@
    "key": "inter miami vs monterrey",
    "reason": "Leagues Cup match; scheduled event with Messi question but no specific viral moment.",
    "at": "2026-08-08T22:31:57Z"
+  },
+  {
+   "key": "wnba",
+   "reason": "League-wide trending; no specific moment or storyline evident from co-trending list.",
+   "at": "2026-08-09T04:19:03Z"
+  },
+  {
+   "key": "aewcollision",
+   "reason": "Wrestling show hashtag; rank dropped from 4 to 9; likely post-broadcast trend.",
+   "at": "2026-08-09T04:19:03Z"
+  },
+  {
+   "key": "mariners",
+   "reason": "Scheduled game vs. Tampa Bay Rays; no specific storyline or moment evident.",
+   "at": "2026-08-09T04:19:03Z"
   }
  ],
  "slack_posted": {
