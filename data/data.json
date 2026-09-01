@@ -1,15 +1,41 @@
 {
  "schema_version": 2,
- "generated_at": "2026-09-01T17:12:41Z",
+ "generated_at": "2026-09-01T23:52:01Z",
  "sections": [
   {
    "league": "Soccer",
-   "activity": 192,
+   "activity": 368,
    "trends": [
     {
-     "key": "enzo",
-     "name": "Enzo",
-     "entity": "Enzo Fernández",
+     "key": "camara",
+     "name": "Camara",
+     "entity": "Camara",
+     "league": "Soccer",
+     "score": 67,
+     "score_breakdown": {
+      "velocity": 21.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 8.0,
+      "early_bonus": 10
+     },
+     "early": true,
+     "new_on_x": true,
+     "why_now": "Trending on X/Trends24; likely soccer player transfer or injury news.",
+     "angle": "Clarify player identity and news driver; if transfer/injury, position accordingly.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-09-01T23:52:01Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    },
+    {
+     "key": "balogun",
+     "name": "Balogun",
+     "entity": "Balogun",
      "league": "Soccer",
      "score": 53,
      "score_breakdown": {
@@ -21,8 +47,86 @@
      },
      "early": true,
      "new_on_x": true,
-     "why_now": "Trending #2 on X; likely Chelsea transfer rumor or market speculation.",
-     "angle": "Transfer market early signal: ride emerging Chelsea/Manchester City speculation before official news.",
+     "why_now": "Trending with no news; likely soccer player transfer or international news.",
+     "angle": "Monitor for transfer or national team news; insufficient data to act.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-09-01T23:52:01Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    },
+    {
+     "key": "gerard",
+     "name": "Gerard",
+     "entity": "Gerard",
+     "league": "Soccer",
+     "score": 53,
+     "score_breakdown": {
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 10
+     },
+     "early": true,
+     "new_on_x": true,
+     "why_now": "Trending with no news; likely soccer player or coach.",
+     "angle": "Monitor for transfer or match news; insufficient data to act.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-09-01T23:52:01Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    },
+    {
+     "key": "zirkzee",
+     "name": "Zirkzee",
+     "entity": "Joshua Zirkzee",
+     "league": "Soccer",
+     "score": 53,
+     "score_breakdown": {
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 10
+     },
+     "early": true,
+     "new_on_x": true,
+     "why_now": "Trending with no news; likely transfer or performance news.",
+     "angle": "Monitor for transfer or match news; insufficient data to act.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-09-01T23:52:01Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    },
+    {
+     "key": "enzo",
+     "name": "Enzo",
+     "entity": "Enzo Fernández",
+     "league": "Soccer",
+     "score": 46,
+     "score_breakdown": {
+      "velocity": 10.0,
+      "cross_platform": 8,
+      "freshness": 10,
+      "engagement": 8.0,
+      "early_bonus": 10
+     },
+     "early": true,
+     "new_on_x": false,
+     "why_now": "Trending with Manchester City and Chelsea co-trending; transfer speculation or contract news.",
+     "angle": "If transfer confirmed, position as major soccer market move; monitor for official announcement.",
      "sources": [
       "x",
       "trends24"
@@ -30,78 +134,51 @@
      "first_seen": "2026-09-01T17:12:41Z",
      "example_tweets": [],
      "market": {
-      "question": "Will Enzo Fernandez stay at Chelsea?",
+      "question": "Will Enzo Fernandez join Manchester City?",
       "url": "https://polymarket.com/event/where-will-enzo-fernandez-transfer-20260612231640461",
       "outcomes": [
        [
         "Yes",
-        0.01
+        0.9995
        ],
        [
         "No",
-        0.99
+        0.0005
        ]
       ],
-      "volume24hr": 42348.36765499999
+      "volume24hr": 60468.16096200001
      },
      "market_gap": false
     },
     {
-     "key": "lavia",
-     "name": "Lavia",
-     "entity": "Lavia",
+     "key": "atlético mg x cruzeiro",
+     "name": "atlético-mg x cruzeiro",
+     "entity": "Atlético-MG vs Cruzeiro",
      "league": "Soccer",
-     "score": 53,
+     "score": 35,
      "score_breakdown": {
-      "velocity": 15.0,
+      "velocity": 6.6,
       "cross_platform": 8,
       "freshness": 20,
       "engagement": 0.0,
-      "early_bonus": 10
+      "early_bonus": 0
      },
-     "early": true,
-     "new_on_x": true,
-     "why_now": "Trending #36 on X; likely transfer market speculation around young midfielder.",
-     "angle": "Transfer rumor early signal: emerging player movement story; ride before official announcement.",
+     "early": false,
+     "new_on_x": false,
+     "why_now": "Minas Gerais derby; owner fulfills promise to attend; fan 'rua de fogo' (fire street) reception creates atmosphere story.",
+     "angle": "Highlight the owner's symbolic gesture and intense fan culture around this Brazilian classic; position as high-stakes local rivalry moment.",
      "sources": [
-      "x",
-      "trends24"
+      "google"
      ],
-     "first_seen": "2026-09-01T17:12:41Z",
+     "first_seen": "2026-09-01T23:52:01Z",
      "example_tweets": [],
      "market": null,
      "market_gap": true
     },
     {
-     "key": "leipzig",
-     "name": "Leipzig",
-     "entity": "RB Leipzig",
-     "league": "Soccer",
-     "score": 53,
-     "score_breakdown": {
-      "velocity": 15.0,
-      "cross_platform": 8,
-      "freshness": 20,
-      "engagement": 0.0,
-      "early_bonus": 10
-     },
-     "early": true,
-     "new_on_x": true,
-     "why_now": "Trending #44 on X; likely Bundesliga or Champions League fixture or transfer news.",
-     "angle": "Soccer early signal: German club news; ride emerging storyline before saturation.",
-     "sources": [
-      "x",
-      "trends24"
-     ],
-     "first_seen": "2026-09-01T17:12:41Z",
-     "example_tweets": [],
-     "market": null,
-     "market_gap": true
-    },
-    {
-     "key": "caicedo",
-     "name": "Caicedo",
-     "entity": "Caicedo",
+     "key": "everton",
+     "name": "Everton",
+     "entity": "Everton FC",
      "league": "Soccer",
      "score": 33,
      "score_breakdown": {
@@ -113,13 +190,39 @@
      },
      "early": true,
      "new_on_x": true,
-     "why_now": "Trending #38 on X; likely Moisés Caicedo transfer or performance-related.",
-     "angle": "Soccer transfer/performance signal: emerging player story; capture before mainstream coverage.",
+     "why_now": "Trending with no news; likely match result, transfer, or ownership news.",
+     "angle": "Monitor for EPL match result or transfer news; insufficient data to act.",
      "sources": [
       "x",
       "trends24"
      ],
-     "first_seen": "2026-08-24T22:28:52Z",
+     "first_seen": "2026-08-22T17:22:28Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    },
+    {
+     "key": "lavia",
+     "name": "Lavia",
+     "entity": "Lavia",
+     "league": "Soccer",
+     "score": 28,
+     "score_breakdown": {
+      "velocity": 0.0,
+      "cross_platform": 8,
+      "freshness": 10,
+      "engagement": 0.0,
+      "early_bonus": 10
+     },
+     "early": true,
+     "new_on_x": false,
+     "why_now": "Trending with no news; likely soccer player transfer or injury.",
+     "angle": "Monitor for transfer or injury news; insufficient data to act.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-09-01T17:12:41Z",
      "example_tweets": [],
      "market": null,
      "market_gap": true
@@ -127,41 +230,14 @@
    ]
   },
   {
-   "league": "NBA",
-   "activity": 151,
+   "league": "MLB",
+   "activity": 192,
    "trends": [
     {
-     "key": "tacko fall",
-     "name": "Tacko Fall",
-     "entity": "Tacko Fall",
-     "league": "NBA",
-     "score": 65,
-     "score_breakdown": {
-      "velocity": 20.4,
-      "cross_platform": 25,
-      "freshness": 20,
-      "engagement": 0.0,
-      "early_bonus": 0
-     },
-     "early": false,
-     "new_on_x": true,
-     "why_now": "7'7\" center signs with Philadelphia 76ers, returning to NBA after absence.",
-     "angle": "Comeback narrative: undersized-by-height-only player gets second NBA chance; roster depth and novelty angle.",
-     "sources": [
-      "x",
-      "trends24",
-      "google"
-     ],
-     "first_seen": "2026-09-01T17:12:41Z",
-     "example_tweets": [],
-     "market": null,
-     "market_gap": true
-    },
-    {
-     "key": "olatember",
-     "name": "#OLATEMBER",
-     "entity": "#OLATEMBER",
-     "league": "NBA",
+     "key": "angels",
+     "name": "Angels",
+     "entity": "Los Angeles Angels",
+     "league": "MLB",
      "score": 53,
      "score_breakdown": {
       "velocity": 15.0,
@@ -172,22 +248,88 @@
      },
      "early": true,
      "new_on_x": true,
-     "why_now": "Hashtag campaign tied to Victor Oladipo's September comeback narrative and open letter.",
-     "angle": "Fan-driven meme/campaign: ride the redemption story with branded hashtag before mainstream saturation.",
+     "why_now": "Trending with Arte Moreno and Stan Kroenke co-trending; suggests ownership/management news or roster move.",
+     "angle": "Investigate ownership drama or front-office decision; if significant, position as MLB power-play story.",
      "sources": [
       "x",
       "trends24"
      ],
-     "first_seen": "2026-09-01T17:12:41Z",
+     "first_seen": "2026-09-01T23:52:01Z",
+     "example_tweets": [],
+     "market": {
+      "question": "New York Yankees vs. Los Angeles Angels",
+      "url": "https://polymarket.com/event/mlb-nyy-laa-2026-09-01",
+      "outcomes": [
+       [
+        "New York Yankees",
+        0.625
+       ],
+       [
+        "Los Angeles Angels",
+        0.375
+       ]
+      ],
+      "volume24hr": 33726.267056
+     },
+     "market_gap": false
+    },
+    {
+     "key": "freddy peralta",
+     "name": "Freddy Peralta",
+     "entity": "Freddy Peralta",
+     "league": "MLB",
+     "score": 53,
+     "score_breakdown": {
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 10
+     },
+     "early": true,
+     "new_on_x": true,
+     "why_now": "Trending with no news; likely pitcher performance, injury, or trade speculation.",
+     "angle": "Monitor for injury update or trade news; insufficient data to act.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-09-01T23:52:01Z",
      "example_tweets": [],
      "market": null,
      "market_gap": true
     },
     {
-     "key": "victor oladipo",
-     "name": "victor oladipo",
-     "entity": "Victor Oladipo",
-     "league": "NBA",
+     "key": "paul skenes",
+     "name": "Paul Skenes",
+     "entity": "Paul Skenes",
+     "league": "MLB",
+     "score": 53,
+     "score_breakdown": {
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 10
+     },
+     "early": true,
+     "new_on_x": true,
+     "why_now": "Trending with no news; likely pitcher performance or injury update.",
+     "angle": "Monitor for performance or injury news; insufficient data to act.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-09-01T23:52:01Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    },
+    {
+     "key": "dominic canzone",
+     "name": "dominic canzone",
+     "entity": "Dominic Canzone",
+     "league": "MLB",
      "score": 33,
      "score_breakdown": {
       "velocity": 5.4,
@@ -198,12 +340,200 @@
      },
      "early": false,
      "new_on_x": false,
-     "why_now": "Oladipo publishes open letter to NBA GMs requesting second chance after recent struggles.",
-     "angle": "Redemption narrative: veteran player's public plea for opportunity; character and resilience angle.",
+     "why_now": "Red Sox pitcher Payton Tolle hugs Mariners baserunner Canzone mid-play; viral moment of sportsmanship/humor.",
+     "angle": "Celebrate the wholesome, meme-worthy moment of unexpected friendship on field; humanize baseball as feel-good content.",
      "sources": [
       "google"
      ],
-     "first_seen": "2026-09-01T17:12:41Z",
+     "first_seen": "2026-09-01T23:52:01Z",
+     "example_tweets": [],
+     "market": {
+      "question": "Seattle Mariners vs. Boston Red Sox: O/U 7.5",
+      "url": "https://polymarket.com/event/mlb-sea-bos-2026-09-01",
+      "outcomes": [
+       [
+        "Over",
+        0.9995
+       ],
+       [
+        "Under",
+        0.0005
+       ]
+      ],
+      "volume24hr": 818344.2937469998
+     },
+     "market_gap": false
+    }
+   ]
+  },
+  {
+   "league": "Golf",
+   "activity": 175,
+   "trends": [
+    {
+     "key": "presidents cup",
+     "name": "Presidents Cup",
+     "entity": "Presidents Cup",
+     "league": "Golf",
+     "score": 69,
+     "score_breakdown": {
+      "velocity": 23.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 8.0,
+      "early_bonus": 10
+     },
+     "early": true,
+     "new_on_x": true,
+     "why_now": "Trending with Cantlay and Ryder Cup; team announcement or roster speculation.",
+     "angle": "If team rosters announced, position as golf team composition story.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-09-01T23:52:01Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    },
+    {
+     "key": "cantlay",
+     "name": "Cantlay",
+     "entity": "Patrick Cantlay",
+     "league": "Golf",
+     "score": 53,
+     "score_breakdown": {
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 10
+     },
+     "early": true,
+     "new_on_x": true,
+     "why_now": "Trending alongside Presidents Cup and Ryder Cup; likely tournament participation or team news.",
+     "angle": "If Cantlay named to Presidents Cup or Ryder Cup team, position as golf roster story.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-09-01T23:52:01Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    },
+    {
+     "key": "ryder cup",
+     "name": "Ryder Cup",
+     "entity": "Ryder Cup",
+     "league": "Golf",
+     "score": 53,
+     "score_breakdown": {
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 10
+     },
+     "early": true,
+     "new_on_x": true,
+     "why_now": "Trending with Presidents Cup and Cantlay; likely team announcement or qualification news.",
+     "angle": "Monitor for team roster or qualification updates; position as golf competition narrative.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-09-01T23:52:01Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    }
+   ]
+  },
+  {
+   "league": "NHL",
+   "activity": 106,
+   "trends": [
+    {
+     "key": "koivun",
+     "name": "Koivun",
+     "entity": "Koivun",
+     "league": "NHL",
+     "score": 53,
+     "score_breakdown": {
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 10
+     },
+     "early": true,
+     "new_on_x": true,
+     "why_now": "Trending with no news; likely NHL player or prospect.",
+     "angle": "Monitor for draft, trade, or injury news; insufficient data to act.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-09-01T23:52:01Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    },
+    {
+     "key": "raddysh",
+     "name": "Raddysh",
+     "entity": "Raddysh",
+     "league": "NHL",
+     "score": 53,
+     "score_breakdown": {
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 10
+     },
+     "early": true,
+     "new_on_x": true,
+     "why_now": "Trending with no news; likely NHL player or prospect.",
+     "angle": "Monitor for trade, draft, or injury news; insufficient data to act.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-09-01T23:52:01Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    }
+   ]
+  },
+  {
+   "league": "NFL",
+   "activity": 53,
+   "trends": [
+    {
+     "key": "pacheco",
+     "name": "Pacheco",
+     "entity": "Pacheco",
+     "league": "NFL",
+     "score": 53,
+     "score_breakdown": {
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 10
+     },
+     "early": true,
+     "new_on_x": true,
+     "why_now": "Trending with no news; likely NFL running back or injury update.",
+     "angle": "Monitor for injury or roster news; insufficient data to act.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-09-01T23:52:01Z",
      "example_tweets": [],
      "market": null,
      "market_gap": true
@@ -212,56 +542,16 @@
   },
   {
    "league": "Tennis",
-   "activity": 111,
+   "activity": 36,
    "trends": [
     {
-     "key": "cobolli",
-     "name": "Cobolli",
-     "entity": "Flavio Cobolli",
+     "key": "coco gauff",
+     "name": "coco gauff",
+     "entity": "Coco Gauff",
      "league": "Tennis",
-     "score": 43,
+     "score": 36,
      "score_breakdown": {
-      "velocity": 15.0,
-      "cross_platform": 8,
-      "freshness": 20,
-      "engagement": 0.0,
-      "early_bonus": 0
-     },
-     "early": false,
-     "new_on_x": true,
-     "why_now": "Italian ATP player competing in US Open early rounds; rain delays affecting schedule.",
-     "angle": "Young talent showcase: rising player's tournament performance; international tennis momentum.",
-     "sources": [
-      "x",
-      "trends24"
-     ],
-     "first_seen": "2026-09-01T17:12:41Z",
-     "example_tweets": [],
-     "market": {
-      "question": "US Open ATP: Francisco Comesana vs Flavio Cobolli",
-      "url": "https://polymarket.com/event/atp-comesan-cobolli-2026-08-30",
-      "outcomes": [
-       [
-        "Francisco Comesana",
-        0.555
-       ],
-       [
-        "Flavio Cobolli",
-        0.445
-       ]
-      ],
-      "volume24hr": 1167333.9337789994
-     },
-     "market_gap": false
-    },
-    {
-     "key": "madison keys",
-     "name": "madison keys",
-     "entity": "Madison Keys",
-     "league": "Tennis",
-     "score": 35,
-     "score_breakdown": {
-      "velocity": 7.4,
+      "velocity": 8.0,
       "cross_platform": 8,
       "freshness": 20,
       "engagement": 0.0,
@@ -269,35 +559,72 @@
      },
      "early": false,
      "new_on_x": false,
-     "why_now": "US Open WTA action disrupted by rain; Keys competing in early rounds.",
-     "angle": "Weather delay and tournament momentum: ride the live-event coverage and player performance angles.",
+     "why_now": "US Open 2026 run underway; custom Navy New Balance gear and personal necklace backstory driving fashion/lifestyle angle.",
+     "angle": "Leverage Gauff's style moments and personal storytelling at US Open to connect with fashion-forward sports fans; tie to New Balance partnership narrative.",
      "sources": [
       "google"
      ],
-     "first_seen": "2026-09-01T17:12:41Z",
+     "first_seen": "2026-09-01T23:52:01Z",
      "example_tweets": [],
      "market": {
-      "question": "US Open WTA: Madison Keys vs Alina Korneeva",
-      "url": "https://polymarket.com/event/wta-keys-korneev-2026-08-30",
+      "question": "US Open WTA: Zeynep Sonmez vs Coco Gauff",
+      "url": "https://polymarket.com/event/wta-sonmez-gauff-2026-08-30",
       "outcomes": [
        [
-        "Madison Keys",
-        0.9655
+        "Zeynep Sonmez",
+        0.026
        ],
        [
-        "Alina Korneeva",
-        0.0345
+        "Coco Gauff",
+        0.974
        ]
       ],
-      "volume24hr": 320414.5300360001
+      "volume24hr": 108675.95790000005
      },
      "market_gap": false
-    },
+    }
+   ]
+  },
+  {
+   "league": "College Basketball",
+   "activity": 34,
+   "trends": [
     {
-     "key": "rafael jodar",
-     "name": "rafael jodar",
-     "entity": "Rafael Jódar",
-     "league": "Tennis",
+     "key": "lexie hull",
+     "name": "lexie hull",
+     "entity": "Lexie Hull",
+     "league": "College Basketball",
+     "score": 34,
+     "score_breakdown": {
+      "velocity": 6.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 0
+     },
+     "early": false,
+     "new_on_x": false,
+     "why_now": "Indiana Fever guard announces personal career decision; WNBA pause context suggests injury or roster move.",
+     "angle": "Monitor for injury update or trade news; if significant, position as WNBA roster storyline.",
+     "sources": [
+      "google"
+     ],
+     "first_seen": "2026-09-01T23:52:01Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    }
+   ]
+  },
+  {
+   "league": "Olympics",
+   "activity": 33,
+   "trends": [
+    {
+     "key": "raygun",
+     "name": "raygun",
+     "entity": "Raygun (breakdancer)",
+     "league": "Olympics",
      "score": 33,
      "score_breakdown": {
       "velocity": 5.4,
@@ -308,59 +635,12 @@
      },
      "early": false,
      "new_on_x": false,
-     "why_now": "Spanish player competing in US Open; multiple matches scheduled across platforms.",
-     "angle": "Underdog tournament run: niche player gaining visibility; international tennis interest.",
+     "why_now": "Netflix documentary processing Paris 2024 Olympic breakdancing controversy; 'dorky white academic' narrative and mockery of Olympic inclusion.",
+     "angle": "Tap into the cultural backlash and meme potential around Olympic breakdancing legitimacy; position as commentary on sports gatekeeping.",
      "sources": [
       "google"
      ],
-     "first_seen": "2026-09-01T17:12:41Z",
-     "example_tweets": [],
-     "market": {
-      "question": "Will Rafael Jodar win the 2026 Men's US Open?",
-      "url": "https://polymarket.com/event/2026-mens-us-open-winner-tennis",
-      "outcomes": [
-       [
-        "Yes",
-        0.0575
-       ],
-       [
-        "No",
-        0.9425
-       ]
-      ],
-      "volume24hr": 118159.81065
-     },
-     "market_gap": false
-    }
-   ]
-  },
-  {
-   "league": "NFL",
-   "activity": 85,
-   "trends": [
-    {
-     "key": "kyler gordon",
-     "name": "Kyler Gordon",
-     "entity": "Kyler Gordon",
-     "league": "NFL",
-     "score": 85,
-     "score_breakdown": {
-      "velocity": 31.6,
-      "cross_platform": 25,
-      "freshness": 20,
-      "engagement": 8.0,
-      "early_bonus": 0
-     },
-     "early": false,
-     "new_on_x": true,
-     "why_now": "Bears CB remains on PUP list; GM Ryan Poles admits uncertainty about his 2026 season availability.",
-     "angle": "Injury/roster uncertainty story: position battles and depth chart implications as preseason roster cuts finalize.",
-     "sources": [
-      "x",
-      "trends24",
-      "google"
-     ],
-     "first_seen": "2026-09-01T17:12:41Z",
+     "first_seen": "2026-09-01T23:52:01Z",
      "example_tweets": [],
      "market": null,
      "market_gap": true
@@ -373,7 +653,7 @@
   "trends24": "ok (2 snapshots)",
   "google_trends": "ok (10 items)",
   "gamma_api": "ok (500 markets)",
-  "llm": "ok (58 enriched)",
+  "llm": "ok (60 enriched)",
   "slack": "error: HTTP Error 404: Not Found"
  },
  "x_budget": {
@@ -400,9 +680,9 @@
   "section_order_mode": "activity"
  },
  "stats": {
-  "newly_enriched": 58,
+  "newly_enriched": 60,
   "cache_hits": 0,
-  "suppressed": 5,
-  "discarded_non_sports": 42
+  "suppressed": 4,
+  "discarded_non_sports": 33
  }
 }
