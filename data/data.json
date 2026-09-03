@@ -1,117 +1,139 @@
 {
  "schema_version": 2,
- "generated_at": "2026-09-03T19:42:54Z",
+ "generated_at": "2026-09-03T23:50:37Z",
  "sections": [
   {
-   "league": "MLB",
-   "activity": 106,
+   "league": "College Football",
+   "activity": 226,
    "trends": [
     {
-     "key": "luis castillo",
-     "name": "Luis Castillo",
-     "entity": "Luis Castillo",
-     "league": "MLB",
-     "score": 63,
+     "key": "umass",
+     "name": "UMass",
+     "entity": "UMass Minutemen",
+     "league": "College Football",
+     "score": 73,
      "score_breakdown": {
       "velocity": 27.0,
       "cross_platform": 8,
       "freshness": 20,
       "engagement": 8.0,
-      "early_bonus": 0
+      "early_bonus": 10
      },
-     "early": false,
+     "early": true,
      "new_on_x": true,
-     "why_now": "MLB pitcher spiking in trends; likely a recent game performance, injury, or trade-related moment driving discussion.",
-     "angle": "Identify the specific game moment or stat (e.g., no-hitter, injury, trade deadline move) and amplify among baseball fans before mainstream saturation.",
+     "why_now": "UMass football trending alongside Rutgers and Greg Schiano; likely Week 1 matchup or roster/coaching storyline.",
+     "angle": "Early signal on a college football upset or breakout performance; monitor for viral game moment or player story before mainstream picks it up.",
      "sources": [
       "x",
       "trends24"
      ],
-     "first_seen": "2026-09-03T19:42:54Z",
-     "example_tweets": [],
-     "market": null,
-     "market_gap": true
-    },
-    {
-     "key": "hunter brown",
-     "name": "Hunter Brown",
-     "entity": "Hunter Brown",
-     "league": "MLB",
-     "score": 43,
-     "score_breakdown": {
-      "velocity": 15.0,
-      "cross_platform": 8,
-      "freshness": 20,
-      "engagement": 0.0,
-      "early_bonus": 0
-     },
-     "early": false,
-     "new_on_x": true,
-     "why_now": "MLB pitcher trending; likely a recent start, performance, or roster move driving discussion.",
-     "angle": "Identify the specific pitching moment or career milestone and target baseball betting/fantasy communities.",
-     "sources": [
-      "x",
-      "trends24"
-     ],
-     "first_seen": "2026-09-03T19:42:54Z",
-     "example_tweets": [],
-     "market": null,
-     "market_gap": true
-    }
-   ]
-  },
-  {
-   "league": "Tennis",
-   "activity": 101,
-   "trends": [
-    {
-     "key": "felix auger",
-     "name": "Felix Auger",
-     "entity": "Felix Auger-Aliassime",
-     "league": "Tennis",
-     "score": 43,
-     "score_breakdown": {
-      "velocity": 15.0,
-      "cross_platform": 8,
-      "freshness": 20,
-      "engagement": 0.0,
-      "early_bonus": 0
-     },
-     "early": false,
-     "new_on_x": true,
-     "why_now": "US Open ATP player spiking; likely a match result or performance moment from the ongoing tournament.",
-     "angle": "Leverage the US Open storyline (seeding, comeback, rivalry) to engage tennis fans in real-time.",
-     "sources": [
-      "x",
-      "trends24"
-     ],
-     "first_seen": "2026-09-03T19:42:54Z",
+     "first_seen": "2026-09-03T23:50:37Z",
      "example_tweets": [],
      "market": {
-      "question": "US Open ATP: Felix Auger-Aliassime vs Karen Khachanov",
-      "url": "https://polymarket.com/event/atp-augeral-khachan-2026-09-02",
+      "question": "UMass vs. Rutgers",
+      "url": "https://polymarket.com/event/cfb-umass-rutger-2026-09-03",
       "outcomes": [
        [
-        "Felix Auger-Aliassime",
-        0.675
+        "UMass",
+        0.7015
        ],
        [
-        "Karen Khachanov",
-        0.325
+        "Rutgers",
+        0.2985
        ]
       ],
-      "volume24hr": 837988.546808
+      "volume24hr": 86221.50157100003
      },
      "market_gap": false
     },
     {
-     "key": "alexandra eala",
-     "name": "alexandra eala",
-     "entity": "Alexandra Eala",
-     "league": "Tennis",
-     "score": 35,
+     "key": "colorado",
+     "name": "Colorado",
+     "entity": "Colorado Buffaloes",
+     "league": "College Football",
+     "score": 67,
      "score_breakdown": {
-      "velocity": 6.6,
+      "velocity": 21.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 8.0,
+      "early_bonus": 10
+     },
+     "early": true,
+     "new_on_x": true,
+     "why_now": "Colorado and Georgia Tech both trending; likely Week 1 college football matchup or coaching/player storyline.",
+     "angle": "Early signal on a major college football game; monitor for viral moment or upset narrative.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-09-03T23:50:37Z",
+     "example_tweets": [],
+     "market": {
+      "question": "Colorado vs. Georgia Tech",
+      "url": "https://polymarket.com/event/cfb-col-gtech-2026-09-03",
+      "outcomes": [
+       [
+        "Colorado",
+        0.315
+       ],
+       [
+        "Georgia Tech",
+        0.685
+       ]
+      ],
+      "volume24hr": 24014.525423999996
+     },
+     "market_gap": false
+    },
+    {
+     "key": "greg schiano",
+     "name": "Greg Schiano",
+     "entity": "Greg Schiano",
+     "league": "College Football",
+     "score": 53,
+     "score_breakdown": {
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 10
+     },
+     "early": true,
+     "new_on_x": true,
+     "why_now": "Rutgers football coach trending alongside UMass and Minutemen; likely Week 1 game or coaching decision.",
+     "angle": "Coach storyline or team performance angle; position as insider take on Rutgers' season opener.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-09-03T23:50:37Z",
+     "example_tweets": [],
+     "market": {
+      "question": "UMass vs. Rutgers",
+      "url": "https://polymarket.com/event/cfb-umass-rutger-2026-09-03",
+      "outcomes": [
+       [
+        "UMass",
+        0.7015
+       ],
+       [
+        "Rutgers",
+        0.2985
+       ]
+      ],
+      "volume24hr": 86221.50157100003
+     },
+     "market_gap": false
+    },
+    {
+     "key": "cj carr",
+     "name": "cj carr",
+     "entity": "CJ Carr",
+     "league": "College Football",
+     "score": 33,
+     "score_breakdown": {
+      "velocity": 5.4,
       "cross_platform": 8,
       "freshness": 20,
       "engagement": 0.0,
@@ -119,98 +141,12 @@
      },
      "early": false,
      "new_on_x": false,
-     "why_now": "Filipino tennis star at US Open with loud fan support; trending on Google with news coverage of her tournament run and fan engagement.",
-     "angle": "Highlight the underdog story and passionate fanbase (Queens neighborhood support) to drive engagement beyond traditional tennis audiences.",
+     "why_now": "Notre Dame QB and Michigan legacy; Heisman candidate and title-drought narrative.",
+     "angle": "Dynasty/legacy angle; position as heir to Michigan football tradition.",
      "sources": [
       "google"
      ],
-     "first_seen": "2026-09-03T19:42:54Z",
-     "example_tweets": [],
-     "market": {
-      "question": "US Open WTA: Oleksandra Oliynykova vs Alexandra Eala",
-      "url": "https://polymarket.com/event/wta-oliynyk-eala-2026-09-03",
-      "outcomes": [
-       [
-        "Oleksandra Oliynykova",
-        0.5
-       ],
-       [
-        "Alexandra Eala",
-        0.5
-       ]
-      ],
-      "volume24hr": 44998.840302
-     },
-     "market_gap": false
-    },
-    {
-     "key": "madison keys",
-     "name": "Madison Keys",
-     "entity": "Madison Keys",
-     "league": "Tennis",
-     "score": 23,
-     "score_breakdown": {
-      "velocity": 15.0,
-      "cross_platform": 8,
-      "freshness": 0,
-      "engagement": 0.0,
-      "early_bonus": 0
-     },
-     "early": false,
-     "new_on_x": true,
-     "why_now": "US Open WTA player trending; likely a match result, upset, or viral moment from the tournament currently underway.",
-     "angle": "Capture the specific match narrative (upset win, comeback, rivalry angle) and ride the US Open momentum with real-time fan engagement.",
-     "sources": [
-      "x",
-      "trends24"
-     ],
-     "first_seen": "2026-09-01T17:12:41Z",
-     "example_tweets": [],
-     "market": {
-      "question": "US Open WTA: Madison Keys vs Anna Bondar",
-      "url": "https://polymarket.com/event/wta-keys-bondar-2026-09-02",
-      "outcomes": [
-       [
-        "Madison Keys",
-        0.72
-       ],
-       [
-        "Anna Bondar",
-        0.28
-       ]
-      ],
-      "volume24hr": 338625.22771199996
-     },
-     "market_gap": false
-    }
-   ]
-  },
-  {
-   "league": "Motorsports",
-   "activity": 43,
-   "trends": [
-    {
-     "key": "riley herbst",
-     "name": "Riley Herbst",
-     "entity": "Riley Herbst",
-     "league": "Motorsports",
-     "score": 43,
-     "score_breakdown": {
-      "velocity": 15.0,
-      "cross_platform": 8,
-      "freshness": 20,
-      "engagement": 0.0,
-      "early_bonus": 0
-     },
-     "early": false,
-     "new_on_x": true,
-     "why_now": "NASCAR driver spiking in trends; likely a recent race result, crash, or on-track incident.",
-     "angle": "Capture the specific race moment or driver storyline and engage motorsports fans with real-time updates.",
-     "sources": [
-      "x",
-      "trends24"
-     ],
-     "first_seen": "2026-09-03T19:42:54Z",
+     "first_seen": "2026-09-03T23:50:37Z",
      "example_tweets": [],
      "market": null,
      "market_gap": true
@@ -219,13 +155,194 @@
   },
   {
    "league": "Other Sports",
+   "activity": 139,
+   "trends": [
+    {
+     "key": "pop watson",
+     "name": "Pop Watson",
+     "entity": "Pop Watson",
+     "league": "Other Sports",
+     "score": 53,
+     "score_breakdown": {
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 10
+     },
+     "early": true,
+     "new_on_x": true,
+     "why_now": "Spiking on X with no major news coverage; likely emerging athlete or viral sports moment on social media.",
+     "angle": "Niche athlete or breakout moment; ride the early buzz before traditional media catches on.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-09-03T23:50:37Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    },
+    {
+     "key": "justplay",
+     "name": "#JustPlay",
+     "entity": "#JustPlay",
+     "league": "Other Sports",
+     "score": 53,
+     "score_breakdown": {
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 10
+     },
+     "early": true,
+     "new_on_x": true,
+     "why_now": "Sports-adjacent hashtag; likely youth sports or grassroots movement.",
+     "angle": "Early signal on sports participation trend; monitor for viral campaign or movement.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-09-03T23:50:37Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    },
+    {
+     "key": "fiba women s basketball world cup",
+     "name": "fiba women's basketball world cup",
+     "entity": "2026 FIBA Women's World Cup",
+     "league": "Other Sports",
+     "score": 33,
+     "score_breakdown": {
+      "velocity": 5.4,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 0
+     },
+     "early": false,
+     "new_on_x": false,
+     "why_now": "Caitlin Clark making World Cup debut with Team USA; major tournament and star player storyline.",
+     "angle": "Star player debut angle; position as international showcase for rising talent.",
+     "sources": [
+      "google"
+     ],
+     "first_seen": "2026-09-03T23:50:37Z",
+     "example_tweets": [],
+     "market": {
+      "question": "Will Ann Li win the 2026 Women’s US Open?",
+      "url": "https://polymarket.com/event/2026-womens-us-open-winner-tennis",
+      "outcomes": [
+       [
+        "Yes",
+        0.0015
+       ],
+       [
+        "No",
+        0.9985
+       ]
+      ],
+      "volume24hr": 35486.810000000005
+     },
+     "market_gap": false
+    }
+   ]
+  },
+  {
+   "league": "Tennis",
+   "activity": 68,
+   "trends": [
+    {
+     "key": "badosa tennis",
+     "name": "badosa tennis",
+     "entity": "Paula Badosa",
+     "league": "Tennis",
+     "score": 34,
+     "score_breakdown": {
+      "velocity": 6.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 0
+     },
+     "early": false,
+     "new_on_x": false,
+     "why_now": "US Open WTA match vs. Coco Gauff; personal life and career comeback storyline.",
+     "angle": "Comeback narrative or personal drama angle; position as resilience story.",
+     "sources": [
+      "google"
+     ],
+     "first_seen": "2026-09-03T23:50:37Z",
+     "example_tweets": [],
+     "market": {
+      "question": "US Open WTA: Paula Badosa vs Coco Gauff",
+      "url": "https://polymarket.com/event/wta-badosa-gauff-2026-09-03",
+      "outcomes": [
+       [
+        "Paula Badosa",
+        0.225
+       ],
+       [
+        "Coco Gauff",
+        0.775
+       ]
+      ],
+      "volume24hr": 334631.45721699996
+     },
+     "market_gap": false
+    },
+    {
+     "key": "learner tien",
+     "name": "learner tien",
+     "entity": "Learner Tien",
+     "league": "Tennis",
+     "score": 34,
+     "score_breakdown": {
+      "velocity": 6.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 0
+     },
+     "early": false,
+     "new_on_x": false,
+     "why_now": "US Open R2 match vs. Gael Monfils; rising young player storyline in major tournament.",
+     "angle": "Breakout young talent angle; position as underdog or future star narrative.",
+     "sources": [
+      "google"
+     ],
+     "first_seen": "2026-09-03T23:50:37Z",
+     "example_tweets": [],
+     "market": {
+      "question": "US Open ATP: Gael Monfils vs Learner Tien",
+      "url": "https://polymarket.com/event/atp-monfils-tien-2026-09-03",
+      "outcomes": [
+       [
+        "Gael Monfils",
+        0.09
+       ],
+       [
+        "Learner Tien",
+        0.91
+       ]
+      ],
+      "volume24hr": 360962.18645400024
+     },
+     "market_gap": false
+    }
+   ]
+  },
+  {
+   "league": "NFL",
    "activity": 43,
    "trends": [
     {
-     "key": "coach wiebe",
-     "name": "coach wiebe",
-     "entity": "Coach Wiebe",
-     "league": "Other Sports",
+     "key": "michael lombardi",
+     "name": "Michael Lombardi",
+     "entity": "Michael Lombardi",
+     "league": "NFL",
      "score": 43,
      "score_breakdown": {
       "velocity": 15.0,
@@ -236,16 +353,61 @@
      },
      "early": false,
      "new_on_x": true,
-     "why_now": "Coach trending; likely a viral moment, quote, or team-related news driving discussion.",
-     "angle": "Identify the specific coaching moment or team storyline and amplify among niche sports communities.",
+     "why_now": "NFL analyst/insider trending; likely commentary on Week 1 NFL games or roster moves.",
+     "angle": "Leverage analyst take on NFL storyline; use for expert commentary content.",
      "sources": [
       "x",
       "trends24"
      ],
-     "first_seen": "2026-09-03T19:42:54Z",
+     "first_seen": "2026-09-03T23:50:37Z",
      "example_tweets": [],
      "market": null,
      "market_gap": true
+    }
+   ]
+  },
+  {
+   "league": "MLB",
+   "activity": 34,
+   "trends": [
+    {
+     "key": "adley rutschman",
+     "name": "adley rutschman",
+     "entity": "Adley Rutschman",
+     "league": "MLB",
+     "score": 34,
+     "score_breakdown": {
+      "velocity": 6.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 0
+     },
+     "early": false,
+     "new_on_x": false,
+     "why_now": "Orioles catcher returning to Baltimore as Red Sox player; late-season wild-card race storyline.",
+     "angle": "Emotional homecoming angle; position as redemption or rivalry narrative in playoff race.",
+     "sources": [
+      "google"
+     ],
+     "first_seen": "2026-09-03T23:50:37Z",
+     "example_tweets": [],
+     "market": {
+      "question": "Boston Red Sox vs. Baltimore Orioles",
+      "url": "https://polymarket.com/event/mlb-bos-bal-2026-09-03",
+      "outcomes": [
+       [
+        "Boston Red Sox",
+        0.495
+       ],
+       [
+        "Baltimore Orioles",
+        0.505
+       ]
+      ],
+      "volume24hr": 286822.245249
+     },
+     "market_gap": false
     }
    ]
   }
@@ -255,7 +417,7 @@
   "trends24": "ok (2 snapshots)",
   "google_trends": "ok (10 items)",
   "gamma_api": "ok (500 markets)",
-  "llm": "ok (16 enriched)",
+  "llm": "ok (49 enriched)",
   "slack": "error: HTTP Error 404: Not Found"
  },
  "x_budget": {
@@ -284,7 +446,7 @@
  "stats": {
   "newly_enriched": 49,
   "cache_hits": 11,
-  "suppressed": 2,
-  "discarded_non_sports": 51
+  "suppressed": 1,
+  "discarded_non_sports": 45
  }
 }
