@@ -1291,7 +1291,7 @@
   },
   "chump": {
    "first_seen": "2026-08-27T14:04:23Z",
-   "last_seen": "2026-09-03T16:57:42Z",
+   "last_seen": "2026-09-04T19:20:09Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -1301,14 +1301,14 @@
     "sports": false,
     "league": null,
     "obvious": false,
-    "early": false,
-    "entity": "$CHUMP",
-    "why_now": "Stock ticker or meme token; financial/crypto trend unrelated to sports.",
-    "angle": null,
+    "early": true,
+    "entity": "$CHUMP (crypto/political meme)",
+    "why_now": "Spiking on X/Trends24 at rank 1; driver unconfirmed—likely political or crypto-related meme, not sports.",
+    "angle": "Monitor for sports-adjacent angle (athlete endorsement, betting culture tie-in); currently non-sports.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-09-03T16:57:42Z"
+   "enriched_at": "2026-09-04T19:20:09Z"
   },
   "patriots depth chart": {
    "first_seen": "2026-08-28T01:20:43Z",
@@ -13370,24 +13370,24 @@
   },
   "jury": {
    "first_seen": "2026-09-01T17:12:41Z",
-   "last_seen": "2026-09-01T17:12:41Z",
+   "last_seen": "2026-09-04T19:20:09Z",
    "sources_seen": [
     "trends24",
     "x"
    ],
    "enrichment": {
     "key": "jury",
-    "sports": false,
-    "league": null,
+    "sports": true,
+    "league": "Other Sports",
     "obvious": false,
-    "early": false,
-    "entity": "Jury",
-    "why_now": "Trending #26 on X; no sports connection identified.",
-    "angle": "Not sports-related; discard.",
-    "duplicate_of": null,
+    "early": true,
+    "entity": "Jury (sports meme/voting reference)",
+    "why_now": "Trending alongside '12 Angry Men', '#IamTheHoldout', 'Defense'—likely sports-adjacent meme about jury-like voting or holdout culture.",
+    "angle": "Identify the sports voting/holdout moment; ride the '12 Angry Men' cultural reference.",
+    "duplicate_of": "iamtheholdout",
     "market_id": null
    },
-   "enriched_at": "2026-09-01T17:12:41Z"
+   "enriched_at": "2026-09-04T19:20:09Z"
   },
   "sadie sink": {
    "first_seen": "2026-09-01T17:12:41Z",
@@ -21680,7 +21680,7 @@
   },
   "ngri": {
    "first_seen": "2026-09-03T23:50:37Z",
-   "last_seen": "2026-09-03T23:50:37Z",
+   "last_seen": "2026-09-04T19:20:09Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -21690,14 +21690,14 @@
     "sports": false,
     "league": null,
     "obvious": false,
-    "early": false,
-    "entity": "NGRI",
-    "why_now": "Ambiguous acronym; no sports connection evident.",
-    "angle": "Not sports-related; exclude from Trend Radar.",
+    "early": true,
+    "entity": "NGRI (legal/medical term—Not Guilty by Reason of Insanity)",
+    "why_now": "Legal term trending alongside jury/defense terms; no sports connection.",
+    "angle": "Not sports-related.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-09-03T23:50:37Z"
+   "enriched_at": "2026-09-04T19:20:09Z"
   },
   "juror": {
    "first_seen": "2026-09-03T23:50:37Z",
@@ -22531,24 +22531,24 @@
   },
   "kanye": {
    "first_seen": "2026-09-04T07:48:17Z",
-   "last_seen": "2026-09-04T07:48:17Z",
+   "last_seen": "2026-09-04T19:20:09Z",
    "sources_seen": [
     "trends24",
     "x"
    ],
    "enrichment": {
     "key": "kanye",
-    "sports": false,
-    "league": null,
+    "sports": true,
+    "league": "Other Sports",
     "obvious": false,
     "early": false,
-    "entity": "Kanye West",
-    "why_now": "Music/entertainment; no sports connection.",
-    "angle": "Not sports-related; exclude.",
+    "entity": "Kanye West (musician/sports-adjacent figure)",
+    "why_now": "Kanye trending; likely sports-adjacent via athlete endorsement, sports betting, or sports event appearance.",
+    "angle": "Determine the sports hook (athlete collaboration, sports event appearance); position as culture-crossover moment.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-09-04T07:48:17Z"
+   "enriched_at": "2026-09-04T19:20:09Z"
   },
   "barrett hoh": {
    "first_seen": "2026-09-04T07:48:17Z",
@@ -23256,7 +23256,7 @@
   },
   "ben simmons": {
    "first_seen": "2026-09-04T16:46:47Z",
-   "last_seen": "2026-09-04T16:46:47Z",
+   "last_seen": "2026-09-04T19:20:09Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -23467,7 +23467,7 @@
   },
   "kings": {
    "first_seen": "2026-09-04T16:46:47Z",
-   "last_seen": "2026-09-04T16:46:47Z",
+   "last_seen": "2026-09-04T19:20:09Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -23509,7 +23509,7 @@
   },
   "nneka": {
    "first_seen": "2026-09-04T16:46:47Z",
-   "last_seen": "2026-09-04T16:46:47Z",
+   "last_seen": "2026-09-04T19:20:09Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -24107,6 +24107,584 @@
     "market_id": "4176081"
    },
    "enriched_at": "2026-09-04T16:46:47Z"
+  },
+  "bluewavein60days": {
+   "first_seen": "2026-09-04T19:20:09Z",
+   "last_seen": "2026-09-04T19:20:09Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "bluewavein60days",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "#BlueWaveIn60Days (political hashtag)",
+    "why_now": "Political trending hashtag; no sports connection detected.",
+    "angle": "Not sports-related; skip unless athlete political activism emerges.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-04T19:20:09Z"
+  },
+  "michael cohen": {
+   "first_seen": "2026-09-04T19:20:09Z",
+   "last_seen": "2026-09-04T19:20:09Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "michael cohen",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Michael Cohen (political figure)",
+    "why_now": "Legal/political news trending; no sports angle.",
+    "angle": "Not sports-related.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-04T19:20:09Z"
+  },
+  "raindelayquestions": {
+   "first_seen": "2026-09-04T19:20:09Z",
+   "last_seen": "2026-09-04T19:20:09Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "raindelayquestions",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": false,
+    "early": true,
+    "entity": "Rain delay (baseball/cricket event)",
+    "why_now": "#raindelayquestions trending—suggests a specific rain delay moment with fan engagement/memes, not just weather.",
+    "angle": "Capture the viral fan reaction/memes from the delay; position as real-time sports culture moment.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-04T19:20:09Z"
+  },
+  "iamtheholdout": {
+   "first_seen": "2026-09-04T19:20:09Z",
+   "last_seen": "2026-09-04T19:20:09Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "iamtheholdout",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": false,
+    "early": true,
+    "entity": "#IamTheHoldout (jury/sports reference)",
+    "why_now": "Hashtag trending alongside jury/legal terms; likely sports-adjacent meme referencing '12 Angry Men' jury holdout trope applied to sports fandom or athlete contract negotiation.",
+    "angle": "Identify the specific sports moment (holdout player, jury-like fan vote, or sports meme); ride the cultural reference early.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-04T19:20:09Z"
+  },
+  "cathy engelbert": {
+   "first_seen": "2026-09-04T19:20:09Z",
+   "last_seen": "2026-09-04T19:20:09Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "cathy engelbert",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": false,
+    "early": true,
+    "entity": "Cathy Engelbert (WNBA Commissioner)",
+    "why_now": "WNBA Commissioner trending; likely tied to a league announcement, controversy, or player/team news.",
+    "angle": "Determine the specific WNBA news driver; position as women's basketball culture moment.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-04T19:20:09Z"
+  },
+  "ma supreme court": {
+   "first_seen": "2026-09-04T19:20:09Z",
+   "last_seen": "2026-09-04T19:20:09Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "ma supreme court",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "MA Supreme Court (legal body)",
+    "why_now": "Legal news trending; no sports connection.",
+    "angle": "Not sports-related.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-04T19:20:09Z"
+  },
+  "kong": {
+   "first_seen": "2026-09-04T19:20:09Z",
+   "last_seen": "2026-09-04T19:20:09Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "kong",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Kong (unclear—likely movie/game, not sports)",
+    "why_now": "Spiking on X/Trends24; driver unconfirmed—likely entertainment, not sports.",
+    "angle": "Monitor for sports crossover (athlete cameo, sports betting tie-in); currently non-sports.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-04T19:20:09Z"
+  },
+  "pegula": {
+   "first_seen": "2026-09-04T19:20:09Z",
+   "last_seen": "2026-09-04T19:20:09Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "pegula",
+    "sports": true,
+    "league": "Tennis",
+    "obvious": false,
+    "early": false,
+    "entity": "Jessica Pegula (US Open tennis player)",
+    "why_now": "Pegula trending at rank 24, up from rank 17; US Open WTA tournament ongoing—likely a match result, upset, or viral moment.",
+    "angle": "Highlight the specific match moment or personal storyline (not just 'Pegula played'); tie to broader US Open narrative.",
+    "duplicate_of": null,
+    "market_id": "1088661"
+   },
+   "enriched_at": "2026-09-04T19:20:09Z"
+  },
+  "dumfries": {
+   "first_seen": "2026-09-04T19:20:09Z",
+   "last_seen": "2026-09-04T19:20:09Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "dumfries",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": true,
+    "entity": "Denzel Dumfries (Dutch footballer)",
+    "why_now": "Soccer player trending; likely tied to a match, transfer, or international play moment.",
+    "angle": "Identify the specific match or transfer news; position as European soccer culture moment.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-04T19:20:09Z"
+  },
+  "thrashers": {
+   "first_seen": "2026-09-04T19:20:09Z",
+   "last_seen": "2026-09-04T19:20:09Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "thrashers",
+    "sports": true,
+    "league": "NHL",
+    "obvious": false,
+    "early": true,
+    "entity": "Atlanta Thrashers (NHL team)",
+    "why_now": "NHL team trending; likely tied to relocation news, anniversary, or return-to-Atlanta speculation.",
+    "angle": "Determine if this is relocation news, nostalgia moment, or franchise return speculation; position as hockey culture story.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-04T19:20:09Z"
+  },
+  "the 11": {
+   "first_seen": "2026-09-04T19:20:09Z",
+   "last_seen": "2026-09-04T19:20:09Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "the 11",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": false,
+    "early": true,
+    "entity": "The 11 (sports reference—likely jury/team reference)",
+    "why_now": "Trending alongside jury/legal terms and '12 Angry Men'; likely sports meme about 11-player teams or jury-like voting.",
+    "angle": "Identify the specific sports moment (team vote, jury-like decision); position as niche sports culture meme.",
+    "duplicate_of": "iamtheholdout",
+    "market_id": null
+   },
+   "enriched_at": "2026-09-04T19:20:09Z"
+  },
+  "dawson": {
+   "first_seen": "2026-09-04T19:20:09Z",
+   "last_seen": "2026-09-04T19:20:09Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "dawson",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": false,
+    "early": true,
+    "entity": "Dawson (athlete or sports figure—unclear)",
+    "why_now": "Trending; likely athlete or coach with recent news/moment.",
+    "angle": "Determine the specific athlete and moment; position accordingly.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-04T19:20:09Z"
+  },
+  "defense": {
+   "first_seen": "2026-09-04T19:20:09Z",
+   "last_seen": "2026-09-04T19:20:09Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "defense",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": false,
+    "early": true,
+    "entity": "Defense (jury/legal reference in sports context)",
+    "why_now": "Trending alongside jury/legal terms; likely sports meme about jury-like voting or legal defense in sports context.",
+    "angle": "Identify the sports moment; position as culture-crossover meme.",
+    "duplicate_of": "iamtheholdout",
+    "market_id": null
+   },
+   "enriched_at": "2026-09-04T19:20:09Z"
+  },
+  "12 angry men": {
+   "first_seen": "2026-09-04T19:20:09Z",
+   "last_seen": "2026-09-04T19:20:09Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "12 angry men",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": false,
+    "early": true,
+    "entity": "12 Angry Men (jury/sports meme reference)",
+    "why_now": "Trending alongside jury/holdout/defense terms; likely sports meme applying jury deliberation trope to sports voting, holdout, or team decision.",
+    "angle": "Identify the sports moment driving the '12 Angry Men' meme; position as viral culture-crossover moment.",
+    "duplicate_of": "iamtheholdout",
+    "market_id": null
+   },
+   "enriched_at": "2026-09-04T19:20:09Z"
+  },
+  "disbar": {
+   "first_seen": "2026-09-04T19:20:09Z",
+   "last_seen": "2026-09-04T19:20:09Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "disbar",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Disbar (legal term)",
+    "why_now": "Legal news trending; no sports connection.",
+    "angle": "Not sports-related.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-04T19:20:09Z"
+  },
+  "smash 6": {
+   "first_seen": "2026-09-04T19:20:09Z",
+   "last_seen": "2026-09-04T19:20:09Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "smash 6",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Smash 6 (video game—Super Smash Bros)",
+    "why_now": "Gaming trending; not sports.",
+    "angle": "Not sports-related.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-04T19:20:09Z"
+  },
+  "casey anthony": {
+   "first_seen": "2026-09-04T19:20:09Z",
+   "last_seen": "2026-09-04T19:20:09Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "casey anthony",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Casey Anthony (legal case figure)",
+    "why_now": "Legal/true crime trending; no sports connection.",
+    "angle": "Not sports-related.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-04T19:20:09Z"
+  },
+  "xenoblade": {
+   "first_seen": "2026-09-04T19:20:09Z",
+   "last_seen": "2026-09-04T19:20:09Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "xenoblade",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Xenoblade (video game)",
+    "why_now": "Gaming trending; not sports.",
+    "angle": "Not sports-related.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-04T19:20:09Z"
+  },
+  "aryna sabalenka kamilla rakhimova match": {
+   "first_seen": "2026-09-04T19:20:09Z",
+   "last_seen": "2026-09-04T19:20:09Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "aryna sabalenka kamilla rakhimova match",
+    "sports": true,
+    "league": "Tennis",
+    "obvious": true,
+    "early": false,
+    "entity": "Aryna Sabalenka vs Kamilla Rakhimova (US Open)",
+    "why_now": "US Open WTA match result: Sabalenka won in 53 minutes; also reporter question about partying post-match.",
+    "angle": "The viral angle is Sabalenka's post-match comment firing back at reporter about partying—not just the scoreline.",
+    "duplicate_of": null,
+    "market_id": "4206023"
+   },
+   "enriched_at": "2026-09-04T19:20:09Z"
+  },
+  "alcohol and breast cancer": {
+   "first_seen": "2026-09-04T19:20:09Z",
+   "last_seen": "2026-09-04T19:20:09Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "alcohol and breast cancer",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Alcohol and breast cancer (health study)",
+    "why_now": "Health/medical news trending; no sports connection.",
+    "angle": "Not sports-related.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-04T19:20:09Z"
+  },
+  "psg mónaco": {
+   "first_seen": "2026-09-04T19:20:09Z",
+   "last_seen": "2026-09-04T19:20:09Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "psg mónaco",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": true,
+    "early": false,
+    "entity": "PSG vs AS Monaco (Ligue 1)",
+    "why_now": "Scheduled Ligue 1 match on 2026-09-04; Eric Dier quote about timing/PSG mentioned in news.",
+    "angle": "If there's a specific Dier quote or storyline beyond the fixture, highlight it; otherwise suppress as obvious pre-game.",
+    "duplicate_of": null,
+    "market_id": "3774245"
+   },
+   "enriched_at": "2026-09-04T19:20:09Z"
+  },
+  "stuttgart fc": {
+   "first_seen": "2026-09-04T19:20:09Z",
+   "last_seen": "2026-09-04T19:20:09Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "stuttgart fc",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": true,
+    "early": false,
+    "entity": "VfB Stuttgart vs FC Cologne (Bundesliga)",
+    "why_now": "Scheduled Bundesliga match on 2026-09-04; news titles are match logistics and how-to-watch.",
+    "angle": "Suppress as obvious pre-game fixture unless a specific moment/storyline emerges.",
+    "duplicate_of": null,
+    "market_id": "3772656"
+   },
+   "enriched_at": "2026-09-04T19:20:09Z"
+  },
+  "genoa como": {
+   "first_seen": "2026-09-04T19:20:09Z",
+   "last_seen": "2026-09-04T19:20:09Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "genoa como",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": true,
+    "early": false,
+    "entity": "Genoa vs Como (Serie A)",
+    "why_now": "Scheduled Serie A match on 2026-09-04; news titles are match logistics and lineups.",
+    "angle": "Suppress as obvious pre-game fixture unless a specific storyline emerges.",
+    "duplicate_of": null,
+    "market_id": "3770180"
+   },
+   "enriched_at": "2026-09-04T19:20:09Z"
+  },
+  "porto vs moreirense": {
+   "first_seen": "2026-09-04T19:20:09Z",
+   "last_seen": "2026-09-04T19:20:09Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "porto vs moreirense",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": true,
+    "early": false,
+    "entity": "FC Porto vs Moreirense (Portuguese Primeira Liga)",
+    "why_now": "Scheduled match on 2026-09-04; news titles are match logistics and lineups.",
+    "angle": "Suppress as obvious pre-game fixture unless a specific storyline emerges.",
+    "duplicate_of": null,
+    "market_id": "3955142"
+   },
+   "enriched_at": "2026-09-04T19:20:09Z"
+  },
+  "real madrid vs real betis": {
+   "first_seen": "2026-09-04T19:20:09Z",
+   "last_seen": "2026-09-04T19:20:09Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "real madrid vs real betis",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": true,
+    "early": false,
+    "entity": "Real Madrid vs Real Betis (La Liga)",
+    "why_now": "Scheduled La Liga match on 2026-09-04; news titles are match logistics and lineups.",
+    "angle": "Suppress as obvious pre-game fixture unless a specific storyline emerges.",
+    "duplicate_of": null,
+    "market_id": "3775011"
+   },
+   "enriched_at": "2026-09-04T19:20:09Z"
+  },
+  "al hilal": {
+   "first_seen": "2026-09-04T19:20:09Z",
+   "last_seen": "2026-09-04T19:20:09Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "al hilal",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": false,
+    "entity": "Gabriel Martinelli transfer to Al Hilal",
+    "why_now": "Gabriel Martinelli leaves Arsenal for Al Hilal in £60m deal; farewell post omits Mikel Arteta—suggests tension/discomfort.",
+    "angle": "Highlight the drama: Martinelli's omission of Arteta in farewell post signals relationship friction; position as transfer drama story.",
+    "duplicate_of": null,
+    "market_id": "3784933"
+   },
+   "enriched_at": "2026-09-04T19:20:09Z"
+  },
+  "medvedev": {
+   "first_seen": "2026-09-04T19:20:09Z",
+   "last_seen": "2026-09-04T19:20:09Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "medvedev",
+    "sports": true,
+    "league": "Tennis",
+    "obvious": false,
+    "early": false,
+    "entity": "Daniil Medvedev (US Open tennis)",
+    "why_now": "US Open ATP match: Medvedev vs Rinderknech; news titles focus on Shapovalov vs Shelton 'lefty, big-hitting battle'—Medvedev trending as part of broader US Open narrative.",
+    "angle": "Determine Medvedev's specific match moment or storyline; position within US Open tournament narrative.",
+    "duplicate_of": null,
+    "market_id": "4177013"
+   },
+   "enriched_at": "2026-09-04T19:20:09Z"
+  },
+  "al ahli vs al riyadh": {
+   "first_seen": "2026-09-04T19:20:09Z",
+   "last_seen": "2026-09-04T19:20:09Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "al ahli vs al riyadh",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": true,
+    "early": false,
+    "entity": "Al Ahli vs Al Riyadh (Saudi Pro League)",
+    "why_now": "Scheduled Saudi Pro League match on 2026-09-04; Tony leading Al Ahli's attack—match logistics.",
+    "angle": "Suppress as obvious pre-game fixture unless a specific storyline emerges.",
+    "duplicate_of": null,
+    "market_id": "3784928"
+   },
+   "enriched_at": "2026-09-04T19:20:09Z"
   }
  },
  "x_usage": {
@@ -24120,98 +24698,58 @@
   "2026-09-04": 0
  },
  "prev_x_trends": [
-  "Reddington",
-  "Mistrial",
-  "Ben Simmons",
-  "#วาดฝันวันวิวาห์ตอนจบ",
-  "LINGORM ILF FINAL EP",
-  "Labor Day",
-  "Cathy",
+  "$CHUMP",
   "Lindsay Clancy",
-  "Zelda",
   "Massachusetts",
-  "Maria",
-  "GAME DAY",
-  "Good Friday",
-  "Fox News",
-  "#FursuitFriday",
-  "Judge Sullivan",
-  "Monado",
-  "Kings",
-  "#LastFourWatched",
-  "Juror",
-  "Falklands",
-  "Nneka",
-  "3D Mario",
-  "Team USA",
+  "Reddington",
+  "Labor Day",
+  "Mistrial",
   "Fetterman",
-  "Happy Friyay",
-  "#LetterboxdFriday",
-  "Dayo",
-  "Beyoncé",
-  "Not Guilty",
-  "WNBA Commissioner",
-  "Coin",
-  "Runch and Neen",
-  "#CollegeColorsDay",
-  "Bandcamp Friday",
-  "Perot",
-  "RED Friday",
-  "Ling and Orm",
-  "Godzilla",
-  "NHTSA",
-  "Shabbat Shalom",
-  "hyuna",
-  "Strahan",
-  "Leroy Brown",
   "Root",
-  "Ocarina of Time",
+  "Zelda",
+  "#BlueWaveIn60Days",
+  "Michael Cohen",
+  "LINGORM ILF FINAL EP",
+  "#วาดฝันวันวิวาห์ตอนจบ",
+  "Ben Simmons",
+  "#raindelayquestions",
+  "Judge Sullivan",
+  "#IamTheHoldout",
+  "Cathy Engelbert",
+  "#FursuitFriday",
+  "Juror",
+  "MA Supreme Court",
+  "Maria",
+  "Kong",
+  "Pegula",
+  "NHTSA",
+  "3D Mario",
+  "Nneka",
+  "Shabbat Shalom",
+  "Coin",
+  "Monado",
+  "Not Guilty",
+  "Dumfries",
+  "Kanye",
+  "NGRI",
+  "Beyoncé",
+  "Jury",
+  "Thrashers",
+  "The 11",
+  "Dawson",
+  "Defense",
+  "12 Angry Men",
   "Supreme Judicial Court",
-  "Newsmax",
-  "Maxima",
-  "Cybercab"
+  "Falklands",
+  "Disbar",
+  "GAME DAY",
+  "Perot",
+  "Kings",
+  "Smash 6",
+  "Casey Anthony",
+  "Xenoblade"
  ],
  "suppressed": [
-  {
-   "key": "olimpia vasco da gama",
-   "reason": "Duplicate of olimpia vs vasco; same Copa Sudamericana match.",
-   "at": "2026-08-20T22:29:52Z"
-  },
-  {
-   "key": "yankees vs orioles prediction",
-   "reason": "Generic pre-game prediction search; no specific viral moment or storyline evident.",
-   "at": "2026-08-20T22:29:52Z"
-  },
-  {
-   "key": "raiders",
-   "reason": "Team name trending; no specific moment or storyline evident from co-trending data.",
-   "at": "2026-08-21T03:52:07Z"
-  },
-  {
-   "key": "texans",
-   "reason": "Team name trending; no specific moment or storyline evident from co-trending data.",
-   "at": "2026-08-21T03:52:07Z"
-  },
-  {
-   "key": "raidernation",
-   "reason": "Hashtag for Raiders fanbase; no specific moment or storyline evident.",
-   "at": "2026-08-21T03:52:07Z"
-  },
-  {
-   "key": "tnaimpact",
-   "reason": "Wrestling show hashtag; no specific moment or storyline evident.",
-   "at": "2026-08-21T03:52:07Z"
-  },
-  {
-   "key": "49ers vs los angeles chargers match player stats",
-   "reason": "Preseason game live score/stats search; no specific viral moment or storyline evident.",
-   "at": "2026-08-21T03:52:07Z"
-  },
-  {
-   "key": "game day",
-   "reason": "Generic Friday hashtag/phrase with no specific sports event or storyline.",
-   "at": "2026-08-21T13:47:52Z"
-  },
   {
    "key": "premier league",
    "reason": "Generic league name trending; likely pre-season or opening weekend activity (no specific storyline evident).",
@@ -25171,6 +25709,46 @@
    "key": "game day",
    "reason": "Generic Friday sports scheduling term; no specific moment.",
    "at": "2026-09-04T16:46:47Z"
+  },
+  {
+   "key": "game day",
+   "reason": "Generic Friday sports scheduling term; no specific moment.",
+   "at": "2026-09-04T19:20:09Z"
+  },
+  {
+   "key": "aryna sabalenka kamilla rakhimova match",
+   "reason": "US Open WTA match result: Sabalenka won in 53 minutes; also reporter question about partying post-match.",
+   "at": "2026-09-04T19:20:09Z"
+  },
+  {
+   "key": "psg mónaco",
+   "reason": "Scheduled Ligue 1 match on 2026-09-04; Eric Dier quote about timing/PSG mentioned in news.",
+   "at": "2026-09-04T19:20:09Z"
+  },
+  {
+   "key": "stuttgart fc",
+   "reason": "Scheduled Bundesliga match on 2026-09-04; news titles are match logistics and how-to-watch.",
+   "at": "2026-09-04T19:20:09Z"
+  },
+  {
+   "key": "genoa como",
+   "reason": "Scheduled Serie A match on 2026-09-04; news titles are match logistics and lineups.",
+   "at": "2026-09-04T19:20:09Z"
+  },
+  {
+   "key": "porto vs moreirense",
+   "reason": "Scheduled match on 2026-09-04; news titles are match logistics and lineups.",
+   "at": "2026-09-04T19:20:09Z"
+  },
+  {
+   "key": "real madrid vs real betis",
+   "reason": "Scheduled La Liga match on 2026-09-04; news titles are match logistics and lineups.",
+   "at": "2026-09-04T19:20:09Z"
+  },
+  {
+   "key": "al ahli vs al riyadh",
+   "reason": "Scheduled Saudi Pro League match on 2026-09-04; Tony leading Al Ahli's attack—match logistics.",
+   "at": "2026-09-04T19:20:09Z"
   }
  ],
  "slack_posted": {
