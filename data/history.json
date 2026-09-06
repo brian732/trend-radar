@@ -235,7 +235,7 @@
   },
   "good sunday": {
    "first_seen": "2026-07-12T14:27:04Z",
-   "last_seen": "2026-08-30T17:14:35Z",
+   "last_seen": "2026-09-06T16:01:10Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -243,16 +243,16 @@
    "enrichment": {
     "key": "good sunday",
     "sports": true,
-    "league": "Soccer",
+    "league": "Other Sports",
     "obvious": true,
     "early": false,
-    "entity": "Good Sunday",
-    "why_now": "Generic weekend greeting; no specific sports moment or storyline.",
-    "angle": "Too generic; suppress as obvious weekend chatter without actionable sports angle.",
+    "entity": "Sunday sports culture",
+    "why_now": "Generic weekend sports hashtag; no specific moment or storyline.",
+    "angle": "Too generic; suppress as obvious weekend sports chatter.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-08-30T17:14:35Z"
+   "enriched_at": "2026-09-06T16:01:10Z"
   },
   "wweraw": {
    "first_seen": "2026-07-14T05:33:55Z",
@@ -597,7 +597,7 @@
   },
   "everton": {
    "first_seen": "2026-08-22T17:22:28Z",
-   "last_seen": "2026-09-01T23:52:01Z",
+   "last_seen": "2026-09-06T16:01:10Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -607,14 +607,14 @@
     "sports": true,
     "league": "Soccer",
     "obvious": false,
-    "early": true,
-    "entity": "Everton FC",
-    "why_now": "Trending with no news; likely match result, transfer, or ownership news.",
-    "angle": "Monitor for EPL match result or transfer news; insufficient data to act.",
+    "early": false,
+    "entity": "Everton FC vs Manchester United",
+    "why_now": "Premier League match on 2026-09-06; #EVEMUN hashtag and player names (Pickford, Dalot, Shaw, Colwill) indicate live game with specific moments driving engagement.",
+    "angle": "Capture live match drama, standout player performances, and tactical moments as they unfold; tie to pre-game storylines around squad changes.",
     "duplicate_of": null,
-    "market_id": null
+    "market_id": "3829894"
    },
-   "enriched_at": "2026-09-01T23:52:01Z"
+   "enriched_at": "2026-09-06T16:01:10Z"
   },
   "bournemouth": {
    "first_seen": "2026-08-23T13:34:02Z",
@@ -678,48 +678,6 @@
     "market_id": null
    },
    "enriched_at": "2026-09-04T23:48:08Z"
-  },
-  "nascar": {
-   "first_seen": "2026-08-23T22:24:09Z",
-   "last_seen": "2026-08-30T09:00:30Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "nascar",
-    "sports": true,
-    "league": "Motorsports",
-    "obvious": false,
-    "early": false,
-    "entity": "NASCAR",
-    "why_now": "Co-trending with drivers (Preece, Blaney, Stenhouse) and Daytona; likely race event on 2026-08-30.",
-    "angle": "NASCAR race day coverage; driver spotlights and race predictions.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-30T09:00:30Z"
-  },
-  "blaney": {
-   "first_seen": "2026-08-23T22:24:09Z",
-   "last_seen": "2026-08-30T09:00:30Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "blaney",
-    "sports": true,
-    "league": "Motorsports",
-    "obvious": false,
-    "early": false,
-    "entity": "Ryan Blaney",
-    "why_now": "NASCAR driver co-trending with #NASCAR, Daytona, Ryan Preece, Stenhouse; racing event context.",
-    "angle": "NASCAR race coverage; tie to Daytona event or driver performance.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-30T09:00:30Z"
   },
   "will levis": {
    "first_seen": "2026-08-24T03:55:54Z",
@@ -1119,27 +1077,6 @@
    },
    "enriched_at": "2026-08-31T00:16:01Z"
   },
-  "daytona": {
-   "first_seen": "2026-08-29T00:53:06Z",
-   "last_seen": "2026-08-30T09:00:30Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "daytona",
-    "sports": true,
-    "league": "Motorsports",
-    "obvious": false,
-    "early": false,
-    "entity": "Daytona",
-    "why_now": "Co-trending with NASCAR drivers (Preece, Blaney, Stenhouse) and #NASCAR; race event context.",
-    "angle": "Daytona race day coverage; driver spotlights and race predictions.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-30T09:00:30Z"
-  },
   "palencia": {
    "first_seen": "2026-08-29T00:53:06Z",
    "last_seen": "2026-09-02T07:43:39Z",
@@ -1161,26 +1098,6 @@
    },
    "enriched_at": "2026-09-02T07:43:39Z"
   },
-  "themotleyfool": {
-   "first_seen": "2026-08-29T09:49:45Z",
-   "last_seen": "2026-08-30T09:00:30Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "themotleyfool",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": true,
-    "entity": "The Motley Fool",
-    "why_now": "Google search spike (100 traffic); financial advice articles; no sports signals.",
-    "angle": "Not sports-related; discard.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-30T09:00:30Z"
-  },
   "tashan jade": {
    "first_seen": "2026-08-29T17:01:33Z",
    "last_seen": "2026-09-02T17:03:09Z",
@@ -1201,27 +1118,6 @@
     "market_id": null
    },
    "enriched_at": "2026-09-02T17:03:09Z"
-  },
-  "mr fanboy chapter 1": {
-   "first_seen": "2026-08-29T17:01:33Z",
-   "last_seen": "2026-08-30T09:00:30Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "mr fanboy chapter 1",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": true,
-    "entity": "MR FANBOY CHAPTER 1",
-    "why_now": "Rank 33, climbing from 40; likely anime, manga, or gaming series; no sports signals.",
-    "angle": "Monitor for esports or gaming crossover.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-30T09:00:30Z"
   },
   "gemradar": {
    "first_seen": "2026-08-29T17:01:33Z",
@@ -1264,69 +1160,6 @@
     "market_id": null
    },
    "enriched_at": "2026-09-05T15:51:00Z"
-  },
-  "unlv": {
-   "first_seen": "2026-08-29T17:01:33Z",
-   "last_seen": "2026-08-30T09:00:30Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "unlv",
-    "sports": true,
-    "league": "College Football",
-    "obvious": false,
-    "early": false,
-    "entity": "UNLV Rebels",
-    "why_now": "Co-trending with Jackson Arnold, Charles Huff, Dan Mullen, Coach Huff, and betting promos (FanDuel, BetMGM); Week 0 college football game vs Memphis on 2026-08-30.",
-    "angle": "Ride the Week 0 hype with player spotlights (Arnold, Huff) and coach storylines (Mullen, Huff); betting angle strong.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-30T09:00:30Z"
-  },
-  "maniac opening nite": {
-   "first_seen": "2026-08-29T17:01:33Z",
-   "last_seen": "2026-08-30T09:00:30Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "maniac opening nite",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": true,
-    "entity": "MANIAC OPENING NITE",
-    "why_now": "Rank 29, climbing from 34; likely gaming, anime, or entertainment event; no sports signals.",
-    "angle": "Monitor for esports or gaming tournament angle.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-30T09:00:30Z"
-  },
-  "hawaii": {
-   "first_seen": "2026-08-29T17:01:33Z",
-   "last_seen": "2026-08-30T09:00:30Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "hawaii",
-    "sports": true,
-    "league": "College Football",
-    "obvious": false,
-    "early": false,
-    "entity": "Hawaii Rainbow Warriors",
-    "why_now": "Co-trending with Stanford and betting promos (Bet365, FanDuel); Week 0 game vs Stanford on 2026-08-30.",
-    "angle": "Week 0 matchup angle; tie to Stanford rivalry or coaching storyline.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-30T09:00:30Z"
   },
   "sankey": {
    "first_seen": "2026-08-29T17:01:33Z",
@@ -1391,27 +1224,6 @@
    },
    "enriched_at": "2026-09-05T07:29:52Z"
   },
-  "ndsu": {
-   "first_seen": "2026-08-29T17:01:33Z",
-   "last_seen": "2026-08-30T09:00:30Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "ndsu",
-    "sports": true,
-    "league": "College Football",
-    "obvious": false,
-    "early": false,
-    "entity": "North Dakota State Bison",
-    "why_now": "Rank 44, climbing from 47; likely Week 0 game or team news.",
-    "angle": "College football coverage; tie to game preview or team storyline.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-30T09:00:30Z"
-  },
   "fantasy pros": {
    "first_seen": "2026-08-29T17:01:33Z",
    "last_seen": "2026-09-02T23:54:35Z",
@@ -1453,174 +1265,6 @@
    },
    "enriched_at": "2026-09-05T07:29:52Z"
   },
-  "florida state": {
-   "first_seen": "2026-08-29T23:56:39Z",
-   "last_seen": "2026-08-30T09:00:30Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "florida state",
-    "sports": true,
-    "league": "College Football",
-    "obvious": false,
-    "early": false,
-    "entity": "Florida State Seminoles",
-    "why_now": "Rank 41, climbing from 39; likely Week 0 game or coaching news (Hugh Freeze connection).",
-    "angle": "College football storyline; tie to coach or player news.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-30T09:00:30Z"
-  },
-  "jackson arnold": {
-   "first_seen": "2026-08-30T09:00:30Z",
-   "last_seen": "2026-08-30T09:00:30Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "jackson arnold",
-    "sports": true,
-    "league": "College Football",
-    "obvious": false,
-    "early": false,
-    "entity": "Jackson Arnold",
-    "why_now": "UNLV QB trending alongside team, coach names, and betting promos; Week 0 game driver.",
-    "angle": "Feature emerging QB story in Week 0 coverage; tie to Mullen's coaching narrative.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-30T09:00:30Z"
-  },
-  "melody": {
-   "first_seen": "2026-08-30T09:00:30Z",
-   "last_seen": "2026-08-30T09:00:30Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "melody",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": true,
-    "entity": "Melody",
-    "why_now": "Rank 4 on both X and Trends24; driver unconfirmed, no sports or news signals detected.",
-    "angle": "Investigate context; likely music, gaming, or meme-related; hold until driver clarifies.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-30T09:00:30Z"
-  },
-  "charles huff": {
-   "first_seen": "2026-08-30T09:00:30Z",
-   "last_seen": "2026-08-30T09:00:30Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "charles huff",
-    "sports": true,
-    "league": "College Football",
-    "obvious": false,
-    "early": false,
-    "entity": "Charles Huff",
-    "why_now": "UNLV RB co-trending with Jackson Arnold, Coach Huff, and Week 0 betting promos.",
-    "angle": "Highlight breakout RB prospect in UNLV's Week 0 game; betting/fantasy angle.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-30T09:00:30Z"
-  },
-  "dan mullen": {
-   "first_seen": "2026-08-30T09:00:30Z",
-   "last_seen": "2026-08-30T09:00:30Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "dan mullen",
-    "sports": true,
-    "league": "College Football",
-    "obvious": false,
-    "early": false,
-    "entity": "Dan Mullen",
-    "why_now": "UNLV head coach trending with team, players, and Week 0 game context.",
-    "angle": "Coach narrative: Mullen's return to college football; tie to player development (Arnold, Huff).",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-30T09:00:30Z"
-  },
-  "squadra": {
-   "first_seen": "2026-08-30T09:00:30Z",
-   "last_seen": "2026-08-30T09:00:30Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "squadra",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": true,
-    "entity": "Squadra",
-    "why_now": "Rank 8 on both X and Trends24; driver unconfirmed, no sports signals.",
-    "angle": "Likely gaming or social platform; monitor for sports tie-in.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-30T09:00:30Z"
-  },
-  "moba": {
-   "first_seen": "2026-08-30T09:00:30Z",
-   "last_seen": "2026-08-30T09:00:30Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "moba",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": true,
-    "entity": "MOBA",
-    "why_now": "Generic esports term (League of Legends, Dota 2); rank 9 but no specific game/event context.",
-    "angle": "Likely esports tournament or patch update; monitor for specific game/team angle.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-30T09:00:30Z"
-  },
-  "toshi": {
-   "first_seen": "2026-08-30T09:00:30Z",
-   "last_seen": "2026-08-30T09:00:30Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "toshi",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": true,
-    "entity": "Toshi",
-    "why_now": "Rank 10, climbing from 12; driver unconfirmed, no sports or news signals.",
-    "angle": "Likely anime, gaming, or meme personality; hold for clarification.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-30T09:00:30Z"
-  },
   "kols": {
    "first_seen": "2026-08-30T09:00:30Z",
    "last_seen": "2026-08-31T09:28:05Z",
@@ -1641,48 +1285,6 @@
     "market_id": null
    },
    "enriched_at": "2026-08-31T09:28:05Z"
-  },
-  "ryan preece": {
-   "first_seen": "2026-08-30T09:00:30Z",
-   "last_seen": "2026-08-30T09:00:30Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "ryan preece",
-    "sports": true,
-    "league": "Motorsports",
-    "obvious": false,
-    "early": false,
-    "entity": "Ryan Preece",
-    "why_now": "NASCAR driver co-trending with #NASCAR, Daytona, Blaney, Stenhouse; racing event context.",
-    "angle": "NASCAR race coverage; tie to Daytona event or driver storyline.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-30T09:00:30Z"
-  },
-  "daisychainfields": {
-   "first_seen": "2026-08-30T09:00:30Z",
-   "last_seen": "2026-08-30T09:00:30Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "daisychainfields",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": true,
-    "entity": "#DaisyChainFields",
-    "why_now": "Hashtag rank 13; driver unconfirmed, no sports or news signals.",
-    "angle": "Likely meme, gaming, or niche community tag; monitor for context.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-30T09:00:30Z"
   },
   "messi": {
    "first_seen": "2026-08-30T09:00:30Z",
@@ -1747,384 +1349,6 @@
    },
    "enriched_at": "2026-08-31T09:28:05Z"
   },
-  "gypsy": {
-   "first_seen": "2026-08-30T09:00:30Z",
-   "last_seen": "2026-08-30T09:00:30Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "gypsy",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": true,
-    "entity": "Gypsy",
-    "why_now": "Rank 17; driver unconfirmed, no sports or news signals.",
-    "angle": "Likely entertainment, music, or cultural reference; monitor for sports tie-in.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-30T09:00:30Z"
-  },
-  "marcus stokes": {
-   "first_seen": "2026-08-30T09:00:30Z",
-   "last_seen": "2026-08-30T09:00:30Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "marcus stokes",
-    "sports": true,
-    "league": "College Football",
-    "obvious": false,
-    "early": true,
-    "entity": "Marcus Stokes",
-    "why_now": "Rank 19, dropped from 14; likely college football player; context unclear without news.",
-    "angle": "Emerging player story; monitor for transfer, injury, or performance angle.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-30T09:00:30Z"
-  },
-  "the lovers": {
-   "first_seen": "2026-08-30T09:00:30Z",
-   "last_seen": "2026-08-30T09:00:30Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "the lovers",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": true,
-    "entity": "The Lovers",
-    "why_now": "Rank 20; likely tarot card, music, or entertainment reference; no sports signals.",
-    "angle": "Monitor for sports culture crossover (e.g., athlete relationship drama).",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-30T09:00:30Z"
-  },
-  "chappell": {
-   "first_seen": "2026-08-30T09:00:30Z",
-   "last_seen": "2026-08-30T09:00:30Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "chappell",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": true,
-    "entity": "chappell",
-    "why_now": "Rank 21, climbing from 28; likely Chappell Roan (musician) or Dave Chappelle; no sports signals.",
-    "angle": "Monitor for sports culture moment or athlete connection.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-30T09:00:30Z"
-  },
-  "coach huff": {
-   "first_seen": "2026-08-30T09:00:30Z",
-   "last_seen": "2026-08-30T09:00:30Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "coach huff",
-    "sports": true,
-    "league": "College Football",
-    "obvious": false,
-    "early": false,
-    "entity": "Coach Charles Huff",
-    "why_now": "UNLV coach co-trending with team, players (Jackson Arnold, Charles Huff), and Week 0 game.",
-    "angle": "Coach storyline: Huff's tenure at UNLV; player development narrative.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-30T09:00:30Z"
-  },
-  "withnodirection": {
-   "first_seen": "2026-08-30T09:00:30Z",
-   "last_seen": "2026-08-30T09:00:30Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "withnodirection",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": true,
-    "entity": "#WithNoDirection",
-    "why_now": "Hashtag rank 23; driver unconfirmed, no sports or news signals.",
-    "angle": "Likely meme, song lyric, or niche community tag; monitor for context.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-30T09:00:30Z"
-  },
-  "olivia rodrigo": {
-   "first_seen": "2026-08-30T09:00:30Z",
-   "last_seen": "2026-08-30T09:00:30Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "olivia rodrigo",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Olivia Rodrigo",
-    "why_now": "Rank 24, stable; likely music release, tour, or personal news; no sports signals.",
-    "angle": "Monitor for sports culture crossover (e.g., athlete dating, event performance).",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-30T09:00:30Z"
-  },
-  "mileven": {
-   "first_seen": "2026-08-30T09:00:30Z",
-   "last_seen": "2026-08-30T09:00:30Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "mileven",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": true,
-    "entity": "mileven",
-    "why_now": "Rank 27, stable; likely Stranger Things ship name (Mike + Eleven); no sports signals.",
-    "angle": "Monitor for sports culture crossover or athlete relationship angle.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-30T09:00:30Z"
-  },
-  "vanney": {
-   "first_seen": "2026-08-30T09:00:30Z",
-   "last_seen": "2026-08-30T09:00:30Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "vanney",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": false,
-    "early": true,
-    "entity": "Bob Vanney",
-    "why_now": "Rank 28, climbing from 29; likely soccer coach; context unclear without news.",
-    "angle": "Monitor for coaching change, team news, or match result angle.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-30T09:00:30Z"
-  },
-  "chase": {
-   "first_seen": "2026-08-30T09:00:30Z",
-   "last_seen": "2026-08-30T09:00:30Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "chase",
-    "sports": true,
-    "league": "Motorsports",
-    "obvious": false,
-    "early": false,
-    "entity": "Chase Elliott",
-    "why_now": "NASCAR driver co-trending with #NASCAR, Daytona, and other drivers; race event context.",
-    "angle": "NASCAR race coverage; driver performance and race predictions.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-30T09:00:30Z"
-  },
-  "hugh freeze": {
-   "first_seen": "2026-08-30T09:00:30Z",
-   "last_seen": "2026-08-30T09:00:30Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "hugh freeze",
-    "sports": true,
-    "league": "College Football",
-    "obvious": false,
-    "early": false,
-    "entity": "Hugh Freeze",
-    "why_now": "College football coach co-trending with UNLV, Dan Mullen, and Week 0 context.",
-    "angle": "Coach storyline or team news; monitor for coaching change or game preview angle.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-30T09:00:30Z"
-  },
-  "taylor or lala": {
-   "first_seen": "2026-08-30T09:00:30Z",
-   "last_seen": "2026-08-30T09:00:30Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "taylor or lala",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": true,
-    "entity": "Taylor or Lala",
-    "why_now": "Rank 34; likely entertainment or social media poll; no sports signals.",
-    "angle": "Monitor for sports culture crossover (e.g., athlete dating drama).",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-30T09:00:30Z"
-  },
-  "stenhouse": {
-   "first_seen": "2026-08-30T09:00:30Z",
-   "last_seen": "2026-08-30T09:00:30Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "stenhouse",
-    "sports": true,
-    "league": "Motorsports",
-    "obvious": false,
-    "early": false,
-    "entity": "Ricky Stenhouse Jr.",
-    "why_now": "NASCAR driver co-trending with #NASCAR, Daytona, Blaney, Preece; race event context.",
-    "angle": "NASCAR race coverage; driver performance and race predictions.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-30T09:00:30Z"
-  },
-  "mike wheeler": {
-   "first_seen": "2026-08-30T09:00:30Z",
-   "last_seen": "2026-08-30T09:00:30Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "mike wheeler",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": true,
-    "entity": "mike wheeler",
-    "why_now": "Rank 36, new entry; likely Stranger Things character; no sports signals.",
-    "angle": "Monitor for sports culture crossover or athlete connection.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-30T09:00:30Z"
-  },
-  "basha": {
-   "first_seen": "2026-08-30T09:00:30Z",
-   "last_seen": "2026-08-30T09:00:30Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "basha",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": true,
-    "entity": "Basha",
-    "why_now": "Rank 37, stable; driver unconfirmed, no sports or news signals.",
-    "angle": "Monitor for sports tie-in; likely gaming, music, or cultural reference.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-30T09:00:30Z"
-  },
-  "pons": {
-   "first_seen": "2026-08-30T09:00:30Z",
-   "last_seen": "2026-08-30T09:00:30Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "pons",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": true,
-    "entity": "Pons",
-    "why_now": "Rank 38, new entry; driver unconfirmed, no sports or news signals.",
-    "angle": "Monitor for sports tie-in; likely person, place, or cultural reference.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-30T09:00:30Z"
-  },
-  "mike norvell": {
-   "first_seen": "2026-08-30T09:00:30Z",
-   "last_seen": "2026-08-30T09:00:30Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "mike norvell",
-    "sports": true,
-    "league": "College Football",
-    "obvious": false,
-    "early": false,
-    "entity": "Mike Norvell",
-    "why_now": "College football coach co-trending with UNLV, Dan Mullen, and Week 0 context.",
-    "angle": "Coach storyline or team news; monitor for coaching change or game preview angle.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-30T09:00:30Z"
-  },
-  "kamen rider zeztz": {
-   "first_seen": "2026-08-30T09:00:30Z",
-   "last_seen": "2026-08-30T09:00:30Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "kamen rider zeztz",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": true,
-    "entity": "Kamen Rider Zeztz",
-    "why_now": "Rank 40; likely anime/tokusatsu series; no sports signals.",
-    "angle": "Monitor for esports or gaming crossover.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-30T09:00:30Z"
-  },
   "apple maps": {
    "first_seen": "2026-08-30T09:00:30Z",
    "last_seen": "2026-08-30T17:14:35Z",
@@ -2166,232 +1390,6 @@
     "market_id": null
    },
    "enriched_at": "2026-08-31T00:16:01Z"
-  },
-  "paul miller": {
-   "first_seen": "2026-08-30T09:00:30Z",
-   "last_seen": "2026-08-30T09:00:30Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "paul miller",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": true,
-    "entity": "Paul Miller",
-    "why_now": "Rank 45, new entry; driver unconfirmed, no sports or news signals.",
-    "angle": "Monitor for sports tie-in; likely person or cultural reference.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-30T09:00:30Z"
-  },
-  "griz": {
-   "first_seen": "2026-08-30T09:00:30Z",
-   "last_seen": "2026-08-30T09:00:30Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "griz",
-    "sports": true,
-    "league": "College Football",
-    "obvious": false,
-    "early": true,
-    "entity": "Montana Grizzlies",
-    "why_now": "Rank 46, new entry; likely Week 0 game or team news.",
-    "angle": "College football coverage; tie to game preview or team storyline.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-30T09:00:30Z"
-  },
-  "rebels": {
-   "first_seen": "2026-08-30T09:00:30Z",
-   "last_seen": "2026-08-30T09:00:30Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "rebels",
-    "sports": true,
-    "league": "College Football",
-    "obvious": false,
-    "early": false,
-    "entity": "UNLV Rebels",
-    "why_now": "Co-trending with UNLV, Jackson Arnold, Charles Huff, and Week 0 game context.",
-    "angle": "UNLV team coverage; tie to Week 0 game and player spotlights.",
-    "duplicate_of": "unlv",
-    "market_id": null
-   },
-   "enriched_at": "2026-08-30T09:00:30Z"
-  },
-  "mountain west": {
-   "first_seen": "2026-08-30T09:00:30Z",
-   "last_seen": "2026-08-30T09:00:30Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "mountain west",
-    "sports": true,
-    "league": "College Football",
-    "obvious": false,
-    "early": false,
-    "entity": "Mountain West Conference",
-    "why_now": "Co-trending with UNLV, Hawaii, and Week 0 games; conference context.",
-    "angle": "Conference coverage; tie to Week 0 matchups and team storylines.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-30T09:00:30Z"
-  },
-  "hanoi jane": {
-   "first_seen": "2026-08-30T09:00:30Z",
-   "last_seen": "2026-08-30T09:00:30Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "hanoi jane",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": true,
-    "entity": "Hanoi Jane",
-    "why_now": "Rank 49, dropped from 42; likely political or entertainment reference; no sports signals.",
-    "angle": "Not sports-related; monitor for sports culture crossover.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-30T09:00:30Z"
-  },
-  "trea": {
-   "first_seen": "2026-08-30T09:00:30Z",
-   "last_seen": "2026-08-30T09:00:30Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "trea",
-    "sports": true,
-    "league": "MLB",
-    "obvious": false,
-    "early": false,
-    "entity": "Trea Turner",
-    "why_now": "Rank 50, dropped from 25; likely MLB player; context unclear without news.",
-    "angle": "MLB coverage; monitor for trade, injury, or performance angle.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-30T09:00:30Z"
-  },
-  "draftkings odds": {
-   "first_seen": "2026-08-30T09:00:30Z",
-   "last_seen": "2026-08-30T09:00:30Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "draftkings odds",
-    "sports": true,
-    "league": "Tennis",
-    "obvious": false,
-    "early": false,
-    "entity": "DraftKings US Open Odds",
-    "why_now": "Google search spike (10k traffic); US Open tennis bracket analysis and betting odds.",
-    "angle": "US Open betting angle; tie to player favorites (Alcaraz, Sabalenka) and odds movement.",
-    "duplicate_of": null,
-    "market_id": "1088472"
-   },
-   "enriched_at": "2026-08-30T09:00:30Z"
-  },
-  "fanduel bonus code": {
-   "first_seen": "2026-08-30T09:00:30Z",
-   "last_seen": "2026-08-30T09:00:30Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "fanduel bonus code",
-    "sports": true,
-    "league": "College Football",
-    "obvious": false,
-    "early": false,
-    "entity": "FanDuel Week 0 Promo",
-    "why_now": "Google search spike (500 traffic); FanDuel promo for Memphis vs UNLV and Week 0 college football.",
-    "angle": "Betting culture angle; tie to Week 0 games and sportsbook promotions.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-30T09:00:30Z"
-  },
-  "fanduel vs draftkings": {
-   "first_seen": "2026-08-30T09:00:30Z",
-   "last_seen": "2026-08-30T09:00:30Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "fanduel vs draftkings",
-    "sports": true,
-    "league": "NFL",
-    "obvious": false,
-    "early": false,
-    "entity": "FanDuel vs DraftKings NFL Partnerships",
-    "why_now": "Google search spike (200 traffic); NFL announces official partnerships with DraftKings, FanDuel, Fanatics.",
-    "angle": "Betting industry angle; tie to NFL partnership news and sportsbook competition.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-30T09:00:30Z"
-  },
-  "betmgm sportsbook": {
-   "first_seen": "2026-08-30T09:00:30Z",
-   "last_seen": "2026-08-30T09:00:30Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "betmgm sportsbook",
-    "sports": true,
-    "league": "Other Sports",
-    "obvious": false,
-    "early": false,
-    "entity": "BetMGM Sportsbook",
-    "why_now": "Google search spike (200 traffic); BetMGM promo for Week 0 college football and Alberta betting market.",
-    "angle": "Betting culture angle; tie to sportsbook expansion and Week 0 promotions.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-30T09:00:30Z"
-  },
-  "bet 365": {
-   "first_seen": "2026-08-30T09:00:30Z",
-   "last_seen": "2026-08-30T09:00:30Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "bet 365",
-    "sports": true,
-    "league": "College Football",
-    "obvious": false,
-    "early": false,
-    "entity": "Bet365 Week 0 Promo",
-    "why_now": "Google search spike (200 traffic); Bet365 promo for Stanford-Hawaii, UNLV-Memphis, Week 0 college football.",
-    "angle": "Betting culture angle; tie to Week 0 games and sportsbook promotions.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-30T09:00:30Z"
   },
   "fool": {
    "first_seen": "2026-08-30T09:00:30Z",
@@ -2435,46 +1433,6 @@
    },
    "enriched_at": "2026-08-30T17:14:35Z"
   },
-  "draftkings fantasy": {
-   "first_seen": "2026-08-30T09:00:30Z",
-   "last_seen": "2026-08-30T09:00:30Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "draftkings fantasy",
-    "sports": true,
-    "league": "NFL",
-    "obvious": false,
-    "early": false,
-    "entity": "DraftKings Fantasy Football",
-    "why_now": "Google search spike (100 traffic); fantasy football content about Raiders tight ends and Brock Bowers.",
-    "angle": "Fantasy sports angle; tie to NFL season preview and player rankings.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-30T09:00:30Z"
-  },
-  "bet mgm": {
-   "first_seen": "2026-08-30T09:00:30Z",
-   "last_seen": "2026-08-30T09:00:30Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "bet mgm",
-    "sports": true,
-    "league": "College Football",
-    "obvious": false,
-    "early": false,
-    "entity": "BetMGM Week 0 Promo",
-    "why_now": "Google search spike (100 traffic); BetMGM promo for Week 0 college football games.",
-    "angle": "Betting culture angle; tie to Week 0 games and sportsbook promotions.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-08-30T09:00:30Z"
-  },
   "aewallin": {
    "first_seen": "2026-08-30T17:14:35Z",
    "last_seen": "2026-08-31T00:16:01Z",
@@ -2498,7 +1456,7 @@
   },
   "luke shaw": {
    "first_seen": "2026-08-30T17:14:35Z",
-   "last_seen": "2026-08-30T17:14:35Z",
+   "last_seen": "2026-09-06T16:01:10Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -2510,12 +1468,12 @@
     "obvious": false,
     "early": false,
     "entity": "Luke Shaw",
-    "why_now": "Manchester United left-back trending alongside MUFC, Rashford, Dalot, Mainoo on match day; likely injury update or performance moment in live game.",
-    "angle": "Monitor for injury news or standout defensive play; if injury, pivot to recovery timeline and replacement narrative.",
-    "duplicate_of": null,
-    "market_id": "3654043"
+    "why_now": "Manchester United defender; co-trending with #EVEMUN, #MUFC—Everton vs Man United on 2026-09-06.",
+    "angle": "Capture Shaw's defensive performance and any standout moments in the match.",
+    "duplicate_of": "everton",
+    "market_id": "3829894"
    },
-   "enriched_at": "2026-08-30T17:14:35Z"
+   "enriched_at": "2026-09-06T16:01:10Z"
   },
   "goodwill": {
    "first_seen": "2026-08-30T17:14:35Z",
@@ -2687,7 +1645,7 @@
   },
   "mufc": {
    "first_seen": "2026-08-30T17:14:35Z",
-   "last_seen": "2026-08-30T17:14:35Z",
+   "last_seen": "2026-09-06T16:01:10Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -2698,13 +1656,13 @@
     "league": "Soccer",
     "obvious": false,
     "early": false,
-    "entity": "Manchester United FC",
-    "why_now": "Trending with Luke Shaw, Rashford, Dalot, Mainoo on match day; live Premier League fixture.",
-    "angle": "Real-time match coverage; highlight key moments and player performances; emphasize squad depth if young players feature.",
-    "duplicate_of": null,
-    "market_id": "3654043"
+    "entity": "Manchester United",
+    "why_now": "Match day 2026-09-06; Everton vs Manchester United; co-trending with player names and match hashtags.",
+    "angle": "Capture team performance, tactical moments, and standout plays; tie to early-season narrative.",
+    "duplicate_of": "everton",
+    "market_id": "3829894"
    },
-   "enriched_at": "2026-08-30T17:14:35Z"
+   "enriched_at": "2026-09-06T16:01:10Z"
   },
   "cole palmer": {
    "first_seen": "2026-08-30T17:14:35Z",
@@ -2729,7 +1687,7 @@
   },
   "rashford": {
    "first_seen": "2026-08-30T17:14:35Z",
-   "last_seen": "2026-08-30T17:14:35Z",
+   "last_seen": "2026-09-06T16:01:10Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -2741,16 +1699,16 @@
     "obvious": false,
     "early": false,
     "entity": "Marcus Rashford",
-    "why_now": "Manchester United winger trending on match day; likely goal, assist, or standout defensive moment.",
-    "angle": "Highlight attacking play or goal; emphasize his form and importance to United's season.",
+    "why_now": "Manchester United player; co-trending with #MUFC, #EVEMUN, Carrick (manager), and other squad names on match day 2026-09-06.",
+    "angle": "Capture Rashford's performance in the Everton match; tie to his form, goals, or key moments in the fixture.",
     "duplicate_of": null,
-    "market_id": null
+    "market_id": "3829894"
    },
-   "enriched_at": "2026-08-30T17:14:35Z"
+   "enriched_at": "2026-09-06T16:01:10Z"
   },
   "dalot": {
    "first_seen": "2026-08-30T17:14:35Z",
-   "last_seen": "2026-08-30T17:14:35Z",
+   "last_seen": "2026-09-06T16:01:10Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -2762,12 +1720,12 @@
     "obvious": false,
     "early": false,
     "entity": "Diogo Dalot",
-    "why_now": "Manchester United right-back trending on match day; likely defensive play or attacking contribution.",
-    "angle": "Highlight defensive solidity or attacking support; emphasize his consistency in the squad.",
-    "duplicate_of": null,
-    "market_id": null
+    "why_now": "Manchester United defender; co-trending with #EVEMUN, #MUFC—Everton vs Man United on 2026-09-06.",
+    "angle": "Capture Dalot's defensive performance and any standout moments in the match.",
+    "duplicate_of": "everton",
+    "market_id": "3829894"
    },
-   "enriched_at": "2026-08-30T17:14:35Z"
+   "enriched_at": "2026-09-06T16:01:10Z"
   },
   "maguire": {
    "first_seen": "2026-08-30T17:14:35Z",
@@ -2876,24 +1834,24 @@
   },
   "lammens": {
    "first_seen": "2026-08-30T17:14:35Z",
-   "last_seen": "2026-08-30T17:14:35Z",
+   "last_seen": "2026-09-06T16:01:10Z",
    "sources_seen": [
     "trends24",
     "x"
    ],
    "enrichment": {
     "key": "lammens",
-    "sports": false,
-    "league": null,
+    "sports": true,
+    "league": "Soccer",
     "obvious": false,
-    "early": false,
+    "early": true,
     "entity": "Lammens",
-    "why_now": "No sports signal detected.",
-    "angle": "Not sports-related; exclude from Trend Radar.",
+    "why_now": "Spiking at rank 10; no major news coverage; likely a player or figure in European football.",
+    "angle": "Monitor for emerging story; if sports-related, identify the specific match or moment before mainstream coverage.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-08-30T17:14:35Z"
+   "enriched_at": "2026-09-06T16:01:10Z"
   },
   "mainoo": {
    "first_seen": "2026-08-30T17:14:35Z",
@@ -3065,7 +2023,7 @@
   },
   "cunha": {
    "first_seen": "2026-08-30T17:14:35Z",
-   "last_seen": "2026-08-30T17:14:35Z",
+   "last_seen": "2026-09-06T16:01:10Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -3076,13 +2034,13 @@
     "league": "Soccer",
     "obvious": false,
     "early": false,
-    "entity": "Cunha",
-    "why_now": "Likely soccer player; trending on match day; possible performance moment.",
-    "angle": "Identify specific player and match; highlight performance or goal.",
+    "entity": "Matheus Cunha",
+    "why_now": "Spiking at rank 12; likely a player in a match on 2026-09-06; co-trending with other player names.",
+    "angle": "Identify the specific match and capture Cunha's performance or key moments.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-08-30T17:14:35Z"
+   "enriched_at": "2026-09-06T16:01:10Z"
   },
   "dodson": {
    "first_seen": "2026-08-30T17:14:35Z",
@@ -3191,7 +2149,7 @@
   },
   "sesko": {
    "first_seen": "2026-08-30T17:14:35Z",
-   "last_seen": "2026-08-30T17:14:35Z",
+   "last_seen": "2026-09-06T16:01:10Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -3203,12 +2161,12 @@
     "obvious": false,
     "early": false,
     "entity": "Benjamin Šeško",
-    "why_now": "RB Leipzig forward; trending on match day; likely goal, assist, or standout performance.",
-    "angle": "Highlight goal-scoring or creative play; emphasize his form and importance to team.",
+    "why_now": "Spiking at rank 14; likely a player in a match on 2026-09-06.",
+    "angle": "Identify the specific match and capture Šeško's performance or key moments.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-08-30T17:14:35Z"
+   "enriched_at": "2026-09-06T16:01:10Z"
   },
   "sisters of sin": {
    "first_seen": "2026-08-30T17:14:35Z",
@@ -18853,7 +17811,7 @@
   },
   "big 10": {
    "first_seen": "2026-09-04T07:48:17Z",
-   "last_seen": "2026-09-06T07:43:23Z",
+   "last_seen": "2026-09-06T16:01:10Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -18864,13 +17822,13 @@
     "league": "College Football",
     "obvious": false,
     "early": false,
-    "entity": "Big 10 Conference",
-    "why_now": "Duplicate of 'Big Ten'; conference context for Michigan-Clemson game.",
-    "angle": "Same as 'big ten'—conference-level response and integrity questions.",
+    "entity": "Big Ten Conference",
+    "why_now": "College football conference; co-trending with Michigan, Clemson on Labor Day weekend (2026-09-06).",
+    "angle": "Capture early-season Big Ten matchups and standout performances; tie to conference narrative.",
     "duplicate_of": "big ten",
-    "market_id": null
+    "market_id": "4045564"
    },
-   "enriched_at": "2026-09-06T07:43:23Z"
+   "enriched_at": "2026-09-06T16:01:10Z"
   },
   "buffalo": {
    "first_seen": "2026-09-04T07:48:17Z",
@@ -22484,7 +21442,7 @@
   },
   "italiangp": {
    "first_seen": "2026-09-05T15:51:00Z",
-   "last_seen": "2026-09-05T15:51:00Z",
+   "last_seen": "2026-09-06T16:01:10Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -22495,13 +21453,13 @@
     "league": "Motorsports",
     "obvious": false,
     "early": false,
-    "entity": "Italian Grand Prix",
-    "why_now": "F1 race at Monza; trending with Gasly, Piastri, Ferrari, Alpine—race day or qualifying event.",
-    "angle": "Lead with race result, pole position, or dramatic on-track moment; tie to driver storylines.",
+    "entity": "2026 F1 Italian Grand Prix",
+    "why_now": "F1 race at Monza on 2026-09-06; co-trending with driver names (Kimi, Leclerc, Verstappen, George Russell, Lando, Lewis Hamilton) and Ferrari.",
+    "angle": "Cover race highlights, podium finishes, and standout driver moments; tie to championship implications.",
     "duplicate_of": null,
-    "market_id": null
+    "market_id": "3418184"
    },
-   "enriched_at": "2026-09-05T15:51:00Z"
+   "enriched_at": "2026-09-06T16:01:10Z"
   },
   "alpine": {
    "first_seen": "2026-09-05T15:51:00Z",
@@ -22547,7 +21505,7 @@
   },
   "monza": {
    "first_seen": "2026-09-05T15:51:00Z",
-   "last_seen": "2026-09-05T15:51:00Z",
+   "last_seen": "2026-09-06T16:01:10Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -22558,13 +21516,13 @@
     "league": "Motorsports",
     "obvious": false,
     "early": false,
-    "entity": "Monza Circuit",
-    "why_now": "F1 Italian GP venue; trending with Gasly, Piastri, Ferrari, Alpine—race day.",
-    "angle": "Highlight Monza's iconic status, track drama, or race result; tie to driver performances.",
+    "entity": "Monza Circuit / F1 Italian Grand Prix",
+    "why_now": "F1 race venue; co-trending with #ItalianGP, driver names, and Ferrari on 2026-09-06.",
+    "angle": "Highlight the iconic Monza circuit, race drama, and standout moments from the Italian GP.",
     "duplicate_of": "italiangp",
-    "market_id": null
+    "market_id": "3418184"
    },
-   "enriched_at": "2026-09-05T15:51:00Z"
+   "enriched_at": "2026-09-06T16:01:10Z"
   },
   "mr fanboy chapter 2": {
    "first_seen": "2026-09-05T15:51:00Z",
@@ -22694,7 +21652,7 @@
   },
   "clemson": {
    "first_seen": "2026-09-05T15:51:00Z",
-   "last_seen": "2026-09-06T07:43:23Z",
+   "last_seen": "2026-09-06T16:01:10Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -22706,12 +21664,12 @@
     "obvious": false,
     "early": false,
     "entity": "Clemson Tigers",
-    "why_now": "Opponent in controversial Michigan game; 'Death Valley' (Clemson stadium) and Dabo Swinney trending alongside rigging/robbery claims.",
-    "angle": "Frame Clemson's perspective on the controversial finish; use Dabo's post-game reaction as content hook.",
-    "duplicate_of": "michigan",
+    "why_now": "College football team; co-trending with Big Ten, Michigan on Labor Day weekend (2026-09-06).",
+    "angle": "Capture Clemson's early-season performance and standout moments.",
+    "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-09-06T07:43:23Z"
+   "enriched_at": "2026-09-06T16:01:10Z"
   },
   "lee marvin": {
    "first_seen": "2026-09-05T15:51:00Z",
@@ -22820,7 +21778,7 @@
   },
   "ferrari": {
    "first_seen": "2026-09-05T15:51:00Z",
-   "last_seen": "2026-09-05T15:51:00Z",
+   "last_seen": "2026-09-06T16:01:10Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -22832,12 +21790,12 @@
     "obvious": false,
     "early": false,
     "entity": "Ferrari F1 Team",
-    "why_now": "F1 team at home Italian GP; trending with Monza, Gasly, Piastri, Alpine.",
-    "angle": "Cover Ferrari's Monza performance, strategy, or driver storyline; home race drama.",
-    "duplicate_of": null,
-    "market_id": null
+    "why_now": "F1 Italian Grand Prix at Monza on 2026-09-06; co-trending with Leclerc, Kimi, and other drivers.",
+    "angle": "Highlight Ferrari's performance at home race; capture team strategy, pit stops, and driver moments.",
+    "duplicate_of": "italiangp",
+    "market_id": "3418184"
    },
-   "enriched_at": "2026-09-05T15:51:00Z"
+   "enriched_at": "2026-09-06T16:01:10Z"
   },
   "sec nation": {
    "first_seen": "2026-09-05T15:51:00Z",
@@ -24589,7 +23547,7 @@
   },
   "nike": {
    "first_seen": "2026-09-05T23:37:03Z",
-   "last_seen": "2026-09-05T23:37:03Z",
+   "last_seen": "2026-09-06T16:01:10Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -24601,12 +23559,12 @@
     "obvious": false,
     "early": false,
     "entity": "Nike",
-    "why_now": "Spiking alongside college football names (Oregon, Auburn, etc.); likely apparel/sponsorship news or athlete endorsement.",
-    "angle": "Sports-adjacent: monitor for athlete sponsorship deals, uniform reveals, or brand partnerships with teams.",
+    "why_now": "Spiking at rank 23; likely tied to sports sponsorship, athlete endorsement, or kit-related news on match day.",
+    "angle": "Identify the specific sports story (kit reveal, sponsorship announcement, athlete partnership) and tie to match-day context.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-09-05T23:37:03Z"
+   "enriched_at": "2026-09-06T16:01:10Z"
   },
   "dan hooker": {
    "first_seen": "2026-09-05T23:37:03Z",
@@ -25525,7 +24483,7 @@
   },
   "michigan": {
    "first_seen": "2026-09-06T07:43:23Z",
-   "last_seen": "2026-09-06T07:43:23Z",
+   "last_seen": "2026-09-06T16:01:10Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -25537,12 +24495,12 @@
     "obvious": false,
     "early": false,
     "entity": "Michigan Wolverines",
-    "why_now": "Hail Mary pass and controversial clock management in game vs. Clemson; co-trending 'Rigged', 'Robbed', 'Clock' suggest officiating controversy.",
-    "angle": "Capitalize on the officiating controversy and replay debate; position as 'the call that changed everything' for sports media hot-takes.",
+    "why_now": "College football; co-trending with Big Ten, Clemson, and college sports context on Labor Day weekend (2026-09-06).",
+    "angle": "Tie to Michigan's season opener or early-season performance; capture fan sentiment and standout plays.",
     "duplicate_of": null,
     "market_id": "4045564"
    },
-   "enriched_at": "2026-09-06T07:43:23Z"
+   "enriched_at": "2026-09-06T16:01:10Z"
   },
   "hail mary": {
    "first_seen": "2026-09-06T07:43:23Z",
@@ -25609,7 +24567,7 @@
   },
   "big ten": {
    "first_seen": "2026-09-06T07:43:23Z",
-   "last_seen": "2026-09-06T07:43:23Z",
+   "last_seen": "2026-09-06T16:01:10Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -25621,12 +24579,12 @@
     "obvious": false,
     "early": false,
     "entity": "Big Ten Conference",
-    "why_now": "Conference affiliation of Michigan; trending as part of the broader controversy narrative.",
-    "angle": "Conference-level angle: does the Big Ten review the call? Conference integrity narrative.",
-    "duplicate_of": "michigan",
-    "market_id": null
+    "why_now": "College football conference; co-trending with Michigan, Clemson on Labor Day weekend (2026-09-06).",
+    "angle": "Capture early-season Big Ten matchups and standout performances; tie to conference narrative.",
+    "duplicate_of": null,
+    "market_id": "4045564"
    },
-   "enriched_at": "2026-09-06T07:43:23Z"
+   "enriched_at": "2026-09-06T16:01:10Z"
   },
   "bryce underwood": {
    "first_seen": "2026-09-06T07:43:23Z",
@@ -25924,7 +24882,7 @@
   },
   "andy williams": {
    "first_seen": "2026-09-06T07:43:23Z",
-   "last_seen": "2026-09-06T07:43:23Z",
+   "last_seen": "2026-09-06T16:01:10Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -25932,16 +24890,16 @@
    "enrichment": {
     "key": "andy williams",
     "sports": true,
-    "league": "College Football",
+    "league": "Other Sports",
     "obvious": false,
-    "early": false,
+    "early": true,
     "entity": "Andy Williams",
-    "why_now": "Ranked #23; likely a player or coach; co-trending with Michigan, Clemson, officiating controversy.",
-    "angle": "Identify role and involvement in the game or controversy.",
+    "why_now": "Spiking on X/Trends24 at rank 4; no major news coverage detected; likely a niche sports figure or emerging moment.",
+    "angle": "Monitor for emerging story; if sports-related, identify the specific moment (performance, controversy, or meme) before mainstream pickup.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-09-06T07:43:23Z"
+   "enriched_at": "2026-09-06T16:01:10Z"
   },
   "lane kiffin": {
    "first_seen": "2026-09-06T07:43:23Z",
@@ -26218,7 +25176,7 @@
   },
   "recycling": {
    "first_seen": "2026-09-06T07:43:23Z",
-   "last_seen": "2026-09-06T07:43:23Z",
+   "last_seen": "2026-09-06T16:01:10Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -26230,12 +25188,12 @@
     "obvious": false,
     "early": false,
     "entity": "Recycling",
-    "why_now": "Ranked #38; jumped from rank 50; no clear sports connection; likely unrelated co-trend.",
-    "angle": "Not sports-related; likely noise or unrelated trend.",
+    "why_now": "Environmental topic; no sports connection.",
+    "angle": "Not sports-related; suppress.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-09-06T07:43:23Z"
+   "enriched_at": "2026-09-06T16:01:10Z"
   },
   "spartan bob": {
    "first_seen": "2026-09-06T07:43:23Z",
@@ -26260,7 +25218,7 @@
   },
   "the butcher": {
    "first_seen": "2026-09-06T07:43:23Z",
-   "last_seen": "2026-09-06T07:43:23Z",
+   "last_seen": "2026-09-06T16:01:10Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -26268,16 +25226,16 @@
    "enrichment": {
     "key": "the butcher",
     "sports": true,
-    "league": "College Football",
+    "league": "Other Sports",
     "obvious": false,
-    "early": false,
-    "entity": "The Butcher (player nickname)",
-    "why_now": "Ranked #40; likely a player's nickname; co-trending with college football terms.",
-    "angle": "Identify the player and their role in the game or controversy.",
+    "early": true,
+    "entity": "The Butcher",
+    "why_now": "Spiking at rank 11; no major news; likely a sports nickname or emerging meme.",
+    "angle": "Monitor for emerging sports meme or athlete nickname; capture before mainstream saturation.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-09-06T07:43:23Z"
+   "enriched_at": "2026-09-06T16:01:10Z"
   },
   "broncos": {
    "first_seen": "2026-09-06T07:43:23Z",
@@ -26647,6 +25605,815 @@
     "market_id": null
    },
    "enriched_at": "2026-09-06T07:43:23Z"
+  },
+  "kimi": {
+   "first_seen": "2026-09-06T16:01:10Z",
+   "last_seen": "2026-09-06T16:01:10Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "kimi",
+    "sports": true,
+    "league": "Motorsports",
+    "obvious": false,
+    "early": false,
+    "entity": "Kimi Antonelli",
+    "why_now": "F1 Italian Grand Prix at Monza on 2026-09-06; co-trending with #ItalianGP, Ferrari, Leclerc, Verstappen, George Russell, Lando Norris—driver performance and race drama.",
+    "angle": "Highlight Antonelli's performance in the Italian GP, especially if he delivers a standout result or moment; tie to Ferrari/Monza narrative.",
+    "duplicate_of": null,
+    "market_id": "3418184"
+   },
+   "enriched_at": "2026-09-06T16:01:10Z"
+  },
+  "carrick": {
+   "first_seen": "2026-09-06T16:01:10Z",
+   "last_seen": "2026-09-06T16:01:10Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "carrick",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": false,
+    "entity": "Michael Carrick",
+    "why_now": "Manchester United manager; co-trending with #MUFC, Rashford, and match-day context for Everton vs Man United on 2026-09-06.",
+    "angle": "Highlight Carrick's tactical decisions, team selection, or post-match comments; tie to early-season narrative.",
+    "duplicate_of": null,
+    "market_id": "3829894"
+   },
+   "enriched_at": "2026-09-06T16:01:10Z"
+  },
+  "lamine": {
+   "first_seen": "2026-09-06T16:01:10Z",
+   "last_seen": "2026-09-06T16:01:10Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "lamine",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": false,
+    "entity": "Lamine Yamal",
+    "why_now": "Barcelona player; co-trending with #ValenciaBarça, Oscar, Fermin—Valencia vs Barcelona match on 2026-09-06.",
+    "angle": "Capture Yamal's performance in the Valencia match; highlight his creativity, goals, or key moments.",
+    "duplicate_of": null,
+    "market_id": "3832915"
+   },
+   "enriched_at": "2026-09-06T16:01:10Z"
+  },
+  "fermin": {
+   "first_seen": "2026-09-06T16:01:10Z",
+   "last_seen": "2026-09-06T16:01:10Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "fermin",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": false,
+    "entity": "Fermín López",
+    "why_now": "Barcelona player; co-trending with #ValenciaBarça, Lamine, Oscar—Valencia vs Barcelona on 2026-09-06.",
+    "angle": "Capture Fermín's performance in the Valencia match; highlight his role in Barcelona's attack.",
+    "duplicate_of": null,
+    "market_id": "3832915"
+   },
+   "enriched_at": "2026-09-06T16:01:10Z"
+  },
+  "rodri": {
+   "first_seen": "2026-09-06T16:01:10Z",
+   "last_seen": "2026-09-06T16:01:10Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "rodri",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": false,
+    "entity": "Rodri Hernández",
+    "why_now": "Manchester City midfielder; spiking at rank 15; likely trending due to match-day performance or transfer news.",
+    "angle": "Capture Rodri's performance or any standout moments; tie to City's early-season form.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-06T16:01:10Z"
+  },
+  "tyrique george": {
+   "first_seen": "2026-09-06T16:01:10Z",
+   "last_seen": "2026-09-06T16:01:10Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "tyrique george",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": true,
+    "entity": "Tyrique George",
+    "why_now": "Spiking at rank 16; no major news coverage; likely a young player or emerging talent.",
+    "angle": "Monitor for emerging player story; identify the specific match or breakthrough moment.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-06T16:01:10Z"
+  },
+  "ainsley maitland": {
+   "first_seen": "2026-09-06T16:01:10Z",
+   "last_seen": "2026-09-06T16:01:10Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "ainsley maitland",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": true,
+    "entity": "Ainsley Maitland-Niles",
+    "why_now": "Spiking at rank 18; likely a player in a match on 2026-09-06.",
+    "angle": "Identify the specific match and capture Maitland-Niles' performance or key moments.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-06T16:01:10Z"
+  },
+  "evemun": {
+   "first_seen": "2026-09-06T16:01:10Z",
+   "last_seen": "2026-09-06T16:01:10Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "evemun",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": false,
+    "entity": "Everton vs Manchester United",
+    "why_now": "Match hashtag for 2026-09-06 fixture; co-trending with player names and team hashtags.",
+    "angle": "Capture live match moments, goals, controversies, and standout performances.",
+    "duplicate_of": "everton",
+    "market_id": "3829894"
+   },
+   "enriched_at": "2026-09-06T16:01:10Z"
+  },
+  "dorgu": {
+   "first_seen": "2026-09-06T16:01:10Z",
+   "last_seen": "2026-09-06T16:01:10Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "dorgu",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": true,
+    "entity": "Patrick Dorgu",
+    "why_now": "Spiking at rank 22; likely a player in a match on 2026-09-06.",
+    "angle": "Identify the specific match and capture Dorgu's performance or key moments.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-06T16:01:10Z"
+  },
+  "pickford": {
+   "first_seen": "2026-09-06T16:01:10Z",
+   "last_seen": "2026-09-06T16:01:10Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "pickford",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": false,
+    "entity": "Jordan Pickford",
+    "why_now": "Everton goalkeeper; co-trending with #EVEMUN, #MUFC—Everton vs Man United on 2026-09-06.",
+    "angle": "Capture Pickford's saves, distribution, and any standout moments in the match.",
+    "duplicate_of": "everton",
+    "market_id": "3829894"
+   },
+   "enriched_at": "2026-09-06T16:01:10Z"
+  },
+  "leclerc": {
+   "first_seen": "2026-09-06T16:01:10Z",
+   "last_seen": "2026-09-06T16:01:10Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "leclerc",
+    "sports": true,
+    "league": "Motorsports",
+    "obvious": false,
+    "early": false,
+    "entity": "Charles Leclerc",
+    "why_now": "Ferrari driver; F1 Italian Grand Prix at Monza on 2026-09-06; co-trending with #ItalianGP, Ferrari, and other drivers.",
+    "angle": "Highlight Leclerc's home-race performance; capture his qualifying, race strategy, and any standout moments.",
+    "duplicate_of": "italiangp",
+    "market_id": "3418177"
+   },
+   "enriched_at": "2026-09-06T16:01:10Z"
+  },
+  "lando": {
+   "first_seen": "2026-09-06T16:01:10Z",
+   "last_seen": "2026-09-06T16:01:10Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "lando",
+    "sports": true,
+    "league": "Motorsports",
+    "obvious": false,
+    "early": false,
+    "entity": "Lando Norris",
+    "why_now": "McLaren driver; F1 Italian Grand Prix at Monza on 2026-09-06; co-trending with #ItalianGP and other drivers.",
+    "angle": "Capture Norris' performance at Monza; highlight his pace, strategy, and any standout moments.",
+    "duplicate_of": "italiangp",
+    "market_id": "3418182"
+   },
+   "enriched_at": "2026-09-06T16:01:10Z"
+  },
+  "lewis": {
+   "first_seen": "2026-09-06T16:01:10Z",
+   "last_seen": "2026-09-06T16:01:10Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "lewis",
+    "sports": true,
+    "league": "Motorsports",
+    "obvious": false,
+    "early": false,
+    "entity": "Lewis Hamilton",
+    "why_now": "F1 driver; co-trending with #ItalianGP, Monza, and other drivers on 2026-09-06.",
+    "angle": "Capture Hamilton's performance at the Italian GP; highlight his pace, strategy, and any standout moments.",
+    "duplicate_of": "italiangp",
+    "market_id": "3418194"
+   },
+   "enriched_at": "2026-09-06T16:01:10Z"
+  },
+  "etid": {
+   "first_seen": "2026-09-06T16:01:10Z",
+   "last_seen": "2026-09-06T16:01:10Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "etid",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Every Time I Die",
+    "why_now": "Music band; no sports connection.",
+    "angle": "Not sports-related; suppress.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-06T16:01:10Z"
+  },
+  "george russell": {
+   "first_seen": "2026-09-06T16:01:10Z",
+   "last_seen": "2026-09-06T16:01:10Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "george russell",
+    "sports": true,
+    "league": "Motorsports",
+    "obvious": false,
+    "early": false,
+    "entity": "George Russell",
+    "why_now": "Mercedes driver; F1 Italian Grand Prix at Monza on 2026-09-06; co-trending with #ItalianGP and other drivers.",
+    "angle": "Capture Russell's performance at Monza; highlight his qualifying, race strategy, and any standout moments.",
+    "duplicate_of": "italiangp",
+    "market_id": "3418199"
+   },
+   "enriched_at": "2026-09-06T16:01:10Z"
+  },
+  "man united": {
+   "first_seen": "2026-09-06T16:01:10Z",
+   "last_seen": "2026-09-06T16:01:10Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "man united",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": false,
+    "entity": "Manchester United",
+    "why_now": "Match day 2026-09-06; Everton vs Manchester United; co-trending with player names and match hashtags.",
+    "angle": "Capture team performance, tactical moments, and standout plays; tie to early-season narrative.",
+    "duplicate_of": "everton",
+    "market_id": "3829894"
+   },
+   "enriched_at": "2026-09-06T16:01:10Z"
+  },
+  "every time i die": {
+   "first_seen": "2026-09-06T16:01:10Z",
+   "last_seen": "2026-09-06T16:01:10Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "every time i die",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Every Time I Die",
+    "why_now": "Music band; no sports connection.",
+    "angle": "Not sports-related; suppress.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-06T16:01:10Z"
+  },
+  "colwill": {
+   "first_seen": "2026-09-06T16:01:10Z",
+   "last_seen": "2026-09-06T16:01:10Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "colwill",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": false,
+    "entity": "Levi Colwill",
+    "why_now": "Chelsea defender; co-trending with Arsenal vs Chelsea match on 2026-09-06.",
+    "angle": "Capture Colwill's defensive performance in the Arsenal match.",
+    "duplicate_of": null,
+    "market_id": "3829927"
+   },
+   "enriched_at": "2026-09-06T16:01:10Z"
+  },
+  "bill dundee": {
+   "first_seen": "2026-09-06T16:01:10Z",
+   "last_seen": "2026-09-06T16:01:10Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "bill dundee",
+    "sports": true,
+    "league": "MMA/Boxing",
+    "obvious": false,
+    "early": true,
+    "entity": "Bill Dundee",
+    "why_now": "Wrestling/boxing legend; spiking at rank 38; likely a tribute, retirement news, or nostalgia moment.",
+    "angle": "Monitor for emerging story; if sports-related, identify the specific moment (tribute, interview, or legacy piece).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-06T16:01:10Z"
+  },
+  "manchester united": {
+   "first_seen": "2026-09-06T16:01:10Z",
+   "last_seen": "2026-09-06T16:01:10Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "manchester united",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": false,
+    "entity": "Manchester United",
+    "why_now": "Match day 2026-09-06; Everton vs Manchester United; co-trending with player names and match hashtags.",
+    "angle": "Capture team performance, tactical moments, and standout plays; tie to early-season narrative.",
+    "duplicate_of": "everton",
+    "market_id": "3829894"
+   },
+   "enriched_at": "2026-09-06T16:01:10Z"
+  },
+  "verstappen": {
+   "first_seen": "2026-09-06T16:01:10Z",
+   "last_seen": "2026-09-06T16:01:10Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "verstappen",
+    "sports": true,
+    "league": "Motorsports",
+    "obvious": false,
+    "early": false,
+    "entity": "Max Verstappen",
+    "why_now": "Red Bull driver; F1 Italian Grand Prix at Monza on 2026-09-06; co-trending with #ItalianGP and other drivers.",
+    "angle": "Capture Verstappen's performance at Monza; highlight his pace, strategy, and any standout moments.",
+    "duplicate_of": "italiangp",
+    "market_id": "3418185"
+   },
+   "enriched_at": "2026-09-06T16:01:10Z"
+  },
+  "mickey dolenz": {
+   "first_seen": "2026-09-06T16:01:10Z",
+   "last_seen": "2026-09-06T16:01:10Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "mickey dolenz",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Mickey Dolenz",
+    "why_now": "Music figure; no sports connection.",
+    "angle": "Not sports-related; suppress.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-06T16:01:10Z"
+  },
+  "satellite": {
+   "first_seen": "2026-09-06T16:01:10Z",
+   "last_seen": "2026-09-06T16:01:10Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "satellite",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Satellite",
+    "why_now": "Technology/space topic; no sports connection.",
+    "angle": "Not sports-related; suppress.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-06T16:01:10Z"
+  },
+  "sundayvibes": {
+   "first_seen": "2026-09-06T16:01:10Z",
+   "last_seen": "2026-09-06T16:01:10Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "sundayvibes",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": true,
+    "early": false,
+    "entity": "Sunday sports culture",
+    "why_now": "Generic weekend sports hashtag; no specific moment or storyline.",
+    "angle": "Too generic; suppress as obvious weekend sports chatter.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-06T16:01:10Z"
+  },
+  "valenciabarça": {
+   "first_seen": "2026-09-06T16:01:10Z",
+   "last_seen": "2026-09-06T16:01:10Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "valenciabarça",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": false,
+    "entity": "Valencia vs FC Barcelona",
+    "why_now": "Match hashtag for 2026-09-06 fixture; co-trending with player names (Lamine, Oscar, Fermin).",
+    "angle": "Capture live match moments, goals, controversies, and standout performances.",
+    "duplicate_of": null,
+    "market_id": "3832915"
+   },
+   "enriched_at": "2026-09-06T16:01:10Z"
+  },
+  "oscar": {
+   "first_seen": "2026-09-06T16:01:10Z",
+   "last_seen": "2026-09-06T16:01:10Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "oscar",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": false,
+    "entity": "Oscar",
+    "why_now": "Barcelona player; co-trending with #ValenciaBarça, Lamine, Fermin—Valencia vs Barcelona on 2026-09-06.",
+    "angle": "Capture Oscar's performance in the Valencia match; highlight his role in Barcelona's attack.",
+    "duplicate_of": null,
+    "market_id": "3832915"
+   },
+   "enriched_at": "2026-09-06T16:01:10Z"
+  },
+  "recycle": {
+   "first_seen": "2026-09-06T16:01:10Z",
+   "last_seen": "2026-09-06T16:01:10Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "recycle",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Recycle",
+    "why_now": "Environmental topic; no sports connection.",
+    "angle": "Not sports-related; suppress.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-06T16:01:10Z"
+  },
+  "mbuemo": {
+   "first_seen": "2026-09-06T16:01:10Z",
+   "last_seen": "2026-09-06T16:01:10Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "mbuemo",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": false,
+    "entity": "Bryan Mbeumo",
+    "why_now": "Spiking at rank 49; likely a player in a match on 2026-09-06.",
+    "angle": "Identify the specific match and capture Mbeumo's performance or key moments.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-06T16:01:10Z"
+  },
+  "macklemore": {
+   "first_seen": "2026-09-06T16:01:10Z",
+   "last_seen": "2026-09-06T16:01:10Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "macklemore",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Macklemore",
+    "why_now": "Music artist; no sports connection.",
+    "angle": "Not sports-related; suppress.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-06T16:01:10Z"
+  },
+  "aryna sabalenka": {
+   "first_seen": "2026-09-06T16:01:10Z",
+   "last_seen": "2026-09-06T16:01:10Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "aryna sabalenka",
+    "sports": true,
+    "league": "Tennis",
+    "obvious": false,
+    "early": false,
+    "entity": "Aryna Sabalenka",
+    "why_now": "US Open WTA match interrupted by cannabis smell in stadium; news coverage confirms viral moment beyond the match itself.",
+    "angle": "Highlight the unusual stadium incident and Sabalenka's reaction; tie to US Open atmosphere and player experience.",
+    "duplicate_of": null,
+    "market_id": "4232134"
+   },
+   "enriched_at": "2026-09-06T16:01:10Z"
+  },
+  "morgan rogers": {
+   "first_seen": "2026-09-06T16:01:10Z",
+   "last_seen": "2026-09-06T16:01:10Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "morgan rogers",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": false,
+    "entity": "Morgan Rogers",
+    "why_now": "Chelsea player; news coverage mentions transfer battle and Arsenal match on 2026-09-06; co-trending with Xabi Alonso.",
+    "angle": "Capture Rogers' performance in the Arsenal match; tie to recent transfer narrative and his impact at Chelsea.",
+    "duplicate_of": null,
+    "market_id": "3829931"
+   },
+   "enriched_at": "2026-09-06T16:01:10Z"
+  },
+  "tx southern vs prairie view": {
+   "first_seen": "2026-09-06T16:01:10Z",
+   "last_seen": "2026-09-06T16:01:10Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "tx southern vs prairie view",
+    "sports": true,
+    "league": "College Football",
+    "obvious": false,
+    "early": false,
+    "entity": "Texas Southern vs Prairie View A&M",
+    "why_now": "Labor Day Classic college football game on 2026-09-06; news coverage confirms match-day event with coach banter.",
+    "angle": "Capture the rivalry atmosphere, standout plays, and coach quotes from the Labor Day Classic.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-06T16:01:10Z"
+  },
+  "premier league table": {
+   "first_seen": "2026-09-06T16:01:10Z",
+   "last_seen": "2026-09-06T16:01:10Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "premier league table",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": true,
+    "early": false,
+    "entity": "Premier League standings",
+    "why_now": "Generic standings query; no specific moment or storyline.",
+    "angle": "Too obvious; suppress as generic table lookup.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-06T16:01:10Z"
+  },
+  "blue owl": {
+   "first_seen": "2026-09-06T16:01:10Z",
+   "last_seen": "2026-09-06T16:01:10Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "blue owl",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Blue Owl Capital",
+    "why_now": "Financial/business news; no sports connection.",
+    "angle": "Not sports-related; suppress.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-06T16:01:10Z"
+  },
+  "xabi alonso": {
+   "first_seen": "2026-09-06T16:01:10Z",
+   "last_seen": "2026-09-06T16:01:10Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "xabi alonso",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": false,
+    "entity": "Xabi Alonso",
+    "why_now": "Real Sociedad manager; news coverage mentions transfer strategy and Morgan Rogers; co-trending with Arsenal vs Chelsea match.",
+    "angle": "Highlight Alonso's tactical approach and transfer strategy; tie to the broader transfer narrative.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-06T16:01:10Z"
+  },
+  "ben crump": {
+   "first_seen": "2026-09-06T16:01:10Z",
+   "last_seen": "2026-09-06T16:01:10Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "ben crump",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Ben Crump",
+    "why_now": "Civil rights attorney; news coverage is about a fatal shooting, not sports.",
+    "angle": "Not sports-related; suppress.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-06T16:01:10Z"
+  },
+  "grand theft auto": {
+   "first_seen": "2026-09-06T16:01:10Z",
+   "last_seen": "2026-09-06T16:01:10Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "grand theft auto",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Grand Theft Auto 6",
+    "why_now": "Video game; news coverage is about PS5 controller pre-orders, not sports.",
+    "angle": "Not sports-related; suppress.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-06T16:01:10Z"
+  },
+  "walker cup leaderboard": {
+   "first_seen": "2026-09-06T16:01:10Z",
+   "last_seen": "2026-09-06T16:01:10Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "walker cup leaderboard",
+    "sports": true,
+    "league": "Golf",
+    "obvious": false,
+    "early": false,
+    "entity": "Walker Cup 2026",
+    "why_now": "Amateur golf tournament; news coverage confirms match-day event with leaderboard and tee times.",
+    "angle": "Capture standout performances and match results from the Walker Cup; highlight emerging amateur talent.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-06T16:01:10Z"
+  },
+  "telemundo": {
+   "first_seen": "2026-09-06T16:01:10Z",
+   "last_seen": "2026-09-06T16:01:10Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "telemundo",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Telemundo",
+    "why_now": "Spanish-language broadcaster; news coverage is about rescue and immigration, not sports.",
+    "angle": "Not sports-related; suppress.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-06T16:01:10Z"
   }
  },
  "x_usage": {
@@ -26660,73 +26427,58 @@
   "2026-09-06": 0
  },
  "prev_x_trends": [
-  "Michigan",
-  "Clemson",
-  "Hail Mary",
-  "Dabo",
-  "UCLA",
-  "PIED PIPER",
-  "Big Ten",
-  "Bryce Underwood",
-  "Ann Arbor",
-  "Big 10",
-  "Wayne Knight",
-  "NCAA",
-  "Rigged",
-  "Oklahoma",
-  "#GoBlue",
-  "#PYPD_IN_JAPAN",
-  "Sam Leavitt",
-  "#JAMESupremacy",
-  "ROBBED",
-  "JAMES SOARS HIGH IN GLORY",
-  "Kyle Whittingham",
-  "Storming",
+  "Everton",
+  "Kimi",
+  "Rashford",
   "Andy Williams",
-  "Lane Kiffin",
-  "IDEA BANK",
-  "Death Valley",
-  "Bob Chesney",
-  "Cheaters",
-  "Clock",
-  "#GeauxTigers",
-  "Wolverines",
-  "Ringside News",
-  "Big House",
-  "Bruins",
-  "#Toonami",
-  "Kalamazoo",
-  "The MAC",
-  "Recycling",
-  "Spartan Bob",
+  "Michigan",
+  "Carrick",
+  "Lamine",
+  "Good Sunday",
+  "#ItalianGP",
+  "Lammens",
   "The Butcher",
-  "Broncos",
-  "Mensik",
-  "Nico Iamaleava",
-  "Learner Tien",
-  "Robbery",
-  "The B1G",
-  "Portnoy",
-  "JJ Buchanan",
-  "Lance Taylor",
-  "Cheating"
+  "Cunha",
+  "Fermin",
+  "Sesko",
+  "Rodri",
+  "Tyrique George",
+  "#MUFC",
+  "Ainsley Maitland",
+  "Ferrari",
+  "Luke Shaw",
+  "#EVEMUN",
+  "Dorgu",
+  "Nike",
+  "Pickford",
+  "Leclerc",
+  "Lando",
+  "Monza",
+  "Lewis",
+  "ETID",
+  "George Russell",
+  "Man United",
+  "Every Time I Die",
+  "Big Ten",
+  "Clemson",
+  "Sunday Funday",
+  "Colwill",
+  "Recycling",
+  "Bill Dundee",
+  "Manchester United",
+  "Verstappen",
+  "Mickey Dolenz",
+  "Satellite",
+  "#SundayVibes",
+  "#ValenciaBarça",
+  "Oscar",
+  "Dalot",
+  "Big 10",
+  "Recycle",
+  "Mbuemo",
+  "Macklemore"
  ],
  "suppressed": [
-  {
-   "key": "colts game",
-   "reason": "Preseason Week 2 game vs Falcons on 2026-08-22; scheduled event with no specific storyline.",
-   "at": "2026-08-22T17:22:28Z"
-  },
-  {
-   "key": "browns",
-   "reason": "Preseason Week 2 game vs Bills on 2026-08-22; scheduled event with no specific storyline.",
-   "at": "2026-08-22T22:24:04Z"
-  },
-  {
-   "key": "real madrid",
-   "reason": "Team name trending with multiple players (Vini, Mbappé, Valverde, Guler); likely a scheduled match or result.",
-   "at": "2026-08-22T22:24:04Z"
-  },
   {
    "key": "tottenham",
    "reason": "Team name trending with Mourinho; likely a scheduled match or result.",
@@ -27711,6 +27463,21 @@
    "key": "lamar vs louisiana",
    "reason": "Scheduled game; generic how-to-watch query.",
    "at": "2026-09-05T23:37:03Z"
+  },
+  {
+   "key": "good sunday",
+   "reason": "Generic weekend sports hashtag; no specific moment or storyline.",
+   "at": "2026-09-06T16:01:10Z"
+  },
+  {
+   "key": "sundayvibes",
+   "reason": "Generic weekend sports hashtag; no specific moment or storyline.",
+   "at": "2026-09-06T16:01:10Z"
+  },
+  {
+   "key": "premier league table",
+   "reason": "Generic standings query; no specific moment or storyline.",
+   "at": "2026-09-06T16:01:10Z"
   }
  ],
  "slack_posted": {
