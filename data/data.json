@@ -1,68 +1,16 @@
 {
  "schema_version": 2,
- "generated_at": "2026-09-08T07:54:05Z",
+ "generated_at": "2026-09-08T17:06:56Z",
  "sections": [
   {
-   "league": "MLB",
-   "activity": 175,
+   "league": "Soccer",
+   "activity": 176,
    "trends": [
     {
-     "key": "jeff mcneil",
-     "name": "Jeff McNeil",
-     "entity": "Jeff McNeil",
-     "league": "MLB",
-     "score": 67,
-     "score_breakdown": {
-      "velocity": 21.0,
-      "cross_platform": 8,
-      "freshness": 20,
-      "engagement": 8.0,
-      "early_bonus": 10
-     },
-     "early": true,
-     "new_on_x": true,
-     "why_now": "MLB player name trending; specific news or performance unclear.",
-     "angle": "Monitor for trade deadline, injury, or performance story in MLB.",
-     "sources": [
-      "x",
-      "trends24"
-     ],
-     "first_seen": "2026-09-08T07:54:05Z",
-     "example_tweets": [],
-     "market": null,
-     "market_gap": true
-    },
-    {
-     "key": "dylan cease",
-     "name": "Dylan Cease",
-     "entity": "Dylan Cease",
-     "league": "MLB",
-     "score": 55,
-     "score_breakdown": {
-      "velocity": 17.0,
-      "cross_platform": 8,
-      "freshness": 20,
-      "engagement": 0.0,
-      "early_bonus": 10
-     },
-     "early": true,
-     "new_on_x": true,
-     "why_now": "MLB pitcher name trending; specific news or performance unclear.",
-     "angle": "Monitor for trade deadline, injury, or performance story in MLB.",
-     "sources": [
-      "x",
-      "trends24"
-     ],
-     "first_seen": "2026-09-08T07:54:05Z",
-     "example_tweets": [],
-     "market": null,
-     "market_gap": true
-    },
-    {
-     "key": "blue jays",
-     "name": "Blue Jays",
-     "entity": "Toronto Blue Jays",
-     "league": "MLB",
+     "key": "pedri",
+     "name": "Pedri",
+     "entity": "Pedri",
+     "league": "Soccer",
      "score": 53,
      "score_breakdown": {
       "velocity": 15.0,
@@ -73,13 +21,150 @@
      },
      "early": true,
      "new_on_x": true,
-     "why_now": "MLB team name trending; specific news or performance unclear.",
-     "angle": "Monitor for trade deadline, injury, or performance story in MLB.",
+     "why_now": "Barcelona midfielder spiking on X; likely injury update, transfer rumor, or performance highlight.",
+     "angle": "Early signal on player news; monitor for injury, contract, or Champions League storyline before saturation.",
      "sources": [
       "x",
       "trends24"
      ],
-     "first_seen": "2026-09-08T07:54:05Z",
+     "first_seen": "2026-09-08T17:06:56Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    },
+    {
+     "key": "ballon",
+     "name": "Ballon",
+     "entity": "Ballon d'Or",
+     "league": "Soccer",
+     "score": 45,
+     "score_breakdown": {
+      "velocity": 17.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 0
+     },
+     "early": false,
+     "new_on_x": true,
+     "why_now": "Annual football award season; voting, predictions, or shortlist announcements driving discussion.",
+     "angle": "Leverage award season hype; create content around frontrunners, snubs, and fan debates on social.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-09-08T17:06:56Z",
+     "example_tweets": [],
+     "market": {
+      "question": "Will Kylian Mbappé win the 2026 Ballon d'Or?",
+      "url": "https://polymarket.com/event/ballon-dor-winner-2026",
+      "outcomes": [
+       [
+        "Yes",
+        0.11
+       ],
+       [
+        "No",
+        0.89
+       ]
+      ],
+      "volume24hr": 89312.25828200002
+     },
+     "market_gap": false
+    },
+    {
+     "key": "liga de campeones de la uefa",
+     "name": "liga de campeones de la uefa",
+     "entity": "liga de campeones de la uefa",
+     "league": "Soccer",
+     "score": 44,
+     "score_breakdown": {
+      "velocity": 6.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 10
+     },
+     "early": true,
+     "new_on_x": false,
+     "why_now": "Spiking on google; driver unconfirmed (fallback classifier — no LLM key).",
+     "angle": "Verify the driver manually before attaching content (fallback mode).",
+     "sources": [
+      "google"
+     ],
+     "first_seen": "2026-09-08T17:06:56Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    },
+    {
+     "key": "club brugge",
+     "name": "club brugge",
+     "entity": "Club Brugge",
+     "league": "Soccer",
+     "score": 34,
+     "score_breakdown": {
+      "velocity": 6.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 0
+     },
+     "early": false,
+     "new_on_x": false,
+     "why_now": "Champions League opener vs Aston Villa on 2026-09-08; live match coverage and result.",
+     "angle": "Real-time engagement: live-tweet match moments, upsets, or standout performances; tie to underdog narrative.",
+     "sources": [
+      "google"
+     ],
+     "first_seen": "2026-09-08T17:06:56Z",
+     "example_tweets": [],
+     "market": {
+      "question": "Will Club Brugge KV win on 2026-09-08?",
+      "url": "https://polymarket.com/event/ucl-bru-ast-2026-09-08",
+      "outcomes": [
+       [
+        "Yes",
+        0.165
+       ],
+       [
+        "No",
+        0.835
+       ]
+      ],
+      "volume24hr": 3556109.1328009986
+     },
+     "market_gap": false
+    }
+   ]
+  },
+  {
+   "league": "NFL",
+   "activity": 65,
+   "trends": [
+    {
+     "key": "brandon graham",
+     "name": "Brandon Graham",
+     "entity": "Brandon Graham",
+     "league": "NFL",
+     "score": 65,
+     "score_breakdown": {
+      "velocity": 20.4,
+      "cross_platform": 25,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 0
+     },
+     "early": false,
+     "new_on_x": true,
+     "why_now": "Eagles defensive end announces retirement after 16 seasons, ending legendary career with franchise.",
+     "angle": "Nostalgia hook: celebrate a franchise icon's exit; tie to Eagles' defensive identity shift and veteran leadership loss.",
+     "sources": [
+      "x",
+      "trends24",
+      "google"
+     ],
+     "first_seen": "2026-09-08T17:06:56Z",
      "example_tweets": [],
      "market": null,
      "market_gap": true
@@ -87,14 +172,14 @@
    ]
   },
   {
-   "league": "Other Sports",
-   "activity": 129,
+   "league": "NBA",
+   "activity": 53,
    "trends": [
     {
-     "key": "rone",
-     "name": "Rone",
-     "entity": "Rone",
-     "league": "Other Sports",
+     "key": "taj gibson",
+     "name": "Taj Gibson",
+     "entity": "Taj Gibson",
+     "league": "NBA",
      "score": 53,
      "score_breakdown": {
       "velocity": 15.0,
@@ -105,65 +190,13 @@
      },
      "early": true,
      "new_on_x": true,
-     "why_now": "Likely Barstool Sports personality; co-trending with #SurvivingBarstool suggests sports media angle.",
-     "angle": "Monitor Barstool Sports drama or personality feuds; sports media culture story.",
+     "why_now": "Spiking on X; likely free-agency signing, trade, or roster move announcement not yet mainstream.",
+     "angle": "Early signal on NBA roster churn; monitor for team signing or veteran role news before major outlets saturate.",
      "sources": [
       "x",
       "trends24"
      ],
-     "first_seen": "2026-09-08T07:54:05Z",
-     "example_tweets": [],
-     "market": null,
-     "market_gap": true
-    },
-    {
-     "key": "survivingbarstool",
-     "name": "#SurvivingBarstool",
-     "entity": "Surviving Barstool",
-     "league": "Other Sports",
-     "score": 53,
-     "score_breakdown": {
-      "velocity": 15.0,
-      "cross_platform": 8,
-      "freshness": 20,
-      "engagement": 0.0,
-      "early_bonus": 10
-     },
-     "early": true,
-     "new_on_x": true,
-     "why_now": "Barstool Sports content/drama trending; sports media culture story.",
-     "angle": "Monitor Barstool Sports personality feuds or internal drama; sports media narrative.",
-     "sources": [
-      "x",
-      "trends24"
-     ],
-     "first_seen": "2026-09-08T07:54:05Z",
-     "example_tweets": [],
-     "market": null,
-     "market_gap": true
-    },
-    {
-     "key": "wweraw",
-     "name": "#WWERaw",
-     "entity": "WWE Raw",
-     "league": "Other Sports",
-     "score": 23,
-     "score_breakdown": {
-      "velocity": 15.0,
-      "cross_platform": 8,
-      "freshness": 0,
-      "engagement": 0.0,
-      "early_bonus": 0
-     },
-     "early": false,
-     "new_on_x": true,
-     "why_now": "WWE Raw episode aired; co-trending with Bayley, Liv Morgan, MITB, suggesting storyline developments.",
-     "angle": "Cover the night's biggest angles: wrestler feuds, title implications, and fan reactions to booking.",
-     "sources": [
-      "x",
-      "trends24"
-     ],
-     "first_seen": "2026-07-14T05:33:55Z",
+     "first_seen": "2026-09-08T17:06:56Z",
      "example_tweets": [],
      "market": null,
      "market_gap": true
@@ -172,121 +205,60 @@
   },
   {
    "league": "College Football",
-   "activity": 98,
+   "activity": 35,
    "trends": [
     {
-     "key": "mike norvell",
-     "name": "mike norvell buyout",
-     "entity": "Mike Norvell",
+     "key": "lsu sec",
+     "name": "lsu sec",
+     "entity": "LSU SEC Expulsion",
      "league": "College Football",
-     "score": 55,
+     "score": 35,
      "score_breakdown": {
-      "velocity": 19.6,
-      "cross_platform": 25,
-      "freshness": 10,
-      "engagement": 0.0,
-      "early_bonus": 0
-     },
-     "early": false,
-     "new_on_x": true,
-     "why_now": "FSU fans calling for Norvell's firing after head-scratching play-calling in loss to SMU; buyout cost trending.",
-     "angle": "Ride the coaching hot-seat narrative: FSU dysfunction and fan revolt over offensive strategy creates urgency for program change.",
-     "sources": [
-      "x",
-      "trends24",
-      "google"
-     ],
-     "first_seen": "2026-09-08T00:02:38Z",
-     "example_tweets": [],
-     "market": null,
-     "market_gap": true
-    },
-    {
-     "key": "ashton daniels",
-     "name": "Ashton Daniels",
-     "entity": "Ashton Daniels",
-     "league": "College Football",
-     "score": 43,
-     "score_breakdown": {
-      "velocity": 15.0,
+      "velocity": 6.6,
       "cross_platform": 8,
-      "freshness": 10,
-      "engagement": 0.0,
-      "early_bonus": 10
-     },
-     "early": true,
-     "new_on_x": true,
-     "why_now": "SMU QB name trending alongside FSU loss; likely central to game narrative.",
-     "angle": "Highlight SMU's upset victory and Daniels' performance as emerging ACC power story.",
-     "sources": [
-      "x",
-      "trends24"
-     ],
-     "first_seen": "2026-09-08T00:02:38Z",
-     "example_tweets": [],
-     "market": null,
-     "market_gap": true
-    }
-   ]
-  },
-  {
-   "league": "NFL",
-   "activity": 67,
-   "trends": [
-    {
-     "key": "christian gonzalez",
-     "name": "Christian Gonzalez",
-     "entity": "Christian Gonzalez",
-     "league": "NFL",
-     "score": 67,
-     "score_breakdown": {
-      "velocity": 22.4,
-      "cross_platform": 25,
       "freshness": 20,
       "engagement": 0.0,
       "early_bonus": 0
      },
      "early": false,
-     "new_on_x": true,
-     "why_now": "Patriots CB signed 4-year, $135M deal; contract language drama and offensive line concerns.",
-     "angle": "Cover the Patriots' massive CB investment and offensive line vulnerability heading into Seattle game.",
-     "sources": [
-      "x",
-      "trends24",
-      "google"
-     ],
-     "first_seen": "2026-09-08T07:54:05Z",
-     "example_tweets": [],
-     "market": null,
-     "market_gap": true
-    }
-   ]
-  },
-  {
-   "league": "Motorsports",
-   "activity": 43,
-   "trends": [
-    {
-     "key": "magui corceiro",
-     "name": "magui corceiro",
-     "entity": "Magui Corceiro",
-     "league": "Motorsports",
-     "score": 43,
-     "score_breakdown": {
-      "velocity": 4.6,
-      "cross_platform": 8,
-      "freshness": 20,
-      "engagement": 0.0,
-      "early_bonus": 10
-     },
-     "early": true,
      "new_on_x": false,
-     "why_now": "F1 driver's ex dating NFL player Braxton Berrios; sports-adjacent WAG/dating drama.",
-     "angle": "Cover the sports-celebrity dating crossover: F1 and NFL worlds colliding.",
+     "why_now": "SEC files amendment seeking authority to expel LSU from conference in federal lawsuit; major institutional crisis.",
+     "angle": "High-stakes conference drama: cover legal escalation, LSU's response, and implications for college sports realignment.",
      "sources": [
       "google"
      ],
-     "first_seen": "2026-09-08T07:54:05Z",
+     "first_seen": "2026-09-08T17:06:56Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    }
+   ]
+  },
+  {
+   "league": "Other Sports",
+   "activity": 34,
+   "trends": [
+    {
+     "key": "south park",
+     "name": "south park",
+     "entity": "South Park Emmy Win",
+     "league": "Other Sports",
+     "score": 34,
+     "score_breakdown": {
+      "velocity": 6.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 0
+     },
+     "early": false,
+     "new_on_x": false,
+     "why_now": "South Park wins Emmy for Best Animated Series and uses acceptance speech to troll Trump with message about Emmy he always wanted.",
+     "angle": "Culture-crossover moment: sports/politics satire; leverage the show's White House-focused season and award-show snark.",
+     "sources": [
+      "google"
+     ],
+     "first_seen": "2026-09-08T17:06:56Z",
      "example_tweets": [],
      "market": null,
      "market_gap": true
@@ -299,7 +271,7 @@
   "trends24": "ok (2 snapshots)",
   "google_trends": "ok (10 items)",
   "gamma_api": "ok (500 markets)",
-  "llm": "ok (57 enriched)",
+  "llm": "ok (8 enriched)",
   "slack": "error: HTTP Error 404: Not Found"
  },
  "x_budget": {
@@ -326,9 +298,9 @@
   "section_order_mode": "activity"
  },
  "stats": {
-  "newly_enriched": 57,
+  "newly_enriched": 58,
   "cache_hits": 0,
-  "suppressed": 0,
-  "discarded_non_sports": 18
+  "suppressed": 1,
+  "discarded_non_sports": 49
  }
 }
