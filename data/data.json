@@ -1,373 +1,67 @@
 {
  "schema_version": 2,
- "generated_at": "2026-09-22T00:38:28Z",
+ "generated_at": "2026-09-22T08:20:20Z",
  "sections": [
   {
    "league": "NFL",
-   "activity": 537,
+   "activity": 189,
    "trends": [
     {
-     "key": "jameis",
-     "name": "jameis winston",
-     "entity": "Jameis Winston",
+     "key": "giants",
+     "name": "Giants",
+     "entity": "Giants",
      "league": "NFL",
-     "score": 67,
+     "score": 43,
      "score_breakdown": {
-      "velocity": 21.6,
-      "cross_platform": 25,
+      "velocity": 15.0,
+      "cross_platform": 8,
       "freshness": 20,
       "engagement": 0.0,
       "early_bonus": 0
      },
      "early": false,
      "new_on_x": true,
-     "why_now": "Google traffic 2k; news about Ernie Accorsi death (Giants GM); Winston may be backup QB or related to Giants QB discussion; unclear direct link to Dart/game.",
-     "angle": "Spiking on X alongside Giants QB and Accorsi tribute; driver unconfirmed—likely backup QB or historical Giants connection.",
+     "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+     "angle": "Verify the driver manually before attaching content (fallback mode).",
      "sources": [
       "x",
-      "trends24",
-      "google"
+      "trends24"
      ],
-     "first_seen": "2026-09-22T00:38:28Z",
+     "first_seen": "2026-09-22T08:20:20Z",
      "example_tweets": [],
      "market": null,
      "market_gap": true
     },
     {
-     "key": "dart",
-     "name": "Dart",
-     "entity": "Jaxson Dart",
+     "key": "dollar general",
+     "name": "dollar general",
+     "entity": "dollar general",
      "league": "NFL",
      "score": 43,
      "score_breakdown": {
-      "velocity": 15.0,
-      "cross_platform": 8,
-      "freshness": 20,
-      "engagement": 0.0,
-      "early_bonus": 0
-     },
-     "early": false,
-     "new_on_x": true,
-     "why_now": "Giants QB Jaxson Dart spiking with 10k Google traffic; news highlights 'historic primetime stat' and Phil Simms praise; girlfriend Marissa Ayers also trending.",
-     "angle": "Breakout rookie QB moment: Dart's girlfriend and his performance are both viral; position as emerging star storyline before he becomes obvious.",
-     "sources": [
-      "x",
-      "trends24"
-     ],
-     "first_seen": "2026-09-22T00:38:28Z",
-     "example_tweets": [],
-     "market": {
-      "question": "Giants vs. Rams",
-      "url": "https://polymarket.com/event/nfl-nyg-la-2026-09-22",
-      "outcomes": [
-       [
-        "Giants",
-        0.245
-       ],
-       [
-        "Rams",
-        0.755
-       ]
-      ],
-      "volume24hr": 4700603.207358001
-     },
-     "market_gap": false
-    },
-    {
-     "key": "aaron donald",
-     "name": "Aaron Donald",
-     "entity": "Aaron Donald",
-     "league": "NFL",
-     "score": 43,
-     "score_breakdown": {
-      "velocity": 15.0,
-      "cross_platform": 8,
-      "freshness": 20,
-      "engagement": 0.0,
-      "early_bonus": 0
-     },
-     "early": false,
-     "new_on_x": true,
-     "why_now": "Rams defensive star; co-trending with Rams/Giants game and injury news (Myles Garrett out); Donald likely featured in game preview or injury comparison.",
-     "angle": "Defensive matchup angle: Donald vs. Giants offense; injury narrative (Garrett out, Donald playing) drives fantasy/betting interest.",
-     "sources": [
-      "x",
-      "trends24"
-     ],
-     "first_seen": "2026-09-22T00:38:28Z",
-     "example_tweets": [],
-     "market": {
-      "question": "Giants vs. Rams",
-      "url": "https://polymarket.com/event/nfl-nyg-la-2026-09-22",
-      "outcomes": [
-       [
-        "Giants",
-        0.245
-       ],
-       [
-        "Rams",
-        0.755
-       ]
-      ],
-      "volume24hr": 4700603.207358001
-     },
-     "market_gap": false
-    },
-    {
-     "key": "theo johnson",
-     "name": "Theo Johnson",
-     "entity": "Theo Johnson",
-     "league": "NFL",
-     "score": 43,
-     "score_breakdown": {
-      "velocity": 15.0,
-      "cross_platform": 8,
-      "freshness": 20,
-      "engagement": 0.0,
-      "early_bonus": 0
-     },
-     "early": false,
-     "new_on_x": true,
-     "why_now": "Giants tight end; co-trending with game and Ertz (fellow TE); likely featured in game preview or receiving yards prop.",
-     "angle": "Tight end target share angle: Johnson vs. Ertz matchup or receiving yards prop for Monday game.",
-     "sources": [
-      "x",
-      "trends24"
-     ],
-     "first_seen": "2026-09-22T00:38:28Z",
-     "example_tweets": [],
-     "market": {
-      "question": "Giants vs. Rams",
-      "url": "https://polymarket.com/event/nfl-nyg-la-2026-09-22",
-      "outcomes": [
-       [
-        "Giants",
-        0.245
-       ],
-       [
-        "Rams",
-        0.755
-       ]
-      ],
-      "volume24hr": 4700603.207358001
-     },
-     "market_gap": false
-    },
-    {
-     "key": "ertz",
-     "name": "Ertz",
-     "entity": "Zach Ertz",
-     "league": "NFL",
-     "score": 43,
-     "score_breakdown": {
-      "velocity": 15.0,
-      "cross_platform": 8,
-      "freshness": 20,
-      "engagement": 0.0,
-      "early_bonus": 0
-     },
-     "early": false,
-     "new_on_x": true,
-     "why_now": "Rams TE; co-trending with Theo Johnson (Giants TE), game, and receiving props; also co-trending with Ernie Accorsi death news (Giants GM who drafted Eli Manning).",
-     "angle": "Tight end receiving yards prop or Accorsi tribute angle (Ertz as veteran TE in Giants-Rams game).",
-     "sources": [
-      "x",
-      "trends24"
-     ],
-     "first_seen": "2026-09-22T00:38:28Z",
-     "example_tweets": [],
-     "market": {
-      "question": "Giants vs. Rams",
-      "url": "https://polymarket.com/event/nfl-nyg-la-2026-09-22",
-      "outcomes": [
-       [
-        "Giants",
-        0.245
-       ],
-       [
-        "Rams",
-        0.755
-       ]
-      ],
-      "volume24hr": 4700603.207358001
-     },
-     "market_gap": false
-    },
-    {
-     "key": "davante adams",
-     "name": "Davante Adams",
-     "entity": "Davante Adams",
-     "league": "NFL",
-     "score": 43,
-     "score_breakdown": {
-      "velocity": 15.0,
-      "cross_platform": 8,
-      "freshness": 20,
-      "engagement": 0.0,
-      "early_bonus": 0
-     },
-     "early": false,
-     "new_on_x": true,
-     "why_now": "Rams WR; co-trending with Rams/Giants game, Stafford, Puka Nacua; news mentions 'full practice Saturday' and receiving yards props.",
-     "angle": "Receiving yards prop or target share angle; Adams' practice status and availability for Monday game.",
-     "sources": [
-      "x",
-      "trends24"
-     ],
-     "first_seen": "2026-09-22T00:38:28Z",
-     "example_tweets": [],
-     "market": {
-      "question": "Giants vs. Rams",
-      "url": "https://polymarket.com/event/nfl-nyg-la-2026-09-22",
-      "outcomes": [
-       [
-        "Giants",
-        0.245
-       ],
-       [
-        "Rams",
-        0.755
-       ]
-      ],
-      "volume24hr": 4700603.207358001
-     },
-     "market_gap": false
-    },
-    {
-     "key": "another qb",
-     "name": "Another QB",
-     "entity": "Giants QB (backup/alternate)",
-     "league": "NFL",
-     "score": 43,
-     "score_breakdown": {
-      "velocity": 15.0,
-      "cross_platform": 8,
-      "freshness": 20,
-      "engagement": 0.0,
-      "early_bonus": 0
-     },
-     "early": false,
-     "new_on_x": true,
-     "why_now": "Co-trending with Jaxson Dart, Giants QB discussion; unclear which QB; likely backup or injury-related.",
-     "angle": "Spiking on X alongside Giants QB; driver unconfirmed—likely backup QB or injury concern.",
-     "sources": [
-      "x",
-      "trends24"
-     ],
-     "first_seen": "2026-09-22T00:38:28Z",
-     "example_tweets": [],
-     "market": null,
-     "market_gap": true
-    },
-    {
-     "key": "kyren williams",
-     "name": "Kyren Williams",
-     "entity": "Kyren Williams",
-     "league": "NFL",
-     "score": 43,
-     "score_breakdown": {
-      "velocity": 15.0,
-      "cross_platform": 8,
-      "freshness": 20,
-      "engagement": 0.0,
-      "early_bonus": 0
-     },
-     "early": false,
-     "new_on_x": true,
-     "why_now": "Rams RB; co-trending with Rams/Giants game, Aaron Donald, Puka Nacua; likely featured in game preview or rushing yards prop.",
-     "angle": "Rushing yards prop or backfield usage angle for Rams RB in Monday game.",
-     "sources": [
-      "x",
-      "trends24"
-     ],
-     "first_seen": "2026-09-22T00:38:28Z",
-     "example_tweets": [],
-     "market": {
-      "question": "Giants vs. Rams",
-      "url": "https://polymarket.com/event/nfl-nyg-la-2026-09-22",
-      "outcomes": [
-       [
-        "Giants",
-        0.245
-       ],
-       [
-        "Rams",
-        0.755
-       ]
-      ],
-      "volume24hr": 4700603.207358001
-     },
-     "market_gap": false
-    }
-   ]
-  },
-  {
-   "league": "College Football",
-   "activity": 96,
-   "trends": [
-    {
-     "key": "cole knuble",
-     "name": "Cole Knuble",
-     "entity": "Cole Knuble",
-     "league": "College Football",
-     "score": 53,
-     "score_breakdown": {
-      "velocity": 15.0,
+      "velocity": 5.4,
       "cross_platform": 8,
       "freshness": 20,
       "engagement": 0.0,
       "early_bonus": 10
      },
      "early": true,
-     "new_on_x": true,
-     "why_now": "College football player; low rank, no major news coverage; early signal.",
-     "angle": "Emerging college football prospect; monitor for breakout game or recruitment news.",
+     "new_on_x": false,
+     "why_now": "Spiking on google; driver unconfirmed (fallback classifier — no LLM key).",
+     "angle": "Verify the driver manually before attaching content (fallback mode).",
      "sources": [
-      "x",
-      "trends24"
+      "google"
      ],
-     "first_seen": "2026-09-22T00:38:28Z",
+     "first_seen": "2026-09-22T08:20:20Z",
      "example_tweets": [],
      "market": null,
      "market_gap": true
     },
     {
-     "key": "tiger stadium",
-     "name": "Tiger Stadium",
-     "entity": "Tiger Stadium (LSU)",
-     "league": "College Football",
-     "score": 43,
-     "score_breakdown": {
-      "velocity": 15.0,
-      "cross_platform": 8,
-      "freshness": 20,
-      "engagement": 0.0,
-      "early_bonus": 0
-     },
-     "early": false,
-     "new_on_x": true,
-     "why_now": "College football venue; co-trending with sports names but no specific game or moment; likely preseason or upcoming game preview.",
-     "angle": "Spiking on X; driver unconfirmed—likely LSU game preview or recruiting news.",
-     "sources": [
-      "x",
-      "trends24"
-     ],
-     "first_seen": "2026-09-22T00:38:28Z",
-     "example_tweets": [],
-     "market": null,
-     "market_gap": true
-    }
-   ]
-  },
-  {
-   "league": "NHL",
-   "activity": 76,
-   "trends": [
-    {
-     "key": "mn wild",
-     "name": "mn wild",
-     "entity": "Minnesota Wild",
-     "league": "NHL",
+     "key": "fidelity crypto",
+     "name": "fidelity crypto",
+     "entity": "fidelity crypto",
+     "league": "NFL",
      "score": 43,
      "score_breakdown": {
       "velocity": 4.6,
@@ -378,78 +72,58 @@
      },
      "early": true,
      "new_on_x": false,
-     "why_now": "NHL team; 200 Google traffic; news highlights rookie Rieger Lorenz's preseason debut and performance; early-season prospect signal.",
-     "angle": "Emerging prospect angle: Rieger Lorenz's preseason breakout; monitor for regular season impact.",
+     "why_now": "Spiking on google; driver unconfirmed (fallback classifier — no LLM key).",
+     "angle": "Verify the driver manually before attaching content (fallback mode).",
      "sources": [
       "google"
      ],
-     "first_seen": "2026-09-22T00:38:28Z",
+     "first_seen": "2026-09-22T08:20:20Z",
      "example_tweets": [],
-     "market": {
-      "question": "Will the Minnesota Wild be named the 2026-27 NHL Stanley Cup Champion?",
-      "url": "https://polymarket.com/event/nhl-2027-champion-20260612185656162",
-      "outcomes": [
-       [
-        "Yes",
-        0.05
-       ],
-       [
-        "No",
-        0.95
-       ]
-      ],
-      "volume24hr": 10380.97
-     },
-     "market_gap": false
+     "market": null,
+     "market_gap": true
     },
     {
-     "key": "dallas stars",
-     "name": "dallas stars",
-     "entity": "Dallas Stars",
-     "league": "NHL",
-     "score": 33,
+     "key": "draftkings fantasy",
+     "name": "draftkings fantasy",
+     "entity": "draftkings fantasy",
+     "league": "NFL",
+     "score": 42,
      "score_breakdown": {
-      "velocity": 4.6,
+      "velocity": 4.0,
       "cross_platform": 8,
       "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 10
+     },
+     "early": true,
+     "new_on_x": false,
+     "why_now": "Spiking on google; driver unconfirmed (fallback classifier — no LLM key).",
+     "angle": "Verify the driver manually before attaching content (fallback mode).",
+     "sources": [
+      "google"
+     ],
+     "first_seen": "2026-09-22T08:20:20Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    },
+    {
+     "key": "rams",
+     "name": "Rams",
+     "entity": "Rams",
+     "league": "NFL",
+     "score": 18,
+     "score_breakdown": {
+      "velocity": 0.0,
+      "cross_platform": 8,
+      "freshness": 10,
       "engagement": 0.0,
       "early_bonus": 0
      },
      "early": false,
      "new_on_x": false,
-     "why_now": "NHL team; 200 Google traffic; news covers Sam Steel contract extension ($14.8M, 4 years); roster/business news.",
-     "angle": "Contract/roster angle: Stars lock up Steel; organizational stability story.",
-     "sources": [
-      "google"
-     ],
-     "first_seen": "2026-09-22T00:38:28Z",
-     "example_tweets": [],
-     "market": null,
-     "market_gap": true
-    }
-   ]
-  },
-  {
-   "league": "MLB",
-   "activity": 43,
-   "trends": [
-    {
-     "key": "comerica",
-     "name": "Comerica",
-     "entity": "Comerica Park",
-     "league": "MLB",
-     "score": 43,
-     "score_breakdown": {
-      "velocity": 15.0,
-      "cross_platform": 8,
-      "freshness": 20,
-      "engagement": 0.0,
-      "early_bonus": 0
-     },
-     "early": false,
-     "new_on_x": true,
-     "why_now": "Detroit Tigers stadium; co-trending with sports names; likely Tigers game or preseason news.",
-     "angle": "Spiking on X; driver unconfirmed—likely Tigers game or stadium-related news.",
+     "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+     "angle": "Verify the driver manually before attaching content (fallback mode).",
      "sources": [
       "x",
       "trends24"
@@ -466,9 +140,9 @@
    "activity": 43,
    "trends": [
     {
-     "key": "kristen bell",
-     "name": "kristen bell",
-     "entity": "Kristen Bell",
+     "key": "ind vs japan",
+     "name": "ind vs japan",
+     "entity": "ind vs japan",
      "league": "Other Sports",
      "score": 43,
      "score_breakdown": {
@@ -480,12 +154,12 @@
      },
      "early": true,
      "new_on_x": false,
-     "why_now": "Actress; 200 Google traffic; news mentions surprise 'Frozen' sing-along with Savannah Bananas (minor league baseball); sports-adjacent entertainment moment.",
-     "angle": "Sports-adjacent culture moment: Celebrity appearance at Savannah Bananas game; ride the novelty before it peaks.",
+     "why_now": "Spiking on google; driver unconfirmed (fallback classifier — no LLM key).",
+     "angle": "Verify the driver manually before attaching content (fallback mode).",
      "sources": [
       "google"
      ],
-     "first_seen": "2026-09-22T00:38:28Z",
+     "first_seen": "2026-09-22T08:20:20Z",
      "example_tweets": [],
      "market": null,
      "market_gap": true
@@ -493,31 +167,30 @@
    ]
   },
   {
-   "league": "NBA",
-   "activity": 23,
+   "league": "Soccer",
+   "activity": 42,
    "trends": [
     {
-     "key": "duren",
-     "name": "Duren",
-     "entity": "Donovan Duren",
-     "league": "NBA",
-     "score": 23,
+     "key": "fan duel",
+     "name": "fan duel",
+     "entity": "fan duel",
+     "league": "Soccer",
+     "score": 42,
      "score_breakdown": {
-      "velocity": 15.0,
+      "velocity": 4.0,
       "cross_platform": 8,
-      "freshness": 0,
+      "freshness": 20,
       "engagement": 0.0,
-      "early_bonus": 0
+      "early_bonus": 10
      },
-     "early": false,
-     "new_on_x": true,
-     "why_now": "NBA player; co-trending with sports names but no clear game or moment; likely preseason or injury news.",
-     "angle": "Spiking on X; driver unconfirmed—likely preseason debut or injury update.",
+     "early": true,
+     "new_on_x": false,
+     "why_now": "Spiking on google; driver unconfirmed (fallback classifier — no LLM key).",
+     "angle": "Verify the driver manually before attaching content (fallback mode).",
      "sources": [
-      "x",
-      "trends24"
+      "google"
      ],
-     "first_seen": "2026-09-18T23:57:53Z",
+     "first_seen": "2026-09-22T08:20:20Z",
      "example_tweets": [],
      "market": null,
      "market_gap": true
@@ -530,7 +203,7 @@
   "trends24": "ok (2 snapshots)",
   "google_trends": "ok (10 items)",
   "gamma_api": "ok (500 markets)",
-  "llm": "ok (58 enriched)",
+  "llm": "bad JSON — keyword fallback",
   "slack": "error: HTTP Error 404: Not Found"
  },
  "x_budget": {
@@ -557,9 +230,9 @@
   "section_order_mode": "activity"
  },
  "stats": {
-  "newly_enriched": 58,
+  "newly_enriched": 60,
   "cache_hits": 0,
-  "suppressed": 5,
-  "discarded_non_sports": 32
+  "suppressed": 0,
+  "discarded_non_sports": 53
  }
 }
