@@ -1,16 +1,42 @@
 {
  "schema_version": 2,
- "generated_at": "2026-09-22T08:20:20Z",
+ "generated_at": "2026-09-22T17:33:16Z",
  "sections": [
   {
-   "league": "NFL",
-   "activity": 189,
+   "league": "MLB",
+   "activity": 96,
    "trends": [
     {
-     "key": "giants",
-     "name": "Giants",
-     "entity": "Giants",
-     "league": "NFL",
+     "key": "nimmo",
+     "name": "Nimmo",
+     "entity": "Brandon Nimmo (New York Mets)",
+     "league": "MLB",
+     "score": 53,
+     "score_breakdown": {
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 10
+     },
+     "early": true,
+     "new_on_x": true,
+     "why_now": "New entry to trending; specific driver unconfirmed.",
+     "angle": "Early signal—monitor for injury, trade, or performance news before mainstream pickup.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-09-22T17:33:16Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    },
+    {
+     "key": "chad sox",
+     "name": "CHAD SOX",
+     "entity": "Chicago White Sox (Chad-related)",
+     "league": "MLB",
      "score": 43,
      "score_breakdown": {
       "velocity": 15.0,
@@ -21,176 +47,91 @@
      },
      "early": false,
      "new_on_x": true,
-     "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
-     "angle": "Verify the driver manually before attaching content (fallback mode).",
+     "why_now": "Spiking on X; specific driver unconfirmed from available signals.",
+     "angle": "Likely player or prospect news—verify for roster or performance angle.",
      "sources": [
       "x",
       "trends24"
      ],
-     "first_seen": "2026-09-22T08:20:20Z",
+     "first_seen": "2026-09-22T17:33:16Z",
      "example_tweets": [],
-     "market": null,
-     "market_gap": true
-    },
+     "market": {
+      "question": "Chicago White Sox vs. Kansas City Royals",
+      "url": "https://polymarket.com/event/mlb-cws-kc-2026-09-22",
+      "outcomes": [
+       [
+        "Chicago White Sox",
+        0.525
+       ],
+       [
+        "Kansas City Royals",
+        0.475
+       ]
+      ],
+      "volume24hr": 36139.852185
+     },
+     "market_gap": false
+    }
+   ]
+  },
+  {
+   "league": "NHL",
+   "activity": 63,
+   "trends": [
     {
-     "key": "dollar general",
-     "name": "dollar general",
-     "entity": "dollar general",
-     "league": "NFL",
-     "score": 43,
+     "key": "bednar",
+     "name": "Bednar",
+     "entity": "Jared Bednar (Colorado Avalanche)",
+     "league": "NHL",
+     "score": 63,
      "score_breakdown": {
-      "velocity": 5.4,
+      "velocity": 27.0,
       "cross_platform": 8,
       "freshness": 20,
-      "engagement": 0.0,
-      "early_bonus": 10
+      "engagement": 8.0,
+      "early_bonus": 0
      },
-     "early": true,
-     "new_on_x": false,
-     "why_now": "Spiking on google; driver unconfirmed (fallback classifier — no LLM key).",
-     "angle": "Verify the driver manually before attaching content (fallback mode).",
+     "early": false,
+     "new_on_x": true,
+     "why_now": "Spiking on X with significant rank jump (45→31); specific driver unconfirmed.",
+     "angle": "Likely coaching news or team performance moment—verify for contract/strategy story.",
      "sources": [
-      "google"
+      "x",
+      "trends24"
      ],
-     "first_seen": "2026-09-22T08:20:20Z",
+     "first_seen": "2026-09-22T17:33:16Z",
      "example_tweets": [],
      "market": null,
      "market_gap": true
-    },
+    }
+   ]
+  },
+  {
+   "league": "NBA",
+   "activity": 45,
+   "trends": [
     {
-     "key": "fidelity crypto",
-     "name": "fidelity crypto",
-     "entity": "fidelity crypto",
-     "league": "NFL",
-     "score": 43,
+     "key": "trae",
+     "name": "Trae",
+     "entity": "Trae Young",
+     "league": "NBA",
+     "score": 45,
      "score_breakdown": {
-      "velocity": 4.6,
+      "velocity": 17.0,
       "cross_platform": 8,
       "freshness": 20,
-      "engagement": 0.0,
-      "early_bonus": 10
-     },
-     "early": true,
-     "new_on_x": false,
-     "why_now": "Spiking on google; driver unconfirmed (fallback classifier — no LLM key).",
-     "angle": "Verify the driver manually before attaching content (fallback mode).",
-     "sources": [
-      "google"
-     ],
-     "first_seen": "2026-09-22T08:20:20Z",
-     "example_tweets": [],
-     "market": null,
-     "market_gap": true
-    },
-    {
-     "key": "draftkings fantasy",
-     "name": "draftkings fantasy",
-     "entity": "draftkings fantasy",
-     "league": "NFL",
-     "score": 42,
-     "score_breakdown": {
-      "velocity": 4.0,
-      "cross_platform": 8,
-      "freshness": 20,
-      "engagement": 0.0,
-      "early_bonus": 10
-     },
-     "early": true,
-     "new_on_x": false,
-     "why_now": "Spiking on google; driver unconfirmed (fallback classifier — no LLM key).",
-     "angle": "Verify the driver manually before attaching content (fallback mode).",
-     "sources": [
-      "google"
-     ],
-     "first_seen": "2026-09-22T08:20:20Z",
-     "example_tweets": [],
-     "market": null,
-     "market_gap": true
-    },
-    {
-     "key": "rams",
-     "name": "Rams",
-     "entity": "Rams",
-     "league": "NFL",
-     "score": 18,
-     "score_breakdown": {
-      "velocity": 0.0,
-      "cross_platform": 8,
-      "freshness": 10,
       "engagement": 0.0,
       "early_bonus": 0
      },
      "early": false,
-     "new_on_x": false,
-     "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
-     "angle": "Verify the driver manually before attaching content (fallback mode).",
+     "new_on_x": true,
+     "why_now": "Spiking on X; specific driver unconfirmed from available signals.",
+     "angle": "Monitor for trade rumors, injury news, or performance milestone tied to Hawks season.",
      "sources": [
       "x",
       "trends24"
      ],
-     "first_seen": "2026-09-22T00:38:28Z",
-     "example_tweets": [],
-     "market": null,
-     "market_gap": true
-    }
-   ]
-  },
-  {
-   "league": "Other Sports",
-   "activity": 43,
-   "trends": [
-    {
-     "key": "ind vs japan",
-     "name": "ind vs japan",
-     "entity": "ind vs japan",
-     "league": "Other Sports",
-     "score": 43,
-     "score_breakdown": {
-      "velocity": 4.6,
-      "cross_platform": 8,
-      "freshness": 20,
-      "engagement": 0.0,
-      "early_bonus": 10
-     },
-     "early": true,
-     "new_on_x": false,
-     "why_now": "Spiking on google; driver unconfirmed (fallback classifier — no LLM key).",
-     "angle": "Verify the driver manually before attaching content (fallback mode).",
-     "sources": [
-      "google"
-     ],
-     "first_seen": "2026-09-22T08:20:20Z",
-     "example_tweets": [],
-     "market": null,
-     "market_gap": true
-    }
-   ]
-  },
-  {
-   "league": "Soccer",
-   "activity": 42,
-   "trends": [
-    {
-     "key": "fan duel",
-     "name": "fan duel",
-     "entity": "fan duel",
-     "league": "Soccer",
-     "score": 42,
-     "score_breakdown": {
-      "velocity": 4.0,
-      "cross_platform": 8,
-      "freshness": 20,
-      "engagement": 0.0,
-      "early_bonus": 10
-     },
-     "early": true,
-     "new_on_x": false,
-     "why_now": "Spiking on google; driver unconfirmed (fallback classifier — no LLM key).",
-     "angle": "Verify the driver manually before attaching content (fallback mode).",
-     "sources": [
-      "google"
-     ],
-     "first_seen": "2026-09-22T08:20:20Z",
+     "first_seen": "2026-09-22T17:33:16Z",
      "example_tweets": [],
      "market": null,
      "market_gap": true
@@ -203,7 +144,7 @@
   "trends24": "ok (2 snapshots)",
   "google_trends": "ok (10 items)",
   "gamma_api": "ok (500 markets)",
-  "llm": "bad JSON — keyword fallback",
+  "llm": "ok (7 enriched)",
   "slack": "error: HTTP Error 404: Not Found"
  },
  "x_budget": {
@@ -230,9 +171,9 @@
   "section_order_mode": "activity"
  },
  "stats": {
-  "newly_enriched": 60,
+  "newly_enriched": 58,
   "cache_hits": 0,
-  "suppressed": 0,
-  "discarded_non_sports": 53
+  "suppressed": 1,
+  "discarded_non_sports": 52
  }
 }
