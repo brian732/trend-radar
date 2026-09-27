@@ -151,7 +151,7 @@
   },
   "good sunday": {
    "first_seen": "2026-07-12T14:27:04Z",
-   "last_seen": "2026-09-20T16:42:42Z",
+   "last_seen": "2026-09-27T17:35:01Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -162,13 +162,13 @@
     "league": null,
     "obvious": true,
     "early": false,
-    "entity": "Generic greeting",
-    "why_now": "Generic Sunday greeting with no sports angle.",
-    "angle": "Not actionable for sports marketing.",
+    "entity": null,
+    "why_now": "Generic Sunday greeting; no sports or cultural hook.",
+    "angle": null,
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-09-20T16:42:42Z"
+   "enriched_at": "2026-09-27T17:35:01Z"
   },
   "good tuesday": {
    "first_seen": "2026-07-14T14:54:44Z",
@@ -681,7 +681,7 @@
   },
   "football sunday": {
    "first_seen": "2026-09-13T16:53:13Z",
-   "last_seen": "2026-09-20T16:42:42Z",
+   "last_seen": "2026-09-27T17:35:01Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -692,34 +692,13 @@
     "league": "NFL",
     "obvious": true,
     "early": false,
-    "entity": "Football Sunday (generic)",
-    "why_now": "Generic Sunday football reference; no specific storyline.",
-    "angle": "Too obvious; suppress as generic game-day reference.",
-    "duplicate_of": null,
+    "entity": "NFL",
+    "why_now": "Scheduled NFL game day; generic event descriptor with no specific moment.",
+    "angle": null,
+    "duplicate_of": "nfl sunday",
     "market_id": null
    },
-   "enriched_at": "2026-09-20T16:42:42Z"
-  },
-  "godwin": {
-   "first_seen": "2026-09-13T16:53:13Z",
-   "last_seen": "2026-09-20T16:42:42Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "godwin",
-    "sports": true,
-    "league": "NFL",
-    "obvious": false,
-    "early": false,
-    "entity": "Chris Godwin",
-    "why_now": "Godwin trending at rank 48, down from rank 35; likely a fantasy football pick or injury update for Buccaneers WR.",
-    "angle": "Highlight Godwin's fantasy value; tie to NFL Week 2 start/sit decisions.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-20T16:42:42Z"
+   "enriched_at": "2026-09-27T17:35:01Z"
   },
   "bears": {
    "first_seen": "2026-09-13T19:13:47Z",
@@ -826,27 +805,6 @@
     "market_id": "3482696"
    },
    "enriched_at": "2026-09-20T19:17:36Z"
-  },
-  "coker": {
-   "first_seen": "2026-09-13T19:13:47Z",
-   "last_seen": "2026-09-20T16:42:42Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "coker",
-    "sports": true,
-    "league": "NFL",
-    "obvious": false,
-    "early": true,
-    "entity": "Coker (NFL player)",
-    "why_now": "Trending on X/Trends24 with no news coverage; likely a fantasy football pick or injury update.",
-    "angle": "Monitor for injury or roster news; early signal for fantasy football community.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-20T16:42:42Z"
   },
   "mark andrews": {
    "first_seen": "2026-09-13T19:13:47Z",
@@ -1017,27 +975,6 @@
    },
    "enriched_at": "2026-09-20T23:56:38Z"
   },
-  "jurgens": {
-   "first_seen": "2026-09-13T23:56:12Z",
-   "last_seen": "2026-09-20T16:42:42Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "jurgens",
-    "sports": true,
-    "league": "NFL",
-    "obvious": false,
-    "early": false,
-    "entity": "Travis Jurgens (NFL player)",
-    "why_now": "Jurgens trending at rank 22, down from rank 11; likely a fantasy football pick or injury update.",
-    "angle": "Monitor for injury or performance news; tie to NFL Week 2 fantasy decisions.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-20T16:42:42Z"
-  },
   "dolphins": {
    "first_seen": "2026-09-13T23:56:12Z",
    "last_seen": "2026-09-20T23:56:38Z",
@@ -1205,27 +1142,6 @@
     "market_id": null
    },
    "enriched_at": "2026-09-20T23:56:38Z"
-  },
-  "ladd": {
-   "first_seen": "2026-09-13T23:56:12Z",
-   "last_seen": "2026-09-20T16:42:42Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "ladd",
-    "sports": true,
-    "league": "NFL",
-    "obvious": false,
-    "early": false,
-    "entity": "Ladd (NFL player)",
-    "why_now": "Ladd trending at rank 23, down from rank 27; likely a fantasy football pick or injury update.",
-    "angle": "Monitor for injury or performance news; tie to NFL Week 2 fantasy decisions.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-20T16:42:42Z"
   },
   "herbert": {
    "first_seen": "2026-09-14T08:40:12Z",
@@ -1475,27 +1391,6 @@
     "market_id": null
    },
    "enriched_at": "2026-09-21T08:41:38Z"
-  },
-  "drew kendall": {
-   "first_seen": "2026-09-15T00:23:12Z",
-   "last_seen": "2026-09-20T16:42:42Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "drew kendall",
-    "sports": true,
-    "league": "NFL",
-    "obvious": false,
-    "early": true,
-    "entity": "Drew Kendall",
-    "why_now": "Trending on X/Trends24 with no news coverage; likely a fantasy football pick or injury update.",
-    "angle": "Monitor for injury or performance news; early signal for fantasy football community.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-20T16:42:42Z"
   },
   "ernesto": {
    "first_seen": "2026-09-15T08:28:39Z",
@@ -2084,26 +1979,6 @@
    },
    "enriched_at": "2026-09-20T23:56:38Z"
   },
-  "terry bradshaw": {
-   "first_seen": "2026-09-18T19:31:06Z",
-   "last_seen": "2026-09-20T16:42:42Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "terry bradshaw",
-    "sports": true,
-    "league": "NFL",
-    "obvious": false,
-    "early": false,
-    "entity": "Terry Bradshaw",
-    "why_now": "Bradshaw trending on Google with 500 traffic; news about his comments on Nick Saban and NIL in college football.",
-    "angle": "Leverage Bradshaw's commentary on college football NIL culture; tie to broader athlete compensation narrative.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-20T16:42:42Z"
-  },
   "politico": {
    "first_seen": "2026-09-18T23:57:53Z",
    "last_seen": "2026-09-24T17:46:55Z",
@@ -2461,48 +2336,6 @@
    },
    "enriched_at": "2026-09-26T08:24:04Z"
   },
-  "blaney": {
-   "first_seen": "2026-09-20T08:23:06Z",
-   "last_seen": "2026-09-20T16:42:42Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "blaney",
-    "sports": true,
-    "league": "Motorsports",
-    "obvious": false,
-    "early": false,
-    "entity": "Ryan Blaney",
-    "why_now": "Blaney trending at rank 12, up from rank 7; likely a NASCAR race result or performance moment.",
-    "angle": "Highlight Blaney's race performance or standings position; tie to NASCAR narrative.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-20T16:42:42Z"
-  },
-  "hocevar": {
-   "first_seen": "2026-09-20T08:23:06Z",
-   "last_seen": "2026-09-20T16:42:42Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "hocevar",
-    "sports": true,
-    "league": "Motorsports",
-    "obvious": false,
-    "early": false,
-    "entity": "Ty Hocevar",
-    "why_now": "Hocevar trending at rank 30, up from rank 20; likely a NASCAR race result or performance moment.",
-    "angle": "Highlight Hocevar's race performance; tie to NASCAR narrative.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-20T16:42:42Z"
-  },
   "ucla": {
    "first_seen": "2026-09-20T08:23:06Z",
    "last_seen": "2026-09-27T00:20:15Z",
@@ -2668,90 +2501,6 @@
    },
    "enriched_at": "2026-09-21T08:41:38Z"
   },
-  "sunderland": {
-   "first_seen": "2026-09-20T16:42:42Z",
-   "last_seen": "2026-09-20T16:42:42Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "sunderland",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": false,
-    "early": false,
-    "entity": "Sunderland AFC",
-    "why_now": "Sunderland trending alongside Mourinho; likely tied to Mourinho's appointment or recent managerial news at the club.",
-    "angle": "Capitalize on Mourinho's return to English football narrative; tie to Sunderland's ambitions and his legendary status.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-20T16:42:42Z"
-  },
-  "huijsen": {
-   "first_seen": "2026-09-20T16:42:42Z",
-   "last_seen": "2026-09-20T16:42:42Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "huijsen",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": false,
-    "early": true,
-    "entity": "Dean Huijsen",
-    "why_now": "Trending on X/Trends24 with no news coverage; likely a transfer rumor or player performance moment not yet mainstream.",
-    "angle": "Monitor for transfer news or match performance; early signal before major outlets pick up the story.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-20T16:42:42Z"
-  },
-  "hardrockbet": {
-   "first_seen": "2026-09-20T16:42:42Z",
-   "last_seen": "2026-09-20T16:42:42Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "hardrockbet",
-    "sports": true,
-    "league": "Other Sports",
-    "obvious": false,
-    "early": true,
-    "entity": "#HardRockBet",
-    "why_now": "Hashtag trending on X; likely a betting promotion or sponsorship activation tied to sports events.",
-    "angle": "Identify the sports betting angle and tie to live events; early opportunity to ride betting culture trend.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-20T16:42:42Z"
-  },
-  "wirtz": {
-   "first_seen": "2026-09-20T16:42:42Z",
-   "last_seen": "2026-09-20T16:42:42Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "wirtz",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": false,
-    "early": false,
-    "entity": "Florian Wirtz",
-    "why_now": "Wirtz trending at rank 6, up from rank 3 previously; likely a match performance, goal, or transfer-related moment.",
-    "angle": "Create content around Wirtz's performance or transfer speculation; leverage his rising star status in European football.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-20T16:42:42Z"
-  },
   "real madrid": {
    "first_seen": "2026-09-20T16:42:42Z",
    "last_seen": "2026-09-20T19:17:36Z",
@@ -2773,93 +2522,9 @@
    },
    "enriched_at": "2026-09-20T16:42:42Z"
   },
-  "isak": {
-   "first_seen": "2026-09-20T16:42:42Z",
-   "last_seen": "2026-09-20T16:42:42Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "isak",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": false,
-    "early": false,
-    "entity": "Alexander Isak",
-    "why_now": "Isak trending at rank 8, up from rank 4; likely a goal, injury update, or match performance moment.",
-    "angle": "Highlight Isak's form or injury status; tie to Newcastle's season narrative.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-20T16:42:42Z"
-  },
-  "valverde": {
-   "first_seen": "2026-09-20T16:42:42Z",
-   "last_seen": "2026-09-20T16:42:42Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "valverde",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": false,
-    "early": false,
-    "entity": "Federico Valverde",
-    "why_now": "Valverde trending at rank 9 alongside Real Madrid; likely a performance or goal in Madrid's match today.",
-    "angle": "Tie to Real Madrid's match narrative; highlight Valverde's midfield impact.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-20T16:42:42Z"
-  },
-  "jonathan david": {
-   "first_seen": "2026-09-20T16:42:42Z",
-   "last_seen": "2026-09-20T16:42:42Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "jonathan david",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": false,
-    "early": false,
-    "entity": "Jonathan David",
-    "why_now": "Jonathan David trending at rank 10; likely a goal, transfer news, or match performance.",
-    "angle": "Capitalize on David's form or transfer speculation; tie to his club's European ambitions.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-20T16:42:42Z"
-  },
-  "simeone": {
-   "first_seen": "2026-09-20T16:42:42Z",
-   "last_seen": "2026-09-20T16:42:42Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "simeone",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": false,
-    "early": false,
-    "entity": "Diego Simeone",
-    "why_now": "Simeone trending at rank 11, up from rank 36; signals Atlético Madrid match or tactical moment, likely Madrid derby today.",
-    "angle": "Leverage Simeone's legendary status and rivalry with Mourinho/Real Madrid; create derby narrative content.",
-    "duplicate_of": null,
-    "market_id": "4323343"
-   },
-   "enriched_at": "2026-09-20T16:42:42Z"
-  },
   "askfft": {
    "first_seen": "2026-09-20T16:42:42Z",
-   "last_seen": "2026-09-20T16:42:42Z",
+   "last_seen": "2026-09-27T17:35:01Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -2867,163 +2532,16 @@
    "enrichment": {
     "key": "askfft",
     "sports": true,
-    "league": "NFL",
+    "league": null,
     "obvious": false,
     "early": false,
     "entity": "#AskFFT",
-    "why_now": "Hashtag trending at rank 13, down from rank 5; likely a fantasy football advice thread or Q&A session.",
-    "angle": "Engage fantasy football audience with expert advice content; tie to NFL Week 2 lineup decisions.",
+    "why_now": "Fantasy football community Q&A hashtag; recurring engagement driver for DFS/season-long players.",
+    "angle": "Tap into weekly fantasy football advice-seeking moment; sponsor expert commentary or tools.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-09-20T16:42:42Z"
-  },
-  "brobbey": {
-   "first_seen": "2026-09-20T16:42:42Z",
-   "last_seen": "2026-09-20T16:42:42Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "brobbey",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": false,
-    "early": false,
-    "entity": "Brian Brobbey",
-    "why_now": "Brobbey trending at rank 14, down from rank 6; likely a goal or match performance for Ajax.",
-    "angle": "Highlight Brobbey's form; tie to Ajax's European or domestic campaign.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-20T16:42:42Z"
-  },
-  "lioness": {
-   "first_seen": "2026-09-20T16:42:42Z",
-   "last_seen": "2026-09-20T16:42:42Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "lioness",
-    "sports": true,
-    "league": "Other Sports",
-    "obvious": false,
-    "early": false,
-    "entity": "#Lioness",
-    "why_now": "Hashtag trending at rank 16, down from rank 10; likely tied to women's soccer (Lionesses) or a TV show episode.",
-    "angle": "Tie to women's soccer culture or entertainment crossover; leverage female athlete narrative.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-20T16:42:42Z"
-  },
-  "yom kippur": {
-   "first_seen": "2026-09-20T16:42:42Z",
-   "last_seen": "2026-09-20T16:42:42Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "yom kippur",
-    "sports": false,
-    "league": null,
-    "obvious": true,
-    "early": false,
-    "entity": "Yom Kippur (Jewish holiday)",
-    "why_now": "Religious holiday trending; not sports-specific.",
-    "angle": "Not actionable for sports marketing.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-20T16:42:42Z"
-  },
-  "moscow": {
-   "first_seen": "2026-09-20T16:42:42Z",
-   "last_seen": "2026-09-20T16:42:42Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "moscow",
-    "sports": false,
-    "league": null,
-    "obvious": true,
-    "early": false,
-    "entity": "Moscow (city)",
-    "why_now": "City name trending; likely geopolitical news, not sports.",
-    "angle": "Not actionable for sports marketing.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-20T16:42:42Z"
-  },
-  "romero": {
-   "first_seen": "2026-09-20T16:42:42Z",
-   "last_seen": "2026-09-20T16:42:42Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "romero",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": false,
-    "early": false,
-    "entity": "Cristian Romero",
-    "why_now": "Romero trending at rank 19, up from rank 34; likely a match performance or injury update for Tottenham.",
-    "angle": "Highlight Romero's defensive performance; tie to Tottenham's season narrative.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-20T16:42:42Z"
-  },
-  "jacquet": {
-   "first_seen": "2026-09-20T16:42:42Z",
-   "last_seen": "2026-09-20T16:42:42Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "jacquet",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": false,
-    "early": false,
-    "entity": "Jacquet (soccer player/coach)",
-    "why_now": "Jacquet trending at rank 20, down from rank 8; likely a coach or player moment in European football.",
-    "angle": "Identify the specific Jacquet and tie to their team's narrative.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-20T16:42:42Z"
-  },
-  "courtois": {
-   "first_seen": "2026-09-20T16:42:42Z",
-   "last_seen": "2026-09-20T16:42:42Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "courtois",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": false,
-    "early": false,
-    "entity": "Thibaut Courtois",
-    "why_now": "Courtois trending at rank 21; likely a save or performance moment for Real Madrid in today's match.",
-    "angle": "Highlight Courtois's goalkeeping performance; tie to Real Madrid's match narrative.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-20T16:42:42Z"
+   "enriched_at": "2026-09-27T17:35:01Z"
   },
   "puka": {
    "first_seen": "2026-09-20T16:42:42Z",
@@ -3048,7 +2566,7 @@
   },
   "full ppr": {
    "first_seen": "2026-09-20T16:42:42Z",
-   "last_seen": "2026-09-20T16:42:42Z",
+   "last_seen": "2026-09-27T17:35:01Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -3056,41 +2574,20 @@
    "enrichment": {
     "key": "full ppr",
     "sports": true,
-    "league": "NFL",
+    "league": null,
     "obvious": false,
     "early": false,
-    "entity": "#FullPPR",
-    "why_now": "Hashtag trending at rank 25, down from rank 16; fantasy football scoring format discussion.",
-    "angle": "Engage fantasy football audience with PPR scoring strategy content.",
+    "entity": "Full PPR",
+    "why_now": "Fantasy football scoring format; recurring weekly discussion among DFS/season-long players.",
+    "angle": "Engage fantasy players during weekly lineup-setting window; promote scoring-format content.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-09-20T16:42:42Z"
-  },
-  "triumphal arch": {
-   "first_seen": "2026-09-20T16:42:42Z",
-   "last_seen": "2026-09-20T16:42:42Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "triumphal arch",
-    "sports": false,
-    "league": null,
-    "obvious": true,
-    "early": false,
-    "entity": "Triumphal Arch (landmark)",
-    "why_now": "Landmark name trending; likely geopolitical or tourism news, not sports.",
-    "angle": "Not actionable for sports marketing.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-20T16:42:42Z"
+   "enriched_at": "2026-09-27T17:35:01Z"
   },
   "seductivesunday": {
    "first_seen": "2026-09-20T16:42:42Z",
-   "last_seen": "2026-09-20T16:42:42Z",
+   "last_seen": "2026-09-27T17:35:01Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -3101,287 +2598,13 @@
     "league": null,
     "obvious": true,
     "early": false,
-    "entity": "#SeductiveSunday",
-    "why_now": "Generic hashtag with no sports connection.",
-    "angle": "Not actionable for sports marketing.",
+    "entity": null,
+    "why_now": "Generic Sunday hashtag; no sports hook.",
+    "angle": null,
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-09-20T16:42:42Z"
-  },
-  "carson": {
-   "first_seen": "2026-09-20T16:42:42Z",
-   "last_seen": "2026-09-20T16:42:42Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "carson",
-    "sports": true,
-    "league": "NFL",
-    "obvious": false,
-    "early": false,
-    "entity": "Carson (NFL player)",
-    "why_now": "Carson trending at rank 29, down from rank 28; likely a fantasy football pick or injury update.",
-    "angle": "Monitor for injury or performance news; tie to NFL Week 2 fantasy decisions.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-20T16:42:42Z"
-  },
-  "bellingham": {
-   "first_seen": "2026-09-20T16:42:42Z",
-   "last_seen": "2026-09-20T16:42:42Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "bellingham",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": false,
-    "early": false,
-    "entity": "Jude Bellingham",
-    "why_now": "Bellingham trending at rank 32 alongside Real Madrid; likely a performance or goal in Madrid's match today.",
-    "angle": "Highlight Bellingham's form and impact at Real Madrid; tie to his breakout season narrative.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-20T16:42:42Z"
-  },
-  "dumfries": {
-   "first_seen": "2026-09-20T16:42:42Z",
-   "last_seen": "2026-09-20T16:42:42Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "dumfries",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": false,
-    "early": false,
-    "entity": "Denzel Dumfries",
-    "why_now": "Dumfries trending at rank 34, up from rank 42; likely a match performance or goal for Inter Milan.",
-    "angle": "Highlight Dumfries's defensive or attacking contribution; tie to Inter's season narrative.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-20T16:42:42Z"
-  },
-  "donnarumma": {
-   "first_seen": "2026-09-20T16:42:42Z",
-   "last_seen": "2026-09-20T16:42:42Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "donnarumma",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": false,
-    "early": false,
-    "entity": "Gianluigi Donnarumma",
-    "why_now": "Donnarumma trending at rank 35, down from rank 17; likely a save or performance moment for PSG.",
-    "angle": "Highlight Donnarumma's goalkeeping performance; tie to PSG's match narrative.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-20T16:42:42Z"
-  },
-  "bouliv": {
-   "first_seen": "2026-09-20T16:42:42Z",
-   "last_seen": "2026-09-20T16:42:42Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "bouliv",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": false,
-    "early": false,
-    "entity": "#BOULIV",
-    "why_now": "Hashtag trending at rank 36, down from rank 15; likely a match hashtag for Boulogne vs Lille or similar.",
-    "angle": "Tie to the specific match; leverage team fan engagement.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-20T16:42:42Z"
-  },
-  "dobbins": {
-   "first_seen": "2026-09-20T16:42:42Z",
-   "last_seen": "2026-09-20T16:42:42Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "dobbins",
-    "sports": true,
-    "league": "NFL",
-    "obvious": false,
-    "early": false,
-    "entity": "J.K. Dobbins",
-    "why_now": "Dobbins trending at rank 37, up from rank 41; likely a fantasy football pick or injury update for Ravens RB.",
-    "angle": "Highlight Dobbins's fantasy value; tie to NFL Week 2 start/sit decisions.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-20T16:42:42Z"
-  },
-  "felix skz record out now": {
-   "first_seen": "2026-09-20T16:42:42Z",
-   "last_seen": "2026-09-20T16:42:42Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "felix skz record out now",
-    "sports": false,
-    "league": null,
-    "obvious": true,
-    "early": false,
-    "entity": "FELIX SKZ (K-pop artist)",
-    "why_now": "Music release announcement; not sports-related.",
-    "angle": "Not actionable for sports marketing.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-20T16:42:42Z"
-  },
-  "grimaldo": {
-   "first_seen": "2026-09-20T16:42:42Z",
-   "last_seen": "2026-09-20T16:42:42Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "grimaldo",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": false,
-    "early": false,
-    "entity": "Alejandro Grimaldo",
-    "why_now": "Grimaldo trending at rank 39; likely a goal or match performance for Bayer Leverkusen.",
-    "angle": "Highlight Grimaldo's attacking performance; tie to Leverkusen's season narrative.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-20T16:42:42Z"
-  },
-  "fulham": {
-   "first_seen": "2026-09-20T16:42:42Z",
-   "last_seen": "2026-09-20T16:42:42Z",
-   "sources_seen": [
-    "google",
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "fulham",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": false,
-    "early": false,
-    "entity": "Fulham FC vs. Manchester United FC",
-    "why_now": "Fulham vs Man United match today (2026-09-20); trending on Google with 1000 traffic and news coverage.",
-    "angle": "Cover the Premier League match narrative; highlight key players and tactical matchups.",
-    "duplicate_of": null,
-    "market_id": "4319528"
-   },
-   "enriched_at": "2026-09-20T16:42:42Z"
-  },
-  "gakpo": {
-   "first_seen": "2026-09-20T16:42:42Z",
-   "last_seen": "2026-09-20T16:42:42Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "gakpo",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": false,
-    "early": false,
-    "entity": "Cody Gakpo",
-    "why_now": "Gakpo trending at rank 41, down from rank 22; likely a goal or match performance for Liverpool.",
-    "angle": "Highlight Gakpo's form and impact at Liverpool; tie to his breakout season narrative.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-20T16:42:42Z"
-  },
-  "baena": {
-   "first_seen": "2026-09-20T16:42:42Z",
-   "last_seen": "2026-09-20T16:42:42Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "baena",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": false,
-    "early": false,
-    "entity": "Alex Baena",
-    "why_now": "Baena trending at rank 42, down from rank 38; likely a goal or match performance for Villarreal.",
-    "angle": "Highlight Baena's attacking performance; tie to Villarreal's season narrative.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-20T16:42:42Z"
-  },
-  "tchouameni": {
-   "first_seen": "2026-09-20T16:42:42Z",
-   "last_seen": "2026-09-20T16:42:42Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "tchouameni",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": false,
-    "early": false,
-    "entity": "Aurélien Tchouaméni",
-    "why_now": "Tchouameni trending at rank 43; likely a match performance or goal for Real Madrid in today's match.",
-    "angle": "Highlight Tchouameni's midfield performance; tie to Real Madrid's match narrative.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-20T16:42:42Z"
-  },
-  "scalise": {
-   "first_seen": "2026-09-20T16:42:42Z",
-   "last_seen": "2026-09-20T16:42:42Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "scalise",
-    "sports": false,
-    "league": null,
-    "obvious": true,
-    "early": false,
-    "entity": "Scalise (politician)",
-    "why_now": "Political figure name trending; not sports-related.",
-    "angle": "Not actionable for sports marketing.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-20T16:42:42Z"
+   "enriched_at": "2026-09-27T17:35:01Z"
   },
   "bateman": {
    "first_seen": "2026-09-20T16:42:42Z",
@@ -3404,249 +2627,26 @@
    },
    "enriched_at": "2026-09-20T16:42:42Z"
   },
-  "semenyo": {
-   "first_seen": "2026-09-20T16:42:42Z",
-   "last_seen": "2026-09-20T16:42:42Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "semenyo",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": false,
-    "early": false,
-    "entity": "Antoine Semenyo",
-    "why_now": "Semenyo trending at rank 46, down from rank 21; likely a goal or match performance for Bournemouth.",
-    "angle": "Highlight Semenyo's attacking performance; tie to Bournemouth's season narrative.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-20T16:42:42Z"
-  },
   "vele": {
    "first_seen": "2026-09-20T16:42:42Z",
-   "last_seen": "2026-09-20T16:42:42Z",
+   "last_seen": "2026-09-27T17:35:01Z",
    "sources_seen": [
     "trends24",
     "x"
    ],
    "enrichment": {
     "key": "vele",
-    "sports": true,
-    "league": "NFL",
-    "obvious": false,
-    "early": true,
-    "entity": "Vele (NFL player)",
-    "why_now": "Trending on X/Trends24 with no news coverage; likely a fantasy football pick or injury update.",
-    "angle": "Monitor for injury or performance news; early signal for fantasy football community.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-20T16:42:42Z"
-  },
-  "konate": {
-   "first_seen": "2026-09-20T16:42:42Z",
-   "last_seen": "2026-09-20T16:42:42Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "konate",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": false,
-    "early": false,
-    "entity": "Ibrahima Konaté",
-    "why_now": "Konate trending at rank 49; likely a match performance or goal for Liverpool.",
-    "angle": "Highlight Konate's defensive performance; tie to Liverpool's season narrative.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-20T16:42:42Z"
-  },
-  "kimbal": {
-   "first_seen": "2026-09-20T16:42:42Z",
-   "last_seen": "2026-09-20T16:42:42Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "kimbal",
     "sports": false,
     "league": null,
     "obvious": true,
     "early": false,
-    "entity": "Kimbal (non-sports figure)",
-    "why_now": "Name trending; likely a non-sports figure or event.",
-    "angle": "Not actionable for sports marketing.",
+    "entity": null,
+    "why_now": "Unclear entity; no sports signal detected.",
+    "angle": null,
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-09-20T16:42:42Z"
-  },
-  "la liga": {
-   "first_seen": "2026-09-20T16:42:42Z",
-   "last_seen": "2026-09-20T16:42:42Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "la liga",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": false,
-    "early": false,
-    "entity": "La Liga (Spanish league)",
-    "why_now": "La Liga trending on Google with 10000 traffic; Atlético Madrid vs Real Madrid derby happening today (2026-09-20).",
-    "angle": "Cover the Madrid derby narrative; highlight Mourinho's return and Simeone's rivalry.",
-    "duplicate_of": null,
-    "market_id": "4324490"
-   },
-   "enriched_at": "2026-09-20T16:42:42Z"
-  },
-  "weather forecast today": {
-   "first_seen": "2026-09-20T16:42:42Z",
-   "last_seen": "2026-09-20T16:42:42Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "weather forecast today",
-    "sports": false,
-    "league": null,
-    "obvious": true,
-    "early": false,
-    "entity": "Weather forecast",
-    "why_now": "Generic weather search; not sports-related.",
-    "angle": "Not actionable for sports marketing.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-20T16:42:42Z"
-  },
-  "saints vs ravens": {
-   "first_seen": "2026-09-20T16:42:42Z",
-   "last_seen": "2026-09-20T16:42:42Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "saints vs ravens",
-    "sports": true,
-    "league": "NFL",
-    "obvious": true,
-    "early": false,
-    "entity": "Saints vs. Ravens (NFL Week 2)",
-    "why_now": "Pre-game search for NFL Week 2 matchup; no specific storyline beyond scheduled game.",
-    "angle": "Too obvious; suppress as generic pre-game search.",
-    "duplicate_of": null,
-    "market_id": "3482590"
-   },
-   "enriched_at": "2026-09-20T16:42:42Z"
-  },
-  "browns vs buccaneers": {
-   "first_seen": "2026-09-20T16:42:42Z",
-   "last_seen": "2026-09-20T16:42:42Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "browns vs buccaneers",
-    "sports": true,
-    "league": "NFL",
-    "obvious": false,
-    "early": false,
-    "entity": "Browns vs. Buccaneers (NFL Week 2)",
-    "why_now": "Pre-game search with Baker Mayfield revenge narrative; specific storyline beyond scheduled game.",
-    "angle": "Highlight Baker Mayfield's return to face his former team; leverage the revenge narrative.",
-    "duplicate_of": null,
-    "market_id": "3482681"
-   },
-   "enriched_at": "2026-09-20T16:42:42Z"
-  },
-  "jj spaun": {
-   "first_seen": "2026-09-20T16:42:42Z",
-   "last_seen": "2026-09-20T16:42:42Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "jj spaun",
-    "sports": true,
-    "league": "Golf",
-    "obvious": false,
-    "early": false,
-    "entity": "J.J. Spaun",
-    "why_now": "Spaun trending on Google with 200 traffic; news about his BMW PGA Championship win after Presidents Cup snub.",
-    "angle": "Highlight Spaun's redemption narrative after being left off U.S. team; tie to his breakout moment.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-20T16:42:42Z"
-  },
-  "panthers vs falcons": {
-   "first_seen": "2026-09-20T16:42:42Z",
-   "last_seen": "2026-09-20T16:42:42Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "panthers vs falcons",
-    "sports": true,
-    "league": "NFL",
-    "obvious": true,
-    "early": false,
-    "entity": "Panthers vs. Falcons (NFL Week 2)",
-    "why_now": "Pre-game search for NFL Week 2 matchup; no specific storyline beyond scheduled game.",
-    "angle": "Too obvious; suppress as generic pre-game search.",
-    "duplicate_of": null,
-    "market_id": "3482561"
-   },
-   "enriched_at": "2026-09-20T16:42:42Z"
-  },
-  "broncos game today": {
-   "first_seen": "2026-09-20T16:42:42Z",
-   "last_seen": "2026-09-20T16:42:42Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "broncos game today",
-    "sports": true,
-    "league": "NFL",
-    "obvious": true,
-    "early": false,
-    "entity": "Broncos vs. Jaguars (NFL Week 2)",
-    "why_now": "Generic game-day search; no specific storyline beyond scheduled game.",
-    "angle": "Too obvious; suppress as generic game-day search.",
-    "duplicate_of": null,
-    "market_id": "3482718"
-   },
-   "enriched_at": "2026-09-20T16:42:42Z"
-  },
-  "start em sit em": {
-   "first_seen": "2026-09-20T16:42:42Z",
-   "last_seen": "2026-09-20T16:42:42Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "start em sit em",
-    "sports": true,
-    "league": "NFL",
-    "obvious": true,
-    "early": false,
-    "entity": "Fantasy Football Start/Sit (generic)",
-    "why_now": "Generic fantasy football advice search; no specific player or storyline.",
-    "angle": "Too obvious; suppress as generic fantasy football search.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-20T16:42:42Z"
+   "enriched_at": "2026-09-27T17:35:01Z"
   },
   "ja": {
    "first_seen": "2026-09-20T19:17:36Z",
@@ -11787,23 +10787,25 @@
   },
   "earthquake": {
    "first_seen": "2026-09-23T08:22:26Z",
-   "last_seen": "2026-09-23T08:22:26Z",
+   "last_seen": "2026-09-27T17:35:01Z",
    "sources_seen": [
-    "google"
+    "google",
+    "trends24",
+    "x"
    ],
    "enrichment": {
     "key": "earthquake",
     "sports": false,
     "league": null,
-    "obvious": false,
+    "obvious": true,
     "early": false,
-    "entity": "Earthquake/seismic activity",
-    "why_now": "Seismic events in California and West Coast; natural disaster news, not sports-related.",
-    "angle": "Not sports-related; suppress.",
+    "entity": null,
+    "why_now": "Natural disaster; no sports connection.",
+    "angle": null,
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-09-23T08:22:26Z"
+   "enriched_at": "2026-09-27T17:35:01Z"
   },
   "will smith": {
    "first_seen": "2026-09-23T08:22:26Z",
@@ -16333,8 +15335,9 @@
   },
   "jj redick": {
    "first_seen": "2026-09-25T00:20:45Z",
-   "last_seen": "2026-09-25T00:20:45Z",
+   "last_seen": "2026-09-27T17:35:01Z",
    "sources_seen": [
+    "google",
     "trends24",
     "x"
    ],
@@ -16343,14 +15346,14 @@
     "sports": true,
     "league": "NBA",
     "obvious": false,
-    "early": true,
+    "early": false,
     "entity": "JJ Redick",
-    "why_now": "Former NBA player/broadcaster trending with no major news; likely a recent commentary, coaching news, or media moment.",
-    "angle": "Monitor for coaching hire, media controversy, or analyst take that resonates with NBA culture.",
+    "why_now": "Lakers coach deadpans about roster composition; coaching moment and team narrative.",
+    "angle": "Cover Lakers coaching moment and roster-building narrative; highlight coach's personality.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-09-25T00:20:45Z"
+   "enriched_at": "2026-09-27T17:35:01Z"
   },
   "bluewavein40days": {
    "first_seen": "2026-09-25T00:20:45Z",
@@ -24284,7 +23287,7 @@
   },
   "pj fleck": {
    "first_seen": "2026-09-27T09:01:59Z",
-   "last_seen": "2026-09-27T09:01:59Z",
+   "last_seen": "2026-09-27T17:35:01Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -24296,12 +23299,12 @@
     "obvious": false,
     "early": false,
     "entity": "PJ Fleck",
-    "why_now": "Minnesota Gophers head coach; co-trending with Gophers, Raiola, #SkiUMah—CFB coaching narrative.",
-    "angle": "Coach narrative: Fleck's leadership, team culture, or early-season performance—leverage coach-centric media.",
+    "why_now": "College football coach (Minnesota); trending due to team performance or coaching moment.",
+    "angle": "Cover coach's team performance or notable quote; tie to college football narrative.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-09-27T09:01:59Z"
+   "enriched_at": "2026-09-27T17:35:01Z"
   },
   "mizzou": {
    "first_seen": "2026-09-27T09:01:59Z",
@@ -24326,24 +23329,24 @@
   },
   "sinder": {
    "first_seen": "2026-09-27T09:01:59Z",
-   "last_seen": "2026-09-27T09:01:59Z",
+   "last_seen": "2026-09-27T17:35:01Z",
    "sources_seen": [
     "trends24",
     "x"
    ],
    "enrichment": {
     "key": "sinder",
-    "sports": true,
-    "league": "College Football",
-    "obvious": false,
-    "early": true,
-    "entity": "Sinder (CFB player/coach)",
-    "why_now": "New entry spiking in CFB context; likely player or coach name.",
-    "angle": "Early CFB signal—monitor for player performance, coaching move, or transfer news.",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": null,
+    "why_now": "Unclear entity; no sports signal.",
+    "angle": null,
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-09-27T09:01:59Z"
+   "enriched_at": "2026-09-27T17:35:01Z"
   },
   "drake lindsey": {
    "first_seen": "2026-09-27T09:01:59Z",
@@ -25175,6 +24178,1026 @@
     "market_id": null
    },
    "enriched_at": "2026-09-27T09:01:59Z"
+  },
+  "go bills": {
+   "first_seen": "2026-09-27T17:35:01Z",
+   "last_seen": "2026-09-27T17:35:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "go bills",
+    "sports": true,
+    "league": "NFL",
+    "obvious": true,
+    "early": false,
+    "entity": "Buffalo Bills",
+    "why_now": "Sunday NFL game; generic team cheer with no specific storyline or moment.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": "4855332"
+   },
+   "enriched_at": "2026-09-27T17:35:01Z"
+  },
+  "nfl sunday": {
+   "first_seen": "2026-09-27T17:35:01Z",
+   "last_seen": "2026-09-27T17:35:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "nfl sunday",
+    "sports": true,
+    "league": "NFL",
+    "obvious": true,
+    "early": false,
+    "entity": "NFL",
+    "why_now": "Scheduled NFL game day; generic event descriptor with no specific moment.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-27T17:35:01Z"
+  },
+  "random dog": {
+   "first_seen": "2026-09-27T17:35:01Z",
+   "last_seen": "2026-09-27T17:35:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "random dog",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": null,
+    "why_now": "No sports connection; generic meme or animal content.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-27T17:35:01Z"
+  },
+  "raf fairford": {
+   "first_seen": "2026-09-27T17:35:01Z",
+   "last_seen": "2026-09-27T17:35:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "raf fairford",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": null,
+    "why_now": "RAF airbase event; no sports connection.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-27T17:35:01Z"
+  },
+  "sadiq": {
+   "first_seen": "2026-09-27T17:35:01Z",
+   "last_seen": "2026-09-27T17:35:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "sadiq",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": null,
+    "why_now": "Likely a name or political figure; no sports signal in co-trending context.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-27T17:35:01Z"
+  },
+  "brides": {
+   "first_seen": "2026-09-27T17:35:01Z",
+   "last_seen": "2026-09-27T17:35:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "brides",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": null,
+    "why_now": "Wedding/lifestyle content; no sports connection.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-27T17:35:01Z"
+  },
+  "garand": {
+   "first_seen": "2026-09-27T17:35:01Z",
+   "last_seen": "2026-09-27T17:35:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "garand",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": null,
+    "why_now": "Firearm reference; no sports connection.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-27T17:35:01Z"
+  },
+  "bowers": {
+   "first_seen": "2026-09-27T17:35:01Z",
+   "last_seen": "2026-09-27T17:35:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "bowers",
+    "sports": true,
+    "league": "NFL",
+    "obvious": false,
+    "early": false,
+    "entity": "Bowers",
+    "why_now": "Likely NFL player (tight end); co-trending with fantasy/game context; specific player discussion.",
+    "angle": "Highlight player performance or injury update; tie to fantasy relevance.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-27T17:35:01Z"
+  },
+  "game 162": {
+   "first_seen": "2026-09-27T17:35:01Z",
+   "last_seen": "2026-09-27T17:35:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "game 162",
+    "sports": true,
+    "league": "MLB",
+    "obvious": false,
+    "early": false,
+    "entity": "Game 162",
+    "why_now": "Final day of MLB regular season; playoff implications and dramatic finishes drive engagement.",
+    "angle": "Cover playoff race drama and last-day storylines; highlight teams fighting for spots.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-27T17:35:01Z"
+  },
+  "fnaf": {
+   "first_seen": "2026-09-27T17:35:01Z",
+   "last_seen": "2026-09-27T17:35:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "fnaf",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": null,
+    "why_now": "Five Nights at Freddy's video game; no sports connection.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-27T17:35:01Z"
+  },
+  "tanner houck": {
+   "first_seen": "2026-09-27T17:35:01Z",
+   "last_seen": "2026-09-27T17:35:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "tanner houck",
+    "sports": true,
+    "league": "MLB",
+    "obvious": false,
+    "early": false,
+    "entity": "Tanner Houck",
+    "why_now": "MLB pitcher; likely trending due to Game 162 playoff-race performance or start.",
+    "angle": "Highlight pitcher's clutch performance or playoff implications; tie to team's postseason hopes.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-27T17:35:01Z"
+  },
+  "david pastrnak": {
+   "first_seen": "2026-09-27T17:35:01Z",
+   "last_seen": "2026-09-27T17:35:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "david pastrnak",
+    "sports": true,
+    "league": "NHL",
+    "obvious": false,
+    "early": false,
+    "entity": "David Pastrnak",
+    "why_now": "NHL star; likely trending due to season start or notable performance.",
+    "angle": "Cover player's early-season form or team momentum; tie to Stanley Cup contention.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-27T17:35:01Z"
+  },
+  "sundayvibes": {
+   "first_seen": "2026-09-27T17:35:01Z",
+   "last_seen": "2026-09-27T17:35:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "sundayvibes",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": null,
+    "why_now": "Generic Sunday hashtag; no sports hook.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-27T17:35:01Z"
+  },
+  "schultz": {
+   "first_seen": "2026-09-27T17:35:01Z",
+   "last_seen": "2026-09-27T17:35:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "schultz",
+    "sports": true,
+    "league": "NFL",
+    "obvious": false,
+    "early": false,
+    "entity": "Schultz",
+    "why_now": "Likely NFL player (tight end); co-trending with fantasy/game context.",
+    "angle": "Highlight player performance or fantasy relevance; tie to team's offensive strategy.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-27T17:35:01Z"
+  },
+  "garrett wilson": {
+   "first_seen": "2026-09-27T17:35:01Z",
+   "last_seen": "2026-09-27T17:35:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "garrett wilson",
+    "sports": true,
+    "league": "NFL",
+    "obvious": false,
+    "early": false,
+    "entity": "Garrett Wilson",
+    "why_now": "NFL wide receiver (Jets); likely trending due to game performance or fantasy relevance.",
+    "angle": "Highlight receiver's performance or breakout game; tie to team's offensive momentum.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-27T17:35:01Z"
+  },
+  "shakir": {
+   "first_seen": "2026-09-27T17:35:01Z",
+   "last_seen": "2026-09-27T17:35:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "shakir",
+    "sports": true,
+    "league": "NFL",
+    "obvious": false,
+    "early": false,
+    "entity": "Shakir",
+    "why_now": "Likely NFL player; co-trending with fantasy/game context.",
+    "angle": "Highlight player performance or fantasy relevance; tie to team's passing game.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-27T17:35:01Z"
+  },
+  "feedxkhaosodawards2026": {
+   "first_seen": "2026-09-27T17:35:01Z",
+   "last_seen": "2026-09-27T17:35:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "feedxkhaosodawards2026",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": null,
+    "why_now": "Awards event; no sports connection.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-27T17:35:01Z"
+  },
+  "pick 2": {
+   "first_seen": "2026-09-27T17:35:01Z",
+   "last_seen": "2026-09-27T17:35:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "pick 2",
+    "sports": true,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Pick 2",
+    "why_now": "Fantasy/betting term; likely refers to daily fantasy or prop betting strategy.",
+    "angle": "Engage DFS/betting community with pick strategy content; highlight top plays.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-27T17:35:01Z"
+  },
+  "texans ml": {
+   "first_seen": "2026-09-27T17:35:01Z",
+   "last_seen": "2026-09-27T17:35:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "texans ml",
+    "sports": true,
+    "league": "NFL",
+    "obvious": false,
+    "early": false,
+    "entity": "Texans Moneyline",
+    "why_now": "Betting line for Houston Texans game; trending due to game matchup or odds movement.",
+    "angle": "Cover Texans game odds and betting angles; highlight matchup implications.",
+    "duplicate_of": null,
+    "market_id": "3664769"
+   },
+   "enriched_at": "2026-09-27T17:35:01Z"
+  },
+  "reggie": {
+   "first_seen": "2026-09-27T17:35:01Z",
+   "last_seen": "2026-09-27T17:35:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "reggie",
+    "sports": true,
+    "league": "NFL",
+    "obvious": false,
+    "early": false,
+    "entity": "Reggie",
+    "why_now": "Likely NFL player; co-trending with fantasy/game context.",
+    "angle": "Highlight player performance or fantasy relevance; tie to team's strategy.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-27T17:35:01Z"
+  },
+  "good morning minto": {
+   "first_seen": "2026-09-27T17:35:01Z",
+   "last_seen": "2026-09-27T17:35:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "good morning minto",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": null,
+    "why_now": "Likely a personality or community greeting; no sports signal.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-27T17:35:01Z"
+  },
+  "grade 2": {
+   "first_seen": "2026-09-27T17:35:01Z",
+   "last_seen": "2026-09-27T17:35:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "grade 2",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": null,
+    "why_now": "Education reference; no sports connection.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-27T17:35:01Z"
+  },
+  "jaylen warren": {
+   "first_seen": "2026-09-27T17:35:01Z",
+   "last_seen": "2026-09-27T17:35:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "jaylen warren",
+    "sports": true,
+    "league": "NFL",
+    "obvious": false,
+    "early": false,
+    "entity": "Jaylen Warren",
+    "why_now": "NFL running back (Steelers); trending due to game performance or fantasy relevance.",
+    "angle": "Highlight RB performance or fantasy upside; tie to team's rushing attack.",
+    "duplicate_of": null,
+    "market_id": "4765233"
+   },
+   "enriched_at": "2026-09-27T17:35:01Z"
+  },
+  "freddy fazbear": {
+   "first_seen": "2026-09-27T17:35:01Z",
+   "last_seen": "2026-09-27T17:35:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "freddy fazbear",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": null,
+    "why_now": "FNAF character; no sports connection.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-27T17:35:01Z"
+  },
+  "ad mitchell": {
+   "first_seen": "2026-09-27T17:35:01Z",
+   "last_seen": "2026-09-27T17:35:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "ad mitchell",
+    "sports": true,
+    "league": "NFL",
+    "obvious": false,
+    "early": false,
+    "entity": "AD Mitchell",
+    "why_now": "NFL player; co-trending with fantasy/game context.",
+    "angle": "Highlight player performance or fantasy relevance; tie to team's offensive scheme.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-27T17:35:01Z"
+  },
+  "blessed sunday": {
+   "first_seen": "2026-09-27T17:35:01Z",
+   "last_seen": "2026-09-27T17:35:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "blessed sunday",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": null,
+    "why_now": "Generic Sunday greeting; no sports hook.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-27T17:35:01Z"
+  },
+  "lions 6 5": {
+   "first_seen": "2026-09-27T17:35:01Z",
+   "last_seen": "2026-09-27T17:35:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "lions 6 5",
+    "sports": true,
+    "league": "NFL",
+    "obvious": false,
+    "early": false,
+    "entity": "Lions -6.5",
+    "why_now": "Betting spread for Detroit Lions game; trending due to game matchup or odds movement.",
+    "angle": "Cover Lions game odds and betting angles; highlight matchup implications.",
+    "duplicate_of": null,
+    "market_id": "3701393"
+   },
+   "enriched_at": "2026-09-27T17:35:01Z"
+  },
+  "flowers": {
+   "first_seen": "2026-09-27T17:35:01Z",
+   "last_seen": "2026-09-27T17:35:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "flowers",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": null,
+    "why_now": "Generic term; no sports connection.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-27T17:35:01Z"
+  },
+  "isaiah williams": {
+   "first_seen": "2026-09-27T17:35:01Z",
+   "last_seen": "2026-09-27T17:35:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "isaiah williams",
+    "sports": true,
+    "league": "NFL",
+    "obvious": false,
+    "early": false,
+    "entity": "Isaiah Williams",
+    "why_now": "NFL player; co-trending with fantasy/game context.",
+    "angle": "Highlight player performance or fantasy relevance; tie to team's strategy.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-27T17:35:01Z"
+  },
+  "go pats": {
+   "first_seen": "2026-09-27T17:35:01Z",
+   "last_seen": "2026-09-27T17:35:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "go pats",
+    "sports": true,
+    "league": "NFL",
+    "obvious": true,
+    "early": false,
+    "entity": "New England Patriots",
+    "why_now": "Sunday NFL game; generic team cheer with no specific storyline or moment.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": "3664775"
+   },
+   "enriched_at": "2026-09-27T17:35:01Z"
+  },
+  "jaguars 2 5": {
+   "first_seen": "2026-09-27T17:35:01Z",
+   "last_seen": "2026-09-27T17:35:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "jaguars 2 5",
+    "sports": true,
+    "league": "NFL",
+    "obvious": false,
+    "early": false,
+    "entity": "Jaguars -2.5",
+    "why_now": "Betting spread for Jacksonville Jaguars game; trending due to game matchup or odds movement.",
+    "angle": "Cover Jaguars game odds and betting angles; highlight matchup implications.",
+    "duplicate_of": null,
+    "market_id": "3701375"
+   },
+   "enriched_at": "2026-09-27T17:35:01Z"
+  },
+  "hanbin": {
+   "first_seen": "2026-09-27T17:35:01Z",
+   "last_seen": "2026-09-27T17:35:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "hanbin",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": null,
+    "why_now": "Likely a name or K-pop reference; no sports signal.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-27T17:35:01Z"
+  },
+  "nicki minaj": {
+   "first_seen": "2026-09-27T17:35:01Z",
+   "last_seen": "2026-09-27T17:35:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "nicki minaj",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": null,
+    "why_now": "Music artist; no sports connection.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-27T17:35:01Z"
+  },
+  "drury": {
+   "first_seen": "2026-09-27T17:35:01Z",
+   "last_seen": "2026-09-27T17:35:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "drury",
+    "sports": true,
+    "league": "NHL",
+    "obvious": false,
+    "early": false,
+    "entity": "Drury",
+    "why_now": "Likely NHL player or executive; co-trending with hockey context.",
+    "angle": "Highlight player performance or team news; tie to NHL narrative.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-27T17:35:01Z"
+  },
+  "zipper": {
+   "first_seen": "2026-09-27T17:35:01Z",
+   "last_seen": "2026-09-27T17:35:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "zipper",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": null,
+    "why_now": "Generic term; no sports connection.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-27T17:35:01Z"
+  },
+  "adonai mitchell": {
+   "first_seen": "2026-09-27T17:35:01Z",
+   "last_seen": "2026-09-27T17:35:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "adonai mitchell",
+    "sports": true,
+    "league": "NFL",
+    "obvious": false,
+    "early": false,
+    "entity": "Adonai Mitchell",
+    "why_now": "NFL player; co-trending with fantasy/game context.",
+    "angle": "Highlight player performance or fantasy relevance; tie to team's offensive scheme.",
+    "duplicate_of": null,
+    "market_id": "4764267"
+   },
+   "enriched_at": "2026-09-27T17:35:01Z"
+  },
+  "rick ross": {
+   "first_seen": "2026-09-27T17:35:01Z",
+   "last_seen": "2026-09-27T17:35:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "rick ross",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": null,
+    "why_now": "Rapper; no sports connection.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-27T17:35:01Z"
+  },
+  "logan stanley": {
+   "first_seen": "2026-09-27T17:35:01Z",
+   "last_seen": "2026-09-27T17:35:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "logan stanley",
+    "sports": true,
+    "league": "NFL",
+    "obvious": false,
+    "early": false,
+    "entity": "Logan Stanley",
+    "why_now": "NFL offensive lineman; co-trending with game/fantasy context.",
+    "angle": "Highlight offensive line performance or injury update; tie to team's blocking scheme.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-27T17:35:01Z"
+  },
+  "saints 3": {
+   "first_seen": "2026-09-27T17:35:01Z",
+   "last_seen": "2026-09-27T17:35:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "saints 3",
+    "sports": true,
+    "league": "NFL",
+    "obvious": false,
+    "early": false,
+    "entity": "Saints -3",
+    "why_now": "Betting spread for New Orleans Saints game; trending due to game matchup or odds movement.",
+    "angle": "Cover Saints game odds and betting angles; highlight matchup implications.",
+    "duplicate_of": null,
+    "market_id": "3701304"
+   },
+   "enriched_at": "2026-09-27T17:35:01Z"
+  },
+  "tuten": {
+   "first_seen": "2026-09-27T17:35:01Z",
+   "last_seen": "2026-09-27T17:35:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "tuten",
+    "sports": true,
+    "league": "NFL",
+    "obvious": false,
+    "early": false,
+    "entity": "Tuten",
+    "why_now": "Likely NFL player; co-trending with fantasy/game context.",
+    "angle": "Highlight player performance or fantasy relevance; tie to team's strategy.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-27T17:35:01Z"
+  },
+  "devon achane": {
+   "first_seen": "2026-09-27T17:35:01Z",
+   "last_seen": "2026-09-27T17:35:01Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "devon achane",
+    "sports": true,
+    "league": "NFL",
+    "obvious": false,
+    "early": true,
+    "entity": "De'Von Achane",
+    "why_now": "Dolphins RB suffered first-quarter injury vs. Chiefs on 9/27/26; high Google traffic on injury news.",
+    "angle": "Break injury update and fantasy impact immediately; cover Dolphins RB depth chart shift.",
+    "duplicate_of": null,
+    "market_id": "3664783"
+   },
+   "enriched_at": "2026-09-27T17:35:01Z"
+  },
+  "pumas san luis": {
+   "first_seen": "2026-09-27T17:35:01Z",
+   "last_seen": "2026-09-27T17:35:01Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "pumas san luis",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": true,
+    "entity": "Pumas vs. San Luis",
+    "why_now": "Liga MX match on 9/27/26; Pumas missing players due to FIFA date; Spanish-language news coverage.",
+    "angle": "Cover Liga MX matchup and squad absences; highlight impact on team composition.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-27T17:35:01Z"
+  },
+  "youtubetv": {
+   "first_seen": "2026-09-27T17:35:01Z",
+   "last_seen": "2026-09-27T17:35:01Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "youtubetv",
+    "sports": true,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "YouTube TV",
+    "why_now": "ESPN Unlimited streaming on YouTube TV; how-to-watch queries for Sunday sports.",
+    "angle": "Highlight streaming options for NFL/sports; tie to cord-cutting trend.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-27T17:35:01Z"
+  },
+  "drake maye": {
+   "first_seen": "2026-09-27T17:35:01Z",
+   "last_seen": "2026-09-27T17:35:01Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "drake maye",
+    "sports": true,
+    "league": "NFL",
+    "obvious": false,
+    "early": false,
+    "entity": "Drake Maye",
+    "why_now": "Patriots QB in Week 3 vs. Jaguars; coverage of rookie performance and team's offensive struggles.",
+    "angle": "Cover rookie QB's development and Patriots' offensive challenges; highlight key matchup.",
+    "duplicate_of": null,
+    "market_id": "3664775"
+   },
+   "enriched_at": "2026-09-27T17:35:01Z"
+  },
+  "keaton mitchell": {
+   "first_seen": "2026-09-27T17:35:01Z",
+   "last_seen": "2026-09-27T17:35:01Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "keaton mitchell",
+    "sports": true,
+    "league": "NFL",
+    "obvious": false,
+    "early": false,
+    "entity": "Keaton Mitchell",
+    "why_now": "Ravens RB in Week 3 vs. Bills; fantasy preview and start/sit analysis.",
+    "angle": "Cover Ravens RB fantasy outlook; highlight matchup difficulty vs. Bills defense.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-27T17:35:01Z"
+  },
+  "spencer shrader": {
+   "first_seen": "2026-09-27T17:35:01Z",
+   "last_seen": "2026-09-27T17:35:01Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "spencer shrader",
+    "sports": true,
+    "league": "NFL",
+    "obvious": false,
+    "early": true,
+    "entity": "Spencer Shrader",
+    "why_now": "Colts player suffered groin injury before Week 3 vs. Texans; low Google traffic but injury news.",
+    "angle": "Break injury update and availability status; cover Colts roster impact.",
+    "duplicate_of": null,
+    "market_id": "3664769"
+   },
+   "enriched_at": "2026-09-27T17:35:01Z"
+  },
+  "dolphins qb": {
+   "first_seen": "2026-09-27T17:35:01Z",
+   "last_seen": "2026-09-27T17:35:01Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "dolphins qb",
+    "sports": true,
+    "league": "NFL",
+    "obvious": false,
+    "early": false,
+    "entity": "Dolphins QB",
+    "why_now": "Patrick Mahomes fantasy preview for Week 3; coverage of Chiefs QB resurgence.",
+    "angle": "Cover Mahomes' hot start and fantasy upside; highlight Chiefs' offensive momentum.",
+    "duplicate_of": null,
+    "market_id": "3664783"
+   },
+   "enriched_at": "2026-09-27T17:35:01Z"
+  },
+  "detroit": {
+   "first_seen": "2026-09-27T17:35:01Z",
+   "last_seen": "2026-09-27T17:35:01Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "detroit",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": null,
+    "why_now": "Horse struck by car in Detroit; no sports connection.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-09-27T17:35:01Z"
+  },
+  "mexx meerdink": {
+   "first_seen": "2026-09-27T17:35:01Z",
+   "last_seen": "2026-09-27T17:35:01Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "mexx meerdink",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": true,
+    "entity": "Mexx Meerdink",
+    "why_now": "Netherlands player scored in Nations League vs. Serbia on 9/27/26; Dutch-language coverage.",
+    "angle": "Cover Netherlands Nations League performance; highlight player's goal.",
+    "duplicate_of": null,
+    "market_id": "4550221"
+   },
+   "enriched_at": "2026-09-27T17:35:01Z"
   }
  },
  "x_usage": {
@@ -25188,78 +25211,58 @@
   "2026-09-27": 0
  },
  "prev_x_trends": [
-  "Oregon",
-  "Lincoln Riley",
-  "#AEWAllOut",
-  "Moore",
-  "Ospreay",
-  "Tati",
-  "Demond",
-  "Barcelos",
-  "Jedd",
-  "Gophers",
-  "Raiola",
-  "Kamario Taylor",
-  "Star Wars",
-  "#DiorSummer27",
-  "PJ Fleck",
-  "Mizzou",
+  "Go Bills",
+  "Good Sunday",
+  "NFL Sunday",
+  "Random Dog",
+  "#AskFFT",
+  "RAF Fairford",
+  "Sadiq",
+  "Full PPR",
+  "Brides",
+  "Garand",
+  "Sunday Funday",
+  "#SeductiveSunday",
+  "Bowers",
+  "Game 162",
+  "FNAF",
+  "Tanner Houck",
+  "David Pastrnak",
+  "Vele",
+  "#SundayVibes",
+  "Schultz",
   "Sinder",
-  "Drake Lindsey",
-  "Mississippi State",
-  "Jack Doherty",
-  "#Toonami",
-  "Okada",
-  "Dan Lanning",
-  "Brent Key",
-  "Georgia Tech",
-  "Rosas",
-  "Jon Watts",
-  "Stanford",
-  "Skywalker",
-  "Phillies",
-  "Elko",
-  "Summyah",
-  "Stephens",
-  "Huskies",
-  "Davis Warren",
-  "#UFCVegas121",
-  "Hinges",
-  "Ducks",
-  "Moxley",
-  "Jalen Brunson",
-  "#SkiUMah",
-  "Oklahoma State",
-  "Penn State",
-  "Marcel Reed",
-  "Ciampa",
-  "Torey",
-  "Trojans",
-  "Raul",
-  "Starkville",
-  "Eli Gillman"
+  "Garrett Wilson",
+  "Shakir",
+  "#FEEDxKHAOSODAwards2026",
+  "Pick 2",
+  "Texans ML",
+  "Reggie",
+  "#earthquake",
+  "GOOD MORNING MINTO",
+  "Football Sunday",
+  "Grade 2",
+  "Jaylen Warren",
+  "Freddy Fazbear",
+  "AD Mitchell",
+  "Blessed Sunday",
+  "Lions -6.5",
+  "Flowers",
+  "Isaiah Williams",
+  "PJ Fleck",
+  "Go Pats",
+  "Jaguars -2.5",
+  "hanbin",
+  "Nicki Minaj",
+  "Drury",
+  "Zipper",
+  "Adonai Mitchell",
+  "Rick Ross",
+  "Logan Stanley",
+  "Saints -3",
+  "Tuten"
  ],
  "suppressed": [
-  {
-   "key": "monza vs sassuolo",
-   "reason": "Serie A match on 2026-09-18; scheduled game with 500 Google traffic and lineup coverage.",
-   "at": "2026-09-18T19:31:06Z"
-  },
-  {
-   "key": "brentford",
-   "reason": "Premier League match on 2026-09-18; scheduled game with 20k Google traffic and news coverage of lineups.",
-   "at": "2026-09-18T23:57:53Z"
-  },
-  {
-   "key": "chelsea",
-   "reason": "Soccer team name trending; no specific moment or storyline evident.",
-   "at": "2026-09-18T23:57:53Z"
-  },
-  {
-   "key": "ausar",
-   "reason": "NBA player name trending; no specific moment or storyline evident.",
-   "at": "2026-09-18T23:57:53Z"
-  },
   {
    "key": "duren",
    "reason": "NBA player name trending; no specific moment or storyline evident.",
@@ -26239,6 +26242,26 @@
    "key": "fl atlantic vs la monroe",
    "reason": "Pre-game coverage; plain scheduling/logistics with no specific storyline or angle.",
    "at": "2026-09-27T00:20:15Z"
+  },
+  {
+   "key": "go bills",
+   "reason": "Sunday NFL game; generic team cheer with no specific storyline or moment.",
+   "at": "2026-09-27T17:35:01Z"
+  },
+  {
+   "key": "nfl sunday",
+   "reason": "Scheduled NFL game day; generic event descriptor with no specific moment.",
+   "at": "2026-09-27T17:35:01Z"
+  },
+  {
+   "key": "football sunday",
+   "reason": "Scheduled NFL game day; generic event descriptor with no specific moment.",
+   "at": "2026-09-27T17:35:01Z"
+  },
+  {
+   "key": "go pats",
+   "reason": "Sunday NFL game; generic team cheer with no specific storyline or moment.",
+   "at": "2026-09-27T17:35:01Z"
   }
  ],
  "slack_posted": {
