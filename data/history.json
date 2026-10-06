@@ -130,7 +130,7 @@
   },
   "good tuesday": {
    "first_seen": "2026-07-14T14:54:44Z",
-   "last_seen": "2026-10-06T09:52:29Z",
+   "last_seen": "2026-10-06T18:49:41Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -142,16 +142,16 @@
     "obvious": true,
     "early": false,
     "entity": "Good Tuesday",
-    "why_now": "Generic greeting; no sports signal.",
-    "angle": "Not sports-related; discard.",
+    "why_now": "Recurring daily greeting; no specific driver.",
+    "angle": "Suppress as generic calendar-driven phrase.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-10-06T09:52:29Z"
+   "enriched_at": "2026-10-06T18:49:41Z"
   },
   "taco tuesday": {
    "first_seen": "2026-07-14T14:54:44Z",
-   "last_seen": "2026-09-29T18:29:39Z",
+   "last_seen": "2026-10-06T18:49:41Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -160,15 +160,15 @@
     "key": "taco tuesday",
     "sports": false,
     "league": null,
-    "obvious": false,
+    "obvious": true,
     "early": false,
     "entity": "Taco Tuesday",
-    "why_now": "Food/lifestyle trend; no sports connection.",
-    "angle": "Out of scope for sports trend radar.",
+    "why_now": "Recurring weekly cultural meme; no specific driver.",
+    "angle": "Suppress as recurring calendar-driven meme.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-09-29T18:29:39Z",
+   "enriched_at": "2026-10-06T18:49:41Z",
    "last_engagement": 1494.3333333333333
   },
   "wwenxt": {
@@ -1249,69 +1249,6 @@
     "market_id": null
    },
    "enriched_at": "2026-10-02T09:29:09Z"
-  },
-  "man city": {
-   "first_seen": "2026-09-25T17:48:45Z",
-   "last_seen": "2026-09-29T18:29:39Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "man city",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": false,
-    "early": false,
-    "entity": "Manchester City",
-    "why_now": "Premier League match or transfer news; co-trending with 'Manchester City' suggests active game or roster activity.",
-    "angle": "Capture the specific match moment, tactical talking point, or player performance angle before mainstream saturation.",
-    "duplicate_of": null,
-    "market_id": "2771335"
-   },
-   "enriched_at": "2026-09-29T18:29:39Z"
-  },
-  "manchester city": {
-   "first_seen": "2026-09-25T17:48:45Z",
-   "last_seen": "2026-09-29T18:29:39Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "manchester city",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": false,
-    "early": false,
-    "entity": "Manchester City",
-    "why_now": "Co-trending with 'Man City' and Premier League; likely a recent match or transfer news.",
-    "angle": "Capture the specific match moment, tactical talking point, or player performance angle.",
-    "duplicate_of": "man city",
-    "market_id": "2771335"
-   },
-   "enriched_at": "2026-09-29T18:29:39Z"
-  },
-  "premier league": {
-   "first_seen": "2026-09-25T17:48:45Z",
-   "last_seen": "2026-09-29T18:29:39Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "premier league",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": false,
-    "early": false,
-    "entity": "Premier League",
-    "why_now": "Co-trending with Man City and Manchester City; likely a match or transfer news.",
-    "angle": "Identify the specific Premier League moment (match result, transfer, injury) and amplify.",
-    "duplicate_of": null,
-    "market_id": "2771335"
-   },
-   "enriched_at": "2026-09-29T18:29:39Z"
   },
   "end 1q": {
    "first_seen": "2026-09-26T00:25:15Z",
@@ -2536,27 +2473,6 @@
    },
    "enriched_at": "2026-10-05T00:32:41Z"
   },
-  "devday": {
-   "first_seen": "2026-09-29T09:33:56Z",
-   "last_seen": "2026-09-29T18:29:39Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "devday",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "DevDay",
-    "why_now": "OpenAI developer event; co-trending with GPT-6.1 Sol and Dots; no sports connection.",
-    "angle": "Out of scope for sports trend radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-29T18:29:39Z"
-  },
   "delta": {
    "first_seen": "2026-09-29T09:33:56Z",
    "last_seen": "2026-09-30T18:18:17Z",
@@ -2641,48 +2557,6 @@
    },
    "enriched_at": "2026-09-30T09:26:05Z"
   },
-  "rtxon": {
-   "first_seen": "2026-09-29T18:29:39Z",
-   "last_seen": "2026-09-29T18:29:39Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "rtxon",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "#RTXON",
-    "why_now": "Tech/corporate event (likely Raytheon or RTX event); no sports connection.",
-    "angle": "Out of scope for sports trend radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-29T18:29:39Z"
-  },
-  "odell": {
-   "first_seen": "2026-09-29T18:29:39Z",
-   "last_seen": "2026-09-29T18:29:39Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "odell",
-    "sports": true,
-    "league": "NFL",
-    "obvious": false,
-    "early": false,
-    "entity": "Odell Beckham Jr.",
-    "why_now": "Likely trending around a recent game performance, injury update, or trade/signing news; exact driver unclear from co-trending list.",
-    "angle": "Monitor for viral moment (catch, stat, quote, or roster move) and amplify if it ties to team narrative or player comeback arc.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-29T18:29:39Z"
-  },
   "atlanta hawks": {
    "first_seen": "2026-09-29T18:29:39Z",
    "last_seen": "2026-09-30T01:08:27Z",
@@ -2704,30 +2578,9 @@
    },
    "enriched_at": "2026-09-30T01:08:27Z"
   },
-  "dots": {
-   "first_seen": "2026-09-29T18:29:39Z",
-   "last_seen": "2026-09-29T18:29:39Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "dots",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "OpenAI Dots",
-    "why_now": "AI product launch; co-trending with 'openai dots' and DevDay; no sports connection.",
-    "angle": "Out of scope for sports trend radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-29T18:29:39Z"
-  },
   "tinatuesday": {
    "first_seen": "2026-09-29T18:29:39Z",
-   "last_seen": "2026-09-29T18:29:39Z",
+   "last_seen": "2026-10-06T18:49:41Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -2739,55 +2592,12 @@
     "obvious": false,
     "early": false,
     "entity": "#TinaTuesday",
-    "why_now": "Co-trending with 'Tina Snow' (likely music/entertainment); no sports connection.",
-    "angle": "Out of scope for sports trend radar.",
+    "why_now": "No sports signal; likely entertainment or personal tribute.",
+    "angle": "Insufficient data to determine marketing angle.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-09-29T18:29:39Z"
-  },
-  "gpt 6 1 sol": {
-   "first_seen": "2026-09-29T18:29:39Z",
-   "last_seen": "2026-09-29T18:29:39Z",
-   "sources_seen": [
-    "google",
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "gpt 6 1 sol",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "GPT-6.1 Sol",
-    "why_now": "AI product launch; high Google traffic for OpenAI DevDay announcement; no sports connection.",
-    "angle": "Out of scope for sports trend radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-29T18:29:39Z"
-  },
-  "hawley": {
-   "first_seen": "2026-09-29T18:29:39Z",
-   "last_seen": "2026-09-29T18:29:39Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "hawley",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Hawley",
-    "why_now": "Political figure; no sports connection.",
-    "angle": "Out of scope for sports trend radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-29T18:29:39Z"
+   "enriched_at": "2026-10-06T18:49:41Z"
   },
   "braves": {
    "first_seen": "2026-09-29T18:29:39Z",
@@ -2810,48 +2620,6 @@
    },
    "enriched_at": "2026-10-02T01:23:21Z"
   },
-  "nationalcoffeeday": {
-   "first_seen": "2026-09-29T18:29:39Z",
-   "last_seen": "2026-09-29T18:29:39Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "nationalcoffeeday",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "#NationalCoffeeDay",
-    "why_now": "Holiday/observance; no sports connection.",
-    "angle": "Out of scope for sports trend radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-29T18:29:39Z"
-  },
-  "spooktooz": {
-   "first_seen": "2026-09-29T18:29:39Z",
-   "last_seen": "2026-09-29T18:29:39Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "spooktooz",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "SPOOKTOOZ",
-    "why_now": "Entertainment/product; no sports connection.",
-    "angle": "Out of scope for sports trend radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-29T18:29:39Z"
-  },
   "joe musgrove": {
    "first_seen": "2026-09-29T18:29:39Z",
    "last_seen": "2026-09-30T09:26:05Z",
@@ -2872,195 +2640,6 @@
     "market_id": null
    },
    "enriched_at": "2026-09-30T09:26:05Z"
-  },
-  "decisions api": {
-   "first_seen": "2026-09-29T18:29:39Z",
-   "last_seen": "2026-09-29T18:29:39Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "decisions api",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Decisions API",
-    "why_now": "Tech product; no sports connection.",
-    "angle": "Out of scope for sports trend radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-29T18:29:39Z"
-  },
-  "pro 500": {
-   "first_seen": "2026-09-29T18:29:39Z",
-   "last_seen": "2026-09-29T18:29:39Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "pro 500",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Pro 500",
-    "why_now": "Unclear entity; no sports connection evident.",
-    "angle": "Out of scope for sports trend radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-29T18:29:39Z"
-  },
-  "brad": {
-   "first_seen": "2026-09-29T18:29:39Z",
-   "last_seen": "2026-09-29T18:29:39Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "brad",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Brad",
-    "why_now": "Generic name; no sports context.",
-    "angle": "Out of scope for sports trend radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-29T18:29:39Z"
-  },
-  "megan": {
-   "first_seen": "2026-09-29T18:29:39Z",
-   "last_seen": "2026-09-29T18:29:39Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "megan",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Megan",
-    "why_now": "Generic name; no sports context.",
-    "angle": "Out of scope for sports trend radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-29T18:29:39Z"
-  },
-  "berrios": {
-   "first_seen": "2026-09-29T18:29:39Z",
-   "last_seen": "2026-09-29T18:29:39Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "berrios",
-    "sports": true,
-    "league": "MLB",
-    "obvious": false,
-    "early": false,
-    "entity": "José Berríos",
-    "why_now": "MLB player; co-trending with postseason and other baseball names; likely a playoff game or performance.",
-    "angle": "Highlight a specific playoff performance or game moment.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-29T18:29:39Z"
-  },
-  "dodge": {
-   "first_seen": "2026-09-29T18:29:39Z",
-   "last_seen": "2026-09-29T18:29:39Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "dodge",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Dodge",
-    "why_now": "Automotive brand; no sports connection.",
-    "angle": "Out of scope for sports trend radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-29T18:29:39Z"
-  },
-  "postseason": {
-   "first_seen": "2026-09-29T18:29:39Z",
-   "last_seen": "2026-09-29T18:29:39Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "postseason",
-    "sports": true,
-    "league": "MLB",
-    "obvious": true,
-    "early": false,
-    "entity": "MLB Postseason",
-    "why_now": "Generic postseason tag; no specific moment or storyline—just the event itself.",
-    "angle": "Suppress as too-obvious; only activate if a specific viral moment (walk-off, upset, record) emerges.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-29T18:29:39Z"
-  },
-  "stanton": {
-   "first_seen": "2026-09-29T18:29:39Z",
-   "last_seen": "2026-09-29T18:29:39Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "stanton",
-    "sports": true,
-    "league": "MLB",
-    "obvious": false,
-    "early": false,
-    "entity": "Giancarlo Stanton",
-    "why_now": "MLB Playoffs; co-trending with Braves, Musgrove, and postseason tags—likely a playoff game performance or clutch hit.",
-    "angle": "Capture a specific at-bat, home run, or playoff moment; tie to Yankees or team narrative.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-29T18:29:39Z"
-  },
-  "reddington": {
-   "first_seen": "2026-09-29T18:29:39Z",
-   "last_seen": "2026-09-29T18:29:39Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "reddington",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Reddington",
-    "why_now": "Entertainment character (likely from 'The Blacklist'); no sports connection.",
-    "angle": "Out of scope for sports trend radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-29T18:29:39Z"
   },
   "letitfly": {
    "first_seen": "2026-09-29T18:29:39Z",
@@ -3083,426 +2662,6 @@
    },
    "enriched_at": "2026-10-05T10:08:25Z"
   },
-  "vanity fair": {
-   "first_seen": "2026-09-29T18:29:39Z",
-   "last_seen": "2026-09-29T18:29:39Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "vanity fair",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Vanity Fair",
-    "why_now": "Magazine/media outlet; no sports connection.",
-    "angle": "Out of scope for sports trend radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-29T18:29:39Z"
-  },
-  "fani willis": {
-   "first_seen": "2026-09-29T18:29:39Z",
-   "last_seen": "2026-09-29T18:29:39Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "fani willis",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Fani Willis",
-    "why_now": "Political/legal figure; no sports connection.",
-    "angle": "Out of scope for sports trend radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-29T18:29:39Z"
-  },
-  "sol 6 1": {
-   "first_seen": "2026-09-29T18:29:39Z",
-   "last_seen": "2026-09-29T18:29:39Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "sol 6 1",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Sol 6.1",
-    "why_now": "AI product; duplicate of 'gpt 6 1 sol'; no sports connection.",
-    "angle": "Out of scope for sports trend radar.",
-    "duplicate_of": "gpt 6 1 sol",
-    "market_id": null
-   },
-   "enriched_at": "2026-09-29T18:29:39Z"
-  },
-  "brock faber": {
-   "first_seen": "2026-09-29T18:29:39Z",
-   "last_seen": "2026-09-29T18:29:39Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "brock faber",
-    "sports": true,
-    "league": "NHL",
-    "obvious": false,
-    "early": false,
-    "entity": "Brock Faber",
-    "why_now": "NHL player; trending on X/Trends24 but no co-trending context; likely a recent game or trade news.",
-    "angle": "Identify the specific NHL moment (goal, trade, injury) and create player or team-focused content.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-29T18:29:39Z"
-  },
-  "rommie": {
-   "first_seen": "2026-09-29T18:29:39Z",
-   "last_seen": "2026-09-29T18:29:39Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "rommie",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Rommie",
-    "why_now": "Unclear entity; no sports connection evident.",
-    "angle": "Out of scope for sports trend radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-29T18:29:39Z"
-  },
-  "croatia": {
-   "first_seen": "2026-09-29T18:29:39Z",
-   "last_seen": "2026-09-29T18:29:39Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "croatia",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": false,
-    "early": false,
-    "entity": "Croatia (UEFA Nations League)",
-    "why_now": "Co-trending with Spain vs. Croatia match; likely match preview or team news.",
-    "angle": "Tie to the Spain vs. Croatia match narrative; highlight team form or player storylines.",
-    "duplicate_of": null,
-    "market_id": "4609856"
-   },
-   "enriched_at": "2026-09-29T18:29:39Z"
-  },
-  "klobuchar": {
-   "first_seen": "2026-09-29T18:29:39Z",
-   "last_seen": "2026-09-29T18:29:39Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "klobuchar",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Klobuchar",
-    "why_now": "Political figure; no sports connection.",
-    "angle": "Out of scope for sports trend radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-29T18:29:39Z"
-  },
-  "grassley": {
-   "first_seen": "2026-09-29T18:29:39Z",
-   "last_seen": "2026-09-29T18:29:39Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "grassley",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Grassley",
-    "why_now": "Political figure; no sports connection.",
-    "angle": "Out of scope for sports trend radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-29T18:29:39Z"
-  },
-  "tina snow": {
-   "first_seen": "2026-09-29T18:29:39Z",
-   "last_seen": "2026-09-29T18:29:39Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "tina snow",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Tina Snow",
-    "why_now": "Music/entertainment (likely Megan Thee Stallion album); no sports connection.",
-    "angle": "Out of scope for sports trend radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-29T18:29:39Z"
-  },
-  "kaulig": {
-   "first_seen": "2026-09-29T18:29:39Z",
-   "last_seen": "2026-09-29T18:29:39Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "kaulig",
-    "sports": true,
-    "league": "Motorsports",
-    "obvious": false,
-    "early": false,
-    "entity": "Kaulig Racing",
-    "why_now": "Motorsports team; co-trending with Penske and other racing names; likely a race result or driver news.",
-    "angle": "Capture a race result, driver performance, or team announcement; tie to championship implications.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-29T18:29:39Z"
-  },
-  "dirtbag": {
-   "first_seen": "2026-09-29T18:29:39Z",
-   "last_seen": "2026-09-29T18:29:39Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "dirtbag",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Dirtbag",
-    "why_now": "Unclear entity; no sports connection evident.",
-    "angle": "Out of scope for sports trend radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-29T18:29:39Z"
-  },
-  "mr smith": {
-   "first_seen": "2026-09-29T18:29:39Z",
-   "last_seen": "2026-09-29T18:29:39Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "mr smith",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Mr. Smith",
-    "why_now": "Unclear entity; likely entertainment or political; no sports connection.",
-    "angle": "Out of scope for sports trend radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-29T18:29:39Z"
-  },
-  "jewish new yorkers": {
-   "first_seen": "2026-09-29T18:29:39Z",
-   "last_seen": "2026-09-29T18:29:39Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "jewish new yorkers",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Jewish New Yorkers",
-    "why_now": "Demographic/political topic; no sports connection.",
-    "angle": "Out of scope for sports trend radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-29T18:29:39Z"
-  },
-  "preece": {
-   "first_seen": "2026-09-29T18:29:39Z",
-   "last_seen": "2026-09-29T18:29:39Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "preece",
-    "sports": true,
-    "league": "Motorsports",
-    "obvious": false,
-    "early": false,
-    "entity": "Ryan Preece",
-    "why_now": "Motorsports driver; co-trending with Kaulig, Penske; likely a race result or driver news.",
-    "angle": "Capture a specific race performance or career milestone; tie to team or championship context.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-29T18:29:39Z"
-  },
-  "lingorm ba dior at pfw": {
-   "first_seen": "2026-09-29T18:29:39Z",
-   "last_seen": "2026-09-29T18:29:39Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "lingorm ba dior at pfw",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "LINGORM BA DIOR AT PFW",
-    "why_now": "Fashion event (Paris Fashion Week); no sports connection.",
-    "angle": "Out of scope for sports trend radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-29T18:29:39Z"
-  },
-  "wonyoung in dior": {
-   "first_seen": "2026-09-29T18:29:39Z",
-   "last_seen": "2026-09-29T18:29:39Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "wonyoung in dior",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "WONYOUNG IN DIOR",
-    "why_now": "Fashion/entertainment (K-pop idol at fashion event); no sports connection.",
-    "angle": "Out of scope for sports trend radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-29T18:29:39Z"
-  },
-  "penske": {
-   "first_seen": "2026-09-29T18:29:39Z",
-   "last_seen": "2026-09-29T18:29:39Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "penske",
-    "sports": true,
-    "league": "Motorsports",
-    "obvious": false,
-    "early": false,
-    "entity": "Penske Racing",
-    "why_now": "Motorsports team; co-trending with Kaulig and other racing entities; likely a race or driver update.",
-    "angle": "Highlight a race win, driver performance, or team news; position within championship narrative.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-29T18:29:39Z"
-  },
-  "mlb playoffs": {
-   "first_seen": "2026-09-29T18:29:39Z",
-   "last_seen": "2026-09-29T18:29:39Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "mlb playoffs",
-    "sports": true,
-    "league": "MLB",
-    "obvious": true,
-    "early": false,
-    "entity": "MLB Playoffs 2026",
-    "why_now": "Generic playoff tag with high Google traffic; no specific moment—just the event.",
-    "angle": "Suppress as too-obvious; only activate if a specific viral moment (upset, record, walk-off) emerges.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-29T18:29:39Z"
-  },
-  "wolfman jack": {
-   "first_seen": "2026-09-29T18:29:39Z",
-   "last_seen": "2026-09-29T18:29:39Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "wolfman jack",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Wolfman Jack",
-    "why_now": "Entertainment/radio personality; no sports connection.",
-    "angle": "Out of scope for sports trend radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-29T18:29:39Z"
-  },
-  "880k yeezo": {
-   "first_seen": "2026-09-29T18:29:39Z",
-   "last_seen": "2026-09-29T18:29:39Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "880k yeezo",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "880K YeeZo",
-    "why_now": "Unclear entity; no sports connection evident.",
-    "angle": "Out of scope for sports trend radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-29T18:29:39Z"
-  },
   "chris sale": {
    "first_seen": "2026-09-29T18:29:39Z",
    "last_seen": "2026-10-02T09:29:09Z",
@@ -3523,186 +2682,6 @@
     "market_id": null
    },
    "enriched_at": "2026-10-02T09:29:09Z"
-  },
-  "mlb": {
-   "first_seen": "2026-09-29T18:29:39Z",
-   "last_seen": "2026-09-29T18:29:39Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "mlb",
-    "sports": true,
-    "league": "MLB",
-    "obvious": true,
-    "early": false,
-    "entity": "MLB",
-    "why_now": "Generic MLB tag; high Google traffic for playoff how-to-watch and predictions—no specific storyline.",
-    "angle": "Suppress as too-obvious; only activate if a specific viral moment or upset emerges.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-29T18:29:39Z"
-  },
-  "spain vs croatia": {
-   "first_seen": "2026-09-29T18:29:39Z",
-   "last_seen": "2026-09-29T18:29:39Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "spain vs croatia",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": true,
-    "early": false,
-    "entity": "Spain vs. Croatia (UEFA Nations League)",
-    "why_now": "Scheduled UEFA Nations League match on 2026-09-29; high Google traffic for match preview and logistics.",
-    "angle": "Suppress as too-obvious pre-game; only activate if a specific viral moment (goal, controversy, injury) emerges during/after.",
-    "duplicate_of": null,
-    "market_id": "4609854"
-   },
-   "enriched_at": "2026-09-29T18:29:39Z"
-  },
-  "czechia vs england": {
-   "first_seen": "2026-09-29T18:29:39Z",
-   "last_seen": "2026-09-29T18:29:39Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "czechia vs england",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": true,
-    "early": false,
-    "entity": "Czechia vs. England (UEFA Nations League)",
-    "why_now": "Scheduled UEFA Nations League match on 2026-09-29; Google traffic for preview, lineups, and logistics.",
-    "angle": "Suppress as too-obvious pre-game; only activate if a specific viral moment (goal, injury, controversy) emerges.",
-    "duplicate_of": null,
-    "market_id": "4609859"
-   },
-   "enriched_at": "2026-09-29T18:29:39Z"
-  },
-  "españa croacia": {
-   "first_seen": "2026-09-29T18:29:39Z",
-   "last_seen": "2026-09-29T18:29:39Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "españa croacia",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": true,
-    "early": false,
-    "entity": "España vs. Croacia (UEFA Nations League)",
-    "why_now": "Spanish-language version of Spain vs. Croatia match preview; scheduled event with logistics focus.",
-    "angle": "Suppress as duplicate of 'spain vs croatia'; only activate if match produces a viral moment.",
-    "duplicate_of": "spain vs croatia",
-    "market_id": null
-   },
-   "enriched_at": "2026-09-29T18:29:39Z"
-  },
-  "chequia inglaterra": {
-   "first_seen": "2026-09-29T18:29:39Z",
-   "last_seen": "2026-09-29T18:29:39Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "chequia inglaterra",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": true,
-    "early": false,
-    "entity": "Chequia vs. Inglaterra (UEFA Nations League)",
-    "why_now": "Spanish-language version of Czechia vs. England match preview; scheduled event with logistics focus.",
-    "angle": "Suppress as duplicate of 'czechia vs england'; only activate if match produces a viral moment.",
-    "duplicate_of": "czechia vs england",
-    "market_id": null
-   },
-   "enriched_at": "2026-09-29T18:29:39Z"
-  },
-  "six flags x2 roller coaster closure": {
-   "first_seen": "2026-09-29T18:29:39Z",
-   "last_seen": "2026-09-29T18:29:39Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "six flags x2 roller coaster closure",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Six Flags X2 Roller Coaster Closure",
-    "why_now": "Theme park news; no sports connection.",
-    "angle": "Out of scope for sports trend radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-29T18:29:39Z"
-  },
-  "openai dots": {
-   "first_seen": "2026-09-29T18:29:39Z",
-   "last_seen": "2026-09-29T18:29:39Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "openai dots",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "OpenAI Dots",
-    "why_now": "AI product launch; duplicate of 'dots'; no sports connection.",
-    "angle": "Out of scope for sports trend radar.",
-    "duplicate_of": "dots",
-    "market_id": null
-   },
-   "enriched_at": "2026-09-29T18:29:39Z"
-  },
-  "scotland vs switzerland": {
-   "first_seen": "2026-09-29T18:29:39Z",
-   "last_seen": "2026-09-29T18:29:39Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "scotland vs switzerland",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": true,
-    "early": false,
-    "entity": "Scotland vs. Switzerland (UEFA Nations League)",
-    "why_now": "Scheduled UEFA Nations League match on 2026-09-29; Google traffic for match preview and logistics.",
-    "angle": "Suppress as too-obvious pre-game; only activate if a specific viral moment (goal, injury, controversy) emerges.",
-    "duplicate_of": null,
-    "market_id": "4609860"
-   },
-   "enriched_at": "2026-09-29T18:29:39Z"
-  },
-  "ateez san dating rumors denial": {
-   "first_seen": "2026-09-29T18:29:39Z",
-   "last_seen": "2026-09-29T18:29:39Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "ateez san dating rumors denial",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "ATEEZ San Dating Rumors Denial",
-    "why_now": "K-pop entertainment news; no sports connection.",
-    "angle": "Out of scope for sports trend radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-09-29T18:29:39Z"
   },
   "tatyana": {
    "first_seen": "2026-09-30T01:08:27Z",
@@ -11223,7 +10202,7 @@
   },
   "skydance": {
    "first_seen": "2026-10-02T18:15:08Z",
-   "last_seen": "2026-10-02T18:15:08Z",
+   "last_seen": "2026-10-06T18:49:41Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -11235,12 +10214,12 @@
     "obvious": false,
     "early": false,
     "entity": "Skydance",
-    "why_now": "Entertainment company trending on X/Trends24; likely film, TV, or corporate news unrelated to sports.",
-    "angle": "Not sports-related; exclude from sports trend radar.",
+    "why_now": "Entertainment/production company; no sports signal.",
+    "angle": "Insufficient data to determine marketing angle.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-10-02T18:15:08Z"
+   "enriched_at": "2026-10-06T18:49:41Z"
   },
   "olandriaxcasablancass27": {
    "first_seen": "2026-10-02T18:15:08Z",
@@ -22444,24 +21423,24 @@
   },
   "san diego": {
    "first_seen": "2026-10-06T09:52:29Z",
-   "last_seen": "2026-10-06T09:52:29Z",
+   "last_seen": "2026-10-06T18:49:41Z",
    "sources_seen": [
     "trends24",
     "x"
    ],
    "enrichment": {
     "key": "san diego",
-    "sports": true,
-    "league": "MLB",
-    "obvious": true,
+    "sports": false,
+    "league": null,
+    "obvious": false,
     "early": false,
-    "entity": "San Diego Padres",
-    "why_now": "Playoff game or series event; co-trending with 'LA and SD' suggests regional sports matchup.",
-    "angle": "Monitor for specific playoff moment, injury, or viral play rather than game logistics.",
+    "entity": "San Diego",
+    "why_now": "No sports signal detected; geographic location trending for unknown reason.",
+    "angle": "Insufficient data to determine marketing angle.",
     "duplicate_of": null,
-    "market_id": "5175499"
+    "market_id": null
    },
-   "enriched_at": "2026-10-06T09:52:29Z"
+   "enriched_at": "2026-10-06T18:49:41Z"
   },
   "irysconcert2026": {
    "first_seen": "2026-10-06T09:52:29Z",
@@ -22486,7 +21465,7 @@
   },
   "jim bakker": {
    "first_seen": "2026-10-06T09:52:29Z",
-   "last_seen": "2026-10-06T09:52:29Z",
+   "last_seen": "2026-10-06T18:49:41Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -22495,15 +21474,15 @@
     "key": "jim bakker",
     "sports": false,
     "league": null,
-    "obvious": true,
+    "obvious": false,
     "early": false,
     "entity": "Jim Bakker",
-    "why_now": "Religious/political figure; no sports connection.",
-    "angle": "Not sports-related; discard.",
+    "why_now": "Religious/media figure; no sports connection.",
+    "angle": "Insufficient data to determine marketing angle.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-10-06T09:52:29Z"
+   "enriched_at": "2026-10-06T18:49:41Z"
   },
   "la and sd": {
    "first_seen": "2026-10-06T09:52:29Z",
@@ -23313,6 +22292,1130 @@
     "market_id": null
    },
    "enriched_at": "2026-10-06T09:52:29Z"
+  },
+  "freddie jackson": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "freddie jackson",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Freddie Jackson",
+    "why_now": "No sports signal; likely music/entertainment figure.",
+    "angle": "Insufficient data to determine marketing angle.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
+  },
+  "oki home": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "oki home",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Oki Home",
+    "why_now": "No sports signal detected.",
+    "angle": "Insufficient data to determine marketing angle.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
+  },
+  "nationalcoachesday": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "nationalcoachesday",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": true,
+    "early": false,
+    "entity": "#NationalCoachesDay",
+    "why_now": "Scheduled annual observance; no specific viral moment or controversy.",
+    "angle": "Suppress as calendar-driven observance without unique storyline.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
+  },
+  "felix pfw louis vuitton ss27": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "felix pfw louis vuitton ss27",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "FELIX PFW LOUIS VUITTON SS27",
+    "why_now": "Fashion/luxury brand event; no sports connection.",
+    "angle": "Insufficient data to determine marketing angle.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
+  },
+  "boomers": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "boomers",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Boomers",
+    "why_now": "No sports signal; likely generational reference.",
+    "angle": "Insufficient data to determine marketing angle.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
+  },
+  "memchip": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "memchip",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Memchip",
+    "why_now": "No sports signal detected.",
+    "angle": "Insufficient data to determine marketing angle.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
+  },
+  "the athletic": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "the athletic",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": false,
+    "early": false,
+    "entity": "The Athletic",
+    "why_now": "Sports news outlet spiking; driver unconfirmed—likely coverage of major story.",
+    "angle": "Monitor for breaking sports news or editorial controversy at The Athletic.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
+  },
+  "michael bay": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "michael bay",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Michael Bay",
+    "why_now": "Film director; no sports signal.",
+    "angle": "Insufficient data to determine marketing angle.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
+  },
+  "republicanhealthcarecrisis": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "republicanhealthcarecrisis",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "#RepublicanHealthcareCrisis",
+    "why_now": "Political hashtag; no sports connection.",
+    "angle": "Insufficient data to determine marketing angle.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
+  },
+  "transformers": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "transformers",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Transformers",
+    "why_now": "Entertainment franchise; no sports signal.",
+    "angle": "Insufficient data to determine marketing angle.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
+  },
+  "dear canada": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "dear canada",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Dear Canada",
+    "why_now": "No sports signal detected.",
+    "angle": "Insufficient data to determine marketing angle.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
+  },
+  "tkn247": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "tkn247",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "#TKN247",
+    "why_now": "No sports signal; unclear hashtag.",
+    "angle": "Insufficient data to determine marketing angle.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
+  },
+  "rock me tonight": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "rock me tonight",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Rock Me Tonight",
+    "why_now": "No sports signal; likely music reference.",
+    "angle": "Insufficient data to determine marketing angle.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
+  },
+  "legal immigration": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "legal immigration",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "LEGAL IMMIGRATION",
+    "why_now": "Political topic; no sports connection.",
+    "angle": "Insufficient data to determine marketing angle.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
+  },
+  "jam tonight": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "jam tonight",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Jam Tonight",
+    "why_now": "No sports signal detected.",
+    "angle": "Insufficient data to determine marketing angle.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
+  },
+  "happy birthday kelsey": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "happy birthday kelsey",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Happy Birthday Kelsey",
+    "why_now": "Personal birthday greeting; no sports connection.",
+    "angle": "Insufficient data to determine marketing angle.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
+  },
+  "s p 500 and nasdaq": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "s p 500 and nasdaq",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "S&P 500 and Nasdaq",
+    "why_now": "Financial indices; no sports signal.",
+    "angle": "Insufficient data to determine marketing angle.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
+  },
+  "le chonk": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "le chonk",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Le Chonk",
+    "why_now": "Internet meme (chubby animal); no sports connection.",
+    "angle": "Insufficient data to determine marketing angle.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
+  },
+  "somalis": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "somalis",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Somalis",
+    "why_now": "Ethnic/geographic reference; no sports signal.",
+    "angle": "Insufficient data to determine marketing angle.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
+  },
+  "embeddinggemma 2": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "embeddinggemma 2",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "EmbeddingGemma 2",
+    "why_now": "AI/tech product; no sports connection.",
+    "angle": "Insufficient data to determine marketing angle.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
+  },
+  "sochi": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "sochi",
+    "sports": true,
+    "league": "Olympics",
+    "obvious": false,
+    "early": false,
+    "entity": "Sochi",
+    "why_now": "Olympic host city; driver unconfirmed—likely historical reference or news peg.",
+    "angle": "Monitor for Olympics-related news or retrospective content.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
+  },
+  "candace buckner": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "candace buckner",
+    "sports": true,
+    "league": "NFL",
+    "obvious": false,
+    "early": false,
+    "entity": "Candace Buckner",
+    "why_now": "NFL player/personality; specific driver unconfirmed.",
+    "angle": "Monitor for player news, trade, injury, or media appearance.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
+  },
+  "dennis franchione": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "dennis franchione",
+    "sports": true,
+    "league": "College Football",
+    "obvious": false,
+    "early": false,
+    "entity": "Dennis Franchione",
+    "why_now": "College football coach; specific driver unconfirmed.",
+    "angle": "Monitor for coaching news, hire, or controversial statement.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
+  },
+  "eric kendricks": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "eric kendricks",
+    "sports": true,
+    "league": "NFL",
+    "obvious": false,
+    "early": false,
+    "entity": "Eric Kendricks",
+    "why_now": "NFL player; specific driver unconfirmed.",
+    "angle": "Monitor for player news, trade, injury, or performance milestone.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
+  },
+  "nano banana 2 1": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "nano banana 2 1",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Nano Banana 2.1",
+    "why_now": "No sports signal detected.",
+    "angle": "Insufficient data to determine marketing angle.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
+  },
+  "burry": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "burry",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Burry",
+    "why_now": "Likely Michael Burry (investor); no sports connection.",
+    "angle": "Insufficient data to determine marketing angle.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
+  },
+  "ponzi": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "ponzi",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Ponzi",
+    "why_now": "Financial crime reference; no sports signal.",
+    "angle": "Insufficient data to determine marketing angle.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
+  },
+  "emil": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "emil",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Emil",
+    "why_now": "No sports signal; unclear entity.",
+    "angle": "Insufficient data to determine marketing angle.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
+  },
+  "jaded": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "jaded",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Jaded",
+    "why_now": "No sports signal detected.",
+    "angle": "Insufficient data to determine marketing angle.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
+  },
+  "coach fran": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "coach fran",
+    "sports": true,
+    "league": "College Basketball",
+    "obvious": false,
+    "early": false,
+    "entity": "Coach Fran",
+    "why_now": "College basketball coach (likely Fran McCaffery); specific driver unconfirmed.",
+    "angle": "Monitor for coaching news, team performance, or media moment.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
+  },
+  "rip legend": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "rip legend",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": false,
+    "early": false,
+    "entity": "RIP Legend",
+    "why_now": "Likely tribute to deceased sports figure; co-trending with Peter Cullen suggests voice actor/Transformers connection, not sports.",
+    "angle": "Verify if sports-related death or entertainment figure.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
+  },
+  "peter cullen": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "peter cullen",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Peter Cullen",
+    "why_now": "Voice actor (Transformers); no sports connection.",
+    "angle": "Insufficient data to determine marketing angle.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
+  },
+  "prime day": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "prime day",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "Prime Day",
+    "why_now": "Scheduled Amazon shopping event; no sports connection.",
+    "angle": "Suppress as scheduled retail event.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
+  },
+  "happy birthday jenny": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "happy birthday jenny",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Happy Birthday Jenny",
+    "why_now": "Personal birthday greeting; no sports connection.",
+    "angle": "Insufficient data to determine marketing angle.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
+  },
+  "midterm surprise": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "midterm surprise",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Midterm Surprise",
+    "why_now": "Political reference; no sports signal.",
+    "angle": "Insufficient data to determine marketing angle.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
+  },
+  "national taco day": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "national taco day",
+    "sports": false,
+    "league": null,
+    "obvious": true,
+    "early": false,
+    "entity": "National Taco Day",
+    "why_now": "Scheduled food observance; no sports connection.",
+    "angle": "Suppress as calendar-driven food holiday.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
+  },
+  "jos a bank": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "jos a bank",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Jos A Bank",
+    "why_now": "Retail clothing brand; no sports signal.",
+    "angle": "Insufficient data to determine marketing angle.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
+  },
+  "hetoo": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "hetoo",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "#HeToo",
+    "why_now": "Social movement hashtag; no sports connection.",
+    "angle": "Insufficient data to determine marketing angle.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
+  },
+  "apollos": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "apollos",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": false,
+    "early": false,
+    "entity": "Apollos",
+    "why_now": "Likely sports team name; specific driver unconfirmed.",
+    "angle": "Monitor for team news, game result, or roster move.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
+  },
+  "sam mcdowell": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "sam mcdowell",
+    "sports": true,
+    "league": "MLB",
+    "obvious": false,
+    "early": false,
+    "entity": "Sam McDowell",
+    "why_now": "Baseball player or analyst; specific driver unconfirmed.",
+    "angle": "Monitor for player news, trade, or media appearance.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
+  },
+  "apple news": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "apple news",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Apple News",
+    "why_now": "News platform; no sports signal.",
+    "angle": "Insufficient data to determine marketing angle.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
+  },
+  "president of the united states": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "president of the united states",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "President of the United States",
+    "why_now": "Political office; no sports signal.",
+    "angle": "Insufficient data to determine marketing angle.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
+  },
+  "pemdas": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "pemdas",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "PEMDAS",
+    "why_now": "Math acronym; no sports connection.",
+    "angle": "Insufficient data to determine marketing angle.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
+  },
+  "humanizing": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "humanizing",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Humanizing",
+    "why_now": "No sports signal detected.",
+    "angle": "Insufficient data to determine marketing angle.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
+  },
+  "croatia vs spain": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "croatia vs spain",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": true,
+    "early": false,
+    "entity": "Croatia vs Spain",
+    "why_now": "UEFA Nations League match on 2026-10-06; scheduled game with no specific storyline.",
+    "angle": "Suppress as pre-game search for scheduled match.",
+    "duplicate_of": null,
+    "market_id": "4877193"
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
+  },
+  "england vs czechia": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "england vs czechia",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": true,
+    "early": false,
+    "entity": "England vs Czechia",
+    "why_now": "UEFA Nations League match on 2026-10-06; scheduled game with no specific storyline.",
+    "angle": "Suppress as pre-game search for scheduled match.",
+    "duplicate_of": null,
+    "market_id": "4877205"
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
+  },
+  "the moon jupiter": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "the moon jupiter",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "the moon jupiter",
+    "why_now": "Astronomical event (lunar occultation); no sports connection.",
+    "angle": "Insufficient data to determine marketing angle.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
+  },
+  "joe mixon news": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "joe mixon news",
+    "sports": true,
+    "league": "NFL",
+    "obvious": false,
+    "early": true,
+    "entity": "Joe Mixon",
+    "why_now": "Seahawks decided not to sign RB Joe Mixon after physical; roster/contract news.",
+    "angle": "Early signal: Mixon's free-agent status shift; monitor for next team interest or career implications.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
+  },
+  "cbs news": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "cbs news",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "cbs news",
+    "why_now": "News outlet; no sports signal.",
+    "angle": "Insufficient data to determine marketing angle.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
+  },
+  "infant": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "infant",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "infant",
+    "why_now": "Crime/accident news; no sports connection.",
+    "angle": "Insufficient data to determine marketing angle.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
+  },
+  "andrew tate": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "andrew tate",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "andrew tate",
+    "why_now": "Criminal prosecution news; no sports connection.",
+    "angle": "Insufficient data to determine marketing angle.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
+  },
+  "albania vs san marino": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "albania vs san marino",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": true,
+    "early": false,
+    "entity": "Albania vs San Marino",
+    "why_now": "UEFA Nations League match on 2026-10-06; scheduled game with no specific storyline.",
+    "angle": "Suppress as pre-game search for scheduled match.",
+    "duplicate_of": null,
+    "market_id": "4877212"
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
+  },
+  "michael bunting": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "michael bunting",
+    "sports": true,
+    "league": "NHL",
+    "obvious": false,
+    "early": true,
+    "entity": "Michael Bunting",
+    "why_now": "Philadelphia Flyers signed free agent Michael Bunting to 1-year, $1.2M contract.",
+    "angle": "Early signal: Bunting's signing; monitor for player performance and team chemistry impact.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
+  },
+  "cártel de jalisco nueva generación": {
+   "first_seen": "2026-10-06T18:49:41Z",
+   "last_seen": "2026-10-06T18:49:41Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "cártel de jalisco nueva generación",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "cártel de jalisco nueva generación",
+    "why_now": "Crime/cartel news; no sports connection.",
+    "angle": "Insufficient data to determine marketing angle.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-06T18:49:41Z"
   }
  },
  "x_usage": {
@@ -23327,77 +23430,57 @@
  },
  "prev_x_trends": [
   "San Diego",
-  "Falcons",
+  "Freddie Jackson",
+  "Oki Home",
+  "#NationalCoachesDay",
+  "#TinaTuesday",
+  "FELIX PFW LOUIS VUITTON SS27",
+  "Boomers",
+  "Memchip",
+  "Taco Tuesday",
+  "The Athletic",
+  "Michael Bay",
+  "#RepublicanHealthcareCrisis",
+  "Transformers",
+  "Dear Canada",
+  "#TKN247",
+  "Rock Me Tonight",
+  "LEGAL IMMIGRATION",
+  "Jam Tonight",
+  "Happy Birthday Kelsey",
+  "S&P 500 and Nasdaq",
+  "Le Chonk",
+  "Somalis",
+  "EmbeddingGemma 2",
+  "Sochi",
+  "Candace Buckner",
+  "Skydance",
+  "Dennis Franchione",
+  "Eric Kendricks",
+  "Nano Banana 2.1",
+  "Burry",
+  "Ponzi",
+  "Emil",
+  "Jaded",
+  "Coach Fran",
+  "RIP Legend",
+  "Peter Cullen",
   "Good Tuesday",
-  "#IRySConcert2026",
-  "Yankees",
-  "Saints",
+  "Prime Day",
+  "Happy Birthday Jenny",
+  "Midterm Surprise",
+  "National Taco Day",
+  "Jos A Bank",
+  "#HeToo",
+  "Apollos",
+  "Sam McDowell",
+  "Apple News",
   "Jim Bakker",
-  "Boone",
-  "LA and SD",
-  "Bijan",
-  "Lakers",
-  "Penix",
-  "Shough",
-  "Kellen Moore",
-  "Fort Hood",
-  "Rays",
-  "Fungo Labs",
-  "LA or SD",
-  "zedd",
-  "Olave",
-  "#DirtyBirds",
-  "#RiseUp",
-  "#WWERaw",
-  "25th Amendment",
-  "Luka",
-  "Ben Rice",
-  "New Orleans",
-  "Acuff",
-  "#ReasonableDoubt",
-  "Cam Carr",
-  "Vele",
-  "Jazz",
-  "Let It Burn",
-  "Vando",
-  "Miia",
-  "$HIGGS",
-  "Nidal Hasan",
-  "WE DAT",
-  "Cameron Carr",
-  "Grimes",
-  "Cube",
-  "McMahon",
-  "Mickey Loomis",
-  "Kamara",
-  "Dejon",
-  "Pitts",
-  "Kirk Franklin",
-  "Plies",
-  "Kessler",
-  "Katrina"
+  "President of the United States",
+  "PEMDAS",
+  "Humanizing"
  ],
  "suppressed": [
-  {
-   "key": "nfl sunday",
-   "reason": "Scheduled NFL game day; generic event descriptor with no specific moment.",
-   "at": "2026-09-27T17:35:01Z"
-  },
-  {
-   "key": "football sunday",
-   "reason": "Scheduled NFL game day; generic event descriptor with no specific moment.",
-   "at": "2026-09-27T17:35:01Z"
-  },
-  {
-   "key": "go pats",
-   "reason": "Sunday NFL game; generic team cheer with no specific storyline or moment.",
-   "at": "2026-09-27T17:35:01Z"
-  },
-  {
-   "key": "balvsdal",
-   "reason": "Game hashtag; pre-game or in-game trending without specific storyline.",
-   "at": "2026-09-28T00:23:06Z"
-  },
   {
    "key": "defense",
    "reason": "Generic term trending; likely a defensive performance or scheme discussion.",
@@ -24377,6 +24460,26 @@
    "key": "sinja kraus",
    "reason": "Tennis betting/prediction market; no specific athlete or moment.",
    "at": "2026-10-06T09:52:29Z"
+  },
+  {
+   "key": "nationalcoachesday",
+   "reason": "Scheduled annual observance; no specific viral moment or controversy.",
+   "at": "2026-10-06T18:49:41Z"
+  },
+  {
+   "key": "croatia vs spain",
+   "reason": "UEFA Nations League match on 2026-10-06; scheduled game with no specific storyline.",
+   "at": "2026-10-06T18:49:41Z"
+  },
+  {
+   "key": "england vs czechia",
+   "reason": "UEFA Nations League match on 2026-10-06; scheduled game with no specific storyline.",
+   "at": "2026-10-06T18:49:41Z"
+  },
+  {
+   "key": "albania vs san marino",
+   "reason": "UEFA Nations League match on 2026-10-06; scheduled game with no specific storyline.",
+   "at": "2026-10-06T18:49:41Z"
   }
  ],
  "slack_posted": {
