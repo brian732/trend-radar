@@ -1,15 +1,173 @@
 {
  "schema_version": 2,
- "generated_at": "2026-10-09T10:12:44Z",
+ "generated_at": "2026-10-09T18:41:29Z",
  "sections": [
   {
    "league": "NFL",
-   "activity": 109,
+   "activity": 284,
    "trends": [
     {
-     "key": "pickens",
-     "name": "Pickens",
-     "entity": "George Pickens",
+     "key": "justin watson",
+     "name": "Justin Watson",
+     "entity": "Justin Watson",
+     "league": "NFL",
+     "score": 53,
+     "score_breakdown": {
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 10
+     },
+     "early": true,
+     "new_on_x": true,
+     "why_now": "NFL player; spiking on X with no prior rank; early signal, likely a recent performance or trade.",
+     "angle": "Identify the specific moment (catch, trade, injury); create timely player-focused content.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-10-09T18:41:29Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    },
+    {
+     "key": "caleb bijan",
+     "name": "Caleb Bijan",
+     "entity": "Caleb Bijan",
+     "league": "NFL",
+     "score": 53,
+     "score_breakdown": {
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 10
+     },
+     "early": true,
+     "new_on_x": true,
+     "why_now": "NFL running back; spiking on X with no prior rank; early signal, likely a recent performance or trade.",
+     "angle": "Identify the specific Bijan moment (game performance, trade, injury); create timely player content.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-10-09T18:41:29Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    },
+    {
+     "key": "mike ditka",
+     "name": "Mike Ditka",
+     "entity": "Mike Ditka",
+     "league": "NFL",
+     "score": 45,
+     "score_breakdown": {
+      "velocity": 17.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 0
+     },
+     "early": false,
+     "new_on_x": true,
+     "why_now": "Ditka trending alongside Da Bears, Charlie Kirk, and Super Bowl XX; likely a recent quote, appearance, or commentary on Bears/legacy.",
+     "angle": "Leverage Ditka's iconic Bears status and current relevance for nostalgia-driven content; tie to modern Bears narrative if applicable.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-10-09T18:41:29Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    },
+    {
+     "key": "da bears",
+     "name": "Da Bears",
+     "entity": "Chicago Bears",
+     "league": "NFL",
+     "score": 45,
+     "score_breakdown": {
+      "velocity": 17.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 0
+     },
+     "early": false,
+     "new_on_x": true,
+     "why_now": "Co-trending with Mike Ditka, Super Bowl XX, Caleb Bijan, and Aliquippa; suggests Bears roster/draft/performance story, not just a game.",
+     "angle": "Identify the specific Bears moment (draft pick, player performance, or coach decision) and create content around the cultural angle.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-10-09T18:41:29Z",
+     "example_tweets": [],
+     "market": {
+      "question": "Will the Chicago Bears win the 2027 NFL league championship?",
+      "url": "https://polymarket.com/event/pro-football-2027-champion-20260729185915366",
+      "outcomes": [
+       [
+        "Yes",
+        0.0615
+       ],
+       [
+        "No",
+        0.9385
+       ]
+      ],
+      "volume24hr": 12939.84661
+     },
+     "market_gap": false
+    },
+    {
+     "key": "85 bears",
+     "name": "85 Bears",
+     "entity": "1985 Chicago Bears",
+     "league": "NFL",
+     "score": 45,
+     "score_breakdown": {
+      "velocity": 17.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 0
+     },
+     "early": false,
+     "new_on_x": true,
+     "why_now": "Super Bowl XX-winning Bears team; co-trending with Ditka, Da Bears, Super Bowl XX; likely nostalgia or comparison to current roster.",
+     "angle": "Tie 1985 Bears legacy to current Bears narrative; create generational comparison content.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-10-09T18:41:29Z",
+     "example_tweets": [],
+     "market": {
+      "question": "Will the Chicago Bears win the 2027 NFL league championship?",
+      "url": "https://polymarket.com/event/pro-football-2027-champion-20260729185915366",
+      "outcomes": [
+       [
+        "Yes",
+        0.0615
+       ],
+       [
+        "No",
+        0.9385
+       ]
+      ],
+      "volume24hr": 12939.84661
+     },
+     "market_gap": false
+    },
+    {
+     "key": "super bowl xx",
+     "name": "Super Bowl XX",
+     "entity": "Super Bowl XX",
      "league": "NFL",
      "score": 43,
      "score_breakdown": {
@@ -21,22 +179,54 @@
      },
      "early": false,
      "new_on_x": true,
-     "why_now": "NFL player; trending in co-trending list; likely involved in a recent game or controversy.",
-     "angle": "Investigate Pickens' recent performance or news if related to a game or trade.",
+     "why_now": "1985 Bears championship; co-trending with Ditka, Da Bears, 85 Bears; nostalgia or anniversary angle.",
+     "angle": "Tie Super Bowl XX legacy to current Bears narrative or anniversary content.",
      "sources": [
       "x",
       "trends24"
      ],
-     "first_seen": "2026-10-09T10:12:44Z",
+     "first_seen": "2026-10-09T18:41:29Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    }
+   ]
+  },
+  {
+   "league": "Other Sports",
+   "activity": 276,
+   "trends": [
+    {
+     "key": "oscar belgal",
+     "name": "Oscar Belgal",
+     "entity": "Oscar Belgal",
+     "league": "Other Sports",
+     "score": 53,
+     "score_breakdown": {
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 10
+     },
+     "early": true,
+     "new_on_x": true,
+     "why_now": "Spiking on X; identity and sport unclear; early-stage trend with no major news coverage.",
+     "angle": "Monitor for emerging athlete or sports figure story; identify sport and context before amplifying.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-10-09T18:41:29Z",
      "example_tweets": [],
      "market": null,
      "market_gap": true
     },
     {
-     "key": "mamu",
-     "name": "Mamu",
-     "entity": "Mamu",
-     "league": "NFL",
+     "key": "kicking and screaming",
+     "name": "Kicking and Screaming",
+     "entity": "Kicking and Screaming (film/meme reference)",
+     "league": "Other Sports",
      "score": 43,
      "score_breakdown": {
       "velocity": 15.0,
@@ -47,8 +237,112 @@
      },
      "early": false,
      "new_on_x": true,
-     "why_now": "NFL player; trending; likely involved in recent game or roster move.",
-     "angle": "Cover Mamu's recent performance or roster status if newsworthy.",
+     "why_now": "Phrase co-trending with Bears/Ditka; likely a meme or quote referencing sports resistance or reluctance.",
+     "angle": "Identify the exact quote or moment; leverage as sports-culture meme if viral.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-10-09T18:41:29Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    },
+    {
+     "key": "lastfourwatched",
+     "name": "#LastFourWatched",
+     "entity": "#LastFourWatched",
+     "league": "Other Sports",
+     "score": 43,
+     "score_breakdown": {
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 0
+     },
+     "early": false,
+     "new_on_x": true,
+     "why_now": "Letterboxd/media hashtag; sports-adjacent if used for sports content, but primarily entertainment.",
+     "angle": "Monitor for sports-specific usage; likely low priority.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-10-09T18:41:29Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    },
+    {
+     "key": "max caster",
+     "name": "Max Caster",
+     "entity": "Max Caster",
+     "league": "Other Sports",
+     "score": 43,
+     "score_breakdown": {
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 0
+     },
+     "early": false,
+     "new_on_x": true,
+     "why_now": "Professional wrestler (AEW); spiking on X; likely a recent match, promo, or storyline.",
+     "angle": "Identify the specific Caster moment (match, promo, controversy); create wrestling content.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-10-09T18:41:29Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    },
+    {
+     "key": "keith",
+     "name": "Keith",
+     "entity": "Keith (athlete/figure, unconfirmed)",
+     "league": "Other Sports",
+     "score": 43,
+     "score_breakdown": {
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 0
+     },
+     "early": false,
+     "new_on_x": true,
+     "why_now": "Spiking on X; context unclear; likely a sports figure or moment.",
+     "angle": "Identify the specific Keith and sport; monitor for clarity before amplifying.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-10-09T18:41:29Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    },
+    {
+     "key": "weights",
+     "name": "Weights",
+     "entity": "Weights (fitness/training)",
+     "league": "Other Sports",
+     "score": 28,
+     "score_breakdown": {
+      "velocity": 0.0,
+      "cross_platform": 8,
+      "freshness": 10,
+      "engagement": 0.0,
+      "early_bonus": 10
+     },
+     "early": true,
+     "new_on_x": false,
+     "why_now": "Spiking on X; likely a fitness or training trend, possibly athlete-related.",
+     "angle": "Monitor for sports-specific context; could be athlete training content.",
      "sources": [
       "x",
       "trends24"
@@ -59,10 +353,10 @@
      "market_gap": true
     },
     {
-     "key": "cowboys",
-     "name": "Cowboys",
-     "entity": "Dallas Cowboys",
-     "league": "NFL",
+     "key": "rip legend",
+     "name": "RIP Legend",
+     "entity": "RIP Legend (unconfirmed athlete/figure)",
+     "league": "Other Sports",
      "score": 23,
      "score_breakdown": {
       "velocity": 15.0,
@@ -73,103 +367,135 @@
      },
      "early": false,
      "new_on_x": true,
-     "why_now": "Cowboys-Buccaneers Thursday Night Football game; Jalon Daniels (undrafted backup QB) led Bucs to upset win, sparking debate about backup QB performance.",
-     "angle": "Ride the underdog backup QB narrative and upset storyline before mainstream sports media saturates it.",
+     "why_now": "Spiking on X alongside Ditka, Bears, Super Bowl XX, Aliquippa; likely a sports figure death or tribute; exact identity unclear.",
+     "angle": "Identify the specific sports figure being memorialized; create respectful tribute content if confirmed.",
      "sources": [
       "x",
       "trends24"
      ],
-     "first_seen": "2026-09-28T00:23:06Z",
+     "first_seen": "2026-10-06T18:49:41Z",
      "example_tweets": [],
-     "market": {
-      "question": "Will Dallas Cowboys win the 2026 NFC East?",
-      "url": "https://polymarket.com/event/pro-football-nfc-east-champion",
-      "outcomes": [
-       [
-        "Yes",
-        0.365
-       ],
-       [
-        "No",
-        0.635
-       ]
-      ],
-      "volume24hr": 21976.044564
-     },
-     "market_gap": false
+     "market": null,
+     "market_gap": true
     }
    ]
   },
   {
-   "league": "Tennis",
-   "activity": 33,
+   "league": "College Football",
+   "activity": 106,
    "trends": [
     {
-     "key": "francisco cerundolo",
-     "name": "francisco cerundolo",
-     "entity": "Francisco Cerundolo",
-     "league": "Tennis",
-     "score": 33,
+     "key": "syracuse",
+     "name": "Syracuse",
+     "entity": "Syracuse University",
+     "league": "College Football",
+     "score": 63,
      "score_breakdown": {
-      "velocity": 5.4,
+      "velocity": 27.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 8.0,
+      "early_bonus": 0
+     },
+     "early": false,
+     "new_on_x": true,
+     "why_now": "College sports program; spiking on X; likely a recent game, recruit, or coaching news.",
+     "angle": "Identify the specific Syracuse sports moment (football, basketball, or other); create college sports content.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-10-09T18:41:29Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    },
+    {
+     "key": "aliquippa",
+     "name": "Aliquippa",
+     "entity": "Aliquippa High School",
+     "league": "College Football",
+     "score": 43,
+     "score_breakdown": {
+      "velocity": 15.0,
       "cross_platform": 8,
       "freshness": 20,
       "engagement": 0.0,
       "early_bonus": 0
      },
      "early": false,
-     "new_on_x": false,
-     "why_now": "Tennis player; Shanghai Masters competition ongoing; low Google traffic suggests niche interest.",
-     "angle": "Cover Cerundolo's Shanghai Masters performance for tennis enthusiasts.",
+     "new_on_x": true,
+     "why_now": "Co-trending with Bears, Ditka, Caleb Bijan; likely a high school football program or player story.",
+     "angle": "Identify the specific Aliquippa athlete or program moment; create high school sports content.",
      "sources": [
-      "google"
+      "x",
+      "trends24"
      ],
-     "first_seen": "2026-10-09T10:12:44Z",
+     "first_seen": "2026-10-09T18:41:29Z",
      "example_tweets": [],
-     "market": {
-      "question": "Shanghai Rolex Masters: Francisco Cerundolo vs Roman Safiullin",
-      "url": "https://polymarket.com/event/atp-cerundo-safiull-2026-10-09",
-      "outcomes": [
-       [
-        "Francisco Cerundolo",
-        0.765
-       ],
-       [
-        "Roman Safiullin",
-        0.235
-       ]
-      ],
-      "volume24hr": 445326.1229310004
-     },
-     "market_gap": false
+     "market": null,
+     "market_gap": true
     }
    ]
   },
   {
-   "league": "NHL",
-   "activity": 15,
+   "league": "College Basketball",
+   "activity": 43,
    "trends": [
     {
-     "key": "sharks",
-     "name": "sharks",
-     "entity": "San Jose Sharks",
-     "league": "NHL",
-     "score": 15,
+     "key": "mullin",
+     "name": "Mullin",
+     "entity": "Chris Mullin",
+     "league": "College Basketball",
+     "score": 43,
      "score_breakdown": {
-      "velocity": 6.6,
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 0
+     },
+     "early": false,
+     "new_on_x": true,
+     "why_now": "College basketball coach/figure; spiking on X; likely a recent coaching decision or game.",
+     "angle": "Identify the specific Mullin moment (game, hire, statement); create college basketball content.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-10-09T18:41:29Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    }
+   ]
+  },
+  {
+   "league": "NBA",
+   "activity": 23,
+   "trends": [
+    {
+     "key": "dolan",
+     "name": "Dolan",
+     "entity": "James Dolan",
+     "league": "NBA",
+     "score": 23,
+     "score_breakdown": {
+      "velocity": 15.0,
       "cross_platform": 8,
       "freshness": 0,
       "engagement": 0.0,
       "early_bonus": 0
      },
      "early": false,
-     "new_on_x": false,
-     "why_now": "Sharks defeated Blues in overtime; Nurse scored OT winner; notable upset or comeback win.",
-     "angle": "Highlight the Sharks' dramatic overtime victory and key players involved.",
+     "new_on_x": true,
+     "why_now": "Spiking on X; likely a recent Knicks/Rangers/MSG decision or controversy involving owner.",
+     "angle": "Identify the specific Dolan moment (trade, statement, controversy); leverage for sports business content.",
      "sources": [
-      "google"
+      "x",
+      "trends24"
      ],
-     "first_seen": "2026-10-02T09:29:09Z",
+     "first_seen": "2026-10-05T21:00:22Z",
      "example_tweets": [],
      "market": null,
      "market_gap": true
@@ -182,7 +508,7 @@
   "trends24": "ok (2 snapshots)",
   "google_trends": "ok (10 items)",
   "gamma_api": "ok (500 markets)",
-  "llm": "ok (60 enriched)",
+  "llm": "ok (59 enriched)",
   "slack": "error: HTTP Error 404: Not Found"
  },
  "x_budget": {
@@ -209,9 +535,9 @@
   "section_order_mode": "activity"
  },
  "stats": {
-  "newly_enriched": 60,
+  "newly_enriched": 59,
   "cache_hits": 0,
-  "suppressed": 2,
+  "suppressed": 4,
   "discarded_non_sports": 36
  }
 }
