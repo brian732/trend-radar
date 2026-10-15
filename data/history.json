@@ -381,27 +381,6 @@
    },
    "enriched_at": "2026-10-08T10:11:20Z"
   },
-  "survivor51": {
-   "first_seen": "2026-09-24T00:17:38Z",
-   "last_seen": "2026-10-08T01:36:35Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "survivor51",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Survivor 51",
-    "why_now": "Reality TV show trending; no sports connection detected.",
-    "angle": "Not sports-related; exclude from sports trend radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-08T01:36:35Z"
-  },
   "ahs13": {
    "first_seen": "2026-09-25T08:37:16Z",
    "last_seen": "2026-10-09T10:12:44Z",
@@ -761,28 +740,6 @@
    },
    "enriched_at": "2026-10-11T17:55:44Z"
   },
-  "braves": {
-   "first_seen": "2026-09-29T18:29:39Z",
-   "last_seen": "2026-10-08T01:36:35Z",
-   "sources_seen": [
-    "google",
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "braves",
-    "sports": true,
-    "league": "MLB",
-    "obvious": true,
-    "early": false,
-    "entity": "Atlanta Braves",
-    "why_now": "Team name during NLCS; no specific moment or storyline beyond scheduled playoff series.",
-    "angle": "Suppress: generic team hashtag during playoff event without specific viral angle.",
-    "duplicate_of": null,
-    "market_id": "1235561"
-   },
-   "enriched_at": "2026-10-08T01:36:35Z"
-  },
   "dwcs": {
    "first_seen": "2026-09-30T01:08:27Z",
    "last_seen": "2026-10-14T00:56:32Z",
@@ -888,47 +845,6 @@
     "market_id": null
    },
    "enriched_at": "2026-10-08T10:11:20Z"
-  },
-  "baseball playoffs": {
-   "first_seen": "2026-10-01T09:52:28Z",
-   "last_seen": "2026-10-08T01:36:35Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "baseball playoffs",
-    "sports": true,
-    "league": "MLB",
-    "obvious": true,
-    "early": false,
-    "entity": "Baseball Playoffs 2026",
-    "why_now": "Generic playoff event; high Google traffic but no specific viral moment or storyline.",
-    "angle": "Suppress: generic playoff event name without specific angle; too obvious.",
-    "duplicate_of": "mlb playoffs",
-    "market_id": null
-   },
-   "enriched_at": "2026-10-08T01:36:35Z"
-  },
-  "michael harris": {
-   "first_seen": "2026-10-02T01:23:21Z",
-   "last_seen": "2026-10-08T01:36:35Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "michael harris",
-    "sports": true,
-    "league": "MLB",
-    "obvious": false,
-    "early": false,
-    "entity": "Michael Harris III",
-    "why_now": "Braves player; rank jumped from 14 to 9, indicating fresh playoff moment or performance.",
-    "angle": "Braves playoff performance or roster moment; tie to NLCS narrative.",
-    "duplicate_of": null,
-    "market_id": "1235561"
-   },
-   "enriched_at": "2026-10-08T01:36:35Z"
   },
   "sharks": {
    "first_seen": "2026-10-02T09:29:09Z",
@@ -1122,7 +1038,7 @@
   },
   "dodgers": {
    "first_seen": "2026-10-04T00:23:39Z",
-   "last_seen": "2026-10-13T02:53:57Z",
+   "last_seen": "2026-10-15T08:04:36Z",
    "sources_seen": [
     "google",
     "trends24",
@@ -1132,36 +1048,15 @@
     "key": "dodgers",
     "sports": true,
     "league": "MLB",
-    "obvious": false,
+    "obvious": true,
     "early": false,
     "entity": "Los Angeles Dodgers",
-    "why_now": "Dodgers rank #6 trending, down from #5; co-trending with Ohtani, Brewers, and baseball players; likely playoff or late-season game result.",
-    "angle": "Tie to Dodgers' playoff push or Ohtani's performance: highlight key hits, pitching, or postseason implications.",
+    "why_now": "Ranked #1 on X/Trends24; likely World Series game or result, but no specific viral moment provided.",
+    "angle": "Monitor for post-game memes, player performances, or manager decisions that break through generic game coverage.",
     "duplicate_of": null,
-    "market_id": null
+    "market_id": "1235572"
    },
-   "enriched_at": "2026-10-13T02:53:57Z"
-  },
-  "tanner scott": {
-   "first_seen": "2026-10-04T00:23:39Z",
-   "last_seen": "2026-10-08T01:36:35Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "tanner scott",
-    "sports": true,
-    "league": "MLB",
-    "obvious": false,
-    "early": true,
-    "entity": "Tanner Scott",
-    "why_now": "Player name trending during playoffs; specific driver unconfirmed from available signals.",
-    "angle": "Early-stage playoff roster or performance moment; monitor for specific storyline.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-08T01:36:35Z"
+   "enriched_at": "2026-10-15T08:04:36Z"
   },
   "ashton daniels": {
    "first_seen": "2026-10-04T00:23:39Z",
@@ -1207,7 +1102,7 @@
   },
   "brewers": {
    "first_seen": "2026-10-04T09:29:22Z",
-   "last_seen": "2026-10-13T02:53:57Z",
+   "last_seen": "2026-10-15T08:04:36Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -1216,15 +1111,15 @@
     "key": "brewers",
     "sports": true,
     "league": "MLB",
-    "obvious": false,
+    "obvious": true,
     "early": false,
     "entity": "Milwaukee Brewers",
-    "why_now": "Brewers rank #8, down from #4; co-trending with Dodgers, Ohtani, and baseball players; playoff or late-season game result.",
-    "angle": "Tie to Brewers' playoff race: highlight key performances, pitching matchups, or postseason implications.",
+    "why_now": "Ranked #2 on X/Trends24; likely World Series opponent or game result, but no specific storyline identified.",
+    "angle": "Watch for player injuries, controversial calls, or fan reactions that elevate beyond scoreboard noise.",
     "duplicate_of": null,
-    "market_id": null
+    "market_id": "1235568"
    },
-   "enriched_at": "2026-10-13T02:53:57Z"
+   "enriched_at": "2026-10-15T08:04:36Z"
   },
   "pinnick": {
    "first_seen": "2026-10-04T09:29:22Z",
@@ -1414,27 +1309,6 @@
     "market_id": null
    },
    "enriched_at": "2026-10-12T01:04:27Z"
-  },
-  "acuna": {
-   "first_seen": "2026-10-05T10:08:25Z",
-   "last_seen": "2026-10-08T01:36:35Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "acuna",
-    "sports": true,
-    "league": "MLB",
-    "obvious": false,
-    "early": false,
-    "entity": "Ronald Acuña Jr.",
-    "why_now": "Braves player trending during NLCS; rank jumped from 35 to 5, indicating fresh moment or performance.",
-    "angle": "Playoff star moment or stat; leverage Braves' postseason storyline.",
-    "duplicate_of": null,
-    "market_id": "1235561"
-   },
-   "enriched_at": "2026-10-08T01:36:35Z"
   },
   "dolan": {
    "first_seen": "2026-10-05T21:00:22Z",
@@ -1878,27 +1752,6 @@
    },
    "enriched_at": "2026-10-14T08:29:37Z"
   },
-  "olson": {
-   "first_seen": "2026-10-07T01:14:55Z",
-   "last_seen": "2026-10-08T01:36:35Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "olson",
-    "sports": true,
-    "league": "MLB",
-    "obvious": false,
-    "early": false,
-    "entity": "Matt Olson",
-    "why_now": "Braves player; rank jumped from 41 to 16, indicating fresh playoff moment or performance.",
-    "angle": "Braves playoff performance or roster moment; tie to NLCS narrative.",
-    "duplicate_of": null,
-    "market_id": "1235561"
-   },
-   "enriched_at": "2026-10-08T01:36:35Z"
-  },
   "julianne": {
    "first_seen": "2026-10-07T01:14:55Z",
    "last_seen": "2026-10-14T00:56:32Z",
@@ -1922,7 +1775,7 @@
   },
   "ohtani": {
    "first_seen": "2026-10-07T01:14:55Z",
-   "last_seen": "2026-10-13T02:53:57Z",
+   "last_seen": "2026-10-15T08:04:36Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -1934,33 +1787,12 @@
     "obvious": false,
     "early": false,
     "entity": "Shohei Ohtani",
-    "why_now": "Dodgers star co-trending with Dodgers, Brewers, baseball players; playoff or late-season performance.",
-    "angle": "Highlight Ohtani's impact: showcase his hitting, pitching, or clutch moments in Dodgers' playoff push.",
+    "why_now": "Dodgers star trending; likely a World Series performance, injury update, or betting/contract angle.",
+    "angle": "Highlight Ohtani's specific stat line, moment, or off-field story (injury, contract, personal drama).",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-10-13T02:53:57Z"
-  },
-  "baldwin": {
-   "first_seen": "2026-10-07T01:14:55Z",
-   "last_seen": "2026-10-08T01:36:35Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "baldwin",
-    "sports": true,
-    "league": "NHL",
-    "obvious": false,
-    "early": true,
-    "entity": "Baldwin (hockey player)",
-    "why_now": "Player name trending; specific driver unconfirmed from available signals.",
-    "angle": "Early-stage hockey roster or performance moment; monitor for specific storyline.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-08T01:36:35Z"
+   "enriched_at": "2026-10-15T08:04:36Z"
   },
   "contreras": {
    "first_seen": "2026-10-07T09:58:48Z",
@@ -1985,7 +1817,7 @@
   },
   "garrett mitchell": {
    "first_seen": "2026-10-07T09:58:48Z",
-   "last_seen": "2026-10-08T10:11:20Z",
+   "last_seen": "2026-10-15T08:04:36Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -1997,12 +1829,12 @@
     "obvious": false,
     "early": false,
     "entity": "Garrett Mitchell",
-    "why_now": "Brewers player trending during NLCS; likely a key performance moment.",
-    "angle": "Identify the specific play or stat; if viral moment, amplify before saturation.",
+    "why_now": "Brewers player trending; likely a key at-bat, defensive play, or moment in World Series.",
+    "angle": "Isolate Mitchell's specific contribution—a clutch hit, error, or defensive gem—as the story.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-10-08T10:11:20Z"
+   "enriched_at": "2026-10-15T08:04:36Z"
   },
   "tatyana": {
    "first_seen": "2026-10-07T09:58:48Z",
@@ -2088,27 +1920,6 @@
    },
    "enriched_at": "2026-10-14T00:56:32Z"
   },
-  "hamas": {
-   "first_seen": "2026-10-07T19:15:23Z",
-   "last_seen": "2026-10-08T01:36:35Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "hamas",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Hamas",
-    "why_now": "Geopolitical entity; no sports connection detected.",
-    "angle": "Not sports-related; exclude from sports trend radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-08T01:36:35Z"
-  },
   "funtoken": {
    "first_seen": "2026-10-07T19:15:23Z",
    "last_seen": "2026-10-08T10:11:20Z",
@@ -2129,27 +1940,6 @@
     "market_id": null
    },
    "enriched_at": "2026-10-08T10:11:20Z"
-  },
-  "mall of america": {
-   "first_seen": "2026-10-07T19:15:23Z",
-   "last_seen": "2026-10-08T01:36:35Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "mall of america",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Mall of America",
-    "why_now": "Retail location; no sports connection detected.",
-    "angle": "Not sports-related; exclude from sports trend radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-08T01:36:35Z"
   },
   "susan dell": {
    "first_seen": "2026-10-07T19:15:23Z",
@@ -2214,90 +2004,6 @@
    },
    "enriched_at": "2026-10-10T09:33:34Z"
   },
-  "max muncy": {
-   "first_seen": "2026-10-08T01:36:35Z",
-   "last_seen": "2026-10-08T01:36:35Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "max muncy",
-    "sports": true,
-    "league": "MLB",
-    "obvious": false,
-    "early": false,
-    "entity": "Max Muncy",
-    "why_now": "Dodgers player trending during NLDS; co-trending with playoff roster and game context.",
-    "angle": "Playoff performance or roster moment; tie to Dodgers' postseason narrative.",
-    "duplicate_of": null,
-    "market_id": "1235572"
-   },
-   "enriched_at": "2026-10-08T01:36:35Z"
-  },
-  "andy pages": {
-   "first_seen": "2026-10-08T01:36:35Z",
-   "last_seen": "2026-10-08T01:36:35Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "andy pages",
-    "sports": true,
-    "league": "MLB",
-    "obvious": false,
-    "early": false,
-    "entity": "Andy Pages",
-    "why_now": "Dodgers player in NLDS rotation; co-trending with playoff roster context.",
-    "angle": "Playoff roster role or performance moment; tie to Dodgers' series narrative.",
-    "duplicate_of": null,
-    "market_id": "1235572"
-   },
-   "enriched_at": "2026-10-08T01:36:35Z"
-  },
-  "mahle": {
-   "first_seen": "2026-10-08T01:36:35Z",
-   "last_seen": "2026-10-08T01:36:35Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "mahle",
-    "sports": true,
-    "league": "MLB",
-    "obvious": false,
-    "early": false,
-    "entity": "Tyler Mahle",
-    "why_now": "Pitcher trending during MLB playoffs; co-trending with playoff game context.",
-    "angle": "Playoff pitching performance or roster decision; tie to series momentum.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-08T01:36:35Z"
-  },
-  "ozzie": {
-   "first_seen": "2026-10-08T01:36:35Z",
-   "last_seen": "2026-10-08T01:36:35Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "ozzie",
-    "sports": true,
-    "league": "MLB",
-    "obvious": false,
-    "early": false,
-    "entity": "Ozzie Albies",
-    "why_now": "Braves player; rank jumped from 5 to 8, indicating fresh playoff moment or performance.",
-    "angle": "Braves playoff performance or roster moment; tie to NLCS narrative.",
-    "duplicate_of": null,
-    "market_id": "1235561"
-   },
-   "enriched_at": "2026-10-08T01:36:35Z"
-  },
   "nlcs": {
    "first_seen": "2026-10-08T01:36:35Z",
    "last_seen": "2026-10-08T10:11:20Z",
@@ -2319,90 +2025,6 @@
    },
    "enriched_at": "2026-10-08T10:11:20Z"
   },
-  "abbottelementary": {
-   "first_seen": "2026-10-08T01:36:35Z",
-   "last_seen": "2026-10-08T01:36:35Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "abbottelementary",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Abbott Elementary",
-    "why_now": "TV show trending; no sports connection detected.",
-    "angle": "Not sports-related; exclude from sports trend radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-08T01:36:35Z"
-  },
-  "chicagomed": {
-   "first_seen": "2026-10-08T01:36:35Z",
-   "last_seen": "2026-10-08T01:36:35Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "chicagomed",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Chicago Med",
-    "why_now": "TV show trending; no sports connection detected.",
-    "angle": "Not sports-related; exclude from sports trend radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-08T01:36:35Z"
-  },
-  "pacers": {
-   "first_seen": "2026-10-08T01:36:35Z",
-   "last_seen": "2026-10-08T01:36:35Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "pacers",
-    "sports": true,
-    "league": "NBA",
-    "obvious": false,
-    "early": false,
-    "entity": "Indiana Pacers",
-    "why_now": "NBA team trending; rank jumped from 6 to 15, indicating preseason or roster moment.",
-    "angle": "NBA preseason or roster news; tie to Pacers' season narrative.",
-    "duplicate_of": null,
-    "market_id": "5167480"
-   },
-   "enriched_at": "2026-10-08T01:36:35Z"
-  },
-  "glasnow": {
-   "first_seen": "2026-10-08T01:36:35Z",
-   "last_seen": "2026-10-08T01:36:35Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "glasnow",
-    "sports": true,
-    "league": "MLB",
-    "obvious": false,
-    "early": false,
-    "entity": "Tyler Glasnow",
-    "why_now": "Pitcher trending during MLB playoffs; rank dropped from 1 to 17, indicating previous moment peaked.",
-    "angle": "Playoff pitching performance or roster decision; tie to series momentum.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-08T01:36:35Z"
-  },
   "rhyne": {
    "first_seen": "2026-10-08T01:36:35Z",
    "last_seen": "2026-10-10T01:33:46Z",
@@ -2423,27 +2045,6 @@
     "market_id": null
    },
    "enriched_at": "2026-10-10T01:33:46Z"
-  },
-  "chicagofire": {
-   "first_seen": "2026-10-08T01:36:35Z",
-   "last_seen": "2026-10-08T01:36:35Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "chicagofire",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Chicago Fire",
-    "why_now": "TV show trending; no sports connection detected.",
-    "angle": "Not sports-related; exclude from sports trend radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-08T01:36:35Z"
   },
   "jordin canada": {
    "first_seen": "2026-10-08T01:36:35Z",
@@ -2487,111 +2088,6 @@
    },
    "enriched_at": "2026-10-10T01:33:46Z"
   },
-  "teoscar": {
-   "first_seen": "2026-10-08T01:36:35Z",
-   "last_seen": "2026-10-08T01:36:35Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "teoscar",
-    "sports": true,
-    "league": "NBA",
-    "obvious": false,
-    "early": false,
-    "entity": "Teoscar Leonard",
-    "why_now": "NBA player; rank jumped from 12 to 24, indicating preseason or roster moment.",
-    "angle": "NBA preseason or roster news; tie to player or team narrative.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-08T01:36:35Z"
-  },
-  "sett": {
-   "first_seen": "2026-10-08T01:36:35Z",
-   "last_seen": "2026-10-08T01:36:35Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "sett",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Sett",
-    "why_now": "Gaming character or non-sports entity; no sports connection detected.",
-    "angle": "Not sports-related; exclude from sports trend radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-08T01:36:35Z"
-  },
-  "paquita la del barrio": {
-   "first_seen": "2026-10-08T01:36:35Z",
-   "last_seen": "2026-10-08T01:36:35Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "paquita la del barrio",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Paquita la del Barrio",
-    "why_now": "Music artist; no sports connection detected.",
-    "angle": "Not sports-related; exclude from sports trend radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-08T01:36:35Z"
-  },
-  "shai": {
-   "first_seen": "2026-10-08T01:36:35Z",
-   "last_seen": "2026-10-08T01:36:35Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "shai",
-    "sports": true,
-    "league": "NBA",
-    "obvious": false,
-    "early": false,
-    "entity": "Shai Gilgeous-Alexander",
-    "why_now": "NBA star trending; co-trending with preseason context.",
-    "angle": "NBA preseason performance or roster moment; tie to player or team narrative.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-08T01:36:35Z"
-  },
-  "hunter gaddis": {
-   "first_seen": "2026-10-08T01:36:35Z",
-   "last_seen": "2026-10-08T01:36:35Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "hunter gaddis",
-    "sports": true,
-    "league": "MLB",
-    "obvious": false,
-    "early": true,
-    "entity": "Hunter Gaddis",
-    "why_now": "Player name trending during playoffs; specific driver unconfirmed from available signals.",
-    "angle": "Early-stage playoff roster or performance moment; monitor for specific storyline.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-08T01:36:35Z"
-  },
   "jose ramirez": {
    "first_seen": "2026-10-08T01:36:35Z",
    "last_seen": "2026-10-11T09:46:26Z",
@@ -2613,153 +2109,6 @@
    },
    "enriched_at": "2026-10-11T09:46:26Z"
   },
-  "letang": {
-   "first_seen": "2026-10-08T01:36:35Z",
-   "last_seen": "2026-10-08T01:36:35Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "letang",
-    "sports": true,
-    "league": "NHL",
-    "obvious": false,
-    "early": false,
-    "entity": "Kris Letang",
-    "why_now": "NHL player; rank jumped from 15 to 32, indicating preseason or roster moment.",
-    "angle": "NHL preseason or roster news; tie to player or team narrative.",
-    "duplicate_of": null,
-    "market_id": "4440794"
-   },
-   "enriched_at": "2026-10-08T01:36:35Z"
-  },
-  "kilby": {
-   "first_seen": "2026-10-08T01:36:35Z",
-   "last_seen": "2026-10-08T01:36:35Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "kilby",
-    "sports": true,
-    "league": "Other Sports",
-    "obvious": false,
-    "early": true,
-    "entity": "Kilby (athlete/personality)",
-    "why_now": "Name trending; specific sports context unconfirmed from available signals.",
-    "angle": "Early-stage niche sports trend; monitor for meme or personality moment.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-08T01:36:35Z"
-  },
-  "braden smith": {
-   "first_seen": "2026-10-08T01:36:35Z",
-   "last_seen": "2026-10-08T01:36:35Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "braden smith",
-    "sports": true,
-    "league": "NBA",
-    "obvious": false,
-    "early": false,
-    "entity": "Braden Smith",
-    "why_now": "NBA player trending; co-trending with preseason context.",
-    "angle": "NBA preseason performance or roster moment; tie to player or team narrative.",
-    "duplicate_of": null,
-    "market_id": "5167480"
-   },
-   "enriched_at": "2026-10-08T01:36:35Z"
-  },
-  "samira": {
-   "first_seen": "2026-10-08T01:36:35Z",
-   "last_seen": "2026-10-08T01:36:35Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "samira",
-    "sports": true,
-    "league": "Other Sports",
-    "obvious": false,
-    "early": true,
-    "entity": "Samira (athlete/personality)",
-    "why_now": "Name trending; specific sports context unconfirmed from available signals.",
-    "angle": "Early-stage niche sports trend; monitor for meme or personality moment.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-08T01:36:35Z"
-  },
-  "sabrina ionescu": {
-   "first_seen": "2026-10-08T01:36:35Z",
-   "last_seen": "2026-10-08T01:36:35Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "sabrina ionescu",
-    "sports": true,
-    "league": "NBA",
-    "obvious": false,
-    "early": false,
-    "entity": "Sabrina Ionescu",
-    "why_now": "WNBA star trending; co-trending with preseason context.",
-    "angle": "WNBA preseason performance or roster moment; tie to player or team narrative.",
-    "duplicate_of": null,
-    "market_id": "5221104"
-   },
-   "enriched_at": "2026-10-08T01:36:35Z"
-  },
-  "cade smith": {
-   "first_seen": "2026-10-08T01:36:35Z",
-   "last_seen": "2026-10-08T01:36:35Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "cade smith",
-    "sports": true,
-    "league": "MLB",
-    "obvious": false,
-    "early": false,
-    "entity": "Cade Smith",
-    "why_now": "Player trending during MLB playoffs; rank jumped from 17 to 38, indicating previous moment peaked.",
-    "angle": "Playoff performance or roster moment; tie to series narrative.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-08T01:36:35Z"
-  },
-  "henriquez": {
-   "first_seen": "2026-10-08T01:36:35Z",
-   "last_seen": "2026-10-08T01:36:35Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "henriquez",
-    "sports": true,
-    "league": "MLB",
-    "obvious": false,
-    "early": true,
-    "entity": "Henriquez (baseball player)",
-    "why_now": "Player name trending during playoffs; specific driver unconfirmed from available signals.",
-    "angle": "Early-stage playoff roster or performance moment; monitor for specific storyline.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-08T01:36:35Z"
-  },
   "rubio": {
    "first_seen": "2026-10-08T01:36:35Z",
    "last_seen": "2026-10-08T19:10:52Z",
@@ -2780,355 +2129,6 @@
     "market_id": null
    },
    "enriched_at": "2026-10-08T19:10:52Z"
-  },
-  "nick martinez": {
-   "first_seen": "2026-10-08T01:36:35Z",
-   "last_seen": "2026-10-08T01:36:35Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "nick martinez",
-    "sports": true,
-    "league": "MLB",
-    "obvious": false,
-    "early": true,
-    "entity": "Nick Martinez",
-    "why_now": "Player name trending during playoffs; specific driver unconfirmed from available signals.",
-    "angle": "Early-stage playoff roster or performance moment; monitor for specific storyline.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-08T01:36:35Z"
-  },
-  "jarace walker": {
-   "first_seen": "2026-10-08T01:36:35Z",
-   "last_seen": "2026-10-08T01:36:35Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "jarace walker",
-    "sports": true,
-    "league": "NBA",
-    "obvious": false,
-    "early": false,
-    "entity": "Jarace Walker",
-    "why_now": "NBA player; rank jumped from 50 to 42, indicating preseason or roster moment.",
-    "angle": "NBA preseason performance or roster moment; tie to player or team narrative.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-08T01:36:35Z"
-  },
-  "tim hyers": {
-   "first_seen": "2026-10-08T01:36:35Z",
-   "last_seen": "2026-10-08T01:36:35Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "tim hyers",
-    "sports": true,
-    "league": "Other Sports",
-    "obvious": false,
-    "early": true,
-    "entity": "Tim Hyers",
-    "why_now": "Name trending; specific sports context unconfirmed from available signals.",
-    "angle": "Early-stage niche sports trend; monitor for meme or personality moment.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-08T01:36:35Z"
-  },
-  "lamelo": {
-   "first_seen": "2026-10-08T01:36:35Z",
-   "last_seen": "2026-10-08T01:36:35Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "lamelo",
-    "sports": true,
-    "league": "NBA",
-    "obvious": false,
-    "early": false,
-    "entity": "LaMelo Ball",
-    "why_now": "NBA star; rank stable at 44, indicating ongoing preseason or roster context.",
-    "angle": "NBA preseason performance or roster moment; tie to player or team narrative.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-08T01:36:35Z"
-  },
-  "vesia": {
-   "first_seen": "2026-10-08T01:36:35Z",
-   "last_seen": "2026-10-08T01:36:35Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "vesia",
-    "sports": true,
-    "league": "MLB",
-    "obvious": false,
-    "early": false,
-    "entity": "Evan Phillips (Vesia)",
-    "why_now": "Pitcher trending during MLB playoffs; rank jumped from 19 to 45, indicating previous moment peaked.",
-    "angle": "Playoff pitching performance or roster decision; tie to series momentum.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-08T01:36:35Z"
-  },
-  "hali": {
-   "first_seen": "2026-10-08T01:36:35Z",
-   "last_seen": "2026-10-08T01:36:35Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "hali",
-    "sports": true,
-    "league": "NBA",
-    "obvious": false,
-    "early": false,
-    "entity": "Tyrese Haliburton",
-    "why_now": "NBA player; rank jumped from 23 to 47, indicating preseason or roster moment.",
-    "angle": "NBA preseason or roster news; tie to player or team narrative.",
-    "duplicate_of": null,
-    "market_id": "5167480"
-   },
-   "enriched_at": "2026-10-08T01:36:35Z"
-  },
-  "san antonio": {
-   "first_seen": "2026-10-08T01:36:35Z",
-   "last_seen": "2026-10-08T01:36:35Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "san antonio",
-    "sports": true,
-    "league": "NBA",
-    "obvious": false,
-    "early": false,
-    "entity": "San Antonio Spurs",
-    "why_now": "NBA team trending; co-trending with preseason context.",
-    "angle": "NBA preseason or roster news; tie to team narrative.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-08T01:36:35Z"
-  },
-  "tom wilson": {
-   "first_seen": "2026-10-08T01:36:35Z",
-   "last_seen": "2026-10-08T01:36:35Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "tom wilson",
-    "sports": true,
-    "league": "NHL",
-    "obvious": false,
-    "early": false,
-    "entity": "Tom Wilson",
-    "why_now": "NHL player; rank jumped from 27 to 49, indicating preseason or roster moment.",
-    "angle": "NHL preseason or roster news; tie to player or team narrative.",
-    "duplicate_of": null,
-    "market_id": "4440794"
-   },
-   "enriched_at": "2026-10-08T01:36:35Z"
-  },
-  "diaz": {
-   "first_seen": "2026-10-08T01:36:35Z",
-   "last_seen": "2026-10-08T01:36:35Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "diaz",
-    "sports": true,
-    "league": "MLB",
-    "obvious": false,
-    "early": true,
-    "entity": "Diaz (baseball player)",
-    "why_now": "Player name trending during playoffs; specific driver unconfirmed from available signals.",
-    "angle": "Early-stage playoff roster or performance moment; monitor for specific storyline.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-08T01:36:35Z"
-  },
-  "mlb playoffs": {
-   "first_seen": "2026-10-08T01:36:35Z",
-   "last_seen": "2026-10-08T01:36:35Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "mlb playoffs",
-    "sports": true,
-    "league": "MLB",
-    "obvious": true,
-    "early": false,
-    "entity": "MLB Playoffs 2026",
-    "why_now": "Generic playoff series event; high Google traffic but no specific viral moment or storyline.",
-    "angle": "Suppress: generic playoff event name without specific angle; too obvious.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-08T01:36:35Z"
-  },
-  "flood watch": {
-   "first_seen": "2026-10-08T01:36:35Z",
-   "last_seen": "2026-10-08T01:36:35Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "flood watch",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Flood Watch",
-    "why_now": "Weather alert; no sports connection detected.",
-    "angle": "Not sports-related; exclude from sports trend radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-08T01:36:35Z"
-  },
-  "flash flood warning": {
-   "first_seen": "2026-10-08T01:36:35Z",
-   "last_seen": "2026-10-08T01:36:35Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "flash flood warning",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Flash Flood Warning",
-    "why_now": "Weather alert; no sports connection detected.",
-    "angle": "Not sports-related; exclude from sports trend radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-08T01:36:35Z"
-  },
-  "victor mesa jr": {
-   "first_seen": "2026-10-08T01:36:35Z",
-   "last_seen": "2026-10-08T01:36:35Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "victor mesa jr",
-    "sports": true,
-    "league": "MLB",
-    "obvious": false,
-    "early": false,
-    "entity": "Victor Mesa Jr. roof ball",
-    "why_now": "Tropicana Field catwalk interference on fly ball; viral moment of unusual playoff play.",
-    "angle": "Meme-worthy playoff moment: Trop's quirky stadium feature creates controversy; ride the 'The Trop is gonna Trop' narrative.",
-    "duplicate_of": null,
-    "market_id": "5175505"
-   },
-   "enriched_at": "2026-10-08T01:36:35Z"
-  },
-  "chicago fire cast": {
-   "first_seen": "2026-10-08T01:36:35Z",
-   "last_seen": "2026-10-08T01:36:35Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "chicago fire cast",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Chicago Fire Cast",
-    "why_now": "TV show cast; no sports connection detected.",
-    "angle": "Not sports-related; exclude from sports trend radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-08T01:36:35Z"
-  },
-  "oilers vs ducks": {
-   "first_seen": "2026-10-08T01:36:35Z",
-   "last_seen": "2026-10-08T01:36:35Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "oilers vs ducks",
-    "sports": true,
-    "league": "NHL",
-    "obvious": true,
-    "early": false,
-    "entity": "Oilers vs Ducks",
-    "why_now": "Scheduled NHL game; no specific viral moment or storyline beyond matchup logistics.",
-    "angle": "Suppress: generic pre-game matchup without specific angle; too obvious.",
-    "duplicate_of": null,
-    "market_id": "4440800"
-   },
-   "enriched_at": "2026-10-08T01:36:35Z"
-  },
-  "aday mara": {
-   "first_seen": "2026-10-08T01:36:35Z",
-   "last_seen": "2026-10-08T01:36:35Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "aday mara",
-    "sports": true,
-    "league": "NBA",
-    "obvious": false,
-    "early": false,
-    "entity": "Aday Mara",
-    "why_now": "NBA preseason debut; 12 points and 3 blocks in Thunder preseason game.",
-    "angle": "NBA preseason breakout moment: young Thunder player impresses; tie to team's young core narrative.",
-    "duplicate_of": null,
-    "market_id": "5167474"
-   },
-   "enriched_at": "2026-10-08T01:36:35Z"
-  },
-  "new york liberty vs atlanta dream timeline": {
-   "first_seen": "2026-10-08T01:36:35Z",
-   "last_seen": "2026-10-08T01:36:35Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "new york liberty vs atlanta dream timeline",
-    "sports": true,
-    "league": "NBA",
-    "obvious": true,
-    "early": false,
-    "entity": "New York Liberty vs Atlanta Dream",
-    "why_now": "Scheduled WNBA playoff game; no specific viral moment or storyline beyond matchup logistics.",
-    "angle": "Suppress: generic pre-game matchup without specific angle; too obvious.",
-    "duplicate_of": null,
-    "market_id": "5221104"
-   },
-   "enriched_at": "2026-10-08T01:36:35Z"
   },
   "machado": {
    "first_seen": "2026-10-08T10:11:20Z",
@@ -3153,24 +2153,24 @@
   },
   "winourway": {
    "first_seen": "2026-10-08T10:11:20Z",
-   "last_seen": "2026-10-08T10:11:20Z",
+   "last_seen": "2026-10-15T08:04:36Z",
    "sources_seen": [
     "trends24",
     "x"
    ],
    "enrichment": {
     "key": "winourway",
-    "sports": true,
-    "league": "MLB",
+    "sports": false,
+    "league": null,
     "obvious": false,
     "early": false,
-    "entity": "#WinOurWay",
-    "why_now": "Brewers fan/team hashtag trending during NLCS; likely rally cry or motivational moment.",
-    "angle": "Identify the context (win, comeback, quote); if fan-driven meme, amplify.",
+    "entity": null,
+    "why_now": null,
+    "angle": null,
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-10-08T10:11:20Z"
+   "enriched_at": "2026-10-15T08:04:36Z"
   },
   "mamdani": {
    "first_seen": "2026-10-08T10:11:20Z",
@@ -3216,7 +2216,7 @@
   },
   "lagranjaasamblea": {
    "first_seen": "2026-10-08T10:11:20Z",
-   "last_seen": "2026-10-08T10:11:20Z",
+   "last_seen": "2026-10-15T08:04:36Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -3226,14 +2226,14 @@
     "sports": false,
     "league": null,
     "obvious": false,
-    "early": true,
-    "entity": "#LaGranjaAsamblea",
-    "why_now": "Spanish-language hashtag spiking on X; no sports signal detected.",
-    "angle": "Monitor for sports connection; currently non-sports.",
+    "early": false,
+    "entity": null,
+    "why_now": null,
+    "angle": null,
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-10-08T10:11:20Z"
+   "enriched_at": "2026-10-15T08:04:36Z"
   },
   "aaron ashby": {
    "first_seen": "2026-10-08T10:11:20Z",
@@ -3384,7 +2384,7 @@
   },
   "brew crew": {
    "first_seen": "2026-10-08T10:11:20Z",
-   "last_seen": "2026-10-08T10:11:20Z",
+   "last_seen": "2026-10-15T08:04:36Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -3393,15 +2393,15 @@
     "key": "brew crew",
     "sports": true,
     "league": "MLB",
-    "obvious": false,
+    "obvious": true,
     "early": false,
-    "entity": "Brew Crew",
-    "why_now": "Brewers fan nickname trending during NLCS; likely rally cry or team identity moment.",
-    "angle": "Identify the context (win, comeback, quote); if fan-driven meme, amplify.",
-    "duplicate_of": null,
+    "entity": "Milwaukee Brewers",
+    "why_now": "Brewers nickname trending; generic team reference in World Series context.",
+    "angle": "Only pursue if tied to a specific fan moment, meme, or team storyline beyond the game itself.",
+    "duplicate_of": "brewers",
     "market_id": null
    },
-   "enriched_at": "2026-10-08T10:11:20Z"
+   "enriched_at": "2026-10-15T08:04:36Z"
   },
   "nana patekar": {
    "first_seen": "2026-10-08T10:11:20Z",
@@ -3636,24 +2636,24 @@
   },
   "uribe": {
    "first_seen": "2026-10-08T10:11:20Z",
-   "last_seen": "2026-10-08T10:11:20Z",
+   "last_seen": "2026-10-15T08:04:36Z",
    "sources_seen": [
     "trends24",
     "x"
    ],
    "enrichment": {
     "key": "uribe",
-    "sports": true,
-    "league": "MLB",
+    "sports": false,
+    "league": null,
     "obvious": false,
     "early": false,
-    "entity": "Juan Uribe",
-    "why_now": "Former MLB player name trending; likely a nostalgic reference or current role (analyst, coach).",
-    "angle": "Identify the specific context; if viral moment, amplify.",
+    "entity": null,
+    "why_now": null,
+    "angle": null,
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-10-08T10:11:20Z"
+   "enriched_at": "2026-10-15T08:04:36Z"
   },
   "jeter": {
    "first_seen": "2026-10-08T10:11:20Z",
@@ -21771,7 +20771,7 @@
   },
   "stolas": {
    "first_seen": "2026-10-14T17:49:54Z",
-   "last_seen": "2026-10-15T00:19:37Z",
+   "last_seen": "2026-10-15T08:04:36Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -21782,13 +20782,13 @@
     "league": null,
     "obvious": false,
     "early": false,
-    "entity": "Stolas",
-    "why_now": "Not sports-related; animated series or character trending independently.",
+    "entity": null,
+    "why_now": null,
     "angle": null,
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-10-15T00:19:37Z"
+   "enriched_at": "2026-10-15T08:04:36Z"
   },
   "musk": {
    "first_seen": "2026-10-14T17:49:54Z",
@@ -23466,7 +22466,7 @@
   },
   "sam houston": {
    "first_seen": "2026-10-15T00:19:37Z",
-   "last_seen": "2026-10-15T00:19:37Z",
+   "last_seen": "2026-10-15T08:04:36Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -23474,16 +22474,16 @@
    "enrichment": {
     "key": "sam houston",
     "sports": true,
-    "league": "College Football",
+    "league": "Other Sports",
     "obvious": false,
-    "early": true,
+    "early": false,
     "entity": "Sam Houston",
-    "why_now": "College football team; new to trends; likely recent game result or playoff implications.",
-    "angle": "Identify the specific game or playoff storyline; early signal on college football narrative.",
+    "why_now": "AEW wrestler trending; likely a match result, promo, or angle on Dynamite.",
+    "angle": "Highlight Houston's specific wrestling moment—a title shot, character development, or surprise.",
     "duplicate_of": null,
-    "market_id": "5347879"
+    "market_id": null
    },
-   "enriched_at": "2026-10-15T00:19:37Z"
+   "enriched_at": "2026-10-15T08:04:36Z"
   },
   "mountains": {
    "first_seen": "2026-10-15T00:19:37Z",
@@ -23810,6 +22810,1046 @@
     "market_id": null
    },
    "enriched_at": "2026-10-15T00:19:37Z"
+  },
+  "snell": {
+   "first_seen": "2026-10-15T08:04:36Z",
+   "last_seen": "2026-10-15T08:04:36Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "snell",
+    "sports": true,
+    "league": "MLB",
+    "obvious": false,
+    "early": false,
+    "entity": "Blake Snell",
+    "why_now": "Pitcher trending alongside Dodgers/Brewers; likely a standout performance or injury in World Series context.",
+    "angle": "Highlight Snell's specific stat line, clutch moment, or injury update as the human story within the game.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-15T08:04:36Z"
+  },
+  "jake bauers": {
+   "first_seen": "2026-10-15T08:04:36Z",
+   "last_seen": "2026-10-15T08:04:36Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "jake bauers",
+    "sports": true,
+    "league": "MLB",
+    "obvious": false,
+    "early": false,
+    "entity": "Jake Bauers",
+    "why_now": "Trending with Brewers; likely a key hit, error, or moment in World Series game.",
+    "angle": "Capture the specific play or stat that made Bauers the story, not just his name in the box score.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-15T08:04:36Z"
+  },
+  "dave roberts": {
+   "first_seen": "2026-10-15T08:04:36Z",
+   "last_seen": "2026-10-15T08:04:36Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "dave roberts",
+    "sports": true,
+    "league": "MLB",
+    "obvious": false,
+    "early": false,
+    "entity": "Dave Roberts",
+    "why_now": "Dodgers manager trending; likely a controversial decision, quote, or managerial move in World Series.",
+    "angle": "Lead with Roberts' specific call or quote that sparked debate, not just his presence in the game.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-15T08:04:36Z"
+  },
+  "jailer2": {
+   "first_seen": "2026-10-15T08:04:36Z",
+   "last_seen": "2026-10-15T08:04:36Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "jailer2",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": null,
+    "why_now": null,
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-15T08:04:36Z"
+  },
+  "aewdynamite": {
+   "first_seen": "2026-10-15T08:04:36Z",
+   "last_seen": "2026-10-15T08:04:36Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "aewdynamite",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": true,
+    "early": false,
+    "entity": "AEW Dynamite",
+    "why_now": "Wrestling show airing; ranked #9 on trends but no specific match, angle, or moment identified.",
+    "angle": "Identify the viral wrestling moment—a surprise return, controversial finish, or promo—to hook marketing.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-15T08:04:36Z"
+  },
+  "guerlainsiamparagonxyoko": {
+   "first_seen": "2026-10-15T08:04:36Z",
+   "last_seen": "2026-10-15T08:04:36Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "guerlainsiamparagonxyoko",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": null,
+    "why_now": null,
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-15T08:04:36Z"
+  },
+  "yoko guerlain xmas paragon": {
+   "first_seen": "2026-10-15T08:04:36Z",
+   "last_seen": "2026-10-15T08:04:36Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "yoko guerlain xmas paragon",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": null,
+    "why_now": null,
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-15T08:04:36Z"
+  },
+  "joe davis": {
+   "first_seen": "2026-10-15T08:04:36Z",
+   "last_seen": "2026-10-15T08:04:36Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "joe davis",
+    "sports": true,
+    "league": "MLB",
+    "obvious": false,
+    "early": false,
+    "entity": "Joe Davis",
+    "why_now": "Dodgers broadcaster trending; likely a memorable call, gaffe, or viral moment during World Series broadcast.",
+    "angle": "Highlight the specific broadcast moment—a funny mispronunciation, emotional call, or meme-worthy reaction.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-15T08:04:36Z"
+  },
+  "jenni rivera": {
+   "first_seen": "2026-10-15T08:04:36Z",
+   "last_seen": "2026-10-15T08:04:36Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "jenni rivera",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": null,
+    "why_now": null,
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-15T08:04:36Z"
+  },
+  "time for putin": {
+   "first_seen": "2026-10-15T08:04:36Z",
+   "last_seen": "2026-10-15T08:04:36Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "time for putin",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": null,
+    "why_now": null,
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-15T08:04:36Z"
+  },
+  "tsmc": {
+   "first_seen": "2026-10-15T08:04:36Z",
+   "last_seen": "2026-10-15T08:04:36Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "tsmc",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": null,
+    "why_now": null,
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-15T08:04:36Z"
+  },
+  "dl hall": {
+   "first_seen": "2026-10-15T08:04:36Z",
+   "last_seen": "2026-10-15T08:04:36Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "dl hall",
+    "sports": true,
+    "league": "MLB",
+    "obvious": false,
+    "early": false,
+    "entity": "DL Hall",
+    "why_now": "Brewers pitcher trending; likely a strong outing, injury, or critical moment in World Series.",
+    "angle": "Lead with Hall's specific pitching line or the moment that made him the story.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-15T08:04:36Z"
+  },
+  "julian strawther": {
+   "first_seen": "2026-10-15T08:04:36Z",
+   "last_seen": "2026-10-15T08:04:36Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "julian strawther",
+    "sports": true,
+    "league": "NBA",
+    "obvious": false,
+    "early": true,
+    "entity": "Julian Strawther",
+    "why_now": "Denver Nuggets player trending early; likely a breakout performance or injury update not yet mainstream.",
+    "angle": "Ride the early momentum: highlight Strawther's emerging role or unexpected stat line before ESPN saturates it.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-15T08:04:36Z"
+  },
+  "meredith": {
+   "first_seen": "2026-10-15T08:04:36Z",
+   "last_seen": "2026-10-15T08:04:36Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "meredith",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": null,
+    "why_now": null,
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-15T08:04:36Z"
+  },
+  "bronwyn": {
+   "first_seen": "2026-10-15T08:04:36Z",
+   "last_seen": "2026-10-15T08:04:36Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "bronwyn",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": null,
+    "why_now": null,
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-15T08:04:36Z"
+  },
+  "nick wayne": {
+   "first_seen": "2026-10-15T08:04:36Z",
+   "last_seen": "2026-10-15T08:04:36Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "nick wayne",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": false,
+    "early": false,
+    "entity": "Nick Wayne",
+    "why_now": "AEW wrestler trending; likely a match result, promo, or angle development on Dynamite.",
+    "angle": "Capture Wayne's specific wrestling moment or character development, not just his name in the card.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-15T08:04:36Z"
+  },
+  "moab": {
+   "first_seen": "2026-10-15T08:04:36Z",
+   "last_seen": "2026-10-15T08:04:36Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "moab",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": null,
+    "why_now": null,
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-15T08:04:36Z"
+  },
+  "mono": {
+   "first_seen": "2026-10-15T08:04:36Z",
+   "last_seen": "2026-10-15T08:04:36Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "mono",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": null,
+    "why_now": null,
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-15T08:04:36Z"
+  },
+  "will smith": {
+   "first_seen": "2026-10-15T08:04:36Z",
+   "last_seen": "2026-10-15T08:04:36Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "will smith",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": null,
+    "why_now": null,
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-15T08:04:36Z"
+  },
+  "gasser": {
+   "first_seen": "2026-10-15T08:04:36Z",
+   "last_seen": "2026-10-15T08:04:36Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "gasser",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": null,
+    "why_now": null,
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-15T08:04:36Z"
+  },
+  "edman": {
+   "first_seen": "2026-10-15T08:04:36Z",
+   "last_seen": "2026-10-15T08:04:36Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "edman",
+    "sports": true,
+    "league": "MLB",
+    "obvious": false,
+    "early": false,
+    "entity": "Tommy Edman",
+    "why_now": "Dodgers infielder trending; likely a key defensive play, hit, or moment in World Series.",
+    "angle": "Highlight Edman's specific play—a diving catch, clutch hit, or error—as the story.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-15T08:04:36Z"
+  },
+  "wrestledream": {
+   "first_seen": "2026-10-15T08:04:36Z",
+   "last_seen": "2026-10-15T08:04:36Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "wrestledream",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": true,
+    "early": false,
+    "entity": "WrestleDream",
+    "why_now": "Wrestling event name trending; likely a scheduled show or card announcement.",
+    "angle": "Only pursue if a specific match result, surprise appearance, or controversial moment emerges.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-15T08:04:36Z"
+  },
+  "pat murphy": {
+   "first_seen": "2026-10-15T08:04:36Z",
+   "last_seen": "2026-10-15T08:04:36Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "pat murphy",
+    "sports": true,
+    "league": "MLB",
+    "obvious": false,
+    "early": false,
+    "entity": "Pat Murphy",
+    "why_now": "Brewers manager trending; likely a strategic decision, quote, or managerial moment in World Series.",
+    "angle": "Lead with Murphy's specific call or statement that sparked discussion, not just his presence.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-15T08:04:36Z"
+  },
+  "2004 red sox": {
+   "first_seen": "2026-10-15T08:04:36Z",
+   "last_seen": "2026-10-15T08:04:36Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "2004 red sox",
+    "sports": true,
+    "league": "MLB",
+    "obvious": false,
+    "early": false,
+    "entity": "2004 Boston Red Sox",
+    "why_now": "Historic team referenced; likely a comparison to current World Series team or a nostalgic angle.",
+    "angle": "Identify the specific comparison or stat being drawn—e.g., 'Dodgers matching 2004 Sox comeback'.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-15T08:04:36Z"
+  },
+  "nilla": {
+   "first_seen": "2026-10-15T08:04:36Z",
+   "last_seen": "2026-10-15T08:04:36Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "nilla",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": null,
+    "why_now": null,
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-15T08:04:36Z"
+  },
+  "brazile": {
+   "first_seen": "2026-10-15T08:04:36Z",
+   "last_seen": "2026-10-15T08:04:36Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "brazile",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": null,
+    "why_now": null,
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-15T08:04:36Z"
+  },
+  "giannis": {
+   "first_seen": "2026-10-15T08:04:36Z",
+   "last_seen": "2026-10-15T08:04:36Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "giannis",
+    "sports": true,
+    "league": "NBA",
+    "obvious": false,
+    "early": false,
+    "entity": "Giannis Antetokounmpo",
+    "why_now": "Milwaukee Bucks star trending; likely a recent game performance, injury, or contract/trade rumor.",
+    "angle": "Isolate the specific moment—a dominant performance, injury concern, or off-court news.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-15T08:04:36Z"
+  },
+  "lafc": {
+   "first_seen": "2026-10-15T08:04:36Z",
+   "last_seen": "2026-10-15T08:04:36Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "lafc",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": true,
+    "early": false,
+    "entity": "Los Angeles FC",
+    "why_now": "MLS team trending; likely a recent match result or scheduled game.",
+    "angle": "Only pursue if a specific goal, controversy, or player moment breaks through generic game coverage.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-15T08:04:36Z"
+  },
+  "adame": {
+   "first_seen": "2026-10-15T08:04:36Z",
+   "last_seen": "2026-10-15T08:04:36Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "adame",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": false,
+    "entity": "Adame",
+    "why_now": "LAFC player trending; likely a goal, assist, or key moment in recent match.",
+    "angle": "Highlight Adame's specific contribution—a stunning goal, controversial call, or breakout performance.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-15T08:04:36Z"
+  },
+  "muncy": {
+   "first_seen": "2026-10-15T08:04:36Z",
+   "last_seen": "2026-10-15T08:04:36Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "muncy",
+    "sports": true,
+    "league": "MLB",
+    "obvious": false,
+    "early": false,
+    "entity": "Max Muncy",
+    "why_now": "Dodgers infielder trending; likely a World Series at-bat, home run, or defensive moment.",
+    "angle": "Lead with Muncy's specific play—a clutch hit, strikeout, or error—as the story.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-15T08:04:36Z"
+  },
+  "jericho": {
+   "first_seen": "2026-10-15T08:04:36Z",
+   "last_seen": "2026-10-15T08:04:36Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "jericho",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": false,
+    "early": false,
+    "entity": "Chris Jericho",
+    "why_now": "AEW wrestler trending; likely a match, promo, or storyline development on Dynamite.",
+    "angle": "Capture Jericho's specific wrestling moment or character work, not just his name in the card.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-15T08:04:36Z"
+  },
+  "what": {
+   "first_seen": "2026-10-15T08:04:36Z",
+   "last_seen": "2026-10-15T08:04:36Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "what",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": null,
+    "why_now": null,
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-15T08:04:36Z"
+  },
+  "ilja": {
+   "first_seen": "2026-10-15T08:04:36Z",
+   "last_seen": "2026-10-15T08:04:36Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "ilja",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": false,
+    "early": false,
+    "entity": "Ilja Dragunov",
+    "why_now": "AEW/wrestling personality trending; likely a match result, promo, or angle on Dynamite.",
+    "angle": "Identify Dragunov's specific wrestling moment—a surprise debut, title shot, or character turn.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-15T08:04:36Z"
+  },
+  "smoltz": {
+   "first_seen": "2026-10-15T08:04:36Z",
+   "last_seen": "2026-10-15T08:04:36Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "smoltz",
+    "sports": true,
+    "league": "MLB",
+    "obvious": false,
+    "early": false,
+    "entity": "John Smoltz",
+    "why_now": "Baseball analyst/commentator trending; likely a World Series broadcast moment or controversial take.",
+    "angle": "Highlight Smoltz's specific comment, stat analysis, or on-air moment that sparked discussion.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-15T08:04:36Z"
+  },
+  "adam copeland": {
+   "first_seen": "2026-10-15T08:04:36Z",
+   "last_seen": "2026-10-15T08:04:36Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "adam copeland",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": false,
+    "early": false,
+    "entity": "Adam Copeland",
+    "why_now": "AEW wrestler (Edge) trending; likely a match, return, or storyline on Dynamite.",
+    "angle": "Capture Copeland's specific wrestling moment—a surprise return, title program, or promo.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-15T08:04:36Z"
+  },
+  "rojas": {
+   "first_seen": "2026-10-15T08:04:36Z",
+   "last_seen": "2026-10-15T08:04:36Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "rojas",
+    "sports": true,
+    "league": "MLB",
+    "obvious": false,
+    "early": false,
+    "entity": "Rojas",
+    "why_now": "Player trending in World Series context; likely a key at-bat, defensive play, or moment.",
+    "angle": "Identify Rojas's specific contribution—a clutch hit, error, or defensive gem.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-15T08:04:36Z"
+  },
+  "atwater": {
+   "first_seen": "2026-10-15T08:04:36Z",
+   "last_seen": "2026-10-15T08:04:36Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "atwater",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": null,
+    "why_now": null,
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-15T08:04:36Z"
+  },
+  "roadster": {
+   "first_seen": "2026-10-15T08:04:36Z",
+   "last_seen": "2026-10-15T08:04:36Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "roadster",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": null,
+    "why_now": null,
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-15T08:04:36Z"
+  },
+  "orchel": {
+   "first_seen": "2026-10-15T08:04:36Z",
+   "last_seen": "2026-10-15T08:04:36Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "orchel",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": null,
+    "why_now": null,
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-15T08:04:36Z"
+  },
+  "thalaivar": {
+   "first_seen": "2026-10-15T08:04:36Z",
+   "last_seen": "2026-10-15T08:04:36Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "thalaivar",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": null,
+    "why_now": null,
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-15T08:04:36Z"
+  },
+  "loans": {
+   "first_seen": "2026-10-15T08:04:36Z",
+   "last_seen": "2026-10-15T08:04:36Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "loans",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": null,
+    "why_now": null,
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-15T08:04:36Z"
+  },
+  "fitness": {
+   "first_seen": "2026-10-15T08:04:36Z",
+   "last_seen": "2026-10-15T08:04:36Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "fitness",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": null,
+    "why_now": null,
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-15T08:04:36Z"
+  },
+  "jeļena ostapenko": {
+   "first_seen": "2026-10-15T08:04:36Z",
+   "last_seen": "2026-10-15T08:04:36Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "jeļena ostapenko",
+    "sports": true,
+    "league": "Tennis",
+    "obvious": false,
+    "early": false,
+    "entity": "Jelena Ostapenko",
+    "why_now": "Wuhan Open: Ostapenko saved three match points to stun Pegula; dramatic comeback moment.",
+    "angle": "Lead with the comeback narrative: 'Ostapenko saves three match points in stunning Wuhan upset'.",
+    "duplicate_of": null,
+    "market_id": "5691073"
+   },
+   "enriched_at": "2026-10-15T08:04:36Z"
+  },
+  "rachel weisz": {
+   "first_seen": "2026-10-15T08:04:36Z",
+   "last_seen": "2026-10-15T08:04:36Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "rachel weisz",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": null,
+    "why_now": null,
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-15T08:04:36Z"
+  },
+  "arthur gea": {
+   "first_seen": "2026-10-15T08:04:36Z",
+   "last_seen": "2026-10-15T08:04:36Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "arthur gea",
+    "sports": true,
+    "league": "Tennis",
+    "obvious": false,
+    "early": true,
+    "entity": "Arthur Géa",
+    "why_now": "Tennis player trending early; likely a standout performance or upset at Shanghai/Wuhan tournament.",
+    "angle": "Ride the early momentum: highlight Géa's breakout match or unexpected tournament run before mainstream coverage.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-15T08:04:36Z"
+  },
+  "chapman": {
+   "first_seen": "2026-10-15T08:04:36Z",
+   "last_seen": "2026-10-15T08:04:36Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "chapman",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": null,
+    "why_now": null,
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-15T08:04:36Z"
+  },
+  "leylah fernandez": {
+   "first_seen": "2026-10-15T08:04:36Z",
+   "last_seen": "2026-10-15T08:04:36Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "leylah fernandez",
+    "sports": true,
+    "league": "Tennis",
+    "obvious": false,
+    "early": false,
+    "entity": "Leylah Fernandez",
+    "why_now": "Wuhan Open: Fernandez advanced to third round, won final five games to oust Shi.",
+    "angle": "Highlight Fernandez's comeback win and tournament momentum as she advances.",
+    "duplicate_of": null,
+    "market_id": "5691073"
+   },
+   "enriched_at": "2026-10-15T08:04:36Z"
+  },
+  "石油": {
+   "first_seen": "2026-10-15T08:04:36Z",
+   "last_seen": "2026-10-15T08:04:36Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "石油",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": null,
+    "why_now": null,
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-15T08:04:36Z"
+  },
+  "sonay kartal": {
+   "first_seen": "2026-10-15T08:04:36Z",
+   "last_seen": "2026-10-15T08:04:36Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "sonay kartal",
+    "sports": true,
+    "league": "Tennis",
+    "obvious": false,
+    "early": false,
+    "entity": "Sonay Kartal",
+    "why_now": "Wuhan Open: Kartal upset Belinda Bencic; unexpected upset victory.",
+    "angle": "Lead with the upset: 'Sonay Kartal stuns Bencic at Wuhan Open'.",
+    "duplicate_of": null,
+    "market_id": "5682454"
+   },
+   "enriched_at": "2026-10-15T08:04:36Z"
+  },
+  "brandon aiyuk": {
+   "first_seen": "2026-10-15T08:04:36Z",
+   "last_seen": "2026-10-15T08:04:36Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "brandon aiyuk",
+    "sports": true,
+    "league": "NFL",
+    "obvious": false,
+    "early": false,
+    "entity": "Brandon Aiyuk",
+    "why_now": "49ers WR sidelined; injury concern amid receiver shortages and trade deadline speculation.",
+    "angle": "Highlight Aiyuk's injury status and its impact on 49ers' playoff hopes and trade market.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-15T08:04:36Z"
   }
  },
  "x_usage": {
@@ -23823,88 +23863,58 @@
   "2026-10-15": 0
  },
  "prev_x_trends": [
-  "Starlink",
-  "Real Madrid",
-  "Roma",
-  "Endrick",
-  "Vini",
-  "Mourinho",
-  "Aikman",
-  "Donnarumma",
-  "Wide Deceiver",
+  "Dodgers",
+  "Brewers",
+  "Snell",
+  "Jake Bauers",
+  "Dave Roberts",
+  "#LaGranjaAsamblea",
+  "#Jailer2",
+  "Uribe",
+  "#AEWDynamite",
+  "#WinOurWay",
+  "#GuerlainSiamParagonxYoko",
+  "YOKO GUERLAIN XMAS PARAGON",
+  "Joe Davis",
+  "Jenni Rivera",
+  "Time for Putin",
+  "TSMC",
+  "GARRETT MITCHELL",
+  "DL Hall",
   "Stolas",
-  "Semenyo",
-  "Kevin Long",
-  "Valverde",
-  "HOAs",
-  "Dudus",
-  "Mbappe",
-  "Enzo",
-  "Guler",
-  "Bouaddi",
-  "MSNOW",
-  "Brake",
-  "Jeezy",
-  "HIV or AIDS",
-  "#loveisblind",
-  "Bullhead City",
-  "$RKLB",
-  "#NationalFossilDay",
-  "Dortmund",
-  "Diddy",
-  "Neutron",
-  "Fede",
-  "Kennesaw State",
-  "Musk",
-  "Diomande",
-  "Christians in Muslim",
-  "#BidwillOut",
-  "Ndiaye",
-  "Tchouameni",
-  "Kash Patel",
-  "ENDACOPIA",
-  "#MCIPSG",
+  "Julian Strawther",
+  "Meredith",
+  "Bronwyn",
+  "Nick Wayne",
+  "MOAB",
+  "Mono",
+  "Will Smith",
+  "Gasser",
+  "Brew Crew",
+  "Edman",
+  "WrestleDream",
+  "Pat Murphy",
+  "2004 Red Sox",
+  "Ohtani",
+  "Nilla",
+  "Brazile",
+  "Giannis",
+  "LAFC",
+  "Adame",
+  "Muncy",
+  "Jericho",
+  "What",
+  "Ilja",
+  "Smoltz",
+  "Adam Copeland",
+  "Rojas",
   "Sam Houston",
-  "Mountains",
-  "Happy Birthday Charlie",
-  "Maresca",
-  "Bernardo",
-  "Kristaps Porzingis",
-  "Greenland",
-  "Dodgers ML",
-  "#masadaltamimi"
+  "atwater",
+  "Roadster",
+  "Orchel",
+  "Thalaivar"
  ],
  "suppressed": [
-  {
-   "key": "roma vs barcelona",
-   "reason": "Women's Champions League match scheduled; preview and logistics.",
-   "at": "2026-09-30T18:18:17Z"
-  },
-  {
-   "key": "phillies braves",
-   "reason": "NL Wild Card Series Game 2 scheduled event; how-to-watch and game logistics.",
-   "at": "2026-09-30T18:18:17Z"
-  },
-  {
-   "key": "paris fc vs arsenal",
-   "reason": "Women's Champions League match; live coverage and possession stats.",
-   "at": "2026-09-30T18:18:17Z"
-  },
-  {
-   "key": "game 3",
-   "reason": "Generic playoff game reference; no specific storyline or moment identified.",
-   "at": "2026-10-01T01:08:25Z"
-  },
-  {
-   "key": "baseball scores",
-   "reason": "Generic search for game results; no specific storyline or angle.",
-   "at": "2026-10-01T09:52:28Z"
-  },
-  {
-   "key": "japan vs ecuador",
-   "reason": "International soccer friendly; scheduled match with no specific viral moment.",
-   "at": "2026-10-01T09:52:28Z"
-  },
   {
    "key": "baseball playoffs",
    "reason": "Generic playoff season reference; no specific moment or storyline.",
@@ -24874,6 +24884,36 @@
    "key": "mls standings",
    "reason": "Standings query; generic playoff/season tracking without specific storyline.",
    "at": "2026-10-15T00:19:37Z"
+  },
+  {
+   "key": "dodgers",
+   "reason": "Ranked #1 on X/Trends24; likely World Series game or result, but no specific viral moment provided.",
+   "at": "2026-10-15T08:04:36Z"
+  },
+  {
+   "key": "brewers",
+   "reason": "Ranked #2 on X/Trends24; likely World Series opponent or game result, but no specific storyline identified.",
+   "at": "2026-10-15T08:04:36Z"
+  },
+  {
+   "key": "aewdynamite",
+   "reason": "Wrestling show airing; ranked #9 on trends but no specific match, angle, or moment identified.",
+   "at": "2026-10-15T08:04:36Z"
+  },
+  {
+   "key": "brew crew",
+   "reason": "Brewers nickname trending; generic team reference in World Series context.",
+   "at": "2026-10-15T08:04:36Z"
+  },
+  {
+   "key": "wrestledream",
+   "reason": "Wrestling event name trending; likely a scheduled show or card announcement.",
+   "at": "2026-10-15T08:04:36Z"
+  },
+  {
+   "key": "lafc",
+   "reason": "MLS team trending; likely a recent match result or scheduled game.",
+   "at": "2026-10-15T08:04:36Z"
   }
  ],
  "slack_posted": {
