@@ -66,7 +66,7 @@
   },
   "good tuesday": {
    "first_seen": "2026-07-14T14:54:44Z",
-   "last_seen": "2026-10-13T10:16:22Z",
+   "last_seen": "2026-10-20T17:49:24Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -75,19 +75,19 @@
     "key": "good tuesday",
     "sports": false,
     "league": null,
-    "obvious": true,
+    "obvious": false,
     "early": false,
     "entity": "Good Tuesday",
-    "why_now": "Generic greeting or meme; no sports connection evident.",
-    "angle": "Not sports-related; suppress.",
+    "why_now": "Generic greeting trending at rank 22; no sports connection.",
+    "angle": "Non-sports; skip.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-10-13T10:16:22Z"
+   "enriched_at": "2026-10-20T17:49:24Z"
   },
   "taco tuesday": {
    "first_seen": "2026-07-14T14:54:44Z",
-   "last_seen": "2026-10-13T19:46:39Z",
+   "last_seen": "2026-10-20T17:49:24Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -99,12 +99,12 @@
     "obvious": false,
     "early": false,
     "entity": "Taco Tuesday",
-    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
-    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "why_now": "Trending at rank 10; generic cultural meme unrelated to sports.",
+    "angle": "Non-sports; skip.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-10-13T19:46:39Z",
+   "enriched_at": "2026-10-20T17:49:24Z",
    "last_engagement": 1494.3333333333333
   },
   "good saturday": {
@@ -928,28 +928,6 @@
    },
    "enriched_at": "2026-10-15T00:19:37Z"
   },
-  "patrick bailey": {
-   "first_seen": "2026-10-09T01:48:50Z",
-   "last_seen": "2026-10-13T10:16:22Z",
-   "sources_seen": [
-    "google",
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "patrick bailey",
-    "sports": true,
-    "league": "MLB",
-    "obvious": false,
-    "early": false,
-    "entity": "Patrick Bailey",
-    "why_now": "MLB catcher; trending independently; likely a recent game performance or playoff moment.",
-    "angle": "Identify if Bailey is in playoff contention or having a breakout season.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-13T10:16:22Z"
-  },
   "0xgems": {
    "first_seen": "2026-10-09T10:12:44Z",
    "last_seen": "2026-10-14T08:29:37Z",
@@ -1538,9 +1516,11 @@
   },
   "jayson tatum": {
    "first_seen": "2026-10-11T00:43:25Z",
-   "last_seen": "2026-10-17T00:11:44Z",
+   "last_seen": "2026-10-20T17:49:24Z",
    "sources_seen": [
-    "google"
+    "google",
+    "trends24",
+    "x"
    ],
    "enrichment": {
     "key": "jayson tatum",
@@ -1549,12 +1529,12 @@
     "obvious": false,
     "early": false,
     "entity": "Jayson Tatum",
-    "why_now": "1000 Google traffic; Celtics lineup news and preseason finale; likely roster decision or injury concern.",
-    "angle": "Capture Celtics season-opener narrative; position as key player availability story.",
+    "why_now": "Trending at rank 43; Celtics star co-trending with Celtics and NBA Opening Night.",
+    "angle": "NBA Opening Night: Tatum performance, stats, or Celtics championship defense narrative.",
     "duplicate_of": null,
-    "market_id": "5477728"
+    "market_id": null
    },
-   "enriched_at": "2026-10-17T00:11:44Z"
+   "enriched_at": "2026-10-20T17:49:24Z"
   },
   "kentucky": {
    "first_seen": "2026-10-11T09:46:26Z",
@@ -2403,27 +2383,6 @@
    },
    "enriched_at": "2026-10-16T07:58:27Z"
   },
-  "rj mitte": {
-   "first_seen": "2026-10-12T21:37:40Z",
-   "last_seen": "2026-10-13T10:16:22Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "rj mitte",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "RJ Mitte",
-    "why_now": "Actor; possible sports commentary or stadium appearance.",
-    "angle": "Not sports-related unless tied to specific event; suppress.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-13T10:16:22Z"
-  },
   "metallica": {
    "first_seen": "2026-10-12T21:37:40Z",
    "last_seen": "2026-10-13T19:46:39Z",
@@ -2444,27 +2403,6 @@
     "market_id": null
    },
    "enriched_at": "2026-10-13T19:46:39Z"
-  },
-  "james hetfield": {
-   "first_seen": "2026-10-12T21:37:40Z",
-   "last_seen": "2026-10-13T10:16:22Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "james hetfield",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "James Hetfield",
-    "why_now": "Metallica frontman; possible stadium performance or national anthem appearance.",
-    "angle": "If tied to NFL game (halftime, anthem, or player entrance), flag as sports-adjacent; otherwise non-sports.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-13T10:16:22Z"
   },
   "josh allen": {
    "first_seen": "2026-10-13T02:53:57Z",
@@ -2509,153 +2447,6 @@
    },
    "enriched_at": "2026-10-19T08:35:56Z"
   },
-  "bills": {
-   "first_seen": "2026-10-13T02:53:57Z",
-   "last_seen": "2026-10-13T10:16:22Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "bills",
-    "sports": true,
-    "league": "NFL",
-    "obvious": true,
-    "early": false,
-    "entity": "Buffalo Bills",
-    "why_now": "Scheduled NFL game or weekly team discussion; no specific storyline identified.",
-    "angle": "Wait for post-game analysis or injury updates to hook marketing; generic team name alone is suppressed.",
-    "duplicate_of": null,
-    "market_id": "1357374"
-   },
-   "enriched_at": "2026-10-13T10:16:22Z"
-  },
-  "stafford": {
-   "first_seen": "2026-10-13T02:53:57Z",
-   "last_seen": "2026-10-13T10:16:22Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "stafford",
-    "sports": true,
-    "league": "NFL",
-    "obvious": false,
-    "early": false,
-    "entity": "Matthew Stafford",
-    "why_now": "Rams QB trending with McVay and defense; likely performance-driven (TD passes, interceptions, or clutch moments).",
-    "angle": "Use Stafford's game stats or clutch throws as a QB excellence or redemption angle.",
-    "duplicate_of": null,
-    "market_id": "1357389"
-   },
-   "enriched_at": "2026-10-13T10:16:22Z"
-  },
-  "keon coleman": {
-   "first_seen": "2026-10-13T02:53:57Z",
-   "last_seen": "2026-10-13T10:16:22Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "keon coleman",
-    "sports": true,
-    "league": "NFL",
-    "obvious": false,
-    "early": false,
-    "entity": "Keon Coleman",
-    "why_now": "Bills WR; trending with team; likely a catch, TD, or breakout receiving performance.",
-    "angle": "Use Coleman's receiving yards or TD as a Bills offensive weapon angle.",
-    "duplicate_of": null,
-    "market_id": "1357374"
-   },
-   "enriched_at": "2026-10-13T10:16:22Z"
-  },
-  "joe brady": {
-   "first_seen": "2026-10-13T02:53:57Z",
-   "last_seen": "2026-10-13T10:16:22Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "joe brady",
-    "sports": true,
-    "league": "NFL",
-    "obvious": false,
-    "early": false,
-    "entity": "Joe Brady",
-    "why_now": "NFL offensive coordinator or coach; trending with Bills or Rams; likely a play-calling decision or offensive scheme discussion.",
-    "angle": "Highlight innovative play-calling or controversial offensive strategy.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-13T10:16:22Z"
-  },
-  "james cook": {
-   "first_seen": "2026-10-13T02:53:57Z",
-   "last_seen": "2026-10-13T10:16:22Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "james cook",
-    "sports": true,
-    "league": "NFL",
-    "obvious": false,
-    "early": false,
-    "entity": "James Cook",
-    "why_now": "Bills RB spiking with Josh Allen and team; likely a breakout rushing performance or TD-heavy game.",
-    "angle": "Highlight Cook's fantasy relevance or emerging star status in Bills' run game.",
-    "duplicate_of": null,
-    "market_id": "1357374"
-   },
-   "enriched_at": "2026-10-13T10:16:22Z"
-  },
-  "puka": {
-   "first_seen": "2026-10-13T02:53:57Z",
-   "last_seen": "2026-10-13T10:16:22Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "puka",
-    "sports": true,
-    "league": "NFL",
-    "obvious": false,
-    "early": false,
-    "entity": "Puka Nacua",
-    "why_now": "Rams WR; trending with Stafford, McVay, and team; likely a big catch, TD, or injury update.",
-    "angle": "Use Nacua's receiving yards or TD catches as a breakout WR narrative.",
-    "duplicate_of": null,
-    "market_id": "1357389"
-   },
-   "enriched_at": "2026-10-13T10:16:22Z"
-  },
-  "kincaid": {
-   "first_seen": "2026-10-13T02:53:57Z",
-   "last_seen": "2026-10-13T10:16:22Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "kincaid",
-    "sports": true,
-    "league": "NFL",
-    "obvious": false,
-    "early": false,
-    "entity": "Dalton Kincaid",
-    "why_now": "Bills TE; trending with team; likely a catch, TD, or breakout receiving performance.",
-    "angle": "Use Kincaid's receiving yards or TD as a Bills offensive weapon angle.",
-    "duplicate_of": null,
-    "market_id": "1357374"
-   },
-   "enriched_at": "2026-10-13T10:16:22Z"
-  },
   "aaron donald": {
    "first_seen": "2026-10-13T02:53:57Z",
    "last_seen": "2026-10-18T23:58:51Z",
@@ -2676,48 +2467,6 @@
     "market_id": null
    },
    "enriched_at": "2026-10-18T23:58:51Z"
-  },
-  "ty johnson": {
-   "first_seen": "2026-10-13T02:53:57Z",
-   "last_seen": "2026-10-13T10:16:22Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "ty johnson",
-    "sports": true,
-    "league": "NFL",
-    "obvious": false,
-    "early": false,
-    "entity": "Ty Johnson",
-    "why_now": "NFL RB; trending with team context; likely a rushing performance or TD.",
-    "angle": "Highlight Johnson's breakout rushing game or goal-line carries.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-13T10:16:22Z"
-  },
-  "jake paul": {
-   "first_seen": "2026-10-13T02:53:57Z",
-   "last_seen": "2026-10-13T10:16:22Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "jake paul",
-    "sports": true,
-    "league": "MMA/Boxing",
-    "obvious": false,
-    "early": false,
-    "entity": "Jake Paul",
-    "why_now": "Boxer/influencer; trending independently; likely a recent fight announcement, training clip, or beef with another fighter.",
-    "angle": "Capture Jake Paul's next opponent reveal or trash-talk moment for combat sports culture.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-13T10:16:22Z"
   },
   "davante adams": {
    "first_seen": "2026-10-13T02:53:57Z",
@@ -2762,48 +2511,6 @@
    },
    "enriched_at": "2026-10-13T19:46:39Z"
   },
-  "tyler bass": {
-   "first_seen": "2026-10-13T02:53:57Z",
-   "last_seen": "2026-10-13T10:16:22Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "tyler bass",
-    "sports": true,
-    "league": "NFL",
-    "obvious": false,
-    "early": false,
-    "entity": "Tyler Bass",
-    "why_now": "Bills kicker; trending with team; likely a clutch FG, miss, or game-winner.",
-    "angle": "Use Bass's clutch kick or missed FG as a game-deciding moment narrative.",
-    "duplicate_of": null,
-    "market_id": "1357374"
-   },
-   "enriched_at": "2026-10-13T10:16:22Z"
-  },
-  "jacksonwangxmaybach": {
-   "first_seen": "2026-10-13T02:53:57Z",
-   "last_seen": "2026-10-13T10:16:22Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "jacksonwangxmaybach",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "#JacksonWangxMaybach",
-    "why_now": "Celebrity/brand collaboration hashtag; no sports connection.",
-    "angle": "Not sports-related; suppress.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-13T10:16:22Z"
-  },
   "cjgj": {
    "first_seen": "2026-10-13T02:53:57Z",
    "last_seen": "2026-10-18T23:58:51Z",
@@ -2824,48 +2531,6 @@
     "market_id": null
    },
    "enriched_at": "2026-10-18T23:58:51Z"
-  },
-  "goliath": {
-   "first_seen": "2026-10-13T02:53:57Z",
-   "last_seen": "2026-10-13T10:16:22Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "goliath",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Goliath",
-    "why_now": "TV show or biblical reference; possible sports metaphor (David vs. Goliath underdog narrative).",
-    "angle": "If tied to underdog sports story, flag as sports-adjacent; otherwise non-sports.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-13T10:16:22Z"
-  },
-  "mevis": {
-   "first_seen": "2026-10-13T02:53:57Z",
-   "last_seen": "2026-10-13T10:16:22Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "mevis",
-    "sports": true,
-    "league": "NFL",
-    "obvious": false,
-    "early": false,
-    "entity": "Mevis",
-    "why_now": "Likely a Bills or Rams player (kicker or specialist); trending with team names and game context.",
-    "angle": "Identify if Mevis is a kicker with a clutch FG or missed kick driving memes.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-13T10:16:22Z"
   },
   "cj gardner johnson": {
    "first_seen": "2026-10-13T02:53:57Z",
@@ -2909,48 +2574,6 @@
    },
    "enriched_at": "2026-10-19T08:35:56Z"
   },
-  "guinness": {
-   "first_seen": "2026-10-13T02:53:57Z",
-   "last_seen": "2026-10-13T10:16:22Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "guinness",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Guinness",
-    "why_now": "Beer brand or Guinness World Records; possible sports record context.",
-    "angle": "If tied to a sports record (e.g., NFL rushing record), flag as sports-adjacent; otherwise suppress.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-13T10:16:22Z"
-  },
-  "kyren": {
-   "first_seen": "2026-10-13T02:53:57Z",
-   "last_seen": "2026-10-13T10:16:22Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "kyren",
-    "sports": true,
-    "league": "NFL",
-    "obvious": false,
-    "early": true,
-    "entity": "Kyren Williams",
-    "why_now": "Rams RB; new to trending list; likely a breakout rushing performance or TD.",
-    "angle": "Early signal: capture Rams' run game dominance before mainstream coverage saturates.",
-    "duplicate_of": null,
-    "market_id": "1357389"
-   },
-   "enriched_at": "2026-10-13T10:16:22Z"
-  },
   "jim nantz": {
    "first_seen": "2026-10-13T02:53:57Z",
    "last_seen": "2026-10-18T23:58:51Z",
@@ -2973,300 +2596,6 @@
    },
    "enriched_at": "2026-10-18T23:58:51Z"
   },
-  "melo": {
-   "first_seen": "2026-10-13T10:16:22Z",
-   "last_seen": "2026-10-13T10:16:22Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "melo",
-    "sports": true,
-    "league": "NBA",
-    "obvious": false,
-    "early": false,
-    "entity": "Carmelo Anthony",
-    "why_now": "NBA player; trending independently; likely a recent game performance, trade rumor, or retirement/comeback news.",
-    "angle": "Identify if Melo is returning to play, joining a contender, or making a farewell tour.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-13T10:16:22Z"
-  },
-  "tezostuesday": {
-   "first_seen": "2026-10-13T10:16:22Z",
-   "last_seen": "2026-10-13T10:16:22Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "tezostuesday",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "#TezosTuesday",
-    "why_now": "Crypto/blockchain hashtag; no sports connection.",
-    "angle": "Not sports-related; suppress.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-13T10:16:22Z"
-  },
-  "shakir": {
-   "first_seen": "2026-10-13T10:16:22Z",
-   "last_seen": "2026-10-13T10:16:22Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "shakir",
-    "sports": true,
-    "league": "NFL",
-    "obvious": false,
-    "early": false,
-    "entity": "Shakir",
-    "why_now": "Likely Bills WR (Khalil Shakir); trending with Josh Allen and team; probable catch or TD.",
-    "angle": "Use Shakir's receiving performance as a Bills offensive weapon angle.",
-    "duplicate_of": null,
-    "market_id": "1357374"
-   },
-   "enriched_at": "2026-10-13T10:16:22Z"
-  },
-  "greg rousseau": {
-   "first_seen": "2026-10-13T10:16:22Z",
-   "last_seen": "2026-10-13T10:16:22Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "greg rousseau",
-    "sports": true,
-    "league": "NFL",
-    "obvious": false,
-    "early": false,
-    "entity": "Greg Rousseau",
-    "why_now": "Bills edge rusher; trending with team and Josh Allen; likely a sack, pressure, or defensive highlight.",
-    "angle": "Highlight Rousseau's pass-rush dominance or defensive MVP-caliber game.",
-    "duplicate_of": null,
-    "market_id": "1357374"
-   },
-   "enriched_at": "2026-10-13T10:16:22Z"
-  },
-  "landman": {
-   "first_seen": "2026-10-13T10:16:22Z",
-   "last_seen": "2026-10-13T10:16:22Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "landman",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Landman",
-    "why_now": "TV show or film title; no sports connection evident.",
-    "angle": "Not sports-related; suppress.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-13T10:16:22Z"
-  },
-  "alaric jackson": {
-   "first_seen": "2026-10-13T10:16:22Z",
-   "last_seen": "2026-10-13T10:16:22Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "alaric jackson",
-    "sports": true,
-    "league": "NFL",
-    "obvious": false,
-    "early": false,
-    "entity": "Alaric Jackson",
-    "why_now": "Likely Bills or Rams offensive lineman; trending with team context; possible injury or performance note.",
-    "angle": "Monitor for offensive line injury updates or pass protection breakdowns.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-13T10:16:22Z"
-  },
-  "chris shula": {
-   "first_seen": "2026-10-13T10:16:22Z",
-   "last_seen": "2026-10-13T10:16:22Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "chris shula",
-    "sports": true,
-    "league": "NFL",
-    "obvious": false,
-    "early": false,
-    "entity": "Chris Shula",
-    "why_now": "NFL coach/coordinator; trending with team context; likely a defensive scheme or play-calling moment.",
-    "angle": "Highlight defensive coordinator's strategic adjustments or defensive dominance.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-13T10:16:22Z"
-  },
-  "hailee": {
-   "first_seen": "2026-10-13T10:16:22Z",
-   "last_seen": "2026-10-13T10:16:22Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "hailee",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": true,
-    "entity": "Hailee",
-    "why_now": "New to trending; likely a celebrity or influencer; no sports connection evident.",
-    "angle": "Not sports-related; suppress.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-13T10:16:22Z"
-  },
-  "seth rogan": {
-   "first_seen": "2026-10-13T10:16:22Z",
-   "last_seen": "2026-10-13T10:16:22Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "seth rogan",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Seth Rogen",
-    "why_now": "Actor/comedian; possible sports commentary, stadium appearance, or athlete interaction.",
-    "angle": "If tied to sports event (e.g., celebrity guest appearance), flag as sports-adjacent; otherwise non-sports.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-13T10:16:22Z"
-  },
-  "bradley chubb": {
-   "first_seen": "2026-10-13T10:16:22Z",
-   "last_seen": "2026-10-13T10:16:22Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "bradley chubb",
-    "sports": true,
-    "league": "NFL",
-    "obvious": false,
-    "early": false,
-    "entity": "Bradley Chubb",
-    "why_now": "Bills edge rusher; trending with team and defense; likely a sack or pass-rush highlight.",
-    "angle": "Highlight Chubb's defensive dominance or pass-rush pressure.",
-    "duplicate_of": null,
-    "market_id": "1357374"
-   },
-   "enriched_at": "2026-10-13T10:16:22Z"
-  },
-  "royce": {
-   "first_seen": "2026-10-13T10:16:22Z",
-   "last_seen": "2026-10-13T10:16:22Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "royce",
-    "sports": true,
-    "league": "NFL",
-    "obvious": false,
-    "early": true,
-    "entity": "Royce",
-    "why_now": "New to trending; likely a Bills or Rams player (possibly RB or DB); insufficient context.",
-    "angle": "Early signal: identify player and game performance before mainstream coverage.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-13T10:16:22Z"
-  },
-  "cursor": {
-   "first_seen": "2026-10-13T10:16:22Z",
-   "last_seen": "2026-10-13T10:16:22Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "cursor",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": true,
-    "entity": "Cursor",
-    "why_now": "New to trending; likely a tech or UI term; no sports connection evident.",
-    "angle": "Not sports-related; suppress.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-13T10:16:22Z"
-  },
-  "ice box": {
-   "first_seen": "2026-10-13T10:16:22Z",
-   "last_seen": "2026-10-13T10:16:22Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "ice box",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Ice Box",
-    "why_now": "Possible sports venue or nickname; insufficient context.",
-    "angle": "If tied to hockey or winter sports venue, flag as sports-adjacent; otherwise suppress.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-13T10:16:22Z"
-  },
-  "mcdermott": {
-   "first_seen": "2026-10-13T10:16:22Z",
-   "last_seen": "2026-10-13T10:16:22Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "mcdermott",
-    "sports": true,
-    "league": "NFL",
-    "obvious": false,
-    "early": false,
-    "entity": "Sean McDermott",
-    "why_now": "Bills head coach; trending with team; likely a post-game interview, coaching decision, or team strategy moment.",
-    "angle": "Highlight McDermott's leadership, controversial calls, or motivational moments.",
-    "duplicate_of": null,
-    "market_id": "1357374"
-   },
-   "enriched_at": "2026-10-13T10:16:22Z"
-  },
   "myles garrett": {
    "first_seen": "2026-10-13T10:16:22Z",
    "last_seen": "2026-10-18T23:58:51Z",
@@ -3287,354 +2616,6 @@
     "market_id": null
    },
    "enriched_at": "2026-10-18T23:58:51Z"
-  },
-  "conquered": {
-   "first_seen": "2026-10-13T10:16:22Z",
-   "last_seen": "2026-10-13T10:16:22Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "conquered",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": true,
-    "entity": "Conquered",
-    "why_now": "New to trending; likely a song, meme, or motivational phrase; possible sports context unclear.",
-    "angle": "If tied to sports moment (e.g., team motto, victory celebration), flag as sports-adjacent; otherwise suppress.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-13T10:16:22Z"
-  },
-  "gable": {
-   "first_seen": "2026-10-13T10:16:22Z",
-   "last_seen": "2026-10-13T10:16:22Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "gable",
-    "sports": true,
-    "league": "Other Sports",
-    "obvious": false,
-    "early": false,
-    "entity": "Gable",
-    "why_now": "Likely a wrestler or sports personality; trending with sports context; insufficient detail.",
-    "angle": "Identify if Gable is a college or professional wrestler with a breakout performance.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-13T10:16:22Z"
-  },
-  "youngstown": {
-   "first_seen": "2026-10-13T10:16:22Z",
-   "last_seen": "2026-10-13T10:16:22Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "youngstown",
-    "sports": true,
-    "league": "College Football",
-    "obvious": false,
-    "early": true,
-    "entity": "Youngstown State",
-    "why_now": "New to trending; college football team; likely a game result or playoff moment.",
-    "angle": "Early signal: identify if Youngstown State is on an upset run or playoff push.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-13T10:16:22Z"
-  },
-  "jim leonard": {
-   "first_seen": "2026-10-13T10:16:22Z",
-   "last_seen": "2026-10-13T10:16:22Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "jim leonard",
-    "sports": true,
-    "league": "NFL",
-    "obvious": false,
-    "early": true,
-    "entity": "Jim Leonard",
-    "why_now": "New to trending; likely an NFL coach or coordinator; insufficient context.",
-    "angle": "Early signal: identify coaching hire, firing, or strategic moment.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-13T10:16:22Z"
-  },
-  "x premium": {
-   "first_seen": "2026-10-13T10:16:22Z",
-   "last_seen": "2026-10-13T10:16:22Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "x premium",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": true,
-    "entity": "X Premium",
-    "why_now": "New to trending; social media subscription service; no sports connection.",
-    "angle": "Not sports-related; suppress.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-13T10:16:22Z"
-  },
-  "beane": {
-   "first_seen": "2026-10-13T10:16:22Z",
-   "last_seen": "2026-10-13T10:16:22Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "beane",
-    "sports": true,
-    "league": "NFL",
-    "obvious": false,
-    "early": true,
-    "entity": "Brandon Beane",
-    "why_now": "New to trending; Bills GM; likely a trade, draft, or roster decision announcement.",
-    "angle": "Early signal: identify major Bills roster move or trade deadline activity.",
-    "duplicate_of": null,
-    "market_id": "1357374"
-   },
-   "enriched_at": "2026-10-13T10:16:22Z"
-  },
-  "jack black": {
-   "first_seen": "2026-10-13T10:16:22Z",
-   "last_seen": "2026-10-13T10:16:22Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "jack black",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Jack Black",
-    "why_now": "Actor/comedian; possible sports commentary or stadium appearance.",
-    "angle": "If tied to sports event, flag as sports-adjacent; otherwise non-sports.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-13T10:16:22Z"
-  },
-  "paramore": {
-   "first_seen": "2026-10-13T10:16:22Z",
-   "last_seen": "2026-10-13T10:16:22Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "paramore",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": true,
-    "entity": "Paramore",
-    "why_now": "New to trending; band name; possible halftime or stadium performance.",
-    "angle": "If tied to NFL game, flag as sports-adjacent; otherwise non-sports.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-13T10:16:22Z"
-  },
-  "el niño": {
-   "first_seen": "2026-10-13T10:16:22Z",
-   "last_seen": "2026-10-13T10:16:22Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "el niño",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "el niño",
-    "why_now": "Climate phenomenon; no sports connection.",
-    "angle": "Not sports-related; suppress.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-13T10:16:22Z"
-  },
-  "matthew rhys": {
-   "first_seen": "2026-10-13T10:16:22Z",
-   "last_seen": "2026-10-13T10:16:22Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "matthew rhys",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "matthew rhys",
-    "why_now": "Actor; entertainment news; no sports connection.",
-    "angle": "Not sports-related; suppress.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-13T10:16:22Z"
-  },
-  "spacex": {
-   "first_seen": "2026-10-13T10:16:22Z",
-   "last_seen": "2026-10-13T10:16:22Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "spacex",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "spacex launch",
-    "why_now": "Space company; no sports connection.",
-    "angle": "Not sports-related; suppress.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-13T10:16:22Z"
-  },
-  "rocket launch today": {
-   "first_seen": "2026-10-13T10:16:22Z",
-   "last_seen": "2026-10-13T10:16:22Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "rocket launch today",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "rocket launch today",
-    "why_now": "Space event; no sports connection.",
-    "angle": "Not sports-related; suppress.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-13T10:16:22Z"
-  },
-  "mahershala ali": {
-   "first_seen": "2026-10-13T10:16:22Z",
-   "last_seen": "2026-10-13T10:16:22Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "mahershala ali",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "mahershala ali",
-    "why_now": "Actor; entertainment news; no sports connection.",
-    "angle": "Not sports-related; suppress.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-13T10:16:22Z"
-  },
-  "snow forecast": {
-   "first_seen": "2026-10-13T10:16:22Z",
-   "last_seen": "2026-10-13T10:16:22Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "snow forecast",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "snow forecast",
-    "why_now": "Weather; no sports connection.",
-    "angle": "Not sports-related; suppress.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-13T10:16:22Z"
-  },
-  "unh stock": {
-   "first_seen": "2026-10-13T10:16:22Z",
-   "last_seen": "2026-10-13T10:16:22Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "unh stock",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "unh stock",
-    "why_now": "Financial; no sports connection.",
-    "angle": "Not sports-related; suppress.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-13T10:16:22Z"
-  },
-  "nasa": {
-   "first_seen": "2026-10-13T10:16:22Z",
-   "last_seen": "2026-10-13T10:16:22Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "nasa",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "nasa",
-    "why_now": "Space agency; no sports connection.",
-    "angle": "Not sports-related; suppress.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-13T10:16:22Z"
-  },
-  "week 6 defense rankings": {
-   "first_seen": "2026-10-13T10:16:22Z",
-   "last_seen": "2026-10-13T10:16:22Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "week 6 defense rankings",
-    "sports": true,
-    "league": "NFL",
-    "obvious": true,
-    "early": false,
-    "entity": "Week 6 Defense Rankings",
-    "why_now": "Fantasy football utility search; no specific viral moment or controversy.",
-    "angle": "Suppress as generic fantasy football content; monitor for breakout defense performances instead.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-13T10:16:22Z"
   },
   "narnia": {
    "first_seen": "2026-10-13T19:46:39Z",
@@ -19738,7 +18719,7 @@
   },
   "najee": {
    "first_seen": "2026-10-18T16:24:14Z",
-   "last_seen": "2026-10-18T16:24:14Z",
+   "last_seen": "2026-10-20T17:49:24Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -19750,12 +18731,12 @@
     "obvious": false,
     "early": false,
     "entity": "Najee Harris",
-    "why_now": "Steelers RB spiking in Week 6 context; likely a strong rushing performance or TD in Steelers-Bucs game.",
-    "angle": "Capture a running back's dominant ground game or red-zone efficiency moment.",
+    "why_now": "Trending at rank 17; likely NFL player (Steelers RB) with performance, injury, or trade news.",
+    "angle": "NFL angle: Najee Harris performance update, injury status, or fantasy football spike.",
     "duplicate_of": null,
-    "market_id": "4329889"
+    "market_id": null
    },
-   "enriched_at": "2026-10-18T16:24:14Z"
+   "enriched_at": "2026-10-20T17:49:24Z"
   },
   "houvsjax": {
    "first_seen": "2026-10-18T16:24:14Z",
@@ -24486,24 +23467,24 @@
   },
   "shawn": {
    "first_seen": "2026-10-20T00:56:47Z",
-   "last_seen": "2026-10-20T08:17:10Z",
+   "last_seen": "2026-10-20T17:49:24Z",
    "sources_seen": [
     "trends24",
     "x"
    ],
    "enrichment": {
     "key": "shawn",
-    "sports": true,
-    "league": "NFL",
+    "sports": false,
+    "league": null,
     "obvious": false,
     "early": true,
     "entity": "Shawn",
-    "why_now": "Likely player name; co-trending with NFC East; unclear entity, rank 23 suggests emerging storyline.",
-    "angle": "Identify player and cover if breakout performance or controversy.",
+    "why_now": "Generic name trending at rank 42; no sports signal.",
+    "angle": "Non-sports; skip.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-10-20T08:17:10Z"
+   "enriched_at": "2026-10-20T17:49:24Z"
   },
   "national anthem": {
    "first_seen": "2026-10-20T00:56:47Z",
@@ -24885,24 +23866,24 @@
   },
   "leah": {
    "first_seen": "2026-10-20T00:56:47Z",
-   "last_seen": "2026-10-20T08:17:10Z",
+   "last_seen": "2026-10-20T17:49:24Z",
    "sources_seen": [
     "trends24",
     "x"
    ],
    "enrichment": {
     "key": "leah",
-    "sports": true,
-    "league": "College Basketball",
+    "sports": false,
+    "league": null,
     "obvious": false,
     "early": true,
     "entity": "Leah",
-    "why_now": "Likely women's college basketball player; rank 42 suggests emerging storyline.",
-    "angle": "Identify if breakout performance; early signal.",
+    "why_now": "Generic name trending at rank 40; no sports signal.",
+    "angle": "Non-sports; skip.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-10-20T08:17:10Z"
+   "enriched_at": "2026-10-20T17:49:24Z"
   },
   "rayo": {
    "first_seen": "2026-10-20T00:56:47Z",
@@ -26271,6 +25252,1130 @@
     "market_id": null
    },
    "enriched_at": "2026-10-20T08:17:10Z"
+  },
+  "vivek": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "vivek",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Vivek Ramaswamy",
+    "why_now": "Spiking on X/trends24 at rank 1; likely political announcement or controversy; driver unconfirmed from available data.",
+    "angle": "Monitor for political/cultural moment; if sports-adjacent (athlete endorsement, stadium event), position early.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
+  },
+  "tinatuesday": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "tinatuesday",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "#TINATUESDAY",
+    "why_now": "Hashtag trending at rank 2; likely recurring meme or cultural moment; no sports signal detected.",
+    "angle": "If sports-related meme emerges, capture early; otherwise monitor for crossover potential.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
+  },
+  "amy acton": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "amy acton",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Amy Acton",
+    "why_now": "Trending at rank 3; political/public health figure; no sports connection evident.",
+    "angle": "Non-sports; skip unless athlete/coach involvement emerges.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
+  },
+  "knicks": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "knicks",
+    "sports": true,
+    "league": "NBA",
+    "obvious": false,
+    "early": false,
+    "entity": "New York Knicks",
+    "why_now": "NBA Opening Night trending; Knicks co-trending with #NBAOpeningNight, #throwtheballup, and other NBA teams.",
+    "angle": "Capture Opening Night roster/storyline angles (star player performance, trade impact, playoff hopes) rather than generic game coverage.",
+    "duplicate_of": null,
+    "market_id": "5676021"
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
+  },
+  "pistons": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "pistons",
+    "sports": true,
+    "league": "NBA",
+    "obvious": false,
+    "early": false,
+    "entity": "Detroit Pistons",
+    "why_now": "NBA Opening Night; Pistons co-trending with Knicks, Celtics, and #NBAOpeningNight.",
+    "angle": "Focus on Pistons' season narrative (rebuild progress, young star development) not just the scheduled game.",
+    "duplicate_of": null,
+    "market_id": "5676016"
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
+  },
+  "jay z": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "jay z",
+    "sports": true,
+    "league": "NBA",
+    "obvious": false,
+    "early": false,
+    "entity": "Jay-Z",
+    "why_now": "Trending alongside NBA Opening Night and Knicks; likely courtside appearance or ownership/business involvement.",
+    "angle": "Celebrity/WAG angle: Jay-Z's presence at NBA Opening Night, Roc Nation sports business moves, or Knicks connection.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
+  },
+  "celtics": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "celtics",
+    "sports": true,
+    "league": "NBA",
+    "obvious": false,
+    "early": false,
+    "entity": "Boston Celtics",
+    "why_now": "NBA Opening Night; Celtics co-trending with Knicks, Pistons, Jayson Tatum, and #NBAOpeningNight.",
+    "angle": "Celtics Opening Night storyline: defending champs, Tatum performance, roster changes—not just the game result.",
+    "duplicate_of": null,
+    "market_id": "5676043"
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
+  },
+  "76ers": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "76ers",
+    "sports": true,
+    "league": "NBA",
+    "obvious": false,
+    "early": false,
+    "entity": "Philadelphia 76ers",
+    "why_now": "NBA Opening Night; 76ers co-trending with other NBA teams and #NBAOpeningNight.",
+    "angle": "76ers Opening Night angle: star player health, trade deadline moves, playoff contention narrative.",
+    "duplicate_of": null,
+    "market_id": "5676021"
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
+  },
+  "spurs": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "spurs",
+    "sports": true,
+    "league": "NBA",
+    "obvious": false,
+    "early": false,
+    "entity": "San Antonio Spurs",
+    "why_now": "NBA Opening Night; Spurs co-trending with other NBA teams and #NBAOpeningNight.",
+    "angle": "Spurs Opening Night narrative: new era, draft picks, coaching/roster rebuild story.",
+    "duplicate_of": null,
+    "market_id": "5680528"
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
+  },
+  "sixers": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "sixers",
+    "sports": true,
+    "league": "NBA",
+    "obvious": false,
+    "early": false,
+    "entity": "Philadelphia 76ers",
+    "why_now": "NBA Opening Night; duplicate of 76ers co-trending signal.",
+    "angle": "Same as 76ers—Opening Night storyline, not game logistics.",
+    "duplicate_of": "76ers",
+    "market_id": null
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
+  },
+  "planet fitness": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "planet fitness",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Planet Fitness",
+    "why_now": "Trending at rank 12; fitness brand, no sports connection.",
+    "angle": "Non-sports; skip.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
+  },
+  "calvin harris": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "calvin harris",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Calvin Harris",
+    "why_now": "Trending at rank 13; music producer/DJ, no sports signal.",
+    "angle": "Non-sports; skip unless sports event performance emerges.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
+  },
+  "rivers": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "rivers",
+    "sports": true,
+    "league": "NBA",
+    "obvious": false,
+    "early": false,
+    "entity": "Doc Rivers",
+    "why_now": "Trending at rank 14; likely NBA Opening Night coach storyline (Celtics, 76ers, or other team).",
+    "angle": "Coach angle: Doc Rivers' team performance, playoff expectations, or coaching controversy.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
+  },
+  "nba is back": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "nba is back",
+    "sports": true,
+    "league": "NBA",
+    "obvious": true,
+    "early": false,
+    "entity": "NBA Opening Night",
+    "why_now": "Generic seasonal announcement; #NBAOpeningNight is the scheduled event itself.",
+    "angle": "Too obvious—suppress as mere event announcement. Only elevate if specific viral moment (injury, record, controversy) emerges.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
+  },
+  "christina applegate": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "christina applegate",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Christina Applegate",
+    "why_now": "Trending at rank 16; actress, no sports connection.",
+    "angle": "Non-sports; skip.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
+  },
+  "donna arthur": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "donna arthur",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Donna Arthur",
+    "why_now": "Trending at rank 18; no sports signal; driver unconfirmed.",
+    "angle": "Non-sports; skip.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
+  },
+  "pastor": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "pastor",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Pastor",
+    "why_now": "Generic term trending at rank 19; no sports connection evident.",
+    "angle": "Non-sports; skip.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
+  },
+  "thin ice": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "thin ice",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Thin Ice",
+    "why_now": "Trending at rank 20; likely TV show or cultural reference; no sports signal.",
+    "angle": "Non-sports; skip.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
+  },
+  "throwtheballup": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "throwtheballup",
+    "sports": true,
+    "league": "NBA",
+    "obvious": false,
+    "early": false,
+    "entity": "#throwtheballup",
+    "why_now": "Hashtag co-trending with NBA Opening Night, Knicks, Celtics, Pistons; likely fan engagement meme for tip-off.",
+    "angle": "NBA Opening Night fan culture: capture the excitement/meme angle around the season start.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
+  },
+  "larry krasner": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "larry krasner",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Larry Krasner",
+    "why_now": "Trending at rank 23; Philadelphia politician, no sports connection.",
+    "angle": "Non-sports; skip.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
+  },
+  "fsr 4 1": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "fsr 4 1",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "FSR 4.1",
+    "why_now": "Trending at rank 24; software/tech product, no sports signal.",
+    "angle": "Non-sports; skip.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
+  },
+  "mary trump": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "mary trump",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Mary Trump",
+    "why_now": "Trending at rank 25; political figure, no sports connection.",
+    "angle": "Non-sports; skip.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
+  },
+  "milliondollarpitch": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "milliondollarpitch",
+    "sports": true,
+    "league": "MLB",
+    "obvious": false,
+    "early": false,
+    "entity": "#MillionDollarPitch",
+    "why_now": "Trending at rank 26; MLB promotional event/contest, co-trending with #MLBS7Spoilers.",
+    "angle": "MLB angle: Million Dollar Pitch contest moment, celebrity pitcher, or viral attempt.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
+  },
+  "nbaopeningnight": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "nbaopeningnight",
+    "sports": true,
+    "league": "NBA",
+    "obvious": true,
+    "early": false,
+    "entity": "#NBAOpeningNight",
+    "why_now": "Scheduled event hashtag; generic seasonal announcement.",
+    "angle": "Too obvious—suppress as mere event tag. Only elevate if specific viral moment emerges.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
+  },
+  "melania": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "melania",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Melania Trump",
+    "why_now": "Trending at rank 28; political figure, no sports connection.",
+    "angle": "Non-sports; skip.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
+  },
+  "mlbs7spoilers": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "mlbs7spoilers",
+    "sports": true,
+    "league": "MLB",
+    "obvious": false,
+    "early": false,
+    "entity": "#MLBS7Spoilers",
+    "why_now": "Trending at rank 29; MLB Series 7 spoiler tag, co-trending with #MillionDollarPitch.",
+    "angle": "MLB angle: Series 7 result, viral moment, or fan reaction to playoff/championship game.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
+  },
+  "salesforce": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "salesforce",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Salesforce",
+    "why_now": "Trending at rank 30; enterprise software company, no sports connection.",
+    "angle": "Non-sports; skip.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
+  },
+  "braze": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "braze",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Braze",
+    "why_now": "Trending at rank 31; marketing software, no sports connection.",
+    "angle": "Non-sports; skip.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
+  },
+  "lyme": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "lyme",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Lyme",
+    "why_now": "Trending at rank 32; health/disease topic, no sports connection.",
+    "angle": "Non-sports; skip.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
+  },
+  "garage beer": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "garage beer",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Garage Beer",
+    "why_now": "Trending at rank 33; beverage brand, no sports connection.",
+    "angle": "Non-sports; skip.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
+  },
+  "thunder": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "thunder",
+    "sports": true,
+    "league": "NBA",
+    "obvious": false,
+    "early": false,
+    "entity": "Oklahoma City Thunder",
+    "why_now": "Trending at rank 34; NBA Opening Night co-trending with other NBA teams.",
+    "angle": "NBA Opening Night: Thunder roster storyline, star player performance, playoff contention.",
+    "duplicate_of": null,
+    "market_id": "5680507"
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
+  },
+  "tent": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "tent",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "TENT",
+    "why_now": "Trending at rank 35; acronym/term unclear; no sports signal.",
+    "angle": "Non-sports; skip.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
+  },
+  "bullhorn": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "bullhorn",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Bullhorn",
+    "why_now": "Trending at rank 36; recruitment software, no sports connection.",
+    "angle": "Non-sports; skip.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
+  },
+  "humbert": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "humbert",
+    "sports": true,
+    "league": "Tennis",
+    "obvious": false,
+    "early": false,
+    "entity": "Gaston Humbert",
+    "why_now": "Trending at rank 37; likely tennis player with recent match or tournament result.",
+    "angle": "Tennis angle: Humbert match result, upset, or tournament performance.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
+  },
+  "shylock": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "shylock",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Shylock",
+    "why_now": "Trending at rank 38; literary/cultural reference, no sports connection.",
+    "angle": "Non-sports; skip.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
+  },
+  "jerry lewis": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "jerry lewis",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Jerry Lewis",
+    "why_now": "Trending at rank 39; comedian/actor, no sports connection.",
+    "angle": "Non-sports; skip.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
+  },
+  "enes kanter": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "enes kanter",
+    "sports": true,
+    "league": "NBA",
+    "obvious": false,
+    "early": false,
+    "entity": "Enes Kanter",
+    "why_now": "Trending at rank 41; NBA player known for activism and social media presence; likely recent statement or controversy.",
+    "angle": "NBA culture angle: Kanter activism, social media moment, or team/league commentary.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
+  },
+  "tom barrack": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "tom barrack",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Tom Barrack",
+    "why_now": "Trending at rank 44; real estate/political figure, no sports connection.",
+    "angle": "Non-sports; skip.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
+  },
+  "cavs": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "cavs",
+    "sports": true,
+    "league": "NBA",
+    "obvious": false,
+    "early": false,
+    "entity": "Cleveland Cavaliers",
+    "why_now": "Trending at rank 45; NBA Opening Night co-trending with other NBA teams.",
+    "angle": "NBA Opening Night: Cavs roster storyline, young star development, playoff hopes.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
+  },
+  "timberwolves": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "timberwolves",
+    "sports": true,
+    "league": "NBA",
+    "obvious": false,
+    "early": false,
+    "entity": "Minnesota Timberwolves",
+    "why_now": "Trending at rank 46; NBA Opening Night co-trending with other NBA teams.",
+    "angle": "NBA Opening Night: Timberwolves contention narrative, star player performance.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
+  },
+  "tina snow": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "tina snow",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Tina Snow",
+    "why_now": "Trending at rank 47; music/cultural reference, no sports connection.",
+    "angle": "Non-sports; skip.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
+  },
+  "sam": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "sam",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "Sam",
+    "why_now": "Generic name trending at rank 48; no sports signal.",
+    "angle": "Non-sports; skip.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
+  },
+  "betty white": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "betty white",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Betty White",
+    "why_now": "Trending at rank 49; actress, no sports connection.",
+    "angle": "Non-sports; skip.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
+  },
+  "deepinfer": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "deepinfer",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "DeepInfer",
+    "why_now": "Trending at rank 50; AI/tech product, no sports connection.",
+    "angle": "Non-sports; skip.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
+  },
+  "champions league": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "champions league",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": false,
+    "entity": "UEFA Champions League",
+    "why_now": "Google traffic 20k; Bayern Munich coach Kompany injury/rest news ahead of Arsenal match on 2026-10-20.",
+    "angle": "Soccer angle: Bayern-Arsenal Champions League match storyline (Kompany absence, team readiness, tactical impact).",
+    "duplicate_of": null,
+    "market_id": "5409194"
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
+  },
+  "michael bloomberg": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "michael bloomberg",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Michael Bloomberg",
+    "why_now": "Google traffic 5k; political donation news, no sports connection.",
+    "angle": "Non-sports; skip.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
+  },
+  "al nassr vs neom": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "al nassr vs neom",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": false,
+    "entity": "Al-Nassr vs Neom",
+    "why_now": "Google traffic 2k; Saudi Pro League match; Cristiano Ronaldo setback/injury news mentioned in news titles.",
+    "angle": "Soccer angle: Ronaldo injury status, Al-Nassr squad readiness, Saudi Pro League storyline.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
+  },
+  "california great white shark breach": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "california great white shark breach",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "California great white shark breach",
+    "why_now": "Google traffic 500; viral nature video of shark leaping near beachgoers; no sports connection.",
+    "angle": "Non-sports; skip.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
+  },
+  "trump vance announcement today": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "trump vance announcement today",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Trump anti-fraud reward program",
+    "why_now": "Google traffic 500; political announcement, no sports connection.",
+    "angle": "Non-sports; skip.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
+  },
+  "sabah": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "sabah",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": false,
+    "entity": "Sabah FK",
+    "why_now": "Google traffic 500; Malaysian football club; likely match or tournament news.",
+    "angle": "Soccer angle: Sabah FK match result or tournament performance.",
+    "duplicate_of": null,
+    "market_id": "5383441"
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
+  },
+  "bloomberg": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "bloomberg",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Bloomberg",
+    "why_now": "Google traffic 500; Lionsgate/Legendary Entertainment business news, no sports connection.",
+    "angle": "Non-sports; skip.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
+  },
+  "erik von detten": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "erik von detten",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Erik von Detten",
+    "why_now": "Google traffic 500; actor lawsuit news, no sports connection.",
+    "angle": "Non-sports; skip.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
+  },
+  "elon musk congressional oversight democrats": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "elon musk congressional oversight democrats",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Elon Musk congressional oversight",
+    "why_now": "Google traffic 200; political news, no sports connection.",
+    "angle": "Non-sports; skip.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
+  },
+  "azerbaijan": {
+   "first_seen": "2026-10-20T17:49:24Z",
+   "last_seen": "2026-10-20T17:49:24Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "azerbaijan",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Azerbaijan",
+    "why_now": "Google traffic 200; geopolitical news, no sports connection.",
+    "angle": "Non-sports; skip.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-20T17:49:24Z"
   }
  },
  "x_usage": {
@@ -26284,68 +26389,58 @@
   "2026-10-20": 0
  },
  "prev_x_trends": [
-  "49ers",
-  "Rays",
-  "Jayden Daniels",
-  "Angel Reese",
-  "Dan Quinn",
-  "Niners",
-  "Fred Warner",
-  "Commanders",
-  "Mike Evans",
-  "#WorldSeries",
-  "#FTTB",
-  "Mustapha",
-  "#WWERaw",
-  "Blough",
-  "Chris Paul",
-  "Purdy",
-  "#RaiseHail",
-  "Burks",
-  "Junior Caminero",
-  "Terry",
-  "Freddy Peralta",
-  "Diggs",
-  "Shawn",
-  "ALCS MVP",
-  "Yandy Diaz",
-  "#LaGranjaCapataz",
-  "Vogt",
-  "Kittle",
-  "Kyle Shanahan",
-  "Washington",
-  "Alberta",
-  "Ashtyn Davis",
-  "Brewers in 6",
-  "Umamusume",
-  "Cygames",
-  "Antonio Williams",
-  "Romello Height",
-  "Ted Nugent",
-  "Rocchio",
-  "Cosmi",
-  "NFC East",
+  "Vivek",
+  "#TINATUESDAY",
+  "Amy Acton",
+  "Knicks",
+  "Pistons",
+  "Jay Z",
+  "Celtics",
+  "76ers",
+  "Spurs",
+  "Taco Tuesday",
+  "Sixers",
+  "Planet Fitness",
+  "Calvin Harris",
+  "Rivers",
+  "NBA IS BACK",
+  "Christina Applegate",
+  "Najee",
+  "Donna Arthur",
+  "Pastor",
+  "Thin Ice",
+  "#throwtheballup",
+  "Good Tuesday",
+  "Larry Krasner",
+  "FSR 4.1",
+  "Mary Trump",
+  "#MillionDollarPitch",
+  "#NBAOpeningNight",
+  "Melania",
+  "#MLBS7Spoilers",
+  "Salesforce",
+  "Braze",
+  "Lyme",
+  "Garage Beer",
+  "Thunder",
+  "TENT",
+  "Bullhorn",
+  "Humbert",
+  "Shylock",
+  "Jerry Lewis",
   "Leah",
-  "American League",
-  "Achilles",
-  "Redskins",
-  "Rhyne Howard",
-  "Kliff",
-  "Rosie O",
-  "Telly",
-  "Mustafa"
+  "Enes Kanter",
+  "Shawn",
+  "Jayson Tatum",
+  "Tom Barrack",
+  "Cavs",
+  "Timberwolves",
+  "Tina Snow",
+  "Sam",
+  "Betty White",
+  "DeepInfer"
  ],
  "suppressed": [
-  {
-   "key": "bold prediction",
-   "reason": "Generic sports commentary phrase; likely pre-game/prediction content.",
-   "at": "2026-10-07T19:15:23Z"
-  },
-  {
-   "key": "are the eagles",
-   "reason": "Generic Eagles team reference; likely Week 5 standings or pre-game chatter.",
-   "at": "2026-10-07T19:15:23Z"
-  },
   {
    "key": "pro bowl",
    "reason": "Annual NFL all-star event; generic reference without specific storyline.",
@@ -27335,6 +27430,16 @@
    "key": "redskins",
    "reason": "Former team name; co-trending with Jayden Daniels, Dan Quinn; plain team mention.",
    "at": "2026-10-20T08:17:10Z"
+  },
+  {
+   "key": "nba is back",
+   "reason": "Generic seasonal announcement; #NBAOpeningNight is the scheduled event itself.",
+   "at": "2026-10-20T17:49:24Z"
+  },
+  {
+   "key": "nbaopeningnight",
+   "reason": "Scheduled event hashtag; generic seasonal announcement.",
+   "at": "2026-10-20T17:49:24Z"
   }
  ],
  "slack_posted": {
