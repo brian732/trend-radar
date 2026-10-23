@@ -214,7 +214,7 @@
   },
   "happy friyay": {
    "first_seen": "2026-09-18T16:58:34Z",
-   "last_seen": "2026-10-16T17:12:43Z",
+   "last_seen": "2026-10-23T17:46:01Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -226,12 +226,12 @@
     "obvious": false,
     "early": false,
     "entity": "Happy Friyay",
-    "why_now": "Generic Friday greeting; no sports signal.",
-    "angle": null,
+    "why_now": "Generic Friday greeting; no sports connection.",
+    "angle": "Not sports-related; exclude.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-10-16T17:12:43Z"
+   "enriched_at": "2026-10-23T17:46:01Z"
   },
   "jets": {
    "first_seen": "2026-09-20T23:56:38Z",
@@ -571,7 +571,7 @@
   },
   "fursuitfriday": {
    "first_seen": "2026-10-09T18:41:29Z",
-   "last_seen": "2026-10-17T00:11:44Z",
+   "last_seen": "2026-10-23T17:46:01Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -584,15 +584,15 @@
     "early": false,
     "entity": "#FursuitFriday",
     "why_now": "Furry community hashtag; no sports connection.",
-    "angle": "Not sports-related.",
+    "angle": "Not sports-related; exclude.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-10-17T00:11:44Z"
+   "enriched_at": "2026-10-23T17:46:01Z"
   },
   "lastfourwatched": {
    "first_seen": "2026-10-09T18:41:29Z",
-   "last_seen": "2026-10-16T17:12:43Z",
+   "last_seen": "2026-10-23T17:46:01Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -604,16 +604,16 @@
     "obvious": false,
     "early": false,
     "entity": "#LastFourWatched",
-    "why_now": "Generic social media hashtag; no sports signal.",
-    "angle": null,
+    "why_now": "Generic social media hashtag; no sports connection.",
+    "angle": "Not sports-related; exclude.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-10-16T17:12:43Z"
+   "enriched_at": "2026-10-23T17:46:01Z"
   },
   "letterboxdfriday": {
    "first_seen": "2026-10-09T18:41:29Z",
-   "last_seen": "2026-10-16T17:12:43Z",
+   "last_seen": "2026-10-23T17:46:01Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -625,12 +625,12 @@
     "obvious": false,
     "early": false,
     "entity": "#LetterboxdFriday",
-    "why_now": "Film community hashtag; no sports connection.",
-    "angle": null,
+    "why_now": "Movie/entertainment hashtag; no sports connection.",
+    "angle": "Not sports-related; exclude.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-10-16T17:12:43Z"
+   "enriched_at": "2026-10-23T17:46:01Z"
   },
   "rhop": {
    "first_seen": "2026-10-09T18:41:29Z",
@@ -1480,27 +1480,6 @@
    },
    "enriched_at": "2026-10-18T23:58:51Z"
   },
-  "bo nix": {
-   "first_seen": "2026-10-12T01:04:27Z",
-   "last_seen": "2026-10-16T17:12:43Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "bo nix",
-    "sports": true,
-    "league": "NFL",
-    "obvious": false,
-    "early": false,
-    "entity": "Bo Nix",
-    "why_now": "Spiking alongside Joe Milton and other QB names; likely tied to injury-driven QB news cycle or performance moment.",
-    "angle": "Monitor for rookie QB breakout or injury-replacement narrative; early-season performance trending.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-16T17:12:43Z"
-  },
   "bears": {
    "first_seen": "2026-10-12T01:04:27Z",
    "last_seen": "2026-10-23T08:20:12Z",
@@ -2304,69 +2283,6 @@
    },
    "enriched_at": "2026-10-17T07:36:08Z"
   },
-  "porsche": {
-   "first_seen": "2026-10-16T00:08:00Z",
-   "last_seen": "2026-10-16T17:12:43Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "porsche",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Porsche",
-    "why_now": "No sports connection; automotive brand.",
-    "angle": null,
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-16T17:12:43Z"
-  },
-  "tesla": {
-   "first_seen": "2026-10-16T07:58:27Z",
-   "last_seen": "2026-10-16T17:12:43Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "tesla",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Tesla",
-    "why_now": "No sports connection; automotive/tech company.",
-    "angle": null,
-    "duplicate_of": null,
-    "market_id": "5710779"
-   },
-   "enriched_at": "2026-10-16T17:12:43Z"
-  },
-  "flying": {
-   "first_seen": "2026-10-16T07:58:27Z",
-   "last_seen": "2026-10-16T17:12:43Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "flying",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Flying",
-    "why_now": "No sports connection evident.",
-    "angle": null,
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-16T17:12:43Z"
-  },
   "hannity": {
    "first_seen": "2026-10-16T07:58:27Z",
    "last_seen": "2026-10-17T00:11:44Z",
@@ -2387,27 +2303,6 @@
     "market_id": null
    },
    "enriched_at": "2026-10-17T00:11:44Z"
-  },
-  "jetsons": {
-   "first_seen": "2026-10-16T07:58:27Z",
-   "last_seen": "2026-10-16T17:12:43Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "jetsons",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Jetsons",
-    "why_now": "No sports connection; cartoon reference.",
-    "angle": null,
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-16T17:12:43Z"
   },
   "kenneth walker": {
    "first_seen": "2026-10-16T07:58:27Z",
@@ -2471,28 +2366,6 @@
    },
    "enriched_at": "2026-10-18T16:24:14Z"
   },
-  "joe milton": {
-   "first_seen": "2026-10-16T17:12:43Z",
-   "last_seen": "2026-10-16T17:12:43Z",
-   "sources_seen": [
-    "google",
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "joe milton",
-    "sports": true,
-    "league": "NFL",
-    "obvious": false,
-    "early": false,
-    "entity": "Joe Milton QB trade",
-    "why_now": "Eagles poached QB Joe Milton from Cowboys practice squad after Jalen Hurts injury, setting up MNF storyline.",
-    "angle": "Capitalize on the surprise mid-season QB shuffle narrative: backup suddenly thrust into spotlight after injury to starter.",
-    "duplicate_of": null,
-    "market_id": "1357396"
-   },
-   "enriched_at": "2026-10-16T17:12:43Z"
-  },
   "mexico city": {
    "first_seen": "2026-10-16T17:12:43Z",
    "last_seen": "2026-10-17T00:11:44Z",
@@ -2516,7 +2389,7 @@
   },
   "iphone duo": {
    "first_seen": "2026-10-16T17:12:43Z",
-   "last_seen": "2026-10-16T17:12:43Z",
+   "last_seen": "2026-10-23T17:46:01Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -2528,58 +2401,16 @@
     "obvious": false,
     "early": false,
     "entity": "iPhone Duo",
-    "why_now": "No sports connection; consumer tech product.",
-    "angle": null,
+    "why_now": "Tech product; no sports connection.",
+    "angle": "Not sports-related; exclude.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-10-16T17:12:43Z"
-  },
-  "mozzy": {
-   "first_seen": "2026-10-16T17:12:43Z",
-   "last_seen": "2026-10-16T17:12:43Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "mozzy",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Mozzy",
-    "why_now": "No sports connection; likely music artist.",
-    "angle": null,
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-16T17:12:43Z"
-  },
-  "spitta": {
-   "first_seen": "2026-10-16T17:12:43Z",
-   "last_seen": "2026-10-16T17:12:43Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "spitta",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Spitta",
-    "why_now": "No sports connection; likely music artist.",
-    "angle": null,
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-16T17:12:43Z"
+   "enriched_at": "2026-10-23T17:46:01Z"
   },
   "good friday": {
    "first_seen": "2026-10-16T17:12:43Z",
-   "last_seen": "2026-10-16T17:12:43Z",
+   "last_seen": "2026-10-23T17:46:01Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -2590,38 +2421,17 @@
     "league": null,
     "obvious": false,
     "early": false,
-    "entity": "Good Friday",
-    "why_now": "Religious observance; no sports connection.",
-    "angle": null,
+    "entity": "Good Friday (religious holiday)",
+    "why_now": "Calendar/religious reference; no sports connection.",
+    "angle": "Not sports-related; exclude.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-10-16T17:12:43Z"
-  },
-  "krit": {
-   "first_seen": "2026-10-16T17:12:43Z",
-   "last_seen": "2026-10-16T17:12:43Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "krit",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "KRIT",
-    "why_now": "No sports connection; likely music artist.",
-    "angle": null,
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-16T17:12:43Z"
+   "enriched_at": "2026-10-23T17:46:01Z"
   },
   "red friday": {
    "first_seen": "2026-10-16T17:12:43Z",
-   "last_seen": "2026-10-16T17:12:43Z",
+   "last_seen": "2026-10-23T17:46:01Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -2633,142 +2443,16 @@
     "obvious": false,
     "early": false,
     "entity": "RED Friday",
-    "why_now": "Military/patriotic observance; no sports connection.",
-    "angle": null,
+    "why_now": "Generic reference; no sports connection.",
+    "angle": "Not sports-related; exclude.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-10-16T17:12:43Z"
-  },
-  "fitz": {
-   "first_seen": "2026-10-16T17:12:43Z",
-   "last_seen": "2026-10-16T17:12:43Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "fitz",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Fitz",
-    "why_now": "Ambiguous; could be sports-adjacent but no clear signal.",
-    "angle": null,
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-16T17:12:43Z"
-  },
-  "adam silver": {
-   "first_seen": "2026-10-16T17:12:43Z",
-   "last_seen": "2026-10-16T17:12:43Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "adam silver",
-    "sports": true,
-    "league": "NBA",
-    "obvious": false,
-    "early": false,
-    "entity": "Adam Silver",
-    "why_now": "NBA Commissioner trending; likely tied to league announcement, rule change, or controversy (driver unconfirmed from available signals).",
-    "angle": "Track for NBA policy announcement or governance story; commissioner visibility often signals major league news.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-16T17:12:43Z"
-  },
-  "curren": {
-   "first_seen": "2026-10-16T17:12:43Z",
-   "last_seen": "2026-10-16T17:12:43Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "curren",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Curren",
-    "why_now": "No sports connection evident.",
-    "angle": null,
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-16T17:12:43Z"
-  },
-  "larry june": {
-   "first_seen": "2026-10-16T17:12:43Z",
-   "last_seen": "2026-10-16T17:12:43Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "larry june",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Larry June",
-    "why_now": "No sports connection; likely music artist.",
-    "angle": null,
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-16T17:12:43Z"
-  },
-  "heidi levine": {
-   "first_seen": "2026-10-16T17:12:43Z",
-   "last_seen": "2026-10-16T17:12:43Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "heidi levine",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Heidi Levine",
-    "why_now": "No sports connection evident.",
-    "angle": null,
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-16T17:12:43Z"
-  },
-  "guam": {
-   "first_seen": "2026-10-16T17:12:43Z",
-   "last_seen": "2026-10-16T17:12:43Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "guam",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Guam",
-    "why_now": "Geographic location; no sports signal.",
-    "angle": null,
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-16T17:12:43Z"
+   "enriched_at": "2026-10-23T17:46:01Z"
   },
   "shabbat shalom": {
    "first_seen": "2026-10-16T17:12:43Z",
-   "last_seen": "2026-10-17T00:11:44Z",
+   "last_seen": "2026-10-23T17:46:01Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -2781,431 +2465,11 @@
     "early": false,
     "entity": "Shabbat Shalom",
     "why_now": "Religious greeting; no sports connection.",
-    "angle": "Not sports-related.",
+    "angle": "Not sports-related; exclude.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-10-17T00:11:44Z"
-  },
-  "plsloveร กได ไหมep6": {
-   "first_seen": "2026-10-16T17:12:43Z",
-   "last_seen": "2026-10-16T17:12:43Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "plsloveร กได ไหมep6",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "#PlsLoveรักได้ไหมEP6",
-    "why_now": "Thai TV series hashtag; no sports connection.",
-    "angle": null,
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-16T17:12:43Z"
-  },
-  "kolek": {
-   "first_seen": "2026-10-16T17:12:43Z",
-   "last_seen": "2026-10-16T17:12:43Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "kolek",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Kolek",
-    "why_now": "No sports connection evident.",
-    "angle": null,
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-16T17:12:43Z"
-  },
-  "fourthconcertd1": {
-   "first_seen": "2026-10-16T17:12:43Z",
-   "last_seen": "2026-10-16T17:12:43Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "fourthconcertd1",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "#FourthConcertD1",
-    "why_now": "Music concert hashtag; no sports connection.",
-    "angle": null,
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-16T17:12:43Z"
-  },
-  "wright brothers": {
-   "first_seen": "2026-10-16T17:12:43Z",
-   "last_seen": "2026-10-16T17:12:43Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "wright brothers",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Wright Brothers",
-    "why_now": "Historical figures; no sports connection.",
-    "angle": null,
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-16T17:12:43Z"
-  },
-  "tebas": {
-   "first_seen": "2026-10-16T17:12:43Z",
-   "last_seen": "2026-10-16T17:12:43Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "tebas",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": false,
-    "early": false,
-    "entity": "Javier Tebas",
-    "why_now": "La Liga president; likely tied to league announcement, regulation, or controversy.",
-    "angle": "Monitor for La Liga governance or regulatory story; commissioner visibility signals major news.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-16T17:12:43Z"
-  },
-  "lenamiu pls love ep6": {
-   "first_seen": "2026-10-16T17:12:43Z",
-   "last_seen": "2026-10-16T17:12:43Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "lenamiu pls love ep6",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "LENAMIU PLS LOVE EP6",
-    "why_now": "Thai TV series; no sports connection.",
-    "angle": null,
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-16T17:12:43Z"
-  },
-  "guns": {
-   "first_seen": "2026-10-16T17:12:43Z",
-   "last_seen": "2026-10-16T17:12:43Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "guns",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Guns",
-    "why_now": "No sports connection; political/social topic.",
-    "angle": null,
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-16T17:12:43Z"
-  },
-  "nipsey": {
-   "first_seen": "2026-10-16T17:12:43Z",
-   "last_seen": "2026-10-16T17:12:43Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "nipsey",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Nipsey",
-    "why_now": "No sports connection; likely music artist reference.",
-    "angle": null,
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-16T17:12:43Z"
-  },
-  "dink pate": {
-   "first_seen": "2026-10-16T17:12:43Z",
-   "last_seen": "2026-10-16T17:12:43Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "dink pate",
-    "sports": true,
-    "league": "Other Sports",
-    "obvious": false,
-    "early": true,
-    "entity": "Dink Pate",
-    "why_now": "Niche sports name spiking on X; likely pickleball or tennis player with viral moment or meme.",
-    "angle": "Early signal on niche racquet sport: ride the meme before mainstream picks it up.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-16T17:12:43Z"
-  },
-  "apple store": {
-   "first_seen": "2026-10-16T17:12:43Z",
-   "last_seen": "2026-10-16T17:12:43Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "apple store",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Apple Store",
-    "why_now": "No sports connection; retail brand.",
-    "angle": null,
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-16T17:12:43Z"
-  },
-  "lets shout oh my fourth": {
-   "first_seen": "2026-10-16T17:12:43Z",
-   "last_seen": "2026-10-16T17:12:43Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "lets shout oh my fourth",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "LETS SHOUT OH MY FOURTH",
-    "why_now": "No sports connection evident.",
-    "angle": null,
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-16T17:12:43Z"
-  },
-  "wellbutrin": {
-   "first_seen": "2026-10-16T17:12:43Z",
-   "last_seen": "2026-10-16T17:12:43Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "wellbutrin",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Wellbutrin",
-    "why_now": "Pharmaceutical; no sports connection.",
-    "angle": null,
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-16T17:12:43Z"
-  },
-  "remember everyone deployed": {
-   "first_seen": "2026-10-16T17:12:43Z",
-   "last_seen": "2026-10-16T17:12:43Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "remember everyone deployed",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Remember Everyone Deployed",
-    "why_now": "Military observance; no sports connection.",
-    "angle": null,
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-16T17:12:43Z"
-  },
-  "vagatha": {
-   "first_seen": "2026-10-16T17:12:43Z",
-   "last_seen": "2026-10-16T17:12:43Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "vagatha",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Vagatha",
-    "why_now": "No sports connection evident.",
-    "angle": null,
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-16T17:12:43Z"
-  },
-  "elons": {
-   "first_seen": "2026-10-16T17:12:43Z",
-   "last_seen": "2026-10-16T17:12:43Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "elons",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Elons",
-    "why_now": "No sports connection; likely Elon Musk reference.",
-    "angle": null,
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-16T17:12:43Z"
-  },
-  "mike flynn": {
-   "first_seen": "2026-10-16T17:12:43Z",
-   "last_seen": "2026-10-16T17:12:43Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "mike flynn",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Mike Flynn",
-    "why_now": "No sports connection; political figure.",
-    "angle": null,
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-16T17:12:43Z"
-  },
-  "washington post": {
-   "first_seen": "2026-10-16T17:12:43Z",
-   "last_seen": "2026-10-16T17:12:43Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "washington post",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Washington Post",
-    "why_now": "No sports connection; news outlet.",
-    "angle": null,
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-16T17:12:43Z"
-  },
-  "slayton": {
-   "first_seen": "2026-10-16T17:12:43Z",
-   "last_seen": "2026-10-16T17:12:43Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "slayton",
-    "sports": true,
-    "league": "NFL",
-    "obvious": false,
-    "early": false,
-    "entity": "Slayton",
-    "why_now": "NFL player name trending; likely tied to injury, trade, or performance moment in current week.",
-    "angle": "Identify the specific play or injury driving the spike; tie to team narrative or fantasy relevance.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-16T17:12:43Z"
-  },
-  "gun free zone": {
-   "first_seen": "2026-10-16T17:12:43Z",
-   "last_seen": "2026-10-16T17:12:43Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "gun free zone",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Gun Free Zone",
-    "why_now": "No sports connection; political/social topic.",
-    "angle": null,
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-16T17:12:43Z"
-  },
-  "shawn armstrong": {
-   "first_seen": "2026-10-16T17:12:43Z",
-   "last_seen": "2026-10-16T17:12:43Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "shawn armstrong",
-    "sports": true,
-    "league": "Other Sports",
-    "obvious": false,
-    "early": true,
-    "entity": "Shawn Armstrong",
-    "why_now": "Niche sports figure spiking; likely cricket, rugby, or minor league player with viral moment.",
-    "angle": "Early-stage niche sports trend; monitor for meme or underdog story before it saturates.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-16T17:12:43Z"
+   "enriched_at": "2026-10-23T17:46:01Z"
   },
   "mckee": {
    "first_seen": "2026-10-16T17:12:43Z",
@@ -3227,249 +2491,6 @@
     "market_id": null
    },
    "enriched_at": "2026-10-18T19:17:35Z"
-  },
-  "opex": {
-   "first_seen": "2026-10-16T17:12:43Z",
-   "last_seen": "2026-10-16T17:12:43Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "opex",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "OPEX",
-    "why_now": "Financial/trading term; no sports connection.",
-    "angle": null,
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-16T17:12:43Z"
-  },
-  "lutheran social services": {
-   "first_seen": "2026-10-16T17:12:43Z",
-   "last_seen": "2026-10-16T17:12:43Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "lutheran social services",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Lutheran Social Services",
-    "why_now": "No sports connection; social services organization.",
-    "angle": null,
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-16T17:12:43Z"
-  },
-  "zoloft": {
-   "first_seen": "2026-10-16T17:12:43Z",
-   "last_seen": "2026-10-16T17:12:43Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "zoloft",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Zoloft",
-    "why_now": "Pharmaceutical; no sports connection.",
-    "angle": null,
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-16T17:12:43Z"
-  },
-  "what are the new disney mcdonald s boo buckets for halloween": {
-   "first_seen": "2026-10-16T17:12:43Z",
-   "last_seen": "2026-10-16T17:12:43Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "what are the new disney mcdonald s boo buckets for halloween",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Disney McDonald's Boo Buckets",
-    "why_now": "No sports connection; consumer product query.",
-    "angle": null,
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-16T17:12:43Z"
-  },
-  "hospital": {
-   "first_seen": "2026-10-16T17:12:43Z",
-   "last_seen": "2026-10-16T17:12:43Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "hospital",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "hospital",
-    "why_now": "No sports connection; health news.",
-    "angle": null,
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-16T17:12:43Z"
-  },
-  "busy philipps": {
-   "first_seen": "2026-10-16T17:12:43Z",
-   "last_seen": "2026-10-16T17:12:43Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "busy philipps",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "busy philipps",
-    "why_now": "No sports connection; entertainment/health news.",
-    "angle": null,
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-16T17:12:43Z"
-  },
-  "laken snelling": {
-   "first_seen": "2026-10-16T17:12:43Z",
-   "last_seen": "2026-10-16T17:12:43Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "laken snelling",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "laken snelling",
-    "why_now": "No sports connection; crime news.",
-    "angle": null,
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-16T17:12:43Z"
-  },
-  "scratchcard": {
-   "first_seen": "2026-10-16T17:12:43Z",
-   "last_seen": "2026-10-16T17:12:43Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "scratchcard",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "scratchcard",
-    "why_now": "No sports connection; lottery/gambling.",
-    "angle": null,
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-16T17:12:43Z"
-  },
-  "kate middleton cornwall portraits": {
-   "first_seen": "2026-10-16T17:12:43Z",
-   "last_seen": "2026-10-16T17:12:43Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "kate middleton cornwall portraits",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "kate middleton cornwall portraits",
-    "why_now": "No sports connection; royal news.",
-    "angle": null,
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-16T17:12:43Z"
-  },
-  "ryan smith": {
-   "first_seen": "2026-10-16T17:12:43Z",
-   "last_seen": "2026-10-16T17:12:43Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "ryan smith",
-    "sports": true,
-    "league": "Other Sports",
-    "obvious": false,
-    "early": false,
-    "entity": "Ryan Smith",
-    "why_now": "Utah Jazz owner/Salt Lake City sports district development; tied to downtown sports infrastructure announcement.",
-    "angle": "Sports business story: major arena/entertainment district reveal; tie to team ownership and city development.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-16T17:12:43Z"
-  },
-  "petróleo": {
-   "first_seen": "2026-10-16T17:12:43Z",
-   "last_seen": "2026-10-16T17:12:43Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "petróleo",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "petróleo",
-    "why_now": "No sports connection; energy/commodity news.",
-    "angle": null,
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-16T17:12:43Z"
-  },
-  "laura bozzo": {
-   "first_seen": "2026-10-16T17:12:43Z",
-   "last_seen": "2026-10-16T17:12:43Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "laura bozzo",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "laura bozzo",
-    "why_now": "No sports connection; entertainment/health news.",
-    "angle": null,
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-10-16T17:12:43Z"
   },
   "violet": {
    "first_seen": "2026-10-17T00:11:44Z",
@@ -13198,7 +12219,7 @@
   },
   "melania trump": {
    "first_seen": "2026-10-19T19:07:33Z",
-   "last_seen": "2026-10-19T19:07:33Z",
+   "last_seen": "2026-10-23T17:46:01Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -13208,14 +12229,14 @@
     "sports": false,
     "league": null,
     "obvious": false,
-    "early": true,
+    "early": false,
     "entity": "Melania Trump",
     "why_now": "Political figure; no sports connection.",
-    "angle": "Not sports-related; discard.",
+    "angle": "Not sports-related; exclude.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-10-19T19:07:33Z"
+   "enriched_at": "2026-10-23T17:46:01Z"
   },
   "clot": {
    "first_seen": "2026-10-19T19:07:33Z",
@@ -23941,28 +22962,28 @@
   },
   "ethan klein": {
    "first_seen": "2026-10-23T08:20:12Z",
-   "last_seen": "2026-10-23T08:20:12Z",
+   "last_seen": "2026-10-23T17:46:01Z",
    "sources_seen": [
     "trends24",
     "x"
    ],
    "enrichment": {
     "key": "ethan klein",
-    "sports": false,
-    "league": null,
+    "sports": true,
+    "league": "Other Sports",
     "obvious": false,
-    "early": true,
+    "early": false,
     "entity": "Ethan Klein",
-    "why_now": "Spiking alongside Hila, Bears, Caleb, and sports-adjacent terms; driver unconfirmed but likely personal/podcast moment.",
-    "angle": "Monitor for podcast or personal drama crossover; if sports-adjacent, capture before mainstream picks it up.",
+    "why_now": "Podcast host/content creator trending with Hila (wife), Trisha (former collaborator); likely podcast drama or guest appearance.",
+    "angle": "Monitor for sports-adjacent podcast moment or athlete interview; ride if it breaks into mainstream.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-10-23T08:20:12Z"
+   "enriched_at": "2026-10-23T17:46:01Z"
   },
   "hila": {
    "first_seen": "2026-10-23T08:20:12Z",
-   "last_seen": "2026-10-23T08:20:12Z",
+   "last_seen": "2026-10-23T17:46:01Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -23972,14 +22993,14 @@
     "sports": false,
     "league": null,
     "obvious": false,
-    "early": true,
-    "entity": "Hila",
-    "why_now": "Co-trending with Ethan Klein at rank 2; likely personal or podcast-related moment, not sports.",
-    "angle": "Likely non-sports; monitor for any sports-culture crossover before escalating.",
+    "early": false,
+    "entity": "Hila Klein",
+    "why_now": "Content creator/podcast personality; no sports connection detected.",
+    "angle": "Not sports-related; exclude from sports trend radar.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-10-23T08:20:12Z"
+   "enriched_at": "2026-10-23T17:46:01Z"
   },
   "caleb": {
    "first_seen": "2026-10-23T08:20:12Z",
@@ -24214,7 +23235,7 @@
   },
   "yung miami": {
    "first_seen": "2026-10-23T08:20:12Z",
-   "last_seen": "2026-10-23T08:20:12Z",
+   "last_seen": "2026-10-23T17:46:01Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -24224,14 +23245,14 @@
     "sports": false,
     "league": null,
     "obvious": false,
-    "early": true,
+    "early": false,
     "entity": "Yung Miami",
-    "why_now": "Rank 22, stable; likely music/entertainment news, not sports.",
-    "angle": "Non-sports trend; monitor for any sports-culture crossover (e.g., athlete dating).",
+    "why_now": "Music artist; no sports connection.",
+    "angle": "Not sports-related; exclude.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-10-23T08:20:12Z"
+   "enriched_at": "2026-10-23T17:46:01Z"
   },
   "aaron ganador eliot awards": {
    "first_seen": "2026-10-23T08:20:12Z",
@@ -24403,7 +23424,7 @@
   },
   "caresha": {
    "first_seen": "2026-10-23T08:20:12Z",
-   "last_seen": "2026-10-23T08:20:12Z",
+   "last_seen": "2026-10-23T17:46:01Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -24413,14 +23434,14 @@
     "sports": false,
     "league": null,
     "obvious": false,
-    "early": true,
-    "entity": "Caresha",
-    "why_now": "Rank 33, dropped from 32; likely music/entertainment news, not sports.",
-    "angle": "Non-sports trend; monitor for any sports-culture crossover (e.g., athlete dating).",
+    "early": false,
+    "entity": "Caresha (likely Caresha Brownlee/Yung Miami)",
+    "why_now": "Entertainment/music personality; no sports connection.",
+    "angle": "Not sports-related; exclude.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-10-23T08:20:12Z"
+   "enriched_at": "2026-10-23T17:46:01Z"
   },
   "clayface": {
    "first_seen": "2026-10-23T08:20:12Z",
@@ -24634,7 +23655,7 @@
   },
   "fat albert": {
    "first_seen": "2026-10-23T08:20:12Z",
-   "last_seen": "2026-10-23T08:20:12Z",
+   "last_seen": "2026-10-23T17:46:01Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -24644,14 +23665,14 @@
     "sports": false,
     "league": null,
     "obvious": false,
-    "early": true,
-    "entity": "Fat Albert",
-    "why_now": "Rank 48, new entry; likely entertainment (cartoon) or meme, not sports-related.",
-    "angle": "Non-sports trend; deprioritize.",
+    "early": false,
+    "entity": "Fat Albert (cartoon character)",
+    "why_now": "Pop culture reference; no sports angle.",
+    "angle": "Not sports-related; exclude.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-10-23T08:20:12Z"
+   "enriched_at": "2026-10-23T17:46:01Z"
   },
   "ilhan nur said elmi": {
    "first_seen": "2026-10-23T08:20:12Z",
@@ -24854,6 +23875,962 @@
     "market_id": null
    },
    "enriched_at": "2026-10-23T08:20:12Z"
+  },
+  "hellebuyck": {
+   "first_seen": "2026-10-23T17:46:01Z",
+   "last_seen": "2026-10-23T17:46:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "hellebuyck",
+    "sports": true,
+    "league": "MLB",
+    "obvious": false,
+    "early": false,
+    "entity": "Corbin Hellebuyck",
+    "why_now": "MLB pitcher trending alongside Winnipeg, Devils, Sabres, Brandon Woodruff; likely World Series or playoff performance.",
+    "angle": "Capture the moment if Hellebuyck delivers a clutch postseason start or record-breaking stat.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-23T17:46:01Z"
+  },
+  "mercer": {
+   "first_seen": "2026-10-23T17:46:01Z",
+   "last_seen": "2026-10-23T17:46:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "mercer",
+    "sports": true,
+    "league": "College Football",
+    "obvious": false,
+    "early": false,
+    "entity": "Mercer University football",
+    "why_now": "Mercer trending with college football context; likely game result or upset.",
+    "angle": "Identify if Mercer pulled off a notable win or upset; amplify if it's a David-vs-Goliath narrative.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-23T17:46:01Z"
+  },
+  "winnipeg": {
+   "first_seen": "2026-10-23T17:46:01Z",
+   "last_seen": "2026-10-23T17:46:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "winnipeg",
+    "sports": true,
+    "league": "NHL",
+    "obvious": false,
+    "early": false,
+    "entity": "Winnipeg Jets",
+    "why_now": "NHL team trending with Devils, Sabres, Quinn Hughes; likely recent game or roster move.",
+    "angle": "Capture if Jets had a standout performance or trade; use for hockey fan engagement.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-23T17:46:01Z"
+  },
+  "devils": {
+   "first_seen": "2026-10-23T17:46:01Z",
+   "last_seen": "2026-10-23T17:46:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "devils",
+    "sports": true,
+    "league": "NHL",
+    "obvious": false,
+    "early": false,
+    "entity": "New Jersey Devils",
+    "why_now": "NHL team spiking with Winnipeg, Sabres, Quinn Hughes; likely recent game or notable moment.",
+    "angle": "Monitor for Devils game highlight or player storyline; tie to broader NHL narrative.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-23T17:46:01Z"
+  },
+  "lassie": {
+   "first_seen": "2026-10-23T17:46:01Z",
+   "last_seen": "2026-10-23T17:46:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "lassie",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Lassie (dog character/meme)",
+    "why_now": "Generic pop culture reference; no sports angle evident.",
+    "angle": "Not sports-related; exclude.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-23T17:46:01Z"
+  },
+  "oleshky": {
+   "first_seen": "2026-10-23T17:46:01Z",
+   "last_seen": "2026-10-23T17:46:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "oleshky",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Oleshky (Ukrainian city)",
+    "why_now": "Geographic reference; no sports connection.",
+    "angle": "Not sports-related; exclude.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-23T17:46:01Z"
+  },
+  "jarmo": {
+   "first_seen": "2026-10-23T17:46:01Z",
+   "last_seen": "2026-10-23T17:46:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "jarmo",
+    "sports": true,
+    "league": "NHL",
+    "obvious": false,
+    "early": false,
+    "entity": "Jarmo Kekäläinen",
+    "why_now": "NHL GM trending with Devils, Sabres, Winnipeg; likely trade or roster decision.",
+    "angle": "Capture if Kekäläinen made a major move; use for hockey insider content.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-23T17:46:01Z"
+  },
+  "dolan": {
+   "first_seen": "2026-10-23T17:46:01Z",
+   "last_seen": "2026-10-23T17:46:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "dolan",
+    "sports": true,
+    "league": "NHL",
+    "obvious": false,
+    "early": false,
+    "entity": "Tom Dolan or NHL Dolan reference",
+    "why_now": "Trending with NHL teams (Devils, Sabres, Winnipeg); likely team owner or executive.",
+    "angle": "Clarify if Dolan (owner/exec) made a controversial statement or decision; ride if it's a culture moment.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-23T17:46:01Z"
+  },
+  "sunny mehta": {
+   "first_seen": "2026-10-23T17:46:01Z",
+   "last_seen": "2026-10-23T17:46:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "sunny mehta",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": false,
+    "early": true,
+    "entity": "Sunny Mehta",
+    "why_now": "Spiking from rank 31 to 13; low mainstream coverage; likely emerging sports personality or analyst.",
+    "angle": "Early signal: identify Mehta's sport/role and ride before mainstream picks it up.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-23T17:46:01Z"
+  },
+  "sabres": {
+   "first_seen": "2026-10-23T17:46:01Z",
+   "last_seen": "2026-10-23T17:46:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "sabres",
+    "sports": true,
+    "league": "NHL",
+    "obvious": false,
+    "early": false,
+    "entity": "Buffalo Sabres",
+    "why_now": "NHL team spiking from rank 47 to 15 with Devils, Winnipeg, Quinn Hughes; likely recent game or trade.",
+    "angle": "Capture Sabres game moment or roster news; use for hockey fan engagement.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-23T17:46:01Z"
+  },
+  "chad patrick": {
+   "first_seen": "2026-10-23T17:46:01Z",
+   "last_seen": "2026-10-23T17:46:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "chad patrick",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": false,
+    "early": false,
+    "entity": "Chad Patrick",
+    "why_now": "Trending with hockey context; likely sports broadcaster, analyst, or player.",
+    "angle": "Identify Patrick's role and recent moment; amplify if it's a viral clip or quote.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-23T17:46:01Z"
+  },
+  "brandon woodruff": {
+   "first_seen": "2026-10-23T17:46:01Z",
+   "last_seen": "2026-10-23T17:46:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "brandon woodruff",
+    "sports": true,
+    "league": "MLB",
+    "obvious": false,
+    "early": false,
+    "entity": "Brandon Woodruff",
+    "why_now": "MLB pitcher trending with Hellebuyck, Winnipeg, Devils; likely World Series or playoff performance.",
+    "angle": "Capture if Woodruff delivers a clutch postseason start or record-breaking stat.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-23T17:46:01Z"
+  },
+  "meghan": {
+   "first_seen": "2026-10-23T17:46:01Z",
+   "last_seen": "2026-10-23T17:46:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "meghan",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Meghan (likely Meghan Markle)",
+    "why_now": "Celebrity reference; no sports connection.",
+    "angle": "Not sports-related; exclude.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-23T17:46:01Z"
+  },
+  "dan sullivan": {
+   "first_seen": "2026-10-23T17:46:01Z",
+   "last_seen": "2026-10-23T17:46:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "dan sullivan",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Dan Sullivan (politician)",
+    "why_now": "Political figure; no sports connection.",
+    "angle": "Not sports-related; exclude.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-23T17:46:01Z"
+  },
+  "hunter biden": {
+   "first_seen": "2026-10-23T17:46:01Z",
+   "last_seen": "2026-10-23T17:46:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "hunter biden",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Hunter Biden",
+    "why_now": "Political figure; no sports connection.",
+    "angle": "Not sports-related; exclude.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-23T17:46:01Z"
+  },
+  "alaska senate": {
+   "first_seen": "2026-10-23T17:46:01Z",
+   "last_seen": "2026-10-23T17:46:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "alaska senate",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Alaska Senate race",
+    "why_now": "Political race; no sports connection.",
+    "angle": "Not sports-related; exclude.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-23T17:46:01Z"
+  },
+  "command": {
+   "first_seen": "2026-10-23T17:46:01Z",
+   "last_seen": "2026-10-23T17:46:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "command",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Command (generic term)",
+    "why_now": "Ambiguous; no sports connection evident.",
+    "angle": "Not sports-related; exclude.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-23T17:46:01Z"
+  },
+  "fridayvibes": {
+   "first_seen": "2026-10-23T17:46:01Z",
+   "last_seen": "2026-10-23T17:46:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "fridayvibes",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "#FridayVibes",
+    "why_now": "Generic social media hashtag; no sports connection.",
+    "angle": "Not sports-related; exclude.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-23T17:46:01Z"
+  },
+  "bradley benavides": {
+   "first_seen": "2026-10-23T17:46:01Z",
+   "last_seen": "2026-10-23T17:46:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "bradley benavides",
+    "sports": true,
+    "league": "Motorsports",
+    "obvious": false,
+    "early": false,
+    "entity": "Bradley Benavides",
+    "why_now": "Motorsports driver trending; likely recent race result or performance.",
+    "angle": "Capture if Benavides had a standout race or milestone; use for motorsports fan engagement.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-23T17:46:01Z"
+  },
+  "nikki floris": {
+   "first_seen": "2026-10-23T17:46:01Z",
+   "last_seen": "2026-10-23T17:46:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "nikki floris",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Nikki Floris",
+    "why_now": "No sports context evident.",
+    "angle": "Not sports-related; exclude.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-23T17:46:01Z"
+  },
+  "the jerusalem post": {
+   "first_seen": "2026-10-23T17:46:01Z",
+   "last_seen": "2026-10-23T17:46:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "the jerusalem post",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "The Jerusalem Post (news outlet)",
+    "why_now": "News publication; no sports connection.",
+    "angle": "Not sports-related; exclude.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-23T17:46:01Z"
+  },
+  "blade": {
+   "first_seen": "2026-10-23T17:46:01Z",
+   "last_seen": "2026-10-23T17:46:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "blade",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Blade (movie/character)",
+    "why_now": "Entertainment reference; no sports connection.",
+    "angle": "Not sports-related; exclude.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-23T17:46:01Z"
+  },
+  "8_years_with_ateez": {
+   "first_seen": "2026-10-23T17:46:01Z",
+   "last_seen": "2026-10-23T17:46:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "8_years_with_ateez",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "#8_years_with_ATEEZ",
+    "why_now": "K-pop fan hashtag; no sports connection.",
+    "angle": "Not sports-related; exclude.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-23T17:46:01Z"
+  },
+  "student ids": {
+   "first_seen": "2026-10-23T17:46:01Z",
+   "last_seen": "2026-10-23T17:46:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "student ids",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Student IDs",
+    "why_now": "Generic reference; no sports connection.",
+    "angle": "Not sports-related; exclude.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-23T17:46:01Z"
+  },
+  "dalton knecht": {
+   "first_seen": "2026-10-23T17:46:01Z",
+   "last_seen": "2026-10-23T17:46:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "dalton knecht",
+    "sports": true,
+    "league": "NBA",
+    "obvious": false,
+    "early": false,
+    "entity": "Dalton Knecht",
+    "why_now": "NBA player trending; likely recent game performance or rookie highlight.",
+    "angle": "Capture if Knecht had a breakout game or viral moment; use for NBA fan engagement.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-23T17:46:01Z"
+  },
+  "big woo": {
+   "first_seen": "2026-10-23T17:46:01Z",
+   "last_seen": "2026-10-23T17:46:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "big woo",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Big Woo",
+    "why_now": "No sports context evident.",
+    "angle": "Not sports-related; exclude.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-23T17:46:01Z"
+  },
+  "happy birthday ado": {
+   "first_seen": "2026-10-23T17:46:01Z",
+   "last_seen": "2026-10-23T17:46:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "happy birthday ado",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Happy Birthday Ado",
+    "why_now": "Birthday greeting; no sports connection.",
+    "angle": "Not sports-related; exclude.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-23T17:46:01Z"
+  },
+  "kyle busch": {
+   "first_seen": "2026-10-23T17:46:01Z",
+   "last_seen": "2026-10-23T17:46:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "kyle busch",
+    "sports": true,
+    "league": "Motorsports",
+    "obvious": false,
+    "early": false,
+    "entity": "Kyle Busch",
+    "why_now": "NASCAR driver trending; likely recent race result or career milestone.",
+    "angle": "Capture if Busch had a standout race or announced major news; use for motorsports engagement.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-23T17:46:01Z"
+  },
+  "carmel": {
+   "first_seen": "2026-10-23T17:46:01Z",
+   "last_seen": "2026-10-23T17:46:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "carmel",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Carmel (location or person)",
+    "why_now": "No sports context evident.",
+    "angle": "Not sports-related; exclude.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-23T17:46:01Z"
+  },
+  "met police": {
+   "first_seen": "2026-10-23T17:46:01Z",
+   "last_seen": "2026-10-23T17:46:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "met police",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Met Police (UK law enforcement)",
+    "why_now": "Law enforcement; no sports connection.",
+    "angle": "Not sports-related; exclude.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-23T17:46:01Z"
+  },
+  "nur said elmi": {
+   "first_seen": "2026-10-23T17:46:01Z",
+   "last_seen": "2026-10-23T17:46:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "nur said elmi",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Nur Said Elmi",
+    "why_now": "No sports context evident.",
+    "angle": "Not sports-related; exclude.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-23T17:46:01Z"
+  },
+  "trisha": {
+   "first_seen": "2026-10-23T17:46:01Z",
+   "last_seen": "2026-10-23T17:46:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "trisha",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Trisha Paytas",
+    "why_now": "Content creator; no sports connection.",
+    "angle": "Not sports-related; exclude.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-23T17:46:01Z"
+  },
+  "quinn hughes": {
+   "first_seen": "2026-10-23T17:46:01Z",
+   "last_seen": "2026-10-23T17:46:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "quinn hughes",
+    "sports": true,
+    "league": "NHL",
+    "obvious": false,
+    "early": false,
+    "entity": "Quinn Hughes",
+    "why_now": "NHL player/captain trending with Devils, Sabres, Winnipeg; likely recent game or performance.",
+    "angle": "Capture if Hughes had a standout game or milestone; use for hockey fan engagement.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-23T17:46:01Z"
+  },
+  "karl rove": {
+   "first_seen": "2026-10-23T17:46:01Z",
+   "last_seen": "2026-10-23T17:46:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "karl rove",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Karl Rove",
+    "why_now": "Political analyst; no sports connection.",
+    "angle": "Not sports-related; exclude.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-23T17:46:01Z"
+  },
+  "fort myers": {
+   "first_seen": "2026-10-23T17:46:01Z",
+   "last_seen": "2026-10-23T17:46:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "fort myers",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Fort Myers",
+    "why_now": "Geographic location; no sports connection evident.",
+    "angle": "Not sports-related; exclude.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-23T17:46:01Z"
+  },
+  "happy birthday woody": {
+   "first_seen": "2026-10-23T17:46:01Z",
+   "last_seen": "2026-10-23T17:46:01Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "happy birthday woody",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Happy Birthday Woody",
+    "why_now": "Birthday greeting; no sports connection.",
+    "angle": "Not sports-related; exclude.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-23T17:46:01Z"
+  },
+  "morgan scalley": {
+   "first_seen": "2026-10-23T17:46:01Z",
+   "last_seen": "2026-10-23T17:46:01Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "morgan scalley",
+    "sports": true,
+    "league": "College Football",
+    "obvious": false,
+    "early": false,
+    "entity": "Morgan Scalley",
+    "why_now": "Utah football coach with 500 Google traffic; news coverage on coaching performance and season positioning.",
+    "angle": "Scalley's first-year coaching narrative at Utah; tie to mid-season momentum or playoff positioning.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-23T17:46:01Z"
+  },
+  "al qadsiah vs al hilal": {
+   "first_seen": "2026-10-23T17:46:01Z",
+   "last_seen": "2026-10-23T17:46:01Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "al qadsiah vs al hilal",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": true,
+    "early": false,
+    "entity": "Al Qadsiah vs Al Hilal",
+    "why_now": "Saudi Pro League match with preview/prediction coverage; scheduled game with no specific viral moment.",
+    "angle": "Suppress: plain pre-game coverage without specific storyline or upset angle.",
+    "duplicate_of": null,
+    "market_id": "5473242"
+   },
+   "enriched_at": "2026-10-23T17:46:01Z"
+  },
+  "emeka egbuka": {
+   "first_seen": "2026-10-23T17:46:01Z",
+   "last_seen": "2026-10-23T17:46:01Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "emeka egbuka",
+    "sports": true,
+    "league": "NFL",
+    "obvious": false,
+    "early": false,
+    "entity": "Emeka Egbuka",
+    "why_now": "NFL player with injury report coverage (concussion/foot ruled out vs CAR); injury update trending.",
+    "angle": "Capture injury update and fantasy/betting implications; monitor return timeline.",
+    "duplicate_of": null,
+    "market_id": "4551275"
+   },
+   "enriched_at": "2026-10-23T17:46:01Z"
+  },
+  "arthur fils": {
+   "first_seen": "2026-10-23T17:46:01Z",
+   "last_seen": "2026-10-23T17:46:01Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "arthur fils",
+    "sports": true,
+    "league": "Tennis",
+    "obvious": false,
+    "early": false,
+    "entity": "Arthur Fils",
+    "why_now": "Tennis player with ATP 250 Brussels quarterfinal coverage; match result and tournament progression.",
+    "angle": "Capture if Fils advances or pulls upset; tie to broader ATP season narrative.",
+    "duplicate_of": null,
+    "market_id": "6051879"
+   },
+   "enriched_at": "2026-10-23T17:46:01Z"
+  },
+  "muerte": {
+   "first_seen": "2026-10-23T17:46:01Z",
+   "last_seen": "2026-10-23T17:46:01Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "muerte",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": false,
+    "entity": "Maradona death trial",
+    "why_now": "Diego Maradona death trial final arguments and sentencing date (Dec 22); legal/cultural moment around soccer legend.",
+    "angle": "Sports-adjacent: Maradona legacy moment; tie to broader soccer culture and athlete mortality discourse.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-23T17:46:01Z"
+  },
+  "system of a down rose bowl": {
+   "first_seen": "2026-10-23T17:46:01Z",
+   "last_seen": "2026-10-23T17:46:01Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "system of a down rose bowl",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "System of a Down Rose Bowl concert",
+    "why_now": "Band concert announcement at Rose Bowl; no sports connection.",
+    "angle": "Not sports-related; exclude.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-23T17:46:01Z"
+  },
+  "ipad mini": {
+   "first_seen": "2026-10-23T17:46:01Z",
+   "last_seen": "2026-10-23T17:46:01Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "ipad mini",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "iPad Mini",
+    "why_now": "Tech product announcement; no sports connection.",
+    "angle": "Not sports-related; exclude.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-23T17:46:01Z"
+  },
+  "asbury park mesh tunnel cats": {
+   "first_seen": "2026-10-23T17:46:01Z",
+   "last_seen": "2026-10-23T17:46:01Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "asbury park mesh tunnel cats",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Asbury Park mesh tunnel cats",
+    "why_now": "Animal welfare story; no sports connection.",
+    "angle": "Not sports-related; exclude.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-23T17:46:01Z"
+  },
+  "lol worlds": {
+   "first_seen": "2026-10-23T17:46:01Z",
+   "last_seen": "2026-10-23T17:46:01Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "lol worlds",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": false,
+    "early": false,
+    "entity": "League of Legends Worlds 2026",
+    "why_now": "Esports tournament with Swiss Stage Round 1 draw and team predictions; competitive gaming event.",
+    "angle": "Esports trend: capture if underdog team advances or favorite stumbles; tie to broader esports culture.",
+    "duplicate_of": null,
+    "market_id": "5906195"
+   },
+   "enriched_at": "2026-10-23T17:46:01Z"
+  },
+  "byron donalds": {
+   "first_seen": "2026-10-23T17:46:01Z",
+   "last_seen": "2026-10-23T17:46:01Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "byron donalds",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Byron Donalds",
+    "why_now": "Political figure with Trump rally coverage; no sports connection.",
+    "angle": "Not sports-related; exclude.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-10-23T17:46:01Z"
   }
  },
  "x_usage": {
@@ -24867,63 +24844,58 @@
   "2026-10-23": 0
  },
  "prev_x_trends": [
+  "Hellebuyck",
   "Ethan Klein",
+  "Mercer",
+  "Winnipeg",
+  "Devils",
   "Hila",
-  "Bears",
-  "Caleb",
-  "Jokic",
-  "GMMTV RESPECT OUR CULTURE",
-  "Ben Johnson",
-  "Maye",
-  "Dear JT",
-  "Jaylon Johnson",
-  "Shai",
-  "Patriots",
-  "AJ Brown",
-  "Cairo Santos",
-  "Cavs",
-  "James Dolan",
-  "Pats",
-  "Nuggets",
-  "Sixers",
-  "#CreditOurHeritage",
-  "#AHS13",
-  "Yung Miami",
-  "AARON GANADOR ELIOT AWARDS",
-  "Rome Odunze",
-  "Who He Play",
-  "#WatchDis",
-  "#BearDown",
-  "#RespectMyanmarCulture",
-  "Luther Burden",
-  "Al Michaels",
-  "Kmet",
-  "76ers",
-  "Caresha",
-  "Clayface",
-  "App State",
-  "yunho",
-  "Aaron Gordon",
-  "Stevenson",
-  "Harden",
-  "McDavid",
-  "DeRozan",
-  "Braun",
-  "Carl Thomas",
-  "Maxey",
-  "Jeremy Lin",
-  "Loveland",
-  "Vrabel",
+  "Lassie",
+  "Oleshky",
   "Fat Albert",
-  "Ilhan Nur Said Elmi",
-  "Josh McDaniels"
+  "Jarmo",
+  "#FursuitFriday",
+  "Dolan",
+  "Sunny Mehta",
+  "#LastFourWatched",
+  "Sabres",
+  "Chad Patrick",
+  "Brandon Woodruff",
+  "Meghan",
+  "Dan Sullivan",
+  "Good Friday",
+  "Hunter Biden",
+  "Alaska Senate",
+  "Command",
+  "#FridayVibes",
+  "Bradley Benavides",
+  "Melania Trump",
+  "#LetterboxdFriday",
+  "Nikki Floris",
+  "The Jerusalem Post",
+  "Blade",
+  "#8_years_with_ATEEZ",
+  "Student IDs",
+  "Happy Friyay",
+  "Dalton Knecht",
+  "RED Friday",
+  "Big Woo",
+  "Happy Birthday Ado",
+  "Kyle Busch",
+  "Caresha",
+  "Carmel",
+  "Met Police",
+  "Nur Said Elmi",
+  "Trisha",
+  "Yung Miami",
+  "Shabbat Shalom",
+  "Quinn Hughes",
+  "Karl Rove",
+  "Fort Myers",
+  "Happy Birthday Woody",
+  "iPhone Duo"
  ],
  "suppressed": [
-  {
-   "key": "málaga vs espanyol",
-   "reason": "Duplicate of 'málaga rcd espanyol'; scheduled La Liga match; pre-game search traffic.",
-   "at": "2026-10-09T18:41:29Z"
-  },
   {
    "key": "smackdown",
    "reason": "Live wrestling broadcast airing; typical weekly event trend.",
@@ -25918,6 +25890,11 @@
    "key": "alabama basketball",
    "reason": "Google traffic (1000); exhibition game logistics and how-to-watch content.",
    "at": "2026-10-23T00:27:01Z"
+  },
+  {
+   "key": "al qadsiah vs al hilal",
+   "reason": "Saudi Pro League match with preview/prediction coverage; scheduled game with no specific viral moment.",
+   "at": "2026-10-23T17:46:01Z"
   }
  ],
  "slack_posted": {
