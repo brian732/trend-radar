@@ -1,59 +1,130 @@
 {
  "schema_version": 2,
- "generated_at": "2026-11-03T19:58:53Z",
+ "generated_at": "2026-11-04T01:58:49Z",
  "sections": [
   {
-   "league": "Soccer",
-   "activity": 239,
+   "league": "College Football",
+   "activity": 149,
    "trends": [
     {
-     "key": "marcel",
-     "name": "Marcel",
-     "entity": "Marcel",
-     "league": "Soccer",
-     "score": 53,
+     "key": "the cfp",
+     "name": "The CFP",
+     "entity": "College Football Playoff",
+     "league": "College Football",
+     "score": 63,
      "score_breakdown": {
-      "velocity": 15.0,
+      "velocity": 27.0,
       "cross_platform": 8,
       "freshness": 20,
-      "engagement": 0.0,
-      "early_bonus": 10
+      "engagement": 8.0,
+      "early_bonus": 0
      },
-     "early": true,
+     "early": false,
      "new_on_x": true,
-     "why_now": "Likely soccer player trending alongside Galatasaray; early signal on niche entity.",
-     "angle": "Monitor for transfer news, injury, or performance moment tied to Turkish/European club.",
+     "why_now": "CFP selection/seeding announcement or bracket reveal driving discussion on Election Night 2026.",
+     "angle": "Capitalize on the collision of election coverage and CFP playoff positioning—tie brand messaging to the drama of selection Sunday.",
      "sources": [
       "x",
       "trends24"
      ],
-     "first_seen": "2026-11-03T19:58:53Z",
+     "first_seen": "2026-11-04T01:58:49Z",
      "example_tweets": [],
      "market": null,
      "market_gap": true
     },
     {
-     "key": "owono",
-     "name": "Owono",
-     "entity": "Owono",
-     "league": "Soccer",
-     "score": 53,
+     "key": "hunter yurachek",
+     "name": "Hunter Yurachek",
+     "entity": "Hunter Yurachek",
+     "league": "College Football",
+     "score": 43,
      "score_breakdown": {
       "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 0
+     },
+     "early": false,
+     "new_on_x": true,
+     "why_now": "Arkansas AD Yurachek likely involved in CFP seeding, coaching decisions, or playoff-related controversy.",
+     "angle": "If Yurachek made a bold CFP-related statement or decision, amplify the institutional drama angle.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-11-04T01:58:49Z",
+     "example_tweets": [],
+     "market": null,
+     "market_gap": true
+    },
+    {
+     "key": "wofford",
+     "name": "Wofford",
+     "entity": "Wofford Terriers",
+     "league": "College Football",
+     "score": 43,
+     "score_breakdown": {
+      "velocity": 15.0,
+      "cross_platform": 8,
+      "freshness": 20,
+      "engagement": 0.0,
+      "early_bonus": 0
+     },
+     "early": false,
+     "new_on_x": true,
+     "why_now": "Wofford football game or playoff-related moment (likely vs. Tennessee or in CFP conversation) spiking on Election Night.",
+     "angle": "Leverage Wofford's underdog narrative if they're in playoff contention or facing a major opponent.",
+     "sources": [
+      "x",
+      "trends24"
+     ],
+     "first_seen": "2026-11-04T01:58:49Z",
+     "example_tweets": [],
+     "market": {
+      "question": "Wofford Terriers vs. Tennessee Volunteers",
+      "url": "https://polymarket.com/event/cbb-woff-tenn-2026-11-03",
+      "outcomes": [
+       [
+        "Wofford Terriers",
+        0.0005
+       ],
+       [
+        "Tennessee Volunteers",
+        0.9995
+       ]
+      ],
+      "volume24hr": 45522.908616999994
+     },
+     "market_gap": false
+    }
+   ]
+  },
+  {
+   "league": "Soccer",
+   "activity": 66,
+   "trends": [
+    {
+     "key": "sarah mcbride",
+     "name": "sarah mcbride",
+     "entity": "sarah mcbride",
+     "league": "Soccer",
+     "score": 43,
+     "score_breakdown": {
+      "velocity": 5.4,
       "cross_platform": 8,
       "freshness": 20,
       "engagement": 0.0,
       "early_bonus": 10
      },
      "early": true,
-     "new_on_x": true,
-     "why_now": "Likely soccer player; early signal on niche entity with no major news coverage.",
-     "angle": "Monitor for transfer, injury, or performance moment tied to European club.",
+     "new_on_x": false,
+     "why_now": "Spiking on google; driver unconfirmed (fallback classifier — no LLM key).",
+     "angle": "Verify the driver manually before attaching content (fallback mode).",
      "sources": [
-      "x",
-      "trends24"
+      "google"
      ],
-     "first_seen": "2026-11-03T19:58:53Z",
+     "first_seen": "2026-11-04T01:58:49Z",
      "example_tweets": [],
      "market": null,
      "market_gap": true
@@ -63,16 +134,16 @@
      "name": "Straight Red",
      "entity": "Straight Red",
      "league": "Soccer",
-     "score": 47,
+     "score": 23,
      "score_breakdown": {
-      "velocity": 19.0,
+      "velocity": 0.0,
       "cross_platform": 8,
-      "freshness": 20,
+      "freshness": 15,
       "engagement": 0.0,
       "early_bonus": 0
      },
      "early": false,
-     "new_on_x": true,
+     "new_on_x": false,
      "why_now": "Soccer red card terminology; likely tied to Champions League matches on 2026-11-03.",
      "angle": "Highlight controversial red card incident or disciplinary moment from European football.",
      "sources": [
@@ -83,12 +154,18 @@
      "example_tweets": [],
      "market": null,
      "market_gap": true
-    },
+    }
+   ]
+  },
+  {
+   "league": "NHL",
+   "activity": 43,
+   "trends": [
     {
-     "key": "galatasaray",
-     "name": "Galatasaray",
-     "entity": "Galatasaray",
-     "league": "Soccer",
+     "key": "jason robertson",
+     "name": "Jason Robertson",
+     "entity": "Jason Robertson",
+     "league": "NHL",
      "score": 43,
      "score_breakdown": {
       "velocity": 15.0,
@@ -99,140 +176,59 @@
      },
      "early": false,
      "new_on_x": true,
-     "why_now": "Turkish football club with Champions League match on 2026-11-03; market catalog confirms fixture.",
-     "angle": "Leverage match result, player performance, or tactical moment for soccer betting/fan engagement content.",
+     "why_now": "NHL player Jason Robertson (Washington Capitals) likely had a notable game, goal, or stat milestone on Election Night.",
+     "angle": "If Robertson hit a milestone or had a viral moment, position as 'while America voted, this happened in hockey.'",
      "sources": [
       "x",
       "trends24"
      ],
-     "first_seen": "2026-11-03T19:58:53Z",
+     "first_seen": "2026-11-04T01:58:49Z",
      "example_tweets": [],
-     "market": {
-      "question": "Will Galatasaray SK win on 2026-11-03?",
-      "url": "https://polymarket.com/event/ucl-gal-stu-2026-11-03",
-      "outcomes": [
-       [
-        "Yes",
-        0.9995
-       ],
-       [
-        "No",
-        0.0005
-       ]
-      ],
-      "volume24hr": 1473140.1164499999
-     },
-     "market_gap": false
-    },
+     "market": null,
+     "market_gap": true
+    }
+   ]
+  },
+  {
+   "league": "MMA/Boxing",
+   "activity": 43,
+   "trends": [
     {
-     "key": "stuttgart",
-     "name": "Stuttgart",
-     "entity": "VfB Stuttgart",
-     "league": "Soccer",
+     "key": "hillsborough county election results",
+     "name": "hillsborough county election results",
+     "entity": "hillsborough county election results",
+     "league": "MMA/Boxing",
      "score": 43,
      "score_breakdown": {
-      "velocity": 15.0,
+      "velocity": 5.4,
       "cross_platform": 8,
       "freshness": 20,
       "engagement": 0.0,
-      "early_bonus": 0
+      "early_bonus": 10
      },
-     "early": false,
-     "new_on_x": true,
-     "why_now": "German football club with Champions League match vs Galatasaray on 2026-11-03; market catalog confirms.",
-     "angle": "Leverage match result, player performance, or tactical moment for soccer betting/fan engagement.",
+     "early": true,
+     "new_on_x": false,
+     "why_now": "Spiking on google; driver unconfirmed (fallback classifier — no LLM key).",
+     "angle": "Verify the driver manually before attaching content (fallback mode).",
      "sources": [
-      "x",
-      "trends24"
+      "google"
      ],
-     "first_seen": "2026-11-03T19:58:53Z",
+     "first_seen": "2026-11-04T01:58:49Z",
      "example_tweets": [],
-     "market": {
-      "question": "Will VfB Stuttgart win on 2026-11-03?",
-      "url": "https://polymarket.com/event/ucl-gal-stu-2026-11-03",
-      "outcomes": [
-       [
-        "Yes",
-        0.0005
-       ],
-       [
-        "No",
-        0.9995
-       ]
-      ],
-      "volume24hr": 487588.93974800006
-     },
-     "market_gap": false
+     "market": null,
+     "market_gap": true
     }
    ]
   },
   {
    "league": "Motorsports",
-   "activity": 106,
+   "activity": 43,
    "trends": [
     {
-     "key": "carson hocevar",
-     "name": "Carson Hocevar",
-     "entity": "Carson Hocevar",
+     "key": "hamilton county",
+     "name": "Hamilton County",
+     "entity": "Hamilton County",
      "league": "Motorsports",
-     "score": 53,
-     "score_breakdown": {
-      "velocity": 15.0,
-      "cross_platform": 8,
-      "freshness": 20,
-      "engagement": 0.0,
-      "early_bonus": 10
-     },
-     "early": true,
-     "new_on_x": true,
-     "why_now": "NASCAR driver; early signal on niche motorsports entity with no major news coverage.",
-     "angle": "Monitor for race result, incident, or career milestone; early opportunity before mainstream pickup.",
-     "sources": [
-      "x",
-      "trends24"
-     ],
-     "first_seen": "2026-11-03T19:58:53Z",
-     "example_tweets": [],
-     "market": null,
-     "market_gap": true
-    },
-    {
-     "key": "justin haley",
-     "name": "Justin Haley",
-     "entity": "Justin Haley",
-     "league": "Motorsports",
-     "score": 53,
-     "score_breakdown": {
-      "velocity": 15.0,
-      "cross_platform": 8,
-      "freshness": 20,
-      "engagement": 0.0,
-      "early_bonus": 10
-     },
-     "early": true,
-     "new_on_x": true,
-     "why_now": "NASCAR driver; early signal on niche motorsports entity with no major news coverage.",
-     "angle": "Monitor for race result, incident, or career milestone; early opportunity before mainstream pickup.",
-     "sources": [
-      "x",
-      "trends24"
-     ],
-     "first_seen": "2026-11-03T19:58:53Z",
-     "example_tweets": [],
-     "market": null,
-     "market_gap": true
-    }
-   ]
-  },
-  {
-   "league": "NFL",
-   "activity": 78,
-   "trends": [
-    {
-     "key": "jerry rice",
-     "name": "Jerry Rice",
-     "entity": "Jerry Rice",
-     "league": "NFL",
      "score": 43,
      "score_breakdown": {
       "velocity": 15.0,
@@ -243,70 +239,13 @@
      },
      "early": false,
      "new_on_x": true,
-     "why_now": "NFL Hall of Famer; trending on Election Day suggests tribute, meme, or cultural reference.",
-     "angle": "Identify the specific moment—tribute, quote, or cultural crossover—driving the spike.",
+     "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+     "angle": "Verify the driver manually before attaching content (fallback mode).",
      "sources": [
       "x",
       "trends24"
      ],
-     "first_seen": "2026-11-03T19:58:53Z",
-     "example_tweets": [],
-     "market": null,
-     "market_gap": true
-    },
-    {
-     "key": "jeremiyah love",
-     "name": "jeremiyah love",
-     "entity": "Jeremiyah Love",
-     "league": "NFL",
-     "score": 35,
-     "score_breakdown": {
-      "velocity": 6.6,
-      "cross_platform": 8,
-      "freshness": 20,
-      "engagement": 0.0,
-      "early_bonus": 0
-     },
-     "early": false,
-     "new_on_x": false,
-     "why_now": "Cardinals RB out 4-5 weeks with high ankle sprain; injury news driving search traffic.",
-     "angle": "Highlight injury impact on Cardinals backfield depth and playoff implications.",
-     "sources": [
-      "google"
-     ],
-     "first_seen": "2026-11-03T19:58:53Z",
-     "example_tweets": [],
-     "market": null,
-     "market_gap": true
-    }
-   ]
-  },
-  {
-   "league": "NBA",
-   "activity": 53,
-   "trends": [
-    {
-     "key": "air up there",
-     "name": "Air Up There",
-     "entity": "Air Up There",
-     "league": "NBA",
-     "score": 53,
-     "score_breakdown": {
-      "velocity": 15.0,
-      "cross_platform": 8,
-      "freshness": 20,
-      "engagement": 0.0,
-      "early_bonus": 10
-     },
-     "early": true,
-     "new_on_x": true,
-     "why_now": "Likely reference to Michael Jordan or NBA culture; early signal on niche sports meme/reference.",
-     "angle": "Identify the specific moment—tribute, quote, or cultural crossover—driving the spike.",
-     "sources": [
-      "x",
-      "trends24"
-     ],
-     "first_seen": "2026-11-03T19:58:53Z",
+     "first_seen": "2026-11-04T01:58:49Z",
      "example_tweets": [],
      "market": null,
      "market_gap": true
@@ -319,7 +258,7 @@
   "trends24": "ok (2 snapshots)",
   "google_trends": "ok (10 items)",
   "gamma_api": "ok (500 markets)",
-  "llm": "ok (60 enriched)",
+  "llm": "ok (7 enriched)",
   "slack": "error: HTTP Error 404: Not Found"
  },
  "x_budget": {
@@ -346,9 +285,9 @@
   "section_order_mode": "activity"
  },
  "stats": {
-  "newly_enriched": 60,
-  "cache_hits": 0,
-  "suppressed": 5,
-  "discarded_non_sports": 44
+  "newly_enriched": 53,
+  "cache_hits": 7,
+  "suppressed": 0,
+  "discarded_non_sports": 50
  }
 }
