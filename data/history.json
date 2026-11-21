@@ -212,24 +212,24 @@
   },
   "end of 1st": {
    "first_seen": "2026-10-31T01:26:49Z",
-   "last_seen": "2026-11-14T02:01:25Z",
+   "last_seen": "2026-11-21T03:00:13Z",
    "sources_seen": [
     "trends24",
     "x"
    ],
    "enrichment": {
     "key": "end of 1st",
-    "sports": true,
-    "league": "NBA",
-    "obvious": true,
+    "sports": false,
+    "league": null,
+    "obvious": false,
     "early": false,
-    "entity": "End of 1st Quarter",
-    "why_now": "Generic game-in-progress term; no specific moment.",
-    "angle": "Suppress: routine game timing reference.",
-    "duplicate_of": "end 1q",
+    "entity": "End of 1st",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-11-14T02:01:25Z"
+   "enriched_at": "2026-11-21T03:00:13Z"
   },
   "caturday": {
    "first_seen": "2026-10-31T17:32:20Z",
@@ -296,7 +296,7 @@
   },
   "smackdown": {
    "first_seen": "2026-11-07T09:44:02Z",
-   "last_seen": "2026-11-14T09:54:28Z",
+   "last_seen": "2026-11-21T03:00:13Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -305,15 +305,15 @@
     "key": "smackdown",
     "sports": true,
     "league": "Other Sports",
-    "obvious": false,
+    "obvious": true,
     "early": false,
     "entity": "WWE SmackDown",
-    "why_now": "#SmackDown trending; likely recent episode or storyline development.",
-    "angle": "Identify the specific wrestling moment (match result, promo, or surprise appearance); leverage wrestling culture.",
+    "why_now": "Live wrestling broadcast airing tonight; routine scheduled event.",
+    "angle": null,
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-11-14T09:54:28Z"
+   "enriched_at": "2026-11-21T03:00:13Z"
   },
   "college gameday": {
    "first_seen": "2026-11-07T17:57:32Z",
@@ -1365,28 +1365,6 @@
    },
    "enriched_at": "2026-11-18T03:23:21Z"
   },
-  "mark pope": {
-   "first_seen": "2026-11-11T10:29:12Z",
-   "last_seen": "2026-11-14T02:01:25Z",
-   "sources_seen": [
-    "google",
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "mark pope",
-    "sports": true,
-    "league": "College Basketball",
-    "obvious": false,
-    "early": false,
-    "entity": "Mark Pope",
-    "why_now": "Kentucky basketball fans chanted 'Fire Mark Pope' during Champions Classic loss to Kansas; era labeled disappointing by analysts.",
-    "angle": "Capitalize on the coaching hot-seat narrative: Pope's job security is now a live story with fan revolt as the hook.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-14T02:01:25Z"
-  },
   "tatyana": {
    "first_seen": "2026-11-11T10:29:12Z",
    "last_seen": "2026-11-18T03:23:21Z",
@@ -1598,27 +1576,6 @@
    },
    "enriched_at": "2026-11-17T21:33:13Z"
   },
-  "microsoft": {
-   "first_seen": "2026-11-13T02:27:36Z",
-   "last_seen": "2026-11-14T02:01:25Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "microsoft",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Microsoft",
-    "why_now": "Tech company trending; no sports connection evident.",
-    "angle": "Out of scope: non-sports business story.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-14T02:01:25Z"
-  },
   "denny": {
    "first_seen": "2026-11-13T02:27:36Z",
    "last_seen": "2026-11-14T09:54:28Z",
@@ -1745,90 +1702,6 @@
    },
    "enriched_at": "2026-11-14T18:40:12Z"
   },
-  "amtrak": {
-   "first_seen": "2026-11-14T02:01:25Z",
-   "last_seen": "2026-11-14T02:01:25Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "amtrak",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Amtrak",
-    "why_now": "Transportation company trending alongside FAA ground stop; infrastructure crisis context.",
-    "angle": "Out of scope: non-sports transportation story.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-14T02:01:25Z"
-  },
-  "groundstop": {
-   "first_seen": "2026-11-14T02:01:25Z",
-   "last_seen": "2026-11-14T02:01:25Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "groundstop",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "FAA Ground Stop",
-    "why_now": "Aviation crisis event; not sports-related.",
-    "angle": "Out of scope: infrastructure/government story.",
-    "duplicate_of": null,
-    "market_id": "7023300"
-   },
-   "enriched_at": "2026-11-14T02:01:25Z"
-  },
-  "new orleans": {
-   "first_seen": "2026-11-14T02:01:25Z",
-   "last_seen": "2026-11-14T02:01:25Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "new orleans",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "New Orleans",
-    "why_now": "City name trending; context unclear but co-trending with FAA/Amtrak suggests infrastructure event.",
-    "angle": "Out of scope: insufficient sports signal.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-14T02:01:25Z"
-  },
-  "mullin": {
-   "first_seen": "2026-11-14T02:01:25Z",
-   "last_seen": "2026-11-14T02:01:25Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "mullin",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Mullin",
-    "why_now": "Name trending with no sports context identified.",
-    "angle": "Out of scope: insufficient sports signal.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-14T02:01:25Z"
-  },
   "workday": {
    "first_seen": "2026-11-14T02:01:25Z",
    "last_seen": "2026-11-14T09:54:28Z",
@@ -1849,111 +1722,6 @@
     "market_id": null
    },
    "enriched_at": "2026-11-14T09:54:28Z"
-  },
-  "planes": {
-   "first_seen": "2026-11-14T02:01:25Z",
-   "last_seen": "2026-11-14T02:01:25Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "planes",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Planes",
-    "why_now": "Generic term trending alongside FAA ground stop; infrastructure crisis context.",
-    "angle": "Out of scope: non-sports aviation story.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-14T02:01:25Z"
-  },
-  "flights": {
-   "first_seen": "2026-11-14T02:01:25Z",
-   "last_seen": "2026-11-14T02:01:25Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "flights",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Flights",
-    "why_now": "Generic term trending with FAA ground stop; transportation crisis.",
-    "angle": "Out of scope: non-sports travel story.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-14T02:01:25Z"
-  },
-  "northern arizona": {
-   "first_seen": "2026-11-14T02:01:25Z",
-   "last_seen": "2026-11-14T02:01:25Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "northern arizona",
-    "sports": true,
-    "league": "College Basketball",
-    "obvious": true,
-    "early": false,
-    "entity": "Northern Arizona Lumberjacks",
-    "why_now": "Opponent in Kentucky vs. Northern Arizona game; pre-game coverage.",
-    "angle": "Suppress: team name in scheduled game context without specific storyline.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-14T02:01:25Z"
-  },
-  "national weather service": {
-   "first_seen": "2026-11-14T02:01:25Z",
-   "last_seen": "2026-11-14T02:01:25Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "national weather service",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "National Weather Service",
-    "why_now": "Government agency trending; likely related to FAA ground stop or weather emergency.",
-    "angle": "Out of scope: non-sports weather/government story.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-14T02:01:25Z"
-  },
-  "leave the world behind": {
-   "first_seen": "2026-11-14T02:01:25Z",
-   "last_seen": "2026-11-14T02:01:25Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "leave the world behind",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Leave the World Behind",
-    "why_now": "Movie title trending; no sports connection.",
-    "angle": "Out of scope: entertainment story.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-14T02:01:25Z"
   },
   "pacers": {
    "first_seen": "2026-11-14T02:01:25Z",
@@ -1976,299 +1744,26 @@
    },
    "enriched_at": "2026-11-14T09:54:28Z"
   },
-  "pete buttigieg": {
-   "first_seen": "2026-11-14T02:01:25Z",
-   "last_seen": "2026-11-14T02:01:25Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "pete buttigieg",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Pete Buttigieg",
-    "why_now": "Transportation Secretary trending alongside FAA ground stop; government response context.",
-    "angle": "Out of scope: non-sports government story.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-14T02:01:25Z"
-  },
-  "international": {
-   "first_seen": "2026-11-14T02:01:25Z",
-   "last_seen": "2026-11-14T02:01:25Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "international",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "International",
-    "why_now": "Generic term; context unclear from co-trending data.",
-    "angle": "Out of scope: insufficient sports signal.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-14T02:01:25Z"
-  },
-  "skynet": {
-   "first_seen": "2026-11-14T02:01:25Z",
-   "last_seen": "2026-11-14T02:01:25Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "skynet",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Skynet",
-    "why_now": "Fictional AI system; likely meme/joke about FAA outage or tech failure.",
-    "angle": "Out of scope: non-sports meme/pop culture.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-14T02:01:25Z"
-  },
-  "mississippi river": {
-   "first_seen": "2026-11-14T02:01:25Z",
-   "last_seen": "2026-11-14T02:01:25Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "mississippi river",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Mississippi River",
-    "why_now": "Geographic feature trending; no sports connection evident.",
-    "angle": "Out of scope: non-sports geography story.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-14T02:01:25Z"
-  },
-  "jensenhuang": {
-   "first_seen": "2026-11-14T02:01:25Z",
-   "last_seen": "2026-11-14T02:01:25Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "jensenhuang",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Jensen Huang",
-    "why_now": "NVIDIA CEO trending; tech/business story, not sports.",
-    "angle": "Out of scope: non-sports business story.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-14T02:01:25Z"
-  },
-  "transportation secretary": {
-   "first_seen": "2026-11-14T02:01:25Z",
-   "last_seen": "2026-11-14T02:01:25Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "transportation secretary",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Transportation Secretary",
-    "why_now": "Government role trending with FAA ground stop; policy/crisis response context.",
-    "angle": "Out of scope: non-sports government story.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-14T02:01:25Z"
-  },
-  "american heritage": {
-   "first_seen": "2026-11-14T02:01:25Z",
-   "last_seen": "2026-11-14T02:01:25Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "american heritage",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "American Heritage",
-    "why_now": "Term trending with no sports context identified.",
-    "angle": "Out of scope: insufficient sports signal.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-14T02:01:25Z"
-  },
-  "john brennan": {
-   "first_seen": "2026-11-14T02:01:25Z",
-   "last_seen": "2026-11-14T02:01:25Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "john brennan",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "John Brennan",
-    "why_now": "Political figure trending; no sports connection.",
-    "angle": "Out of scope: non-sports political story.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-14T02:01:25Z"
-  },
-  "charlotte flair": {
-   "first_seen": "2026-11-14T02:01:25Z",
-   "last_seen": "2026-11-14T02:01:25Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "charlotte flair",
-    "sports": true,
-    "league": "Other Sports",
-    "obvious": false,
-    "early": false,
-    "entity": "Charlotte Flair",
-    "why_now": "WWE SmackDown trending alongside Charlotte Flair; likely a match, return, or on-air moment involving the wrestler.",
-    "angle": "Ride the wrestling storyline: Charlotte Flair is a marquee name; tie content to her SmackDown appearance or feud.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-14T02:01:25Z"
-  },
-  "mayor pete": {
-   "first_seen": "2026-11-14T02:01:25Z",
-   "last_seen": "2026-11-14T02:01:25Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "mayor pete",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Mayor Pete",
-    "why_now": "Pete Buttigieg nickname trending with FAA/transportation crisis; government response.",
-    "angle": "Out of scope: non-sports government story.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-14T02:01:25Z"
-  },
-  "real world": {
-   "first_seen": "2026-11-14T02:01:25Z",
-   "last_seen": "2026-11-14T02:01:25Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "real world",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Real World",
-    "why_now": "TV show title trending; no sports connection.",
-    "angle": "Out of scope: entertainment story.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-14T02:01:25Z"
-  },
   "end 1q": {
    "first_seen": "2026-11-14T02:01:25Z",
-   "last_seen": "2026-11-14T02:01:25Z",
+   "last_seen": "2026-11-21T03:00:13Z",
    "sources_seen": [
     "trends24",
     "x"
    ],
    "enrichment": {
     "key": "end 1q",
-    "sports": true,
-    "league": "NBA",
-    "obvious": true,
-    "early": false,
-    "entity": "End of 1st Quarter",
-    "why_now": "Generic game-in-progress term; no specific moment or storyline.",
-    "angle": "Suppress: routine game timing reference.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-14T02:01:25Z"
-  },
-  "atlantic asphalt": {
-   "first_seen": "2026-11-14T02:01:25Z",
-   "last_seen": "2026-11-14T02:01:25Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "atlantic asphalt",
     "sports": false,
     "league": null,
     "obvious": false,
     "early": false,
-    "entity": "Atlantic Asphalt",
-    "why_now": "Company name trending; no sports connection.",
-    "angle": "Out of scope: non-sports business story.",
+    "entity": "End 1Q",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-11-14T02:01:25Z"
-  },
-  "air traffic control": {
-   "first_seen": "2026-11-14T02:01:25Z",
-   "last_seen": "2026-11-14T02:01:25Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "air traffic control",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Air Traffic Control",
-    "why_now": "System trending with FAA ground stop; infrastructure crisis.",
-    "angle": "Out of scope: non-sports aviation/government story.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-14T02:01:25Z"
+   "enriched_at": "2026-11-21T03:00:13Z"
   },
   "l3harris": {
    "first_seen": "2026-11-14T02:01:25Z",
@@ -2290,501 +1785,6 @@
     "market_id": null
    },
    "enriched_at": "2026-11-14T18:40:12Z"
-  },
-  "cyber": {
-   "first_seen": "2026-11-14T02:01:25Z",
-   "last_seen": "2026-11-14T02:01:25Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "cyber",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Cyber",
-    "why_now": "Generic term trending; likely related to FAA outage speculation.",
-    "angle": "Out of scope: non-sports tech/security story.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-14T02:01:25Z"
-  },
-  "road rules": {
-   "first_seen": "2026-11-14T02:01:25Z",
-   "last_seen": "2026-11-14T02:01:25Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "road rules",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Road Rules",
-    "why_now": "TV show title trending; no sports connection.",
-    "angle": "Out of scope: entertainment story.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-14T02:01:25Z"
-  },
-  "georgetown": {
-   "first_seen": "2026-11-14T02:01:25Z",
-   "last_seen": "2026-11-14T02:01:25Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "georgetown",
-    "sports": true,
-    "league": "College Basketball",
-    "obvious": true,
-    "early": false,
-    "entity": "Georgetown Hoyas",
-    "why_now": "College basketball team name trending; likely scheduled game or routine coverage.",
-    "angle": "Suppress: team name without specific storyline.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-14T02:01:25Z"
-  },
-  "rupp": {
-   "first_seen": "2026-11-14T02:01:25Z",
-   "last_seen": "2026-11-14T02:01:25Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "rupp",
-    "sports": true,
-    "league": "College Basketball",
-    "obvious": true,
-    "early": false,
-    "entity": "Rupp Arena",
-    "why_now": "Kentucky basketball venue name; likely referenced in game coverage.",
-    "angle": "Suppress: venue name in routine game context.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-14T02:01:25Z"
-  },
-  "readytolove": {
-   "first_seen": "2026-11-14T02:01:25Z",
-   "last_seen": "2026-11-14T02:01:25Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "readytolove",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Ready to Love",
-    "why_now": "TV show hashtag trending; no sports connection.",
-    "angle": "Out of scope: entertainment story.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-14T02:01:25Z"
-  },
-  "nola": {
-   "first_seen": "2026-11-14T02:01:25Z",
-   "last_seen": "2026-11-14T02:01:25Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "nola",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "New Orleans",
-    "why_now": "City abbreviation trending; context unclear but co-trending with FAA suggests infrastructure event.",
-    "angle": "Out of scope: insufficient sports signal.",
-    "duplicate_of": "new orleans",
-    "market_id": null
-   },
-   "enriched_at": "2026-11-14T02:01:25Z"
-  },
-  "lifted": {
-   "first_seen": "2026-11-14T02:01:25Z",
-   "last_seen": "2026-11-14T02:01:25Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "lifted",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Lifted",
-    "why_now": "Generic term; likely related to FAA ground stop being lifted.",
-    "angle": "Out of scope: non-sports aviation story.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-14T02:01:25Z"
-  },
-  "ashton daniels": {
-   "first_seen": "2026-11-14T02:01:25Z",
-   "last_seen": "2026-11-14T02:01:25Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "ashton daniels",
-    "sports": true,
-    "league": "College Basketball",
-    "obvious": false,
-    "early": true,
-    "entity": "Ashton Daniels",
-    "why_now": "College basketball player name trending; likely a breakout performance or recruitment story.",
-    "angle": "Early signal: monitor for game highlights or recruiting news; could be a rising prospect story.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-14T02:01:25Z"
-  },
-  "aliens": {
-   "first_seen": "2026-11-14T02:01:25Z",
-   "last_seen": "2026-11-14T02:01:25Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "aliens",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Aliens",
-    "why_now": "Generic term; likely meme/joke about FAA outage or tech failure.",
-    "angle": "Out of scope: non-sports pop culture meme.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-14T02:01:25Z"
-  },
-  "alex lloyd": {
-   "first_seen": "2026-11-14T02:01:25Z",
-   "last_seen": "2026-11-14T02:01:25Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "alex lloyd",
-    "sports": true,
-    "league": "Other Sports",
-    "obvious": false,
-    "early": true,
-    "entity": "Alex Lloyd",
-    "why_now": "Name trending with no major news coverage; early-stage signal.",
-    "angle": "Early signal: investigate for niche sports story or athlete moment; low mainstream awareness.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-14T02:01:25Z"
-  },
-  "rextrix": {
-   "first_seen": "2026-11-14T02:01:25Z",
-   "last_seen": "2026-11-14T02:01:25Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "rextrix",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "RexTrix",
-    "why_now": "Username/handle trending; no sports connection evident.",
-    "angle": "Out of scope: insufficient sports signal.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-14T02:01:25Z"
-  },
-  "die hard 2": {
-   "first_seen": "2026-11-14T02:01:25Z",
-   "last_seen": "2026-11-14T02:01:25Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "die hard 2",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Die Hard 2",
-    "why_now": "Movie title trending; no sports connection.",
-    "angle": "Out of scope: entertainment story.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-14T02:01:25Z"
-  },
-  "nebpreps": {
-   "first_seen": "2026-11-14T02:01:25Z",
-   "last_seen": "2026-11-14T02:01:25Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "nebpreps",
-    "sports": true,
-    "league": "College Football",
-    "obvious": true,
-    "early": false,
-    "entity": "Nebraska High School Football",
-    "why_now": "High school football hashtag; routine score/game coverage.",
-    "angle": "Suppress: generic score aggregation without specific storyline.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-14T02:01:25Z"
-  },
-  "airport": {
-   "first_seen": "2026-11-14T02:01:25Z",
-   "last_seen": "2026-11-14T02:01:25Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "airport",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Airport",
-    "why_now": "Generic term trending with FAA ground stop; transportation crisis.",
-    "angle": "Out of scope: non-sports aviation story.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-14T02:01:25Z"
-  },
-  "john cena classic": {
-   "first_seen": "2026-11-14T02:01:25Z",
-   "last_seen": "2026-11-14T02:01:25Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "john cena classic",
-    "sports": true,
-    "league": "College Basketball",
-    "obvious": true,
-    "early": false,
-    "entity": "John Cena Classic",
-    "why_now": "Tournament name trending; likely a scheduled event or bracket announcement.",
-    "angle": "Suppress: event listing without a specific game result or storyline.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-14T02:01:25Z"
-  },
-  "kentucky basketball": {
-   "first_seen": "2026-11-14T02:01:25Z",
-   "last_seen": "2026-11-14T02:01:25Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "kentucky basketball",
-    "sports": true,
-    "league": "College Basketball",
-    "obvious": true,
-    "early": false,
-    "entity": "Kentucky Wildcats",
-    "why_now": "Pre-game coverage for Kentucky vs. Northern Arizona; how-to-watch and game logistics.",
-    "angle": "Suppress: this is a scheduled event query without a specific storyline or moment.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-14T02:01:25Z"
-  },
-  "sophie cunningham": {
-   "first_seen": "2026-11-14T02:01:25Z",
-   "last_seen": "2026-11-14T02:01:25Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "sophie cunningham",
-    "sports": true,
-    "league": "NBA",
-    "obvious": false,
-    "early": false,
-    "entity": "Sophie Cunningham",
-    "why_now": "NBA player laughed at Stephen A. Smith's claim about white NBA champions; culture-crossover moment.",
-    "angle": "Ride the media criticism angle: Cunningham's response to Smith's controversial take is a personality-driven sports moment.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-14T02:01:25Z"
-  },
-  "snow storms": {
-   "first_seen": "2026-11-14T02:01:25Z",
-   "last_seen": "2026-11-14T02:01:25Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "snow storms",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Snow Storms",
-    "why_now": "Weather event trending; no sports connection.",
-    "angle": "Out of scope: non-sports weather story.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-14T02:01:25Z"
-  },
-  "violent night 2": {
-   "first_seen": "2026-11-14T02:01:25Z",
-   "last_seen": "2026-11-14T02:01:25Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "violent night 2",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Violent Night 2",
-    "why_now": "Movie sequel trending; no sports connection.",
-    "angle": "Out of scope: entertainment story.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-14T02:01:25Z"
-  },
-  "tennessee basketball": {
-   "first_seen": "2026-11-14T02:01:25Z",
-   "last_seen": "2026-11-14T02:01:25Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "tennessee basketball",
-    "sports": true,
-    "league": "College Basketball",
-    "obvious": true,
-    "early": false,
-    "entity": "Tennessee Volunteers",
-    "why_now": "Live game coverage and halftime updates for Tennessee vs. Tennessee State.",
-    "angle": "Suppress: routine game-in-progress updates without a specific storyline.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-14T02:01:25Z"
-  },
-  "nickeil alexander walker": {
-   "first_seen": "2026-11-14T02:01:25Z",
-   "last_seen": "2026-11-14T02:01:25Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "nickeil alexander walker",
-    "sports": true,
-    "league": "NBA",
-    "obvious": true,
-    "early": false,
-    "entity": "Nickeil Alexander-Walker",
-    "why_now": "NBA player name in game recap context; no specific moment or storyline identified.",
-    "angle": "Suppress: generic player mention in routine game coverage.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-14T02:01:25Z"
-  },
-  "tyrese proctor": {
-   "first_seen": "2026-11-14T02:01:25Z",
-   "last_seen": "2026-11-14T02:01:25Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "tyrese proctor",
-    "sports": true,
-    "league": "NBA",
-    "obvious": false,
-    "early": false,
-    "entity": "Tyrese Proctor",
-    "why_now": "Proctor's emergence with Cavaliers; 'could make this player expendable' narrative suggests roster impact story.",
-    "angle": "Ride the breakout narrative: Proctor's rise is creating trade/roster implications for Cleveland.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-14T02:01:25Z"
-  },
-  "georgia high school football scores": {
-   "first_seen": "2026-11-14T02:01:25Z",
-   "last_seen": "2026-11-14T02:01:25Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "georgia high school football scores",
-    "sports": true,
-    "league": "College Football",
-    "obvious": true,
-    "early": false,
-    "entity": "Georgia High School Football",
-    "why_now": "Week 13 scoreboard and playoff results; routine score reporting.",
-    "angle": "Suppress: generic score aggregation without a specific game, player, or storyline.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-14T02:01:25Z"
-  },
-  "white house press briefing": {
-   "first_seen": "2026-11-14T02:01:25Z",
-   "last_seen": "2026-11-14T02:01:25Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "white house press briefing",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "White House Press Briefing",
-    "why_now": "Government event; news coverage mentions Dana White (UFC) declining press secretary offer.",
-    "angle": "Out of scope: non-sports government story (though Dana White is sports-adjacent, the briefing itself is not).",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-14T02:01:25Z"
   },
   "peoria": {
    "first_seen": "2026-11-14T09:54:28Z",
@@ -13685,7 +12685,7 @@
   },
   "iubb": {
    "first_seen": "2026-11-18T03:23:21Z",
-   "last_seen": "2026-11-18T03:23:21Z",
+   "last_seen": "2026-11-21T03:00:13Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -13694,15 +12694,15 @@
     "key": "iubb",
     "sports": true,
     "league": "College Basketball",
-    "obvious": false,
+    "obvious": true,
     "early": false,
-    "entity": "Indiana Hoosiers basketball",
-    "why_now": "Ranking up from #20 to #11; co-trending with Andrej Stojakovic, Quentin Coleman, Brad Underwood (coach).",
-    "angle": "Ride Indiana basketball momentum with player spotlights and coach narrative.",
+    "entity": "Indiana University basketball",
+    "why_now": "Live game broadcast hashtag; routine event.",
+    "angle": null,
     "duplicate_of": null,
-    "market_id": "6949422"
+    "market_id": null
    },
-   "enriched_at": "2026-11-18T03:23:21Z"
+   "enriched_at": "2026-11-21T03:00:13Z"
   },
   "quentin coleman": {
    "first_seen": "2026-11-18T03:23:21Z",
@@ -21448,91 +20448,1218 @@
     "market_id": null
    },
    "enriched_at": "2026-11-20T20:57:24Z"
+  },
+  "hacksaw": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "hacksaw",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": false,
+    "early": true,
+    "entity": "Hacksaw Jim Duggan",
+    "why_now": "Spiking alongside WWE names (Trick Williams, Jade Cargill, Kevin Owens, Damian Priest, Chad Gable); likely appearance or tribute on SmackDown.",
+    "angle": "Ride the nostalgia angle if Hacksaw is featured in a surprise segment or match announcement.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "james harden": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "google",
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "james harden",
+    "sports": true,
+    "league": "NBA",
+    "obvious": false,
+    "early": false,
+    "entity": "James Harden",
+    "why_now": "Spiking on x/trends24/google; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "oplive": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "oplive",
+    "sports": true,
+    "league": "College Basketball",
+    "obvious": true,
+    "early": false,
+    "entity": "Oakland University basketball",
+    "why_now": "Live game broadcast hashtag; routine event.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "milan": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "milan",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": false,
+    "entity": "AC Milan",
+    "why_now": "Spiking on X; likely match day or transfer news; driver unconfirmed without sample tweets.",
+    "angle": "Monitor for match result, injury news, or transfer rumor to identify the specific hook.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "trick williams": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "trick williams",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Trick Williams",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "cannonball": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "cannonball",
+    "sports": true,
+    "league": "College Football",
+    "obvious": false,
+    "early": true,
+    "entity": "Cannonball (player or play)",
+    "why_now": "Spiking on X alongside college football names (Iowa State, Massillon, Chaminade); likely a highlight, nickname, or play from a game.",
+    "angle": "Identify the specific player or moment and create a clip-driven post before mainstream pickup.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "tj moore": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "tj moore",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "TJ Moore",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "jonathan rinderknecht": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "jonathan rinderknecht",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Jonathan Rinderknecht",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "wilkins": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "wilkins",
+    "sports": true,
+    "league": "College Football",
+    "obvious": false,
+    "early": true,
+    "entity": "Wilkins",
+    "why_now": "Spiking alongside college football names; likely a player or coach with a notable moment.",
+    "angle": "Confirm identity and moment, then create content around the performance or storyline.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "opnation": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "opnation",
+    "sports": true,
+    "league": "College Basketball",
+    "obvious": true,
+    "early": false,
+    "entity": "Oakland University basketball fans",
+    "why_now": "Fan community hashtag for live game; routine event.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "iowa state": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "iowa state",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Iowa State",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "royce lewis": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "royce lewis",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Royce Lewis",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "fuwawa": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "fuwawa",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Fuwawa",
+    "why_now": "VTuber/streaming personality; no sports connection.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "jade cargill": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "jade cargill",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Jade Cargill",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "kevin owens": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "kevin owens",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Kevin Owens",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "denson": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "denson",
+    "sports": true,
+    "league": "College Football",
+    "obvious": false,
+    "early": true,
+    "entity": "Denson",
+    "why_now": "Spiking alongside college football names; likely a player with a notable performance.",
+    "angle": "Identify the player and game, then create a highlight or performance-based post.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "bobby miller": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "bobby miller",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Bobby Miller",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "trevin jirak": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "trevin jirak",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Trevin Jirak",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "flora": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "flora",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Flora",
+    "why_now": "Likely non-sports content; context unclear.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "luke ertel": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "luke ertel",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Luke Ertel",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "halal": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "halal",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Halal",
+    "why_now": "Non-sports content; likely food or lifestyle topic.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "isaia howard": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "isaia howard",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Isaia Howard",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "palisades fire": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "palisades fire",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Palisades Fire",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "brandon smith": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "brandon smith",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Brandon Smith",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "riemann": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "riemann",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Riemann",
+    "why_now": "Likely mathematical/scientific reference; no sports connection.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "mason williams": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "mason williams",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Mason Williams",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "will stone": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "will stone",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Will Stone",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "dierre hill": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "dierre hill",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Dierre Hill",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "pearman": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "pearman",
+    "sports": true,
+    "league": "College Football",
+    "obvious": false,
+    "early": true,
+    "entity": "Pearman",
+    "why_now": "Spiking alongside college football names; likely a notable performance or highlight.",
+    "angle": "Identify the player and game, then create a highlight or performance-based post.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "danhausen": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "danhausen",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": false,
+    "early": false,
+    "entity": "Danhausen",
+    "why_now": "Professional wrestler spiking alongside WWE names; likely featured in a broadcast or storyline.",
+    "angle": "Capture fan reaction if Danhausen has a match, promo, or storyline moment.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "josh derry": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "josh derry",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Josh Derry",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "allen graves": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "allen graves",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Allen Graves",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "cody and punk": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "cody and punk",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Cody and Punk",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "wesco": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "wesco",
+    "sports": true,
+    "league": "College Football",
+    "obvious": false,
+    "early": true,
+    "entity": "Wesco",
+    "why_now": "Spiking alongside college football names; likely a player or team with a notable moment.",
+    "angle": "Confirm identity and moment, then create content around the performance or storyline.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "damian priest": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "damian priest",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Damian Priest",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "giulia": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "giulia",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": false,
+    "early": false,
+    "entity": "Giulia",
+    "why_now": "WWE wrestler spiking alongside wrestling talent; likely featured in a broadcast or storyline.",
+    "angle": "Capture fan reaction if Giulia has a match, promo, or storyline moment.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "massillon": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "massillon",
+    "sports": true,
+    "league": "College Football",
+    "obvious": false,
+    "early": false,
+    "entity": "Massillon Tigers",
+    "why_now": "High school football team spiking on X; likely playoff game or notable performance.",
+    "angle": "Monitor for playoff result or standout player performance to identify the specific hook.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "stirtz": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "stirtz",
+    "sports": true,
+    "league": "College Football",
+    "obvious": false,
+    "early": true,
+    "entity": "Stirtz",
+    "why_now": "Spiking alongside college football names; likely a player with a notable performance.",
+    "angle": "Identify the player and game, then create a highlight or performance-based post.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "chad gable": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "chad gable",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Chad Gable",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "mococo": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "mococo",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Mococo",
+    "why_now": "VTuber/streaming personality; no sports connection.",
+    "angle": null,
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "lakeland": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "lakeland",
+    "sports": true,
+    "league": "College Football",
+    "obvious": false,
+    "early": true,
+    "entity": "Lakeland",
+    "why_now": "Spiking alongside college football names; likely a team or player with a notable moment.",
+    "angle": "Confirm identity and moment, then create content around the performance or storyline.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "nba cup": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "nba cup",
+    "sports": true,
+    "league": "NBA",
+    "obvious": false,
+    "early": false,
+    "entity": "NBA Cup",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "dodgers": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "dodgers",
+    "sports": true,
+    "league": "MLB",
+    "obvious": false,
+    "early": false,
+    "entity": "Los Angeles Dodgers",
+    "why_now": "Spiking on X; likely offseason news, free agency, or playoff-related content.",
+    "angle": "Monitor for trade news, signing announcement, or roster update to identify the specific angle.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "happy birthday erika": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "happy birthday erika",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Happy Birthday Erika",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "moco chan": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "moco chan",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Moco-chan",
+    "why_now": "Spiking on x/trends24; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "chaminade": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "chaminade",
+    "sports": true,
+    "league": "College Basketball",
+    "obvious": false,
+    "early": false,
+    "entity": "Chaminade Silverswords",
+    "why_now": "College basketball team spiking on X; likely game day or notable performance.",
+    "angle": "Monitor for game result or player highlight to identify the specific angle.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "sylvester stallone": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "sylvester stallone",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "sylvester stallone",
+    "why_now": "Spiking on google; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "juárez atlas": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "juárez atlas",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": true,
+    "entity": "juárez - atlas",
+    "why_now": "Spiking on google; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "florida weather tropical storm forecast": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "florida weather tropical storm forecast",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "florida weather tropical storm forecast",
+    "why_now": "Spiking on google; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "kieran culkin": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "kieran culkin",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "kieran culkin",
+    "why_now": "Spiking on google; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "fbi hacked": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "fbi hacked",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "fbi hacked",
+    "why_now": "Spiking on google; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "dolores huerta": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "dolores huerta",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "dolores huerta",
+    "why_now": "Spiking on google; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "ghsa football playoffs": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "ghsa football playoffs",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": false,
+    "early": true,
+    "entity": "ghsa football playoffs",
+    "why_now": "Spiking on google; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "american airlines phoenix flight": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "american airlines phoenix flight",
+    "sports": true,
+    "league": "NHL",
+    "obvious": false,
+    "early": true,
+    "entity": "american airlines phoenix flight",
+    "why_now": "Spiking on google; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
+  },
+  "hunting wives season 2": {
+   "first_seen": "2026-11-21T03:00:13Z",
+   "last_seen": "2026-11-21T03:00:13Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "hunting wives season 2",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": true,
+    "entity": "hunting wives season 2",
+    "why_now": "Spiking on google; driver unconfirmed (fallback classifier — no LLM key).",
+    "angle": "Verify the driver manually before attaching content (fallback mode).",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-21T03:00:13Z"
   }
  },
  "x_usage": {
-  "2026-11-13": 0,
   "2026-11-14": 0,
   "2026-11-15": 0,
   "2026-11-16": 0,
   "2026-11-17": 0,
   "2026-11-18": 0,
   "2026-11-19": 0,
-  "2026-11-20": 0
+  "2026-11-20": 0,
+  "2026-11-21": 0
  },
  "prev_x_trends": [
-  "Daniel Jones",
-  "Colts",
-  "Riemann Hypothesis",
-  "Rikers",
-  "#TSTheErasTour",
-  "Anthony Richardson",
-  "Danny Dimes",
-  "Carlie",
-  "Puka",
-  "Achilles",
-  "Josh Johnson",
-  "Mensah",
-  "Seth Rogen",
-  "Macaulay Culkin",
-  "Lean",
-  "Vance and Rubio",
-  "McVay",
-  "#AccountabilityIsComing",
-  "Ballard",
-  "#FursuitFriday",
-  "Home Alone",
-  "Mamdani",
-  "WhatsApp",
-  "Nasdaq",
-  "Playa del Carmen",
-  "#TejRan",
-  "Moby",
-  "Transgender Day of Remembrance",
-  "Rubio and Vance",
-  "Steichen",
-  "Waka Flocka",
-  "#UditiSingh",
-  "David Duke",
-  "Joey Bart",
-  "Graf",
-  "Bayern",
-  "Buttons",
-  "Espanyol",
-  "Shabbat Shalom",
-  "Happy Thanksgiving",
-  "Al Nassr",
-  "New Yorkers",
-  "Levent Alpöge",
-  "Dark Shadows",
-  "Portia",
-  "Ayers",
-  "Bowen Yang",
-  "Bonnie and Clyde",
-  "Catherine O",
-  "Grandes Ligas"
+  "#SmackDown",
+  "Hacksaw",
+  "James Harden",
+  "#OPLive",
+  "#iubb",
+  "Milan",
+  "Trick Williams",
+  "#Cannonball",
+  "TJ Moore",
+  "Jonathan Rinderknecht",
+  "Wilkins",
+  "#OPNation",
+  "Iowa State",
+  "Royce Lewis",
+  "Fuwawa",
+  "Jade Cargill",
+  "Kevin Owens",
+  "Denson",
+  "End 1Q",
+  "Bobby Miller",
+  "Trevin Jirak",
+  "Flora",
+  "Luke Ertel",
+  "Halal",
+  "Isaia Howard",
+  "Palisades Fire",
+  "Brandon Smith",
+  "Riemann",
+  "Mason Williams",
+  "Will Stone",
+  "Dierre Hill",
+  "Pearman",
+  "Danhausen",
+  "Josh Derry",
+  "Allen Graves",
+  "Cody and Punk",
+  "Wesco",
+  "Damian Priest",
+  "Giulia",
+  "Massillon",
+  "Stirtz",
+  "Chad Gable",
+  "Mococo",
+  "Lakeland",
+  "NBA Cup",
+  "Dodgers",
+  "Happy Birthday Erika",
+  "Moco-chan",
+  "Chaminade",
+  "End of 1st"
  ],
  "suppressed": [
-  {
-   "key": "whodey",
-   "reason": "Bengals fan rallying cry; standard game-day hashtag for Bengals-Falcons matchup.",
-   "at": "2026-11-08T18:14:45Z"
-  },
-  {
-   "key": "good sunday",
-   "reason": "Generic Sunday greeting co-trending with NFL game hashtags; no specific moment.",
-   "at": "2026-11-08T18:14:45Z"
-  },
-  {
-   "key": "askfft",
-   "reason": "Fantasy football hashtag; standard game-day engagement for fantasy players.",
-   "at": "2026-11-08T18:14:45Z"
-  },
-  {
-   "key": "cinvsatl",
-   "reason": "Game hashtag for Bengals-Falcons matchup on 2026-11-08; no specific viral moment.",
-   "at": "2026-11-08T18:14:45Z"
-  },
   {
    "key": "dirtybirds",
    "reason": "Falcons fan nickname; standard game-day hashtag for Falcons-Bengals matchup.",
@@ -22512,6 +22639,26 @@
    "key": "virginia tech vs northwestern",
    "reason": "Pre-game preview and betting line for college basketball game—standard match logistics.",
    "at": "2026-11-20T20:57:24Z"
+  },
+  {
+   "key": "smackdown",
+   "reason": "Live wrestling broadcast airing tonight; routine scheduled event.",
+   "at": "2026-11-21T03:00:13Z"
+  },
+  {
+   "key": "oplive",
+   "reason": "Live game broadcast hashtag; routine event.",
+   "at": "2026-11-21T03:00:13Z"
+  },
+  {
+   "key": "iubb",
+   "reason": "Live game broadcast hashtag; routine event.",
+   "at": "2026-11-21T03:00:13Z"
+  },
+  {
+   "key": "opnation",
+   "reason": "Fan community hashtag for live game; routine event.",
+   "at": "2026-11-21T03:00:13Z"
   }
  ],
  "slack_posted": {
