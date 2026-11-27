@@ -1,47 +1,5 @@
 {
  "trends": {
-  "fursuitfriday": {
-   "first_seen": "2026-10-09T18:41:29Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "fursuitfriday",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Fursuit Friday",
-    "why_now": "Furry community meme; no sports connection.",
-    "angle": "Not sports-related; exclude from sports radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
-  },
-  "shabbat shalom": {
-   "first_seen": "2026-10-16T17:12:43Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "shabbat shalom",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Shabbat Shalom",
-    "why_now": "Religious greeting; no sports connection.",
-    "angle": "Not sports-related; exclude from sports radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
-  },
   "end of 1st": {
    "first_seen": "2026-10-31T01:26:49Z",
    "last_seen": "2026-11-21T03:00:13Z",
@@ -781,7 +739,7 @@
   },
   "steelers": {
    "first_seen": "2026-11-16T10:46:23Z",
-   "last_seen": "2026-11-25T22:11:33Z",
+   "last_seen": "2026-11-27T21:50:42Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -790,15 +748,15 @@
     "key": "steelers",
     "sports": true,
     "league": "NFL",
-    "obvious": false,
+    "obvious": true,
     "early": false,
     "entity": "Pittsburgh Steelers",
-    "why_now": "Thanksgiving Day matchup vs. Packers; co-trending with Rodgers, McAfee, James Harrison, Mason Rudolph, Pat Freiermuth suggests game-day narrative.",
-    "angle": "Leverage Thanksgiving NFL tradition angle; tie to Steelers roster storylines or broadcast moments.",
+    "why_now": "Team name trending on game day; no specific storyline beyond scheduled event.",
+    "angle": "Suppress: generic team-on-game-day trend. Only elevate if specific controversy, injury, or viral moment emerges.",
     "duplicate_of": null,
-    "market_id": "6710260"
+    "market_id": "6783355"
    },
-   "enriched_at": "2026-11-25T22:11:33Z"
+   "enriched_at": "2026-11-27T21:50:42Z"
   },
   "thegildedage": {
    "first_seen": "2026-11-16T10:46:23Z",
@@ -926,27 +884,6 @@
     "market_id": null
    },
    "enriched_at": "2026-11-22T20:11:27Z"
-  },
-  "new yorkers": {
-   "first_seen": "2026-11-16T22:46:11Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "new yorkers",
-    "sports": true,
-    "league": "NFL",
-    "obvious": false,
-    "early": true,
-    "entity": "New York Giants/Jets",
-    "why_now": "Trending; likely tied to Giants QB drama (Daniel Jones cluster) or Jets news.",
-    "angle": "Monitor for New York football storyline; early signal on metro area team news.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
   },
   "good tuesday": {
    "first_seen": "2026-11-17T11:34:34Z",
@@ -1116,27 +1053,6 @@
    },
    "enriched_at": "2026-11-21T19:58:39Z"
   },
-  "tejran": {
-   "first_seen": "2026-11-18T21:09:33Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "tejran",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "TejRan",
-    "why_now": "Reality TV couple; no sports connection.",
-    "angle": "Not sports-related; exclude from sports radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
-  },
   "good thursday": {
    "first_seen": "2026-11-19T11:26:25Z",
    "last_seen": "2026-11-26T12:00:08Z",
@@ -1158,27 +1074,6 @@
    },
    "enriched_at": "2026-11-26T12:00:08Z"
   },
-  "whatsapp": {
-   "first_seen": "2026-11-19T21:13:18Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "whatsapp",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "WhatsApp",
-    "why_now": "Messaging app; no sports connection.",
-    "angle": "Not sports-related; exclude from sports radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
-  },
   "aikman": {
    "first_seen": "2026-11-19T21:13:18Z",
    "last_seen": "2026-11-24T13:23:41Z",
@@ -1199,27 +1094,6 @@
     "market_id": null
    },
    "enriched_at": "2026-11-24T13:23:41Z"
-  },
-  "nasdaq": {
-   "first_seen": "2026-11-19T21:13:18Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "nasdaq",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Nasdaq",
-    "why_now": "Stock exchange; no sports connection.",
-    "angle": "Not sports-related; exclude from sports radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
   },
   "tom holland": {
    "first_seen": "2026-11-19T21:13:18Z",
@@ -1264,69 +1138,6 @@
    },
    "enriched_at": "2026-11-22T10:52:07Z"
   },
-  "daniel jones": {
-   "first_seen": "2026-11-20T02:52:33Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "daniel jones",
-    "sports": true,
-    "league": "NFL",
-    "obvious": false,
-    "early": false,
-    "entity": "Daniel Jones",
-    "why_now": "Giants QB trending alongside 'Danny Dimes,' 'Colts,' 'Anthony Richardson,' and '#AccountabilityIsComing'—suggests a specific game moment, trade speculation, or performance controversy.",
-    "angle": "Capture the viral QB narrative (Jones vs. Richardson comparison, accountability angle) before mainstream sports media saturates it.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
-  },
-  "colts": {
-   "first_seen": "2026-11-20T02:52:33Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "colts",
-    "sports": true,
-    "league": "NFL",
-    "obvious": false,
-    "early": false,
-    "entity": "Indianapolis Colts",
-    "why_now": "Colts co-trending with Daniel Jones, Anthony Richardson, Josh Johnson, Steichen, Ballard, and McVay—indicates QB/coaching staff drama or roster move.",
-    "angle": "Ride the Colts QB carousel narrative (Richardson, Jones, Johnson) and front-office accountability storyline.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
-  },
-  "puka": {
-   "first_seen": "2026-11-20T02:52:33Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "puka",
-    "sports": true,
-    "league": "NFL",
-    "obvious": false,
-    "early": true,
-    "entity": "Puka Nacua",
-    "why_now": "Chargers WR; trending but no co-trending context provided—likely injury update, trade rumor, or performance spike.",
-    "angle": "Early signal on Chargers WR news; monitor for injury/trade angle before mainstream pickup.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
-  },
   "percyjackson": {
    "first_seen": "2026-11-20T11:01:38Z",
    "last_seen": "2026-11-27T11:52:18Z",
@@ -1368,27 +1179,6 @@
     "market_id": null
    },
    "enriched_at": "2026-11-27T11:52:18Z"
-  },
-  "anthony richardson": {
-   "first_seen": "2026-11-20T11:01:38Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "anthony richardson",
-    "sports": true,
-    "league": "NFL",
-    "obvious": false,
-    "early": false,
-    "entity": "Anthony Richardson",
-    "why_now": "Colts QB trending with Daniel Jones, Josh Johnson, Steichen, and Ballard—suggests QB competition, benching, or trade speculation.",
-    "angle": "Leverage the QB battle/uncertainty angle; position as the 'what's next for Richardson' story.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
   },
   "edwin": {
    "first_seen": "2026-11-20T11:01:38Z",
@@ -1432,27 +1222,6 @@
    },
    "enriched_at": "2026-11-21T19:58:39Z"
   },
-  "bowen yang": {
-   "first_seen": "2026-11-20T11:01:38Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "bowen yang",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Bowen Yang",
-    "why_now": "Actor/comedian; no sports connection.",
-    "angle": "Not sports-related; exclude from sports radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
-  },
   "playstation plus": {
    "first_seen": "2026-11-20T11:01:38Z",
    "last_seen": "2026-11-22T01:56:56Z",
@@ -1493,132 +1262,6 @@
    },
    "enriched_at": "2026-11-25T12:16:51Z"
   },
-  "riemann hypothesis": {
-   "first_seen": "2026-11-20T20:57:24Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "riemann hypothesis",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Riemann Hypothesis",
-    "why_now": "Mathematical problem; no sports connection.",
-    "angle": "Not sports-related; exclude from sports radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
-  },
-  "rikers": {
-   "first_seen": "2026-11-20T20:57:24Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "rikers",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Rikers Island",
-    "why_now": "Prison facility; no sports connection.",
-    "angle": "Not sports-related; exclude from sports radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
-  },
-  "tstheerastour": {
-   "first_seen": "2026-11-20T20:57:24Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "tstheerastour",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Taylor Swift Eras Tour",
-    "why_now": "Concert tour; not sports-related (though tangentially tied to sports via WAG culture/Mahomes).",
-    "angle": "Not core sports; exclude from sports radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
-  },
-  "danny dimes": {
-   "first_seen": "2026-11-20T20:57:24Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "danny dimes",
-    "sports": true,
-    "league": "NFL",
-    "obvious": false,
-    "early": false,
-    "entity": "Daniel Jones",
-    "why_now": "Nickname for Daniel Jones; co-trending with Colts, Anthony Richardson, Josh Johnson—same QB drama cluster.",
-    "angle": "Use the meme nickname to humanize the QB accountability story.",
-    "duplicate_of": "daniel jones",
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
-  },
-  "carlie": {
-   "first_seen": "2026-11-20T20:57:24Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "carlie",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Carlie",
-    "why_now": "No sports connection evident; likely personal name or unrelated trend.",
-    "angle": "Not sports-related; exclude from sports radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
-  },
-  "achilles": {
-   "first_seen": "2026-11-20T20:57:24Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "achilles",
-    "sports": true,
-    "league": "NFL",
-    "obvious": false,
-    "early": true,
-    "entity": "Achilles injury",
-    "why_now": "Trending alongside Puka Nacua—likely indicates Nacua Achilles injury update or recovery timeline.",
-    "angle": "Ride the injury-comeback narrative if Nacua is returning; position as 'watch his status' story.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
-  },
   "josh johnson": {
    "first_seen": "2026-11-20T20:57:24Z",
    "last_seen": "2026-11-22T20:11:27Z",
@@ -1639,342 +1282,6 @@
     "market_id": null
    },
    "enriched_at": "2026-11-22T20:11:27Z"
-  },
-  "mensah": {
-   "first_seen": "2026-11-20T20:57:24Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "mensah",
-    "sports": true,
-    "league": "NFL",
-    "obvious": false,
-    "early": true,
-    "entity": "Mensah",
-    "why_now": "Trending but no co-trending context; likely NFL player (possibly Colts-related given cluster) or injury/trade news.",
-    "angle": "Driver unconfirmed; monitor for Colts connection or standalone player news.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
-  },
-  "seth rogen": {
-   "first_seen": "2026-11-20T20:57:24Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "seth rogen",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Seth Rogen",
-    "why_now": "Actor/comedian; no sports connection evident.",
-    "angle": "Not sports-related; exclude from sports radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
-  },
-  "macaulay culkin": {
-   "first_seen": "2026-11-20T20:57:24Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "macaulay culkin",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Macaulay Culkin",
-    "why_now": "Actor; no sports connection evident.",
-    "angle": "Not sports-related; exclude from sports radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
-  },
-  "lean": {
-   "first_seen": "2026-11-20T20:57:24Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "lean",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Lean",
-    "why_now": "No sports connection evident; likely drug reference or unrelated trend.",
-    "angle": "Not sports-related; exclude from sports radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
-  },
-  "vance and rubio": {
-   "first_seen": "2026-11-20T20:57:24Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "vance and rubio",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Vance and Rubio",
-    "why_now": "Political figures; no sports connection.",
-    "angle": "Not sports-related; exclude from sports radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
-  },
-  "mcvay": {
-   "first_seen": "2026-11-20T20:57:24Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "mcvay",
-    "sports": true,
-    "league": "NFL",
-    "obvious": false,
-    "early": false,
-    "entity": "Sean McVay",
-    "why_now": "Rams HC trending; unclear direct link to Colts cluster—may indicate coaching news, trade speculation, or separate game moment.",
-    "angle": "Monitor for McVay-to-Colts speculation or Rams game storyline; driver unconfirmed.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
-  },
-  "accountabilityiscoming": {
-   "first_seen": "2026-11-20T20:57:24Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "accountabilityiscoming",
-    "sports": true,
-    "league": "NFL",
-    "obvious": false,
-    "early": false,
-    "entity": "Colts organization",
-    "why_now": "Hashtag co-trending with Colts QB cluster (Jones, Richardson, Johnson, Steichen, Ballard)—suggests team-wide accountability message or locker-room statement.",
-    "angle": "Capture the organizational reckoning narrative; tie to QB decisions and coaching.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
-  },
-  "ballard": {
-   "first_seen": "2026-11-20T20:57:24Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "ballard",
-    "sports": true,
-    "league": "NFL",
-    "obvious": false,
-    "early": false,
-    "entity": "Chris Ballard",
-    "why_now": "Colts GM trending with QB cluster and Steichen—suggests roster/draft accountability or QB acquisition news.",
-    "angle": "Position as the front-office decision-maker in the QB crisis narrative.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
-  },
-  "home alone": {
-   "first_seen": "2026-11-20T20:57:24Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "home alone",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Home Alone",
-    "why_now": "Movie; no sports connection.",
-    "angle": "Not sports-related; exclude from sports radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
-  },
-  "mamdani": {
-   "first_seen": "2026-11-20T20:57:24Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "mamdani",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Mamdani",
-    "why_now": "No sports connection evident; likely academic or unrelated trend.",
-    "angle": "Not sports-related; exclude from sports radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
-  },
-  "playa del carmen": {
-   "first_seen": "2026-11-20T20:57:24Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "playa del carmen",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Playa del Carmen",
-    "why_now": "Travel destination; no sports connection.",
-    "angle": "Not sports-related; exclude from sports radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
-  },
-  "moby": {
-   "first_seen": "2026-11-20T20:57:24Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "moby",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Moby",
-    "why_now": "Musician; no sports connection.",
-    "angle": "Not sports-related; exclude from sports radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
-  },
-  "transgender day of remembrance": {
-   "first_seen": "2026-11-20T20:57:24Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "transgender day of remembrance",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Transgender Day of Remembrance",
-    "why_now": "Observance; no sports connection.",
-    "angle": "Not sports-related; exclude from sports radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
-  },
-  "rubio and vance": {
-   "first_seen": "2026-11-20T20:57:24Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "rubio and vance",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Rubio and Vance",
-    "why_now": "Political figures; no sports connection.",
-    "angle": "Not sports-related; exclude from sports radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
-  },
-  "steichen": {
-   "first_seen": "2026-11-20T20:57:24Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "steichen",
-    "sports": true,
-    "league": "NFL",
-    "obvious": false,
-    "early": false,
-    "entity": "Shane Steichen",
-    "why_now": "Colts HC trending with QB cluster (Jones, Richardson, Johnson) and Ballard—suggests coaching decision or game management controversy.",
-    "angle": "Frame as coach under pressure; tie to QB decision-making and team accountability.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
-  },
-  "waka flocka": {
-   "first_seen": "2026-11-20T20:57:24Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "waka flocka",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Waka Flocka",
-    "why_now": "Rapper; no sports connection evident.",
-    "angle": "Not sports-related; exclude from sports radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
   },
   "uditisingh": {
    "first_seen": "2026-11-20T20:57:24Z",
@@ -1997,132 +1304,6 @@
    },
    "enriched_at": "2026-11-24T13:23:41Z"
   },
-  "david duke": {
-   "first_seen": "2026-11-20T20:57:24Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "david duke",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "David Duke",
-    "why_now": "Political figure; no sports connection.",
-    "angle": "Not sports-related; exclude from sports radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
-  },
-  "joey bart": {
-   "first_seen": "2026-11-20T20:57:24Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "joey bart",
-    "sports": true,
-    "league": "MLB",
-    "obvious": false,
-    "early": true,
-    "entity": "Joey Bart",
-    "why_now": "MLB catcher; trending with Nolan Gorman and Gavin Sheets (non-tender/free agency news)—likely offseason transaction.",
-    "angle": "Capture the MLB free-agency/non-tender wave before it saturates; position as 'sleeper signing' story.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
-  },
-  "graf": {
-   "first_seen": "2026-11-20T20:57:24Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "graf",
-    "sports": true,
-    "league": "Tennis",
-    "obvious": false,
-    "early": true,
-    "entity": "Graf",
-    "why_now": "Likely tennis player (possibly Steffi Graf reference or current player); trending but context unclear.",
-    "angle": "Driver unconfirmed; monitor for tennis tournament or player news.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
-  },
-  "bayern": {
-   "first_seen": "2026-11-20T20:57:24Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "bayern",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": false,
-    "early": false,
-    "entity": "FC Bayern München",
-    "why_now": "Bayern trending; co-trending with Espanyol, Athletic Club—likely Bundesliga or European match day.",
-    "angle": "Capture Bayern's match narrative (win/loss/controversy) before saturation.",
-    "duplicate_of": null,
-    "market_id": "6771192"
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
-  },
-  "buttons": {
-   "first_seen": "2026-11-20T20:57:24Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "buttons",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Buttons",
-    "why_now": "No sports connection evident; likely fashion, meme, or unrelated trend.",
-    "angle": "Not sports-related; exclude from sports radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
-  },
-  "espanyol": {
-   "first_seen": "2026-11-20T20:57:24Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "espanyol",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": false,
-    "early": false,
-    "entity": "RCD Espanyol",
-    "why_now": "Espanyol co-trending with Bayern, Athletic Club—likely La Liga or European match day.",
-    "angle": "Position as underdog or rivalry angle in Spanish football.",
-    "duplicate_of": null,
-    "market_id": "6774417"
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
-  },
   "happy thanksgiving": {
    "first_seen": "2026-11-20T20:57:24Z",
    "last_seen": "2026-11-26T12:00:08Z",
@@ -2143,374 +1324,6 @@
     "market_id": null
    },
    "enriched_at": "2026-11-26T12:00:08Z"
-  },
-  "al nassr": {
-   "first_seen": "2026-11-20T20:57:24Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "al nassr",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": false,
-    "early": true,
-    "entity": "Al Nassr",
-    "why_now": "Saudi club trending; likely Saudi Pro League match or Cristiano Ronaldo-related news.",
-    "angle": "Early signal on Saudi football; monitor for Ronaldo or transfer news.",
-    "duplicate_of": null,
-    "market_id": "5191020"
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
-  },
-  "levent alpöge": {
-   "first_seen": "2026-11-20T20:57:24Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "levent alpöge",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Levent Alpöge",
-    "why_now": "No sports connection evident; likely academic or unrelated trend.",
-    "angle": "Not sports-related; exclude from sports radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
-  },
-  "dark shadows": {
-   "first_seen": "2026-11-20T20:57:24Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "dark shadows",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Dark Shadows",
-    "why_now": "TV show/movie; no sports connection.",
-    "angle": "Not sports-related; exclude from sports radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
-  },
-  "portia": {
-   "first_seen": "2026-11-20T20:57:24Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "portia",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Portia",
-    "why_now": "No sports connection evident; likely personal name or entertainment.",
-    "angle": "Not sports-related; exclude from sports radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
-  },
-  "ayers": {
-   "first_seen": "2026-11-20T20:57:24Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "ayers",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Ayers",
-    "why_now": "No sports connection evident; likely personal name or unrelated trend.",
-    "angle": "Not sports-related; exclude from sports radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
-  },
-  "bonnie and clyde": {
-   "first_seen": "2026-11-20T20:57:24Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "bonnie and clyde",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Bonnie and Clyde",
-    "why_now": "Historical/cultural reference; no sports connection.",
-    "angle": "Not sports-related; exclude from sports radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
-  },
-  "catherine o": {
-   "first_seen": "2026-11-20T20:57:24Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "catherine o",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Catherine O",
-    "why_now": "No sports connection evident; likely personal name or unrelated trend.",
-    "angle": "Not sports-related; exclude from sports radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
-  },
-  "grandes ligas": {
-   "first_seen": "2026-11-20T20:57:24Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "trends24",
-    "x"
-   ],
-   "enrichment": {
-    "key": "grandes ligas",
-    "sports": true,
-    "league": "MLB",
-    "obvious": false,
-    "early": true,
-    "entity": "MLB (Spanish)",
-    "why_now": "Spanish-language MLB trending; likely tied to offseason news or Latin American player signings.",
-    "angle": "Tap into Spanish-language sports audience; position as 'Latino player spotlight' or offseason move.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
-  },
-  "spcx stock": {
-   "first_seen": "2026-11-20T20:57:24Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "spcx stock",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "SpaceX Stock",
-    "why_now": "Financial/tech news; no sports connection.",
-    "angle": "Not sports-related; exclude from sports radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
-  },
-  "meta stock": {
-   "first_seen": "2026-11-20T20:57:24Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "meta stock",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Meta Stock",
-    "why_now": "Financial/tech news; no sports connection.",
-    "angle": "Not sports-related; exclude from sports radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
-  },
-  "porto vs paredes": {
-   "first_seen": "2026-11-20T20:57:24Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "porto vs paredes",
-    "sports": true,
-    "league": "Soccer",
-    "obvious": true,
-    "early": false,
-    "entity": "FC Porto vs Paredes",
-    "why_now": "Pre-game lineup preview for Taça de Portugal match—standard match logistics.",
-    "angle": "Suppress as obvious pre-game content; no specific viral moment or storyline.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
-  },
-  "virginia tech vs northwestern": {
-   "first_seen": "2026-11-20T20:57:24Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "virginia tech vs northwestern",
-    "sports": true,
-    "league": "College Basketball",
-    "obvious": true,
-    "early": false,
-    "entity": "Virginia Tech vs Northwestern",
-    "why_now": "Pre-game preview and betting line for college basketball game—standard match logistics.",
-    "angle": "Suppress as obvious pre-game content; no specific viral moment.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
-  },
-  "ben affleck": {
-   "first_seen": "2026-11-20T20:57:24Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "ben affleck",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Ben Affleck",
-    "why_now": "Actor; no sports connection (though tangentially tied via Jennifer Garner/Mahomes WAG culture).",
-    "angle": "Not core sports; exclude from sports radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
-  },
-  "stephen a smith": {
-   "first_seen": "2026-11-20T20:57:24Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "stephen a smith",
-    "sports": true,
-    "league": "NBA",
-    "obvious": false,
-    "early": false,
-    "entity": "Stephen A. Smith",
-    "why_now": "ESPN analyst trending with Lakers racial composition controversy—specific quote/take on team makeup.",
-    "angle": "Capture the hot-take controversy; position as 'analyst under fire' or 'race in sports' debate.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
-  },
-  "nolan gorman": {
-   "first_seen": "2026-11-20T20:57:24Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "nolan gorman",
-    "sports": true,
-    "league": "MLB",
-    "obvious": false,
-    "early": true,
-    "entity": "Nolan Gorman",
-    "why_now": "Cardinals non-tendered; co-trending with Joey Bart and Gavin Sheets—MLB offseason free-agency cluster.",
-    "angle": "Ride the non-tender surprise; position as 'undervalued prospect' or 'next team landing' story.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
-  },
-  "is taylor swift pregnant": {
-   "first_seen": "2026-11-20T20:57:24Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "is taylor swift pregnant",
-    "sports": true,
-    "league": "NFL",
-    "obvious": false,
-    "early": false,
-    "entity": "Taylor Swift pregnancy rumor",
-    "why_now": "Search query tied to Patrick Mahomes' wife Brittany's pregnancy announcement and CMA Awards appearance—WAG/celebrity culture moment.",
-    "angle": "Ride the celebrity-athlete romance angle; position as 'Mahomes family news' rather than Taylor focus.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
-  },
-  "gavin sheets": {
-   "first_seen": "2026-11-20T20:57:24Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "gavin sheets",
-    "sports": true,
-    "league": "MLB",
-    "obvious": false,
-    "early": true,
-    "entity": "Gavin Sheets",
-    "why_now": "Padres signed Sheets to 3-year deal; co-trending with Joey Bart and Nolan Gorman—MLB offseason transaction cluster.",
-    "angle": "Highlight the Padres' outfield investment; tie to non-tender decisions and market value shifts.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
-  },
-  "dell stock": {
-   "first_seen": "2026-11-20T20:57:24Z",
-   "last_seen": "2026-11-20T20:57:24Z",
-   "sources_seen": [
-    "google"
-   ],
-   "enrichment": {
-    "key": "dell stock",
-    "sports": false,
-    "league": null,
-    "obvious": false,
-    "early": false,
-    "entity": "Dell Stock",
-    "why_now": "Financial/tech news; no sports connection.",
-    "angle": "Not sports-related; exclude from sports radar.",
-    "duplicate_of": null,
-    "market_id": null
-   },
-   "enriched_at": "2026-11-20T20:57:24Z"
   },
   "hacksaw": {
    "first_seen": "2026-11-21T03:00:13Z",
@@ -3682,7 +2495,7 @@
   },
   "nebraska": {
    "first_seen": "2026-11-21T19:58:39Z",
-   "last_seen": "2026-11-22T01:56:56Z",
+   "last_seen": "2026-11-27T21:50:42Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -3694,12 +2507,12 @@
     "obvious": false,
     "early": false,
     "entity": "Nebraska Cornhuskers",
-    "why_now": "Co-trending with Jeremiah Smith, Ryan Day, Ohio State; likely Ohio State vs Nebraska game with specific storyline beyond scoreboard.",
-    "angle": "Focus on the narrative angle (rivalry, playoff implications, coaching drama) not the game itself.",
+    "why_now": "Co-trending with Huskers, Rhule; likely bowl-game or coaching storyline.",
+    "angle": "Capture Nebraska bowl-game narrative or Rhule coaching performance angle.",
     "duplicate_of": null,
-    "market_id": "6821851"
+    "market_id": null
    },
-   "enriched_at": "2026-11-21T19:58:39Z"
+   "enriched_at": "2026-11-27T21:50:42Z"
   },
   "ufcqatar": {
    "first_seen": "2026-11-21T19:58:39Z",
@@ -3997,7 +2810,7 @@
   },
   "huskers": {
    "first_seen": "2026-11-21T19:58:39Z",
-   "last_seen": "2026-11-21T19:58:39Z",
+   "last_seen": "2026-11-27T21:50:42Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -4008,13 +2821,13 @@
     "league": "College Football",
     "obvious": false,
     "early": false,
-    "entity": "Nebraska Huskers",
-    "why_now": "Team nickname trending #17; duplicate of Nebraska; part of Ohio State game narrative.",
-    "angle": "Same as Nebraska—focus on the specific storyline, not the team name.",
+    "entity": "Nebraska Cornhuskers",
+    "why_now": "Co-trending with Nebraska, Rhule; likely bowl-game or coaching storyline.",
+    "angle": "Capture Nebraska bowl-game or Rhule coaching narrative.",
     "duplicate_of": "nebraska",
     "market_id": null
    },
-   "enriched_at": "2026-11-21T19:58:39Z"
+   "enriched_at": "2026-11-27T21:50:42Z"
   },
   "isaiah west": {
    "first_seen": "2026-11-21T19:58:39Z",
@@ -4081,7 +2894,7 @@
   },
   "alonso": {
    "first_seen": "2026-11-21T19:58:39Z",
-   "last_seen": "2026-11-21T19:58:39Z",
+   "last_seen": "2026-11-27T21:50:42Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -4092,13 +2905,13 @@
     "league": "Soccer",
     "obvious": false,
     "early": false,
-    "entity": "Xavi Alonso",
-    "why_now": "Soccer manager trending #21; likely Bayer Leverkusen or Real Madrid coaching news or match result.",
-    "angle": "Tie to specific tactical decision, player management, or transfer speculation.",
+    "entity": "Alonso",
+    "why_now": "Soccer player or coach; likely recent match or transfer news.",
+    "angle": "Identify specific European league match moment or transfer rumor.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-11-21T19:58:39Z"
+   "enriched_at": "2026-11-27T21:50:42Z"
   },
   "ty jackson": {
    "first_seen": "2026-11-21T19:58:39Z",
@@ -4932,7 +3745,7 @@
   },
   "iowa": {
    "first_seen": "2026-11-22T01:56:56Z",
-   "last_seen": "2026-11-25T01:16:30Z",
+   "last_seen": "2026-11-27T21:50:42Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -4940,16 +3753,16 @@
    "enrichment": {
     "key": "iowa",
     "sports": true,
-    "league": "College Basketball",
+    "league": "College Football",
     "obvious": false,
-    "early": true,
+    "early": false,
     "entity": "Iowa Hawkeyes",
-    "why_now": "Ranked #2 trending; jumped from rank 9 to 2, suggesting a specific game moment or player story driving momentum.",
-    "angle": "Early signal on college hoops—identify the viral clip or stat anomaly before national media saturation.",
+    "why_now": "Co-trending with Hawkeyes, Go Hawks, Toledo; likely bowl-game or rivalry matchup context.",
+    "angle": "Monitor for bowl-game announcement, playoff seeding, or rivalry-week storyline.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-11-25T01:16:30Z"
+   "enriched_at": "2026-11-27T21:50:42Z"
   },
   "madden iamaleava": {
    "first_seen": "2026-11-22T01:56:56Z",
@@ -5352,7 +4165,7 @@
   },
   "ashton daniels": {
    "first_seen": "2026-11-22T01:56:56Z",
-   "last_seen": "2026-11-22T01:56:56Z",
+   "last_seen": "2026-11-27T21:50:42Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -5364,12 +4177,12 @@
     "obvious": false,
     "early": false,
     "entity": "Ashton Daniels",
-    "why_now": "Player spiking from rank 9 to 33; likely strong performance, injury, or transfer news.",
-    "angle": "Identify the specific player and moment; college football player breakouts drive engagement.",
+    "why_now": "College QB; likely bowl-game or season-end performance.",
+    "angle": "Identify specific college football QB performance or bowl-game storyline.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-11-22T01:56:56Z"
+   "enriched_at": "2026-11-27T21:50:42Z"
   },
   "whittingham": {
    "first_seen": "2026-11-22T01:56:56Z",
@@ -6666,7 +5479,7 @@
   },
   "utsa": {
    "first_seen": "2026-11-22T10:52:07Z",
-   "last_seen": "2026-11-22T10:52:07Z",
+   "last_seen": "2026-11-27T21:50:42Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -6678,12 +5491,12 @@
     "obvious": false,
     "early": false,
     "entity": "UTSA Roadrunners",
-    "why_now": "Trending alongside college football teams (Boise State, Utes, Oklahoma State, SDSU, Arizona State, Utah State, Texas State); likely game or playoff storyline.",
-    "angle": "Identify specific UTSA game result, player performance, or playoff implication driving conversation; tie to broader college football narrative.",
+    "why_now": "College football team; likely bowl-game or season-end news.",
+    "angle": "Identify specific college football bowl-game or season-end storyline.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-11-22T10:52:07Z"
+   "enriched_at": "2026-11-27T21:50:42Z"
   },
   "mikal": {
    "first_seen": "2026-11-22T10:52:07Z",
@@ -7244,7 +6057,7 @@
   },
   "herewego": {
    "first_seen": "2026-11-22T20:11:27Z",
-   "last_seen": "2026-11-25T22:11:33Z",
+   "last_seen": "2026-11-27T21:50:42Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -7255,13 +6068,13 @@
     "league": "NFL",
     "obvious": false,
     "early": false,
-    "entity": "Packers/NFL Thanksgiving",
-    "why_now": "#HereWeGo hashtag co-trending with Packers, Steelers, Rodgers, #GoPackGo; Packers fan rallying cry for Thanksgiving game.",
-    "angle": "Tap into Packers fan culture and Thanksgiving game hype; use hashtag for fan engagement content.",
-    "duplicate_of": "packers",
-    "market_id": "6710260"
+    "entity": "Broncos-Steelers Game",
+    "why_now": "#HereWeGo is Broncos fan rallying cry; co-trending with DENvsPIT, Broncos, Steelers.",
+    "angle": "Fan engagement moment; use for real-time social listening during game broadcast.",
+    "duplicate_of": null,
+    "market_id": "6783355"
    },
-   "enriched_at": "2026-11-25T22:11:33Z"
+   "enriched_at": "2026-11-27T21:50:42Z"
   },
   "dabears": {
    "first_seen": "2026-11-22T20:11:27Z",
@@ -8291,7 +7104,7 @@
   },
   "broncos": {
    "first_seen": "2026-11-23T02:22:09Z",
-   "last_seen": "2026-11-23T02:22:09Z",
+   "last_seen": "2026-11-27T21:50:42Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -8303,12 +7116,12 @@
     "obvious": true,
     "early": false,
     "entity": "Denver Broncos",
-    "why_now": "Team name in co-trending list; game or roster news but no specific viral moment identified.",
-    "angle": "Check for Bo Nix performance, coaching decisions, or playoff implications.",
+    "why_now": "Team name trending on game day; no specific storyline beyond scheduled event.",
+    "angle": "Suppress: generic team-on-game-day trend. Only elevate if specific controversy, injury, or viral moment emerges.",
     "duplicate_of": null,
-    "market_id": null
+    "market_id": "6783355"
    },
-   "enriched_at": "2026-11-23T02:22:09Z"
+   "enriched_at": "2026-11-27T21:50:42Z"
   },
   "aaron jones": {
    "first_seen": "2026-11-23T02:22:09Z",
@@ -8648,7 +7461,7 @@
   },
   "bo nix": {
    "first_seen": "2026-11-23T02:22:09Z",
-   "last_seen": "2026-11-23T02:22:09Z",
+   "last_seen": "2026-11-27T21:50:42Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -8660,12 +7473,12 @@
     "obvious": false,
     "early": false,
     "entity": "Bo Nix",
-    "why_now": "Broncos QB spiking; likely a game performance, stat line, or rookie milestone.",
-    "angle": "Capture game clips and post-game interviews; tie to Broncos' season narrative.",
+    "why_now": "Broncos QB trending ahead of Broncos-Steelers game; likely performance-related storyline or stat milestone.",
+    "angle": "Capture real-time QB narrative during prime-time matchup; tie to rookie season arc or clutch moments.",
     "duplicate_of": null,
-    "market_id": null
+    "market_id": "6783355"
    },
-   "enriched_at": "2026-11-23T02:22:09Z"
+   "enriched_at": "2026-11-27T21:50:42Z"
   },
   "the nfl": {
    "first_seen": "2026-11-23T02:22:09Z",
@@ -13243,7 +12056,7 @@
   },
   "mason rudolph": {
    "first_seen": "2026-11-25T12:16:51Z",
-   "last_seen": "2026-11-25T22:11:33Z",
+   "last_seen": "2026-11-27T21:50:42Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -13255,12 +12068,12 @@
     "obvious": false,
     "early": false,
     "entity": "Mason Rudolph",
-    "why_now": "Spiking from rank 41 to 46 (slight drop); Steelers QB co-trending with Steelers, Packers, Thanksgiving game.",
-    "angle": "Capture Rudolph's performance or viral moment from Thanksgiving game; tie to Steelers QB narrative.",
+    "why_now": "Steelers backup QB co-trending with Steelers, Broncos game; likely injury update or starting role speculation.",
+    "angle": "Monitor for injury news on starter or backup QB role change ahead of Broncos matchup.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-11-25T22:11:33Z"
+   "enriched_at": "2026-11-27T21:50:42Z"
   },
   "howard": {
    "first_seen": "2026-11-25T12:16:51Z",
@@ -17283,7 +16096,7 @@
   },
   "black friday": {
    "first_seen": "2026-11-27T11:52:18Z",
-   "last_seen": "2026-11-27T11:52:18Z",
+   "last_seen": "2026-11-27T21:50:42Z",
    "sources_seen": [
     "trends24",
     "x"
@@ -17295,12 +16108,12 @@
     "obvious": true,
     "early": false,
     "entity": "Black Friday",
-    "why_now": "Calendar event (day after Thanksgiving); no sports angle.",
-    "angle": "Not a sports trend; suppress as seasonal retail noise.",
+    "why_now": "Calendar event; no sports connection.",
+    "angle": "Non-sports retail trend; out of scope.",
     "duplicate_of": null,
     "market_id": null
    },
-   "enriched_at": "2026-11-27T11:52:18Z"
+   "enriched_at": "2026-11-27T21:50:42Z"
   },
   "evafarmsight": {
    "first_seen": "2026-11-27T11:52:18Z",
@@ -18363,6 +17176,1004 @@
     "market_id": null
    },
    "enriched_at": "2026-11-27T11:52:18Z"
+  },
+  "fofana": {
+   "first_seen": "2026-11-27T21:50:42Z",
+   "last_seen": "2026-11-27T21:50:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "fofana",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": false,
+    "entity": "Fofana",
+    "why_now": "Soccer player spiking from rank 30 to 7; likely transfer news, injury, or match performance.",
+    "angle": "Identify specific match moment or transfer rumor; likely European league player.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-27T21:50:42Z"
+  },
+  "denvspit": {
+   "first_seen": "2026-11-27T21:50:42Z",
+   "last_seen": "2026-11-27T21:50:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "denvspit",
+    "sports": true,
+    "league": "NFL",
+    "obvious": true,
+    "early": false,
+    "entity": "Broncos vs. Steelers",
+    "why_now": "Game hashtag; no specific storyline beyond scheduled matchup.",
+    "angle": "Suppress: generic game-day hashtag. Only elevate if specific viral moment or controversy emerges.",
+    "duplicate_of": null,
+    "market_id": "6783355"
+   },
+   "enriched_at": "2026-11-27T21:50:42Z"
+  },
+  "rhule": {
+   "first_seen": "2026-11-27T21:50:42Z",
+   "last_seen": "2026-11-27T21:50:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "rhule",
+    "sports": true,
+    "league": "College Football",
+    "obvious": false,
+    "early": false,
+    "entity": "Matt Rhule",
+    "why_now": "Nebraska coach co-trending with Nebraska, Huskers; likely bowl-game or season-end narrative.",
+    "angle": "Capture Rhule coaching performance or Nebraska bowl-game storyline.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-27T21:50:42Z"
+  },
+  "jalen ramsey": {
+   "first_seen": "2026-11-27T21:50:42Z",
+   "last_seen": "2026-11-27T21:50:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "jalen ramsey",
+    "sports": true,
+    "league": "NFL",
+    "obvious": false,
+    "early": false,
+    "entity": "Jalen Ramsey",
+    "why_now": "Broncos CB co-trending with Broncos, Steelers game; likely injury, performance, or matchup storyline.",
+    "angle": "Monitor for injury status or defensive matchup narrative ahead of Broncos-Steelers game.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-27T21:50:42Z"
+  },
+  "michkov": {
+   "first_seen": "2026-11-27T21:50:42Z",
+   "last_seen": "2026-11-27T21:50:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "michkov",
+    "sports": true,
+    "league": "NHL",
+    "obvious": false,
+    "early": false,
+    "entity": "Matvei Michkov",
+    "why_now": "NHL player spiking from rank 6 to 13; likely trade rumor, injury, or recent performance.",
+    "angle": "Identify specific NHL trade news or player performance moment.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-27T21:50:42Z"
+  },
+  "andrea stewart": {
+   "first_seen": "2026-11-27T21:50:42Z",
+   "last_seen": "2026-11-27T21:50:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "andrea stewart",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": false,
+    "early": false,
+    "entity": "Andrea Stewart",
+    "why_now": "Spiking from rank 8 to 14; likely athlete or sports personality; driver unclear without sample tweets.",
+    "angle": "Verify sports connection and identify specific moment; may be athlete, coach, or media personality.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-27T21:50:42Z"
+  },
+  "tupac": {
+   "first_seen": "2026-11-27T21:50:42Z",
+   "last_seen": "2026-11-27T21:50:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "tupac",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Tupac",
+    "why_now": "Spiking alongside 2pac, Biggie, Angie Martinez; music/hip-hop nostalgia or documentary release.",
+    "angle": "Non-sports cultural trend; out of scope unless tied to athlete or sports personality.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-27T21:50:42Z"
+  },
+  "hank brown": {
+   "first_seen": "2026-11-27T21:50:42Z",
+   "last_seen": "2026-11-27T21:50:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "hank brown",
+    "sports": true,
+    "league": "College Football",
+    "obvious": false,
+    "early": false,
+    "entity": "Hank Brown",
+    "why_now": "Spiking from rank 5 to 16; likely college football coach or administrator; context unclear.",
+    "angle": "Verify identity and identify specific college football moment or coaching news.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-27T21:50:42Z"
+  },
+  "singleton": {
+   "first_seen": "2026-11-27T21:50:42Z",
+   "last_seen": "2026-11-27T21:50:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "singleton",
+    "sports": true,
+    "league": "NFL",
+    "obvious": false,
+    "early": false,
+    "entity": "Singleton",
+    "why_now": "NFL player co-trending with Broncos, Steelers; likely injury, trade, or performance storyline.",
+    "angle": "Identify specific Broncos or Steelers roster move or injury update.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-27T21:50:42Z"
+  },
+  "surtain": {
+   "first_seen": "2026-11-27T21:50:42Z",
+   "last_seen": "2026-11-27T21:50:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "surtain",
+    "sports": true,
+    "league": "NFL",
+    "obvious": false,
+    "early": false,
+    "entity": "Pat Surtain II",
+    "why_now": "Broncos CB co-trending with Broncos, Steelers game; likely injury or matchup storyline.",
+    "angle": "Monitor for injury status or defensive performance narrative ahead of Broncos-Steelers game.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-27T21:50:42Z"
+  },
+  "welbeck": {
+   "first_seen": "2026-11-27T21:50:42Z",
+   "last_seen": "2026-11-27T21:50:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "welbeck",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": false,
+    "entity": "Danny Welbeck",
+    "why_now": "Soccer player; likely recent match performance or transfer news.",
+    "angle": "Identify specific Premier League or European league match moment.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-27T21:50:42Z"
+  },
+  "tj watt": {
+   "first_seen": "2026-11-27T21:50:42Z",
+   "last_seen": "2026-11-27T21:50:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "tj watt",
+    "sports": true,
+    "league": "NFL",
+    "obvious": false,
+    "early": false,
+    "entity": "T.J. Watt",
+    "why_now": "Steelers EDGE co-trending with Steelers, Broncos game; likely injury, sack, or matchup storyline.",
+    "angle": "Monitor for injury status or defensive performance narrative ahead of Broncos-Steelers game.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-27T21:50:42Z"
+  },
+  "daniel hughes": {
+   "first_seen": "2026-11-27T21:50:42Z",
+   "last_seen": "2026-11-27T21:50:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "daniel hughes",
+    "sports": true,
+    "league": "NHL",
+    "obvious": false,
+    "early": false,
+    "entity": "Daniel Hughes",
+    "why_now": "NHL player; likely recent trade, injury, or performance moment.",
+    "angle": "Identify specific NHL trade or player performance storyline.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-27T21:50:42Z"
+  },
+  "nick herbig": {
+   "first_seen": "2026-11-27T21:50:42Z",
+   "last_seen": "2026-11-27T21:50:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "nick herbig",
+    "sports": true,
+    "league": "NFL",
+    "obvious": false,
+    "early": false,
+    "entity": "Nick Herbig",
+    "why_now": "Steelers EDGE co-trending with Steelers, Broncos game; likely injury or matchup storyline.",
+    "angle": "Monitor for injury status or defensive performance narrative ahead of Broncos-Steelers game.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-27T21:50:42Z"
+  },
+  "al michaels": {
+   "first_seen": "2026-11-27T21:50:42Z",
+   "last_seen": "2026-11-27T21:50:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "al michaels",
+    "sports": true,
+    "league": "NFL",
+    "obvious": false,
+    "early": false,
+    "entity": "Al Michaels",
+    "why_now": "Broadcaster spiking from rank 48 to 23; likely calling Broncos-Steelers game or recent commentary.",
+    "angle": "Capture broadcaster moment or viral commentary from prime-time game.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-27T21:50:42Z"
+  },
+  "tocchet": {
+   "first_seen": "2026-11-27T21:50:42Z",
+   "last_seen": "2026-11-27T21:50:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "tocchet",
+    "sports": true,
+    "league": "NHL",
+    "obvious": false,
+    "early": false,
+    "entity": "John Tocchet",
+    "why_now": "NHL coach spiking from rank 14 to 25; likely coaching news or team performance.",
+    "angle": "Identify specific NHL coaching moment or team storyline.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-27T21:50:42Z"
+  },
+  "sean payton": {
+   "first_seen": "2026-11-27T21:50:42Z",
+   "last_seen": "2026-11-27T21:50:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "sean payton",
+    "sports": true,
+    "league": "NFL",
+    "obvious": false,
+    "early": false,
+    "entity": "Sean Payton",
+    "why_now": "Broncos head coach co-trending with Broncos, Steelers game; likely pre-game commentary or coaching storyline.",
+    "angle": "Capture Payton coaching narrative or pre-game strategy discussion.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-27T21:50:42Z"
+  },
+  "2pac": {
+   "first_seen": "2026-11-27T21:50:42Z",
+   "last_seen": "2026-11-27T21:50:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "2pac",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "2Pac",
+    "why_now": "Music/hip-hop nostalgia co-trending with Tupac, Biggie, Angie Martinez.",
+    "angle": "Non-sports cultural trend; out of scope.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-27T21:50:42Z"
+  },
+  "angie martinez": {
+   "first_seen": "2026-11-27T21:50:42Z",
+   "last_seen": "2026-11-27T21:50:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "angie martinez",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Angie Martinez",
+    "why_now": "Radio personality co-trending with Tupac, 2pac, Biggie; likely hip-hop nostalgia or podcast episode.",
+    "angle": "Non-sports cultural trend; out of scope unless tied to athlete interview.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-27T21:50:42Z"
+  },
+  "hawkeyes": {
+   "first_seen": "2026-11-27T21:50:42Z",
+   "last_seen": "2026-11-27T21:50:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "hawkeyes",
+    "sports": true,
+    "league": "College Football",
+    "obvious": false,
+    "early": false,
+    "entity": "Iowa Hawkeyes",
+    "why_now": "Co-trending with Iowa, Go Hawks, Toledo; likely bowl-game or rivalry matchup.",
+    "angle": "Capture Iowa bowl-game announcement or rivalry-week narrative.",
+    "duplicate_of": "iowa",
+    "market_id": null
+   },
+   "enriched_at": "2026-11-27T21:50:42Z"
+  },
+  "toledo": {
+   "first_seen": "2026-11-27T21:50:42Z",
+   "last_seen": "2026-11-27T21:50:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "toledo",
+    "sports": true,
+    "league": "College Football",
+    "obvious": false,
+    "early": false,
+    "entity": "Toledo Rockets",
+    "why_now": "Co-trending with Iowa, Hawkeyes, Go Hawks; likely bowl-game matchup between Iowa and Toledo.",
+    "angle": "Capture bowl-game announcement or matchup narrative.",
+    "duplicate_of": "iowa",
+    "market_id": null
+   },
+   "enriched_at": "2026-11-27T21:50:42Z"
+  },
+  "colandrea": {
+   "first_seen": "2026-11-27T21:50:42Z",
+   "last_seen": "2026-11-27T21:50:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "colandrea",
+    "sports": true,
+    "league": "College Football",
+    "obvious": false,
+    "early": false,
+    "entity": "Brennan Colandrea",
+    "why_now": "College QB spiking from rank 13 to 31; likely bowl-game or season-end performance.",
+    "angle": "Identify specific college football QB performance or bowl-game storyline.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-27T21:50:42Z"
+  },
+  "lebby": {
+   "first_seen": "2026-11-27T21:50:42Z",
+   "last_seen": "2026-11-27T21:50:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "lebby",
+    "sports": true,
+    "league": "College Football",
+    "obvious": false,
+    "early": false,
+    "entity": "Lebby",
+    "why_now": "College football coach; likely coaching news or bowl-game preparation.",
+    "angle": "Identify specific college football coaching moment or bowl-game storyline.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-27T21:50:42Z"
+  },
+  "egg bowl": {
+   "first_seen": "2026-11-27T21:50:42Z",
+   "last_seen": "2026-11-27T21:50:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "egg bowl",
+    "sports": true,
+    "league": "College Football",
+    "obvious": false,
+    "early": false,
+    "entity": "Egg Bowl",
+    "why_now": "Mississippi-Mississippi State rivalry spiking from rank 23 to 34; likely game result or rivalry moment.",
+    "angle": "Capture Egg Bowl rivalry moment or game result narrative.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-27T21:50:42Z"
+  },
+  "baugh": {
+   "first_seen": "2026-11-27T21:50:42Z",
+   "last_seen": "2026-11-27T21:50:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "baugh",
+    "sports": true,
+    "league": "College Football",
+    "obvious": false,
+    "early": false,
+    "entity": "Jadan Baugh",
+    "why_now": "Florida RB; Google trend shows Baugh TD in Florida-FSU game; likely bowl-game or rivalry performance.",
+    "angle": "Capture Florida bowl-game or rivalry-week performance narrative.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-27T21:50:42Z"
+  },
+  "henry davis": {
+   "first_seen": "2026-11-27T21:50:42Z",
+   "last_seen": "2026-11-27T21:50:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "henry davis",
+    "sports": true,
+    "league": "MLB",
+    "obvious": false,
+    "early": false,
+    "entity": "Henry Davis",
+    "why_now": "MLB player spiking from rank 15 to 36; likely trade, free-agency, or off-season news.",
+    "angle": "Identify specific MLB off-season or trade storyline.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-27T21:50:42Z"
+  },
+  "emegha": {
+   "first_seen": "2026-11-27T21:50:42Z",
+   "last_seen": "2026-11-27T21:50:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "emegha",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": false,
+    "entity": "Emmanuel Emegha",
+    "why_now": "Chelsea player; Google trend shows theft incident after Premier League debut; likely crime/personal drama.",
+    "angle": "Capture athlete personal-drama or crime storyline; sports-adjacent culture moment.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-27T21:50:42Z"
+  },
+  "caicedo": {
+   "first_seen": "2026-11-27T21:50:42Z",
+   "last_seen": "2026-11-27T21:50:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "caicedo",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": false,
+    "entity": "Caicedo",
+    "why_now": "Soccer player spiking from rank 21 to 38; likely transfer, injury, or match performance.",
+    "angle": "Identify specific European league match moment or transfer rumor.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-27T21:50:42Z"
+  },
+  "tawa": {
+   "first_seen": "2026-11-27T21:50:42Z",
+   "last_seen": "2026-11-27T21:50:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "tawa",
+    "sports": true,
+    "league": "College Football",
+    "obvious": false,
+    "early": false,
+    "entity": "Tawa",
+    "why_now": "College football player; likely bowl-game or season-end performance.",
+    "angle": "Identify specific college football player performance or bowl-game storyline.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-27T21:50:42Z"
+  },
+  "henderson": {
+   "first_seen": "2026-11-27T21:50:42Z",
+   "last_seen": "2026-11-27T21:50:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "henderson",
+    "sports": true,
+    "league": "NFL",
+    "obvious": false,
+    "early": false,
+    "entity": "Henderson",
+    "why_now": "NFL player; likely injury, trade, or performance storyline.",
+    "angle": "Identify specific NFL roster move or injury update.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-27T21:50:42Z"
+  },
+  "jack hughes": {
+   "first_seen": "2026-11-27T21:50:42Z",
+   "last_seen": "2026-11-27T21:50:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "jack hughes",
+    "sports": true,
+    "league": "NHL",
+    "obvious": false,
+    "early": false,
+    "entity": "Jack Hughes",
+    "why_now": "NJ Devils captain spiking from rank 24 to 42; likely recent performance or team news.",
+    "angle": "Identify specific NHL team or player performance moment.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-27T21:50:42Z"
+  },
+  "nfoche": {
+   "first_seen": "2026-11-27T21:50:42Z",
+   "last_seen": "2026-11-27T21:50:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "nfoche",
+    "sports": true,
+    "league": "NHL",
+    "obvious": false,
+    "early": false,
+    "entity": "NJ Devils",
+    "why_now": "#NFOCHE is Devils fan hashtag; likely team performance or game result.",
+    "angle": "Capture Devils fan engagement or team performance moment.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-27T21:50:42Z"
+  },
+  "jazz chisholm": {
+   "first_seen": "2026-11-27T21:50:42Z",
+   "last_seen": "2026-11-27T21:50:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "jazz chisholm",
+    "sports": true,
+    "league": "MLB",
+    "obvious": false,
+    "early": false,
+    "entity": "Jazz Chisholm Jr.",
+    "why_now": "MLB player; likely off-season trade, free-agency, or recent news.",
+    "angle": "Identify specific MLB off-season or trade storyline.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-27T21:50:42Z"
+  },
+  "go hawks": {
+   "first_seen": "2026-11-27T21:50:42Z",
+   "last_seen": "2026-11-27T21:50:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "go hawks",
+    "sports": true,
+    "league": "College Football",
+    "obvious": false,
+    "early": false,
+    "entity": "Iowa Hawkeyes",
+    "why_now": "Co-trending with Iowa, Hawkeyes, Toledo; likely bowl-game or rivalry matchup.",
+    "angle": "Capture Iowa bowl-game or rivalry-week narrative.",
+    "duplicate_of": "iowa",
+    "market_id": null
+   },
+   "enriched_at": "2026-11-27T21:50:42Z"
+  },
+  "joe moorhead": {
+   "first_seen": "2026-11-27T21:50:42Z",
+   "last_seen": "2026-11-27T21:50:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "joe moorhead",
+    "sports": true,
+    "league": "College Football",
+    "obvious": false,
+    "early": false,
+    "entity": "Joe Moorhead",
+    "why_now": "College football coach; likely coaching news or bowl-game preparation.",
+    "angle": "Identify specific college football coaching moment or bowl-game storyline.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-27T21:50:42Z"
+  },
+  "biggie": {
+   "first_seen": "2026-11-27T21:50:42Z",
+   "last_seen": "2026-11-27T21:50:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "biggie",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Biggie",
+    "why_now": "Music/hip-hop nostalgia co-trending with Tupac, 2pac, Angie Martinez.",
+    "angle": "Non-sports cultural trend; out of scope.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-27T21:50:42Z"
+  },
+  "mcglinchey": {
+   "first_seen": "2026-11-27T21:50:42Z",
+   "last_seen": "2026-11-27T21:50:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "mcglinchey",
+    "sports": true,
+    "league": "NFL",
+    "obvious": false,
+    "early": false,
+    "entity": "McGlinchey",
+    "why_now": "NFL player; likely injury, trade, or performance storyline.",
+    "angle": "Identify specific NFL roster move or injury update.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-27T21:50:42Z"
+  },
+  "njdevils": {
+   "first_seen": "2026-11-27T21:50:42Z",
+   "last_seen": "2026-11-27T21:50:42Z",
+   "sources_seen": [
+    "trends24",
+    "x"
+   ],
+   "enrichment": {
+    "key": "njdevils",
+    "sports": true,
+    "league": "NHL",
+    "obvious": false,
+    "early": false,
+    "entity": "NJ Devils",
+    "why_now": "#NJDevils is team hashtag; likely team performance or game result.",
+    "angle": "Capture Devils fan engagement or team performance moment.",
+    "duplicate_of": "nfoche",
+    "market_id": null
+   },
+   "enriched_at": "2026-11-27T21:50:42Z"
+  },
+  "thanksgiving food poisoning florida": {
+   "first_seen": "2026-11-27T21:50:42Z",
+   "last_seen": "2026-11-27T21:50:42Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "thanksgiving food poisoning florida",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Thanksgiving Food Poisoning Incident",
+    "why_now": "Public health incident in Florida; no sports connection.",
+    "angle": "Non-sports news; out of scope.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-27T21:50:42Z"
+  },
+  "michael pittman": {
+   "first_seen": "2026-11-27T21:50:42Z",
+   "last_seen": "2026-11-27T21:50:42Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "michael pittman",
+    "sports": true,
+    "league": "NFL",
+    "obvious": false,
+    "early": false,
+    "entity": "Michael Pittman Jr.",
+    "why_now": "Steelers WR activated off IR ahead of Broncos game; roster move and injury update.",
+    "angle": "Capture Steelers roster move and injury-return narrative ahead of Broncos matchup.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-27T21:50:42Z"
+  },
+  "jumanji open world": {
+   "first_seen": "2026-11-27T21:50:42Z",
+   "last_seen": "2026-11-27T21:50:42Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "jumanji open world",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Jumanji: Open World",
+    "why_now": "Movie release; no sports connection.",
+    "angle": "Non-sports entertainment; out of scope.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-27T21:50:42Z"
+  },
+  "emmanuel emegha": {
+   "first_seen": "2026-11-27T21:50:42Z",
+   "last_seen": "2026-11-27T21:50:42Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "emmanuel emegha",
+    "sports": true,
+    "league": "Soccer",
+    "obvious": false,
+    "early": true,
+    "entity": "Emmanuel Emegha",
+    "why_now": "Chelsea player theft incident after Premier League debut; emerging personal-drama storyline.",
+    "angle": "Early-stage athlete personal-drama story; monitor for follow-up coverage and social sentiment.",
+    "duplicate_of": "emegha",
+    "market_id": null
+   },
+   "enriched_at": "2026-11-27T21:50:42Z"
+  },
+  "kona takahashi": {
+   "first_seen": "2026-11-27T21:50:42Z",
+   "last_seen": "2026-11-27T21:50:42Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "kona takahashi",
+    "sports": true,
+    "league": "MLB",
+    "obvious": false,
+    "early": true,
+    "entity": "Kona Takahashi",
+    "why_now": "Japanese pitcher signed by Diamondbacks; early off-season transfer news.",
+    "angle": "Early-stage international player signing; capture before mainstream saturation.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-27T21:50:42Z"
+  },
+  "kristen bell": {
+   "first_seen": "2026-11-27T21:50:42Z",
+   "last_seen": "2026-11-27T21:50:42Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "kristen bell",
+    "sports": false,
+    "league": null,
+    "obvious": false,
+    "early": false,
+    "entity": "Kristen Bell",
+    "why_now": "Celebrity marriage controversy; no sports connection.",
+    "angle": "Non-sports celebrity news; out of scope.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-27T21:50:42Z"
+  },
+  "ar pine bluff vs missouri": {
+   "first_seen": "2026-11-27T21:50:42Z",
+   "last_seen": "2026-11-27T21:50:42Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "ar pine bluff vs missouri",
+    "sports": true,
+    "league": "College Basketball",
+    "obvious": true,
+    "early": false,
+    "entity": "Arkansas-Pine Bluff vs. Missouri",
+    "why_now": "Pre-game matchup; no specific storyline beyond scheduled event.",
+    "angle": "Suppress: generic pre-game trend. Only elevate if specific viral moment or controversy emerges.",
+    "duplicate_of": null,
+    "market_id": "7006465"
+   },
+   "enriched_at": "2026-11-27T21:50:42Z"
+  },
+  "jadan baugh": {
+   "first_seen": "2026-11-27T21:50:42Z",
+   "last_seen": "2026-11-27T21:50:42Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "jadan baugh",
+    "sports": true,
+    "league": "College Football",
+    "obvious": false,
+    "early": false,
+    "entity": "Jadan Baugh",
+    "why_now": "Florida RB scoring TD in Florida-FSU game; likely bowl-game or rivalry performance.",
+    "angle": "Capture Florida bowl-game or rivalry-week performance narrative.",
+    "duplicate_of": "baugh",
+    "market_id": null
+   },
+   "enriched_at": "2026-11-27T21:50:42Z"
+  },
+  "ohio college football standings": {
+   "first_seen": "2026-11-27T21:50:42Z",
+   "last_seen": "2026-11-27T21:50:42Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "ohio college football standings",
+    "sports": true,
+    "league": "College Football",
+    "obvious": false,
+    "early": false,
+    "entity": "Ohio State Football",
+    "why_now": "Ohio State ranked No. 1 in controversial poll; playoff seeding and ranking controversy.",
+    "angle": "Capture playoff seeding controversy and ranking debate narrative.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-27T21:50:42Z"
+  },
+  "tim tebow": {
+   "first_seen": "2026-11-27T21:50:42Z",
+   "last_seen": "2026-11-27T21:50:42Z",
+   "sources_seen": [
+    "google"
+   ],
+   "enrichment": {
+    "key": "tim tebow",
+    "sports": true,
+    "league": "Other Sports",
+    "obvious": false,
+    "early": false,
+    "entity": "Tim Tebow",
+    "why_now": "Former NFL QB involved in Christian wealth seminar controversy; athlete personal drama.",
+    "angle": "Capture athlete personal-drama and business-controversy storyline.",
+    "duplicate_of": null,
+    "market_id": null
+   },
+   "enriched_at": "2026-11-27T21:50:42Z"
   }
  },
  "x_usage": {
@@ -18376,78 +18187,58 @@
   "2026-11-27": 0
  },
  "prev_x_trends": [
-  "#PercyJackson",
-  "Bianca",
-  "Chiefs",
+  "Bo Nix",
+  "Broncos",
   "Black Friday",
-  "EvaFarmSight",
-  "Bills",
-  "Cowboys",
-  "Josh Allen",
-  "Butker",
-  "akilah",
-  "RED Friday",
-  "Aphrodite",
-  "Tyler Bass",
-  "Mahomes",
-  "Jerry",
-  "#ImThankfulForYou",
-  "Brady",
-  "Goo Goo Dolls",
-  "CLARISSE",
-  "Toub",
-  "Milton",
-  "Rice",
-  "Andy Reid",
-  "Kelce",
-  "#KCvsBUF",
-  "Mizi",
-  "The NFL",
-  "Diomande",
-  "Moka",
-  "Louisville",
-  "St. John",
-  "Molly Santana",
-  "Schotty",
-  "James Cook",
-  "Hurts",
-  "Conquered",
-  "Shakir",
-  "#NFLThanksgiving",
-  "$GOAI",
-  "Spags",
-  "Iris",
-  "Gonzaga",
-  "Justin Tucker",
-  "Kingsley",
-  "Brian Schottenheimer",
-  "Pat Kelsey",
-  "Collinsworth",
-  "Special Teams",
-  "2 INTs",
-  "Bradshaw"
+  "Iowa",
+  "Steelers",
+  "Nebraska",
+  "Fofana",
+  "Mason Rudolph",
+  "#HereWeGo",
+  "#DENvsPIT",
+  "Rhule",
+  "Jalen Ramsey",
+  "Michkov",
+  "Andrea Stewart",
+  "Tupac",
+  "Hank Brown",
+  "Singleton",
+  "Surtain",
+  "Welbeck",
+  "TJ Watt",
+  "Daniel Hughes",
+  "Nick Herbig",
+  "Al Michaels",
+  "Alonso",
+  "Tocchet",
+  "Sean Payton",
+  "2pac",
+  "Angie Martinez",
+  "Hawkeyes",
+  "Toledo",
+  "Colandrea",
+  "Ashton Daniels",
+  "Lebby",
+  "Egg Bowl",
+  "Baugh",
+  "Henry Davis",
+  "Emegha",
+  "Caicedo",
+  "#Huskers",
+  "Tawa",
+  "Henderson",
+  "Jack Hughes",
+  "#NFOCHE",
+  "Jazz Chisholm",
+  "Go Hawks",
+  "UTSA",
+  "Joe Moorhead",
+  "Biggie",
+  "McGlinchey",
+  "#NJDevils"
  ],
  "suppressed": [
-  {
-   "key": "swac tv",
-   "reason": "Scheduled game broadcast; no specific storyline identified.",
-   "at": "2026-11-13T20:22:37Z"
-  },
-  {
-   "key": "chiefs depth chart",
-   "reason": "Depth chart query; no specific injury, trade, or storyline identified.",
-   "at": "2026-11-13T20:22:37Z"
-  },
-  {
-   "key": "smackdown",
-   "reason": "Scheduled WWE broadcast; no specific viral moment identified in co-trending data.",
-   "at": "2026-11-14T02:01:25Z"
-  },
-  {
-   "key": "northern arizona",
-   "reason": "Opponent in Kentucky vs. Northern Arizona game; pre-game coverage.",
-   "at": "2026-11-14T02:01:25Z"
-  },
   {
    "key": "pacers",
    "reason": "NBA team name trending; likely a scheduled game or routine result without specific narrative.",
@@ -19427,6 +19218,26 @@
    "key": "nflthanksgiving",
    "reason": "Thanksgiving NFL games hashtag; calendar-driven event.",
    "at": "2026-11-27T11:52:18Z"
+  },
+  {
+   "key": "broncos",
+   "reason": "Team name trending on game day; no specific storyline beyond scheduled event.",
+   "at": "2026-11-27T21:50:42Z"
+  },
+  {
+   "key": "steelers",
+   "reason": "Team name trending on game day; no specific storyline beyond scheduled event.",
+   "at": "2026-11-27T21:50:42Z"
+  },
+  {
+   "key": "denvspit",
+   "reason": "Game hashtag; no specific storyline beyond scheduled matchup.",
+   "at": "2026-11-27T21:50:42Z"
+  },
+  {
+   "key": "ar pine bluff vs missouri",
+   "reason": "Pre-game matchup; no specific storyline beyond scheduled event.",
+   "at": "2026-11-27T21:50:42Z"
   }
  ],
  "slack_posted": {
